@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 探店调研报告 — 产业链、成本结构与实现路径</title>
+<style>
+  :root{
+    --bg:#ffffff; --panel:#f7f8fa; --line:#e3e6ea; --line2:#eef0f2;
+    --ink:#1a1d21; --ink2:#3d434c; --ink3:#6b7480;
+    --accent:#1f6feb; --accent-soft:#eaf2ff;
+    --warn:#b8501a; --warn-soft:#fdf1e8;
+    --ok:#0f7b54; --ok-soft:#e8f5ef;
+    --red:#c0392b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:920px;margin:0 auto;padding:56px 28px 96px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:22px;margin-bottom:38px}
+  h1{font-size:27px;line-height:1.35;margin:0 0 10px;letter-spacing:-.3px}
+  .sub{color:var(--ink3);font-size:13.5px}
+  h2{font-size:19px;margin:52px 0 16px;padding-left:11px;border-left:4px solid var(--accent);letter-spacing:-.2px}
+  h3{font-size:15.5px;margin:28px 0 10px;color:var(--ink)}
+  p{margin:0 0 13px}
+  ul,ol{margin:0 0 14px;padding-left:22px}
+  li{margin-bottom:7px}
+  .tldr{background:var(--accent-soft);border:1px solid #cfe0fb;border-radius:8px;padding:20px 22px;margin-bottom:8px}
+  .tldr h2{margin:0 0 10px;padding:0;border:none;font-size:16px}
+  .tldr ol{margin:0;padding-left:20px}
+  .tldr li{margin-bottom:9px}
+  table{width:100%;border-collapse:collapse;margin:14px 0 18px;font-size:13.5px}
+  th{background:var(--panel);text-align:left;padding:9px 11px;border:1px solid var(--line);font-weight:600;color:var(--ink2);white-space:nowrap}
+  td{padding:9px 11px;border:1px solid var(--line2);vertical-align:top}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  tr.hl td{background:var(--warn-soft);font-weight:600}
+  tr.ok td{background:var(--ok-soft)}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}
+  .card{border:1px solid var(--line);border-radius:8px;padding:15px 16px;background:var(--panel)}
+  .card .k{font-size:12px;color:var(--ink3);margin-bottom:5px}
+  .card .v{font-size:21px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.2}
+  .card .u{font-size:12px;color:var(--ink3);margin-top:4px}
+  .note{background:var(--panel);border-left:3px solid var(--ink3);padding:13px 16px;margin:16px 0;font-size:13.5px;color:var(--ink2)}
+  .warn{background:var(--warn-soft);border-left:3px solid var(--warn);padding:13px 16px;margin:16px 0;font-size:13.5px}
+  .warn b{color:var(--warn)}
+  .tag{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:4px;background:var(--panel);border:1px solid var(--line);color:var(--ink3);margin-right:6px}
+  .tag.v{background:#fdecea;border-color:#f5c6c0;color:var(--red)}
+  .tag.p{background:var(--ok-soft);border-color:#bfe3d2;color:var(--ok)}
+  .tag.g{background:var(--panel)}
+  code{background:var(--panel);padding:1px 6px;border-radius:4px;font-size:13px;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid #cfe0fb}
+  hr{border:none;border-top:1px solid var(--line2);margin:44px 0}
+  .src{font-size:13px;color:var(--ink3)}
+  .src li{margin-bottom:6px}
+  .flow{border:1px solid var(--line);border-radius:8px;padding:18px 20px;margin:18px 0;background:var(--panel);
+    font-size:13.5px;line-height:2}
+  .flow .step{display:flex;gap:12px;align-items:baseline}
+  .flow .n{flex:0 0 22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;
+    font-size:11.5px;display:inline-flex;align-items:center;justify-content:center;font-weight:600}
+  .foot{margin-top:56px;padding-top:18px;border-top:1px solid var(--line2);font-size:12.5px;color:var(--ink3)}
+  @media (max-width:720px){.grid{grid-template-columns:1fr}.wrap{padding:36px 18px 64px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>AI 探店调研报告</h1>
+  <div class="sub">产业链结构 · 成本拆解 · 技术实现路径 · 合规边界<br>
+  调研日期：2026-10-28 ｜ 触发源：《证券时报》2026-10-26 A2 版报道</div>
+</header>
+
+<div class="tldr">
+<h2>核心结论（先给答案）</h2>
+<ol>
+<li><b>那篇微信文是转载，不是原创。</b>原文为《证券时报》2026 年 10 月 26 日 A2 版《"探店"不"到店"！记者实测"AI探店"：花不到 10 元，视频出炉！有公司月流水达 800 万》。你给的链接是被几十个公众号二次分发的版本，信息量与原文完全一致——<b>原文刻意没有点名工具</b>，只描述为"一个 AI 视频生成工具的网页端入口"。</li>
+<li><b>价格不是"技术便宜"，是"封装加价"。</b>记者那条 12 秒 480P 视频花 9.6 元，折合 <b>0.8 元/秒</b>。而同期底层模型 API 的 720P 刊例价在 0.19–1.51 元/秒之间。也就是说：它<b>用 480P 的画质，收了 720P 里偏贵的那档钱</b>，加价率约 1.3–4 倍。便宜的是"省掉了人和设备"，不是"算力突然变廉价"。</li>
+<li><b>0.18 元教程是引流品，不是商品。</b>真实收费链条是「教程引流 → 积分充值（1 积分 = 1 元，最低 20 元）→ 299 元年度会员 → 持续算力消耗」。虚拟教程边际成本为零，所以能卖 0.1 元。</li>
+<li><b>"9.6 元"是最低配 + 一次成功的口径，不是交付成本。</b>480P 在 2026 年已低于抖音竖屏可用标准（1080×1920）。按 15 秒 1080P + 平均抽卡 3–4 次 + 配音剪辑计算，<b>一条真正可投放的成片实际成本约 20–60 元</b>，仍远低于真人探店的数千元——这才是这门生意成立的原因。</li>
+<li><b>"月流水 800 万"是流水口径，结构性成立但数字存疑。</b>按 300–800 元/条倒推，相当于每月 1 万–2.7 万条、即每天 330–890 条。这需要完整的矩阵账号 + 分发 + 投流体系，800 万很可能是"内容制作 + 代投放预算过账"的合计流水，而非纯制作收入。<span class="tag v">单一信源，无法二次核实</span></li>
+<li><b>「不标注直接发」这条路在 2026 年已经被堵死。</b>《人工智能生成合成内容标识办法》2025 年 9 月 1 日施行；2026 年 5 月中央网信办又推行 6 类必选标签，<b>发布短视频必须从含"含有 AI 生成内容"在内的 6 类中选一项才能发布</b>。合规做法只能用于"真实到店素材的增强"，不能用于虚构到店经历。</li>
+</ol>
+</div>
+
+<h2>一、事实核查：原文说了什么，没说什么</h2>
+
+<table>
+<tr><th style="width:130px">项目</th><th>内容</th></tr>
+<tr><td>原文出处</td><td>《证券时报》2026 年 10 月 26 日 A2 版，记者实测稿</td></tr>
+<tr><td>你给的链接</td><td>转载版本（数十个地方号 / 门户二次分发），内容与原文一致，无增量信息</td></tr>
+<tr><td>关键数字<br>（原文明确给出）</td><td>教程 0.18 元（行情 0.1–1 元）；1 积分 = 1 元、最低充值 20 元、299 元/年会员；4 张图 → 12 秒 480P → 9.6 积分；奶茶小吃 300–500 元/条、火锅烧烤美容 600–800 元/条；某类公司月流水 800 万</td></tr>
+<tr><td>原文<b>没有</b>说的</td><td>工具名称与域名、所用底层模型、单条视频的完整成本（含抽卡失败）、800 万的成本与利润拆分</td></tr>
+<tr><td>可核实性</td><td><span class="tag p">可核实</span>教程价格、报价区间、积分规则（记者自述实测）<br>
+<span class="tag v">不可核实</span>月流水 800 万（"业内人士透露"，单一匿名信源，无成本项）</td></tr>
+</table>
+
+<div class="note"><b>关于那个匿名工具：</b>原文描述的操作界面——「上传门店/商品图 + 上传模特图 + 填门店信息 + 选比例/时长/分辨率 + 一键成片」——是 2026 年一类<b>"聚合壳"产品</b>的标准形态，不是某个自研模型。这类产品的共同特征是：自己不训练视频模型，而是把可灵 / 即梦 Seedance / 海螺 / Vidu / 通义万相的 API 封装成垂直场景表单，再按场景定价。公开可查的同类产品有 引力AI（"图片探店"模式）、shumi.quantv.com 等，均支持"1–8 张门店图 + 模特图 + 6/10/15 秒 + 多比例"这一套参数。<b>报道中那款具体是哪一个，无法从公开信息确证</b>，但其成本结构可通过底层 API 价格反推。</div>
+
+<h2>二、价格是怎么实现的：三层变现结构</h2>
+
+<div class="grid">
+  <div class="card"><div class="k">第 1 层 · 引流</div><div class="v">0.18 元</div><div class="u">教程售价，边际成本≈0</div></div>
+  <div class="card"><div class="k">第 2 层 · 沉淀</div><div class="v">20–299 元</div><div class="u">积分最低充值 / 年度会员</div></div>
+  <div class="card"><div class="k">第 3 层 · 收割</div><div class="v">0.8 元/秒</div><div class="u">按次算力消耗，持续复购</div></div>
+</div>
+
+<p>这三层不是三个产品，是同一条漏斗。逻辑如下：</p>
+<ul>
+<li><b>教程卖 0.1–1 元</b>：闲鱼虚拟商品，一份文档复制无限次，成本为零。它唯一的用途是把用户导流到特定工具网址——教程里附的是<b>带渠道标识的入口</b>，卖家靠后续充值分佣赚钱。</li>
+<li><b>积分 1 积分 = 1 元</b>：这是关键设计。它把抽象的"算力"锚定成人民币，让用户对价格的感知变成"几块钱"，而<b>绕开了与 API 实际价格的横向对比</b>。最低充值 20 元是典型的低门槛首充设计。</li>
+<li><b>299 元年度会员</b>：用"积分打折 + 进阶课程"锁定用户全年。对重度用户（代做商家）这是划算的，对轻度用户则是沉没成本。</li>
+</ul>
+<div class="warn"><b>看出来了吗：</b>整套设计的利润来源不在"卖视频"，而在<b>把模型的按量计费包装成预付积分制</b>。教程是获客成本，积分是现金流，会员是留存。真正的成本项——底层 API 调用——被完全隐藏在"积分"这个计价单位后面。</div>
+
+<h3>9.6 元到底贵不贵：与底层 API 横向对标</h3>
+<p>把记者那条视频换算成每秒单价，与 2026 年 10 月各模型 API/会员通道的公开价格对比（均为 720P 档，除标注外）：</p>
+
+<table>
+<tr><th>通道</th><th>规格</th><th class="num">单价（元/秒）</th><th class="num">12 秒成本</th><th>说明</th></tr>
+<tr class="ok"><td>Vidu Q3 Turbo（错峰）</td><td>720P</td><td class="num">0.19</td><td class="num">2.28</td><td>公开刊例错峰半价</td></tr>
+<tr class="ok"><td>即梦 Seedance 2.5（超级会员）</td><td>720P</td><td class="num">0.19</td><td class="num">2.28</td><td>会员折算价</td></tr>
+<tr><td>通义万相 3.0（限时 7 折）</td><td>720P</td><td class="num">0.42</td><td class="num">5.04</td><td>原价 0.60</td></tr>
+<tr><td>即梦 Seedance 2.5（高级会员）</td><td>720P</td><td class="num">0.43</td><td class="num">5.16</td><td>会员折算价</td></tr>
+<tr><td>MiniMax H3</td><td>768P</td><td class="num">0.50</td><td class="num">6.00</td><td>无 1080P 档，2K 为 0.80</td></tr>
+<tr><td>Vidu Q3 Pro</td><td>720P</td><td class="num">0.625</td><td class="num">7.50</td><td>刊例价</td></tr>
+<tr><td>可灵 3.0 Omni（有声）</td><td>720P</td><td class="num">0.90</td><td class="num">10.80</td><td>刊例价</td></tr>
+<tr><td>Seedance 2.5（API 刊例）</td><td>720P</td><td class="num">1.51</td><td class="num">18.12</td><td>刊例价，未打折</td></tr>
+<tr class="hl"><td><b>报道中的工具</b></td><td><b>480P</b></td><td class="num"><b>0.80</b></td><td class="num"><b>9.60</b></td><td><b>画质最低档，价格中上档</b></td></tr>
+</table>
+
+<p><b>结论：加价率约 1.3–4.2 倍。</b>它卖的不是算力，是三样东西——场景封装（不用写提示词）、教程服务（不用自己摸索）、以及"不用理解模型差异"的认知成本减免。对商家而言这笔溢价是合理的；但"AI 让视频变便宜了"这个叙事，准确说法是<b>AI 让视频的人力成本归零，同时把算力成本变成了新的收费项</b>。</p>
+
+<h3>真实交付成本：把"9.6 元"还原成"一条能发出去的片子"</h3>
+<table>
+<tr><th>成本项</th><th class="num">金额</th><th>说明</th></tr>
+<tr><td>视频生成</td><td class="num">3–13 元</td><td>15 秒 1080P，按 0.22–0.84 元/秒</td></tr>
+<tr><td>抽卡损耗</td><td class="num">×3–4</td><td>图生视频首条命中率不高，废片同样计费</td></tr>
+<tr><td>配音 / 数字人口播</td><td class="num">0–20 元</td><td>剪映免费音色为 0；克隆形象+声音另计</td></tr>
+<tr><td>脚本 / 文案</td><td class="num">≈0</td><td>通用大模型即可，单次成本可忽略</td></tr>
+<tr><td>剪辑与字幕</td><td class="num">≈0</td><td>剪映批量处理</td></tr>
+<tr class="hl"><td><b>单条实际成本</b></td><td class="num"><b>20–60 元</b></td><td>对比真人探店 2000–5000 元/条</td></tr>
+</table>
+<p>即使用最保守的 60 元，对上 300–800 元的报价，毛利率仍在 80%–93%。<b>这才是"成本几十元、卖几百元"的完整算术。</b></p>
+
+<h2>三、效果是怎么实现的：三条技术路线</h2>
+
+<p>报道里那句"原始图片中没有的行人、车辆和随风摇曳的树影"，是理解效果来源的关键——它说明画面<b>不是对原图做插值，而是模型按物理规律"脑补"了运动和遮挡</b>。当前 AI 探店实际存在三条路线，风险等级完全不同：</p>
+
+<table>
+<tr><th style="width:150px">路线</th><th>技术组合</th><th>输入</th><th style="width:90px">虚构程度</th><th>风险</th></tr>
+<tr><td><b>A. 图生视频<br>（报道所用）</b></td><td>图片 → 首尾帧/多图参考 → I2V 模型分镜 → 拼接</td><td>门店实拍图 4–8 张 + 模特图</td><td>中</td><td>画面动效为模型生成，但场景主体来自真实素材</td></tr>
+<tr><td><b>B. 数字人口播</b></td><td>LLM 脚本 → TTS 配音 → 数字人对口型 → 门店图做背景/图文成片</td><td>门店图 + 一段口播文案</td><td>中高</td><td>AI 演员口述"体验"，若未到店即虚构</td></tr>
+<tr><td><b>C. 纯文生视频</b></td><td>提示词 → T2V 直接生成（含排队人潮等场景）</td><td>纯文字</td><td>极高</td><td>门店、菜品、人气全为虚构，<b>法律风险最高</b></td></tr>
+</table>
+
+<h3>标准工作流（以报道中的路线 A 为例）</h3>
+<div class="flow">
+<div class="step"><span class="n">1</span><span><b>素材准备</b>：商家提供门店门头、环境、菜品特写 4–8 张（商家自有实拍，或大众点评/美团图片）</span></div>
+<div class="step"><span class="n">2</span><span><b>模特图</b>：上传 1 张"AI 演员"形象图，或选平台内置形象/无人物</span></div>
+<div class="step"><span class="n">3</span><span><b>门店信息</b>：店名、品类、卖点、团购信息 → 由 LLM <b>自动生成脚本与分镜</b>（这是"不用写文案脚本"的真相）</span></div>
+<div class="step"><span class="n">4</span><span><b>参数选择</b>：模型 / 比例 9:16 / 时长 6–15 秒 / 分辨率 480P–1080P</span></div>
+<div class="step"><span class="n">5</span><span><b>一键成片</b>：平台按分镜逐段调用 I2V 接口 → 自动拼接 + 字幕 + BGM → 输出 MP4</span></div>
+<div class="step"><span class="n">6</span><span><b>分发</b>：矩阵账号批量发布 + 同城定向投流</span></div>
+</div>
+
+<div class="note"><b>"不用写文案脚本"是真的吗？</b>是真的，但代价是同质化。LLM 生成的探店文案高度模板化（"宝藏咖啡店大公开！""这杯拿铁绝了！"），这也是为什么这类内容必须靠<b>投流</b>而非自然流量获得点赞——叶韦明副教授在报道中正是这样描述的："依靠投流获得点赞，建立在流量套利和虚假繁荣之上"。</div>
+
+<h2>四、如果要落地：工具选型</h2>
+
+<table>
+<tr><th>定位</th><th>产品</th><th>说明</th></tr>
+<tr><td><b>官方合规通道</b><br>（推荐优先）</td><td><a href="https://www.oceanengine.com/">巨量即创</a><br><a href="https://admuse.qq.com">腾讯广告妙思</a></td><td>
+巨量即创是巨量引擎官方 AI 创意平台，已接入 Seedance 2.0，素材可直接推入抖音投放流程；<br>
+腾讯妙思基于混元，官方文档明确列出"本地生活：为餐饮、美业门店生成带有真实街景或门店环境的原生广告"。<br>
+<b>优势：原生对接投放系统、自带标识合规。</b></td></tr>
+<tr><td>通用视频模型</td><td><a href="https://jimeng.jianying.com/">即梦 AI</a>（Seedance）<br><a href="https://klingai.com">可灵 AI</a><br><a href="https://www.vidu.cn">Vidu</a><br><a href="https://wan.aliyun.com">通义万相</a><br>海螺 AI（MiniMax）</td><td>即梦中文理解最好、可直接进剪映，但排队久；可灵人物动作最稳、支持 4K；Vidu 角色跨镜头一致性最好、错峰半价适合铺量；万相价格最透明且开源可自托管；海螺国内版长期免费额度</td></tr>
+<tr><td>垂直探店封装</td><td>引力AI、shumi.quantv.com 等</td><td>流程最傻瓜，但价格不透明、加价明显，<b>且需自行确认其标识合规能力</b></td></tr>
+<tr><td>剪辑/配音/字幕</td><td>剪映 / CapCut</td><td>免费 AI 配音可商用，支持 9:16 导出与 AI 内容声明勾选</td></tr>
+<tr><td>脚本</td><td>DeepSeek / 豆包 / 通义</td><td>单次成本可忽略</td></tr>
+</table>
+
+<h2>五、"月流水 800 万"的算术检验</h2>
+<table>
+<tr><th>口径</th><th class="num">月订单量</th><th class="num">日均</th><th class="num">按 9.6 元成本</th><th class="num">按 40 元真实成本</th></tr>
+<tr><td>全部按 300 元/条（奶茶小吃）</td><td class="num">26,667 条</td><td class="num">889 条</td><td class="num">成本 25.6 万<br>毛利率 96.8%</td><td class="num">成本 107 万<br>毛利率 86.7%</td></tr>
+<tr><td>全部按 500 元/条</td><td class="num">16,000 条</td><td class="num">533 条</td><td class="num">成本 15.4 万<br>毛利率 96.9%</td><td class="num">成本 64 万<br>毛利率 92.0%</td></tr>
+<tr><td>全部按 800 元/条（火锅烧烤美容）</td><td class="num">10,000 条</td><td class="num">333 条</td><td class="num">成本 9.6 万<br>毛利率 98.8%</td><td class="num">成本 40 万<br>毛利率 95.0%</td></tr>
+</table>
+<div class="warn"><b>我的判断（标注为推断，非事实）：</b>数字本身需要打折看待。理由有三：<br>
+① 日均 330–890 条意味着一套成熟的工业化流水线，含获客、销售、账号矩阵养号、客服，这些成本未计入；<br>
+② "流水"不等于"营收"更不等于"利润"，若客户投放预算过账，流水会被显著放大；<br>
+③ 来源为"业内人士向记者透露"的单一匿名信源，无报表、无成本项、无可交叉验证的同行口径。<br>
+<b>结构性结论成立：这是一个毛利率极高、门槛极低、靠规模套利的内容生意。但 800 万这个具体数字，不宜作为决策依据。</b></div>
+
+<h2>六、合规红线（2026 年现状）</h2>
+<table>
+<tr><th>规则</th><th>生效</th><th>对 AI 探店的直接影响</th></tr>
+<tr><td><a href="https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm">《人工智能生成合成内容标识办法》</a><br>（网信办+工信部+公安部+广电总局）</td><td>2025-09-01</td><td>AI 生成的文本/图片/音频/视频均须添加<b>显式标识</b>（用户可明显感知）+ <b>隐式标识</b>（文件元数据，含 AIGC 字段、服务提供者、内容编号）。<b>任何组织和个人不得恶意删除、篡改、伪造、隐匿标识。</b></td></tr>
+<tr><td><a href="https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm">强制性国标《网络安全技术 人工智能生成合成内容标识方法》</a></td><td>2025-09-01</td><td>同步实施，元数据字段必须包含 AIGC 标识符号</td></tr>
+<tr><td><a href="https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=2280561117735787595&channelId=1119">中央网信办：短视频 6 类必选标签</a></td><td>2026-05</td><td>平台必须提供 6 类必选标签——<b>"含有虚构演绎内容""含有 AI 生成内容""含有营销信息""内容为转载""内容为个人观点""无需标注"</b>；<b>发布者必须从中选一项才能发布</b>，且对存量视频分批回溯补标。已指导抖音、快手、腾讯、小红书、B站、微博、淘宝、京东、拼多多、支付宝、美团、百度 12 家平台落地。</td></tr>
+<tr><td>《刑法》第 222 条 虚假广告罪</td><td>—</td><td>未到店 + 虚构体验 + 情节严重，可触犯</td></tr>
+<tr><td>不正当竞争</td><td>判例</td><td>2026 年 6 月杭州中院宣判<b>全国首例涉 AI 代写"种草笔记"不正当竞争案</b>，被告提供无需真实体验即可生成"亲测"笔记的工具，被判停止侵权并赔偿</td></tr>
+<tr><td>肖像权 / 声音权</td><td>—</td><td>AI 换脸、克隆名人声音形象另涉侵权</td></tr>
+</table>
+<p>治理侧的实际力度：2026 年 1 月以来，网信办指导清理虚假摆拍类违规短视频 <b>52 万余个</b>，严惩违规账号 <b>6.8 万余个</b>；小红书披露 2026 年 6–8 月清理 AI 制作的虚假笔记近 <b>12 万条</b>。</p>
+
+<h2>七、可行的落地姿势（不踩线的那种）</h2>
+<ol>
+<li><b>只做"增强"，不做"虚构"</b>：以真实到店拍摄的 3–5 秒现场素材（含地理位置打卡、消费凭证）为底，用 AI 补足运镜、补光、空镜和字幕，文案可用 AI 润色。<b>保留到店证据链</b>是唯一安全的做法。</li>
+<li><b>发布时主动标注</b>：勾选平台"含有 AI 生成内容"标签 + 叠加"含 AI 生成内容"文字提示，不要指望隐式标识自动生效。</li>
+<li><b>不用 AI 演员口述未发生的体验</b>：数字人可以讲套餐、讲环境、讲营业时间；不能说"我吃了，很好吃"。</li>
+<li><b>不用明星/网红脸、不克隆他人声音</b>；模特图使用平台自有形象或有授权的素材。</li>
+<li><b>优先走官方通道</b>（巨量即创 / 腾讯妙思）：与投放系统原生衔接，标识合规由平台兜底，省掉自建合规环节。</li>
+</ol>
+
+<h2>八、参考来源</h2>
+<ul class="src">
+<li>原文报道：《"探店"不"到店"！记者实测"AI探店"：花不到 10 元，视频出炉！有公司月流水达 800 万》——《证券时报》2026-10-26 A2 版（本次调研触发源）</li>
+<li><a href="https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm">四部门联合发布《人工智能生成合成内容标识办法》</a> — 中国网信网</li>
+<li><a href="https://www.gov.cn/zhengce/202503/content_7014281.htm">《人工智能生成合成内容标识办法》解读</a> — 中国政府网</li>
+<li><a href="https://www.ce.cn/cysc/newmain/yc/jsxw/202510/t20251024_2535313.shtml">你刷的短视频，标注"AI 生成"了吗？</a> — 中国经济网</li>
+<li><a href="https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=2280561117735787595&channelId=1119">中央网信办：虚构、AI 必须一目了然，平台发布短视频必选 6 类标签</a> — 央视新闻</li>
+<li><a href="https://c.m.163.com/news/a/KR9DVUA70512AKQV.html">短视频虚假营销太坑人！全面整治已启动</a> — 含平台治理数据与首例 AI 虚假广告案</li>
+<li><a href="https://jimeng.jianying.com/tools/jimeng-seedance-price">即梦 AI 会员与积分价格页</a> / <a href="https://klingai.com/app/membership/membership-plan">可灵 AI 会员价格页</a>（价格数据取自官方页面，2026-10 核查）</li>
+<li><a href="https://support.oceanengine.com/support/content/211656">「即创」AI 原料工具产品手册</a> — 巨量引擎帮助中心</li>
+<li>型号横评与每秒价格汇总：《国产视频大模型性价比大乱斗》（2026-10，API 刊例价）、sincosphere.cn 工具评分表</li>
+</ul>
+
+<div class="foot">
+本报告基于 2026-10-28 前可获取的公开信息整理。AI 视频模型定价调整频繁（即梦 2026 年 4 月一个月内调价三次），引用价格请在使用前自行复核官方页面。<br>
+标注为"推断"的部分为分析结论，非事实陈述；标注为"单一信源"的数据未获二次验证。
+</div>
+
+</div>
+</body>
+</html>

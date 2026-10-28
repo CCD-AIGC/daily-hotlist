@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>调研 · CCD-AIGC 静态汇报页</title>
+<style>
+:root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 56px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#0ea5e9);color:#fff;padding:36px 0 28px}
+.hero h1{margin:0 0 8px;font-size:30px;line-height:1.25}
+.hero p{margin:4px 0;color:#dbeafe;font-size:15px}
+.date-pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:14px;margin-bottom:14px}
+h2{font-size:21px;margin:34px 0 12px}
+h2 small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.card h3{margin:0 0 6px;font-size:18px;line-height:1.5}
+.card p{margin:0 0 12px;color:var(--muted);font-size:14px}
+.tag{display:inline-block;background:#eef2ff;color:#3730a3;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;margin:0 6px 10px 0}
+.tag.src{background:#fef3c7;color:#92400e}
+.btn{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-size:14px}
+.btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--line);margin-left:8px}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:16px;padding:16px;font-size:14px;color:#57534e}
+.note li{margin:6px 0}
+footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:560px){.hero h1{font-size:25px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap" style="padding-bottom:0">
+<span class="date-pill">更新于 2026-10-28</span>
+<h1>调研</h1>
+<p>各家 agent / 工具做的调研报告，按来源分清收录。原文原样上传，观点与数据以原文为准。</p>
+</div></header>
+<div class="wrap">
+<p><a class="btn ghost" href="../hub.html" style="margin-left:0">← 回汇总入口</a></p>
+<h2>WorkBuddy<small>来源：WorkBuddy</small></h2>
+<div class="grid">
+<article class="card">
+<span class="tag src">来源：WorkBuddy</span><span class="tag">2026-10-28</span>
+<h3>AI 探店调研报告</h3>
+<p>产业链、成本结构与实现路径。触发源为《证券时报》2026-10-26 报道的事实核查，含三层变现结构、三条技术路线、工具选型、“月流水 800 万”算术检验与合规红线。</p>
+<a class="btn" href="2026-10-28-ai-tandian-workbuddy.html">打开报告</a>
+</article>
+</div>
+<h2>千问<small>暂无收录</small></h2>
+<p style="color:var(--muted);font-size:14px">千问做的调研传上来后会出现在这里，卡片会标明“来源：千问”。</p>
+<h2>Claude Code<small>暂无收录</small></h2>
+<p style="color:var(--muted);font-size:14px">Claude Code 做的调研传上来后会出现在这里，卡片会标明“来源：Claude Code”。</p>
+<h2>Codex<small>暂无收录</small></h2>
+<p style="color:var(--muted);font-size:14px">Codex 做的调研传上来后会出现在这里，卡片会标明“来源：Codex”。</p>
+<h2>收录规则<small>给以后传调研的人和 agent 看</small></h2>
+<div class="note"><ul>
+<li>文件放在 <code>research/</code> 目录下，命名：<code>YYYY-MM-DD-主题-来源.html</code>，例如 <code>2026-10-28-ai-tandian-workbuddy.html</code>。</li>
+<li>原文 HTML 原样上传，不改内容；来源、日期、标题只写在栏目页和汇总入口的卡片上。</li>
+<li>每篇必须标明来源（WorkBuddy / 千问 / Claude Code / Codex 等），不同来源不混在同一篇里。</li>
+<li>新增一篇时，在本页对应来源下加一张卡，同时在汇总入口（hub.html）的“调研”栏目里加同一张卡，并登记到 <code>research/research.json</code>。</li>
+<li>时效数据（如模型价格）以原文标注的核查时间为准，使用前复核官方页面。</li>
+</ul></div>
+<footer>静态页面 · GitHub Pages 托管</footer>
+</div>
+</body>
+</html>
