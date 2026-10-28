@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>服装 AI 探店调研报告 — 行业全貌、算力比价与定位建议</title>
+<style>
+:root{--bg:#fff;--panel:#f7f8fa;--line:#e3e6ea;--line2:#eef0f2;--ink:#1a1d21;--ink2:#3d434c;--ink3:#6b7480;--accent:#1f6feb;--accent-soft:#eaf2ff;--warn:#b8501a;--warn-soft:#fdf1e8;--ok:#0f7b54;--ok-soft:#e8f5ef}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.wrap{max-width:920px;margin:0 auto;padding:40px 28px 96px}
+.srcbar{background:var(--accent-soft);border:1px solid #cfe0fb;border-radius:8px;padding:14px 18px;margin-bottom:28px;font-size:13.5px;color:var(--ink2)}
+.srcbar b{color:var(--ink)}
+.nav{font-size:13.5px;margin-bottom:20px}
+.nav a{color:var(--accent)}
+h1{font-size:27px;line-height:1.35;margin:0 0 10px;letter-spacing:-.3px}
+h2{font-size:19px;margin:52px 0 16px;padding-left:11px;border-left:4px solid var(--accent);letter-spacing:-.2px}
+h3{font-size:15.5px;margin:28px 0 10px;color:var(--ink)}
+p{margin:0 0 13px}
+ul,ol{margin:0 0 14px;padding-left:22px}
+li{margin-bottom:7px}
+table{width:100%;border-collapse:collapse;margin:14px 0 18px;font-size:13.5px;display:block;overflow-x:auto}
+th{background:var(--panel);text-align:left;padding:9px 11px;border:1px solid var(--line);font-weight:600;color:var(--ink2);white-space:nowrap}
+td{padding:9px 11px;border:1px solid var(--line2);vertical-align:top}
+hr{border:0;border-top:1px solid var(--line);margin:36px 0}
+a{color:var(--accent);word-break:break-all}
+code{font-size:13.5px;background:var(--panel);padding:2px 5px;border-radius:4px}
+blockquote{margin:16px 0;padding:13px 16px;background:var(--panel);border-left:3px solid var(--ink3);color:var(--ink2)}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--ink3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="nav"><a href="../hub.html">← 汇总入口</a> · <a href="index.html">调研栏目</a></p>
+<div class="srcbar"><b>来源：Alder（Muse）</b> · 研究日期：2026-10-28 · 本页为调研报告全文转换，内容、数据与链接均保留原文，未删节。可信度标注：①已核实（附链接）②行业通行做法（无单一官方来源）③推断（判断）。价格无官方来源者写“未公开，需实测”。</div>
+<h1>服装 AI 探店：行业全貌、算力比价与定位建议</h1>
+<p>研究日期：2026-10-28。中国市场为主，兼顾海外渠道。全程中文，专业术语保留英文原文并括注中文。</p>
+<p>可信度标注（每节沿用）：①已核实（附链接）②行业通行做法（无单一官方来源）③推断（判断）。价格、能力、并发上限无官方/可核查来源者写“未公开，需实测”，不编数字。用户已核实背景（代运营价、三段式结构、王牌工厂/海宁案例、服装崩点、Labfresh、消费者“三不买”、四层算力框架）直接作为前提，不重复调研；其中王牌工厂 600+ 家、海宁 GMV 227 万本次检索未找到独立信源复核，见“未找到清单”。</p>
+<p>汇率换算说明③：美元价格换算人民币时按 1 美元 = 7.1 元估算，仅为算账口径，非当日汇率。</p>
+<h2>结论先行（③推断，基于下文证据）</h2>
+<table>
+<thead>
+<tr>
+<th>判断</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>市场定性</td>
+<td>已经在跑的小生意，不是已成规模的赛道：有单条 300–800 元的餐饮 AI 探店报价和一家月流水 800 万元的匿名口径，但无服装 AI 探店的细分市场规模、平台治理总量、工具方分拆营收等可核查数据。媒体放大成分大于已验证规模。</td>
+</tr>
+<tr>
+<td>需求真痛点</td>
+<td>不是“缺一条视频”，是上新速度与拍摄成本错位 + B 端拿货询盘需要“看起来像真工厂”。C 端种草对 AI 容忍度更低，图实不符直接变退货。</td>
+</tr>
+<tr>
+<td>能力边界</td>
+<td>静态/小幅动态的服装展示可用；全身快转、手与衣物交互、飘动面料、细密图案必须实拍或避开。首条可用率无公开统计，工作假设见第 3 节。</td>
+</tr>
+<tr>
+<td>算力最优解</td>
+<td>0–500 条/月：按量付费（pay-as-you-go）的海外聚合 + 国内官方打样，不要买 Kling 大资源包、不要自托管。500–5000 条：仍按量为主，谈批量折扣；自托管只在单卡利用率极高且有人运维时再算。</td>
+</tr>
+<tr>
+<td>定位</td>
+<td>起步只适合“垂直接单方”。“算力中间商”不适合不自建算力者：差价 20–45% 的说法无稳定可审计的货源支撑，且火山条款涉转售限制；“工具渠道方”需要产品与售后投入，天花板看订阅留存，不是一人起步的活。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>1. 行业全貌地图</h2>
+<h3>1.1 角色、赚钱方式与挤压关系</h3>
+<table>
+<thead>
+<tr>
+<th>角色</th>
+<th>靠什么赚钱</th>
+<th>毛利率</th>
+<th>谁在被挤压 / 备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>源头工厂 / 档口（甲方）</td>
+<td>卖货差价：批发价 − 出厂/拿货成本；零售/直播加价</td>
+<td>②低，服装批发普遍薄利，价格透明后更薄；具体数字无公开分拆，我不知道</td>
+<td>被平台比价、退货率、流量成本三重挤压；为内容付费的预算来自“获客成本”，不是“品牌预算”</td>
+</tr>
+<tr>
+<td>代运营 / 垂直接单方</td>
+<td>月服务费 +（有时）GMV 佣金 / 投流服务费</td>
+<td>②人力成本占总预算约 60%（一家服务商自述口径）<a href="https://longyan.tianhuchine.com/city_news_info/245691.html">https://longyan.tianhuchine.com/city_news_info/245691.html</a>；B 端定制内容公司平均毛利率 42.6% 的说法来自一份无法独立复核的研报转述，不采信为事实</td>
+<td>被 AI 工具压价：同质化脚本、模板化内容先被替代；留存靠交付结果（询盘/GMV），不靠条数</td>
+</tr>
+<tr>
+<td>MCN</td>
+<td>坑位费（slot fee）+ 销售佣金 10%–30% + 服务费<a href="https://www.woshipm.com/share/6483707.html">https://www.woshipm.com/share/6483707.html</a></td>
+<td>①无统一数字；多家报道称大量 MCN 亏损、孵化成本高，50 万粉以下主播坑位费已跌至 1000–2000 元<a href="https://www.xpsee.com/18000-jia-mcn-feng-kuang-pei-qian-lan-hai-bian/">https://www.xpsee.com/18000-jia-mcn-feng-kuang-pei-qian-lan-hai-bian/</a></td>
+<td>被品牌自建矩阵、平台分账规则、AI 低价内容挤压；服装选品能力成门槛</td>
+</tr>
+<tr>
+<td>AI 工具方（成品工具 / 垂直工具）</td>
+<td>订阅 + 积分/点数（credits）消耗；企业版定制</td>
+<td>①无公开分拆营收；我不知道各家毛利率</td>
+<td>被底层模型降价挤压：模型方每轮降价，工具方订阅价锚就松动；差异化只剩工作流与一致性</td>
+</tr>
+<tr>
+<td>算力渠道方（官方 API / 聚合网关）</td>
+<td>按秒/按 Token（token）/按张计费；资源包预付沉淀；企业服务费</td>
+<td>①官方价透明但无毛利披露；聚合差价 20–45% 为用户前提框架，本次未找到可审计的稳定价差证据</td>
+<td>官方被聚合“比价”挤压；聚合被官方直连降价、模型方收紧转售挤压；灰色野站靠偷量/换模型活，不碰</td>
+</tr>
+<tr>
+<td>平台侧（抖音/快手/淘宝/1688 等）</td>
+<td>广告/投流（traffic buying）、技术服务费、电商佣金</td>
+<td>①平台财报不分拆“AI 探店”收入，我不知道</td>
+<td>平台同时是裁判：AI 标识（AI labeling）、虚假人设治理直接决定 AI 探店内容能否分发</td>
+</tr>
+</tbody>
+</table>
+<h3>1.2 真实市场规模多大：已经在跑，还是被媒体放大？</h3>
+<p>结论：<strong>小规模真实交易存在，细分规模无公开数据，媒体放大成分明显。</strong>③</p>
+<p>可核查的点状证据（①）：</p>
+<table>
+<thead>
+<tr>
+<th>证据</th>
+<th>数值</th>
+<th>来源与可信度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI 探店公司月流水</td>
+<td>一家公司 800 万元/月，匿名“业内人士”口径，经证券时报报道</td>
+<td>①单点口径，无公司名、无审计，无法推算行业总量<a href="https://www.21jingji.com/article/20261026/herald/009bb4835ef8b675e3b1f443e15bc0d5.html">https://www.21jingji.com/article/20261026/herald/009bb4835ef8b675e3b1f443e15bc0d5.html</a></td>
+</tr>
+<tr>
+<td>AI 探店单条报价（餐饮为主）</td>
+<td>个人接单 800 多元/条；奶茶/小吃 300–500 元/条；火锅/烧烤/美容 600–800 元/条</td>
+<td>①同上报道；服装工厂店报价未在该报道中出现，我不知道</td>
+</tr>
+<tr>
+<td>AI 探店实测成本</td>
+<td>12 秒 480P，9.6 积分 = 9.6 元；教程 0.1–1 元</td>
+<td>①同上报道记者实测</td>
+</tr>
+<tr>
+<td>法律定性</td>
+<td>杭州中院 2026 年 6 月通报全国首例 AI 代写种草不正当竞争案；未加 AI 标识、虚构体验或涉虚假宣传，严重者或触刑法虚假广告罪</td>
+<td>①<a href="https://www.21jingji.com/article/20261026/herald/f2f2443ad7fe27c62118b673a7d27e98.html">https://www.21jingji.com/article/20261026/herald/f2f2443ad7fe27c62118b673a7d27e98.html</a></td>
+</tr>
+<tr>
+<td>AI 标识规则</td>
+<td>《人工智能生成合成内容标识办法》2025 年 9 月 1 日起施行，显式标识（explicit labeling）+ 隐式标识（implicit labeling）</td>
+<td>①<a href="https://www.wanying668.com/insights/ai-neirong-biaoshi-hegui-yaodian.html">https://www.wanying668.com/insights/ai-neirong-biaoshi-hegui-yaodian.html</a></td>
+</tr>
+<tr>
+<td>招聘侧信号</td>
+<td>广州服装美工、短视频运营岗位中“近半数”要求掌握 AI 绘图、AI 模特换装等能力（招聘平台数据转述，记者报道）</td>
+<td>①单篇地方报道转述，无原始数据集<a href="https://huacheng.gz-cmc.com/pages/2026/10/08/40424dde4b7a4642b1e3d26a104cbfd0.html">https://huacheng.gz-cmc.com/pages/2026/10/08/40424dde4b7a4642b1e3d26a104cbfd0.html</a></td>
+</tr>
+<tr>
+<td>全球 AI in Fashion 规模</td>
+<td>Emergen Research：2025 年 28 亿美元，2035 年 296 亿美元，CAGR 26%</td>
+<td>①厂商预测口径，含设计、推荐、预测等全部应用，不是“AI 探店”规模，不可直接引用为本赛道规模<a href="https://www.emergenresearch.com/cn/industry-report/ai-in-fashion-market">https://www.emergenresearch.com/cn/industry-report/ai-in-fashion-market</a></td>
+</tr>
+</tbody>
+</table>
+<p>无公开数据的项（明说）：服装 AI 探店 GMV 总量、平台侧处置的服装类 AI 内容条数、头部工具方（即梦/可灵/海螺/Vidu）来自服装客户的营收、服装 AI 探店招标金额、代运营公司经审计的毛利率。<strong>我不知道这些数字，任何给出具体数字的说法都是推断或编造。</strong></p>
+<p>挤压链③：平台治理（标识 + 虚假体验打击）抬高“纯 AI 虚构探店”的合规成本 → 餐饮类低价 AI 探店先被打掉；服装类因退货反噬，商家自己先收紧 AI 图使用；代运营的条数生意被工具降价压缩，活下来的靠“实拍兜底 + AI 提效”的混合交付。</p>
+<hr />
+<h2>2. 需求侧真相</h2>
+<h3>2.1 老板为什么买？逐条拆痛点</h3>
+<table>
+<thead>
+<tr>
+<th>痛点</th>
+<th>是否真痛点</th>
+<th>证据 / 逻辑</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上新快、拍摄跟不上</td>
+<td>真，且最硬</td>
+<td>②服装电商高频上新、快速测款是行业通行做法；单店自述：真人棚拍一款要等档期 6 天、3000 多元，AI 当晚出图【②单店自述，低可信度 <a href="https://www.flowpixai.com/ai-art/ai-mote-b55045.html">https://www.flowpixai.com/ai-art/ai-mote-b55045.html</a> 】；广州招聘侧已把 AI 出图写进岗位要求【①见 1.2】</td>
+</tr>
+<tr>
+<td>拍摄贵（模特/棚/后期）</td>
+<td>真，但有上限</td>
+<td>①女装设计师口径：便宜版型打版两三百元，复杂版型 + 进口面料打七八个版可达数万元；找五六个甚至七八个模特拍不同尺码<a href="https://finance.sina.cn/2026-10-23/detail-iniweiyu8167340.d.html">https://finance.sina.cn/2026-10-23/detail-iniweiyu8167340.d.html</a>。但省下的拍摄费会以退货形式回来，见下</td>
+</tr>
+<tr>
+<td>缺客流（C 端）</td>
+<td>半真</td>
+<td>③C 端流量可以买投流解决，内容只是素材；AI 内容若被识别为假，流量反噬。缺的不是视频条数，是“可信的便宜 + 可信的版型”</td>
+</tr>
+<tr>
+<td>缺 B 端询盘（拿货店主）</td>
+<td>真，且是服装工厂店的核心</td>
+<td>②搜款网直连 20000+ 线下档口、日均上新 10000+ 款，说明 B 端拿货已高度线上化、比价极快<a href="https://www.barenbang.com/0be827670665172a/729f7197edcf3e46.html">https://www.barenbang.com/0be827670665172a/729f7197edcf3e46.html</a>；平湖羽绒服抖音商家已达 3000 多家<a href="https://finance.sina.cn/2026-10-19/detail-inivumam6887830.d.html">https://finance.sina.cn/2026-10-19/detail-inivumam6887830.d.html</a>，同质化下“看起来是真工厂、有现货、有工艺”是询盘前提</td>
+</tr>
+<tr>
+<td>缺人（不会拍、不会运营）</td>
+<td>真</td>
+<td>②代运营存在的理由；但 AI 工具把“会操作工具”变成新的招工要求，不是消灭人力，是换人力结构</td>
+</tr>
+</tbody>
+</table>
+<h3>2.2 B 端获客 vs C 端种草：哪种 AI 内容更能满足？</h3>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>B 端获客（找拿货店主）</th>
+<th>C 端种草（源头直供捡便宜）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>买单逻辑</td>
+<td>验厂 + 验货 + 验价：车间、仓库、面料、起批量、拿货价</td>
+<td>验便宜 + 验上身效果：版型、显瘦、面料质感</td>
+</tr>
+<tr>
+<td>AI 适配度</td>
+<td>③较高：环境与实力段（车间/仓库/货架）可用实拍 + AI 补镜头；人设讲解可用真人厂二代 + AI 剪辑；不依赖 AI 生成不存在的场景</td>
+<td>③较低：上身试穿段正是 AI 最易崩的段；消费者已形成“无实拍不买”的对抗，见用户已核实背景</td>
+</tr>
+<tr>
+<td>转化指标</td>
+<td>微信/电话询盘数、拿样单数、1688 店铺访客</td>
+<td>点击率、加购率、退货率</td>
+</tr>
+<tr>
+<td>退货反噬</td>
+<td>低：B 端拿样验货，图实不符在拿样环节暴露，不直接变退货</td>
+<td>高：C 端到手落差直接变退货；个案自述印花失真款退货率 8% vs 店铺平均 4%<a href="https://www.flowpixai.com/ai-art/ai-mote-63d371.html">https://www.flowpixai.com/ai-art/ai-mote-63d371.html</a>；另一自述退货率 12%→23%<a href="https://www.flowpixai.com/ai-art/ai-mote-4073af.html">https://www.flowpixai.com/ai-art/ai-mote-4073af.html</a></td>
+</tr>
+<tr>
+<td>结论③</td>
+<td><strong>先做 B 端</strong>：AI 负责“量 + 速度”，实拍负责“信任状”。C 端只做基础款、素色款的 AI 试穿，且必须配实拍细节兜底</td>
+<td>C 端 AI 探店不是不能做，是获客成本里要计入退货与差评，单条报价必须覆盖这部分</td>
+</tr>
+</tbody>
+</table>
+<h3>2.3 替代方案：AI 凭什么挤进去？</h3>
+<table>
+<thead>
+<tr>
+<th>替代方案</th>
+<th>成本/速度</th>
+<th>AI 的挤入点③</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>自己拿手机拍</td>
+<td>几乎零现金成本，时间成本高，画质/剪辑不稳定</td>
+<td>AI 补“剪辑 + 字幕 + 多版本”，不替代拍摄本身</td>
+</tr>
+<tr>
+<td>招人（运营/美工/模特）</td>
+<td>月薪 + 社保 + 档期，广州 AI 岗位已要求 AI 技能</td>
+<td>AI 让 1 个人干原来 2–3 个人的出图量，但挑图、验货的人不能省</td>
+</tr>
+<tr>
+<td>找代运营</td>
+<td>用户已核实：基础 6000–12000 元/月（15–25 条），进阶 12000–25000 元/月（含直播）</td>
+<td>AI 接单方用“同等条数更低价”或“同等价格更多条 + 更快上新”切入；但代运营的护城河是账号运营与投流，不是条数</td>
+</tr>
+<tr>
+<td>找 MCN/达人探店</td>
+<td>坑位费 + 佣金，头部贵、腰部效果不稳定</td>
+<td>AI 探店单条 300–800 元（餐饮口径）对“中小商家试错”有价格优势，但无达人信任背书</td>
+</tr>
+</tbody>
+</table>
+<h3>2.4 决策链③（推断，需实地验证）</h3>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>拍板人</td>
+<td>老板本人或厂二代；档口多为档口主本人。②行业通行做法：小微工厂/档口无采购委员会，老板当场定</td>
+</tr>
+<tr>
+<td>客单价</td>
+<td>代运营月费见前提；单条 AI 探店餐饮口径 300–800 元，服装工厂店单条我不知道，未找到公开报价</td>
+</tr>
+<tr>
+<td>复购周期</td>
+<td>②按上新季/月付：春夏、秋冬换季是复购节点；无效果（无询盘）则 1–2 个月流失</td>
+</tr>
+<tr>
+<td>决策触发点</td>
+<td>换季上新、展会前、1688/抖音店铺新开、隔壁档口出爆款</td>
+</tr>
+<tr>
+<td>付款方式</td>
+<td>②小微客户多为微信/对公月付、先付后做；账期长、压价狠是常态，需在合同里写清修改次数与交付标准</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>3. AI 能力边界在服装上的精确划分</h2>
+<p>前提崩点（用户已核实）：飘动面料、结构化剪裁、细密重复图案、手与衣物交互、全身快转、多层叠穿。以下按三段式细化，标注 ②/③。</p>
+<h3>3.1 三段式 × 镜头：能做 / 必须实拍</h3>
+<table>
+<thead>
+<tr>
+<th>段</th>
+<th>具体镜头</th>
+<th>AI 能做②/③</th>
+<th>必须实拍 / 避开</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>①环境与实力</td>
+<td>车间全景推镜、仓库货架平移、面料架慢扫</td>
+<td>③能：静态图生视频（image-to-video）小幅运镜，主体不动，崩点少</td>
+<td>人流、机器运转细节、正在缝制的工序特写：AI 易编造不存在的工序，B 端验厂场景下属虚假宣传风险</td>
+</tr>
+<tr>
+<td>①环境与实力</td>
+<td>面料微距特写（见 3.2 第四形态）</td>
+<td>③慎用：AI 会“优化”纹理，与实物有落差</td>
+<td><strong>必须实拍</strong>：面料纹理、厚度、垂感、色差是拿货决策点</td>
+</tr>
+<tr>
+<td>②人设与讲解</td>
+<td>厂二代固定机位口播、讲解工艺/面料/源头价</td>
+<td>③能：真人实拍口播 + AI 剪辑/字幕/多版本；数字人（digital human）口播可用但须标识，且不得声称“亲测体验”</td>
+<td>数字人冒充真人经历、虚构“到店体验”：合规红线，见 1.2 法律案例</td>
+</tr>
+<tr>
+<td>②人设与讲解</td>
+<td>手持面料讲解、指认走线/扣子/拉链</td>
+<td>③不能：手与衣物交互是崩点</td>
+<td><strong>必须实拍</strong>：手部动作、拉链开合、扣扣子</td>
+</tr>
+<tr>
+<td>③上身试穿</td>
+<td>静态站姿、轻微转身（&lt;90°）、慢速走两步</td>
+<td>③可用：首帧图锚定服装，动作幅度小，首条可用率相对最高</td>
+<td>全身快转、跑跳、大幅摆臂：结构崩</td>
+</tr>
+<tr>
+<td>③上身试穿</td>
+<td>长裙/阔腿裤/丝巾飘动、西装翻领/腰线、细格纹/小 logo</td>
+<td>③不能直接交付</td>
+<td><strong>必须实拍</strong>或改款：换素色基础款、换直筒版型、避开细密图案</td>
+</tr>
+<tr>
+<td>③上身试穿</td>
+<td>多层叠穿、脱穿外套、换装过程</td>
+<td>③不能</td>
+<td><strong>必须实拍</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>3.2 第四种被忽略的内容形态③（推断，值得做）</h3>
+<table>
+<thead>
+<tr>
+<th>形态</th>
+<th>为什么被忽略</th>
+<th>AI/实拍分工</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>面料微距特写 + 工艺科普动画</td>
+<td>探店只拍“人穿”，不拍“布为什么值这个价”；B 端店主最关心面料与做工</td>
+<td>实拍微距 + AI 生成工艺示意图/动画（如织法、克重、色牢度示意），不生成虚假纹理</td>
+</tr>
+<tr>
+<td>款式合集快剪（同一模特/同一场景，10–20 款 1 分钟过款）</td>
+<td>单款视频成本高，合集被当成“混剪”低看</td>
+<td>AI 换装图 + 实拍首帧锚定，快速过款测款；用于 B 端选款，不用于 C 端主推</td>
+</tr>
+<tr>
+<td>版型对比（同款不同尺码/身材上身）</td>
+<td>真人模特难约多身材</td>
+<td>AI 模特多身材档案是真实价值点（个案自述用 3 个身材档案砍款）<a href="https://www.flowpixai.com/ai-art/ai-mote-fef279.html">https://www.flowpixai.com/ai-art/ai-mote-fef279.html</a>，但须标注为效果示意，不承诺合身</td>
+</tr>
+<tr>
+<td>拿货流程片（起批量、拿样、发货、退换）</td>
+<td>内容创作者不懂 B 端流程</td>
+<td>真人实拍 + 字幕，AI 不参与事实陈述；这是 B 端转化率最高的形态③</td>
+</tr>
+</tbody>
+</table>
+<h3>3.3 首条可用率：我不知道官方数字，工作假设如下③</h3>
+<p>定义：首条可用 = 不经重生成、仅剪辑即可交付，且服装颜色/图案/版型/扣袢无肉眼可见失真。</p>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>工作假设首条可用率③</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>静态图生视频，小幅运镜（环境段）</td>
+<td>40%–60%</td>
+<td>③推断：主体不动，失败多为运镜抖动；无公开统计</td>
+</tr>
+<tr>
+<td>基础款（素色、直筒）上身，站姿/慢转身</td>
+<td>20%–35%</td>
+<td>③推断：结合图片侧个案“8 张挑 1 张”（12.5%）、“修图后 3 成→7 成”<a href="https://www.flowpixai.com/ai-art/ai-mote-8b3b27.html">https://www.flowpixai.com/ai-art/ai-mote-8b3b27.html</a>，视频比图片更难，取区间中段</td>
+</tr>
+<tr>
+<td>飘动面料/结构化剪裁/细密图案/手交互/快转</td>
+<td>&lt;10%</td>
+<td>③推断：用户已核实崩点清单；硬做等于烧重试费，应直接实拍</td>
+</tr>
+<tr>
+<td>预算口径③</td>
+<td><strong>按 3 次尝试 / 1 条可用片段 budgeting</strong>（即名义算力价 ×3）</td>
+<td>③多家聚合商口径“按可接受片段计费、失败退款”不等同“创意重试免费”；失败退款只覆盖技术失败，不覆盖“能出但不能用”</td>
+</tr>
+</tbody>
+</table>
+<p><strong>我不知道</strong>服装类 AI 视频的行业首条可用率精确值；以上为 budgeting 假设，须用固定 prompt 回归测试（见追问 1）实测后替换。</p>
+<h3>3.4 跑通的正面案例：有没有？</h3>
+<table>
+<thead>
+<tr>
+<th>案例</th>
+<th>是否算“服装 AI 探店跑通”</th>
+<th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shein × OpenArt AI 广告 campaign：6 条趋势广告，约 1 个月交付，角色表（character sheet）+ 多视角 + 先审静帧再动</td>
+<td>①真实存在，但这是<strong>品牌广告片</strong>，不是工厂店探店，无 GMV/询盘数据披露<a href="https://openart.ai/blog/shein-ai-fashion-ad-campaign/">https://openart.ai/blog/shein-ai-fashion-ad-campaign/</a></td>
+<td>不算探店跑通案例</td>
+</tr>
+<tr>
+<td>FlowPix 单店自述：40 款一晚出图、退货率未涨、点击率 +0.6–0.8 个百分点</td>
+<td>②单店自述，无后台截图审计，样本 1 家</td>
+<td>不算可复用的跑通证据，仅作“基础款图片侧可用”的弱信号</td>
+</tr>
+<tr>
+<td>Labfresh：4 季 AI 后放弃</td>
+<td>①反面案例，用户已核实</td>
+<td>证明“同一人 10 张一致性”是硬门槛</td>
+</tr>
+<tr>
+<td>服装工厂店 AI 探店（B 端询盘/GMV 可审计）</td>
+<td><strong>未找到</strong></td>
+<td><strong>明说没有</strong>：本次检索未找到经审计的服装工厂店 AI 探店正面案例；海宁案例未找到独立信源复核</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>4. 算力渠道比价（最重要）</h2>
+<h3>4.1 计价口径统一说明</h3>
+<ul>
+<li>场景：图生视频（image-to-video），首帧为服装实拍/平铺修图后的图，<strong>不含参考视频输入</strong>（参考视频输入会另计输入秒数，见 Seedance 行）。</li>
+<li>5 秒 / 15 秒 = 单次生成的片段时长，不是成片时长。成片需多片段拼接。</li>
+<li>“单次成本” = 1 次尝试的名义价；实际交付成本 = 名义价 × 尝试次数（工作假设 3 次，见 3.3）。</li>
+<li>美元价为各渠道公开价；人民币价为官方/报道价。两者不直接换算比较时已标注。</li>
+<li>官方链接：优先给官方定价页 URL（Kling 官方页本次 live 打开为空白 JS 页，见备注）；其余价格为多家第三方在 2026 年 9–10 月重读官方页后的转述，已交叉核对一致的才列为“转述官方价”，单源的标注单源。</li>
+</ul>
+<h3>4.2 可执行比价表：图生视频 5 秒 / 15 秒实际成本</h3>
+<table>
+<thead>
+<tr>
+<th>渠道 / 模型</th>
+<th>分辨率</th>
+<th>每秒价（名义）</th>
+<th>5 秒 1 次</th>
+<th>15 秒 1 次</th>
+<th>失败是否计费</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>国内官方：阿里云百炼 Wan 3.0</strong></td>
+<td>480P</td>
+<td>0.30 元/秒</td>
+<td>1.50 元</td>
+<td>4.50 元</td>
+<td>任务失败不计费（单源转述）</td>
+<td>①报道转述官方价<a href="https://65687297926377.apostaorbihouse.com/article/20261020/58517419.html">https://65687297926377.apostaorbihouse.com/article/20261020/58517419.html</a>；7 折活动 8.24–9.23 已过期</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>720P</td>
+<td>0.60 元/秒</td>
+<td>3.00 元</td>
+<td>9.00 元</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>1080P</td>
+<td>1.20 元/秒</td>
+<td>6.00 元</td>
+<td>18.00 元</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td><strong>国内官方：阿里云百炼 Wan 2.6/2.7</strong></td>
+<td>720P级</td>
+<td>0.60 元/秒（标准）；闪速版 0.30 元/秒</td>
+<td>3.00 元 / 1.50 元</td>
+<td>9.00 元 / 4.50 元</td>
+<td>未公开，需实测</td>
+<td>②聚合商转录百炼价目<a href="https://api.oceanleo.com/v1/models/pricing-doc/bailian/pdf">https://api.oceanleo.com/v1/models/pricing-doc/bailian/pdf</a>，非官方页直读</td>
+</tr>
+<tr>
+<td><strong>国内官方：火山方舟 Seedance 2.0（国内人民币）</strong></td>
+<td>1080P</td>
+<td>46 元/百万 Token，约 1 元/秒（第三方折算）</td>
+<td>约 5 元</td>
+<td>约 15 元</td>
+<td>未公开，需实测</td>
+<td>②<a href="https://www.woshipm.com/ai/6478901.html">https://www.woshipm.com/ai/6478901.html</a>；Seedance 2.5 同规格 70 元/百万 Token，同源</td>
+</tr>
+<tr>
+<td><strong>海外官方：BytePlus ModelArk Seedance 2.5</strong></td>
+<td>480P</td>
+<td>$0.103/秒（官方示例折算）</td>
+<td>$0.51</td>
+<td>$1.54</td>
+<td>只对成功生成计费，审核拦截不收费</td>
+<td>①多家重读官方示例<a href="https://www.digitalapplied.com/blog/ai-video-model-api-access-kling-4-seedance-4k">https://www.digitalapplied.com/blog/ai-video-model-api-access-kling-4-seedance-4k</a></td>
+</tr>
+<tr>
+<td>同上</td>
+<td>720P</td>
+<td>$0.231/秒</td>
+<td>$1.16</td>
+<td>$3.47</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>1080P</td>
+<td>$0.569/秒</td>
+<td>$2.84</td>
+<td>$8.53</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td><strong>海外官方：Kling 3.0 API</strong></td>
+<td>720P 无原生音频</td>
+<td>$0.084/秒</td>
+<td>$0.42</td>
+<td>$1.26</td>
+<td>失败不计费（单源）</td>
+<td>①多家重读官方价<a href="https://aireiter.com/blog/kling-api-pricing">https://aireiter.com/blog/kling-api-pricing</a>；官方页 <a href="https://kling.ai/dev/pricing">https://kling.ai/dev/pricing</a> （本次 live 打开为空白，需登录后核实）</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>720P 有原生音频</td>
+<td>$0.126/秒</td>
+<td>$0.63</td>
+<td>$1.89</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>1080P 无音频 / 有音频</td>
+<td>$0.112 / $0.168/秒</td>
+<td>$0.56 / $0.84</td>
+<td>$1.68 / $2.52</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>同上 Turbo</td>
+<td>720P/1080P 有音频</td>
+<td>$0.112 / $0.140/秒</td>
+<td>$0.56 / $0.70</td>
+<td>$1.68 / $2.10</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>4K</td>
+<td>$0.420/秒</td>
+<td>$2.10</td>
+<td>$6.30</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td><strong>海外官方：Vidu Q4 Preview（标价）</strong></td>
+<td>540P</td>
+<td>$0.045/秒（9 积分 × $0.005）</td>
+<td>$0.23</td>
+<td>$0.68</td>
+<td>未公开，需实测</td>
+<td>①官方通稿价<a href="https://www.globenewswire.com/news-release/2026/10/07/3376813/0/en/shengshu-technology-launches-vidu-q4-preview-a-next-generation-ai-video-model-built-for-lifelike-performances.html">https://www.globenewswire.com/news-release/2026/10/07/3376813/0/en/shengshu-technology-launches-vidu-q4-preview-a-next-generation-ai-video-model-built-for-lifelike-performances.html</a>；积分表见<a href="https://sloptvnews.com/vidu-q4-preview-price-per-second-launch-promo-vs-list/">https://sloptvnews.com/vidu-q4-preview-price-per-second-launch-promo-vs-list/</a></td>
+</tr>
+<tr>
+<td>同上</td>
+<td>720P</td>
+<td>$0.095/秒（19 积分）</td>
+<td>$0.48</td>
+<td>$1.43</td>
+<td>未公开，需实测</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>1080P</td>
+<td>$0.12/秒（24 积分）</td>
+<td>$0.60</td>
+<td>$1.80</td>
+<td>未公开，需实测</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>2K / 4K</td>
+<td>$0.19 / $0.39/秒</td>
+<td>$0.95 / $1.95</td>
+<td>$2.85 / $5.85</td>
+<td>未公开，需实测</td>
+<td>同上；首发价 0.09 元/秒起为促销价，11 月 30 日前图生/参考生 7 折</td>
+</tr>
+<tr>
+<td><strong>海外官方：MiniMax H3</strong></td>
+<td>768P</td>
+<td>$0.08/秒</td>
+<td>$0.40</td>
+<td>$1.20</td>
+<td>失败不计费</td>
+<td>①<a href="https://aireiter.com/blog/hailuo-ai-pricing">https://aireiter.com/blog/hailuo-ai-pricing</a>；前 5 张参考图免费，第 6 张起 $0.04/张，参考视频按输入秒计费</td>
+</tr>
+<tr>
+<td>同上</td>
+<td>2K</td>
+<td>$0.13/秒</td>
+<td>$0.65</td>
+<td>$1.95</td>
+<td>同上</td>
+<td>同上</td>
+</tr>
+<tr>
+<td><strong>海外聚合：fal — Wan 3.0</strong></td>
+<td>480P/720P/1080P</td>
+<td>$0.05 / $0.10 / $0.20/秒</td>
+<td>$0.25 / $0.50 / $1.00</td>
+<td>$0.75 / $1.50 / $3.00</td>
+<td>只对成功输出计费</td>
+<td>②<a href="https://higgsfield.ai/blog/best-ai-video-generation-apis">https://higgsfield.ai/blog/best-ai-video-generation-apis</a>；与官方美元价基本持平，无价差优势</td>
+</tr>
+<tr>
+<td><strong>海外聚合：fal — Kling 3.0</strong></td>
+<td>720P/1080P</td>
+<td>与官方同价 $0.084/$0.112（无音频）</td>
+<td>$0.42 / $0.56</td>
+<td>$1.26 / $1.68</td>
+<td>只对成功输出计费</td>
+<td>②同上</td>
+</tr>
+<tr>
+<td><strong>海外聚合：fal — Seedance 2.5</strong></td>
+<td>720P</td>
+<td>约 $0.47/秒（Token 折算，单源）</td>
+<td>约 $2.37</td>
+<td>约 $7.10</td>
+<td>未公开，需实测</td>
+<td>②单源<a href="https://www.justvisitingreality.com/articles/four-ai-video-models-production-budget">https://www.justvisitingreality.com/articles/four-ai-video-models-production-budget</a>，与 BytePlus 官方 $0.231 相差约 2 倍，<strong>不要直接用 fal 价推断官方价</strong></td>
+</tr>
+<tr>
+<td><strong>海外聚合：Runware — Wan 3.0</strong></td>
+<td>480P/720P/1080P</td>
+<td>$0.05 / $0.10 / $0.20/秒</td>
+<td>$0.25 / $0.50 / $1.00</td>
+<td>$0.75 / $1.50 / $3.00</td>
+<td>只对成功请求计费</td>
+<td>①官方文档示例<a href="https://runware.ai/docs/models-api/pricing">https://runware.ai/docs/models-api/pricing</a></td>
+</tr>
+<tr>
+<td><strong>海外聚合：Replicate</strong></td>
+<td>Wan 2.1 720P</td>
+<td>$0.25/秒（旧型号）</td>
+<td>$1.25</td>
+<td>$3.75</td>
+<td>未公开，需实测</td>
+<td>②<a href="https://ampm-aiops.com/en/guides/replicate-price-2026/">https://ampm-aiops.com/en/guides/replicate-price-2026/</a>；Wan 3.0 在 Replicate 的 $0.025–$0.10/秒说法多源不一致，<strong>未核实，不列入比价</strong></td>
+</tr>
+<tr>
+<td><strong>国内聚合：硅基流动 SiliconFlow — Wan 2.2</strong></td>
+<td>480P/720P，固定 5 秒</td>
+<td>$0.29/条（不是按秒）</td>
+<td>$0.29</td>
+<td>不适用（需 3 条拼接，$0.87）</td>
+<td>未公开，需实测</td>
+<td>①官方模型页<a href="https://www.siliconflow.com/models/wan2-2-t2v-a14b">https://www.siliconflow.com/models/wan2-2-t2v-a14b</a>；仅开源模型，无 Kling/Seedance 旗舰</td>
+</tr>
+<tr>
+<td><strong>成品工具：即梦 Seedance 2.5</strong></td>
+<td>720P</td>
+<td>约 26 积分/秒；10 积分约 1 元</td>
+<td>约 13 元（130 积分）</td>
+<td>约 39 元（390 积分）</td>
+<td>未公开，需实测</td>
+<td>②<a href="https://www.zhaixingw.cn/ai-news/60.html">https://www.zhaixingw.cn/ai-news/60.html</a>；会员 41 元/月起（连续包月）725 积分起，同源</td>
+</tr>
+<tr>
+<td><strong>开源自托管：Wan 2.2 TI2V-5B（租卡）</strong></td>
+<td>720P</td>
+<td>GPU 小时价 × 生成时长；9 分钟/5 秒（官方宣称转述）→ RTX 4090 $0.69/小时约 $0.10/条；2.5 分钟/条（另一教程）→ 约 $0.03/条</td>
+<td>$0.03–$0.10（仅 GPU，不含人工/空闲/存储）</td>
+<td>$0.09–$0.30（3 条拼接，仅 GPU）</td>
+<td>不适用（自付 GPU 时间）</td>
+<td>②生成时长两源冲突<a href="https://blog.csdn.net/gitblog_00212/article/details/153810711">https://blog.csdn.net/gitblog_00212/article/details/153810711</a><a href="https://www.aipuzi.cn/ai-tutorial/687.html">https://www.aipuzi.cn/ai-tutorial/687.html</a>；卡价见 Runware/RunPod 口径，见 4.4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>关键发现③：</strong> “聚合便宜 20–45%”在本轮核查中<strong>不成立</strong>——fal/Runware 的 Wan 3.0、Kling 3.0 与官方美元价基本持平；Seedance 在 fal 反而贵约 1 倍。聚合的价值是“一把钥匙多模型 + 按量起步 + 无大额资源包”，不是单价便宜。国内官方（百炼 Wan）人民币价在 720P 档（0.6 元/秒 ≈ $0.084/秒）与 Kling 官方价几乎相同，选哪家看服装保真实测，不看价差。</p>
+<h3>4.3 三档推荐组合（按月产成品条数；每条 = 3 个 5 秒片段，尝试 3 次 = 45 生成秒/条，③工作假设）</h3>
+<table>
+<thead>
+<tr>
+<th>月产档</th>
+<th>推荐组合</th>
+<th>不推荐</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–50 条/月（2250 生成秒）</td>
+<td>主：fal 或 Runware 按量（Wan 3.0 + Kling 3.0 双模型）；辅：硅基流动 Wan 2.2 打样（$0.29/条）；首帧图用 FASHN API</td>
+<td>Kling $700 资源包、Vidu 年付、任何自托管</td>
+<td>资源包 180 天过期，50 条/月用不完；自托管固定成本摊不薄</td>
+</tr>
+<tr>
+<td>50–500 条/月（2250–22500 生成秒）</td>
+<td>主：fal/Runware 按量 + 百炼 Wan 3.0（国内发票与合规）；打样与终稿分流：540P/720P 打样用 Vidu Q4 促销价或 Wan 闪速版，1080P 终稿用 Kling/Wan；双路由自动降级（见追问 1）</td>
+<td>单一渠道 All-in；即梦成品工具批量生产（积分价高、无 API 批量）</td>
+<td>单渠道限流/涨价即停产；成品工具无批量 API，人工操作成本高于算力本身</td>
+</tr>
+<tr>
+<td>500–5000 条/月（22500–225000 生成秒）</td>
+<td>按量 + 批量协议价谈判（fal 企业版、Runware 预留、百炼/Kling 大客户）；仍不自建 GPU，除非：单卡利用率 &gt;60% 且有专人运维，且已实测开源模型服装可用率达标</td>
+<td>直接买卡/自建机房；把全部量押在促销价（Vidu 0.09 元/秒、Wan 7 折）上做报价</td>
+<td>促销价会过期；自托管回本线见 4.4，5000 条是理论满负荷量级，不是“达到就回本”</td>
+</tr>
+</tbody>
+</table>
+<h3>4.4 新用户额度、起充、并发、商用授权、资质核验</h3>
+<table>
+<thead>
+<tr>
+<th>渠道</th>
+<th>新用户免费额度</th>
+<th>起充门槛</th>
+<th>并发上限</th>
+<th>商用授权</th>
+<th>核验资质项（签约/付款前必查）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kling API 官方</td>
+<td>未公开，需实测（免费档为消费端，与 API 分离）</td>
+<td>试用包 $9.80/100 单位，30 天，最多买 5 次；标准包 $700/5000 单位起，180 天</td>
+<td>试用 5；标准包 20<a href="https://aireiter.com/blog/kling-api-pricing">https://aireiter.com/blog/kling-api-pricing</a></td>
+<td>免费档不可商用；付费档商用范围以条款为准，未公开全文，需实测</td>
+<td>主体、开票、资源包过期作废条款、Kling 4.0 是否在包内（2026-10-19 官方 API 仍显示 Coming Soon）</td>
+</tr>
+<tr>
+<td>BytePlus ModelArk Seedance</td>
+<td>未公开，需实测</td>
+<td>资源包 $32/500 万 Token 起（单源，3 个月有效）</td>
+<td>未公开，需实测（4K 档单源称 1 并发）</td>
+<td>官方称提供商用授权与 IP 赔偿（有条件），以合同为准</td>
+<td><strong>转售限制</strong>：火山条款不允许第三方转售，唯一合法供货主体为火山引擎（单篇报道引述条款）<a href="https://news.marsbit.co/20261026100249935279.html">https://news.marsbit.co/20261026100249935279.html</a>；聚合商卖 Seedance 时必须出示授权链</td>
+</tr>
+<tr>
+<td>阿里云百炼 Wan</td>
+<td>新用户专属免费额度（官方活动口径，具体模型/秒数未公开，需实测）</td>
+<td>按量后付费，无固定起充（以百炼实时页为准）</td>
+<td>未公开，需实测</td>
+<td>以百炼服务条款为准，未公开全文，需实测</td>
+<td>阿里云账号实名、发票（增值税）、数据留存地域</td>
+</tr>
+<tr>
+<td>Vidu</td>
+<td>未公开，需实测</td>
+<td>积分制，单源称积分 $0.005/个</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>促销价有效期（11 月 30 日 7 折）、积分过期规则</td>
+</tr>
+<tr>
+<td>MiniMax</td>
+<td>未公开，需实测</td>
+<td>按量后付费</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>参考图/视频计费规则、失败退款规则</td>
+</tr>
+<tr>
+<td>fal</td>
+<td>无免费档（多源一致）</td>
+<td>预付积分，365 天有效；无最低消费（单源）</td>
+<td>新账号 2 起，自助可升至 40，更高走销售<a href="https://higgsfield.ai/blog/best-ai-video-generation-apis">https://higgsfield.ai/blog/best-ai-video-generation-apis</a></td>
+<td>以各模型条款为准，fal 不拥有模型</td>
+<td>主体（美国公司）、发票能力（能否开国内合规发票）、数据出境、Webhook 签名</td>
+</tr>
+<tr>
+<td>Runware</td>
+<td>$2 免费积分（单源）</td>
+<td>按量预付</td>
+<td>未公开，需实测</td>
+<td>以各模型条款为准</td>
+<td>同 fal；另查 GPU 计价是按输出秒还是按算力秒</td>
+</tr>
+<tr>
+<td>Replicate</td>
+<td>无公开免费额度</td>
+<td>预付积分</td>
+<td>未公开，需实测</td>
+<td>以各模型条款为准</td>
+<td>同上；注意按 GPU 秒计费的模型与按输出计费的模型混在一起</td>
+</tr>
+<tr>
+<td>硅基流动</td>
+<td>$1 免费积分（单源转述）</td>
+<td>按量</td>
+<td>未公开，需实测</td>
+<td>Apache-2.0 开源模型权重许可；生成内容商用以平台条款为准</td>
+<td>国内主体、ICP 备案、发票、OpenAI 兼容接口文档</td>
+</tr>
+<tr>
+<td>4stoken</td>
+<td><strong>未找到</strong>：本次检索无可核查的价格/额度/并发信息</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>主体、备案、开票、授权链全部未核实，<strong>付款前必须逐项索取书面证明</strong></td>
+</tr>
+<tr>
+<td>开源自托管</td>
+<td>权重免费（Apache-2.0，Wan 2.2）</td>
+<td>GPU 租赁：RTX 4090 约 $0.35–$0.89/小时（多源区间），H100 约 $1.70–$3.99/小时</td>
+<td>自定（单卡串行）</td>
+<td>权重许可允许商用（以具体模型 LICENSE 为准）；生成内容无平台方授权背书</td>
+<td>不适用渠道资质；需核验模型 LICENSE、数据合规、肖像授权自担</td>
+</tr>
+</tbody>
+</table>
+<p><strong>自托管回本测算③（推断，公式公开）：</strong> 单张 RTX 4090，9 分钟/条（5 秒 720P）→ 理论满负荷 720 小时/0.15 小时 = 4800 条/月；按 $0.69/小时租卡，月租约 $497，单条 GPU 成本约 $0.10。对比硅基流动 $0.29/条，理论上 4800 条时省约 $912/月，但未计：空闲/启动/下载、失败重试、人工运维、存储与带宽、服装可用率低于闭源模型导致重试倍数更高。若生成时长为 2.5 分钟/条，理论满负荷 17280 条/月，回本线大幅前移——<strong>时长两源冲突，回本线我不知道精确值，必须用自己的卡实测 20 条取中位时长后再算。</strong> 用户前提“回本线月产 5000 条”与 9 分钟口径的满负荷量级吻合，但不是已验证的回本承诺。</p>
+<hr />
+<h2>5. 服装垂直工具选型</h2>
+<p>评分标准：★=弱，★★★=强；无实测者写“未实测”，不打分。价格为公开口径，见备注。</p>
+<table>
+<thead>
+<tr>
+<th>工具</th>
+<th>服装保真度</th>
+<th>目录一致性（50+ SKU 同一模特）</th>
+<th>输入宽容度（平铺·人台·挂拍·草图）</th>
+<th>批量 + API</th>
+<th>工作流覆盖</th>
+<th>商用授权</th>
+<th>真实短板</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FASHN.ai</strong>（国外，API 优先）</td>
+<td>★★★：条纹/印花测试中 11/12、10/12 保持（单家评测）<a href="https://removeclothing.com/tools/fashn-ai">https://removeclothing.com/tools/fashn-ai</a></td>
+<td>★★：长批次同一模特脸部漂移（同评测：20 张出现可见脸部差异）</td>
+<td>★★★：平铺、人台（ghost mannequin）、已上身图均可</td>
+<td>★★★：REST API，异步轮询/webhook，默认 50 请求/分钟、6 并发（单源）</td>
+<td>★：只有生成组件，无目录管理/审片/上架，需自建</td>
+<td>①API 价 $0.075/积分，v1.6 每图 1 积分，Max 1–5 积分，仅成功计费，$7.50 起充<a href="https://help.fashn.ai/plans-and-pricing/api-pricing">https://help.fashn.ai/plans-and-pricing/api-pricing</a>；商用可用</td>
+<td>无原生 Shopify 应用；无自动质检，错纽扣也算成功计费；4K 需高积分</td>
+</tr>
+<tr>
+<td><strong>Botika</strong>（国外）</td>
+<td>★★：人工修图兜底是卖点，批量 15 分钟/批（单源）</td>
+<td>★★：固定模特库 + 人工修正，一致性靠人工</td>
+<td>★★★：上身图、平铺、人台</td>
+<td>★★：批量上传（上身流程），API 是否开放未在公开页确认，<strong>未公开，需实测</strong></td>
+<td>★★：Shopify 应用 + 批量下载</td>
+<td>①商用无使用费，但禁转售原图、禁冒充真人<a href="https://aitools.fyi/botika">https://aitools.fyi/botika</a></td>
+<td>价格多源冲突（$22–$46/月，20–600 积分），现价未核实；仅服装，不支持配饰/珠宝/童装模特；修图 1–5 个工作日，慢</td>
+</tr>
+<tr>
+<td><strong>Koozee</strong>（国外，新）</td>
+<td>未实测</td>
+<td>未实测：自称 Shopify 回传 + 固定模特</td>
+<td>★★：服装资产一站式，自称平铺转 3D/印花提取</td>
+<td>★：无公开 API（自家对比页自认）</td>
+<td>★★★：试穿 + 视频 + 上架回传一体</td>
+<td>未公开，需实测</td>
+<td>新工具，公开评价少；$0.17/图、$0.15/视频秒为厂商自称口径<a href="https://koozee.ai/blog/weshop-ai-alternatives">https://koozee.ai/blog/weshop-ai-alternatives</a>；Pro $22.90/月含 600 积分<a href="https://www.send2press.com/wire/koozee-launches-an-all-in-one-ai-visual-production-platform-for-apparel-e-commerce/">https://www.send2press.com/wire/koozee-launches-an-all-in-one-ai-visual-production-platform-for-apparel-e-commerce/</a></td>
+</tr>
+<tr>
+<td><strong>Modelia</strong>（国外）</td>
+<td>★★</td>
+<td>★★★：自称无限一致角色（高阶档）、品牌视觉指南</td>
+<td>★★★：平铺、人台、模特换模特</td>
+<td>★★★：公开 API、批量生成</td>
+<td>★★：图 + 视频（视频较新）</td>
+<td>未公开，需实测</td>
+<td>目录一致性与高级造型控制弱于高端工具（单源评测）；视频能力新、不成熟</td>
+</tr>
+<tr>
+<td><strong>WeShop AI</strong>（国外/香港）</td>
+<td>★★：手、脸需重生成（单源）</td>
+<td>★★：模特库大、市场本地化</td>
+<td>★★：人台转模特强</td>
+<td>★★：有 API（单源），积分消耗快</td>
+<td>★★★：图 + 视频 + 海报一体</td>
+<td>免费档无商用权，付费档有完整商用权（单源旧口径）</td>
+<td>价格多源冲突（$9.99–$12.99/月），现价未核实；内衣/贴身款常受限；无公开 API 文档细节</td>
+</tr>
+<tr>
+<td><strong>Pic Copilot / PicCopilot</strong>（阿里系，国外版）</td>
+<td>★★：蕾丝/透明面料难（单源）</td>
+<td>★★：自定义模特</td>
+<td>★★：平铺/供应商图</td>
+<td>★★：批量处理</td>
+<td>★★：12 种工具 + 详情页模板</td>
+<td>未公开，需实测</td>
+<td><strong>⚠ 停服风险</strong>：单源称 2026-09-27 起停售新用户，2026-12-07 23:59 停止服务<a href="https://camclo3d.com/compare/camclo-vs-pic-copilot">https://camclo3d.com/compare/camclo-vs-pic-copilot</a>；<strong>不要新接入</strong>，须向官方核实后再决策</td>
+</tr>
+<tr>
+<td><strong>POP 趋势 AI 智绘</strong>（国内）</td>
+<td>未实测</td>
+<td>未实测</td>
+<td>未实测：定位设计端（款式图/趋势），非上身试穿</td>
+<td>未公开，需实测</td>
+<td>设计端，非探店交付流</td>
+<td>未公开，需实测</td>
+<td>本次未找到可核查的现价/功能页；<strong>不要按“可用”选型，先索取试用账号实测</strong></td>
+</tr>
+<tr>
+<td><strong>Style3D</strong>（国内，3D 为主）</td>
+<td>未实测</td>
+<td>未实测</td>
+<td>未实测：3D 版型/虚拟试衣路线，需 3D 资产</td>
+<td>未公开，需实测</td>
+<td>设计/打版端，非短视频探店流</td>
+<td>未公开，需实测</td>
+<td>本次未找到可核查的现价/功能页；3D 路线前期建模成本高，不适合“最低成本调用算力”起步</td>
+</tr>
+</tbody>
+</table>
+<p><strong>选型结论③：</strong> 服装探店交付链 = <strong>FASHN（首帧上身图）+ Kling/Wan（图生视频）+ 实拍兜底</strong>，三件套。不要指望任何一个垂直工具同时解决“保真 + 一致性 + 视频 + 上架”。国内可用性上，FASHN/Koozee/Botika 均为海外服务，需核验国内访问、支付、发票与数据合规；POP/Style3D 未核实，不列入首选。</p>
+<hr />
+<h2>6. 定位建议</h2>
+<h3>6.1 三条路线对比</h3>
+<table>
+<thead>
+<tr>
+<th>路线</th>
+<th>起步投入③</th>
+<th>预期毛利③</th>
+<th>获客方式</th>
+<th>天花板③</th>
+<th>主要风险</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A. 垂直接单方</strong>（服装工厂店内容代做）</td>
+<td>现金 0.5–2 万元（算力预付 + 样片实拍差旅 + 剪辑工具）；人力 1 人全职 + 兼职剪辑</td>
+<td>接单价 −（算力×3 倍尝试 + 人工 + 实拍成本）；50 条/月档算力约 $4.5/条（见追问 1），若单条收费 300–800 元，算力占比 &lt;5%，毛利看人力效率</td>
+<td>产业带地推 + 抖音搜同行截流 + 1688 店铺私信 + 展会（见追问 2）</td>
+<td>③区域 + 品类天花板：单人 20–30 家月付客户后需招人；跨产业带复制靠样板间，不靠流量</td>
+<td>客户流失快（1–2 月无询盘即掉）；AI 内容同质化压价；合规（标识/虚假体验）连带责任</td>
+</tr>
+<tr>
+<td><strong>B. 工具渠道方</strong>（卖垂直工具/工作流订阅）</td>
+<td>现金 5–20 万元（产品化、客服、合规）；人力 2–3 人（产品+运营+客服）</td>
+<td>订阅毛利看留存与获客成本；工具方无公开毛利，我不知道</td>
+<td>内容获客 + 工具试用转化 + 产业带服务商分销</td>
+<td>③看品类渗透率：服装电商工具渗透后 ARPU 低，需多品类扩展</td>
+<td>底层模型降价直接打掉订阅价锚；Pic Copilot 式停服/政策变动；售后（出图不满意）成本高</td>
+</tr>
+<tr>
+<td><strong>C. 算力中间商</strong>（倒卖 API 额度/聚合）</td>
+<td>现金 2–10 万元（预付资源包沉淀）</td>
+<td>名义差价 20–45%（用户框架），本次核查<strong>未证实</strong>；fal/Runware 与官方同价，差价空间≈0</td>
+<td>价格战 + 社群分销</td>
+<td>③极低：无定价权，官方一降价即亏损；预付沉淀过期作废</td>
+<td><strong>最不适合</strong>：转售授权风险（火山条款）、Token 注水/换模型信任崩塌、预付过期、客户流失后沉淀自担</td>
+</tr>
+</tbody>
+</table>
+<h3>6.2 哪条不适合“不自建算力、不做底层”的起步者③</h3>
+<ul>
+<li><strong>C 算力中间商，不适合。</strong> 理由：①无自有算力 = 无成本优势，差价依赖“信息差 + 预付沉淀”，本次核查显示主流聚合与官方同价；②转售合规链最长，火山条款涉禁转售，聚合商授权链需逐家核验；③客户要的是“稳定 + 可审计”，一人中间商无法提供 SLA 与对账能力，纠纷时先赔。</li>
+<li><strong>B 工具渠道方，暂不适合一人起步。</strong> 理由：产品化与售后是重投入，且 Pic Copilot 停服案例说明工具方生死看平台/模型方脸色；可作为 A 跑通后的第二曲线（把 A 的工作流产品化），不是起点。</li>
+<li><strong>A 垂直接单方，唯一适合起点。</strong> 理由：投入最小、回款最快、需求验证最直接；算力全部外包，风险只剩交付质量与获客。</li>
+</ul>
+<h3>6.3 90 天行动建议（A 路线）</h3>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>做什么</th>
+<th>交付物 / 数字门槛</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1–30 天</td>
+<td>选 1 个产业带 + 1 个品类（如广州沙河女装基础款 / 杭州四季青）；做 3 条样片（见追问 2 规格）；跑固定 prompt 回归测试，定自己的可用率与单条算力成本；注册 fal + Runware + 百炼 3 个渠道，各充小额</td>
+<td>样片 3 条；实测可用率表；渠道账单截图</td>
+</tr>
+<tr>
+<td>第 31–60 天</td>
+<td>按追问 2 优先级触达前 30 家，目标签 10 家付费（见验证门槛）；只接 B 端询盘型订单，不接纯 C 端种草单；每单留实拍兜底镜头</td>
+<td>付费客户 ≥5 家；询盘/拿样数据回收表</td>
+</tr>
+<tr>
+<td>第 61–90 天</td>
+<td>复盘：留存、复购、单客户毛利；决定是否加人/加品类；若 10 家中 &lt;3 家复购，停掉 C 端线，只做 B 端 + 面料/工艺形态；若 ≥5 家复购，谈批量算力折扣</td>
+<td>90 天复购率、单客户 90 天总收入、算力占收入比</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>追问 1：可执行的采购清单（基于比价表）</h2>
+<h3>Q1.1 生产模型假设（③，全部数字由此推导）</h3>
+<ul>
+<li>每条成品 = 3 个 5 秒 AI 片段 = 15 秒 AI 素材 + 实拍/口播/字幕拼接。</li>
+<li>尝试倍数 3 次 / 可用片段 → 每条实际生成 45 秒。</li>
+<li>首帧图：3 张/条（FASHN v1.6，1 积分/张）。</li>
+<li>汇率 1 美元 = 7.1 元估算。税费、人力、剪辑、实拍、存储、带宽另计。</li>
+</ul>
+<h3>Q1.2 月产 50 条档：照着下单的表</h3>
+<table>
+<thead>
+<tr>
+<th>渠道</th>
+<th>用途与占比</th>
+<th>生成量</th>
+<th>单价</th>
+<th>小计（美元）</th>
+<th>充值建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fal — Wan 3.0，720P</td>
+<td>主路由 70%：图生视频终稿</td>
+<td>1575 秒</td>
+<td>$0.10/秒</td>
+<td>$157.50</td>
+<td>首充 $100，余额不足时再充 $100（fal 积分 365 天有效，单源）</td>
+</tr>
+<tr>
+<td>fal — Kling 3.0，720P 无音频</td>
+<td>副路由 30% + 降级备用</td>
+<td>675 秒</td>
+<td>$0.084/秒</td>
+<td>$56.70</td>
+<td>与 Wan 共用同一 fal 余额，不另充</td>
+</tr>
+<tr>
+<td>硅基流动 — Wan 2.2</td>
+<td>打样：每条 1 条 5 秒打样（不计入终稿 45 秒）</td>
+<td>50 条</td>
+<td>$0.29/条</td>
+<td>$14.50</td>
+<td>首充 $20（$1 免费额度为单源转述，不计入预算）</td>
+</tr>
+<tr>
+<td>FASHN API — v1.6</td>
+<td>首帧上身图</td>
+<td>150 张</td>
+<td>$0.075/张</td>
+<td>$11.25</td>
+<td>首充 $7.50（100 积分）+ 追加 $7.50</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>约 $239.95（约 ¥1704）</strong></td>
+<td><strong>首月现金支出约 $220–$240，余额结转下月</strong></td>
+</tr>
+<tr>
+<td><strong>单条算力成本</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>约 $4.80/条（约 ¥34/条）</strong></td>
+<td>含打样与首帧图；不含失败退款外的创意重试超支</td>
+</tr>
+</tbody>
+</table>
+<h3>Q1.3 月产 500 条档：照着下单的表</h3>
+<table>
+<thead>
+<tr>
+<th>渠道</th>
+<th>用途与占比</th>
+<th>生成量</th>
+<th>单价</th>
+<th>小计（美元）</th>
+<th>充值建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fal — Wan 3.0，720P</td>
+<td>主路由 70%</td>
+<td>15750 秒</td>
+<td>$0.10/秒</td>
+<td>$1575.00</td>
+<td>分 4 次充 $500，忌一次大额预付；同步询企业批量价</td>
+</tr>
+<tr>
+<td>fal — Kling 3.0，720P 无音频</td>
+<td>副路由 30%</td>
+<td>6750 秒</td>
+<td>$0.084/秒</td>
+<td>$567.00</td>
+<td>共用 fal 余额</td>
+</tr>
+<tr>
+<td>硅基流动 — Wan 2.2</td>
+<td>打样</td>
+<td>500 条</td>
+<td>$0.29/条</td>
+<td>$145.00</td>
+<td>按周充 $50</td>
+</tr>
+<tr>
+<td>FASHN API — v1.6</td>
+<td>首帧图</td>
+<td>1500 张</td>
+<td>$0.075/张</td>
+<td>$112.50</td>
+<td>月充 $120（1600 积分）</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>约 $2399.50（约 ¥17036）</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>单条算力成本</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>约 $4.80/条（约 ¥34/条）</strong></td>
+<td>与 50 条档相同：按量计费下无规模折扣，折扣须谈判取得</td>
+</tr>
+</tbody>
+</table>
+<p><strong>为什么不买 Kling $700 资源包③：</strong> 500 条档需 13500 单位（22500 秒 × 0.6 单位/秒），按 $0.14/单位 = $1890，与 fal 按量 $1890（22500×$0.084）完全相同，但资源包 180 天过期、无 rollover，现金沉淀风险更高。50 条档更用不完。只有“需要 20 并发 + 长期锁定价”时才考虑资源包。</p>
+<h3>Q1.4 每家接入成本</h3>
+<table>
+<thead>
+<tr>
+<th>渠道</th>
+<th>注册门槛</th>
+<th>实名要求</th>
+<th>是否需要对公</th>
+<th>能否开票</th>
+<th>接口是否 OpenAI 兼容</th>
+<th>有无异步回调</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fal</td>
+<td>邮箱注册（②行业通行做法）</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测（美国主体，国内合规发票能力须书面确认）</td>
+<td>否：fal 自有 API（②）</td>
+<td>有：Webhook + HMAC-SHA256 签名，重试投递<a href="https://higgsfield.ai/blog/best-ai-video-generation-apis">https://higgsfield.ai/blog/best-ai-video-generation-apis</a></td>
+</tr>
+<tr>
+<td>Runware</td>
+<td>邮箱注册（②）</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+</tr>
+<tr>
+<td>硅基流动</td>
+<td>邮箱/手机注册（②）</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测（国内主体，索取发票样张）</td>
+<td>是：OpenAI 兼容（官方宣称口径，单源）</td>
+<td>未公开，需实测</td>
+</tr>
+<tr>
+<td>Kling API</td>
+<td>开发者账号（②）</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>否：Kling 自有 API</td>
+<td>未公开，需实测</td>
+</tr>
+<tr>
+<td>阿里云百炼</td>
+<td>阿里云账号</td>
+<td>②阿里云账号实名是行业通行做法</td>
+<td>②企业发票需对公信息</td>
+<td>是：可开增值税发票（②行业通行做法，以百炼页为准）</td>
+<td>是：兼容 OpenAI（官方口径转述）</td>
+<td>有：异步任务（②）</td>
+</tr>
+<tr>
+<td>BytePlus ModelArk</td>
+<td>企业账号（②）</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+</tr>
+<tr>
+<td>Vidu / MiniMax</td>
+<td>邮箱注册（②）</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+</tr>
+<tr>
+<td>FASHN</td>
+<td>邮箱注册</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>未公开，需实测</td>
+<td>否：自有 REST API，TS/Python SDK</td>
+<td>有：轮询 + webhook<a href="https://fashn.ai/products/api">https://fashn.ai/products/api</a></td>
+</tr>
+</tbody>
+</table>
+<h3>Q1.5 多路由降级设计③（推断，工程做法）</h3>
+<p>优先级：<strong>P0 fal Wan 3.0 → P1 fal Kling 3.0（同余额，零切换成本）→ P2 Runware Wan 3.0 → P3 百炼 Wan 3.0（国内合规兜底）→ P4 硅基流动 Wan 2.2（降质打样，仅应急）</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>触发条件</th>
+<th>动作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单任务超时 &gt; 180 秒或 429/503</td>
+<td>自动重试 1 次同路由，仍失败则降级 P1，记录路由与任务 ID</td>
+</tr>
+<tr>
+<td>连续 3 个任务失败或单小时失败率 &gt;30%</td>
+<td>熔断该路由 30 分钟，流量全切 P1/P2，人工介入查账单</td>
+</tr>
+<tr>
+<td>账单异常（单任务扣费 &gt; 标价 1.5 倍）</td>
+<td>暂停该路由新任务，保留任务 ID + 返回的 Token/秒数字段，发起对账</td>
+</tr>
+<tr>
+<td>模型方公告涨价/下线</td>
+<td>48 小时内切主路由，旧路由余额用完即停，不续充</td>
+</tr>
+</tbody>
+</table>
+<p>降级不降质检标准：降级路由产出的片段同样过“服装失真三检”（颜色/图案/版型），不合格不计入交付。</p>
+<h3>Q1.6 对账核验方法：发现 Token 注水或偷换模型③</h3>
+<table>
+<thead>
+<tr>
+<th>核验项</th>
+<th>方法</th>
+<th>频率 / 样本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>固定 prompt 回归测试</td>
+<td>固定 1 张首帧图 + 1 段 prompt + 固定分辨率/时长，每周在每个在用渠道各跑 3 次；记录：任务 ID、模型 ID（model id）、返回的 Token/秒数、扣费、耗时、输出文件哈希（hash）</td>
+<td>每周 1 次，每渠道 3 样本</td>
+</tr>
+<tr>
+<td>计费复算</td>
+<td>用官方计价公式复算：Kling = 秒数 × 单位/秒 × $0.14；Seedance =（输入+输出时长）× 宽 × 高 × 帧率 /1024 × Token 单价；Wan = 秒数 × 分辨率单价。账单扣费与复算偏差 &gt;5% 即标记</td>
+<td>每周对账 1 次</td>
+</tr>
+<tr>
+<td>模型偷换检测</td>
+<td>①比对输出元数据/水印与模型方特征；②同一 prompt 在官方渠道与聚合渠道的输出做感知哈希（perceptual hash）相似度比对，相似度异常低 + 价格异常低 = 疑似换模型；③查任务返回的模型字段是否与请求一致，不一致即停用</td>
+<td>回归测试时同步做</td>
+</tr>
+<tr>
+<td>失败计费核验</td>
+<td>故意构造 1 个必失败任务（如超限时长），查是否扣费；技术失败应退款/不计费，创意失败（能出但不能用）不退款——两者分开记账</td>
+<td>上线前 1 次 + 每月抽查</td>
+</tr>
+<tr>
+<td>账单留存</td>
+<td>每任务存：请求参数、模型 ID、扣费、输出 URL、质检结果；月度导出对账单，与渠道后台余额变动勾稽</td>
+<td>每任务必存</td>
+</tr>
+</tbody>
+</table>
+<h3>Q1.7 能直接拿到的渠道折扣及申请方式</h3>
+<table>
+<thead>
+<tr>
+<th>折扣</th>
+<th>内容</th>
+<th>申请方式</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vidu Q4 首发/限时</td>
+<td>0.09 元/秒起；图生/参考生 7 折至 11 月 30 日</td>
+<td>官网活动页直接用，无申请</td>
+<td>①<a href="https://www.globenewswire.com/news-release/2026/10/07/3376813/0/en/shengshu-technology-launches-vidu-q4-preview-a-next-generation-ai-video-model-built-for-lifelike-performances.html">https://www.globenewswire.com/news-release/2026/10/07/3376813/0/en/shengshu-technology-launches-vidu-q4-preview-a-next-generation-ai-video-model-built-for-lifelike-performances.html</a>，过期即失效</td>
+</tr>
+<tr>
+<td>Wan 3.0 7 折</td>
+<td>8.24–9.23，百炼与千问平台</td>
+<td>已过期</td>
+<td>①已过期，不计入预算</td>
+</tr>
+<tr>
+<td>Kling 大包折扣</td>
+<td>30000+ 单位 9 折（单源）</td>
+<td>开发者平台资源包页直接买</td>
+<td>②单源，需在官方页核实</td>
+</tr>
+<tr>
+<td>fal / Runware 企业批量价</td>
+<td>未公开价目，走销售谈判</td>
+<td>官网联系销售（Contact Sales）</td>
+<td>未公开，需实测</td>
+</tr>
+<tr>
+<td>教育/初创折扣</td>
+<td><strong>未找到</strong>：本次检索未找到 Kling/Vidu/百炼/fal/Runware 面向教育或初创的公开折扣政策</td>
+<td>—</td>
+<td><strong>我不知道</strong>是否存在，需逐家发邮件问销售并留书面回复</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>追问 2：最小成本需求验证方案（垂直接单方起步）</h2>
+<h3>Q2.1 前 10 个付费客户从哪里找：优先级排序</h3>
+<table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>渠道</th>
+<th>为什么排这里③</th>
+<th>每周投入</th>
+<th>目标</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>档口实地（产业带市场内扫街）</td>
+<td>决策人当场在、可看货、可当场拍样片素材；B 端信任靠“到场”建立，线上私信无法替代</td>
+<td>3 个半天/周，1 个市场</td>
+<td>每周谈 10 家，加微信 5 家</td>
+</tr>
+<tr>
+<td>2</td>
+<td>抖音搜同行（搜“工厂店/源头工厂/产业带 + 品类”，找已发视频但画质差、更新断更的号）</td>
+<td>对方已有内容意识，缺的是“更好更快”，不用教育市场</td>
+<td>每天 30 分钟</td>
+<td>每天私信 5 家，话术见 Q2.2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>行业展会 / 产业带活动（换季订货会、溯源直播节类）</td>
+<td>批量触达 + 决策人集中，1 天顶 1 周扫街</td>
+<td>按展会日历</td>
+<td>每场加微信 20 家，会后 3 天内发样片</td>
+</tr>
+<tr>
+<td>4</td>
+<td>产业带商会 / 园区运营方</td>
+<td>可批量背书，但决策链长、需关系导入，起步慢</td>
+<td>1 次拜访/2 周</td>
+<td>拿到 1 个园区推荐名额或活动摊位</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1688 店铺私信</td>
+<td>触达量大、回复率低、比价狠；适合补量，不适合首批</td>
+<td>每天 20 封</td>
+<td>回复率目标 5%，转化目标 0</td>
+</tr>
+</tbody>
+</table>
+<h3>Q2.2 沟通话术（可直接用，不像卖课的版本）</h3>
+<p><strong>30 秒开场白（实地/电话通用）：</strong></p>
+<blockquote>
+<p>“老板您好，我是做服装工厂短视频的，就在[市场名]这边跑。您这款[具体款名/挂在门口的那件]，我刚才拍了张平铺图，10 分钟能给您出一张模特上身图、一段 5 秒动图，您看一眼，觉得像您家货再谈，不像就当没来过。您平时上新是自己拍还是找人拍？”</p>
+</blockquote>
+<p>要点③：不说“AI 赋能”“流量密码”“风口”；只说具体款、具体时间、具体交付物；把“看一眼再谈”放在前面。</p>
+<p><strong>最可能提的三个抗拒点与应答：</strong></p>
+<table>
+<thead>
+<tr>
+<th>抗拒点</th>
+<th>应答（直接说）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“AI 的图不像我家货，客人要退货。”</td>
+<td>“您说得对，印花和真丝的我不接 AI，只接素色基础款。而且我每条都配一张您手机实拍的细节图放详情页第二张，AI 图只放第一张引流。退货那张图我不收钱，您先拿 3 个款试，退货涨了就停。”</td>
+</tr>
+<tr>
+<td>“我找人拍过，没效果。”</td>
+<td>“没效果多半是发了没人看的款，或者账号没坚持。您给我 3 个这个月主推的款，我按 B 端拿货的拍法做一条：车间 3 秒 + 面料 3 秒 + 上身 5 秒，标题写起批量和拿货价，发 7 天，询盘不到 3 个，这条我不收钱。”</td>
+</tr>
+<tr>
+<td>“多少钱？太贵了。”</td>
+<td>“单条 300，3 条起做，包 2 次修改。您之前找代运营一个月 6000 起，我这是按条算，不签月。先做 3 条，觉得询盘有用再谈包月，觉得没用就停，不押款。”</td>
+</tr>
+</tbody>
+</table>
+<p>数字说明：单条 300 元为本方案<strong>建议的第一单定价③</strong>，取餐饮 AI 探店报价带下限（300–500 元），服装 B 端单的修改与实拍兜底成本更高，300 元是“验证价”不是“长期价”，见 Q2.5。</p>
+<h3>Q2.3 样品规格（刻意展示什么、刻意避开什么）</h3>
+<table>
+<thead>
+<tr>
+<th>项</th>
+<th>规格</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>时长</td>
+<td>15 秒整：车间/仓库 3 秒 + 面料/工艺 3 秒 + 上身 5 秒 + 价格/起批量字幕 4 秒</td>
+</tr>
+<tr>
+<td>分辨率</td>
+<td>720P（1080P 只在客户确认要投流后再出，省算力）</td>
+</tr>
+<tr>
+<td>内容结构</td>
+<td>首帧实拍图锚定 → 图生视频小幅运镜/慢转身 → 实拍细节图收尾 → 字幕：款号、面料成分、起批量、拿货价区间、微信号</td>
+</tr>
+<tr>
+<td>刻意展示</td>
+<td>①真车间/真仓库（实拍，哪怕手机拍）；②面料成分与克重字幕；③起批量与拿货价（B 端决策信息）；④同一模特 3 个款（一致性展示）</td>
+</tr>
+<tr>
+<td>刻意避开</td>
+<td>①长裙/阔腿裤/丝巾飘动；②西装翻领/腰线特写；③细格纹/小 logo 满版；④手拉拉链/扣扣子；⑤全身快转；⑥多层叠穿；⑦数字人声称“亲测/到店体验”</td>
+</tr>
+<tr>
+<td>标识</td>
+<td>片头或角落加“AI 生成”显式标识（①法规要求，见 1.2）；详情页注明 AI 图 + 实拍细节图</td>
+</tr>
+</tbody>
+</table>
+<h3>Q2.4 验证指标的明确量化门槛（90 天内，10 家样本）</h3>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>成立门槛③</th>
+<th>不成立门槛</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>付费转化</td>
+<td>触达 30 家，付费 ≥10 家（转化率 ≥33%）</td>
+<td>触达 50 家，付费 &lt;5 家</td>
+</tr>
+<tr>
+<td>复购</td>
+<td>10 家中 ≥4 家在 30 天内复购第 2 单</td>
+<td>10 家中 ≤1 家复购</td>
+</tr>
+<tr>
+<td>B 端效果</td>
+<td>单客户 7 天内有效询盘（问价/问起批量/要样）≥3 个</td>
+<td>连续 3 家 0 询盘，且非选款问题</td>
+</tr>
+<tr>
+<td>交付成本</td>
+<td>单条算力 ≤¥40，单条总工时 ≤2 小时（含挑图与修改）</td>
+<td>单条算力 &gt;¥80 或工时 &gt;4 小时</td>
+</tr>
+<tr>
+<td>退货/投诉</td>
+<td>C 端单：AI 图款退货率不高于该店平均 +2 个百分点</td>
+<td>高于平均 +5 个百分点，立即停 C 端线</td>
+</tr>
+<tr>
+<td>回款</td>
+<td>10 家全部先付后做，0 坏账</td>
+<td>出现 2 家以上拖欠，改全款+押金</td>
+</tr>
+</tbody>
+</table>
+<p><strong>需求成立的判定③：</strong> 付费 ≥10 家 <strong>且</strong> 复购 ≥4 家 <strong>且</strong> 询盘门槛达标，三项同时满足才算成立；只满足付费一项 = “有人愿意试”，不是“需求成立”。</p>
+<h3>Q2.5 第一单定价及如何避免低价泥潭</h3>
+<table>
+<thead>
+<tr>
+<th>项</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一单价</td>
+<td>300 元/条，3 条起做（900 元/单），包 2 次修改，第 3 次起 50 元/次</td>
+</tr>
+<tr>
+<td>包月价（复购后）</td>
+<td>15 条/月 3600 元（240 元/条），25 条/月 5000 元（200 元/条）；不含投流费、不含实拍差旅（市内含，跨市另计）</td>
+</tr>
+<tr>
+<td>不陷入低价泥潭的 3 条硬规则③</td>
+<td>①不接 100 元以下单条：低于算力×3 + 2 小时工时即亏；②不承诺 GMV/爆款：只承诺交付标准与询盘统计口径，效果写进合同“不保证”；③涨价锚：首单 300 元是“3 款试单价”，合同写明“试单后恢复 400 元/条”，复购包月才享折扣</td>
+</tr>
+<tr>
+<td>报价单写法</td>
+<td>分项列：AI 生成费 + 实拍兜底 + 剪辑字幕 + 修改次数，客户砍价时砍“条数/修改次数”，不砍“单价”</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Could not verify / 未找到、未公开的关键信息清单</h2>
+<ol>
+<li>服装 AI 探店细分市场规模（GMV、条数、商家数）——无公开数据，我不知道。</li>
+<li>抖音“王牌工厂”600+ 家、平台侧治理数据（服装类 AI 内容处置量）——本次未找到官方/独立信源，未复核用户已核实背景。</li>
+<li>海宁服装厂二代 30 天 GMV 227 万、ROI 10——本次未找到独立信源，未复核。</li>
+<li>服装类 AI 视频首条可用率精确值——无公开统计，本报告用工作假设（3 次尝试/可用片段），须实测。</li>
+<li>4stoken 的价格、额度、并发、主体、开票——未找到。</li>
+<li>POP 趋势 AI 智绘、Style3D 的现价与功能细节——未找到可核查页面。</li>
+<li>Botika、WeShop 的现价（多源冲突）——未核实，以官网实时页为准。</li>
+<li>各渠道并发上限（除 Kling、fal、FASHN 外）、失败计费细则（除已注明的渠道外）——未公开，需实测。</li>
+<li>各渠道商用授权全文、教育/初创折扣政策——未找到公开政策。</li>
+<li>代运营/MCN/工具方的经审计毛利率——无分拆公开数据，我不知道。</li>
+<li>Kling 官方定价页本次 live 打开为空白 JS 页，价格为多家第三方重读转述，已交叉核对但非 live 直读。</li>
+<li>火山方舟国内人民币版 Seedance 2.5 现价——仅有单篇行业报道的 70 元/百万 Token 口径，未在官方页直读。</li>
+</ol>
+<h2>Sources / 参考来源清单</h2>
+<table>
+<thead>
+<tr>
+<th>标题</th>
+<th>发布方 / 作者</th>
+<th>日期</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“AI探店”成生意，有制作公司月流水达800万元</td>
+<td>21经济网（转证券时报）</td>
+<td>2026-10-26</td>
+<td><a href="https://www.21jingji.com/article/20261026/herald/009bb4835ef8b675e3b1f443e15bc0d5.html">https://www.21jingji.com/article/20261026/herald/009bb4835ef8b675e3b1f443e15bc0d5.html</a></td>
+</tr>
+<tr>
+<td>AI探店火了，有代做公司月流水达800万元，律师：或涉虚假宣传</td>
+<td>21经济网</td>
+<td>2026-10-26</td>
+<td><a href="https://www.21jingji.com/article/20261026/herald/f2f2443ad7fe27c62118b673a7d27e98.html">https://www.21jingji.com/article/20261026/herald/f2f2443ad7fe27c62118b673a7d27e98.html</a></td>
+</tr>
+<tr>
+<td>Why Labfresh ditched AI campaigns after four seasons</td>
+<td>FashionUnited</td>
+<td>2025-07-09</td>
+<td><a href="https://fashionunited.uk/news/business/why-labfresh-ditched-ai-campaigns-after-four-seasons-humans-perform-better/2025070982715">https://fashionunited.uk/news/business/why-labfresh-ditched-ai-campaigns-after-four-seasons-humans-perform-better/2025070982715</a></td>
+</tr>
+<tr>
+<td>AI in Fashion Market</td>
+<td>Emergen Research</td>
+<td>2025（预测）</td>
+<td><a href="https://www.emergenresearch.com/cn/industry-report/ai-in-fashion-market">https://www.emergenresearch.com/cn/industry-report/ai-in-fashion-market</a></td>
+</tr>
+<tr>
+<td>纺织商圈招工 会用AI成加分项</td>
+<td>广州日报·花城</td>
+<td>2026-10-08</td>
+<td><a href="https://huacheng.gz-cmc.com/pages/2026/10/08/40424dde4b7a4642b1e3d26a104cbfd0.html">https://huacheng.gz-cmc.com/pages/2026/10/08/40424dde4b7a4642b1e3d26a104cbfd0.html</a></td>
+</tr>
+<tr>
+<td>成本和流量压力之下，大厂又开始自建MCN了</td>
+<td>人人都是产品经理</td>
+<td>2026-10-24</td>
+<td><a href="https://www.woshipm.com/share/6483707.html">https://www.woshipm.com/share/6483707.html</a></td>
+</tr>
+<tr>
+<td>18000家MCN疯狂赔钱</td>
+<td>XPsee</td>
+<td>2026-10-27</td>
+<td><a href="https://www.xpsee.com/18000-jia-mcn-feng-kuang-pei-qian-lan-hai-bian/">https://www.xpsee.com/18000-jia-mcn-feng-kuang-pei-qian-lan-hai-bian/</a></td>
+</tr>
+<tr>
+<td>2026年龙岩短视频代运营全案选型与预算指南</td>
+<td>天狐影视龙岩站</td>
+<td>2026-10-20</td>
+<td><a href="https://longyan.tianhuchine.com/city_news_info/245691.html">https://longyan.tianhuchine.com/city_news_info/245691.html</a></td>
+</tr>
+<tr>
+<td>AI 生成内容标识办法合规要点：门店短视频自查清单</td>
+<td>万映市场洞察</td>
+<td>2026-10-12</td>
+<td><a href="https://www.wanying668.com/insights/ai-neirong-biaoshi-hegui-yaodian.html">https://www.wanying668.com/insights/ai-neirong-biaoshi-hegui-yaodian.html</a></td>
+</tr>
+<tr>
+<td>2026年找市场货源批发的 app 综合实力排行榜</td>
+<td>BarenBang</td>
+<td>2026</td>
+<td><a href="https://www.barenbang.com/0be827670665172a/729f7197edcf3e46.html">https://www.barenbang.com/0be827670665172a/729f7197edcf3e46.html</a></td>
+</tr>
+<tr>
+<td>把直播间搭进产业带！嘉兴“三件冬衣”溯源直播节在平湖启幕</td>
+<td>新浪财经</td>
+<td>2026-10-19</td>
+<td><a href="https://finance.sina.cn/2026-10-19/detail-inivumam6887830.d.html">https://finance.sina.cn/2026-10-19/detail-inivumam6887830.d.html</a></td>
+</tr>
+<tr>
+<td>你的“双十一”女装模特，可能不是真人</td>
+<td>新浪财经</td>
+<td>2026-10-23</td>
+<td><a href="https://finance.sina.cn/2026-10-23/detail-iniweiyu8167340.d.html">https://finance.sina.cn/2026-10-23/detail-iniweiyu8167340.d.html</a></td>
+</tr>
+<tr>
+<td>Shein’s AI Ad Campaign: How OpenArt Built It in a Month</td>
+<td>OpenArt</td>
+<td>2026-10-19</td>
+<td><a href="https://openart.ai/blog/shein-ai-fashion-ad-campaign/">https://openart.ai/blog/shein-ai-fashion-ad-campaign/</a></td>
+</tr>
+<tr>
+<td>Kling AI Developer Platform Pricing（官方定价页，本次 live 打开为空白）</td>
+<td>Kling AI</td>
+<td>2026-10-21抓取</td>
+<td><a href="https://kling.ai/dev/pricing">https://kling.ai/dev/pricing</a></td>
+</tr>
+<tr>
+<td>Kling API Pricing: Official Cost vs Aggregators (2026)</td>
+<td>Aireiter</td>
+<td>2026-09</td>
+<td><a href="https://aireiter.com/blog/kling-api-pricing">https://aireiter.com/blog/kling-api-pricing</a></td>
+</tr>
+<tr>
+<td>Kling AI Pricing 2026</td>
+<td>Framesurfer</td>
+<td>2026-10</td>
+<td><a href="https://framesurfer.com/blogs/kling-ai-pricing">https://framesurfer.com/blogs/kling-ai-pricing</a></td>
+</tr>
+<tr>
+<td>Kling 4.0 Pricing: Plans, Credits and API Status</td>
+<td>Wireflow</td>
+<td>2026-10</td>
+<td><a href="https://www.wireflow.ai/blog/kling-4-0-pricing">https://www.wireflow.ai/blog/kling-4-0-pricing</a></td>
+</tr>
+<tr>
+<td>Kling 4.0 API Pricing on fal</td>
+<td>Aireiter</td>
+<td>2026-10</td>
+<td><a href="https://aireiter.com/blog/kling-4-0-api-pricing-fal-cost-vs-seedance-vidu">https://aireiter.com/blog/kling-4-0-api-pricing-fal-cost-vs-seedance-vidu</a></td>
+</tr>
+<tr>
+<td>Kling and Seedance 4K: Can You Use Their APIs Yet?</td>
+<td>Digital Applied</td>
+<td>2026-10-26</td>
+<td><a href="https://www.digitalapplied.com/blog/ai-video-model-api-access-kling-4-seedance-4k">https://www.digitalapplied.com/blog/ai-video-model-api-access-kling-4-seedance-4k</a></td>
+</tr>
+<tr>
+<td>价格从“元”降到“分”，AI视频的下半场开打了</td>
+<td>人人都是产品经理</td>
+<td>2026-10-16</td>
+<td><a href="https://www.woshipm.com/ai/6478901.html">https://www.woshipm.com/ai/6478901.html</a></td>
+</tr>
+<tr>
+<td>Seedance 2.5 深度解读</td>
+<td>摘星网</td>
+<td>2026-10-20</td>
+<td><a href="https://www.zhaixingw.cn/ai-news/60.html">https://www.zhaixingw.cn/ai-news/60.html</a></td>
+</tr>
+<tr>
+<td>总支出近亿，电视台掀起AI算力采购潮</td>
+<td>Marsbit</td>
+<td>2026-10-26</td>
+<td><a href="https://news.marsbit.co/20261026100249935279.html">https://news.marsbit.co/20261026100249935279.html</a></td>
+</tr>
+<tr>
+<td>阿里巴巴视频生成模型Wan3.0上线</td>
+<td>智通财经（转）</td>
+<td>2026-10-20</td>
+<td><a href="https://65687297926377.apostaorbihouse.com/article/20261020/58517419.html">https://65687297926377.apostaorbihouse.com/article/20261020/58517419.html</a></td>
+</tr>
+<tr>
+<td>阿里云百炼模型价格表（转录）</td>
+<td>OceanLeo</td>
+<td>2026-07</td>
+<td><a href="https://api.oceanleo.com/v1/models/pricing-doc/bailian/pdf">https://api.oceanleo.com/v1/models/pricing-doc/bailian/pdf</a></td>
+</tr>
+<tr>
+<td>Shengshu Technology Launches Vidu Q4 Preview</td>
+<td>GlobeNewswire / 生数科技</td>
+<td>2026-10-07</td>
+<td><a href="https://www.globenewswire.com/news-release/2026/10/07/3376813/0/en/shengshu-technology-launches-vidu-q4-preview-a-next-generation-ai-video-model-built-for-lifelike-performances.html">https://www.globenewswire.com/news-release/2026/10/07/3376813/0/en/shengshu-technology-launches-vidu-q4-preview-a-next-generation-ai-video-model-built-for-lifelike-performances.html</a></td>
+</tr>
+<tr>
+<td>Vidu Q4 Preview sells AI video from $0.014 a second at launch</td>
+<td>SLOP TV News</td>
+<td>2026-10-08</td>
+<td><a href="https://sloptvnews.com/vidu-q4-preview-price-per-second-launch-promo-vs-list/">https://sloptvnews.com/vidu-q4-preview-price-per-second-launch-promo-vs-list/</a></td>
+</tr>
+<tr>
+<td>Hailuo AI Pricing 2026</td>
+<td>Aireiter</td>
+<td>2026-09</td>
+<td><a href="https://aireiter.com/blog/hailuo-ai-pricing">https://aireiter.com/blog/hailuo-ai-pricing</a></td>
+</tr>
+<tr>
+<td>Hailuo AI Video in 2026: H3 Models, Plans and Free Credits</td>
+<td>Framesurfer</td>
+<td>2026-10</td>
+<td><a href="https://framesurfer.com/blogs/hailuo-ai-video">https://framesurfer.com/blogs/hailuo-ai-video</a></td>
+</tr>
+<tr>
+<td>9 Best AI Video Generation APIs in 2026</td>
+<td>Higgsfield</td>
+<td>2026-10</td>
+<td><a href="https://higgsfield.ai/blog/best-ai-video-generation-apis">https://higgsfield.ai/blog/best-ai-video-generation-apis</a></td>
+</tr>
+<tr>
+<td>AI Video API Pricing vs Subscriptions in 2026</td>
+<td>Higgsfield</td>
+<td>2026-10</td>
+<td><a href="https://higgsfield.ai/blog/ai-video-api-pricing-vs-subscriptions">https://higgsfield.ai/blog/ai-video-api-pricing-vs-subscriptions</a></td>
+</tr>
+<tr>
+<td>Wan2.2-T2V-A14B 模型页（官方）</td>
+<td>SiliconFlow</td>
+<td>2025-08</td>
+<td><a href="https://www.siliconflow.com/models/wan2-2-t2v-a14b">https://www.siliconflow.com/models/wan2-2-t2v-a14b</a></td>
+</tr>
+<tr>
+<td>Wan 2.2 Series Now Available on SiliconFlow（官方）</td>
+<td>SiliconFlow</td>
+<td>2025-08</td>
+<td><a href="https://www.siliconflow.com/blog/wan-2-2-series-now-available-on-siliconflow-generate-stable-realistic-and-cinematic-videos">https://www.siliconflow.com/blog/wan-2-2-series-now-available-on-siliconflow-generate-stable-realistic-and-cinematic-videos</a></td>
+</tr>
+<tr>
+<td>Pricing（官方文档示例）</td>
+<td>Runware</td>
+<td>2026-10</td>
+<td><a href="https://runware.ai/docs/models-api/pricing">https://runware.ai/docs/models-api/pricing</a></td>
+</tr>
+<tr>
+<td>Runware Pricing: AI Models API, Serverless and GPU Compute（官方）</td>
+<td>Runware</td>
+<td>2026-10</td>
+<td><a href="https://runware.ai/pricing">https://runware.ai/pricing</a></td>
+</tr>
+<tr>
+<td>Replicate Pricing 2026: The Idle-Time Billing Catch</td>
+<td>AMPM AIOps</td>
+<td>2026-10</td>
+<td><a href="https://ampm-aiops.com/en/guides/replicate-price-2026/">https://ampm-aiops.com/en/guides/replicate-price-2026/</a></td>
+</tr>
+<tr>
+<td>阿里开源Wan2.2：5B参数实现电影级视频生成</td>
+<td>CSDN</td>
+<td>2025-07</td>
+<td><a href="https://blog.csdn.net/gitblog_00212/article/details/153810711">https://blog.csdn.net/gitblog_00212/article/details/153810711</a></td>
+</tr>
+<tr>
+<td>零基础也能部署！Wan2.2-TI2V-5B本地运行全攻略</td>
+<td>AI铺子</td>
+<td>2026-01</td>
+<td><a href="https://www.aipuzi.cn/ai-tutorial/687.html">https://www.aipuzi.cn/ai-tutorial/687.html</a></td>
+</tr>
+<tr>
+<td>FASHN API Pricing: Credits &amp; Volume Discounts（官方帮助）</td>
+<td>FASHN</td>
+<td>2026-10</td>
+<td><a href="https://help.fashn.ai/plans-and-pricing/api-pricing">https://help.fashn.ai/plans-and-pricing/api-pricing</a></td>
+</tr>
+<tr>
+<td>Virtual Try-On &amp; Fashion AI API for Developers（官方）</td>
+<td>FASHN</td>
+<td>2026-10</td>
+<td><a href="https://fashn.ai/products/api">https://fashn.ai/products/api</a></td>
+</tr>
+<tr>
+<td>Botika Pricing, Reviews, Alternatives</td>
+<td>AITools.fyi</td>
+<td>2026-10</td>
+<td><a href="https://aitools.fyi/botika">https://aitools.fyi/botika</a></td>
+</tr>
+<tr>
+<td>9 Best Botika Alternatives for Fashion Brands in 2026</td>
+<td>Modelia</td>
+<td>2026-09</td>
+<td><a href="https://modelia.ai/blog/botika-alternatives">https://modelia.ai/blog/botika-alternatives</a></td>
+</tr>
+<tr>
+<td>Koozee Launches an All-in-One AI Visual Production Platform</td>
+<td>Send2Press / STARII</td>
+<td>2026-08-18</td>
+<td><a href="https://www.send2press.com/wire/koozee-launches-an-all-in-one-ai-visual-production-platform-for-apparel-e-commerce/">https://www.send2press.com/wire/koozee-launches-an-all-in-one-ai-visual-production-platform-for-apparel-e-commerce/</a></td>
+</tr>
+<tr>
+<td>Best WeShop AI Alternatives for Apparel E-Commerce</td>
+<td>Koozee</td>
+<td>2026</td>
+<td><a href="https://koozee.ai/blog/weshop-ai-alternatives">https://koozee.ai/blog/weshop-ai-alternatives</a></td>
+</tr>
+<tr>
+<td>CamClo AI vs Pic Copilot</td>
+<td>CamClo 3D</td>
+<td>2026-09</td>
+<td><a href="https://camclo3d.com/compare/camclo-vs-pic-copilot">https://camclo3d.com/compare/camclo-vs-pic-copilot</a></td>
+</tr>
+<tr>
+<td>FASHN.ai Review 2026: Tested, Scored 8.7/10</td>
+<td>RemoveClothing</td>
+<td>2026-10</td>
+<td><a href="https://removeclothing.com/tools/fashn-ai">https://removeclothing.com/tools/fashn-ai</a></td>
+</tr>
+<tr>
+<td>Best AI Fashion Model APIs (2026)</td>
+<td>Uwear.ai</td>
+<td>2026-10</td>
+<td><a href="https://uwear.ai/blog/best-ai-fashion-model-apis">https://uwear.ai/blog/best-ai-fashion-model-apis</a></td>
+</tr>
+<tr>
+<td>ai生成试穿模特用在童装靠谱吗？六年童装店主的一季实测</td>
+<td>FlowPix</td>
+<td>2026-10-06</td>
+<td><a href="https://www.flowpixai.com/ai-art/ai-mote-63d371.html">https://www.flowpixai.com/ai-art/ai-mote-63d371.html</a></td>
+</tr>
+<tr>
+<td>AI模特服装效果实测：50款衣服跑下来，成品率差了三倍</td>
+<td>FlowPix</td>
+<td>2026-10-05</td>
+<td><a href="https://www.flowpixai.com/ai-art/ai-mote-ce851d.html">https://www.flowpixai.com/ai-art/ai-mote-ce851d.html</a></td>
+</tr>
+<tr>
+<td>平拍模特AI实操：手里只有平铺图，我把30件春装全转成了真人上身</td>
+<td>FlowPix</td>
+<td>2026-10-06</td>
+<td><a href="https://www.flowpixai.com/ai-art/ai-mote-8b3b27.html">https://www.flowpixai.com/ai-art/ai-mote-8b3b27.html</a></td>
+</tr>
+<tr>
+<td>ai女装生成模特用了一个月：40个新款出图，我没再约过摄影棚</td>
+<td>FlowPix</td>
+<td>2026-10-06</td>
+<td><a href="https://www.flowpixai.com/ai-art/ai-mote-b55045.html">https://www.flowpixai.com/ai-art/ai-mote-b55045.html</a></td>
+</tr>
+<tr>
+<td>服装ai模特试穿怎么用？大码连衣裙先让AI替我试一遍</td>
+<td>FlowPix</td>
+<td>2026-10-06</td>
+<td><a href="https://www.flowpixai.com/ai-art/ai-mote-fef279.html">https://www.flowpixai.com/ai-art/ai-mote-fef279.html</a></td>
+</tr>
+<tr>
+<td>ai淘宝模特采访手记：聊完5位店主</td>
+<td>FlowPix</td>
+<td>2026-10-05</td>
+<td><a href="https://www.flowpixai.com/ai-art/ai-mote-4073af.html">https://www.flowpixai.com/ai-art/ai-mote-4073af.html</a></td>
+</tr>
+<tr>
+<td>Four AI Video Models Walk Into a Production Budget</td>
+<td>Just Visiting Reality</td>
+<td>2026-09-30</td>
+<td><a href="https://www.justvisitingreality.com/articles/four-ai-video-models-production-budget">https://www.justvisitingreality.com/articles/four-ai-video-models-production-budget</a></td>
+</tr>
+<tr>
+<td>GPU Cost Calculator — Cloud GPU Rental Pricing 2026</td>
+<td>NeftCal</td>
+<td>2026-08</td>
+<td><a href="https://www.neftcal.com/gpu-cost-calculator.html">https://www.neftcal.com/gpu-cost-calculator.html</a></td>
+</tr>
+</tbody>
+</table>
+<div class="foot">来源：Alder（Muse）· 服装 AI 探店调研 · 2026-10-28 · 时效数据（模型价格、额度、折扣）使用前请复核官方页面。</div>
+</div>
+</body>
+</html>
