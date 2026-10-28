@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>汇总入口 · CCD-AIGC 静态汇报页</title>
+<style>
+:root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 56px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#0ea5e9);color:#fff;padding:36px 0 28px}
+.hero h1{margin:0 0 8px;font-size:30px;line-height:1.25}
+.hero p{margin:4px 0;color:#dbeafe;font-size:15px}
+.date-pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:14px;margin-bottom:14px}
+h2{font-size:21px;margin:34px 0 12px}
+h2 small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.card h3{margin:0 0 6px;font-size:18px;line-height:1.5}
+.card p{margin:0 0 12px;color:var(--muted);font-size:14px}
+.tag{display:inline-block;background:#eef2ff;color:#3730a3;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;margin-bottom:10px}
+.btn{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-size:14px}
+.btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--line);margin-left:8px}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:16px;padding:16px;font-size:14px;color:#57534e}
+footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:560px){.hero h1{font-size:25px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap" style="padding-bottom:0">
+<span class="date-pill">更新于 2026-10-28</span>
+<h1>汇总入口</h1>
+<p>CCD-AIGC 的公开静态汇报页，一个入口，全部在这儿。</p>
+</div></header>
+<div class="wrap">
+<h2>汇报页<small>点卡片直接打开；新页面上线后会加到这里。</small></h2>
+<div class="grid">
+<article class="card">
+<span class="tag">每天 08:36 更新</span>
+<h3>每日热点榜单</h3>
+<p>B站 + 抖音各 Top 50，只看值得注意的新上榜与增速，往期按天存档。</p>
+<a class="btn" href="index.html">打开今日榜单</a><a class="btn ghost" href="archive/2026-10-28.html">2026-10-28 存档</a>
+</article>
+<article class="card">
+<span class="tag">每天约 09:51 / 20:51 各查一次</span>
+<h3>B站 AI 爆款新号跟踪器</h3>
+<p>只用 B站公开页面，跟踪低粉高播的 AI 相关新号。2026-10-28 首轮为基线，已发现 5 个新号。</p>
+<a class="btn" href="tracker.html">打开跟踪器</a>
+</article>
+</div>
+<h2>仓库<small>页面源码、数据与更新记录都在这里。</small></h2>
+<div class="grid">
+<article class="card">
+<span class="tag">公开仓库</span>
+<h3>CCD-AIGC / daily-hotlist</h3>
+<p>榜单数据（data/*.json）、渲染脚本与每日自动发布工作流。</p>
+<a class="btn" href="https://github.com/CCD-AIGC/daily-hotlist">打开仓库</a>
+</article>
+</div>
+<div class="note" style="margin-top:24px">说明：本页只收公开的汇报页。Mac 磁盘空间管理那几个页面是本机工具界面（私有仓库），不在这里汇总。</div>
+<footer>静态页面 · GitHub Pages 托管 · 数据只来自公开榜单页面</footer>
+</div>
+</body>
+</html>
