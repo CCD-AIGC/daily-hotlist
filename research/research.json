@@ -1,1 +1,38 @@
-{"column": "调研", "entries": [{"date": "2026-10-28", "file": "research/2026-10-28-ai-tandian-workbuddy.html", "note": "原文原样上传，内容未改；时效数据（模型价格等）以原文标注的核查时间为准，使用前复核官方页面。", "original_filename": "AI.html", "source": "WorkBuddy", "source_slug": "workbuddy", "subtitle": "产业链、成本结构与实现路径", "title": "AI 探店调研报告", "trigger": "《证券时报》2026-10-26 A2 版报道"}, {"date": "2026-10-28", "file": "research/2026-10-28-fuzhuang-ai-tandian-alder.html", "note": "由 deep research 报告全文转换，内容、数据与链接保留原文，未删节；时效数据使用前复核官方页面。", "source": "Alder", "source_slug": "alder", "subtitle": "行业全貌、算力比价与定位建议，另附采购清单与需求验证方案", "title": "服装 AI 探店调研报告", "trigger": "用户服装探店版提示词（主报告+追问1+追问2）"}], "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.", "updated": "2026-10-28"}
+{
+  "column": "调研",
+  "entries": [
+    {
+      "date": "2026-10-28",
+      "file": "research/2026-10-28-ai-tandian-workbuddy.html",
+      "note": "原文原样上传，内容未改；时效数据（模型价格等）以原文标注的核查时间为准，使用前复核官方页面。",
+      "original_filename": "AI.html",
+      "source": "WorkBuddy",
+      "source_slug": "workbuddy",
+      "subtitle": "产业链、成本结构与实现路径",
+      "title": "AI 探店调研报告",
+      "trigger": "《证券时报》2026-10-26 A2 版报道"
+    },
+    {
+      "date": "2026-10-28",
+      "file": "research/2026-10-28-fuzhuang-ai-tandian-alder.html",
+      "note": "由 deep research 报告全文转换，内容、数据与链接保留原文，未删节；时效数据使用前复核官方页面。",
+      "source": "Alder",
+      "source_slug": "alder",
+      "subtitle": "行业全貌、算力比价与定位建议，另附采购清单与需求验证方案",
+      "title": "服装 AI 探店调研报告",
+      "trigger": "用户服装探店版提示词（主报告+追问1+追问2）"
+    },
+    {
+      "date": "2026-10-29",
+      "file": "research/2026-10-29-douyin-hotlist-muse.html",
+      "note": "Muse 用 muse-global-research skill 做的示范解读；抖音 49 条来自 SnailDev/douyin-hot-hub 2026-10-29 06:18 存档，昨日排名来自 2026-10-28 同源存档；源站不给热度值，本页无热度列。",
+      "source": "Muse",
+      "source_slug": "muse",
+      "subtitle": "2026-10-29 抖音热榜 49 条的昨日对比、分类结构、跨平台对照与起号落点",
+      "title": "抖音热点调研示范版",
+      "trigger": "用户要求用 muse-global-research skill 做一版 HTML 并放到 hub.html"
+    }
+  ],
+  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
+  "updated": "2026-10-29"
+}

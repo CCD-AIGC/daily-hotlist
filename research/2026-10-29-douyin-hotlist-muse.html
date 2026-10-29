@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>抖音热点调研示范版 · 2026-10-29 · Muse Global Research</title>
+<style>
+:root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.7}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 56px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#0ea5e9);color:#fff;padding:36px 0 28px}
+.hero h1{margin:0 0 8px;font-size:29px;line-height:1.3}.hero p{margin:4px 0;color:#dbeafe;font-size:15px}
+.date-pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:14px;margin-bottom:14px}
+h2{font-size:21px;margin:34px 0 12px}h2 small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 1px 3px rgba(16,24,40,.06);margin-bottom:16px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-size:13px}tr td:first-child{white-space:nowrap}
+.tag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;font-weight:700}
+.tag.new{background:#fef3c7;color:#92400e}.tag.up{background:#dcfce7;color:#166534}
+.tag.down{background:#fee2e2;color:#991b1b}.tag.same{background:#eef2ff;color:#3730a3}
+.tag.src{background:#e0f2fe;color:#075985}.src{color:var(--muted);font-size:13px}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:16px;padding:16px;font-size:14px;color:#57534e}
+a{color:var(--blue)}footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:560px){.hero h1{font-size:24px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap" style="padding-bottom:0">
+<span class="date-pill">调研日期 2026-10-29 · 来源全部标注在每节下方</span>
+<h1>抖音热点调研示范版</h1>
+<p>用 Muse 的 muse-global-research skill 做的一版：先定题、先扫信号、再分层下结论，不把标题当热度、不把单日榜单当全站统计。</p>
+<p>本页不是今日榜单本身。今日榜单见 <a href="../index.html" style="color:#fff;text-decoration:underline">每日热点榜单首页</a>（#douyin 抖音一节）；本页是对同一批抖音数据的 skill 示范解读。</p>
+</div></header>
+<div class="wrap">
+
+<h2>结论先行<small>每条结论后都跟来源，推断处明确标“推断”</small></h2>
+<div class="card"><ul>
+<li><b>2026-10-29 的抖音热榜换血极快：</b>49 条里 44 条是昨日不在前 50 的新上榜，5 条延续，升 ≥10 位的 0 条。<span class="src">来源：SnailDev/douyin-hot-hub 当日存档（2026-10-29 06:18）与 2026-10-28 同源存档按标题精确比对；差分口径见首页说明。</span></li>
+<li><b>当日构成以国内时政、社会、体育、娱乐为主，</b>没有一条标题直接含 AI / DeepSeek / 大肥鱼 / 虚拟主播。<span class="src">来源：同上 49 条标题逐条核对；首页 2026-10-29 说明亦写明“抖音今日无 AI、DeepSeek、大肥鱼、虚拟主播直接相关条目”。</span></li>
+<li><b>延续的 5 条里没有大涨：</b>稻城亚丁（昨日第 4 → 今日第 2）、河头老街 NPC（昨日第 10 → 今日第 47，大幅下降）、其余 3 条小幅波动或持平。<span class="src">来源：2026-10-28 与 2026-10-29 同源存档标题精确比对。</span></li>
+<li><b>跨平台对照（推断，非榜单本身的结论）：</b>同日 B站前 50 里有 AI MV 大赛、AI 全民制作人、大肥鱼延续三条 AI 相关条目，抖音当日没有——同一天两平台的 AI 话题热度并不一致，起号时不能把 B站的 AI 热直接搬到抖音。<span class="src">B站来源：996Token 今日热榜 2026-10-29 08:13；抖音无 AI 条目来源同上。</span></li>
+</ul></div>
+
+<h2>方法：这版用了 skill 的哪几步<small>方法来源：CCD-AIGC/muse-global-research-skill，skills/muse-global-research/SKILL.md</small></h2>
+<div class="card"><ol>
+<li><b>定题：</b>研究对象 = 2026-10-29 抖音热榜 49 条；决策问题 = 当日什么在热、延续什么、起号可借什么角度；地理 = 国内为主，国外只做对照。</li>
+<li><b>信号扫：</b>先读抖音存档 + 昨日存档做差分，再读 B站同日榜单做跨平台对照，最后用 skill 的 Tier A 国外 RSS 做对照（见“国外对照”一节）。</li>
+<li><b>可信度分层：</b>榜单标题与排名 = 已核实（本轮从存档文件读到）；分类、起号角度 = 按标题的解读，标为“粗分 / 建议”，不是官方分类；热度值 = 未拿到（抖音源站不给热度值），本页不给任何一条编播放量或热度分。</li>
+<li><b>交付：</b>结论先行 + 分类结构 + 全部 49 条逐条标注昨日排名 + 未核实清单（见页尾）。</li>
+</ol></div>
+
+<h2>结构：按标题粗分<small>分类只按标题关键词读，不代表抖音官方分类；含义不明的标题归入“其他”，不硬归类</small></h2>
+<div class="card"><table><tr><th>类别（粗分）</th><th>条数</th><th>占比</th></tr><tr><td>生活文旅</td><td>12</td><td>24.5%</td></tr><tr><td>娱乐影视</td><td>10</td><td>20.4%</td></tr><tr><td>时政社会</td><td>9</td><td>18.4%</td></tr><tr><td>科技财经</td><td>5</td><td>10.2%</td></tr><tr><td>其他</td><td>5</td><td>10.2%</td></tr><tr><td>体育电竞</td><td>4</td><td>8.2%</td></tr><tr><td>游戏动漫</td><td>4</td><td>8.2%</td></tr></table>
+<p class="src">分类依据：本页 49 条标题本身；计数合计 49 条，与源站当日 49 条一致。娱乐影视 10 条、生活文旅 12 条是当日最大的两块；时政社会 9 条紧随其后。</p></div>
+
+<h2>昨日对比：延续的 5 条<small>来源：2026-10-28 与 2026-10-29 SnailDev/douyin-hot-hub 存档，标题精确比对</small></h2>
+<div class="card"><table><tr><th>今日排名</th><th>标题</th><th>昨日排名</th></tr><tr><td>2</td><td>在稻城亚丁看一场秋日童话</td><td>第 4 位</td></tr><tr><td>41</td><td>兑水还能再想三年</td><td>第 22 位</td></tr><tr><td>46</td><td>正是意气风发的时候</td><td>第 42 位</td></tr><tr><td>47</td><td>河头老街NPC唱歌太牛了</td><td>第 10 位</td></tr><tr><td>49</td><td>光之美少女衍生新作定档2027年</td><td>第 49 位</td></tr></table>
+<p>其余 44 条均为新上榜（昨日不在前 50）。升 ≥10 位：0 条。掉出前 50：按昨日 50 条计，45 条（昨日第 50 位以外的口径见首页说明，此处不重复算）。<span class="src">来源：首页 2026-10-29 昨日对比小节与 data/2026-10-29.json 差分字段。</span></p></div>
+
+<h2>起号落点：只给可测的角度，不承诺结果<small>角度必须能从本页标题找到依据；没有依据的角度不写</small></h2>
+<div class="card"><ul>
+<li><b>秋日文旅 + 本地生活：</b>稻城亚丁（延续第 2 位）、河头老街 NPC、贵州虾酸、阿月浑子都在榜——可测角度：同一“秋日 + 本地吃住行”选题做 1 条短视频，看完播与收藏，不承诺涨粉。<span class="src">依据标题：第 2、47、48、36 位。</span></li>
+<li><b>体育与赛事解说：</b>皇马、IG 对 LYON、国足 U17、体操队载誉归来同日上榜——可测角度：赛事前后 1 条快评 + 1 条名单/赛果整理，对比两条的完播。<span class="src">依据标题：第 12、15、16、20 位。</span></li>
+<li><b>影视剧二创与解说：</b>《嫁金钗》两条、《再见我的前半生》、鞠婧祎预告同日上榜——可测角度：同一剧做 1 条“名场面解说”与 1 条“预告拆解”，只比互动率。<span class="src">依据标题：第 24、29、30、34 位。</span></li>
+<li><b>不要做的推断：</b>本页不能推出“低粉爆款”——抖音源站不给账号、播放量、热度值，低粉判断需要对同一视频连续采样，本站目前没有该功能（首页说明亦如此写）。</li>
+</ul></div>
+
+<h2>国外对照：只做对照，不搬运结论<small>来源：muse-global-research skill 的 Tier A RSS，2026-10-29 上午脚本核查通过</small></h2>
+<div class="card"><p>2026-10-29 上午用 skill 自带脚本核查通过的国外源包括 Hacker News、TechCrunch、The Verge、Ars Technica、Wired、MIT Technology Review、Techmeme、GitHub Blog（均返回 XML 且条目为 2026-10-28/29）。当日这些源的头条以美国科技财报与新品为主，与抖音当日以国内时政、体育、娱乐为主的构成不同。</p>
+<p>因此本页的国外对照结论只有一句：<b>国外科技热与抖音当日热不是同一批话题，不能互相证明对方的热度。</b>国外源的具体标题不在本页展开，需要时按 skill 的 sources.yaml 逐源核查，不把国外标题翻译成抖音选题。</p>
+<p class="src">核查工具：muse-global-research-skill / scripts/check_feeds.py；核查时间 2026-10-29 上午（北京时间约 10:26）。国外源与抖音榜单无直接对应关系时，本页不强行对应。</p></div>
+
+<h2 id="douyin">抖音热榜全部 49 条<small>来源：SnailDev/douyin-hot-hub 当日存档，更新 2026-10-29 06:18:03 +0800；该页未给热度值，故本表无热度列；昨日排名来源：2026-10-28 同源存档</small></h2>
+<div class="card"><table><tr><th>排名</th><th>标题</th><th>类别（粗分）</th><th>昨日排名</th><th>状态</th></tr><tr><td>1</td><td>国务院原副总理刘延东逝世</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>2</td><td>在稻城亚丁看一场秋日童话</td><td>生活文旅</td><td>第 4 位</td><td><span class="tag up">升 2 位</span></td></tr><tr><td>3</td><td>一张全国算力网重塑生产生活</td><td>科技财经</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>4</td><td>普京会晤伊朗总统讨论中东局势</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>5</td><td>独家揭秘白鹤滩水电站</td><td>科技财经</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>6</td><td>中方敦促美方停止对古巴封锁施压</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>7</td><td>全球金融市场迎来超级央行周</td><td>科技财经</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>8</td><td>西班牙高铁相撞已致超60人死亡</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>9</td><td>我国智能算力规模全球第二</td><td>科技财经</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>10</td><td>买一杯咖啡来敬重自己</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>11</td><td>以色列议会选举投票结束</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>12</td><td>皇马官方致歉</td><td>体育电竞</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>13</td><td>中使馆紧急提醒勿前往乌干达</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>14</td><td>外媒解读华为手机芯片自研突破</td><td>科技财经</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>15</td><td>IG对战LYON</td><td>体育电竞</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>16</td><td>国足出征U17世界杯名单公布</td><td>体育电竞</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>17</td><td>萌宠滑镜定格挑战</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>18</td><td>快出来吧我原谅你了</td><td>其他</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>19</td><td>就这样闯进我的心窝</td><td>其他</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>20</td><td>中国体操队世锦赛载誉归来</td><td>体育电竞</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>21</td><td>听大麦哥聊爱情</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>22</td><td>专访35楼坠落奇迹生还女子</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>23</td><td>肖战评论张百乔抖音合拍视频</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>24</td><td>再见我的前半生</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>25</td><td>大麦哥视频播客观后感</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>26</td><td>江南又梦烟雨</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>27</td><td>王彦霖车流中救下受伤流浪狗</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>28</td><td>虞昶轩叶平君拿到大甜果</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>29</td><td>嫁金钗四叔母最强助攻</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>30</td><td>嫁金钗第一视角看爽了</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>31</td><td>这次季候风吹得格外凶</td><td>其他</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>32</td><td>天空之外再次迎来了宣发期</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>33</td><td>影之刃零联动三角洲即将出鞘</td><td>游戏动漫</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>34</td><td>鞠婧祎万花世界首发预告</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>35</td><td>多吃碳水不烧心</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>36</td><td>秋天就要来上一口阿月浑子</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>37</td><td>闫东西装舞台嗨翻全场</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>38</td><td>火影第七班玩偶睡衣时装爆料</td><td>游戏动漫</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>39</td><td>IU也被ILLIT逮捕了</td><td>娱乐影视</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>40</td><td>男生精致感穿搭小妙招</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>41</td><td>兑水还能再想三年</td><td>其他</td><td>第 22 位</td><td><span class="tag down">降 19 位</span></td></tr><tr><td>42</td><td>各界暖心助力小小徐婚礼</td><td>时政社会</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>43</td><td>桨板跨障的打开方式到底是什么</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>44</td><td>叫皮皮的娃果然都很皮</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>45</td><td>王者伽罗竹林cos太绝了</td><td>游戏动漫</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>46</td><td>正是意气风发的时候</td><td>其他</td><td>第 42 位</td><td><span class="tag down">降 4 位</span></td></tr><tr><td>47</td><td>河头老街NPC唱歌太牛了</td><td>生活文旅</td><td>第 10 位</td><td><span class="tag down">降 37 位</span></td></tr><tr><td>48</td><td>比螺蛳粉还上头的贵州虾酸</td><td>生活文旅</td><td>—</td><td><span class="tag new">新上榜</span></td></tr><tr><td>49</td><td>光之美少女衍生新作定档2027年</td><td>游戏动漫</td><td>第 49 位</td><td><span class="tag same">持平</span></td></tr></table></div>
+
+<h2>来源清单<small>按使用顺序；失效源已剔除，不在本页作常规来源</small></h2>
+<div class="card"><ul>
+<li><b>抖音榜单（本页全部 49 条）：</b>SnailDev/douyin-hot-hub 当日存档，更新 2026-10-29 06:18:03 +0800；当日只有 49 条，未凑 50 条；无热度值。昨日对照：同一仓库 2026-10-28 存档。</li>
+<li><b>B站对照（仅跨平台对照一节）：</b>996Token 今日热榜，更新 2026-10-29 08:13（UTC+8），数据文件 generated_at 2026-10-29T08:13:27+08:00；B站前 50 含播放量，按源站原顺序。</li>
+<li><b>方法与国外源分层：</b>CCD-AIGC/muse-global-research-skill，skills/muse-global-research/SKILL.md 与 sources.yaml；Tier A 国外源 2026-10-29 上午脚本核查通过（见国外对照一节）。</li>
+<li><b>本页数据文件：</b>daily-hotlist 仓库 data/2026-10-29.json（抖音 49 条、昨日差分字段）与 data/2026-10-28.json（昨日排名）。</li>
+<li><b>未用作本页来源（已确认失效，见 skill 记录）：</b>rsshub.app/zhihu/hotlist（2026-10-29 实测路由不存在）、36氪直连 feed（2026-10-29 实测返回安全检测页，非 XML）。本页不引用这两条。</li>
+</ul></div>
+
+<h2>未核实 / 未拿到清单</h2>
+<div class="card"><ul>
+<li>抖音每条的热度值、播放量、发布账号：源站不给，<b>未拿到</b>，本页不编。</li>
+<li>抖音每条对应的视频链接：存档只有标题，<b>未拿到</b>，本页不贴猜测链接。</li>
+<li>低粉爆款判断：需要同一视频连续采样，<b>本站目前没有该功能</b>，本页不下结论。</li>
+<li>国外源与抖音话题的一一对应：除构成不同这一总体对照外，<b>未逐条核实</b>，不写对应关系。</li>
+<li>分类：按标题粗分，<b>非官方分类</b>，个别标题含义不明时归入“其他”。</li>
+</ul></div>
+
+<div class="note"><b>口径重申：</b>本页只记录榜单快照与样本内观察，不声称全站统计；只转录标题与排名，不复制视频内容；昨日对比按标题精确比对，标题加后缀的系列变体计为新进（见首页说明）。</div>
+
+<footer>来源：Muse（muse-global-research skill）· 数据：SnailDev/douyin-hot-hub、996Token · 静态页面 · GitHub Pages 托管<br><a href="../hub.html">← 回汇总入口</a> · <a href="index.html">查看全部调研</a></footer>
+</div>
+</body>
+</html>
