@@ -31,6 +31,16 @@
       "subtitle": "2026-10-29 抖音热榜 49 条的昨日对比、分类结构、跨平台对照与起号落点",
       "title": "抖音热点调研示范版",
       "trigger": "用户要求用 muse-global-research skill 做一版 HTML 并放到 hub.html"
+    },
+    {
+      "date": "2026-10-29",
+      "file": "research/2026-10-29-ai-startup-creator-research-hub.html",
+      "note": "严格用 CCD-AIGC/research-hub-skill v1.1.0 跑的每日第一版；窗口 2026-10-23 至 2026-10-29，15 条去重链接、13 条 recent，状态 partial；RSS 14 订阅 0 命中，B站/微博/小红书/Reddit 未覆盖，报告内如实标缺口。",
+      "source": "Research Hub",
+      "source_slug": "research-hub",
+      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+      "title": "AI创业与内容起号调研",
+      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
     }
   ],
   "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
