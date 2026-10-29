@@ -3,153 +3,205 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>每日热点榜单 · 2026-10-28</title>
+<title>每日热点榜单 · 2026-10-29</title>
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;max-width:860px;margin:0 auto;padding:24px 16px 48px;line-height:1.7;color:#1a1a1a}
-h1{font-size:26px} h2{font-size:20px;margin-top:32px;border-bottom:1px solid #ddd;padding-bottom:6px}
-li{margin:6px 0} li span{color:#888;display:inline-block;width:2em}
-.meta,.note{color:#555} .box{background:#f6f6f6;padding:12px 16px;border-radius:8px}
-a{color:#0b5cad}
+:root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb;--pink:#fb7299}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 56px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#0ea5e9);color:#fff;padding:36px 0 28px}
+.hero h1{margin:0 0 8px;font-size:30px;line-height:1.25;letter-spacing:.2px}
+.hero p{margin:4px 0;color:#dbeafe;font-size:15px}
+.date-pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:14px;margin-bottom:14px}
+.nav{position:sticky;top:0;z-index:5;background:rgba(244,245,247,.94);backdrop-filter:blur(8px);padding:12px 0;border-bottom:1px solid var(--line)}
+.nav a{display:inline-block;margin:0 6px 6px 0;padding:7px 13px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:14px}
+.nav a:hover{border-color:var(--blue);color:var(--blue)}
+h2{font-size:21px;margin:34px 0 12px}
+h2 small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:4px}
+.hl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.hl{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.hl-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.tag{background:#eef2ff;color:#3730a3;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700}
+.hl-rank{color:var(--muted);font-size:13px}
+.hl h3{margin:0 0 6px;font-size:17px;line-height:1.5}
+.hl p{margin:0;color:var(--muted);font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 16px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.row{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid #f0f1f4}
+.row:last-child{border-bottom:0}
+.rank{flex:0 0 30px;height:30px;line-height:30px;text-align:center;border-radius:50%;background:#eef0f4;color:#475467;font-weight:800;font-size:14px}
+.rank.r1{background:#fef3c7;color:#92400e}.rank.r2{background:#e5e7eb;color:#374151}.rank.r3{background:#ffedd5;color:#9a3412}
+.row-title{flex:1;font-size:16px;line-height:1.55}
+.views{flex:0 0 auto;color:var(--muted);font-size:13px;background:#f2f4f7;padding:4px 9px;border-radius:999px;white-space:nowrap}
+.source{border-top:1px solid #f0f1f4;padding:14px 0}
+.source:first-child{border-top:0}
+.source-head{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.source p{margin:5px 0 0;color:var(--muted);font-size:14px}
+.pill{font-size:12px;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.pill.ok{background:#dcfce7;color:#166534}.pill.bad{background:#fee2e2;color:#991b1b}
+.note-box{background:#fffbeb;border:1px solid #fde68a;border-radius:16px;padding:16px}
+.note-box li{margin:6px 0}
+.chips a{display:inline-block;margin:0 8px 8px 0;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--blue);text-decoration:none}
+.search{width:100%;padding:13px 16px;font-size:16px;border:1px solid var(--line);border-radius:12px;background:#fff;margin-top:18px}
+.search:focus{outline:2px solid var(--blue);outline-offset:1px}
+.empty{display:none;padding:18px;text-align:center;color:var(--muted)}
+footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:560px){.hero h1{font-size:25px}.row-title{font-size:15px}.views{display:none}}
 </style>
 </head>
 <body>
-<p><a href="./">最新一天</a> · 往期存档见页面底部</p>
-<h1>每日热点榜单 · 2026-10-28</h1>
-<p class="meta">抓取时间（北京时间）：2026-10-28 约 10:18-10:20 · 首版基线：没有昨日可比，不标注新上榜 / 增速。</p>
-<div class="box">
-<h2>值得看的</h2>
-<ul>
-<li><strong>花4毛钱让1000个蓝色大肥鱼建造故宫</strong>（bilibili 第 50 位）——大肥鱼形象梗仍在B站前50，但为玩梗建造视频，不是问答任务直播的证明，需拉开做法。</li>
-<li><strong>生命起源：四十亿年前，地球如何诞生第一个生命？</strong>（bilibili 第 45 位）——知识可视化讲解仍在榜。</li>
-<li><strong>DeepSeek新版模型单周调用量登顶全球首位，环比暴增801%</strong>（zhihu 第 4 位）——184万热度，问题表述口径，未独立核实。</li>
-<li><strong>AI小狗男主进入白切黑时代</strong>（douyin 第 31 位）——当日抖音前50里最贴近AI角色的一条。</li>
-<li><strong>人类为什么喜欢毛茸茸</strong>（douyin 第 36 位）——角色/形象向，弱相关。</li>
-</ul>
+<header class="hero"><div class="wrap" style="padding-bottom:0">
+<span class="date-pill">2026-10-29</span>
+<h1>每日热点榜单</h1>
+<p>B站 + 抖音 · 每天早上更新 · 只看值得注意的变化</p>
+<p>抓取时间（北京时间）：2026-10-29 约 09:22-09:35 · 与昨日同一来源、同一口径比较。</p>
+</div></header>
+<div class="wrap">
+<nav class="nav"><a href="#highlights">值得看</a><a href="#bilibili">B站热门</a><a href="#douyin">抖音热榜</a><a href="#sources">来源与口径</a><a href="#archive">往期存档</a></nav>
+<input class="search" id="q" type="search" placeholder="搜榜单里的标题，比如：大肥鱼、DeepSeek…" aria-label="搜索榜单标题">
+<p class="empty" id="empty">没有匹配的标题，换个关键词试试。</p>
+<section id="highlights"><h2>值得看<small>和 AI、知识、虚拟主播、鲸鱼娘、DeepSeek 直接相关的条目</small></h2>
+<div class="hl-grid">
+<article class="hl"><div class="hl-top"><span class="tag">bilibili</span><span class="hl-rank">第 18 位</span></div><h3>可观测宇宙最可爱的古风大肥鱼</h3><p>大肥鱼形象梗仍在B站前50，属延续而非新事件；10月28日跟踪器里同一标题视频为140.8万播放，今日源站显示229.2万，播放继续上升。</p></article>
+<article class="hl"><div class="hl-top"><span class="tag">bilibili</span><span class="hl-rank">第 35 位</span></div><h3>⚡赵本山《Smooth Criminal（犯罪高手）》⚡现场版【AI MV大赛】</h3><p>AI MV大赛直接相关的新进条目；与昨日跟踪器里另一支赵本山AI MV视频不同标题，不混为同一视频。</p></article>
+<article class="hl"><div class="hl-top"><span class="tag">bilibili</span><span class="hl-rank">第 37 位</span></div><h3>武林外传续集：第八十五回 白展堂偷懒遭算计 穿越人两世解死局【[AI全民制作人】</h3><p>AI全民制作人直接相关的新进条目。</p></article>
+<article class="hl"><div class="hl-top"><span class="tag">bilibili</span><span class="hl-rank">第 14 位</span></div><h3>鲸鲸，跑起来吧</h3><p>鲸形象相关，标题本身未明示DeepSeek，不认定为DeepSeek鲸鱼娘条目，仅作形象向记录。</p></article>
+</div></section>
+<section id="bilibili"><h2>B站热门前 50<small>含播放量，播放量已换算为“万”为单位</small></h2>
+<div class="card">
+<div class="row"><span class="rank r1">1</span><span class="row-title">喝可乐不打嗝小游戏~</span><span class="views">31.6万播放</span></div>
+<div class="row"><span class="rank r2">2</span><span class="row-title">男生最怕的事也莫过于此</span><span class="views">46.4万播放</span></div>
+<div class="row"><span class="rank r3">3</span><span class="row-title">爸爸去哪儿 x Counting Stars</span><span class="views">126.0万播放</span></div>
+<div class="row"><span class="rank rn">4</span><span class="row-title">奶奶的皱纹里，藏着我一生的甜与暖</span><span class="views">149.2万播放</span></div>
+<div class="row"><span class="rank rn">5</span><span class="row-title">永远和你在一起</span><span class="views">71.3万播放</span></div>
+<div class="row"><span class="rank rn">6</span><span class="row-title">当你穿进老钱班38</span><span class="views">42.3万播放</span></div>
+<div class="row"><span class="rank rn">7</span><span class="row-title">【究极佐菲格斗】第五集 危险的雄狮！佐菲机器人 雷欧 泰罗 超兽黑鸽子 黑暗星人巴巴尔 登场</span><span class="views">60.7万播放</span></div>
+<div class="row"><span class="rank rn">8</span><span class="row-title">特朗普为了中期大选真拼了</span><span class="views">148.1万播放</span></div>
+<div class="row"><span class="rank rn">9</span><span class="row-title">小时候做过的那些事...（第7~12集）</span><span class="views">33.6万播放</span></div>
+<div class="row"><span class="rank rn">10</span><span class="row-title">被人买凶杀死的自媒体人徽剑【热点详解01】</span><span class="views">235.3万播放</span></div>
+<div class="row"><span class="rank rn">11</span><span class="row-title">【捉迷躲猫王】😱太阴了躲在粪坑下面？？大哥你无敌了啊？！废弃监狱超高难度捉迷藏~！</span><span class="views">143.2万播放</span></div>
+<div class="row"><span class="rank rn">12</span><span class="row-title">杀同学，杀朋友，杀网络喷子，英国未来女首相竟是个连环杀手？！《谜探路德维希》第二季 下</span><span class="views">26.1万播放</span></div>
+<div class="row"><span class="rank rn">13</span><span class="row-title">疯狂十六强，启动！</span><span class="views">176.3万播放</span></div>
+<div class="row"><span class="rank rn">14</span><span class="row-title">鲸鲸，跑起来吧</span><span class="views">36.4万播放</span></div>
+<div class="row"><span class="rank rn">15</span><span class="row-title">对中国34个省的刻板印象</span><span class="views">136.3万播放</span></div>
+<div class="row"><span class="rank rn">16</span><span class="row-title">选举时：誓死不离巴西 选输了：人在美国刚下飞机</span><span class="views">45.6万播放</span></div>
+<div class="row"><span class="rank rn">17</span><span class="row-title">旗舰手机芯片大横评：苹果高通发哥玄戒谁最强？</span><span class="views">235.2万播放</span></div>
+<div class="row"><span class="rank rn">18</span><span class="row-title">可观测宇宙最可爱的古风大肥鱼</span><span class="views">229.2万播放</span></div>
+<div class="row"><span class="rank rn">19</span><span class="row-title">刚用四天iPhone Duo，喀嚓一声炸屏了</span><span class="views">119.1万播放</span></div>
+<div class="row"><span class="rank rn">20</span><span class="row-title">AL十六强单曲《游过太平洋》</span><span class="views">92.8万播放</span></div>
+<div class="row"><span class="rank rn">21</span><span class="row-title">“一丝温脉相牵，爱藏岁岁流年”【把回忆拼好给你DJ-变速】【母子连心の小曲】</span><span class="views">55.8万播放</span></div>
+<div class="row"><span class="rank rn">22</span><span class="row-title">丧尽天良！反诈博主徽剑遭电诈头目刘忍买凶灭口！谁来保护下一个徽剑？【徽剑遇害事件始末】</span><span class="views">52.7万播放</span></div>
+<div class="row"><span class="rank rn">23</span><span class="row-title">姆巴佩发表涉华不当言论！全网封杀！没有中国市场，姆巴佩会失去什么？</span><span class="views">310.1万播放</span></div>
+<div class="row"><span class="rank rn">24</span><span class="row-title">棋子</span><span class="views">69.9万播放</span></div>
+<div class="row"><span class="rank rn">25</span><span class="row-title">胎盘是如何照顾胎儿的-山东方言</span><span class="views">90.9万播放</span></div>
+<div class="row"><span class="rank rn">26</span><span class="row-title">没想到小王这小子这么记仇！</span><span class="views">72.1万播放</span></div>
+<div class="row"><span class="rank rn">27</span><span class="row-title">《信》信仰是什么</span><span class="views">89.3万播放</span></div>
+<div class="row"><span class="rank rn">28</span><span class="row-title">做了一个错误的决定： 信了贵州辣卤不辣！</span><span class="views">132.6万播放</span></div>
+<div class="row"><span class="rank rn">29</span><span class="row-title">万万没想到！下完雨的小塘藏着这么大的货</span><span class="views">120.0万播放</span></div>
+<div class="row"><span class="rank rn">30</span><span class="row-title">【2026王者荣耀共创之夜】晚会完整回放</span><span class="views">109.0万播放</span></div>
+<div class="row"><span class="rank rn">31</span><span class="row-title">中国买走秘鲁76%的铜，为啥还是“外人”？</span><span class="views">38.3万播放</span></div>
+<div class="row"><span class="rank rn">32</span><span class="row-title">东西伯利亚棕熊泛滥成灾，朋友让我帮忙清理熊患。#国外合法狩猎</span><span class="views">108.0万播放</span></div>
+<div class="row"><span class="rank rn">33</span><span class="row-title">王老菊教你童叟无欺</span><span class="views">29.3万播放</span></div>
+<div class="row"><span class="rank rn">34</span><span class="row-title">「新鲜出炉」特别节目｜为你解答寻迹测试新内容</span><span class="views">15.0万播放</span></div>
+<div class="row"><span class="rank rn">35</span><span class="row-title">⚡赵本山《Smooth Criminal（犯罪高手）》⚡现场版【AI MV大赛】</span><span class="views">45.5万播放</span></div>
+<div class="row"><span class="rank rn">36</span><span class="row-title">“我会亲手阻止你！”</span><span class="views">41.9万播放</span></div>
+<div class="row"><span class="rank rn">37</span><span class="row-title">武林外传续集：第八十五回 白展堂偷懒遭算计 穿越人两世解死局【[AI全民制作人】</span><span class="views">18.2万播放</span></div>
+<div class="row"><span class="rank rn">38</span><span class="row-title">贴脸特写，是每个野生动物摄影师的必备技能！</span><span class="views">53.9万播放</span></div>
+<div class="row"><span class="rank rn">39</span><span class="row-title">《胡闹厨房》</span><span class="views">295.9万播放</span></div>
+<div class="row"><span class="rank rn">40</span><span class="row-title">东北八大怪之大缸小缸腌酸菜</span><span class="views">179.6万播放</span></div>
+<div class="row"><span class="rank rn">41</span><span class="row-title">挑战穿轮滑鞋全程爬武功山登顶后在滑下来</span><span class="views">99.3万播放</span></div>
+<div class="row"><span class="rank rn">42</span><span class="row-title">儿童漫画家杀死角色？艺术家能摆脱政治立场吗</span><span class="views">59.8万播放</span></div>
+<div class="row"><span class="rank rn">43</span><span class="row-title">武汉老哥的开车日常</span><span class="views">46.7万播放</span></div>
+<div class="row"><span class="rank rn">44</span><span class="row-title">《明日方舟：终末地》版本情报 | 危机合约浸蓝测试作战PV与「丹青渡」更新</span><span class="views">79.5万播放</span></div>
+<div class="row"><span class="rank rn">45</span><span class="row-title">秦始皇之死：真的是求长生不老，害了他吗？</span><span class="views">150.6万播放</span></div>
+<div class="row"><span class="rank rn">46</span><span class="row-title">🌦️“雨の音~響いてく~”🌂《雨爱》日语填词完整版！</span><span class="views">107.0万播放</span></div>
+<div class="row"><span class="rank rn">47</span><span class="row-title">迄今为止，最“可爱”的大反派！2026最新毁童年恐怖电影《逃出布迪秀》</span><span class="views">62.2万播放</span></div>
+<div class="row"><span class="rank rn">48</span><span class="row-title">露思の雷霆语言</span><span class="views">19.7万播放</span></div>
+<div class="row"><span class="rank rn">49</span><span class="row-title">耻辱淘汰！万字复盘LPL一号种子AL16强回家全过程！</span><span class="views">69.1万播放</span></div>
+<div class="row"><span class="rank rn">50</span><span class="row-title">一瞬成刃【听伊莫不emo 02】</span><span class="views">122.5万播放</span></div>
+</div></section>
+<section id="douyin"><h2>抖音热榜前 50<small>标题榜单，来源页未给热度值</small></h2>
+<div class="card">
+<div class="row"><span class="rank r1">1</span><span class="row-title">国务院原副总理刘延东逝世</span></div>
+<div class="row"><span class="rank r2">2</span><span class="row-title">在稻城亚丁看一场秋日童话</span></div>
+<div class="row"><span class="rank r3">3</span><span class="row-title">一张全国算力网重塑生产生活</span></div>
+<div class="row"><span class="rank rn">4</span><span class="row-title">普京会晤伊朗总统讨论中东局势</span></div>
+<div class="row"><span class="rank rn">5</span><span class="row-title">独家揭秘白鹤滩水电站</span></div>
+<div class="row"><span class="rank rn">6</span><span class="row-title">中方敦促美方停止对古巴封锁施压</span></div>
+<div class="row"><span class="rank rn">7</span><span class="row-title">全球金融市场迎来超级央行周</span></div>
+<div class="row"><span class="rank rn">8</span><span class="row-title">西班牙高铁相撞已致超60人死亡</span></div>
+<div class="row"><span class="rank rn">9</span><span class="row-title">我国智能算力规模全球第二</span></div>
+<div class="row"><span class="rank rn">10</span><span class="row-title">买一杯咖啡来敬重自己</span></div>
+<div class="row"><span class="rank rn">11</span><span class="row-title">以色列议会选举投票结束</span></div>
+<div class="row"><span class="rank rn">12</span><span class="row-title">皇马官方致歉</span></div>
+<div class="row"><span class="rank rn">13</span><span class="row-title">中使馆紧急提醒勿前往乌干达</span></div>
+<div class="row"><span class="rank rn">14</span><span class="row-title">外媒解读华为手机芯片自研突破</span></div>
+<div class="row"><span class="rank rn">15</span><span class="row-title">IG对战LYON</span></div>
+<div class="row"><span class="rank rn">16</span><span class="row-title">国足出征U17世界杯名单公布</span></div>
+<div class="row"><span class="rank rn">17</span><span class="row-title">萌宠滑镜定格挑战</span></div>
+<div class="row"><span class="rank rn">18</span><span class="row-title">快出来吧我原谅你了</span></div>
+<div class="row"><span class="rank rn">19</span><span class="row-title">就这样闯进我的心窝</span></div>
+<div class="row"><span class="rank rn">20</span><span class="row-title">中国体操队世锦赛载誉归来</span></div>
+<div class="row"><span class="rank rn">21</span><span class="row-title">听大麦哥聊爱情</span></div>
+<div class="row"><span class="rank rn">22</span><span class="row-title">专访35楼坠落奇迹生还女子</span></div>
+<div class="row"><span class="rank rn">23</span><span class="row-title">肖战评论张百乔抖音合拍视频</span></div>
+<div class="row"><span class="rank rn">24</span><span class="row-title">再见我的前半生</span></div>
+<div class="row"><span class="rank rn">25</span><span class="row-title">大麦哥视频播客观后感</span></div>
+<div class="row"><span class="rank rn">26</span><span class="row-title">江南又梦烟雨</span></div>
+<div class="row"><span class="rank rn">27</span><span class="row-title">王彦霖车流中救下受伤流浪狗</span></div>
+<div class="row"><span class="rank rn">28</span><span class="row-title">虞昶轩叶平君拿到大甜果</span></div>
+<div class="row"><span class="rank rn">29</span><span class="row-title">嫁金钗四叔母最强助攻</span></div>
+<div class="row"><span class="rank rn">30</span><span class="row-title">嫁金钗第一视角看爽了</span></div>
+<div class="row"><span class="rank rn">31</span><span class="row-title">这次季候风吹得格外凶</span></div>
+<div class="row"><span class="rank rn">32</span><span class="row-title">天空之外再次迎来了宣发期</span></div>
+<div class="row"><span class="rank rn">33</span><span class="row-title">影之刃零联动三角洲即将出鞘</span></div>
+<div class="row"><span class="rank rn">34</span><span class="row-title">鞠婧祎万花世界首发预告</span></div>
+<div class="row"><span class="rank rn">35</span><span class="row-title">多吃碳水不烧心</span></div>
+<div class="row"><span class="rank rn">36</span><span class="row-title">秋天就要来上一口阿月浑子</span></div>
+<div class="row"><span class="rank rn">37</span><span class="row-title">闫东西装舞台嗨翻全场</span></div>
+<div class="row"><span class="rank rn">38</span><span class="row-title">火影第七班玩偶睡衣时装爆料</span></div>
+<div class="row"><span class="rank rn">39</span><span class="row-title">IU也被ILLIT逮捕了</span></div>
+<div class="row"><span class="rank rn">40</span><span class="row-title">男生精致感穿搭小妙招</span></div>
+<div class="row"><span class="rank rn">41</span><span class="row-title">兑水还能再想三年</span></div>
+<div class="row"><span class="rank rn">42</span><span class="row-title">各界暖心助力小小徐婚礼</span></div>
+<div class="row"><span class="rank rn">43</span><span class="row-title">桨板跨障的打开方式到底是什么</span></div>
+<div class="row"><span class="rank rn">44</span><span class="row-title">叫皮皮的娃果然都很皮</span></div>
+<div class="row"><span class="rank rn">45</span><span class="row-title">王者伽罗竹林cos太绝了</span></div>
+<div class="row"><span class="rank rn">46</span><span class="row-title">正是意气风发的时候</span></div>
+<div class="row"><span class="rank rn">47</span><span class="row-title">河头老街NPC唱歌太牛了</span></div>
+<div class="row"><span class="rank rn">48</span><span class="row-title">比螺蛳粉还上头的贵州虾酸</span></div>
+<div class="row"><span class="rank rn">49</span><span class="row-title">光之美少女衍生新作定档2027年</span></div>
+</div></section>
+<section id="sources"><h2>来源与口径</h2>
+<div class="card">
+<div class="source"><div class="source-head"><strong>bilibili · 996Token 今日热榜</strong><span class="pill ok">正常</span></div><p>更新：2026-10-29 08:13 UTC+8</p><p>B站热门前50条标题与播放量，按源站原顺序抄录，未按播放量重排；源站数据文件 generated_at 2026-10-29T08:13:27+08:00</p></div>
+<div class="source"><div class="source-head"><strong>douyin · SnailDev/douyin-hot-hub</strong><span class="pill ok">正常</span></div><p>更新：2026-10-29 06:18:03 +0800</p><p>当日存档的抖音热榜 section 当日只有49条，未凑50条；取全部49条标题，该页未给热度值</p></div>
+</div></section>
+<section><h2>说明与局限</h2>
+<div class="note-box"><ul>
+<li>本版为首个非基线版：与2026-10-28同一来源、同一口径按标题精确比对；B站精确新进38条、排名上升≥10位2条，抖音精确新进45条、上升≥10位0条（抖音今日源站只有49条）。</li>
+<li>标题变体说明：今日B站第10条徽剑视频和第11条捉迷躲猫王视频，话题与昨日在榜条目延续，但标题加了系列/栏目后缀，精确比对下计为新进，不代表全新话题首日出现。</li>
+<li>抖音今日无AI、DeepSeek、大肥鱼、虚拟主播直接相关条目，故抖音部分不列值得看；996Token其他榜（掘金、36氪）当日有DeepSeek相关条目，但不在B站+抖音前50口径内，不计入值得看。</li>
+<li>低粉爆款雷达不在本文件内：本版只有热榜快照，没有对低粉账号视频做连续采样，不能据此声称发现低粉爆款；低粉跟踪见当日跟踪器文件。</li>
+<li>只记录榜单快照与差分，不声称全站统计。</li>
+<li>只记录榜单快照与差分，不声称全站统计；低粉爆款需要对同一视频连续采样，本版尚未上线该功能。</li>
+</ul></div></section>
+<section id="archive"><h2>往期存档<small>只新增、不覆盖</small></h2>
+<div class="chips">
+<a href="./archive/2026-10-28.html">2026-10-28</a>
+<a href="./archive/2026-10-29.html">2026-10-29</a>
+</div></section>
+<footer><a href="./">最新一天</a> · 每日热点榜单（B站 + 抖音）</footer>
 </div>
-<h2>来源与口径</h2>
-<ul>
-<li><strong>bilibili · 996Token 今日热榜</strong>（更新：2026-10-28 08:13 UTC+8，状态：正常）——B站部分合并两页共100条，本版取前50条标题与播放量</li>
-<li><strong>douyin · SnailDev/douyin-hot-hub</strong>（更新：2026-10-28 07:33:50 +0800，状态：正常）——每小时抓取、按天归档；取前50条标题，该页未给热度值</li>
-<li><strong>dailyhotapi · DailyHotApi 示例站 hot.imsyy.top</strong>（更新：2026-10-28，状态：当日未采用）——当日抓取时各榜均显示加载失败，未采用</li>
-<li><strong>rsshub · RSSHub bilibili/ranking/0/3/1</strong>（更新：2026-10-28，状态：当日未采用）——文本抓取403；浏览器复核通过Cloudflare验证后，RSSHub自身返回错误页，未加载任何条目，未采用</li>
-</ul>
-<h2>B站热门前 50</h2>
-<ol>
-<li><span>1</span> 姆巴佩发表涉华不当言论！全网封杀！没有中国市场，姆巴佩会失去什么？ · 1,159,339 播放</li>
-<li><span>2</span> 旗舰手机芯片大横评：苹果高通发哥玄戒谁最强？ · 1,314,672 播放</li>
-<li><span>3</span> 被人买凶杀死的自媒体人徽剑 · 815,890 播放</li>
-<li><span>4</span> 第9期（上）：收官高能局！阿瓦隆烧脑智斗对决 · 792,243 播放</li>
-<li><span>5</span> 《阴阳师》UR大天狗·高天铁羽CG丨飞羽凌云（CV：前野智昭） · 747,089 播放</li>
-<li><span>6</span> 《胡闹厨房》 · 1,314,417 播放</li>
-<li><span>7</span> 一颗钻石里藏着多少光？ · 424,345 播放</li>
-<li><span>8</span> 复仇者联盟的农村生活 · 648,932 播放</li>
-<li><span>9</span> 万重山河皆侠骨！剑网3新50级版本MV《万重山》上线 · 3,980,078 播放</li>
-<li><span>10</span> 财神窦占龙 第13集 杀狼 · 257,665 播放</li>
-<li><span>11</span> 疯狂十六强，启动！ · 454,679 播放</li>
-<li><span>12</span> 秦始皇之死：真的是求长生不老，害了他吗？ · 658,376 播放</li>
-<li><span>13</span> 普通女同事的职场纠纷和爱恨情仇 · 851,497 播放</li>
-<li><span>14</span> 对中国34个省的刻板印象 · 558,228 播放</li>
-<li><span>15</span> 老实晋级很枯燥吧？AL惊天十六强爆炸创造历史！IG击溃HLE啃下硬仗，BLG会师TES八强晋级赛一步之遥！ · 512,364 播放</li>
-<li><span>16</span> 武契奇败选 · 526,604 播放</li>
-<li><span>17</span> 陕视评：判决未至，定论先入教材 武大图书馆事件反思：公共出版物不能越司法“断案” · 837,295 播放</li>
-<li><span>18</span> 🌦️“雨の音~響いてく~”🌂《雨爱》日语填词完整版！ · 656,057 播放</li>
-<li><span>19</span> 极危？这都快养泛滥了！！！！ · 1,323,727 播放</li>
-<li><span>20</span> AL十六强淘汰单曲《绝望是会窒息的痛》 · 465,319 播放</li>
-<li><span>21</span> 百里守约绕后了 · 1,329,052 播放</li>
-<li><span>22</span> iG vs HLE小曲《剩饭没有鸡蛋》 · 380,505 播放</li>
-<li><span>23</span> AL十六强单曲《游过太平洋》 · 239,778 播放</li>
-<li><span>24</span> 😱太阴了躲在粪坑下面？？大哥你无敌了啊？！废弃监狱超高难度捉迷藏~！ · 263,766 播放</li>
-<li><span>25</span> 一口气看完！『黑神话:悟空』4.5万字全剧情+支线剧情 · 482,623 播放</li>
-<li><span>26</span> 10月27日 TLAW vs AL · 2,829,974 播放</li>
-<li><span>27</span> 刚用四天iPhone Duo，喀嚓一声炸屏了 · 174,829 播放</li>
-<li><span>28</span> 领导当惯了，谈恋爱也有职业病 · 513,880 播放</li>
-<li><span>29</span> 终于遇到真正实力相当的对手，变成回合制了 · 1,009,184 播放</li>
-<li><span>30</span> 九妹九妹！滔博的大腿！ · 957,130 播放</li>
-<li><span>31</span> LPL历史最差战绩！1号种子0-4光速游回国！诡异降临！AL令人难绷！BLG稳扎稳打拿下KC！ · 633,808 播放</li>
-<li><span>32</span> 恭喜！当之无愧！33岁凯恩荣膺2026年度金球奖！ · 450,441 播放</li>
-<li><span>33</span> 《信》信仰是什么 · 301,648 播放</li>
-<li><span>34</span> 挑战穿轮滑鞋全程爬武功山登顶后在滑下来 · 433,099 播放</li>
-<li><span>35</span> 最逆天的一集，一号种子16强 一场不胜创造历史 · 854,092 播放</li>
-<li><span>36</span> 渡鸦风云记 · 1,155,027 播放</li>
-<li><span>37</span> 循环歌单“所以呢，你也成为苦瓜大王了吗？” · 1,900,970 播放</li>
-<li><span>38</span> 根本就没有这种比���！！ · 694,895 播放</li>
-<li><span>39</span> 中国90%的人都听过的童年阴影BGM！20年后我终于扒出了它的真身……SCARSONG终极溯源！ · 2,129,650 播放</li>
-<li><span>40</span> 10月27日 BLG vs KC · 1,290,319 播放</li>
-<li><span>41</span> 马尔芙小姐，我能请你共舞一曲吗？｜PV · 3,693,932 播放</li>
-<li><span>42</span> 姆巴佩你就是这么对待中国球迷的？ · 1,056,002 播放</li>
-<li><span>43</span> 万万没想到！下完雨的小塘藏着这么大的货 · 338,944 播放</li>
-<li><span>44</span> 🐧当你上课忍不住犯困By Bike： · 348,298 播放</li>
-<li><span>45</span> 生命起源：四十亿年前，地球如何诞生第一个生命？ · 2,263,844 播放</li>
-<li><span>46</span> 东西伯利亚棕熊泛滥成灾，朋友让我帮忙清理熊患。#国外合法狩猎 · 513,790 播放</li>
-<li><span>47</span> 锐评S16瑞士轮TLAW战胜AL：一场不胜止步16强！惊天0-4！史无前例！ · 1,054,678 播放</li>
-<li><span>48</span> 钟离的尘世闲游，这一次你终于回来看我了吗 · 204,612 播放</li>
-<li><span>49</span> 万字复盘AL惨败北美16强回家！HOPE没有希望，连还手的勇气都没！ · 940,338 播放</li>
-<li><span>50</span> 花4毛钱让1000个蓝色大肥鱼建造故宫 · 2,882,771 播放</li>
-</ol>
-<h2>抖音热榜前 50</h2>
-<ol>
-<li><span>1</span> 外交部回应姆巴佩发表不当言论</li>
-<li><span>2</span> 德国总统抵达安徽开启访华行程</li>
-<li><span>3</span> 祖国大地一片丰收景象</li>
-<li><span>4</span> 在稻城亚丁看一场秋日童话</li>
-<li><span>5</span> 想要秋天不烧心就去山里野</li>
-<li><span>6</span> 抖音娃改时装周</li>
-<li><span>7</span> 树枝版齐天大圣太震撼了</li>
-<li><span>8</span> 今人重走玉门关</li>
-<li><span>9</span> “蛟龙”号迭代升级</li>
-<li><span>10</span> 河头老街NPC唱歌太牛了</li>
-<li><span>11</span> 北京国安2:2战平全北现代</li>
-<li><span>12</span> 10月29日晚国内油价将调整</li>
-<li><span>13</span> “四价流感疫苗消失”传言有误</li>
-<li><span>14</span> 是谁还没看过谢帝的女装分享啊</li>
-<li><span>15</span> AL战队致歉</li>
-<li><span>16</span> 世界如此辽阔不要走进悲伤角落</li>
-<li><span>17</span> 全网最励志的三角梅出圈了</li>
-<li><span>18</span> 辽宁舰编队绕菲律宾远洋训练</li>
-<li><span>19</span> 4名诺奖得主将亮相大湾区科学论坛</li>
-<li><span>20</span> 西班牙毕尔巴鄂爆发骚乱</li>
-<li><span>21</span> CBA常规赛浙江力克辽宁</li>
-<li><span>22</span> 兑水还能再想三年</li>
-<li><span>23</span> 穆祉丞翻跳2.0简直夯爆了</li>
-<li><span>24</span> 鞠婧祎掀翻万花世界系统</li>
-<li><span>25</span> 范丞丞新歌炸出了全网羽球人</li>
-<li><span>26</span> 嫁金钗碧桃下线虐哭了</li>
-<li><span>27</span> 央视叫停涉姆巴佩赛事和广告播出</li>
-<li><span>28</span> 谢帝就这样说唱一天闺蜜一天</li>
-<li><span>29</span> 邓超baby比心 我的青春抱了我</li>
-<li><span>30</span> 离了孟子义李昀锐谁这么哄我</li>
-<li><span>31</span> AI小狗男主进入白切黑时代</li>
-<li><span>32</span> iPad mini8升级总结</li>
-<li><span>33</span> 嫁金钗祖孙三代全员拿大结果</li>
-<li><span>34</span> Insomnia越听越清醒</li>
-<li><span>35</span> AL出局了我有话说</li>
-<li><span>36</span> 人类为什么喜欢毛茸茸</li>
-<li><span>37</span> 抓紧你的手走过我的朝朝暮暮</li>
-<li><span>38</span> 薛之谦被歌迷改词演唱感动哭了</li>
-<li><span>39</span> 承诺是你转场挑战</li>
-<li><span>40</span> IG还是太能创造奇迹了</li>
-<li><span>41</span> 谢谢黑猫我就不吃了</li>
-<li><span>42</span> 正是意气风发的时候</li>
-<li><span>43</span> 邓超然你成功过河了吗</li>
-<li><span>44</span> 秋冬轻亚风清冷穿搭</li>
-<li><span>45</span> chill在蔡徐坤身上是一种感觉</li>
-<li><span>46</span> iPhone Duo前置摄像拍照效果</li>
-<li><span>47</span> 东鹏饮料：终止与姆巴佩全部合作</li>
-<li><span>48</span> 当耳机成为穿搭的一部分</li>
-<li><span>49</span> 光之美少女衍生新作定档2027年</li>
-<li><span>50</span> 刘晓艳来清园赏菊了</li>
-</ol>
-<h2>说明与局限</h2>
-<ul>
-<li>本版为首版基线，没有昨日可比，不标注新上榜/增速，只记录今日在榜事实。</li>
-<li>#Vibe知识大赏未进入本日B站前50；抖音前50无 #Vibe知识大赏、无 DeepSeek 鲸鱼娘条目。</li>
-<li>今日大盘以新闻与电竞为主，不建议为蹭热度碰姆巴佩或电竞话题。</li>
-<li>低粉爆款雷达尚未上线：本版只有热榜快照，没有对低粉账号视频做连续采样，不能据此声称发现低粉爆款。</li>
-</ul>
-<p class="note">只记录榜单快照与差分，不声称全站统计；低粉爆款需要对同一视频连续采样，本版尚未上线该功能。</p>
-<h2>往期存档（只新增、不覆盖）</h2>
-<ul>
-<li><a href="./archive/2026-10-28.html">2026-10-28</a></li>
-</ul>
+<script>
+var q=document.getElementById('q'),empty=document.getElementById('empty');
+q.addEventListener('input',function(){
+  var v=q.value.trim().toLowerCase(),n=0;
+  document.querySelectorAll('.row').forEach(function(r){
+    var show=!v||r.textContent.toLowerCase().indexOf(v)>-1;
+    r.style.display=show?'':'none'; if(show)n++;
+  });
+  empty.style.display=(v&&!n)?'block':'none';
+});
+</script>
 </body>
 </html>
