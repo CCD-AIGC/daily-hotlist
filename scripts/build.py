@@ -40,17 +40,66 @@ def source_rows(day):
     return "\n".join(rows)
 
 
-def list_rows(items, with_views):
+def diff_stats(prev_items, items):
+    """按标题精确比对昨日同一来源：新进、升≥10位、掉出前50。"""
+    if prev_items is None:
+        return None
+    prev = {x["title"]: x["rank"] for x in prev_items}
+    cur = {x["title"] for x in items}
+    new = [x for x in items if x["title"] not in prev]
+    up = [
+        {"title": x["title"], "old_rank": prev[x["title"]], "rank": x["rank"]}
+        for x in items
+        if x["title"] in prev and prev[x["title"]] - x["rank"] >= 10
+    ]
+    up.sort(key=lambda u: (u["old_rank"] - u["rank"]), reverse=True)
+    dropped = [t for t in prev if t not in cur]
+    return {"new": new, "up": up, "dropped_count": len(dropped), "prev": prev}
+
+
+def list_rows(items, with_views, prev_items=None):
     rows = []
+    prev = None
+    if prev_items is not None:
+        prev = {x["title"]: x["rank"] for x in prev_items}
     for it in items:
         rank = it["rank"]
         rank_cls = "r1" if rank == 1 else "r2" if rank == 2 else "r3" if rank == 3 else "rn"
         views = f'<span class="views">{views_text(it["views"])}</span>' if with_views and "views" in it else ""
+        badge = ""
+        if prev is not None:
+            if it["title"] not in prev:
+                badge = '<span class="badge new">新上榜</span>'
+            else:
+                old = prev[it["title"]]
+                if old - rank >= 10:
+                    badge = f'<span class="badge up">升{old - rank}位 · 昨日第{old}位</span>'
+                elif old > rank:
+                    badge = f'<span class="badge up">昨日第{old}位</span>'
+                elif old < rank:
+                    badge = f'<span class="badge down">昨日第{old}位</span>'
+                else:
+                    badge = f'<span class="badge same">昨日第{old}位</span>'
         rows.append(
             f'<div class="row"><span class="rank {rank_cls}">{rank}</span>'
-            f'<span class="row-title">{esc(it["title"])}</span>{views}</div>'
+            f'<span class="row-title">{esc(it["title"])}</span>{badge}{views}</div>'
         )
     return "\n".join(rows)
+
+
+def diff_section(day, prev_day):
+    if prev_day is None:
+        return '<section id="diff"><h2>昨日对比<small>与昨日同一来源、同一口径比较</small></h2><div class="note-box"><p>首版基线：没有昨日可比，不标注新上榜 / 增速。</p></div></section>'
+    b = diff_stats(prev_day.get("bilibili", []), day.get("bilibili", []))
+    d = diff_stats(prev_day.get("douyin", []), day.get("douyin", []))
+    def movers(up):
+        if not up:
+            return "无"
+        return "；".join(f'{esc(u["title"])}（昨日第{u["old_rank"]}位 → 今日第{u["rank"]}位）' for u in up[:3])
+    return f'''<section id="diff"><h2>昨日对比<small>与昨日同一来源、同一口径比较，按标题精确比对；标题加后缀的系列变体会计为新进，见说明</small></h2>
+<div class="card"><p><strong>B站：</strong>新进 {len(b["new"])} 条，升 ≥10 位 {len(b["up"])} 条，掉出前 50 {b["dropped_count"]} 条。升幅最大的：{movers(b["up"])}。</p>
+<p><strong>抖音：</strong>新进 {len(d["new"])} 条，升 ≥10 位 {len(d["up"])} 条，掉出前 50 {d["dropped_count"]} 条。升幅最大的：{movers(d["up"])}。</p>
+<p class="note">每条榜单后都标了昨日排名：新上榜、升位、降位、持平一眼可见，不只罗列今日排名。</p></div></section>'''
 
 
 def highlight_rows(day):
@@ -92,6 +141,11 @@ h2 small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-
 .rank.r1{background:#fef3c7;color:#92400e}.rank.r2{background:#e5e7eb;color:#374151}.rank.r3{background:#ffedd5;color:#9a3412}
 .row-title{flex:1;font-size:16px;line-height:1.55}
 .views{flex:0 0 auto;color:var(--muted);font-size:13px;background:#f2f4f7;padding:4px 9px;border-radius:999px;white-space:nowrap}
+.badge{flex:0 0 auto;font-size:12px;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.badge.new{background:#dcfce7;color:#166534;font-weight:700}
+.badge.up{background:#dbeafe;color:#1e40af}
+.badge.down{background:#fee2e2;color:#991b1b}
+.badge.same{background:#f2f4f7;color:#667085}
 .source{border-top:1px solid #f0f1f4;padding:14px 0}
 .source:first-child{border-top:0}
 .source-head{display:flex;justify-content:space-between;gap:10px;align-items:center}
@@ -109,8 +163,8 @@ footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
 """
 
 
-def render(day, all_dates):
-    baseline = "首版基线：没有昨日可比，不标注新上榜 / 增速。" if day.get("is_baseline") else "与昨日同一来源、同一口径比较。"
+def render(day, all_dates, prev_day=None):
+    baseline = "首版基线：没有昨日可比，不标注新上榜 / 增速。" if day.get("is_baseline") else "与昨日同一来源、同一口径比较，每条后标昨日排名。"
     archive_links = "\n".join(
         f'<a href="./archive/{d}.html">{d}</a>' for d in all_dates
     )
@@ -131,20 +185,21 @@ def render(day, all_dates):
 <p>抓取时间（北京时间）：{esc(day.get('fetched_at_cst', ''))} · {baseline}</p>
 </div></header>
 <div class="wrap">
-<nav class="nav"><a href="#highlights">值得看</a><a href="#bilibili">B站热门</a><a href="#douyin">抖音热榜</a><a href="#sources">来源与口径</a><a href="#archive">往期存档</a></nav>
+<nav class="nav"><a href="#diff">昨日对比</a><a href="#highlights">值得看</a><a href="#bilibili">B站热门</a><a href="#douyin">抖音热榜</a><a href="#sources">来源与口径</a><a href="#archive">往期存档</a></nav>
 <input class="search" id="q" type="search" placeholder="搜榜单里的标题，比如：大肥鱼、DeepSeek…" aria-label="搜索榜单标题">
 <p class="empty" id="empty">没有匹配的标题，换个关键词试试。</p>
+{diff_section(day, prev_day)}
 <section id="highlights"><h2>值得看<small>和 AI、知识、虚拟主播、鲸鱼娘、DeepSeek 直接相关的条目</small></h2>
 <div class="hl-grid">
 {highlight_rows(day)}
 </div></section>
 <section id="bilibili"><h2>B站热门前 50<small>含播放量，播放量已换算为“万”为单位</small></h2>
 <div class="card">
-{list_rows(day.get('bilibili', []), True)}
+{list_rows(day.get('bilibili', []), True, prev_day.get('bilibili') if prev_day else None)}
 </div></section>
 <section id="douyin"><h2>抖音热榜前 50<small>标题榜单，来源页未给热度值</small></h2>
 <div class="card">
-{list_rows(day.get('douyin', []), False)}
+{list_rows(day.get('douyin', []), False, prev_day.get('douyin') if prev_day else None)}
 </div></section>
 <section id="sources"><h2>来源与口径</h2>
 <div class="card">
@@ -183,11 +238,12 @@ def main():
         raise SystemExit("data/ 下没有 YYYY-MM-DD.json")
     ARCHIVE.mkdir(exist_ok=True)
     dates = [d["date"] for d in days]
-    for day in days:
+    for i, day in enumerate(days):
+        prev_day = days[i - 1] if i > 0 else None
         (ARCHIVE / f"{day['date']}.html").write_text(
-            render(day, dates), encoding="utf-8"
+            render(day, dates, prev_day), encoding="utf-8"
         )
-    (ROOT / "index.html").write_text(render(days[-1], dates), encoding="utf-8")
+    (ROOT / "index.html").write_text(render(days[-1], dates, days[-2] if len(days) > 1 else None), encoding="utf-8")
     print(f"rendered {len(days)} day(s), latest={dates[-1]}")
 
 
