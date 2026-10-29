@@ -16,10 +16,19 @@
 2. Muse 每天核对榜单来源后，把核对过的新一天数据写成 `data/YYYY-MM-DD.json` 并提交；Actions 随后渲染与发布。Muse 同时巡检 Actions 运行状态，失败时在聊天里先发一版、不让更新断档。
 3. 新增一天时只新增 `data/YYYY-MM-DD.json` 和对应的 `archive/YYYY-MM-DD.html`，不要修改已发布往期的数据文件；如需更正，在新一天的说明里写明更正。
 
+## AI 创业 / 商业化信息流（2026-10-29 新增）
+
+- 每日一页：`ai-news.html`（最新一天）+ `archive/ai-YYYY-MM-DD.html`（往期，只新增、不覆盖），数据在 `data/ai-YYYY-MM-DD.json`，渲染用 `scripts/build_ai.py`。
+- 主力每日源（2026-10-29 上午 GitHub 连接器核实）：LearnPrompt/ai-news-radar（★1,796，24h 雷达，daily-brief 20 条）、zhuyansen/new-term-radar（★1,922，新词/新模型/新产品雷达）、alvinreal/awesome-opensource-ai（★4,948，每日更新的开源 AI 清单）。
+- 周更与工具源：ruanyf/weekly（★107,143，每周五）、sansan0/TrendRadar（★63,266，自建舆情监控）、Thysrael/Horizon（★11,048，自建日报）。
+- 参考库（不计入每日新增）：XiaomingX/ai-money-maker-handbook（★6,619，近 5 次提交仅为时间戳文件）、bleedline/aimoneyhunter（★18,320，最近实质提交 2025-10-20）。
+- 口径与热榜一致：只转录源站精选标题与原文链接，不复制全文；次日与昨日对比新上榜标题、源仓库星数涨跌与新提交；来源失败或未证实每日更新时不冒充为每日源。
+
 ## 本地渲染
 
 ```bash
 python3 scripts/build.py
+python3 scripts/build_ai.py
 ```
 
 ## 来源健康状态
