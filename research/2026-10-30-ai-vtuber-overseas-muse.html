@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>纯 AI 驱动 Live2D 二次元主播出海调研 · 2026-10-30</title>
+<style>
+:root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb;--amber:#fef3c7;--red:#fef2f2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.7}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 56px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#0ea5e9);color:#fff;padding:36px 0 28px}
+.hero h1{margin:0 0 8px;font-size:29px;line-height:1.3}
+.hero p{margin:4px 0;color:#dbeafe;font-size:15px}
+.date-pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:14px;margin-bottom:14px}
+h2{font-size:21px;margin:36px 0 12px;border-top:1px solid var(--line);padding-top:22px}
+h3{font-size:17px;margin:22px 0 8px}
+h4{font-size:15px;margin:18px 0 6px}
+p{margin:8px 0}
+a{color:var(--blue);word-break:break-all}
+.btn{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-size:14px;word-break:keep-all}
+.btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--line);margin-left:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 1px 3px rgba(16,24,40,.06);margin:12px 0}
+.callout{background:#eff6ff;border:1px solid #bfdbfe;border-radius:16px;padding:18px;margin:14px 0}
+.warn{background:#fffbeb;border:1px solid #fde68a;border-radius:16px;padding:16px;margin:14px 0;font-size:14px;color:#57534e}
+.tag{display:inline-block;background:#eef2ff;color:#3730a3;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;margin:0 6px 8px 0}
+.tag.src{background:var(--amber);color:#92400e}
+.pending{color:#b45309;font-weight:700}
+.muted{color:var(--muted);font-size:14px}
+.small{font-size:14px}
+.toc{columns:2;column-gap:24px}
+.toc a{text-decoration:none}
+.table-wrap{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:14px}
+th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:#f8fafc}
+ul,ol{margin:8px 0;padding-left:22px}
+li{margin:6px 0}
+footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:640px){.toc{columns:1}.hero h1{font-size:24px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap" style="padding-bottom:0">
+<span class="date-pill">调研日期：2026-10-30 · 时间基准：2026 年 10 月</span>
+<h1>纯 AI 驱动 Live2D 二次元主播出海调研</h1>
+<p>对象：LLM 驱动对话、TTS 驱动语音、能自己玩游戏，全程无真人出镜，非带货、纯娱乐向，类似 Neuro-sama。</p>
+<p>来源：Muse · 金额均为美元 · 未核实处一律标注“待验证”，不以推测冒充事实。</p>
+</div></header>
+<div class="wrap">
+<p><a class="btn ghost" href="../hub.html" style="margin-left:0">← 回汇总入口</a> <a class="btn ghost" href="index.html">查看全部调研</a></p>
+
+<div class="callout">
+<h2 style="margin-top:0;border:0;padding:0">结论先行</h2>
+<p><strong>最可行的是 Twitch，长期资产价值最大的是 YouTube，Kick 只能做高分成补充，TikTok Live 不适合做纯自主 AI 直播的主阵地。</strong></p>
+<p>Twitch 有 Neuro-sama 登顶订阅榜、破 Hype Train 纪录的顶级实证，且 2026 年 9 月官方仍未强制 AI 标签；YouTube 不禁 AI 本身，但打击批量模板化内容；Kick 的 AI 条款最明确、分成最高，但 VTuber 受众太小；TikTok Live 2026 年 9 月 24 日生效的新规则，把“主要由 AI 自动化运行、无在场互动创作者”的直播列为可失去变现资格的类型，bio 声明加逐条标签解决不了这一条。</p>
+<p class="small">本报告为公开信息调研整理，<strong>不构成法律意见</strong>；上线前涉及欧盟观众、加州用户或日本声优声音的决策，应由执业律师按最终产品形态复核。时效数据使用前请复核官方页面。</p>
+</div>
+
+<h2>目录</h2>
+<div class="toc card">
+<p><a href="#s1">1 · Twitch</a></p>
+<p><a href="#s2">2 · YouTube</a></p>
+<p><a href="#s3">3 · Kick</a></p>
+<p><a href="#s4">4 · TikTok Live</a></p>
+<p><a href="#s5">5 · 其他平台与新兴平台</a></p>
+<p><a href="#s6">6 · 变现门槛、分成与到手率对比</a></p>
+<p><a href="#s7">7 · AI VTuber 典型成本结构</a></p>
+<p><a href="#s8">8 · Neuro-sama 模式之外的商业模式</a></p>
+<p><a href="#s9">9 · 欧盟 AI Act 第 50 条</a></p>
+<p><a href="#s10">10 · 美国联邦及纽约、加州</a></p>
+<p><a href="#s11">11 · 日本</a></p>
+<p><a href="#s12">12 · Twitch / YouTube 冷启动</a></p>
+<p><a href="#s13">13 · 非英语母语团队做英语 AI VTuber</a></p>
+<p><a href="#s14">14 · 观众画像、付费意愿与内容形态</a></p>
+<p><a href="#rank">最终排序：最优先的 3 个平台</a></p>
+<p><a href="#check">上线前复核清单</a></p>
+</div>
+
+<h2 id="s1">1 · Twitch：政策、Neuro-sama 与 VEDA</h2>
+<div class="card">
+<h3>2026 年新动向：不是 AI 标签，而是 AI 训练开关</h3>
+<p>2026 年 8 月 12 日，Twitch 新增“Training for Generative AI”设置，<strong>默认开启</strong>，允许 Amazon 用直播、VOD、剪辑、聊天等训练生成式 AI，创作者需手动关闭。来源：<a href="https://aftermath.site/twitch-amazon-ai-labels-aioptedout-noai-nogenai/">Aftermath 2026-08-13</a>、<a href="https://www.vcpost.com/articles/130887/20260813/twitch-admits-amazon-uses-livestreams-train-ai-models-says-users-can-opt-out.htm">VCPost 2026-08-13</a></p>
+<h3>官方对 AI 标签的态度：2026 年 9 月仍说暂不需要</h3>
+<p>Twitch CEO Dan Clancy 在 2026 年 9 月 17 日东京电玩展 keynote 采访中表示，Twitch 目前没有迫切需要跟进生成式 AI 披露规则，未来如有必要可以制定。来源：<a href="https://gamesbeat.com/twitch-ceo-dan-clancy-says-platform-doesnt-need-ai-disclosure-rules-for-now/">GamesBeat 2026-09-21</a></p>
+<h3>没有单独的“AI 主播禁令”，执法落点是现有规则</h3>
+<p>第三方梳理指出，Twitch 指南中与 AI 直接相关的词主要是 deepfake，禁的是用 deepfake 侮辱骚扰、制作针对可识别个人的亲密图像、冒充他人和散布有害虚假信息。2026 年内有无针对 AI 主播的专项新政策或封禁判例：<span class="pending">待验证</span>，本次未找到官方公告。来源：第三方梳理 2026-08-04、<a href="https://chierhu.medium.com/policies-on-ai-generated-video-content-across-platforms-01b1130c3112">跨平台梳理 2026-03-12</a></p>
+<h3>历史判例：最重要的一课</h3>
+<p>Neuro-sama 2023 年 1 月 11 日因仇恨言论被封两周，1 月 27 日恢复，广泛归因于 2022 年 12 月底 AI 发表否认大屠杀言论。平台按人类主播同样的规则处罚频道运营者，<strong>不会因为“是 AI 说的”免责</strong>。来源：<a href="https://en.wikipedia.org/wiki/Neuro-sama">Neuro-sama Wikipedia，最后更新 2026-10-17</a></p>
+<h3>Neuro-sama 最新数据：注意口径，不要拼成一条曲线</h3>
+<ul>
+<li>2026 年 1 月 2 日，TwitchTracker 估计活跃订阅约 162,459，登顶 Twitch 第一。来源：<a href="https://www.dexerto.com/twitch/an-ai-powered-vtuber-is-now-the-most-popular-twitch-streamer-in-the-world-3300052/">Dexerto 2026-01-03 前后</a></li>
+<li>2026 年 1 月 5 日前后，Hype Train 达 Level 126，期间 126,273 订阅加 1,194,921 Bits。来源：<a href="https://www.gamespot.com/articles/ai-vtuber-neuro-sama-has-only-gone-and-done-it-again-smashing-another-world-record/1100-6537158/">GameSpot 2026-01-05</a></li>
+<li>subathon 结束时累计峰值表述为 343,215 订阅；Twitch 粉丝约 101 万。来源：<a href="https://en.wikipedia.org/wiki/Neuro-sama">Neuro-sama Wikipedia</a></li>
+<li>Evil Neuro 是 Neuro-sama 的双胞胎姐妹 AI，独立直播；2026 年 1 月 9 日她主导的 Hype Train 冲击以 Level 72 结束，未破纪录。</li>
+</ul>
+<h3>收入只能算估算，不能当实收</h3>
+<p>按 162,459 订阅、5 美元、50/50 粗算，每月订阅收入约 40 万美元以上，不含广告、Bits、捐赠和赞助，这是媒体公式推算。分析师 Zach Bussey 估计 2026 年 1 月那次 Hype Train 约代表 150 万美元平台消费，倒推创作者到手约 75 万至 105 万美元，未扣税和成本，同样是第三方估算。Vedal 官方公布的 2026 年净收入：<span class="pending">待验证</span>。</p>
+<h3>关于“VEDA”</h3>
+<p>本次未找到独立的、名为 VEDA 的纯 AI VTuber 及其订阅或收入数据，最可能的混淆是开发者 Vedal / Vedal987。如你指的是另一位 VEDA，需要频道全名或链接才能核查，不要把 Vedal 等同于 VEDA。<span class="pending">待验证</span></p>
+</div>
+
+<h2 id="s2">2 · YouTube：披露、inauthentic content 与成功案例</h2>
+<div class="card">
+<h3>披露政策：只强制披露“拟真”内容，不是所有 AI 内容</h3>
+<p>需披露：让真人看起来说了或做了没做过的事、篡改真实事件或地点、生成从未发生的拟真场景、AI 生成音乐等。不需要披露：AI 辅助写脚本、标题、缩略图、调色、字幕修复、克隆自己的声音做旁白，以及明显不真实或动画内容。自 2026 年 5 月 27 日起，系统检测到未披露的显著拟真 AI 内容时会自动加标签。来源：<a href="https://milx.app/en/trends/does-ai-impact-youtube-monetization-what-youtube-has-to-say">Milx 2026 年 10 月梳理</a>、<a href="https://air.io/en/youtube-hacks/youtube-ai-policy-2026-likeness-detection-and-the-no-fakes-act-what-creators-need-to-know">Air.io 2026 年 9 月梳理</a></p>
+<p><strong>对 Live2D 的关键点：</strong>一个明显是二次元虚拟形象、且频道和标题已表明是虚拟主播的 AI 角色，按公开规则解读属于“clearly unrealistic / animated”，不自动等同于必须贴拟真标签。但 YouTube 帮助页未单独点名“Live2D AI VTuber 直播是否豁免”，直播场景的具体适用口径：<span class="pending">待验证</span>。稳妥做法仍是简介、标题和置顶中明确标注 AI 驱动。</p>
+<h3>“inauthentic content”：打击的是批量模板化，不是 AI 本身</h3>
+<p>2025 年 7 月 15 日把“repetitious content”改名为“inauthentic content”；2026 年 7 月 13 日至 16 日重组为三类，规则本身未变：通用重复模板化内容；为博眼球拼凑的令人不适片段；合成 AI 人设就健康、医疗、个人理财、法律、政治等敏感话题提供建议。来源：<a href="https://blog.livereacting.com/youtubes-ai-content-crackdown-what-24-7-streamers-need-to-know/">LiveReacting 梳理</a>、<a href="https://contentiq.media/rules/youtube">ContentIQ 2026-10-21 核查</a></p>
+<p>实际打击案例：2025 年 12 月，YouTube 终止了 Screen Culture 和 KH Studio，理由是批量生产虚假 AI 生成电影预告片；第三方 Kapwing 分析称其追踪的顶级 AI 驱动频道中约 16 个被移除，合计约 3,500 万订阅、47 亿观看，但这是 Kapwing 第三方研究，不是 YouTube 官方数据。<strong>因“是 AI VTuber 直播本身”而被终止或取消变现的具名案例：<span class="pending">待验证</span>，本次未找到。</strong>已查到的被打击对象都是工厂式、数百条近乎相同视频批量上传的运作，不能直接类推为 AI VTuber 直播会被封。</p>
+<p>对本项目的直接风险点：24/7 循环同一模板可能落入重复模板化类；AI 就健康、理财、法律、政治给建议可能落入敏感话题类；纯娱乐游戏、杂谈、唱歌且每场内容不重复，是相对安全的区间。</p>
+<h3>成功案例</h3>
+<ul>
+<li><strong>Neuro-sama：</strong>YouTube 订阅 922,000，总观看 427,529,296，近 28 天新增约 4,000 订阅、401 万观看，数据来自 vidIQ，截至 2026-10-29。来源：<a href="https://vidiq.com/youtube-stats/channel/@neurosama/">vidIQ</a>。但主阵地是 Twitch 直播，YouTube 更多是剪辑、音乐和存档，不能单独证明纯 AI 直播在 YouTube 原生成功。除 Neuro-sama 外，纯 AI 驱动、以直播为主且有公开订阅和观看数据的第二、第三案例：<span class="pending">待验证</span>。</li>
+<li><strong>对照案例，不要误用：</strong>Ironmouse 的 YouTube 订阅 1,890,000，总观看 442,052,700，是真人驱动 VTuber，不是 LLM 自主驱动，只能作为 VTuber 品类天花板参照。来源：<a href="https://vidiq.com/youtube-stats/channel/@ironmouseparty/">vidIQ</a></li>
+<li><strong>品类级数据：</strong>YouTube 2025 年 5 月《Culture and Trends Report》称，自 2022 年以来 VTuber 相关视频年均观看超 500 亿次，历史 Super Chat 收入前 20 频道中有 16 个是 VTuber 频道。这是品类数据，不是纯 AI VTuber 的单独数据，是否可拆分：<span class="pending">待验证</span>。</li>
+</ul>
+</div>
+
+<h2 id="s3">3 · Kick：2026 年 3 月 AI 条款与 95/5 分成</h2>
+<div class="card">
+<h3>AI 条款具体文本</h3>
+<p>接近官方原文的文本来自 Kick 向纽约州总检察长提交的 2026 年上半年报告附件，指南最近更新于 2026 年 3 月 19 日，服务条款修改于 2026 年 3 月 23 日，提交于 2026 年 9 月 24 日：</p>
+<p><em>“We support the creative and innovative use of AI, provided that all AI-generated content is created with informed consent and clearly disclosed to the community where it mimics reality… any stream utilizing AI to generate realistic content should be clearly disclosed to viewers through the stream title or an on-screen overlay.”</em></p>
+<p>同时禁止用 AI 制作误导观众关于真实事件或私人个人行为的合成媒体，包括无同意亲密图像，以及未经明确许可模拟他人在场或背书。来源：<a href="https://ag.ny.gov/sites/default/files/social-media-policy-report/2026-q1q2-kick-streaming-pty-ltd-policy-1.pdf">Kick 提交纽约州总检察长的文件</a>、<a href="https://streamscharts.com/news/kick-updates-community-guidelines">StreamsCharts 报道</a></p>
+<p><strong>对纯 AI Live2D 的解读：</strong>原创二次元角色、不冒充真人、不模拟真人背书，不属于禁令核心；但只要出现拟真内容，就触发标题或屏幕覆盖层披露要求。二次元 Live2D 本身是否算拟真、是否豁免：<span class="pending">待验证</span>，稳妥做法是标题加常驻覆盖层双披露。</p>
+<h3>实际执法与成功案例</h3>
+<p>专门针对 AI VTuber 的 Kick 执法案例：<span class="pending">待验证</span>。最接近的 2026 年事件是 Kick 主播 N3on 在 2026 年 9 月前后以“First Ever AI Stream”为题直播约 4 至 5 小时，场均约 2 万至 2.5 万人，但这是人类主播加 AI 离线替播，不是纯 AI VTuber。来源：<a href="https://win.gg/n3on-claims-to-be-the-first-ai-streamer/">Win.gg 约 2026 年 9 月</a>。Kick 上纯 AI Live2D 成功案例：<span class="pending">待验证</span>，未找到订阅、观看、收入可核对的案例。真人 VTuber Aurora Phoenyx 转投 Kick 是真人驱动，不是 AI 驱动。</p>
+<h3>95/5 分成的真实到手条件</h3>
+<p>Kick 自述为“You keep 95% of all revenue you receive. The remaining 5% covers payment processing fees.”，适用于订阅和 KICKs 打赏货币。5 美元订阅主播得 4.75 美元。来源：<a href="https://blog.livereacting.com/youtube-vs-twitch-vs-kick-where-should-you-stream-in-2026-2/">LiveReacting，数据截至 2026-10-27</a></p>
+<ul>
+<li>订阅解锁门槛很低，第三方梳理称总直播 5 小时即可开启；Partner 申请门槛较高，滚动 30 天内需平均 75 以上同时观看、30 小时直播、25 以上活跃订阅、250 以上独立聊天者、3 个 VOD、250 以上粉丝。</li>
+<li>同时多播到另一平台，Partner 激励可能被砍 50%，但订阅和打赏不受该减半影响；广告本身目前不直接向创作者付费，Partner 按场次获得报酬，费率未公开；提现通过 Stripe，第三方称按月默认、可申请按周、无最低提现额。</li>
+<li><strong>Partner 每场激励费率、周结条件、货币转换费、退款扣回和税费代扣：<span class="pending">待验证官方原文</span>，不能断言到手就是 95% 净额。</strong></li>
+</ul>
+</div>
+
+<h2 id="s4">4 · TikTok Live：合成媒体政策与变现风险</h2>
+<div class="card">
+<h3>合成媒体政策</h3>
+<p>TikTok 社区指南 2026 年 8 月 25 日发布，2026 年 9 月 24 日生效。录播和短视频要求对展示拟真场景或人物的 AI 生成或大幅编辑内容贴标签，未贴标签可能被移除、限流或由平台补标签；可用平台内 AIGC 标签，或自己的清晰说明、贴纸、水印。触发点包括换脸、让某人说没说过的话、模仿真人声音的 AI 音频；不触发的包括调色、裁剪、动漫风格艺术、通用 TTS。来源：<a href="https://blog.evolvedlotus.com/blog/2026-10-08-tiktok-just-rewrote-what-gets-you-banned/">Evolved Lotus 2026-10-08</a>、<a href="https://adamusesai.com/en/news/ai-livestream-selling-on-tiktok">AdamUsesAI 2026-10-09 截图</a></p>
+<h3>LIVE 的致命条款：bio 声明加逐条标签不够</h3>
+<p>TikTok LIVE 变现指南中的“Inauthentic LIVE experience”列出三类可失去变现资格的内容：无实质编辑的复制内容；伪装成直播的预录、拼接、循环视频；<strong>主要由 AI 等自动化系统创建或运行、且无在场互动创作者的内容</strong>。且不符合 For You feed 资格的 LIVE，也不符合变现资格。也就是说，bio 声明加逐条标签解决的是合成媒体透明度问题，不解决“LIVE 必须有真人在场互动”的变现资格问题，两者不能互相替代。纯自主、无真人兜底的 TikTok LIVE 仍可能被判定为 Inauthentic LIVE 而失去变现和推荐资格。</p>
+<p>准入门槛：需 1,000 粉丝、年满 16 岁才能开 LIVE，收礼物需年满 18 岁。来源：<a href="https://iamprovider.com/blog/tiktoks-new-guidelines-add-subtle-changes-for-live-creators-ai-content-and-more">IAMProvider 梳理</a></p>
+<h3>AI 娱乐直播成功案例与礼物到手率</h3>
+<p>具名、纯 AI 驱动 Live2D 娱乐直播在 TikTok Live 的成功案例：<span class="pending">待验证</span>。本次找到的是 AI 头像表演、AI 伴侣实时对话、24/7 无人直播等形态综述，技术栈为 GPT、Claude 加 ElevenLabs 或 Azure TTS 加 VTube Studio 或 Live3D，但未给出具名频道、粉丝、场均观看和礼物收入等可核对数据；短视频 AI 人物如 Jéssica Fazendeira 约 314K TikTok 粉丝且 bio 已写由 AI 创建，也不是直播 VTuber，且未提供直播礼物收入。</p>
+<p>礼物变现真实到手率（第三方测算，非 TikTok 官方统一费率）：钻石约 0.005 美元一颗，主播约得观众花费的 50%，网页或 Android 买币口径；iOS 买币因苹果抽成，到手约 35%。举例：观众花 100 美元，主播约得 50 美元，iOS 约 35 美元。来源：<a href="https://influencerfee.com/blog/tiktok-live-gifting-revenue-guide/">InfluencerFee 2026 年</a>、<a href="https://www.tiktonomics.com/blog/tiktok-vs-bigo-live-which-pays-more.html">Tiktonomics 2026 年 10 月梳理</a>。最低提现额有 100 美元和约 50 美元两种说法，以自己账号后台为准，<span class="pending">待验证</span>。即使到手率是 50%，若被判定为 Inauthentic LIVE，单场可能直接失去变现资格，到手率为零。</p>
+</div>
+
+<h2 id="s5">5 · 其他平台：CHZZK、SOOP、Rumble、Bigo 与 2026 年新兴平台</h2>
+<div class="card">
+<h3>CHZZK（韩国，Naver）</h3>
+<p>2023 年 12 月 19 日开放测试，Twitch 退出韩国后与 SOOP 并列韩国两大平台；2026 年初在活跃频道数上领先 SOOP，VTuber 在年度头部创作者中排名靠前。来源：<a href="https://streamscharts.com/news/platforms-explained-navers-chzzk">StreamsCharts CHZZK 梳理</a>。对 AI 主播的专项政策：<span class="pending">待验证</span>，未找到 CHZZK 关于 AI 生成内容、AI VTuber、合成媒体披露的官方专项条款，不能默认“允许 VTuber 就等于允许纯 AI 主播”。机会在韩语和双语内容，门槛在语言、文化适配和韩国实名与结算要求，同样<span class="pending">待验证</span>。</p>
+<h3>SOOP（韩国，原 AfreecaTV，另有 SOOP Global）</h3>
+<p>韩国最老直播平台，2025 年“Virtual”类目快速增长，年末成为头部类目之一，月观看达 1,000 万小时；SOOP Global 于 2024 年 6 月 5 日上线测试，支持英语、泰语、中文，提供内置虚拟头像与实时翻译功能；2026 年 10 月前后宣布参加 2026 年 12 月 4 日至 6 日 AGF 2026，设展位推广虚拟主播。来源：<a href="https://streamscharts.com/news/platforms-explained-soop-korea">StreamsCharts SOOP 梳理</a>、<a href="https://www.invenglobal.com/articles/27590/soop-to-participate-in-agf-2026-featuring-virtual-streamers-and-content">InvenGlobal 2026 年 10 月</a>。对纯 AI 自主直播的专项政策：<span class="pending">待验证</span>，SOOP 的 Virtual Streamer 更多指真人用虚拟形象直播。</p>
+<h3>Rumble</h3>
+<p>AI 专项政策：<span class="pending">待验证</span>。视频变现门槛低，广告和授权创作者得 60%，打赏和付费点播创作者得 80%，频道订阅 5 美元每月据称主播全得，但需官方原文复核；直播 Creator Program 2026 年 7 月 1 日新规，仅限澳大利亚、加拿大、萨尔瓦多、北马其顿、韩国、英国、美国，申请需 100 以上粉丝、过去 30 天至少 1 小时 Rumble Studio 直播、持有有效 Rumble Premium，奖金来自 Premium 利润池而非固定 CPM，最低提现约 50 美元。来源：<a href="https://www.lilachbullock.com/how-much-does-rumble-pay/">Lilach Bullock 梳理</a>、<a href="https://www.earnguide.online/2026/10/how-to-make-money-on-rumble.html">EarnGuide 2026-10-12 核查</a>。结论是 Rumble 不是 VTuber 主阵地，无 AI 主播成功案例可查，不适合做纯 AI Live2D 首发平台。</p>
+<h3>Bigo Live</h3>
+<p>“Virtual Live”功能 2021 年 12 月上线，提供内置 3D 头像、实时面部追踪，2025 年又加入 GenAI 生成 2D 和 3D 头像，但这是真人驱动内置头像，不是 LLM 自主驱动加外接 Live2D 模型；Bigo 是否允许 OBS 推流纯 AI Live2D、是否允许无人值守 AI 直播：<span class="pending">待验证</span>。变现口径冲突严重，必须并列：一类第三方称主播得礼物价值约 50% 至 70%；另一类按币和豆换算称每 100 美元观众花费，Bigo 主播仅得约 7.68 美元至 14.88 美元，即约 8% 至 15%，公式为钻石乘 0.5 再除以 210 豆兑 1 美元；还有第三方称顶级主播实际得 30% 至 50%。<strong>Bigo 官方统一到手率待验证，不同服务器和签约类型可能不同，签约前必须以自己账号的服务器与合同为准。</strong>Bigo 纯 AI 主播成功案例：<span class="pending">待验证</span>，“月入 3.4 万至 6.8 万美元”等说法来自营销类文章，无可核对的频道与结算证据，不予采信。</p>
+<h3>2026 年新兴平台：有没有 AI 主播专属平台？没有成熟的</h3>
+<ul>
+<li><strong>Streamoors，最接近概念，但风险极高：</strong>AI 主播 launchpad，可创建 AI 角色、让其直播、为其发行代币并赚取费用，声称可直播到 Kick、Twitch、YouTube。来源：<a href="https://www.publish0x.com/mind-puzzle/streamoors-the-next-evolution-of-ai-streaming-xpleldw">Publish0x 2026-10-22</a>。但 2026 年 10 月 14 日至 15 日 STREAM 代币出现身份争议，有分析指出官网无团队名、无审计、无路线图、无合约地址，某一版本合约持币地址仅 687 个，24 小时交易量仅 282.78 美元快照。<strong>只能列为观察对象，不能作为主力平台，代币模式还可能与 Twitch、Kick、YouTube 的金融和披露规则冲突，待验证。</strong></li>
+<li><strong>Counterparty：</strong>2026 年 9 月至 10 月 pre-launch 的 AI co-host 平台，为已有主播提供可邀请上节目的 AI co-host，创始人自述仅有工作原型与 1 个 co-host，无用户、无收入，不是让 AI 独立开频道的直播平台。来源：<a href="https://www.counterparty.live/">Counterparty 官网，更新 2026-10-08</a></li>
+<li><strong>工具而非平台，不要误当作平台：</strong>AITuberKit、Open-LLM-VTuber、Project AIRI 是搭建 AI VTuber 的工具，不是观众平台。</li>
+</ul>
+</div>
+
+<h2 id="s6">6 · 变现门槛、分成与到手率对比</h2>
+<div class="card">
+<p class="muted">通用扣除项不要只看 headline 分成：Twitch 和 YouTube 均为净收入分成，先扣税与支付处理费；YouTube 另说明 iOS 内购先扣苹果费，YouTube 自担信用卡费；Twitch 不同提现方式费用不同；平台分成后仍可能涉及预扣与申报义务，如 Twitch W-9 或 W-8BEN、YouTube AdSense 税务信息，不是第二道分成，但直接影响现金到手；TikTok 和 Bigo 的公会、经纪、MCN 合同可能在平台分成后再抽，本次未找到可核实的统一比例，<span class="pending">待验证</span>。</p>
+<div class="table-wrap"><table>
+<tr><th>平台</th><th>变现门槛（2026 年 10 月口径）</th><th>订阅 / 会员</th><th>打赏 / 礼物</th><th>广告</th><th>到手要点</th></tr>
+<tr><td>Twitch</td><td>Affiliate：25 粉丝、4 小时、4 个不同直播日、平均 3 并发，30 天内；Partner 另需约 75 平均并发等</td><td>标准 50/50；Plus Program 100 Plus Points 连 3 个月为 60/40，300 点为 70/30</td><td>Bits 主播固定 0.01 美元一个，即 100 Bits = 1 美元</td><td>约 55%，需满足最低广告时长等条件</td><td>订阅按净收入分；美国 Tier 1 网页价 5.99 美元时标准约 3 美元，60/40 约 3.59 美元，70/30 约 4.19 美元；Prime 为固定本地化费用，美国示例约 2.25 美元；起付多数方式 50 美元，电汇 100 美元，Net-15；未完成税务访谈的非美国主播默认预扣可达 30%，协定税率可能降至 0 至 10%</td></tr>
+<tr><td>YouTube</td><td>粉丝资助层：500 订阅 + 90 天内 3 条公开上传 + 12 个月内 3,000 观看小时或 90 天内 300 万 Shorts 观看；广告层：1,000 订阅 + 4,000 小时或 1,000 万 Shorts 观看</td><td>会员 70/30</td><td>Super Chat / Stickers / Thanks 70/30</td><td>长视频 55/45；Shorts 为分成池的 45%</td><td>70% 是扣适用税费后的净收入分成；iOS 内购先扣苹果费，第三方估算 10 美元 Super Chat 桌面或 Android 约 7 美元，iPhone 约 4.90 美元，非官方承诺；AdSense 起付 100 美元；第三方转述无税务信息时 Google 可能预扣 24%，需以 AdSense 条款为准。另有第三方比较文称 2027 年 2 月 1 日起新申请者门槛将升至 8,000 小时或 2,000 万 Shorts 观看，2026 年 10 月基线仍为现行门槛</td></tr>
+<tr><td>Kick</td><td>订阅：累计直播 5 小时后可开通；Partner 申请第三方汇总为 30 天内 75 平均并发、30 小时、25 以上活跃订阅、250 独立聊天者、3 条 VOD、250 以上粉丝等</td><td>95/5，5 美元订阅主播得 4.75 美元</td><td>KICKs 打赏同样 95/5</td><td>广告本身不直接向创作者付费，Partner 按场次获得激励，费率未公开</td><td>多播时 Partner 场次激励减半 50%，订阅和打赏不受减半影响；通过 Stripe 结算，第三方称月结、可申请周结、无最低起付，起付与周结条件待验证官方原文</td></tr>
+<tr><td>TikTok Live</td><td>开播一般 1,000 粉丝 + 18 岁，韩国收礼 19 岁，TikTok 注明各地可能不同；收礼需 18 岁以上、位于支持地区</td><td>无平台订阅分成可比项，主要靠礼物</td><td>无官方固定 Diamond 兑美元价；第三方通用估算 1 Diamond 约 0.005 美元，创作者约得观众支出的约 50%</td><td>直播广告和 Creator Rewards 不适用同一口径</td><td>观众花约 10.60 美元买 1,000 币送礼，创作者约 5 美元，税费和支付渠道前；iOS 购币更贵会进一步拉低比例；提现门槛说法不一，100 美元常见，也有 10 美元说法，以账号内实际提现页为准，待验证；经纪和公会再抽成待验证</td></tr>
+<tr><td>CHZZK</td><td>新主播均为 Rookie；Professional 需粉丝、观看和时长达标，Partner 为邀请制</td><td>订阅 70/30，第三方汇总</td><td>Cheese 打赏：Rookie 60/40、Professional 70/30、Partner 80/20，第三方汇总</td><td>Rookie 0%、Professional 35%、Partner 55%，第三方汇总</td><td>以上分成未见 Naver 官方英文或中文原文核对，属第三方汇总，待验证；Streamer Shop 2026 年 2 月上线计划，具体抽成待验证</td></tr>
+<tr><td>SOOP</td><td>分级：普通主播到 Best 到 Partner，高等级兑换比例更高</td><td>粉丝俱乐部会员为月费收入，具体分成未确认，待验证</td><td>Star Balloon：普通约 60%、Best 约 70%、Partner 约 80%，以每颗气球兑换韩元计；另有主播得 60% 至 70% 的宽泛说法</td><td>VOD 广告存在，具体分成待验证</td><td>第三方指南称通常需要韩国银行账户收款，非韩国团队的实际收款路径待验证；顶级主播月收入可达数亿韩元为旧闻和个案，不可作为一般预期</td></tr>
+<tr><td>Rumble</td><td>视频许可路线无粉丝和观看时长门槛；直播 Creator Program：100 粉丝 + 30 天内经 Rumble Studio 直播不少于 1 小时 + 保持有效的 Rumble Premium，约 9.99 美元每月或 99 美元每年</td><td>频道订阅第三方转述支持页称 5 美元每月订阅主播全得，无抽成，需官方原文复核，待验证</td><td>打赏和付费点播创作者 80%，Rumble 收 20% 代理费</td><td>程序化广告、品牌口播和授权创作者 60%，Rumble 收 40% 代理费；独家管理授权下第三方转述可达 90% 净收入，属 YouTube 分发场景，非 Rumble 站内广告</td><td>Creator Program 不按固定 CPM 付费，而是分 Premium 利润池；每月维持要求第三方版本略有出入；起付 50 美元</td></tr>
+<tr><td>Bigo Live</td><td>第三方称无粉丝门槛即可靠礼物变现；Official Host 计划另有签约门槛与保底薪资</td><td>无订阅可比项</td><td>口径冲突，见第 5 项：按 210 Beans = 1 美元口径，观众花 100 美元，创作者仅得约 8 至 15 美元；按 1 Diamond = 3 Beans 口径则显著更高</td><td>不适用</td><td>真实到手率因服务器和签约类型而异，待验证；Beans 提现 6,700 Beans 约 31.90 美元起提，周提现上限约 1,050,000 Beans 约 5,000 美元；Official Host 新人月薪第三方称 150 至 500 美元，待验证</td></tr>
+</table></div>
+<p class="small">主要来源：Twitch 第三方核查 <a href="https://mubert.com/blog/how-twitch-streaming-works-how-creators-make-money">Mubert</a>、<a href="https://topfluencers.co/blog/twitch-affiliate-vs-partner">Topfluencers</a>；YouTube <a href="https://www.earnthread.com/blog/what-platforms-pay-creators-2026">EarnThread 2026-10-22 复核</a>；Kick <a href="https://www.kick-calculator.com/2026/09/How-Much-Are-Subs-Worth-on-Kick.html">Kick Calculator，核查至 2026-09-12</a>；TikTok <a href="https://likes.io/blog/how-much-are-tiktok-diamonds-worth">Likes.io</a>、<a href="https://influencerfee.com/blog/tiktok-live-gifting-revenue-guide/">InfluencerFee</a>；Rumble <a href="https://www.lilachbullock.com/how-much-does-rumble-pay/">Lilach Bullock</a>、<a href="https://www.earnguide.online/2026/10/how-to-make-money-on-rumble.html">EarnGuide 2026-10-12 核查</a>；Bigo <a href="https://www.tiktonomics.com/blog/tiktok-vs-bigo-live-which-pays-more.html">Tiktonomics 2026 年 10 月核查</a>。</p>
+<div class="warn"><strong>冲突提示：</strong>Twitch Affiliate 门槛：2026 年 10 月 15 日至 16 日的第三方核查文称 25 粉丝、4 小时、4 天、3 并发，仍有不少 2026 年页面沿用旧口径 50 粉丝、500 分钟、7 天，两者不能并存，应以 Twitch 帮助中心当前页为准，本次未直接打开官方帮助中心原文，故标注为第三方核查口径。</div>
+</div>
+
+<h2 id="s7">7 · AI VTuber 典型成本结构</h2>
+<div class="card">
+<h3>语音：ElevenLabs vs 开源自托管</h3>
+<div class="table-wrap"><table>
+<tr><th>ElevenLabs 计划</th><th>月费（按月付 / 按年折合每月）</th><th>包含额度</th></tr>
+<tr><td>Free</td><td>0 美元</td><td>10,000 credits，约 10 分钟</td></tr>
+<tr><td>Starter</td><td>6 美元 / 5.00 美元</td><td>30,000 credits，约 30 分钟</td></tr>
+<tr><td>Creator</td><td>22 美元 / 18.33 美元</td><td>121,000 credits，约 121 分钟</td></tr>
+<tr><td>Pro</td><td>99 美元 / 82.50 美元</td><td>600,000 credits，约 600 分钟</td></tr>
+<tr><td>Scale</td><td>299 美元 / 249.17 美元</td><td>1,800,000 credits，约 1,800 分钟</td></tr>
+<tr><td>Business</td><td>990 美元 / 825.00 美元</td><td>6,000,000 credits，约 6,000 分钟</td></tr>
+</table></div>
+<p>订阅折合约 0.17 至 0.20 美元每分钟。API 单价第三方核查为 Eleven v4、v3、Multilingual v2 约 0.08 美元每 1,000 字符，v4 Turbo 和 Flash 约 0.04 美元每 1,000 字符；按约 1,000 字符约 1 分钟语音的第三方换算，API 口径约 0.08 美元每分钟标准模型或 0.04 美元每分钟快速模型，即每小时生成语音约 4.80 美元或 2.40 美元，这是计算示例，非官方每小时价。2026 年 10 月 20 日新品 Eleven Realtime 第三方读取官方页为连接音频约 0.08 美元每分钟，另加 token 费。注意 Starter 为首个含商业许可的档位，第三方表述；免费档标注非商业用途。来源：<a href="https://oakgen.ai/blog/elevenlabs-pricing-limits-cost">Oakgen 2026-10-25 复核</a>、<a href="https://www.forasoft.com/blog/article/elevenlabs-alternatives">Forasoft 2026-10-16 核查</a></p>
+<p><strong>开源自托管：许可证免费不等于零成本。</strong>Kokoro-82M 为 Apache 2.0，约 1.5GB VRAM，可 CPU 运行；Piper 为 CPU、MIT 引擎但语音许可各异；Chatterbox、CosyVoice、Qwen3-TTS 等均无按字符收费；第三方 2026 年 8 月指南称托管口径下最优开源模型约 0.70 美元每 100 万字符，自跑则仅剩电力和算力成本，但该数字为第三方托管估算，非通用报价，<span class="pending">待验证</span>。第三方比较明确指出开源在硬文本、多样性和打磨度上落后于云端，且自托管需搭建和运维投入，实时流式、克隆音色、并发和延迟需自行做服务层。托管式开源方案参考价：TTS.ai Private Cloud 自托管 Docker 授权 99 美元每月，不含 GPU，托管单 GPU A100 499 美元每月起。来源：<a href="https://tts.ai/private-cloud/">TTS.ai Private Cloud</a></p>
+<h3>LLM API 成本：第三方汇总存在新旧口径冲突，不能直接引用一张模型价目表做预算</h3>
+<p>只给可复用的数量关系和公式，不给未经厂商原文直引的模型单价表：若一个月用中档主力模型 1,000 万输入 tokens 加 200 万输出 tokens，按 2 美元和 10 美元每 100 万 tokens 计，约 20 美元加 20 美元等于 40 美元每月；若全部用旗舰 4 美元和 20 美元计，同样量级约 80 美元每月。直播的真实 token 量取决于每轮上下文长度、是否缓存系统提示、每分钟发言次数与输出长度，<strong>本次未找到可核实的“AI 直播每小时 token 量”基准，任何“每月 LLM 只要 X 美元”的断言均属待验证</strong>。批量 API 部分厂商为标准价 50%，但直播实时对话不适用批量价。预算前必须以厂商定价页为准，<span class="pending">待验证</span>。</p>
+<h3>多播工具与其它成本</h3>
+<p><strong>Restream，2026 年 10 月 10 日读取官方定价页的第三方核查：</strong>Free 0 美元，2 个频道，含 Studio 水印，Studio 720p；Standard 19 美元按月付、16 美元按年折合每月，3 个频道，无水印，自定义 RTMP；Professional 49 美元、39 美元，5 个频道，Studio 1080p、横竖同播、2 席位；Business 239 美元、199 美元，8 个频道，含网站播放器、备用源；Enterprise 询价，10 个以上频道。录播和循环为 Upload &amp; Stream 附加包 39、79、239 美元每月，循环功能从 79 美元档起，单次循环上限 40 小时。来源：<a href="https://upstream.so/blog/restream-pricing/">Upstream 2026-10-10 读取</a></p>
+<p><strong>Live2D 模型与算力：</strong>Live2D 定制第三方 2026 年指南区间极宽，入门 2D 模型约 450 至 1,450 美元，美术 250 至 700 美元加绑定 200 至 750 美元；认真做的高质量 2D 约 2,500 至 5,000 美元；单项挂牌价差异巨大，bust-up 模型加绑定有 90 至 350 美元的 Etsy 挂牌，也有 VGen 绑定单项 100,000 日元起、源文件另加 300,000 日元的个案。<strong>不存在统一市价，预算应按美术加绑定加商业授权加表情和服装追加分项询价。</strong>云 GPU 为 2026 年 10 月第三方行情，非厂商固定价：RTX 4090 约 0.34 美元每小时社区和市场价，RunPod 安全云约 0.69 至 0.74 美元每小时；A100 80GB 约 1.39 至 1.89 美元每小时；H100 约 2.69 至 3.29 美元每小时。计算示例：若仅直播时段租用 RTX 4090，每月 120 小时，每天 4 小时乘 30 天，按 0.34 美元计约 40.80 美元每月；若 24/7 常驻则约 245 美元每月，未含存储、流量与中断风险，属算术示例。OBS Studio 第三方 2026 年 10 月 6 日核查称 0 美元；VTube Studio 授权费、动作捕捉、字幕和 STT、游戏授权、音乐授权等本次未逐项核实，<span class="pending">待验证</span>，不应默认为零。</p>
+<div class="warn"><strong>可复用的月成本框架，只给结构，不承诺总额：</strong>一次性为 Live2D 美术加绑定 450 至 5,000 美元以上区间加品牌、封面、表情包等一次性美术；按月订阅为 ElevenLabs 6 至 99 美元常见档加 Restream 0 至 49 美元常见档加云 GPU 如需 0 至 250 美元以上，取决于时长与卡型；按量为 LLM API 按 tokens 计加 TTS API 超额部分按字符计；人力和隐性为模型调优、直播运维、内容审核、法务与税务合规，无公开统一价，<span class="pending">待验证</span>。</div>
+</div>
+
+<h2 id="s8">8 · Neuro-sama 模式之外的已验证商业模式</h2>
+<div class="card">
+<p><strong>先说结论：纯 AI 驱动直播主播在品牌合作、音乐、周边、B2B 授权四项上，能找到“存在性证据”的多，能找到“具名合作方加可核实金额”的少。以下严格区分已证实存在与估算或传闻。</strong></p>
+<h3>品牌合作和赞助：存在性有，金额多为估算</h3>
+<p>最接近 AI VTuber 商业化的案例是 Bloo，Kwebbelkop 的虚拟角色，已证实经 CNBC 转述的创作者自述为约 250 万订阅、超 7 亿观看，累计收入超七位数，即大于 1,000,000 美元，收入来自广告、捐赠、赞助与周边等多渠道，并用 ElevenLabs、ChatGPT、Gemini、Claude 等 AI 工具做缩略图、多语言配音等，并以完全自主为长期目标。<strong>关键限定：同一报道明确指出 Bloo 目前仍是人操纵，人实时控制声音与动作，完全 AI 生成视频的测试结果尚不理想。因此 Bloo 不能直接等同于纯 AI 驱动直播，只能作为 AI 辅助虚拟角色商业化的参照。</strong>金额性质为创作者自述的累计总额，非审计财报，各渠道拆分待验证。来源：<a href="https://www.thefreelibrary.com/AI-driven+VTubers+like+Bloo+revolutionise+content+creation%2c+earning...-a0847149772">FreeLibrary 转述 CNBC</a>、<a href="https://www.emarketer.com/content/faceless-creators-vtubers-reshaping-influencer-marketing">eMarketer 2025-07-03</a>。泛虚拟偶像和无脸创作者的品牌合作月收入据称可达 30,000 至 40,000 美元，且多按效果付费，但该数字覆盖无脸创作者网络，不是纯 AI 直播主播的专属数据，<span class="pending">待验证</span>。纯 AI 直播主播的具名品牌合作，本次检索<strong>未找到</strong>可核实的某品牌乘某纯 AI 直播主播加合同金额和档期案例；Neuro-sama 直播中出现过赞助游戏片段的剪辑标题，但赞助方、金额、是否为正式品牌合作均未核实，<span class="pending">待验证</span>，不应计入已验证模式。结论是品牌合作对纯 AI 主播是逻辑成立、案例未实锤的模式，起号阶段不应把品牌合作写进收入预测。</p>
+<h3>音乐发行：对纯 AI 主播，除 Neuro-sama 外无可核实独立案例</h3>
+<p>Neuro-sama 本人仅作参照，不计入“之外”的答案：首支原创《LIFE》2024 年 12 月 19 日发行；Evil Neuro《BOOM》2025 年 6 月 25 日发行；《NEVER》2025 年 8 月 31 日发行；两张 EP 定于 2026 年 11 月 16 日发行；好莱坞演唱会定于 2026 年 12 月 19 日。第三方流媒体统计称《LIFE》Spotify 累计约 3,871,219 次、《BOOM》约 2,846,399 次，统计口径为第三方追踪，非 Spotify 官方公布。收入不可推导，流媒体单次播放费率因地区、订阅和免费、分成协议而异，本次未找到 Neuro-sama 音乐版税实收数据，<span class="pending">音乐收入金额待验证</span>；且其官方发行说明指出词曲和制作有人类参与，并非 AI 全流程作曲。来源：<a href="https://en.wikipedia.org/wiki/Neuro-sama">Neuro-sama Wikipedia</a>、<a href="https://www.mystreamcount.com/track/6D7VlXRBYVUhSnbOJLNjvH">MyStreamCount</a>。除 Neuro-sama 外的纯 AI 直播主播音乐发行，本次检索<strong>未找到</strong>可核实的第二例。邻近参照如 Hololive 等人类驱动 VTuber 的周边、音乐、演唱会规模很大，但其驱动者是真人，不可作为纯 AI 主播的验证数据。</p>
+<h3>周边和 D2C 商品：存在性有，纯 AI 案例的销售额待验证</h3>
+<p>Neuro-sama 参照，不计入“之外”答案：第三方店铺自称官方授权 Neuro-sama 和 Vedal 商店，有 46 款设计、5 类贴纸、T 恤、海报和墙艺、连帽衫、马克杯和饮具，按需印刷。<strong>该店是否为 Vedal 官方直营、销售额与利润分成未核实，待验证</strong>；2023 年 12 月 100% 折扣码导致 500 万以上毛绒订单的旧闻属事件报道且订单大概率被取消，不可作为销售额证据。除 Neuro-sama 外的纯 AI 主播周边，本次检索<strong>未找到</strong>可核实的首发销售额和复购率数据。Bloo 的周边仅出现在多渠道收入的笼统表述中，无单品与金额，<span class="pending">待验证</span>。可复用的商业逻辑，非数据：VTuber 周边通常与生日、出道纪念、季节节点绑定，采用预售和按需印刷降低库存风险，但该逻辑来自人类 VTuber 行业描述，迁移到纯 AI 主播的转化率<span class="pending">待验证</span>。</p>
+<h3>B2B 授权和工具授权：有一例可核实产品与起价，其余为市场规模推测</h3>
+<p>TubeChef，Kwebbelkop 和 Bloo 团队，已证实存在一款面向创作者的自动生成无脸 AI 视频系统，第三方转述起价 18 美元每月。这是把 AI 角色生产系统本身作为产品卖给 B2B 和 B2C 创作者的模式，与把角色 IP 授权给品牌不同，但属于已验证的 B2B 和工具化变现方向。订阅量、收入、留存<span class="pending">待验证</span>。角色 IP 授权方面，2026 年 9 月第三方行业分析将品牌授权列为虚拟偶像第二大收入来源，认为授权可从卖单条内容升级为卖角色使用权，包括地域、渠道、期限，并引用 Grand View 等机构称 2026 年虚拟偶像市场约 145 亿美元、2033 年 1,104 亿美元。但作者自己也提醒不同报告统计口径不一，软件、营销服务、品牌内容、数字人业务混在一起，<strong>市场规模数字不可直接当作纯 AI 直播主播可分到的收入，且未给出纯 AI 直播主播的授权合同实例，待验证</strong>。来源：<a href="https://bytebridge.medium.com/the-economics-of-virtual-influencers-b678038e3f99">ByteBridge 2026 年 9 月</a></p>
+<h3>其他模式区分</h3>
+<ul>
+<li>平台订阅、打赏、广告机制已验证，但 AI 主播的实际转化率无公开基准。</li>
+<li>会员、Patreon 和粉丝俱乐部机制存在，纯 AI 主播的会员数与 ARPU 待验证。</li>
+<li>联盟营销和带货分成机制存在，但本任务限定非带货、纯娱乐，故不展开，纯 AI 主播的联盟转化数据待验证。</li>
+<li>数字商品如表情包、语音包、壁纸、会员专属内容逻辑成立，纯 AI 主播的实收案例待验证。</li>
+<li>演出和线下活动方面 Neuro-sama 有 2026 年 12 月 19 日好莱坞演唱会计划，未来事件，票房待验证，其他纯 AI 主播待验证。</li>
+<li>游戏和软件衍生如 Vedal 的《Abandoned Archive》属开发者个人游戏项目，非 AI 主播 IP 授权收入，不应计入主播变现。</li>
+</ul>
+<div class="warn"><strong>不应采信的数字：</strong>第三方净值和年收入估算器给出的 Neuro-sama YouTube 年收入约 529,495 美元，StarStat，截至 2026 年 8 月 24 日，与 vidIQ 月收入约 3,359 美元，2026 年 10 月 29 日，口径冲突且均为估算，两者不可并用；Bloo 净值约 380 万美元的第三方估算同样仅为估算。</div>
+</div>
+
+<h2 id="s9">9 · 欧盟 AI Act 第 50 条</h2>
+<div class="card">
+<h3>生效日与域外适用</h3>
+<p><strong>生效日：2026 年 8 月 2 日</strong>，第 50 条透明度义务开始适用，适用于所有在 scope 内的系统，不论何时投放市场；2026 年 8 月 2 日前已发布的内容无需追溯标注。仅对 2026 年 8 月 2 日前已上市的生成式系统，第 50 条第 2 款机器可读标记义务宽限至 2026 年 12 月 2 日。来源：<a href="https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026">Cooley 2026-08-03 发布、2026-10-27 更新</a></p>
+<p>AI Act 适用于将 AI 投放欧盟市场，或其 AI 输出在欧盟境内被使用的提供者、部署者等，不论设立地在何处。因此即使团队不在欧盟、只要面向欧盟观众直播，也在讨论范围内。</p>
+<h3>四项义务分工</h3>
+<ul>
+<li><strong>第 50 条第 1 款：</strong>直接与人交互的 AI 系统，如聊天机器人、语音助手、AI 代理，提供者须告知用户其在与 AI 交互，除非这一点已显而易见。</li>
+<li><strong>第 50 条第 2 款：</strong>生成或操纵合成音频、图像、视频、文本的系统，提供者须以机器可读格式标记输出，使其可被检测为 AI 生成。</li>
+<li><strong>第 50 条第 3 款：</strong>情绪识别和生物识别分类系统，部署者须告知受影响者。</li>
+<li><strong>第 50 条第 4 款：</strong>deepfake，以及为告知公众公共利益事项而发布的 AI 生成文本，部署者须披露其为人工生成或操纵。</li>
+</ul>
+<h3>披露方式与 deepfake 定义</h3>
+<p><strong>第 50 条第 5 款：</strong>须以清晰、可区分的方式，至迟在首次交互或首次接触时提供；藏在服务条款、页脚或菜单后的通用表述不符合要求。对聊天机器人，披露应在对话开始时；对 deepfake 视频，应在接触点、而非仅在视频下方描述中。</p>
+<p><strong>deepfake 定义，第 3 条第 60 款：</strong>AI 生成或操纵的图像、音频、视频内容，类似现有的个人、物体、地点、实体或事件，且会使人误以为真实可信。指南进一步明确：类似须可感知但不必完全相同；主题须现实且可能存在，因此龙、人类无辅助飞行等明显幻想内容不在定义内；是否显得真实按受众判断，而非部署者意图。来源：<a href="https://www.twobirds.com/en/insights/2026/taking-the-eu-ai-act-to-practice-the-final-transparency-code-of-practice">Bird &amp; Bird 对最终透明度实践守则的分析</a>、<a href="https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content">欧盟委员会 AI 内容标注图标页，官方</a></p>
+<p><strong>艺术和虚构作品的减轻规则：</strong>deepfake 若属于明显艺术、创意、讽刺、虚构或类似作品和节目的一部分，披露义务被限定为以不妨碍作品展示或欣赏的适当方式披露该生成内容的存在。但指南草案和实践守则指出，以商业说服为主、可识别为广告的内容不享有 blanket 豁免。</p>
+<h3>官方指南与自愿守则</h3>
+<p>欧盟委员会指南 2026 年 7 月 20 日发布《第 50 条透明度义务指南》，C(2026) 5054 final，属非约束性解释文件，但被描述为各国市场监管机构评估合规的主要参考；透明度实践守则 2026 年 6 月 10 日发布，2026 年 7 月获委员会与 AI 委员会确认为充分合规路径；签署属自愿，<strong>不是安全港</strong>，遵守守则是指导性合规证明，不本身免除法定义务。欧盟提供了可免费使用的 AI 内容标注图标，是实践守则第 2 节的一部分；<strong>图标使用是可选的，标注义务本身不是可选的，仅用图标不等于合规</strong>。</p>
+<h3>对纯 AI Live2D 娱乐主播的适用分析，属法律适用判断，非既定判例</h3>
+<ul>
+<li>虚构二次元角色、无真实原型，是否属于 deepfake，定义要求类似现有个人或实体且误以为真实，明显幻想内容被指南排除，<strong>倾向于不属于第 50 条第 4 款 deepfake，但待验证</strong>，无针对二次元虚拟角色的官方解释或判例；若角色被设计得极似真人、或观众可能误认其为真人主播，风险上升。</li>
+<li>直播中与观众实时对话，是否触发第 50 条第 1 款，该条针对直接交互的 AI 系统，义务主体写为提供者，<span class="pending">待验证</span>：主播方是部署者还是自研系统的提供者，取决于其是否自行开发并以自己名义投放 AI 系统；若使用第三方 LLM 和 TTS，标记义务主要在模型提供者一侧，主播方的披露责任边界无 VTuber 专项指引。</li>
+<li>仅在简介或 bio 写“AI VTuber”是否足够，第 50 条第 5 款要求首次接触时清晰可区分，指南反对藏在条款和页脚的通用表述，<strong>不足为据</strong>：简介可作补充，但不应作为唯一披露；直播内常驻标识加开场说明是更符合条文精神的操作，属合规建议，非已判定的法定最低标准。</li>
+<li>语音和画面水印是否为强制，机器可读标记是提供者义务，部署者义务是可见披露，<strong>区分处理</strong>：主播方不应承诺自己能完成提供者级水印；应保留上游工具的出处和标记、不主动剥离元数据，并做好可见披露。</li>
+</ul>
+<p>直播场景的具体形式，针对 deepfake 类内容，非对所有 AI 直播的统一法定模板：实践守则草案和分析中提到的分模态做法为直播视频用持续性视觉标识加开场声明，录播视频用可见标识或声明，音频用可听声明、长内容需重复。流媒体的技术难点在于出处信息须按分片保持，C2PA 类方案被多次提及为可行路径，但 <strong>C2PA 并非法律强制标准</strong>。</p>
+<h3>违规后果与执法案例</h3>
+<p>第 50 条违规最高 1,500 万欧元或全球年营业额 3%，以较高者为准，第 99 条第 4 款；中小企业适用较低者。执法主体为各成员国市场监管机构，非 AI Office 直接对部署者罚款；AI Office 负责通用目的 AI 模型提供者。<strong>执法案例：暂无公开的第 50 条罚款案例，截至 2026 年 10 月 30 日检索。</strong>检索中出现的 2026 年 10 月首批执法报道，指向的是 AI Office 向通用目的 AI 模型提供者发出的信息索取请求，主题为安全、外部评估与上市后监测，<strong>不是第 50 条直播披露罚款，也不是针对 VTuber 或主播</strong>；且该报道为二手分析，引用欧盟委员会副主席 Virkkunen 2026 年 10 月 9 日讲话，未经欧盟委员会一手新闻稿核实，列为<span class="pending">待验证</span>。</p>
+<div class="warn"><strong>可操作的最低披露组合，建议，非法律保证：</strong>直播画面常驻“AI 生成、纯 AI 驱动”标识，全程可见但不遮挡主体，加每场开场口头和文字说明，加频道简介与每场标题和描述中标注，加不宣称真人经历、不冒充真人主播。带货和广告片段须单独按商业披露处理。</div>
+</div>
+
+<h2 id="s10">10 · 美国联邦及纽约、加州</h2>
+<div class="card">
+<h3>联邦层面：无全面联邦 AI 立法，州法是主要合规来源</h3>
+<p>FTC《代言指南》，16 CFR Part 255，2023 年修订，88 Fed. Reg. 48092，2023 年 7 月 26 日：代言人定义扩大到可能或看似为个人、团体或机构的一方，FTC 在 2023 年 6 月 29 日公告中说明该定义<strong>覆盖虚拟网红</strong>；代言须反映代言人的真实意见和经历，不得传递广告主直接说即构成欺诈的表述；实质性关联须清晰、显著披露；在社交和互动媒体中披露应不可避免，仅出现在个人简介页的披露不符合清晰显著标准；平台自带的付费合作开关本身不保证合规。来源：<a href="https://www.coblentzlaw.com/news/genai-in-advertising-and-influencer-marketing-the-legal-framework-2026-update/">Coblentz 2026 年更新分析</a></p>
+<p><strong>关键纠正：营销博客常见的“FTC 每条 AI 帖子罚款 53,088 美元”表述存在规则和指南混淆。</strong>《指南》本身是指导性解释、无法律强制力，不一致的做法可能引发 FTC 按《FTC 法》第 5 条执法；53,088 美元量级对应的是可处以民事罚款的规则，如《消费者评论规则》的罚款上限，引用时须区分指南违规与规则违规。</p>
+<p><strong>对纯娱乐 VTuber 的适用边界：</strong>FTC 代言规则只在代言和商业推广时触发。<strong>纯打游戏、杂谈、唱歌、无品牌合作、无产品功效宣称的直播，不在代言规则的直接射程内；一旦出现品牌合作、带货口播、产品体验宣称，即触发双重披露：商业关联，如 #ad 和付费合作；AI 和虚拟身份不得误导。</strong>AI 角色不得宣称自己没有过的亲身使用体验，例如“我每天都用它”。</p>
+<p><strong>联邦执法案例，无 AI VTuber 直播本体案例：</strong>NextMed 案 2025 年 12 月 3 日最终令 15 万美元，FTC 指控其以隐藏费用、虚假评价和虚假证言、不实减重宣称推广 GLP-1 减重订阅，这是虚假证言加医疗宣称案，不是 AI VTuber 案，仅作类比参考；Rytr 案 Operation AI Comply，2024 年和解后于 2025 年 12 月 22 日被 FTC 自行撤销同意令，FTC 以该命令违背公共利益、负担 AI 创新为由撤销，显示联邦 AI 执法方向存在摇摆，不是 VTuber 案，不应解读为 AI 披露不再执法。<strong>针对纯娱乐 AI VTuber 的 FTC 执法案例：暂无公开案例，待验证。</strong></p>
+<h3>纽约：合成表演者披露法，只管广告</h3>
+<p>2025 年 12 月 11 日州长签署 S.8420-A 和 A.8887-B，修订《纽约州一般商业法》第 396-b 条，<strong>2026 年 6 月 9 日生效</strong>。广告中出现合成表演者且广告制作者实际知晓时，须在广告中显著披露。合成表演者定义为以生成式 AI 或软件算法创建、复制或修改的数字资产，意图造成非可识别自然表演者正在进行视听或视觉表演的印象。<strong>关键在非可识别，冒充真实名人的 deepfake 不在此定义内，另由公开权等规则处理。</strong>民事罚款首次违规 1,000 美元，后续每次 5,000 美元；法条未明文设私人诉权，执法可能由州总检察长等承担。豁免包括表达性作品，如电影、电视、流媒体内容、纪录片、电子游戏等的广告和宣传材料，若合成表演者的使用与底层作品中的使用一致；纯音频广告；AI 仅用于翻译真人表演者语言。媒体发布者，如报纸、电视网、流媒体服务等，本身不受该条约束。来源：<a href="https://www.cooley.com/news/insight/2026/2026-01-29-new-york-enacts-synthetic-performer-disclosure-law-for-advertisements-including-those-using-generative-ai">Cooley 2026-01-29 发布、2026-10-27 更新</a>。对 AI VTuber 的适用判断：直播本体，娱乐内容，<strong>不是广告</strong>，不在该法直接射程内；用 VTuber 形象为某个商品或服务做广告，如代言口播、赞助短片时可能触发，但若该广告是为宣传 VTuber 自身的流媒体作品且使用方式与作品一致，则可能落入表达性作品豁免，<strong>该豁免边界未经判例检验，待验证</strong>；显著一词法条未定义用语、字号、位置，合规做法无官方细则，<span class="pending">待验证</span>。纽约执法案例：暂无公开的针对 AI VTuber 和虚拟主播的 396-b 执法案例，<span class="pending">待验证</span>。</p>
+<h3>加州：三条线，义务主体各不相同</h3>
+<ul>
+<li><strong>加州 AI 透明法 SB 942，经 AB 853 修订，2026 年 8 月 2 日起施行</strong>，原定 2026 年 1 月 1 日，AB 853 推迟至与欧盟第 50 条同日。义务主体为受覆盖提供者：创建生成式 AI 系统、且在加州可公开访问、月访问或用户超 100 万的企业。要求包括提供免费公开 AI 检测工具、允许用户添加可见 AI 标识、在生成图像、视频、音频中嵌入隐藏出处数据；若被许可方剥离水印，提供者须在 96 小时内切断访问。<strong>对主播的实际影响是间接的</strong>：主播作为工具使用者，本身无 SB 942 下的申报和建工具义务；但上游工具会陆续带上出处标记，平台可能据此要求确认。报道的罚款为每次违规 5,000 美元，按日计，由州总检察长执法，该数字针对受覆盖提供者，不应直接套用到主播。来源：<a href="https://www.mayerbrown.com/en/pdf/insights/publications/2025/10/new-obligations-under-the-california-ai-transparency-act-and-companion-chatbot-law-add-to-the-compliance-list?pdf-options=countrycode%3ADE">Mayer Brown 2025 年 10 月</a></li>
+<li><strong>加州陪伴聊天机器人法 SB 243，纯 AI VTuber 的最大灰区，待验证。</strong>签署 2025 年 10 月 13 日；运营者义务自 2026 年 1 月 1 日起生效。陪伴聊天机器人定义为具有自然语言界面、提供适应性类人回应、能满足用户社交需求，包括展现拟人特征、能在多次交互中维持关系的 AI 系统。<strong>定义中无恋爱要件、无须自称陪伴要件。</strong>排除项包括仅用于客服、业务运营、生产力、分析、内部研究、技术支持的机器人；嵌入电子游戏且不能讨论心理健康、自残或性显露内容的机器人；独立语音助手设备等。若在适用范围内，运营者义务包括当合理人可能误以为在与真人交互时，发出清晰显著的非真人、AI 生成通知；对已知未成年人，披露其在与 AI 交互、至少每 3 小时提醒休息且重申非真人、采取合理措施防止生成性内容或唆使性行为；制定并公开自杀和自残内容应对协议；<strong>自 2027 年 7 月 1 日起</strong>向州自杀预防办公室年度报告相关指标；并设有私人诉权。来源：<a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243">加州立法信息 SB 243 法案文本</a>。适用判断，待验证，无 VTuber 判例：一对多公开娱乐直播是否属于陪伴聊天机器人平台，法条未明言。支持纳入的论点是 AI 主播以拟人形象长期回应弹幕、维持观众关系；支持排除的论点是直播是公开表演而非一对一陪伴服务，且游戏和娱乐语境可能接近排除项。<strong>在有权威解释或判例前，应按可能适用做防御性披露，而非断言肯定适用或肯定不适用。</strong></li>
+<li><strong>加州 B.O.T. 法 SB 1001，2019 年 7 月起施行</strong>，禁止出于诱使销售或影响投票的目的、在与加州居民在线交流时故意误导对方关于机器人人工身份。<strong>纯娱乐、无销售和投票诱导的直播，倾向于不在其射程内；但直播中的带货环节、投票拉票环节可能改变定性，待验证。</strong></li>
+<li>其他州：纽约亦有陪伴聊天机器人法 S-3008C，2025 年通过，含透明与安全条款；华盛顿 HB 2225 于 2026 年 3 月 24 日签署、2027 年 1 月 1 日生效；<strong>两者对公开娱乐直播的适用性同样待验证</strong>，本节不展开以免以偏概全。来源：<a href="https://fpf.org/blog/understanding-the-new-wave-of-chatbot-legislation-california-sb-243-and-beyond/">Future of Privacy Forum 比较</a></li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>规则</th><th>触发点</th><th>纯娱乐直播是否触发</th><th>商业 / 广告片段是否触发</th></tr>
+<tr><td>FTC 代言指南 16 CFR 255（2023）</td><td>代言 + 实质性关联</td><td>否</td><td>是：须清晰显著披露关联，且不得虚构亲身体验</td></tr>
+<tr><td>纽约 GBL §396-b（2026-06-09）</td><td>广告 + 合成表演者 + 实际知晓</td><td>否（本体非广告）</td><td>可能；表达性作品广告豁免边界待验证</td></tr>
+<tr><td>加州 SB 942（2026-08-02）</td><td>受覆盖提供者（&gt;100 万月用户）</td><td>否（主播为使用者）</td><td>间接：上游工具出处标记</td></tr>
+<tr><td>加州 SB 243（2026-01-01）</td><td>陪伴聊天机器人运营者</td><td><strong>待验证（灰区）</strong></td><td>同左，另须注意未成年人保护义务</td></tr>
+<tr><td>加州 B.O.T. 法（2019）</td><td>故意误导身份以售卖 / 影响投票</td><td>倾向否</td><td>带货 / 拉票环节可能触发，待验证</td></tr>
+</table></div>
+</div>
+
+<h2 id="s11">11 · 日本：无 AI VTuber 专项法，风险在版权与声音权</h2>
+<div class="card">
+<h3>法律条文：无 AI VTuber 专项法</h3>
+<p>截至 2026 年 6 月，日本不存在禁止 AI VTuber 这一活动形态本身的法律；可能产生问题的是活动内容，训练数据混入未授权素材生版权问题、不当言论生平台规约问题，需按素材、言论、运营逐项判断。来源：<a href="https://aiteller.jp/blog/ai-vtuber-mondaiten">AI teller《AI VTuber 的问题点》，检索于 2026-10-30</a></p>
+<p>日本首部 AI 专门法，《AI 相关技术研究开发与利用促进法》，AI Promotion Act，2025 年 5 月 28 日国会通过，属促进型基本法，确立战略方向与政府体制，内阁设 AI 战略本部，不设类似欧盟的详细禁令与罚款；施行日口径存在差异：Bird &amp; Bird 称 2025 年 9 月 1 日全面施行，另有梳理称关键条款 2025 年 6 月 4 日施行，以促进型框架法、无硬性罚款为共识，施行日细节待验证。内阁 AI 基本计划 2025 年 12 月 23 日批准，目标为成为最 AI 友好国家之一，属政策文件而非对主播的直接义务。来源：<a href="https://www.twobirds.com/en/capabilities/artificial-intelligence/ai-legal-services/ai-regulatory-horizon-tracker/japan">Bird &amp; Bird 日本追踪页</a>、<a href="https://www.ibanet.org/japan-emerging-framework-ai-legislation-guidelines">IBA 日本框架分析</a></p>
+<h3>官方指南和软法，非强制，但实务中被高度遵循</h3>
+<p>《AI 事业者指南》，METI 和 MIC，2024 年 4 月发布，2025 年 3 月 28 日更新至 1.01 版，面向 AI 事业者的自愿原则框架，非硬法。版权方面，《AI 与著作权一般理解》，文化厅，2024 年 5 月发布：著作权法第 30-4 条允许以信息解析为目的、不经权利人许可进行 AI 训练；但生成物若与已有作品类似，仍可能构成侵权。文化厅的立场是训练原则上无需许可、输出类似则可能侵权的两段式，留下灰区。</p>
+<p>版权诉讼动向，非 VTuber 案，仅作环境参考：2025 年 8 月，读卖、朝日、日经三大报社分别起诉 Perplexity AI，指控未经授权抓取 10 万余篇文章；日本政府亦就 Sora 视频生成模型的版权问题要求 OpenAI 作出回应。<strong>尚无针对 AI VTuber 本体的版权判例，待验证。</strong></p>
+<p>2026 年 10 月总务省平台草案，选举语境，非通用 AI 主播规则：有报道称总务省公布针对 13 家大型平台的草案，要求对货币化功能使用者严格审查、对损害选举公正的内容暂停货币化、并对有害 AI 生成图像和视频加警告标签；相关修法拟 2027 年 3 月 1 日施行。<strong>该草案针对选举公正与货币化功能，且为二手新闻报道、未见官方草案全文，列为待验证；不应解读为日本已对 AI VTuber 实施通用标识法。</strong></p>
+<h3>平台方和事务所规则：重点在二次创作，而非 AI 主播运营</h3>
+<p>8 家主要 VTuber 事务所二次创作指南原文核查，2026 年 8 月 30 日：8 家中 4 家在指南本文中明确提及生成 AI，包括ぶいすぽっ！、ななしいんく、あおぎり高校、ゆめかいろ，且 <strong>4 家均非禁止生成 AI，而是要求标注 AI 使用或手法上不限制</strong>；其余 4 家 Hololive、Nijisanji、NoriPro、Neo-Porte 本文中无生成 AI 条文。其中 3 家要求 #AIイラスト 标签且不得使用粉丝艺术标签：ぶいすぽっ！、ななしいんく，并说明理由为带粉丝标签的作品可能被事务所用于配信缩略图和 SNS 介绍，须区分 AI 生成物；あおぎり高校第 3 条为标签或文面明示二选一。ゆめかいろ，KLab，AI VTuber 在籍事务所，方向相反：生成 AI 等二次创作在手法上不限制，禁止的仅是侵害第三方权利、模仿和描摹已有作品；改定日 2026 年 4 月 1 日。<strong>8 家指南本文中均无能否将自家内容用于 AI 训练的条文，输出标注规则在完善，输入训练规则仍空白。</strong>来源：<a href="https://aiteller.jp/blog/vtuber-jimusho-ai-guideline">AI teller 2026-08-30 发布、2026-10-14 更新</a>。<strong>关键区分：上述规则约束的是粉丝的二次创作投稿，不是事务所自家 AI VTuber 的直播运营，也不是 Twitch 和 YouTube 在日本的平台规则。“日本平台对 AI 主播有无特殊规则”：截至检索，未见 Twitch 和 YouTube 日本区针对 AI VTuber 的专项规则公开文本，待验证。</strong>Hololive 的例外条文，音乐利用指南，非二次创作总则，明确拒绝从本公司乐曲中抽取所属艺人声音以生成台词的作品，即 AI 语音抽取和合成在声优声音问题上被单独处理。Cover，Hololive 运营方，2025 年 8 月表态：对生成式 AI 粉丝艺术区分活用与滥用，违法者包括法律手段在内予以应对，并称正谨慎研究 AI 活用，属股东大会问答中的表态，非指南条文。</p>
+<h3>声音权和声优相关争议，最接近 AI 主播的风险点</h3>
+<p>津田健次郎诉 TikTok 案，东京地方法院 2026 年 9 月 30 日判决，案号 2025 (Wa) 70635：法院表示，人的声音与肖像一样是人格象征，在特定情形下可受公开权保护；原告律师称这是首个明确承认声音落入公开权范围的判决。<strong>但法院并未认定涉案旁白实际侵权</strong>，因相关帖子与数据在诉讼中已被删除，法院驳回了删除请求；判决亦未认定用朋友模仿声训练这一上传者说法属实。来源：<a href="https://en.ai-creators.tech/media/business/ai-voice-publicity/">AI Creators 英文梳理，检索于 2026-10-30</a>。对 AI 主播的含义：即使未用某声优的声音作训练数据，只要最终输出让人联想到特定个人并利用其顾客吸引力，仍可能产生法律问题；反之，完全原创、不指向任何真实声优的 AI 声音，不在该案认定的风险内。<strong>该案不是 AI 声音一律违法的判决。</strong>Nijisanji 和 ANYCOLOR 对 AI 聊天服务 zeta 的删除要求，2026 年 10 月：zeta，韩国 Scatter Lab 运营，2024 年 5 月正式上线，2026 年 10 月 12 日宣布，正删除未经授权使用 Nijisanji 相关内容的剧情设定；zeta 称系 ANYCOLOR 报告权利内容被无断使用后，要求全面删除。<strong>定性：这是对未经授权使用已有真人 VTuber IP 的维权，不是日本市场抵制原创 AI VTuber 的证据。</strong></p>
+<h3>日本市场对 AI VTuber 的社区接受度：无代表性数据，须分层表述</h3>
+<p><strong>代表性量化接受度待验证。</strong>检索未见针对日本公众是否接受 AI VTuber 的全国代表性调查；以下均为粉丝样本、利基榜单或创作者侧民调，不得外推为全日本观众态度。本土 AI VTuber 规模仍小、且以音乐和世界观驱动为主：利基榜单 AITuber Now，非官方平台数据，2026 年 10 月 30 日更新：Neuro-sama 约 92 万订阅，日本本土最高为紡ネン约 10 万，其次音紡いま约 5 万、天野朱美约 4.1 万、ゆめみなな约 2 万；ゆめみなな 2026 年 2 月 15 日 YouTube 出道，号称音声、表情、发言全部 AI 生成，出道曲 MV 播放量在不同日期口径下为超 100 万与 Real Sound 报道的截至 2026 年 4 月 14 日 262 万次并存，以日期口径不同解释差异，不宜拼成单一数字。KLab ゆめかいろ采用 AI VTuber 与真人 VTuber 混编模式：先出道的ゆめみなな为 AI VTuber，后续月窓ろみ、水墨まほろ等为有魂的真人 VTuber，属有意实验的共存结构。来源：<a href="https://realsound.jp/tech/2026/06/post-2409004.html">Real Sound 2026 年 6 月</a>、<a href="https://realsound.jp/tech/2026/05/post-2397745.html">Real Sound 2026 年 5 月</a></p>
+<p>粉丝研究的发现，对象是已有粉丝，非日本公众：国际共同研究，2025 年 9 月发表，问卷 334 人加深度访谈 12 人加聊天和打赏日志：粉丝被 Neuro-sama 吸引的最大原因是不可预测性与即兴性；72% 同时认为其是技术项目，70% 视为虚拟朋友，69% 视为需要照顾的电子女儿，即明知是 AI 仍建立拟人关系的双重认知。arXiv 预印本，2023 年 1 月至 2025 年 5 月，10.8 万条 Reddit 帖加 13.6 万条 YouTube 评论：多数发帖者认为当前 AI 尚不能替代 VTuber 的中之人角色，理由包括人类在环生态、多样性和深度不足、情感联结不足；少数认为可替代。来源：<a href="https://arxiv.org/html/2509.20817v1">arXiv 2509.20817</a></p>
+<p>抵制与分歧的真实形态：分歧焦点不在 AI 聊天和语音本身，而在<strong>图像生成 AI 的训练数据来源与插画师许可</strong>：VTuber 圈内存在用语音合成、剪辑 AI 可以，但图像生成 AI 不用和不让用的立场，理由是无许可大规模收集著作物、生成物可能类似已有作品、以及妈妈，即角色设计插画师，是否许可的问题。文化厅第 30-4 条的灰区是这一焦虑的制度背景。创作者侧非代表性民调：2026 年 9 月 18 日 X 用户雪咲千乃的投票，809 票，显示 57% 自己接触 AI 无所谓，31.5% 个人接触、不公开即可，5.2% 坚决不容，6.3% 只看结果。<strong>样本为 X 上的 VTuber 相关人群，非观众总体，引用时须注明。</strong>泛 VTuber 市场背景，非 AI 专项：2025 年 5 月日本在线调查，24,809 人，20 至 69 岁，显示 18.8% 有观看 VTuber 直播和视频的经验；同调查中仅 3.1% 有通过 Super Chat 和 Bits 打赏 VTuber 的经验。<strong>该数据描述的是 VTuber 整体，不是 AI VTuber 接受度。</strong>抵制案例定性：检索未见针对原创 AI VTuber 的平台封禁或有组织的抵制运动公开记录；已见的对抗案例，zeta 删除、Hololive 法律应对表态，均指向<strong>未经授权使用已有 IP 和声音</strong>，而非原创 AI 角色本身。<strong>“日本观众抵制 AI VTuber”这一概括性判断：待验证，无充分证据支持。</strong></p>
+</div>
+
+<h2 id="s12">12 · Twitch / YouTube 冷启动算法逻辑</h2>
+<div class="card">
+<h3>Twitch：目录排序仍占主导，Discovery Feed 是主要新增入口</h3>
+<p>Twitch 分类浏览按当前观众数排序，新频道 0 至 1 观众会被排到很深的位置；首页和推荐位主要来自已有观看时长和互动历史的频道。这是多家 2026 年第三方指南的一致描述，但 Twitch 未公开具体排序权重，因此第几页等细节为第三方表述，非官方数字。来源：<a href="https://allenbots.site/twitch-discovery-problem.html">AllenBots 第三方指南，检索时约 2026 年 5 至 6 月</a>、<a href="https://optimaclip.com/blog/twitch-is-not-a-discovery-platform-anymore">OptimaClip 第三方分析，检索时约 2026 年 10 月中旬</a></p>
+<p>Twitch Discovery Feed 于 2024 年 4 月 30 日向全部用户推出，是移动 App 内的可滑动 Feed，含直播和剪辑两个标签页；所有符合社区规范的直播和剪辑自动有资格入选，主播不能直接上传内容到 Feed；主播可精选和置顶剪辑，精选剪辑在剪辑 Feed 中优先于非精选剪辑。来源：<a href="https://www.marketing-interactive.com/twitch-short-form-video-discovery-feed">Marketing Interactive 2024 年 4 月报道，转述 Twitch 官方说法</a>、<a href="https://readwrite.com/twitch-rolls-out-tiktok-like-discovery-feed-full-of-short-form-clips/">ReadWrite 2024-05-01</a>。第三方补充称精选剪辑可获得最高约 2 倍于普通剪辑的观看量，<strong>该倍数未经 Twitch 官方口径核实，待验证</strong>。Twitch 首页货架和推荐的个性化依据包括语言、设备、浏览器、用户在 Twitch 的互动、是否登录以及观看历史；顶部轮播并非纯自动化推荐。这是第三方指南引用 Twitch 说法的内容，原始官方页面未在本轮检索中直接打开核对，<strong>建议正式报告中以 Twitch 官方帮助页复核后引用</strong>。</p>
+<p>2026 年变现和入场门槛变化，与冷启动直接相关：Twitch 在 2025 年 6 月降低 Affiliate 门槛，2026 年口径为 30 天滚动窗口内 25 粉丝、直播 4 小时、4 个不同直播日、其中 4 天每天平均 3 名以上观众；Partner 路径则要求连续两个月、每月 6 场、每场平均 75 名以上观众，达标也不保证通过申请。来源：<a href="https://passionfru.it/twitch-affiliate-requirements-what-you-need-and-how-long-it-takes-165605/">PassionFruit 2026 年 10 月核对 Twitch 帮助中心后撰写</a>。个别旧指南仍写 50 粉丝、8 小时、7 天，那是 2025 年 6 月前的旧口径，引用时需注明已过时。双格式竖屏直播方面，有 2026 年第三方指南称其于 2026 年 6 月向全部主播开放，需 Enhanced Broadcasting 加 OBS 竖屏插件；竖屏 VOD 会过期。<strong>该开放时间与具体技术条件未在本轮检索中经 Twitch 官方页核实，待验证。</strong></p>
+<p><strong>对纯 AI 主播的冷启动含义，机制层面，非效果保证：</strong>可操作的站内杠杆只有选竞争较小的分类和标签、固定档期、把高互动瞬间剪成 60 秒以内剪辑并设为精选、争取被推荐、突袭和联动。剪辑是唯一不完全依赖当前观众数的站内发现工具。AI 主播的特殊优势不在算法豁免，而在可剪辑密度：只要 LLM 对话本身能持续产出可传播的冲突、笑点和名场面，剪辑供给可以比真人主播更稳定。但这只是机制推论，<strong>AI 剪辑转化率更高无公开对照数据，待验证</strong>。</p>
+<h3>YouTube：直播推荐以种子观众加早期信号启动，Shorts 是冷启动主通道</h3>
+<p>YouTube 直播的第三方 2026 年解读称：开播后系统先向种子观众推送，近期与你的 Shorts、社群帖或旧视频互动过的用户，以及近 24 小时内搜索过相关话题的用户；早期点击率、观看留存、开播前后互动决定是否继续扩大推荐。<strong>种子观众和 24 小时搜索意图属于第三方指南的模型化描述，YouTube 官方未公开证实该精确机制，须标注为第三方解读，不得写成官方规则。</strong>来源：<a href="https://streamscharts.com/news/youtube-live-how-effectively-grow-your-audience-2026">StreamsCharts 第三方指南，页面最后更新 255 天前，约 2026 年 2 月</a></p>
+<p>YouTube 官方对 Shorts 的公开说法，经 2026 年 10 月第三方整理复核：每个 Shorts 先展示给一小群可能感兴趣的种子观众，再根据观众是看下去还是划走来决定扩大或收窄；Shorts 负责人 Todd Sherman 在 2023 年 8 月 23 日 Creator Insider 问答中的原话是观众就是算法；YouTube 未公开 Shorts 的具体信号权重。来源：<a href="https://outlierkit.com/resources/youtube-shorts-algorithm/">OutlierKit 2026-10-03</a></p>
+<p>2026 年 10 月 1 日变化：YouTube 更新系统以进一步优先原创内容，降低无新增内容的搬运和转载内容的触达。该变化来自 YouTube 帮助社区帖子，经第三方整理；对 AI 主播的含义是直接搬运他人直播切片、无本人解说和新增内容的 Shorts 会被降权，<strong>但 AI 生成内容是否一律被视为低原创未见官方细则，待验证</strong>。Shorts 冷启动的第三方量化，非官方：Socialinsider 2026 年对 6,900 万条短视频的研究被引用称粉丝不足 5,000 的账号，YouTube Shorts 平均每条 15,160 次观看，远高于 Instagram Reels 的 625 次和 TikTok 的 350 次。<strong>该研究为第三方引用，原始抽样与统计口径未在本轮核对，引用时应注明第三方研究，非 YouTube 官方数据。</strong>另一家第三方指南给出的 2026 年 Shorts 三阶段模型称冷启动测试池约 50 至 500 人、其中约 70% 为非订阅者；30 秒以下 Shorts 需约 65% 留存、30 至 60 秒需约 50% 留存才会被推宽。<strong>该指南自己声明这些阈值是综合公开信息与创作者测试的通用指导，不是平台确认的绝对值，因此只能作为操作假设，不得当作官方阈值。</strong></p>
+<p>Shorts 观看计数规则：2025 年 3 月 31 日起，Shorts 播放和重播即计为一次观看，无最短观看时长要求；但 Partner 计划的 1,000 万 Shorts 观看门槛只计有效观看，不是总播放量。这是 2025 年规则，2026 年仍被多家指南引用，<strong>2026 年 10 月是否仍完全相同，待以 YouTube 官方 Partner 帮助页复核</strong>。YouTube 直播的其他第三方说法：直播在搜索中可因正在发生获得实时优先，甚至出现在搜索顶部；实时转录的口播 SEO 会影响排序。<strong>这两点均为第三方指南说法，无官方权重佐证，待验证。</strong>2026 年初 YouTube 直播的负面波动信号：有第三方编年史称 2026 年 2 月 YouTube 将每串流密钥并发直播上限降至 3 条、每频道上限 10 条，以鼓励原创、防止重复内容；同时 2026 年初大量创作者报告观看量下滑，归因于算法重校准，更重长观看时长、观看旅程连续性、Shorts 与直播推广，以及对低质量 AI slop 频道的清理。<strong>该编年史为 Grokipedia 类第三方整理，非 YouTube 官方公告，引用时须标注来源性质。</strong></p>
+<h3>AI 主播冷启动的实证锚点，Neuro-sama</h3>
+<p>2025 年 9 月 12 日提交的学术研究，Ye 等，arXiv:2509.10427，对 Neuro-sama 粉丝的调查，334 份粉丝问卷加 12 人访谈加直播日志分析，发现 96% 的受访者通过视频平台的算法推荐首次接触 Neuro-sama，而非朋友推荐 17% 或论坛讨论 7%；吸引力前两项为社群与 AI 的有趣互动，92% 评为重要或非常重要，和直播中不可预测、令人惊喜的氛围，90%。这说明对 AI 主播而言，可剪辑的算法推荐加短片路径是已被观测到的主发现路径，但样本是已成为粉丝的人群，存在幸存者偏差，不能推导为所有新观众的转化率。来源：<a href="https://arxiv.org/html/2509.10427v1">arXiv 2509.10427，2025-09-12</a>。同一研究指出 Neuro-sama 直播聊天中提问和指令类消息占 26%，超过一般反应类消息；这与人类 VTuber 以一般反应为主的模式相反。含义是 AI 直播的互动设计本身就是内容引擎，观众提问越能改变 AI 下一步，剪辑素材越多。</p>
+</div>
+
+<h2 id="s13">13 · 非英语母语团队运营英语 AI VTuber</h2>
+<div class="card">
+<h3>先说关键区别：纯 AI 模式下，团队口音不直接出镜</h3>
+<p>纯 AI 驱动主播的英语质量，取决于三样东西，而不是运营团队成员本人的口音：LLM 输出的英语文本质量，包括语法、习语、梗、文化参照；TTS 声音的口音和自然度，可选择接近母语者的英语语音；审核与提示词团队对英语网络文化、禁忌、时事的判断力。Neuro-sama 的公开描述即为该架构：LLM 生成对话加 TTS 生成语音加 Live2D 和动画形象，直播于 Twitch 与 Bilibili。来源：<a href="https://en.wikipedia.org/wiki/Neuro-sama">Neuro-sama Wikipedia</a></p>
+<p>因此，非母语团队能否做英语 AI VTuber 在技术上是可行的，瓶颈从主播口音转移为英语内容审核与文化把关能力。但以下三点<strong>均无公开的量化容忍度研究，全部标注待验证</strong>：英语观众对 AI 英语中语法错误、非母语式表达的具体容忍阈值，例如每分钟错误率、口音强度与留存和取关的关系，未找到对照实验或平台数据；非母语团队运营的纯 AI 英语主播，在无母语审核员情况下的封禁和投诉率是否更高，未找到公开案例对照；观众是否会因为 AI 英语太完美、缺乏口音人格而降低喜爱度，未找到可信数据；现有证据只说明人格一致性比像真人更重要，见第 14 项。</p>
+<h3>人类 VTuber 的非母语成功案例，仅作类比，不能直接等同于 AI 团队</h3>
+<ul>
+<li>Takanashi Kiara，Hololive EN Myth，2020 年 9 月 12 日出道，奥地利人，第三方维基描述称其英语虽非母语、带有德语口音、逐词发音清晰，反而对非英语母语观众更易理解；其 YouTube 订阅量在该页面标注为 165 万。<strong>该来源为粉丝维基和韩语 NamuWiki，非官方数据，订阅数与口音评价均需谨慎引用。</strong></li>
+<li>AxiPom，捷克和斯洛伐克母语的英语 VTuber，粉丝维基描述其以柔和的斯拉夫口音、慢节奏、社群中心内容著称，Twitch 频道创建于 2022 年 11 月 2 日，2023 年 5 月 22 日达 1,000 粉丝、12 月 31 日达 5,000 粉丝。<strong>粉丝维基来源，规模较小，仅说明小众非母语主播可以积累社群，不能证明规模化。</strong></li>
+<li>Kamito Nanami，捷克背景的英语 VTuber，粉丝维基描述其英语发音清晰、个别辅音偏软、语调偏圆润，口音反而成为可爱、温暖、令人难忘的身份特征而非障碍。<strong>同为粉丝维基，证据等级低。</strong></li>
+<li>Veibae，英国和波兰混血背景，VShojo 成员，第三方传记称其带有独特的波兰裔口音，仍在英语观众中获得知名度，YouTube 约 61.3 万订阅、2,600 万观看。<strong>该来源为第三方传记站，数据时效不明，页面最后更新 1161 天前，约 2023 年，已过时，仅作历史类比。</strong></li>
+</ul>
+<p><strong>结论：</strong>非母语口音在人类 VTuber 领域有多个口音成为人格标签的先例；但对纯 AI 主播，团队更应把预算放在英语母语级提示词审核加文化梗审核加 TTS 选音上，而不是纠结团队成员口音。<strong>必须配备母语审核员这一操作建议是合理推论，不是已验证的硬性门槛，须标注为建议而非事实。</strong></p>
+<h3>时区策略：以观众时间为准，AI 的优势是可覆盖非黄金档</h3>
+<p>第三方 2026 年指南的共识是没有全平台统一最佳时间；Twitch 的绝对峰值窗口多被描述为美东时间 18:00 至 22:00，对应美西 15:00 至 19:00，周末峰值更长；但新主播在峰值时段面临最激烈的分类竞争，肩部和非峰值时段，例如观众时区 15:00 至 18:00 或 22:00 至 01:00，反而可能更容易在分类中被看到。YouTube 和 Twitch 官方均不提供跨频道统一最佳时间，而是让创作者用自家数据决定：YouTube Studio 的“When your viewers are on YouTube”热力图、Twitch 创作者面板的 Research 页。换算提示，供排期参考，需按夏令时调整：美东晚间 18:00 至 22:00，在美国夏令时期间约对应北京时间次日 06:00 至 10:00，在标准时间期间约对应次日 07:00 至 11:00。<strong>具体换算请以开播当周的实际时区为准，本处不承诺固定换算。</strong>对纯 AI 主播的时区含义，操作推论，非实证结论：AI 不需要真人主播的作息，因此理论上可以覆盖北京时间白天对应美东夜间的窗口，或用直播加剪辑加社群组合覆盖多时区；但 <strong>AI 在非黄金档的留存和付费是否与黄金档相同无公开数据，待验证</strong>。同时需注意：若目标观众是美国，北京时间上午开播对中国团队是白天班次，运维上反而友好；若目标是欧洲，则需另算窗口。</p>
+<h3>多语言直播可行性：2026 年 10 月的主流做法是分区和分流，而不是一个直播间内观众自选语言音轨</h3>
+<p>YouTube 直播方面，第三方技术指南，2026 年 10 月 3 日，明确称截至该日期，YouTube 没有面向普通创作者的、为直播添加配音音轨的通用设置；YouTube 多语言音频功能适用于已上传视频，不适用于直播实时配音；直播摄入流只能含一条音频流；直播字幕目前仅支持一条字幕轨。YouTube 曾宣布 2027 年初试点直播自动配音，<strong>该试点说法来自第三方指南转述，未在本轮检索中经 YouTube 官方公告核实，待验证</strong>。因此 YouTube 多语言的可行架构是三选一，均有代价：同一频道、单一语言直播加录播后加多语言音轨，直播互动只用一种语言，录播可切换语言，适合长尾，不适合直播互动变现；多路并行直播，每语言一路独立直播和独立页面，每路需独立编码、标题、审核与社群管理，观众会被分流，单路数据会被稀释，还需核对频道并发上限，见第 12 项中 2026 年 2 月上限说法，待验证；分区账号，主账号一种语言，子账号另一种语言或字幕版，Neuro-sama 即用此路线。</p>
+<p>Neuro-sama 的多语言先例，分区账号加字幕，非同一直播多音轨：2024 年 7 月 20 日起，Neuro-sama 在独立 Twitch 频道以日语字幕直播；2024 年 8 月在 Bilibili 以中文平台账号出道，首播峰值超 38,000 concurrent viewers。来源：<a href="https://en.wikipedia.org/wiki/Neuro-sama">Neuro-sama Wikipedia</a>。粉丝维基补充：2024 年 7 月 7 日还创建了日语频道 vedal987_jp 与西班牙语频道 vedal987_es，但截至 2024 年 8 月仅日语频道活跃。<strong>西班牙语频道的当前状态未核实，待验证；粉丝维基证据等级低。</strong></p>
+<p>开源 AI VTuber 项目 Open-LLM-VTuber 声称支持 TTS 翻译，例如中文聊天、日语语音，以及多 LLM、TTS、ASR 后端，并支持 Live2D Cubism 5。<strong>该功能为项目文档自述，未经独立实测，直播场景下的多语言实时翻译延迟与口型同步效果待验证。</strong>第三方实时翻译服务，如 StreamFluent，宣称可把日语直播实时翻译为英语，并引用 Sakura Miko 从 2,000 日语观众到平均 35,000 观众、40% 英语观众、Superchat 月收入从 300 万日元到 2,800 万日元等案例。<strong>该页面为厂商营销页，案例数据未经独立核实，引用时必须标注厂商自述、待验证，不得当作行业数据。</strong></p>
+<div class="warn"><strong>对纯 AI 主播的多语言建议，操作层面，非效果保证：</strong>起号期只做一种主语言直播，建议英语，避免观众分流与审核翻倍；第二语言先用剪辑加字幕验证需求，再决定是否开分区账号。同一直播内混用多语言聊天，例如英语主播读中文弹幕，会抬高 LLM 上下文与 TTS 切换成本，且可能让单语言观众流失；<strong>该风险为机制推论，无公开 A/B 数据，待验证</strong>。</div>
+</div>
+
+<h2 id="s14">14 · AI VTuber 观众画像、付费意愿与内容形态</h2>
+<div class="card">
+<h3>必须先说明的口径陷阱</h3>
+<p>下文数字来自不同样本，包括粉丝问卷、粉丝社群、平台追踪、市场报告，彼此不能直接平均；且 StreamsCharts Q2 2026 的性别和国家数字是<strong>主播，创作者，分布</strong>，不是观众分布，引用时切勿混淆。</p>
+<h3>创作者侧，Q2 2026，StreamsCharts 乘 VSTATS</h3>
+<p>Q2 2026 VTuber 总观看时长 482.6M 小时，环比 Q1 下降 15.4%，追踪频道约 11,300 个，比 Q1 少约 300 个；YouTube 占总观看时长 51% 以上，份额环比降超 4 个百分点，Twitch 占频道数的 78%；独立 VTuber 观看时长份额过半且环比再升近 2 个百分点。被追踪 VTuber 中女性占三分之二以上，男性频道 2,144 个，另有 2.8% 使用其他代词；按国家，日本占近 33%，美国占 20.5%。来源：<a href="https://streamscharts.com/news/vtuber-viewership-q2-2026">StreamsCharts Q2 2026，发布 2026-07-27</a></p>
+<h3>观众年龄侧，多源，不一致</h3>
+<ul>
+<li>市场报告称 2023 年 VTuber 内容观看时长中约 62% 来自 13 至 29 岁观众；另一市场报告称 VTuber 观众典型年龄 16 至 25 岁。<strong>两者均为市场报告口径，抽样未公开，且为 2023 年数据，已过时，2026 年是否仍成立待验证。</strong></li>
+<li>2025 年学术样本，433 份 VTuber 粉丝问卷，Virtual Economics 2025 年第 8 卷第 4 期：男性 58%、女性 42%；年龄 25 至 34 岁占 34.9% 为最大组，18 至 19 岁 20.6%、35 至 44 岁 27%、45 岁以上 17.6%；每天观看 27.5%、每周多次 40.9%。<strong>该样本量小、地域未在摘要中明确，不能代表全球观众。</strong></li>
+<li>2025 年另一学术样本，4,000 份 VTuber 粉丝社群问卷，Decision Making 2025 年第 8 卷第 1 期：女性 50.2%、男性 25.0%、LGBTQIA2S+ 24.8%，Gen Z，12 至 27 岁，占 99.6%。<strong>该样本来自粉丝社群，女性与多元性别比例显著高于其他样本，极可能存在社群自选择偏差，不能外推为全平台观众。</strong></li>
+<li>美国游戏玩家调查，Big Games Machine 2025，1,000 名以上美国玩家，经第三方转述 2025-07-07：VTuber 在女性玩家中更受欢迎，23%，高于男性 14%；18 至 24 岁玩家观看 YouTube 游戏内容最多。<strong>该调查针对美国玩家，不是 VTuber 粉丝普查。</strong></li>
+</ul>
+<h3>AI VTuber 专属画像，Neuro-sama，2025 年研究，334 人</h3>
+<p>情感投入极高：99% 表示喜欢 Neuro-sama、98% 表示直播带来安慰、94% 为其成功感到高兴、超半数在其出现技术故障时感到难过；83% 认为其行为反映出连贯独特的个性；69% 表示有冲动通过聊天或 SuperChat 互动。核心吸引力不是像真人，而是人格一致性加不可预测性并存：粉丝明知其为 AI，仍以虚拟朋友，70%，、需要照顾的电子女儿，69%，来框定关系；研究者将其概括为一致性即真实性。来源：<a href="https://arxiv.org/html/2509.10427v1">arXiv 2509.10427</a></p>
+<p><strong>画像小结，可写进报告的稳妥表述：</strong>海外 VTuber 核心观众以 Gen Z 至青年为主，13 至 34 岁区间被多源反复提及，但精确占比因样本而异；性别比例无共识，男性略多与女性略多两种结果都存在，取决于抽样是平台观众还是粉丝社群；AI VTuber 观众的情感投入与互动意愿在 Neuro-sama 单案例中显著高于被动观看，但<strong>该结论不能推广到所有 AI 主播，待更多 AI 案例验证</strong>。</p>
+<h3>付费意愿：人类 VTuber 与 AI VTuber 对照</h3>
+<p><strong>人类 VTuber，YouTube，1,923 名 VTuber、超 100 万小时直播记录，Zhao 等 2025 年研究：</strong>收入极度不均：VTuber 间收入基尼系数从 2018 年约 0.60 升至 2023 年约 0.75；平均月收入 2,667 美元，但中位数仅 127 美元；25% 的 VTuber 在考察期内未收到任何 Superchat。付费者极少：675 万独立聊天观众中，仅 7.96% 至少发过一次 Superchat、12.65% 至少买过一次会员；超 80% 的聊天观众未花过钱，若计入不发弹幕的纯观看者，实际付费比例更低。付费结构：单笔 Superchat 多为 1 至 10 美元；会员率约 5%；超 50% 的会员在整个活跃期内只订阅过一名 VTuber；超 40% 的会员在一个月内结束会员；忠实观众与会员发 Superchat 的比例，中位数 14% 与 22%，远高于普通观众 5%，且差距主要来自发得更频繁，而非单笔金额更大。来源：<a href="https://arxiv.org/html/2503.00825v1">arXiv 2503.00825，2025 年 3 月 arXiv 版；样本覆盖 6 年 YouTube 数据，内容形态分析取 2023 年前 3 个月 10 名 VTuber 的 324 场直播，非 2026 年数据</a></p>
+<p><strong>AI VTuber，Neuro-sama 单案例，2025 年研究：</strong>42% 的受访粉丝表示曾为 Neuro-sama 付费，其中 68% 的付费发生在特殊场合；付费动机前两项为表达对 Neuro-sama 的喜爱，81%，与支持开发者 Vedal 及其工作，77%。关键机制差异：85% 的 Neuro-sama Superchat 为主动型，粉丝通过付费发起新问题和指令以引导直播走向，而人类 VTuber 的 Superchat 多为反应型，超 50% 是对已有内容的回应。也就是说，AI 直播的付费买的不只是被看到，而是改变 AI 下一步。付费效率指标，单案例，非平台普适：Neuro-sama 付费转化率 1.59%，高于对照的人类 VTuber，1.18% 与 0.83%；非会员平均 Superchat 贡献 16.04 美元，高于会员的 13.89 美元；收入基尼系数 0.24，低于人类对照的 0.35 与 0.41，作者解读为收入分布更平稳。来源：<a href="https://arxiv.org/html/2509.10427v1">arXiv 2509.10427</a></p>
+<p><strong>付费意愿结论，需标注边界：</strong>可确认 VTuber 变现依赖极少数高频付费者，绝大多数观众不付费；会员留存短、排他性强，只订一个。可确认，单案例，AI 的付费指挥 AI 机制在 Neuro-sama 上产生了更高的首次付费转化与更平稳的收入分布。<strong>待验证：该 AI 付费优势是否可复制到新 AI 主播，无 Neuro-sama 的品牌与社群积累时，付费转化率是否仍高于人类主播；以及 2026 年平台抽成变化后，上述美元绝对值是否仍成立。</strong></p>
+<h3>内容形态对比：没有 2026 年分平台、分形态的观看、订阅、打赏对照表可直接引用</h3>
+<p>这是本次检索明确的缺口，须写明待验证，而非用旧数据拼凑。已有证据，人类 VTuber 为主，时间较旧：打游戏场次最多，可提供稳定观看量，且相对省力，一般情况下单场 Superchat 少于杂谈与音乐；杂谈，Just Chatting 和 chatting，场次少于游戏，但 Superchat 价值占比高于游戏；唱歌和音乐场次最少，需要专门训练与投入，故做音乐直播的 VTuber 较少，但与杂谈同属高 Superchat 形态；特别活动，如生日、演唱会、新形象发布、联动，观看与 Superchat 常出现尖峰，远高于日常场，收入集中在少数场次。来源：<a href="https://arxiv.org/html/2503.00825v1">arXiv 2503.00825 第 4.2 节，2023 年前 3 个月样本</a>。补充：Superchat 在时间上呈簇状分布，常集中于开场和结尾问候、搞笑或感人瞬间、大型虚拟演唱会、以及观众为置顶发言而付费的争论时刻，不是均匀分布。</p>
+<p><strong>2026 年 Q2 的形态信号，平台级，非分形态打赏对照：</strong>Q2 2026 头部 VTuber 内容仍以游戏加联动为主，并穿插歌唱比赛、Minecraft 生存竞赛等活动；英语头部中，Zentreya 以 IRL 闲聊、观众聊天与联动游戏，如 Pummel Party，突破 150 万小时观看；TheBurntPeanut 以跨 Twitch、YouTube、Kick 多播拿下 55.08M 小时，成为单季 leader。<strong>该报告未提供游戏 versus 杂谈 versus 唱歌的分形态小时数或打赏数，因此不能据此判定 2026 年哪种形态打赏最高。</strong>来源：<a href="https://streamscharts.com/news/vtuber-viewership-q2-2026">StreamsCharts Q2 2026</a></p>
+<p>Neuro-sama 单案例的内容组合：游戏，如 osu!、Minecraft 等，加视频反应加唱歌和卡拉 OK 加与真人主播联动加双子 AI，Evil Neuro，互动；其 2024 至 2025 年年度 subathon 与 2025 年 12 月 Hype Train 纪录是事件型变现的极端案例，<strong>不能作为新主播的日常预期</strong>。</p>
+<p><strong>分平台的内容差异，可写程度有限：</strong>Twitch 2026 年 Q2 仍是 VTuber 频道数最多的平台，78% 频道，适合以直播互动与社群为核心的形态，游戏加杂谈加联动；但 Q2 报告未给分形态数据。YouTube 2026 年 Q2 仍是 VTuber 观看时长份额最大的平台，51% 以上，适合直播加剪辑和 Shorts 加录播长尾组合；Superchat 和会员是其主要变现工具，人类 VTuber 研究，但 AI 直播在 YouTube 的 Superchat 表现<strong>未见与 Twitch Bits 的对照数据，待验证</strong>。Kick、CHZZK、SOOP 在 Q2 份额仅称小幅上升，无分形态数据，<strong>AI 主播在这些平台的内容形态优劣待验证</strong>。</p>
+<div class="warn"><strong>对纯 AI Live2D 娱乐主播的内容策略推论，标注为推论，非实证结论：</strong>日常以游戏加杂谈混合为基底最稳妥，游戏提供稳定观看与剪辑结构，杂谈提供高互动与高 Superchat 潜力；AI 的观众指令改变剧情机制最适合杂谈与互动游戏，而非纯展示型游戏。唱歌应作为事件型而非日常型：人类数据表明音乐场次少但打赏强，AI 歌声合成质量与版权是额外门槛，适合生日、新形象、里程碑等尖峰场。定期策划联动加特别活动是已被观测到的打赏尖峰来源，但新主播无联动资源时，<strong>联动带来的增量无法预估，待验证</strong>。</div>
+</div>
+
+<h2 id="rank">最终排序：最优先的 3 个平台</h2>
+<div class="card">
+<h3>第 1 名：Twitch，主直播阵地</h3>
+<p>理由：唯一有纯 AI 主播登顶订阅榜和破 Hype Train 纪录的实证；2026 年 9 月官方仍未强制 AI 标签，政策摩擦最小；直播互动、订阅、Bits 和社群机制最适合“付费指挥 AI”这种主动型互动；Discovery Feed 和剪辑是冷启动唯一不完全依赖当前观众数的站内工具。风险和对策：内容审核责任全在运营者，AI 幻觉和被诱导违规会被按人类主播规则处罚，必须做实时敏感词、话题黑名单和人工熔断；目录按观众数排序，0 观众期必须靠站外短视频和剪辑回流，不能只等站内推荐；2026 年 8 月默认开启的 AI 训练开关要手动检查关闭与否。</p>
+<h3>第 2 名：YouTube，长尾和第二变现阵地，不做纯直播首发也必须做</h3>
+<p>理由：Q2 2026 VTuber 观看时长份额仍超 51%，Shorts 是冷启动主通道，算法推荐是 Neuro-sama 粉丝 96% 首次接触的路径；会员和 Super Chat 70% 分成高于 Twitch 标准 50%，且录播、剪辑和音乐长尾价值最大；明显二次元形象按公开规则解读不自动等同于拟真披露，合规成本低于拟真人形。风险和对策：不要做 24/7 模板循环，不要让 AI 就健康、理财、法律、政治给建议，否则可能落入 inauthentic content 三类；每场要有新增原创互动，不能只搬运切片；直播用单一语言，先做英语，录播后再加多语言音轨，不要指望同一直播多音轨。</p>
+<h3>第 3 名：Kick，补充和多播阵地，不做唯一主阵地</h3>
+<p>理由：95/5 分成是四大平台中最高，订阅 5 美元到手 4.75 美元，AI 条款在 2026 年 3 月 19 日版指南中写得最明确，标题或屏幕覆盖层披露即可操作；订阅门槛低，适合把 Twitch 和 YouTube 已有粉丝导过去做高分成补充。风险和对策：VTuber 受众和生态远小于 Twitch 和 YouTube，纯 AI 成功案例待验证，不能指望 Kick 带来冷启动；Partner 场次激励在多播时可能减半 50%，费率和周结条件待验证官方原文，签约前要以结算单为准；不要把 Kick 当作规避 Twitch 和 YouTube 审核的避风港，欺骗性合成媒体和冒充规则同样适用。</p>
+<h3>明确不优先</h3>
+<p>TikTok Live 不做纯自主 AI 直播主阵地，因为 2026 年 9 月 24 日生效的 Inauthentic LIVE 条款对无在场互动创作者的 AI 直播有失去变现和推荐资格的风险，bio 加标签不能抵消；Bigo Live 不做首发，因为到手率口径从约 8% 到 70% 冲突，且是否允许 OBS 纯 AI Live2D 待验证；Streamoors 不做主力，因为存在代币身份争议和投机属性，只能观察；CHZZK 和 SOOP 只在确定做韩语或双语、且能解决韩国结算和语言适配后，才作为区域第 4 顺位考察。</p>
+</div>
+
+<h2 id="check">上线前复核清单</h2>
+<div class="card">
+<ul>
+<li>Twitch Affiliate 现行官方门槛，25 粉丝新口径 versus 50 粉丝旧口径，与 Plus Program 细则。</li>
+<li>Kick Partner 每场激励费率、周结与无最低起付的官方条款。</li>
+<li>TikTok Diamond 官方兑价、提现门槛和公会再抽成。</li>
+<li>CHZZK 各档分成与订阅和广告细则的 Naver 官方原文；SOOP 非韩国主播收款路径与会员分成。</li>
+<li>Rumble 频道订阅主播全得的官方原文；Bigo 服务器比例与 Official Host 薪资合同。</li>
+<li>LLM API 厂商当前定价页，第三方新旧口径冲突；AI 直播每小时真实 token 量基准。</li>
+<li>纯 AI 直播主播的具名品牌合作、音乐版税、周边利润、B2B 授权合同金额，本次检索均未找到可核实实例。</li>
+<li>欧盟：纯虚构二次元角色是否构成第 50 条第 4 款 deepfake；主播方在第 50 条第 1 款下是提供者还是部署者；直播内标注的法定最低形式，官方指南无 VTuber 专项示例；截至 2026 年 10 月 30 日，暂无第 50 条罚款案例。</li>
+<li>美国：加州 SB 243、纽约 S-3008C 对一对多公开娱乐直播的适用性；纽约“显著披露”在直播画面中的具体合规形式；FTC 对纯娱乐 AI VTuber 的执法口径。</li>
+<li>日本：AI Promotion Act 施行日的不同口径；总务省 2026 年 10 月平台草案的官方文本与最终效力；日本区平台对 AI 主播的专项规则，如有；日本公众对 AI VTuber 的代表性接受度数据。</li>
+</ul>
+<p class="muted">检索日期：2026-10-30 · 报告文件：research/2026-10-30-ai-vtuber-overseas-muse.html · 来源：Muse · 本页内容为上一轮聊天调研的 HTML 版，关键事实、来源链接与“待验证”标注已保留，时效数据使用前请复核官方页面。</p>
+</div>
+
+<p><a class="btn" href="../hub.html">← 回汇总入口</a></p>
+<footer>静态页面 · GitHub Pages 托管 · 本报告不构成法律意见</footer>
+</div>
+</body>
+</html>
