@@ -97,7 +97,7 @@ def diff_section(day, prev_day):
         if s.get("last_commit_date") != old.get("last_commit_date"):
             new_commits.append(f'{esc(s["repo"])}（{esc(s.get("last_commit_date", ""))}）')
     return f'''<section><h2>昨日对比<small>精选标题按标题精确比对；源仓库按星数与最后提交日期比对</small></h2>
-<div class="card"><p><strong>精选 20 条：</strong>新进 {len(new_items)} 条，昨日也有 {len(day.get("items", [])) - len(new_items)} 条。</p>
+<div class="card"><p><strong>精选 {len(day.get("items", []))} 条：</strong>新进 {len(new_items)} 条，昨日也有 {len(day.get("items", [])) - len(new_items)} 条。</p>
 <p><strong>源仓库星数变化：</strong>{'；'.join(star_moves) if star_moves else '无变化'}。</p>
 <p><strong>源仓库有新提交：</strong>{'；'.join(new_commits) if new_commits else '无'}。</p></div></section>'''
 
@@ -152,12 +152,12 @@ def render(day, all_dates, prev_day=None):
 <header class="hero"><div class="wrap" style="padding-bottom:0">
 <span class="date-pill">{esc(day['date'])}</span>
 <h1>AI 创业 / 商业化信息流</h1>
-<p>GitHub 高星信息源 + 每日精选 20 条 · 只看值得注意的变化</p>
+<p>GitHub 高星信息源 + 每日精选 {len(day.get('items', []))} 条 · 只看值得注意的变化</p>
 <p>抓取时间（北京时间）：{esc(day.get('fetched_at_cst', ''))} · 源站 daily-brief 生成：{esc(b.get('generated_at_cst', ''))}</p>
 </div></header>
 <div class="wrap">
 {diff_section(day, prev_day)}
-<section><h2>今日精选 20 条<small>来源：{esc(b.get('repo', ''))} 的 daily-brief，只转录标题与原文链接，不复制全文；分类是本页按标题与来源的归类</small></h2>
+<section><h2>今日精选 {len(day.get('items', []))} 条<small>来源：{esc(b.get('repo', ''))} 的 daily-brief，只转录标题与原文链接，不复制全文；分类是本页按标题与来源的归类</small></h2>
 <div class="card">
 {item_rows(day, prev_day)}
 </div>
