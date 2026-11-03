@@ -51,8 +51,18 @@
       "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
       "title": "AI创业与内容起号调研",
       "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+    },
+    {
+      "date": "2026-11-03",
+      "file": "research/2026-11-03-ai-startup-creator-research-hub.html",
+      "note": "严格用 research-hub v1.1.0；窗口 2026-10-28 至 2026-11-03，88 条唯一 URL，状态 partial；Agent 平台叙事居中但全轮无价格与订单记录，1200 万用户 AI 产品仍亏钱与 Etsy 收紧为反例，AEO 与 Agent 成本账为可验证选题方向；今日榜单版截至 09:52 CST 未发布，微博 / 小红书登录缺口，抖音 / 知乎 19 条日期未知只作线索。",
+      "source": "Research Hub",
+      "source_slug": "research-hub",
+      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+      "title": "AI创业与内容起号调研",
+      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
     }
   ],
   "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
-  "updated": "2026-10-30"
+  "updated": "2026-11-03"
 }
