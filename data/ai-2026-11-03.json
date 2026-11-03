@@ -1,0 +1,255 @@
+{
+  "brief": {
+    "file": "data/daily-brief.json",
+    "generated_at_cst": "2026-11-03 07:53",
+    "generated_at_note": "源站 daily-brief.json 的 generated_at 为 2026-11-02T23:53:13Z，换算为北京时间 2026-11-03 07:53；共 20 条（24 小时窗口），本版全部转录。",
+    "live_url": "https://news.learnprompt.pro",
+    "repo": "LearnPrompt/ai-news-radar",
+    "repo_url": "https://github.com/LearnPrompt/ai-news-radar",
+    "total_items": 20
+  },
+  "date": "2026-11-03",
+  "edition": "ai-news",
+  "fetched_at_cst": "2026-11-03 上午（北京时间）",
+  "is_baseline": false,
+  "items": [
+    {
+      "category": "开发者工具",
+      "source": "OpenAI News",
+      "title": "OpenAI如何扩展Git",
+      "url": "https://openai.com/index/scaling-git-at-openai"
+    },
+    {
+      "category": "模型/产品",
+      "source": "Google AI Blog",
+      "title": "2026年10月我们发布的最新AI动态",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026"
+    },
+    {
+      "category": "开发者工具",
+      "source": "GitHub Changelog",
+      "title": "安全风险评估纳入仓库保护状态",
+      "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status"
+    },
+    {
+      "category": "企业变现",
+      "source": "OpenAI News",
+      "title": "推出 Grid Protectors 计划",
+      "url": "https://openai.com/index/grid-protectors-program"
+    },
+    {
+      "category": "开发者工具",
+      "source": "GitHub Changelog",
+      "title": "pull_request_target 自12月2日起默认被阻止",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2"
+    },
+    {
+      "category": "模型/产品",
+      "source": "OpenAI News",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval"
+    },
+    {
+      "category": "风险/合规",
+      "source": "AIbase",
+      "title": "ChatGPT 要能主动挂断危险对话，屡犯者直接封号",
+      "url": "https://www.aibase.com/news/32025"
+    },
+    {
+      "category": "创业方向",
+      "source": "Daily Digest",
+      "title": "何夕2077 AI 深度信号周报 2026 W44：核验赤字与算力地租",
+      "url": "https://hex2077.dev/zh-CN/blog/weekly/2026-11-01-ai-deep-signals-weekly-2026-w44"
+    },
+    {
+      "category": "开发者工具",
+      "source": "OpenAI News",
+      "title": "Qodo 借助 Codex 将上下文融入 AI 代码审查",
+      "url": "https://openai.com/index/qodo-codex-plugin"
+    },
+    {
+      "category": "模型/产品",
+      "source": "AIbase",
+      "title": "六步实现音视频联合生成！Pika基于MiniMax H3 重磅开源Pika H3 Flex",
+      "url": "https://www.aibase.com/news/32024"
+    },
+    {
+      "category": "企业变现",
+      "source": "AIbase",
+      "title": "北京出台智能眼镜消费政策：购新补贴15%，单件最高500元",
+      "url": "https://www.aibase.com/news/32020"
+    },
+    {
+      "category": "模型/产品",
+      "source": "AIbase",
+      "title": "破解AI长期记忆瓶颈，阿里云赋能Personal Agent迈向深度个性化",
+      "url": "https://www.aibase.com/news/32023"
+    },
+    {
+      "category": "企业变现",
+      "source": "AIbase",
+      "title": "蚂蚁阿福获世界互联网大会领先科技奖  成为首个获得该奖的健康AI应用",
+      "url": "https://www.aibase.com/news/32026"
+    },
+    {
+      "category": "模型/产品",
+      "source": "The Verge",
+      "title": "Apple 的“Ultra”智能家居机器人可能得等到 2028 年",
+      "url": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay"
+    },
+    {
+      "category": "创业方向",
+      "source": "Product Hunt",
+      "title": "Cedric AI for Meetings — 首个能替你演示幻灯片、替你参会的 AI agent",
+      "url": "https://www.producthunt.com/products/cedric"
+    },
+    {
+      "category": "资本/财报",
+      "source": "AIbase",
+      "title": "韩国史上最大预算案：820 万亿韩元，AI 与半导体成绝对主角",
+      "url": "https://www.aibase.com/news/32021"
+    },
+    {
+      "category": "企业变现",
+      "source": "InfoQ CN",
+      "title": "百度搜索 AI API 千次仅需 4.9 元，低于 DeepSeek",
+      "url": "https://www.infoq.cn/article/HJgTwfsPAugNBJ2jUefj"
+    },
+    {
+      "category": "风险/合规",
+      "source": "The Verge",
+      "title": "The New York Times 起诉 Brave 浏览器利用 AI 抓取内容并绕过付费墙",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+    },
+    {
+      "category": "资本/财报",
+      "source": "www.cnbc.com",
+      "title": "甲骨文提交申请，拟发行200亿美元新股和债券，为人工智能建设筹集资金",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+    },
+    {
+      "category": "开发者工具",
+      "source": "Product Hunt",
+      "title": "Linkly AI Clipper——将网页保存为对 Agent 友好的 Markdown 浏览器扩展",
+      "url": "https://www.producthunt.com/products/linkly-ai-clipper"
+    }
+  ],
+  "notes": [
+    "只转录源站 daily-brief 的标题与原文链接，不复制全文与点评；想看完整简报与多源折叠，去源站 live 页。",
+    "分类（模型/产品、企业变现、资本/财报、创业方向、开发者工具、风险/合规）是本页按标题与来源做的归类，不是源站的官方分类。",
+    "本日源站 daily-brief 共 20 条（generated_at 2026-11-02T23:53:13Z，24 小时窗口），本版全部转录；其中 1 条 LifeVal 的 title_zh 为 null，本版用源站 title 原文 LifeVal 转录，特此注明。",
+    "降级说明（沿用昨日结论，但有新情况如实记录）：zhuyansen/new-term-radar 在 2026-11-02 出现 1 个新提交（北京时间 2026-11-03 07:42，docs: the quick start runs the radar with uvx, no clone needed），但只是文档改动，不是雷达数据更新；自 2026-10-28 之后仍无雷达数据提交，故本版继续列为参考库，不恢复为每日源；若出现雷达数据提交将重新列入每日源。",
+    "ruanyf/weekly 今日为周二，无新一期（周刊每周五发布，最新一期仍为 issue 417，最新提交仍为该期的勘误合并），不计入当日更新。",
+    "sansan0/TrendRadar 本轮仍无新提交（上次为 2026-10-29），作为工具源保留观察。",
+    "Thysrael/Horizon 本日星数较昨日 +842，为 GitHub 连接器当日返回数值，页面如实记录，未做平滑；其最后提交仍为 2026-10-30，无新提交。",
+    "上日核查过但未列入每日信息流的仓库，沿用上日结论（本轮未重新核查）：GitHubDaily（最近提交 2025-12-31）、justlovemaki/CloudFlare-AI-Insight-Daily（2026-06-07）、BuilderPulse（每日系列停在 2026-08-14）、vigorX777/ai-daily-digest（2026-02-15）。它们星数不低，但未证实仍在每日更新，故不冒充为每日源。",
+    "星数、fork 数、最后提交均以 2026-11-03 上午 GitHub 连接器返回为准；星数每天会变，次日页面会与本日对比涨跌。",
+    "本日与昨日对比：精选标题按标题精确比对，20 条全部新上榜；源仓库按星数与最后提交日期比对，见页面顶部昨日对比与各源卡片。"
+  ],
+  "sources": [
+    {
+      "forks": 447,
+      "last_commit_date": "2026-11-03",
+      "last_commit_msg": "chore: update ai news snapshot",
+      "live_url": "https://news.learnprompt.pro",
+      "note": "24 小时 AI/科技新闻雷达，Actions 每 30 分钟更新，页面按栏目与精选/全量分流；本页 20 条即取自它的 daily-brief.json，只转录标题与原文链接，不复制全文。",
+      "open_issues": 0,
+      "repo": "LearnPrompt/ai-news-radar",
+      "repo_url": "https://github.com/LearnPrompt/ai-news-radar",
+      "role": "每日信息流 · 主力",
+      "stars": 1809,
+      "status": "ok"
+    },
+    {
+      "forks": 625,
+      "last_commit_date": "2026-11-02",
+      "last_commit_msg": "docs: the quick start runs the radar with uvx, no clone needed",
+      "live_url": "https://github.com/zhuyansen/new-term-radar",
+      "note": "每日雷达：从 X、Hugging Face、GitHub 与站点地图里抓新出现的 AI 术语、模型名、产品名与仓库名。本轮出现 1 个新提交（北京时间 2026-11-03 07:42），但只是文档改动，自 2026-10-28 后仍无雷达数据提交，继续列为参考库；若出现雷达数据提交将重新列入每日源。",
+      "open_issues": 2,
+      "repo": "zhuyansen/new-term-radar",
+      "repo_url": "https://github.com/zhuyansen/new-term-radar",
+      "role": "参考库 · 新词雷达（原每日源，已降级）",
+      "stars": 2049,
+      "status": "reference"
+    },
+    {
+      "forks": 750,
+      "last_commit_date": "2026-11-02",
+      "last_commit_msg": "Add Nov 2 trending AI projects (#910)",
+      "live_url": "https://github.com/alvinreal/awesome-opensource-ai",
+      "note": "自述每日更新的开源 AI 项目/模型/工具/基建精选清单；每日看它新增与剔除的条目，等于看开源侧在往哪个方向卷。本轮较昨日有新提交（2026-11-02）。",
+      "open_issues": 48,
+      "repo": "alvinreal/awesome-opensource-ai",
+      "repo_url": "https://github.com/alvinreal/awesome-opensource-ai",
+      "role": "每日信息流 · 开源项目清单",
+      "stars": 4974,
+      "status": "ok"
+    },
+    {
+      "forks": 4572,
+      "last_commit_date": "2026-10-31",
+      "last_commit_msg": "Merge pull request #12913 from BearBin1215/fix-issue-417",
+      "live_url": "https://github.com/ruanyf/weekly",
+      "note": "科技爱好者周刊，每周五发布；今日周二无新一期，最新一期仍为 issue 417，最新提交仍为该期的勘误合并，不是新一期。issue 数高是因为每期以 issue 形式发布，不是缺陷信号。",
+      "open_issues": 9993,
+      "repo": "ruanyf/weekly",
+      "repo_url": "https://github.com/ruanyf/weekly",
+      "role": "周更 · 科技周刊",
+      "stars": 107446,
+      "status": "周更 · 今日无新一期"
+    },
+    {
+      "forks": 24923,
+      "last_commit_date": "2026-10-29",
+      "last_commit_msg": "fix(rss): 合并 #1253 的 RSS 计数修复",
+      "live_url": "https://github.com/sansan0/TrendRadar",
+      "note": "AI 驱动的多平台热点聚合 + RSS + 智能提醒工具；它本身不是一篇日报，是可以自己部署的监控器，适合把“每天看”升级成“有动静就提醒”。本轮 list_commits 仍无新提交（上次为 2026-10-29），作为工具源保留观察。",
+      "open_issues": 34,
+      "repo": "sansan0/TrendRadar",
+      "repo_url": "https://github.com/sansan0/TrendRadar",
+      "role": "工具源 · 自建舆情监控",
+      "stars": 63371,
+      "status": "ok"
+    },
+    {
+      "forks": 1754,
+      "last_commit_date": "2026-10-30",
+      "last_commit_msg": "fix(ai): adapt unsupported sampling and token parameters across providers",
+      "live_url": "https://github.com/Thysrael/Horizon",
+      "note": "用 AI 生成中英双语每日简报的个人新闻雷达工具；同样不是现成日报，适合想按自己关键词定制一份日报时 fork 部署。本轮无新提交（上次为 2026-10-30），但星数单日 +842，为连接器当日返回数值，如实记录。",
+      "open_issues": 4,
+      "repo": "Thysrael/Horizon",
+      "repo_url": "https://github.com/Thysrael/Horizon",
+      "role": "工具源 · 自建日报",
+      "stars": 11978,
+      "status": "ok"
+    },
+    {
+      "forks": 631,
+      "last_commit_date": "2026-11-02",
+      "last_commit_msg": "Update DATA_UPDATE.md with timestamp 2026-11-02 02:39:07",
+      "live_url": "https://github.com/XiaomingX/ai-money-maker-handbook",
+      "note": "星高、内容库大，但本轮核查的最近提交仍为时间戳文件，未证实每日新增了赚钱案例；因此只列为参考库，不把它算作每日新增信息流。",
+      "open_issues": 11,
+      "repo": "XiaomingX/ai-money-maker-handbook",
+      "repo_url": "https://github.com/XiaomingX/ai-money-maker-handbook",
+      "role": "参考库 · AI 副业赚钱（不计入每日新增）",
+      "stars": 6864,
+      "status": "reference"
+    },
+    {
+      "forks": 1777,
+      "last_commit_date": "2025-10-20",
+      "last_commit_msg": "Update README.md",
+      "live_url": "https://github.com/bleedline/aimoneyhunter",
+      "note": "星最高的一本 AI 副业赚钱合集，但近一年无实质提交记录；只列为参考库，不冒充仍在每日更新。",
+      "open_issues": 33,
+      "repo": "bleedline/aimoneyhunter",
+      "repo_url": "https://github.com/bleedline/aimoneyhunter",
+      "role": "参考库 · AI 副业赚钱（不计入每日新增）",
+      "stars": 18346,
+      "status": "reference"
+    }
+  ]
+}
