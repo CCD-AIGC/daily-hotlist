@@ -27,6 +27,27 @@ def fmt_num(n):
     return f"{n:,}"
 
 
+def fast_growth_section(day):
+    if "fast_growth" not in day:
+        return ""
+    fg = day.get("fast_growth", [])
+    if not fg:
+        return '<section><h2>高热快涨仓库<small>星数只代表关注度、不代表可用性；只链官方仓库</small></h2><div class="note-box"><p>本轮寻猎无新增快涨仓库。</p></div></section>'
+    cards = []
+    for f in fg:
+        badge = '<span class="badge new">今日首次发现</span>' if f.get("status") == "今日首次发现" else '<span class="badge same">基线</span>'
+        cards.append(
+            f'<article class="card"><div class="card-top"><span class="tag">高热快涨</span>{badge}</div>'
+            f'<h3><a href="{esc(f.get("repo_url", ""))}">{esc(f.get("repo", ""))}</a></h3>'
+            f'<p>★ {fmt_num(f.get("stars"))} · 创建 {esc(f.get("created", ""))} · 首次发现 {esc(f.get("first_seen", ""))}</p>'
+            f'<p>{esc(f.get("desc", ""))}</p>'
+            f'<p>{esc(f.get("note", ""))}</p></article>'
+        )
+    return ('<section><h2>高热快涨仓库<small>星数只代表关注度、不代表可用性；第三方增速数字仅作寻猎线索，不代替自家基线差值；'
+            '首版基线仓库次日开始比对 24h 星增；只链官方仓库，疑似仿冒的不链</small></h2>\n<div class="grid">\n'
+            + "\n".join(cards) + '\n</div></section>')
+
+
 def source_rows(day, prev_day):
     prev = {}
     if prev_day:
@@ -166,6 +187,7 @@ def render(day, all_dates, prev_day=None):
 <div class="grid">
 {source_rows(day, prev_day)}
 </div></section>
+{fast_growth_section(day)}
 <section><h2>说明与局限</h2>
 <div class="note-box"><ul>
 {notes}
