@@ -65,15 +65,25 @@ def repo_link(repo):
 
 def potential_cards(day):
     cards = []
+    cats = {}
     for o in day.get("top_potential", []):
+        c = o.get("category", "")
+        if c:
+            cats[c] = cats.get(c, 0) + 1
+        cat_chip = f'<span class="tag">{esc(c)}</span>' if c else ""
+        setup_line = f'<p>上手：{esc(o["setup"])}</p>' if o.get("setup") else ""
         cards.append(
             f'<article class="card"><div class="card-top"><span class="tag">潜力评分 {o["score"]} / 100</span>'
             f'<span class="badge same">★ {o["stars"]:,}</span></div>'
             f'<h3>{repo_link(o["repo"])}</h3>'
-            f'<p>{esc(o["what"])}</p>'
-            f'<p>{esc(o["basis"])}</p></article>'
+            + (f'<p>{cat_chip}</p>' if cat_chip else "")
+            + f'<p>{esc(o["what"])}</p>'
+            + setup_line
+            + f'<p>{esc(o["basis"])}</p></article>'
         )
-    return ('<section><h2>01 尚未大规模爆红但最有潜力的 TOP 10<small>星数只代表关注度，不代表可用性与收入；评分是主观判断，依据写在每条理由里</small></h2>\n<div class="grid">\n'
+    cat_line = ("<p>分类速览：" + " · ".join(f"{esc(k)} {v} 个" for k, v in cats.items()) + "</p>") if cats else ""
+    return ('<section><h2>01 尚未大规模爆红但最有潜力的 TOP 10<small>星数只代表关注度，不代表可用性与收入；评分是主观判断，依据写在每条理由里</small></h2>\n'
+            + cat_line + '<div class="grid">\n'
             + "\n".join(cards) + '\n</div></section>')
 
 
@@ -139,13 +149,16 @@ def alerts_table(day):
 def entrepreneur_cards(day):
     cards = []
     for o in day.get("entrepreneur_top3", []):
+        cat_chip = f'<span class="tag">{esc(o["category"])}</span>' if o.get("category") else ""
+        setup_line = f'<p>上手：{esc(o["setup"])}</p>' if o.get("setup") else ""
         cards.append(
             f'<article class="card"><div class="card-top"><span class="tag">机会评分 {o["score"]} / 100</span>'
             f'<span class="badge same">★ {o["stars"]:,}</span></div>'
             f'<h3>{repo_link(o["repo"])}</h3>'
-            f'<p>{esc(o["what"])}</p><p>{esc(o["basis"])}</p></article>'
+            + (f'<p>{cat_chip}</p>' if cat_chip else "")
+            + f'<p>{esc(o["what"])}</p>' + setup_line + f'<p>{esc(o["basis"])}</p></article>'
         )
-    return ('<section><h2>07 值得创业者研究的 AI 项目 TOP 3<small>评分是主观判断，不是真实市场统计数字</small></h2>\n<div class="grid">\n'
+    return ('<section><h2>07 今天值得试 / 值得研究的 AI 项目 TOP 3<small>评分是主观判断，不是真实市场统计数字；“上手”只写一句话部署门槛</small></h2>\n<div class="grid">\n'
             + "\n".join(cards) + '\n</div></section>')
 
 
@@ -186,7 +199,7 @@ def render(day, all_dates):
 """
     body += potential_cards(day) + fastest_table(day) + new_table(day) + revived_table(day)
     body += trending_table(day) + alerts_table(day) + entrepreneur_cards(day) + backtest_section(day)
-    body += f"""<section><h2>方法与阈值（v1 修订版）<small>按 REA 回测修正；小时级增速必须用自有连续快照计算</small></h2>
+    body += f"""<section><h2>方法与阈值（v3 增长池 · v4 实用版）<small>按 REA 回测修正；小时级增速必须用自有连续快照计算；评分三维度：增速 40 / 能用度 30 / 新颖度 30</small></h2>
 <div class="note-box"><ul>{th}</ul><p>{esc(m.get("note", ""))}</p></div></section>
 <section><h2>渠道健康状态<small>第三方数字只作线索，不直接当结论；口径冲突已实证（同日 REA 增量 ossradar 称 +3.5k，ghtrends 称 +1,988）</small></h2>
 <div class="note-box"><ul>{ch_items}</ul></div></section>
