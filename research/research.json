@@ -71,8 +71,18 @@
       "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
       "title": "AI创业与内容起号调研",
       "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+    },
+    {
+      "date": "2026-11-06",
+      "file": "research/2026-11-06-ai-startup-creator-research-hub.html",
+      "note": "严格用 research-hub v1.1.0；窗口 2026-10-31 至 2026-11-06，86 条唯一 URL，状态 partial；插件/Skill 成可落脚层、扣子画布退为视图，小红书 AI 点点转向判断型内容，副业叙事仍无可核查收款单；今日榜单版拉取时 404 未发布、抖音引擎报错、Reddit 403 阻断、微信 2 条 0 留存如实标出。",
+      "source": "Research Hub",
+      "source_slug": "research-hub",
+      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+      "title": "AI创业与内容起号调研",
+      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
     }
   ],
   "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
-  "updated": "2026-11-05"
+  "updated": "2026-11-06"
 }
