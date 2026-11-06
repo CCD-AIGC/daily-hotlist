@@ -1,0 +1,2503 @@
+{
+ "date": "2026-11-05",
+ "checked_at_cst": "2026-11-05 21:12-21:37（实时浏览器核实）",
+ "round": "2026-11-05 晚间核查（当日最终版）",
+ "is_baseline": false,
+ "background": "仅作背景，不归因到账号：本轮未返回2026-11-05当日新的B站AI爆火账号公开报道；热门榜首位DeepSeek Harness入驻视频（380.5万）与Git源宝DSH教程（188.5万）为平台新动态延续，但对应账号粉丝均超10万标准，未对应到本轮可核实的小号爆火粉丝数，仅作背景。",
+ "growth": [
+  {
+   "account": "比特新语",
+   "space": "https://space.bilibili.com/3494362707135250",
+   "current": 874537,
+   "previous": 871611,
+   "delta": 2926,
+   "delta_rate_pct": 0.34,
+   "delta_approx": false,
+   "first_seen": "2026-10-25",
+   "since_first_seen": 90413,
+   "since_first_seen_pct": 11.53,
+   "since_first_seen_approx": false,
+   "qualifies": true,
+   "nominal": false
+  },
+  {
+   "account": "再改需求是修勾",
+   "space": "https://space.bilibili.com/19929260",
+   "current": 21050,
+   "previous": 18357,
+   "delta": 2693,
+   "delta_rate_pct": 14.67,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 5302,
+   "since_first_seen_pct": 33.67,
+   "since_first_seen_approx": false,
+   "qualifies": true,
+   "nominal": false
+  },
+  {
+   "account": "卜肉熊brx",
+   "space": "https://space.bilibili.com/173561378",
+   "current": 45565,
+   "previous": 42883,
+   "delta": 2682,
+   "delta_rate_pct": 6.25,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 17662,
+   "since_first_seen_pct": 63.3,
+   "since_first_seen_approx": false,
+   "qualifies": true,
+   "nominal": false
+  },
+  {
+   "account": "AAA宇宙边角料",
+   "space": "https://space.bilibili.com/3546759456360846",
+   "current": 101993,
+   "previous": 99722,
+   "delta": 2271,
+   "delta_rate_pct": 2.28,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 35149,
+   "since_first_seen_pct": 52.58,
+   "since_first_seen_approx": false,
+   "qualifies": true,
+   "nominal": false
+  },
+  {
+   "account": "星月免费漫馆4k超清",
+   "space": "https://space.bilibili.com/393126069",
+   "current": 18028,
+   "previous": 16000,
+   "delta": 2028,
+   "delta_rate_pct": 12.68,
+   "delta_approx": true,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 2028,
+   "since_first_seen_pct": 12.68,
+   "since_first_seen_approx": true,
+   "qualifies": true,
+   "nominal": true
+  },
+  {
+   "account": "WorkFisher",
+   "space": "https://space.bilibili.com/17919458",
+   "current": 135773,
+   "previous": 134057,
+   "delta": 1716,
+   "delta_rate_pct": 1.28,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 8773,
+   "since_first_seen_pct": 6.91,
+   "since_first_seen_approx": true,
+   "qualifies": true,
+   "nominal": false
+  },
+  {
+   "account": "你的鱼胆真是肥嘟嘟的",
+   "space": "https://space.bilibili.com/1002784558",
+   "current": 8286,
+   "previous": 6818,
+   "delta": 1468,
+   "delta_rate_pct": 21.53,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 2820,
+   "since_first_seen_pct": 51.59,
+   "since_first_seen_approx": false,
+   "qualifies": true,
+   "nominal": false
+  },
+  {
+   "account": "千鹤追漫",
+   "space": "https://space.bilibili.com/399864001",
+   "current": 30306,
+   "previous": 29279,
+   "delta": 1027,
+   "delta_rate_pct": 3.51,
+   "delta_approx": false,
+   "first_seen": "2026-11-03",
+   "since_first_seen": 1052,
+   "since_first_seen_pct": 3.6,
+   "since_first_seen_approx": false,
+   "qualifies": true,
+   "nominal": false
+  },
+  {
+   "account": "小陈的脚凑凑的",
+   "space": "https://space.bilibili.com/71923484",
+   "current": 722560,
+   "previous": 721622,
+   "delta": 938,
+   "delta_rate_pct": 0.13,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 8177,
+   "since_first_seen_pct": 1.14,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "牢大百科",
+   "space": "https://space.bilibili.com/129139887",
+   "current": 22111,
+   "previous": 21224,
+   "delta": 887,
+   "delta_rate_pct": 4.18,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 1496,
+   "since_first_seen_pct": 7.26,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "学姐圆",
+   "space": "https://space.bilibili.com/30502823",
+   "current": 2488945,
+   "previous": 2488103,
+   "delta": 842,
+   "delta_rate_pct": 0.03,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 7945,
+   "since_first_seen_pct": 0.32,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "阳子YoungZi",
+   "space": "https://space.bilibili.com/3546765536004490",
+   "current": 516805,
+   "previous": 515989,
+   "delta": 816,
+   "delta_rate_pct": 0.16,
+   "delta_approx": false,
+   "first_seen": "2026-11-03",
+   "since_first_seen": 1131,
+   "since_first_seen_pct": 0.22,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "整活Tv",
+   "space": "https://space.bilibili.com/29684184",
+   "current": 82808,
+   "previous": 82000,
+   "delta": 808,
+   "delta_rate_pct": 0.99,
+   "delta_approx": true,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 808,
+   "since_first_seen_pct": 0.99,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "墨小郎",
+   "space": "https://space.bilibili.com/9257946",
+   "current": 31235,
+   "previous": 30428,
+   "delta": 807,
+   "delta_rate_pct": 2.65,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 7453,
+   "since_first_seen_pct": 31.34,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "喵工智能KONG",
+   "space": "https://space.bilibili.com/8019404",
+   "current": 4742,
+   "previous": 4020,
+   "delta": 722,
+   "delta_rate_pct": 17.96,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 722,
+   "since_first_seen_pct": 17.96,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "workbuddy应用实战",
+   "space": "https://space.bilibili.com/3707045899405934",
+   "current": 48340,
+   "previous": 47636,
+   "delta": 704,
+   "delta_rate_pct": 1.48,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 4913,
+   "since_first_seen_pct": 11.31,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "卡普迪姆",
+   "space": "https://space.bilibili.com/312249633",
+   "current": 66386,
+   "previous": 65793,
+   "delta": 593,
+   "delta_rate_pct": 0.9,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 4276,
+   "since_first_seen_pct": 6.88,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "饭都还没吃饱",
+   "space": "https://space.bilibili.com/405234610",
+   "current": 29656,
+   "previous": 29089,
+   "delta": 567,
+   "delta_rate_pct": 1.95,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 5242,
+   "since_first_seen_pct": 21.47,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "洪哥视野",
+   "space": "https://space.bilibili.com/588914696",
+   "current": 48330,
+   "previous": 47767,
+   "delta": 563,
+   "delta_rate_pct": 1.18,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 2757,
+   "since_first_seen_pct": 6.05,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "后摇狗PostRockDog",
+   "space": "https://space.bilibili.com/196776234",
+   "current": 101047,
+   "previous": 100499,
+   "delta": 548,
+   "delta_rate_pct": 0.55,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 9981,
+   "since_first_seen_pct": 10.96,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "白鸽の乱剪",
+   "space": "https://space.bilibili.com/1972357926",
+   "current": 81903,
+   "previous": 81422,
+   "delta": 481,
+   "delta_rate_pct": 0.59,
+   "delta_approx": false,
+   "first_seen": "2026-11-02",
+   "since_first_seen": 1903,
+   "since_first_seen_pct": 2.38,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "小朱佩琪66",
+   "space": "https://space.bilibili.com/430362460",
+   "current": 101162,
+   "previous": 100705,
+   "delta": 457,
+   "delta_rate_pct": 0.45,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 4337,
+   "since_first_seen_pct": 4.48,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "多梦综合征",
+   "space": "https://space.bilibili.com/110071473",
+   "current": 67109,
+   "previous": 66655,
+   "delta": 454,
+   "delta_rate_pct": 0.68,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 454,
+   "since_first_seen_pct": 0.68,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "古往今来的名人故事",
+   "space": "https://space.bilibili.com/1698748576",
+   "current": 63493,
+   "previous": 63143,
+   "delta": 350,
+   "delta_rate_pct": 0.55,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 3493,
+   "since_first_seen_pct": 5.82,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "美味的肥鱼饭团",
+   "space": "https://space.bilibili.com/3747575681256315",
+   "current": 3709,
+   "previous": 3389,
+   "delta": 320,
+   "delta_rate_pct": 9.44,
+   "delta_approx": false,
+   "first_seen": "2026-11-02",
+   "since_first_seen": 1593,
+   "since_first_seen_pct": 75.28,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "夏小沛",
+   "space": "https://space.bilibili.com/3690974471522584",
+   "current": 28343,
+   "previous": 28042,
+   "delta": 301,
+   "delta_rate_pct": 1.07,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 2343,
+   "since_first_seen_pct": 9.01,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "Claude最严厉的父亲",
+   "space": "https://space.bilibili.com/34706743",
+   "current": 6847,
+   "previous": 6550,
+   "delta": 297,
+   "delta_rate_pct": 4.53,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 297,
+   "since_first_seen_pct": 4.53,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "恐怖的企鹅",
+   "space": "https://space.bilibili.com/1177191848",
+   "current": 18614,
+   "previous": 18319,
+   "delta": 295,
+   "delta_rate_pct": 1.61,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 2402,
+   "since_first_seen_pct": 14.82,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "三颗门牙X",
+   "space": "https://space.bilibili.com/3546737547414029",
+   "current": 24494,
+   "previous": 24206,
+   "delta": 288,
+   "delta_rate_pct": 1.19,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 6494,
+   "since_first_seen_pct": 36.08,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "以尘动画",
+   "space": "https://space.bilibili.com/3537113752537503",
+   "current": 643484,
+   "previous": 643196,
+   "delta": 288,
+   "delta_rate_pct": 0.04,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 6484,
+   "since_first_seen_pct": 1.02,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "兰斯的画室LanceStudio",
+   "space": "https://space.bilibili.com/3546866685839722",
+   "current": 86352,
+   "previous": 86070,
+   "delta": 282,
+   "delta_rate_pct": 0.33,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 4420,
+   "since_first_seen_pct": 5.39,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "王与也行",
+   "space": "https://space.bilibili.com/474213246",
+   "current": 431785,
+   "previous": 431504,
+   "delta": 281,
+   "delta_rate_pct": 0.07,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 2785,
+   "since_first_seen_pct": 0.65,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "杠上开花gskh",
+   "space": "https://space.bilibili.com/627352070",
+   "current": 12785,
+   "previous": 12521,
+   "delta": 264,
+   "delta_rate_pct": 2.11,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 1803,
+   "since_first_seen_pct": 16.42,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "Raymondsese",
+   "space": "https://space.bilibili.com/1298657234",
+   "current": 80308,
+   "previous": 80059,
+   "delta": 249,
+   "delta_rate_pct": 0.31,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 2829,
+   "since_first_seen_pct": 3.65,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "二哥他怕痒",
+   "space": "https://space.bilibili.com/3546717408463187",
+   "current": 84976,
+   "previous": 84738,
+   "delta": 238,
+   "delta_rate_pct": 0.28,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 2285,
+   "since_first_seen_pct": 2.76,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "XIAOMING6680",
+   "space": "https://space.bilibili.com/275188875",
+   "current": 14548,
+   "previous": 14311,
+   "delta": 237,
+   "delta_rate_pct": 1.66,
+   "delta_approx": false,
+   "first_seen": "2026-11-03",
+   "since_first_seen": 663,
+   "since_first_seen_pct": 4.77,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "AI绘画学习教程",
+   "space": "https://space.bilibili.com/3546760058243958",
+   "current": 50346,
+   "previous": 50116,
+   "delta": 230,
+   "delta_rate_pct": 0.46,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 1469,
+   "since_first_seen_pct": 3.01,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "comfyui视频工作流",
+   "space": "https://space.bilibili.com/3546838755969920",
+   "current": 43485,
+   "previous": 43257,
+   "delta": 228,
+   "delta_rate_pct": 0.53,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 1585,
+   "since_first_seen_pct": 3.78,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "编程大佬陈悠秀",
+   "space": "https://space.bilibili.com/1730060979",
+   "current": 72993,
+   "previous": 72777,
+   "delta": 216,
+   "delta_rate_pct": 0.3,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 1504,
+   "since_first_seen_pct": 2.1,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "老奇好好奇",
+   "space": "https://space.bilibili.com/35894872",
+   "current": 1158887,
+   "previous": 1158679,
+   "delta": 208,
+   "delta_rate_pct": 0.02,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 7741,
+   "since_first_seen_pct": 0.67,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "港口周星星",
+   "space": "https://space.bilibili.com/95816463",
+   "current": 4880,
+   "previous": 4695,
+   "delta": 185,
+   "delta_rate_pct": 3.94,
+   "delta_approx": false,
+   "first_seen": "2026-11-02",
+   "since_first_seen": 600,
+   "since_first_seen_pct": 14.02,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "AI大模型码农",
+   "space": "https://space.bilibili.com/3546860755093522",
+   "current": 39231,
+   "previous": 39054,
+   "delta": 177,
+   "delta_rate_pct": 0.45,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 1314,
+   "since_first_seen_pct": 3.47,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "泽轩604",
+   "space": "https://space.bilibili.com/508225300",
+   "current": 4182,
+   "previous": 4038,
+   "delta": 144,
+   "delta_rate_pct": 3.57,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 2526,
+   "since_first_seen_pct": 152.54,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "我是日行一扇",
+   "space": "https://space.bilibili.com/3745030307056334",
+   "current": 6944,
+   "previous": 6805,
+   "delta": 139,
+   "delta_rate_pct": 2.04,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 3999,
+   "since_first_seen_pct": 135.79,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "Gemini哈基米在运营喵",
+   "space": "https://space.bilibili.com/38764319",
+   "current": 18454,
+   "previous": 18320,
+   "delta": 134,
+   "delta_rate_pct": 0.73,
+   "delta_approx": false,
+   "first_seen": "2026-11-03",
+   "since_first_seen": 315,
+   "since_first_seen_pct": 1.74,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "王高兴A",
+   "space": "https://space.bilibili.com/3706960721480235",
+   "current": 23046,
+   "previous": 22921,
+   "delta": 125,
+   "delta_rate_pct": 0.55,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 1046,
+   "since_first_seen_pct": 4.75,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "粉墨",
+   "space": "https://space.bilibili.com/1931875939",
+   "current": 47584,
+   "previous": 47471,
+   "delta": 113,
+   "delta_rate_pct": 0.24,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 584,
+   "since_first_seen_pct": 1.24,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "AI-智能体搭建教程",
+   "space": "https://space.bilibili.com/1786444896",
+   "current": 50074,
+   "previous": 49966,
+   "delta": 108,
+   "delta_rate_pct": 0.22,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 517,
+   "since_first_seen_pct": 1.04,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "大模型开发",
+   "space": "https://space.bilibili.com/3546726203919080",
+   "current": 52726,
+   "previous": 52625,
+   "delta": 101,
+   "delta_rate_pct": 0.19,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 732,
+   "since_first_seen_pct": 1.41,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "黑猫勇者",
+   "space": "https://space.bilibili.com/69180811",
+   "current": 14437,
+   "previous": 14339,
+   "delta": 98,
+   "delta_rate_pct": 0.68,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 1437,
+   "since_first_seen_pct": 11.05,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "bili_82557212748",
+   "space": "https://space.bilibili.com/574434286",
+   "current": 1099,
+   "previous": 1002,
+   "delta": 97,
+   "delta_rate_pct": 9.68,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 182,
+   "since_first_seen_pct": 19.85,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "玛露Marrow",
+   "space": "https://space.bilibili.com/37634003",
+   "current": 2702,
+   "previous": 2607,
+   "delta": 95,
+   "delta_rate_pct": 3.64,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 660,
+   "since_first_seen_pct": 32.32,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "蓝兔Ai",
+   "space": "https://space.bilibili.com/218585577",
+   "current": 7059,
+   "previous": 6969,
+   "delta": 90,
+   "delta_rate_pct": 1.29,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 2180,
+   "since_first_seen_pct": 44.68,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "明末召唤师",
+   "space": "https://space.bilibili.com/605914362",
+   "current": 7453,
+   "previous": 7367,
+   "delta": 86,
+   "delta_rate_pct": 1.17,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 366,
+   "since_first_seen_pct": 5.16,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "火海vol2",
+   "space": "https://space.bilibili.com/2424803",
+   "current": 7246,
+   "previous": 7166,
+   "delta": 80,
+   "delta_rate_pct": 1.12,
+   "delta_approx": false,
+   "first_seen": "2026-11-02",
+   "since_first_seen": 259,
+   "since_first_seen_pct": 3.71,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "小安苒AIGC",
+   "space": "https://space.bilibili.com/24215475",
+   "current": 83367,
+   "previous": 83289,
+   "delta": 78,
+   "delta_rate_pct": 0.09,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 265,
+   "since_first_seen_pct": 0.32,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "不爱赚钱的BQ桑",
+   "space": "https://space.bilibili.com/7796713",
+   "current": 7916,
+   "previous": 7841,
+   "delta": 75,
+   "delta_rate_pct": 0.96,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 31,
+   "since_first_seen_pct": 0.39,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "点燃篝火的Anrry",
+   "space": "https://space.bilibili.com/522322575",
+   "current": 28186,
+   "previous": 28116,
+   "delta": 70,
+   "delta_rate_pct": 0.25,
+   "delta_approx": false,
+   "first_seen": "2026-10-27",
+   "since_first_seen": 1147,
+   "since_first_seen_pct": 4.24,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "永远の蓬莱neet",
+   "space": "https://space.bilibili.com/9666303",
+   "current": 12071,
+   "previous": 12004,
+   "delta": 67,
+   "delta_rate_pct": 0.56,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 1083,
+   "since_first_seen_pct": 9.86,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "狂魔传煤",
+   "space": "https://space.bilibili.com/1048673187",
+   "current": 75300,
+   "previous": 75233,
+   "delta": 67,
+   "delta_rate_pct": 0.09,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 579,
+   "since_first_seen_pct": 0.77,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "发财漫剧场",
+   "space": "https://space.bilibili.com/1013334156",
+   "current": 33991,
+   "previous": 33927,
+   "delta": 64,
+   "delta_rate_pct": 0.19,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 509,
+   "since_first_seen_pct": 1.52,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "ByeByeBlueBerry",
+   "space": "https://space.bilibili.com/1483869441",
+   "current": 124165,
+   "previous": 124103,
+   "delta": 62,
+   "delta_rate_pct": 0.05,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 165,
+   "since_first_seen_pct": 0.13,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "512g平安果",
+   "space": "https://space.bilibili.com/3546822920374488",
+   "current": 6418,
+   "previous": 6358,
+   "delta": 60,
+   "delta_rate_pct": 0.94,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 537,
+   "since_first_seen_pct": 9.13,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "苏沐沐_Official",
+   "space": "https://space.bilibili.com/677792657",
+   "current": 181375,
+   "previous": 181323,
+   "delta": 52,
+   "delta_rate_pct": 0.03,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 1375,
+   "since_first_seen_pct": 0.76,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "阿叙人物志",
+   "space": "https://space.bilibili.com/3493275788904561",
+   "current": 4471,
+   "previous": 4422,
+   "delta": 49,
+   "delta_rate_pct": 1.11,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 337,
+   "since_first_seen_pct": 8.15,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "胡萝卜须儿",
+   "space": "https://space.bilibili.com/11192010",
+   "current": 262167,
+   "previous": 262122,
+   "delta": 45,
+   "delta_rate_pct": 0.02,
+   "delta_approx": false,
+   "first_seen": "2026-10-25",
+   "since_first_seen": 775,
+   "since_first_seen_pct": 0.3,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "天才依山尽",
+   "space": "https://space.bilibili.com/399027836",
+   "current": 2668,
+   "previous": 2626,
+   "delta": 42,
+   "delta_rate_pct": 1.6,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 907,
+   "since_first_seen_pct": 51.5,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "鱼六十四丶",
+   "space": "https://space.bilibili.com/1936954718",
+   "current": 5111,
+   "previous": 5069,
+   "delta": 42,
+   "delta_rate_pct": 0.83,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 236,
+   "since_first_seen_pct": 4.84,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "拼命生成中AIGC",
+   "space": "https://space.bilibili.com/350926890",
+   "current": 16818,
+   "previous": 16776,
+   "delta": 42,
+   "delta_rate_pct": 0.25,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 1659,
+   "since_first_seen_pct": 10.94,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "神威-狗剩",
+   "space": "https://space.bilibili.com/5432766",
+   "current": 52148,
+   "previous": 52107,
+   "delta": 41,
+   "delta_rate_pct": 0.08,
+   "delta_approx": false,
+   "first_seen": "2026-11-02",
+   "since_first_seen": 148,
+   "since_first_seen_pct": 0.28,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "duan在时光走廊i05",
+   "space": "https://space.bilibili.com/111261566",
+   "current": 5272,
+   "previous": 5232,
+   "delta": 40,
+   "delta_rate_pct": 0.76,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 40,
+   "since_first_seen_pct": 0.76,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "张小土气刘大地",
+   "space": "https://space.bilibili.com/3493138033281790",
+   "current": 34835,
+   "previous": 34796,
+   "delta": 39,
+   "delta_rate_pct": 0.11,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": -165,
+   "since_first_seen_pct": -0.47,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "一只青娥",
+   "space": "https://space.bilibili.com/173340664",
+   "current": 17055,
+   "previous": 17017,
+   "delta": 38,
+   "delta_rate_pct": 0.22,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 1084,
+   "since_first_seen_pct": 6.79,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "法斯特咱有",
+   "space": "https://space.bilibili.com/11545402",
+   "current": 2265,
+   "previous": 2229,
+   "delta": 36,
+   "delta_rate_pct": 1.62,
+   "delta_approx": false,
+   "first_seen": "2026-11-02",
+   "since_first_seen": 99,
+   "since_first_seen_pct": 4.57,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "VKmich16",
+   "space": "https://space.bilibili.com/1836020534",
+   "current": 24017,
+   "previous": 23983,
+   "delta": 34,
+   "delta_rate_pct": 0.14,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 754,
+   "since_first_seen_pct": 3.24,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "子休狐",
+   "space": "https://space.bilibili.com/3707052130044121",
+   "current": 941,
+   "previous": 910,
+   "delta": 31,
+   "delta_rate_pct": 3.41,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 257,
+   "since_first_seen_pct": 37.57,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "如见未来AI",
+   "space": "https://space.bilibili.com/438249357",
+   "current": 14553,
+   "previous": 14522,
+   "delta": 31,
+   "delta_rate_pct": 0.21,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 186,
+   "since_first_seen_pct": 1.29,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "大肥鱼的b站日记",
+   "space": "https://space.bilibili.com/3747574232124245",
+   "current": 21232,
+   "previous": 21203,
+   "delta": 29,
+   "delta_rate_pct": 0.14,
+   "delta_approx": false,
+   "first_seen": "2026-10-25",
+   "since_first_seen": 3512,
+   "since_first_seen_pct": 19.82,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "a网友爱顺音",
+   "space": "https://space.bilibili.com/499679477",
+   "current": 1394,
+   "previous": 1365,
+   "delta": 29,
+   "delta_rate_pct": 2.12,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 29,
+   "since_first_seen_pct": 2.12,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "焦一针",
+   "space": "https://space.bilibili.com/3546980670245538",
+   "current": 1974,
+   "previous": 1948,
+   "delta": 26,
+   "delta_rate_pct": 1.33,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 166,
+   "since_first_seen_pct": 9.18,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "藿藿吃糖宝",
+   "space": "https://space.bilibili.com/686091389",
+   "current": 33919,
+   "previous": 33895,
+   "delta": 24,
+   "delta_rate_pct": 0.07,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 24,
+   "since_first_seen_pct": 0.07,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "洛汐聚合体",
+   "space": "https://space.bilibili.com/394675616",
+   "current": 2718,
+   "previous": 2695,
+   "delta": 23,
+   "delta_rate_pct": 0.85,
+   "delta_approx": false,
+   "first_seen": "2026-11-03",
+   "since_first_seen": 48,
+   "since_first_seen_pct": 1.8,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "Hazellll_z",
+   "space": "https://space.bilibili.com/3707051582688208",
+   "current": 1231,
+   "previous": 1209,
+   "delta": 22,
+   "delta_rate_pct": 1.82,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 127,
+   "since_first_seen_pct": 11.5,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "sugar_ice",
+   "space": "https://space.bilibili.com/1082063058",
+   "current": 9229,
+   "previous": 9207,
+   "delta": 22,
+   "delta_rate_pct": 0.24,
+   "delta_approx": false,
+   "first_seen": "2026-11-02",
+   "since_first_seen": 89,
+   "since_first_seen_pct": 0.97,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "浪蔓小屋",
+   "space": "https://space.bilibili.com/1458157330",
+   "current": 7448,
+   "previous": 7426,
+   "delta": 22,
+   "delta_rate_pct": 0.3,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 22,
+   "since_first_seen_pct": 0.3,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "Xanderwow",
+   "space": "https://space.bilibili.com/2375067",
+   "current": 2106,
+   "previous": 2088,
+   "delta": 18,
+   "delta_rate_pct": 0.86,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 601,
+   "since_first_seen_pct": 39.93,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "外星动漫",
+   "space": "https://space.bilibili.com/41922220",
+   "current": 12659,
+   "previous": 12641,
+   "delta": 18,
+   "delta_rate_pct": 0.14,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 205,
+   "since_first_seen_pct": 1.65,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "雁吱吱zZ",
+   "space": "https://space.bilibili.com/3706987374184711",
+   "current": 6934,
+   "previous": 6918,
+   "delta": 16,
+   "delta_rate_pct": 0.23,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 381,
+   "since_first_seen_pct": 5.81,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "秋名FD3s",
+   "space": "https://space.bilibili.com/90949884",
+   "current": 31145,
+   "previous": 31131,
+   "delta": 14,
+   "delta_rate_pct": 0.04,
+   "delta_approx": false,
+   "first_seen": "2026-10-28",
+   "since_first_seen": 145,
+   "since_first_seen_pct": 0.47,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "韩历飞羽666",
+   "space": "https://space.bilibili.com/1172349285",
+   "current": 28813,
+   "previous": 28799,
+   "delta": 14,
+   "delta_rate_pct": 0.05,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 281,
+   "since_first_seen_pct": 0.98,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "录像带里褪色的夏天",
+   "space": "https://space.bilibili.com/1633125642",
+   "current": 1621,
+   "previous": 1610,
+   "delta": 11,
+   "delta_rate_pct": 0.68,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 112,
+   "since_first_seen_pct": 7.42,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "晨熙AIGC",
+   "space": "https://space.bilibili.com/38035448",
+   "current": 10641,
+   "previous": 10631,
+   "delta": 10,
+   "delta_rate_pct": 0.09,
+   "delta_approx": false,
+   "first_seen": "2026-11-03",
+   "since_first_seen": 24,
+   "since_first_seen_pct": 0.23,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "清夜official",
+   "space": "https://space.bilibili.com/16032235",
+   "current": 30898,
+   "previous": 30888,
+   "delta": 10,
+   "delta_rate_pct": 0.03,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 9,
+   "since_first_seen_pct": 0.03,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "逆望喵",
+   "space": "https://space.bilibili.com/385199353",
+   "current": 19622,
+   "previous": 19613,
+   "delta": 9,
+   "delta_rate_pct": 0.05,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 108,
+   "since_first_seen_pct": 0.55,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "蓝色大肥鱼Kk",
+   "space": "https://space.bilibili.com/1997479860",
+   "current": 16123,
+   "previous": 16115,
+   "delta": 8,
+   "delta_rate_pct": 0.05,
+   "delta_approx": false,
+   "first_seen": "2026-10-25",
+   "since_first_seen": 63,
+   "since_first_seen_pct": 0.39,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "清清小风风",
+   "space": "https://space.bilibili.com/398677094",
+   "current": 1362,
+   "previous": 1357,
+   "delta": 5,
+   "delta_rate_pct": 0.37,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 5,
+   "since_first_seen_pct": 0.37,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "屿仙人",
+   "space": "https://space.bilibili.com/214189575",
+   "current": 6620,
+   "previous": 6617,
+   "delta": 3,
+   "delta_rate_pct": 0.05,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 32,
+   "since_first_seen_pct": 0.49,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "六月仄兀",
+   "space": "https://space.bilibili.com/3546842847512690",
+   "current": 324,
+   "previous": 321,
+   "delta": 3,
+   "delta_rate_pct": 0.93,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 42,
+   "since_first_seen_pct": 14.89,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "C志轩",
+   "space": "https://space.bilibili.com/1955401611",
+   "current": 480,
+   "previous": 477,
+   "delta": 3,
+   "delta_rate_pct": 0.63,
+   "delta_approx": false,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 3,
+   "since_first_seen_pct": 0.63,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "AI技术投降派",
+   "space": "https://space.bilibili.com/54052968",
+   "current": 14003,
+   "previous": 14000,
+   "delta": 3,
+   "delta_rate_pct": 0.02,
+   "delta_approx": true,
+   "first_seen": "2026-11-04",
+   "since_first_seen": 3,
+   "since_first_seen_pct": 0.02,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "卡西斯特利娅莎",
+   "space": "https://space.bilibili.com/13188400",
+   "current": 89472,
+   "previous": 89470,
+   "delta": 2,
+   "delta_rate_pct": 0.0,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 350,
+   "since_first_seen_pct": 0.39,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "阿滴指南",
+   "space": "https://space.bilibili.com/5328517",
+   "current": 466,
+   "previous": 464,
+   "delta": 2,
+   "delta_rate_pct": 0.43,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 36,
+   "since_first_seen_pct": 8.37,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "Super_Pinkcat",
+   "space": "https://space.bilibili.com/493851665",
+   "current": 655,
+   "previous": 653,
+   "delta": 2,
+   "delta_rate_pct": 0.31,
+   "delta_approx": false,
+   "first_seen": "2026-11-03",
+   "since_first_seen": 3,
+   "since_first_seen_pct": 0.46,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "白蛇小白",
+   "space": "https://space.bilibili.com/94732559",
+   "current": 25602,
+   "previous": 25601,
+   "delta": 1,
+   "delta_rate_pct": 0.0,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 7,
+   "since_first_seen_pct": 0.03,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "森活鱼块YY",
+   "space": "https://space.bilibili.com/1208679940",
+   "current": 12434,
+   "previous": 12434,
+   "delta": 0,
+   "delta_rate_pct": 0.0,
+   "delta_approx": false,
+   "first_seen": "2026-10-29",
+   "since_first_seen": 68,
+   "since_first_seen_pct": 0.55,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "阿凯的脑洞世界",
+   "space": "https://space.bilibili.com/84977878",
+   "current": 11218,
+   "previous": 11218,
+   "delta": 0,
+   "delta_rate_pct": 0.0,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": 45,
+   "since_first_seen_pct": 0.4,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "是小婷呀呀呀呀呀呀",
+   "space": "https://space.bilibili.com/21657331",
+   "current": 543,
+   "previous": 543,
+   "delta": 0,
+   "delta_rate_pct": 0.0,
+   "delta_approx": false,
+   "first_seen": "2026-10-31",
+   "since_first_seen": 2,
+   "since_first_seen_pct": 0.37,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "同喜同喜",
+   "space": "https://space.bilibili.com/12597025",
+   "current": 8859,
+   "previous": 8859,
+   "delta": 0,
+   "delta_rate_pct": 0.0,
+   "delta_approx": false,
+   "first_seen": "2026-11-01",
+   "since_first_seen": 4,
+   "since_first_seen_pct": 0.05,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "软件侠何二",
+   "space": "https://space.bilibili.com/52063301",
+   "current": 87995,
+   "previous": 88000,
+   "delta": -5,
+   "delta_rate_pct": -0.01,
+   "delta_approx": false,
+   "first_seen": "2026-10-30",
+   "since_first_seen": -22,
+   "since_first_seen_pct": -0.02,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "锅炉里的大肥鱼",
+   "space": "https://space.bilibili.com/3546827693493166",
+   "current": 24458,
+   "previous": 24511,
+   "delta": -53,
+   "delta_rate_pct": -0.22,
+   "delta_approx": false,
+   "first_seen": "2026-10-25",
+   "since_first_seen": 24,
+   "since_first_seen_pct": 0.1,
+   "since_first_seen_approx": false,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "会魔法的白气球",
+   "space": "https://space.bilibili.com/3461572062087925",
+   "current": 13687,
+   "previous": 14000,
+   "delta": -313,
+   "delta_rate_pct": -2.24,
+   "delta_approx": true,
+   "first_seen": "2026-11-04",
+   "since_first_seen": -313,
+   "since_first_seen_pct": -2.24,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  },
+  {
+   "account": "从吾君",
+   "space": "https://space.bilibili.com/3546612548765999",
+   "current": 45587,
+   "previous": 46000,
+   "delta": -413,
+   "delta_rate_pct": -0.9,
+   "delta_approx": true,
+   "first_seen": "2026-11-04",
+   "since_first_seen": -413,
+   "since_first_seen_pct": -0.9,
+   "since_first_seen_approx": true,
+   "qualifies": false,
+   "nominal": false
+  }
+ ],
+ "growth_note": "与2026-11-04晚本地快照（20:51-21:14精确值，含当晚新发现14个账号的基线；其中整活Tv、会魔法的白气球、AI技术投降派、星月免费漫馆4k超清、从吾君5个为万单位约数基线）比较；本轮为当日最终版（晚间版），今日无早间版，仓库此前无当日跟踪器文件，故新建当日文件。112个复核账号全部精确核实，无未核实项；上轮5个约数基线本轮均已取到精确值。阳子YoungZi：今晚精确值516,805，对照上轮精确值515,989为+816，对照纠正基线约515,674为约+1,131；2026-11-03早/晚的51,489/51,530读数已作废，不得报告+464,087增长。",
+ "snapshot": [
+  {
+   "account": "阳子YoungZi",
+   "fans": 516805,
+   "space": "https://space.bilibili.com/3546765536004490",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "account": "比特新语",
+   "fans": 874537,
+   "space": "https://space.bilibili.com/3494362707135250",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "account": "胡萝卜须儿",
+   "fans": 262167,
+   "space": "https://space.bilibili.com/11192010",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "account": "锅炉里的大肥鱼",
+   "fans": 24458,
+   "space": "https://space.bilibili.com/3546827693493166",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "account": "大肥鱼的b站日记",
+   "fans": 21232,
+   "space": "https://space.bilibili.com/3747574232124245",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "account": "蓝色大肥鱼Kk",
+   "fans": 16123,
+   "space": "https://space.bilibili.com/1997479860",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "account": "点燃篝火的Anrry",
+   "fans": 28186,
+   "space": "https://space.bilibili.com/522322575",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "account": "老奇好好奇",
+   "fans": 1158887,
+   "space": "https://space.bilibili.com/35894872",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "永远の蓬莱neet",
+   "fans": 12071,
+   "space": "https://space.bilibili.com/9666303",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "不爱赚钱的BQ桑",
+   "fans": 7916,
+   "space": "https://space.bilibili.com/7796713",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "黑猫勇者",
+   "fans": 14437,
+   "space": "https://space.bilibili.com/69180811",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "三颗门牙X",
+   "fans": 24494,
+   "space": "https://space.bilibili.com/3546737547414029",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "王高兴A",
+   "fans": 23046,
+   "space": "https://space.bilibili.com/3706960721480235",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "ByeByeBlueBerry",
+   "fans": 124165,
+   "space": "https://space.bilibili.com/1483869441",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "WorkFisher",
+   "fans": 135773,
+   "space": "https://space.bilibili.com/17919458",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "苏沐沐_Official",
+   "fans": 181375,
+   "space": "https://space.bilibili.com/677792657",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "王与也行",
+   "fans": 431785,
+   "space": "https://space.bilibili.com/474213246",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "以尘动画",
+   "fans": 643484,
+   "space": "https://space.bilibili.com/3537113752537503",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "学姐圆",
+   "fans": 2488945,
+   "space": "https://space.bilibili.com/30502823",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "蓝兔Ai",
+   "fans": 7059,
+   "space": "https://space.bilibili.com/218585577",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "泽轩604",
+   "fans": 4182,
+   "space": "https://space.bilibili.com/508225300",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "秋名FD3s",
+   "fans": 31145,
+   "space": "https://space.bilibili.com/90949884",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "天才依山尽",
+   "fans": 2668,
+   "space": "https://space.bilibili.com/399027836",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "Xanderwow",
+   "fans": 2106,
+   "space": "https://space.bilibili.com/2375067",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "VKmich16",
+   "fans": 24017,
+   "space": "https://space.bilibili.com/1836020534",
+   "first_seen": "2026-10-28"
+  },
+  {
+   "account": "屿仙人",
+   "fans": 6620,
+   "space": "https://space.bilibili.com/214189575",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "韩历飞羽666",
+   "fans": 28813,
+   "space": "https://space.bilibili.com/1172349285",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "杠上开花gskh",
+   "fans": 12785,
+   "space": "https://space.bilibili.com/627352070",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "兰斯的画室LanceStudio",
+   "fans": 86352,
+   "space": "https://space.bilibili.com/3546866685839722",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "雁吱吱zZ",
+   "fans": 6934,
+   "space": "https://space.bilibili.com/3706987374184711",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "一只青娥",
+   "fans": 17055,
+   "space": "https://space.bilibili.com/173340664",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "森活鱼块YY",
+   "fans": 12434,
+   "space": "https://space.bilibili.com/1208679940",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "二哥他怕痒",
+   "fans": 84976,
+   "space": "https://space.bilibili.com/3546717408463187",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "卡西斯特利娅莎",
+   "fans": 89472,
+   "space": "https://space.bilibili.com/13188400",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "编程大佬陈悠秀",
+   "fans": 72993,
+   "space": "https://space.bilibili.com/1730060979",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "workbuddy应用实战",
+   "fans": 48340,
+   "space": "https://space.bilibili.com/3707045899405934",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "恐怖的企鹅",
+   "fans": 18614,
+   "space": "https://space.bilibili.com/1177191848",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "AI大模型码农",
+   "fans": 39231,
+   "space": "https://space.bilibili.com/3546860755093522",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "AI绘画学习教程",
+   "fans": 50346,
+   "space": "https://space.bilibili.com/3546760058243958",
+   "first_seen": "2026-10-29"
+  },
+  {
+   "account": "我是日行一扇",
+   "fans": 6944,
+   "space": "https://space.bilibili.com/3745030307056334",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "Raymondsese",
+   "fans": 80308,
+   "space": "https://space.bilibili.com/1298657234",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "墨小郎",
+   "fans": 31235,
+   "space": "https://space.bilibili.com/9257946",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "小陈的脚凑凑的",
+   "fans": 722560,
+   "space": "https://space.bilibili.com/71923484",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "饭都还没吃饱",
+   "fans": 29656,
+   "space": "https://space.bilibili.com/405234610",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "AI-智能体搭建教程",
+   "fans": 50074,
+   "space": "https://space.bilibili.com/1786444896",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "发财漫剧场",
+   "fans": 33991,
+   "space": "https://space.bilibili.com/1013334156",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "卡普迪姆",
+   "fans": 66386,
+   "space": "https://space.bilibili.com/312249633",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "大模型开发",
+   "fans": 52726,
+   "space": "https://space.bilibili.com/3546726203919080",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "软件侠何二",
+   "fans": 87995,
+   "space": "https://space.bilibili.com/52063301",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "comfyui视频工作流",
+   "fans": 43485,
+   "space": "https://space.bilibili.com/3546838755969920",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "狂魔传煤",
+   "fans": 75300,
+   "space": "https://space.bilibili.com/1048673187",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "AAA宇宙边角料",
+   "fans": 101993,
+   "space": "https://space.bilibili.com/3546759456360846",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "小朱佩琪66",
+   "fans": 101162,
+   "space": "https://space.bilibili.com/430362460",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "子休狐",
+   "fans": 941,
+   "space": "https://space.bilibili.com/3707052130044121",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "512g平安果",
+   "fans": 6418,
+   "space": "https://space.bilibili.com/3546822920374488",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "阿凯的脑洞世界",
+   "fans": 11218,
+   "space": "https://space.bilibili.com/84977878",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "外星动漫",
+   "fans": 12659,
+   "space": "https://space.bilibili.com/41922220",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "逆望喵",
+   "fans": 19622,
+   "space": "https://space.bilibili.com/385199353",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "后摇狗PostRockDog",
+   "fans": 101047,
+   "space": "https://space.bilibili.com/196776234",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "account": "阿滴指南",
+   "fans": 466,
+   "space": "https://space.bilibili.com/5328517",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "是小婷呀呀呀呀呀呀",
+   "fans": 543,
+   "space": "https://space.bilibili.com/21657331",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "明末召唤师",
+   "fans": 7453,
+   "space": "https://space.bilibili.com/605914362",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "阿叙人物志",
+   "fans": 4471,
+   "space": "https://space.bilibili.com/3493275788904561",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "古往今来的名人故事",
+   "fans": 63493,
+   "space": "https://space.bilibili.com/1698748576",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "夏小沛",
+   "fans": 28343,
+   "space": "https://space.bilibili.com/3690974471522584",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "张小土气刘大地",
+   "fans": 34835,
+   "space": "https://space.bilibili.com/3493138033281790",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "粉墨",
+   "fans": 47584,
+   "space": "https://space.bilibili.com/1931875939",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "录像带里褪色的夏天",
+   "fans": 1621,
+   "space": "https://space.bilibili.com/1633125642",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "焦一针",
+   "fans": 1974,
+   "space": "https://space.bilibili.com/3546980670245538",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "鱼六十四丶",
+   "fans": 5111,
+   "space": "https://space.bilibili.com/1936954718",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "拼命生成中AIGC",
+   "fans": 16818,
+   "space": "https://space.bilibili.com/350926890",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "白蛇小白",
+   "fans": 25602,
+   "space": "https://space.bilibili.com/94732559",
+   "first_seen": "2026-10-31"
+  },
+  {
+   "account": "如见未来AI",
+   "fans": 14553,
+   "space": "https://space.bilibili.com/438249357",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "小安苒AIGC",
+   "fans": 83367,
+   "space": "https://space.bilibili.com/24215475",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "六月仄兀",
+   "fans": 324,
+   "space": "https://space.bilibili.com/3546842847512690",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "洪哥视野",
+   "fans": 48330,
+   "space": "https://space.bilibili.com/588914696",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "Hazellll_z",
+   "fans": 1231,
+   "space": "https://space.bilibili.com/3707051582688208",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "玛露Marrow",
+   "fans": 2702,
+   "space": "https://space.bilibili.com/37634003",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "同喜同喜",
+   "fans": 8859,
+   "space": "https://space.bilibili.com/12597025",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "卜肉熊brx",
+   "fans": 45565,
+   "space": "https://space.bilibili.com/173561378",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "account": "美味的肥鱼饭团",
+   "fans": 3709,
+   "space": "https://space.bilibili.com/3747575681256315",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "account": "法斯特咱有",
+   "fans": 2265,
+   "space": "https://space.bilibili.com/11545402",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "account": "港口周星星",
+   "fans": 4880,
+   "space": "https://space.bilibili.com/95816463",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "account": "火海vol2",
+   "fans": 7246,
+   "space": "https://space.bilibili.com/2424803",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "account": "神威-狗剩",
+   "fans": 52148,
+   "space": "https://space.bilibili.com/5432766",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "account": "sugar_ice",
+   "fans": 9229,
+   "space": "https://space.bilibili.com/1082063058",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "account": "白鸽の乱剪",
+   "fans": 81903,
+   "space": "https://space.bilibili.com/1972357926",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "account": "XIAOMING6680",
+   "fans": 14548,
+   "space": "https://space.bilibili.com/275188875",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "account": "洛汐聚合体",
+   "fans": 2718,
+   "space": "https://space.bilibili.com/394675616",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "account": "千鹤追漫",
+   "fans": 30306,
+   "space": "https://space.bilibili.com/399864001",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "account": "晨熙AIGC",
+   "fans": 10641,
+   "space": "https://space.bilibili.com/38035448",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "account": "Gemini哈基米在运营喵",
+   "fans": 18454,
+   "space": "https://space.bilibili.com/38764319",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "account": "Super_Pinkcat",
+   "fans": 655,
+   "space": "https://space.bilibili.com/493851665",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "account": "bili_82557212748",
+   "fans": 1099,
+   "space": "https://space.bilibili.com/574434286",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "你的鱼胆真是肥嘟嘟的",
+   "fans": 8286,
+   "space": "https://space.bilibili.com/1002784558",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "再改需求是修勾",
+   "fans": 21050,
+   "space": "https://space.bilibili.com/19929260",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "牢大百科",
+   "fans": 22111,
+   "space": "https://space.bilibili.com/129139887",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "清夜official",
+   "fans": 30898,
+   "space": "https://space.bilibili.com/16032235",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "多梦综合征",
+   "fans": 67109,
+   "space": "https://space.bilibili.com/110071473",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "清清小风风",
+   "fans": 1362,
+   "space": "https://space.bilibili.com/398677094",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "藿藿吃糖宝",
+   "fans": 33919,
+   "space": "https://space.bilibili.com/686091389",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "Claude最严厉的父亲",
+   "fans": 6847,
+   "space": "https://space.bilibili.com/34706743",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "整活Tv",
+   "fans": 82808,
+   "space": "https://space.bilibili.com/29684184",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "会魔法的白气球",
+   "fans": 13687,
+   "space": "https://space.bilibili.com/3461572062087925",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "a网友爱顺音",
+   "fans": 1394,
+   "space": "https://space.bilibili.com/499679477",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "C志轩",
+   "fans": 480,
+   "space": "https://space.bilibili.com/1955401611",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "AI技术投降派",
+   "fans": 14003,
+   "space": "https://space.bilibili.com/54052968",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "duan在时光走廊i05",
+   "fans": 5272,
+   "space": "https://space.bilibili.com/111261566",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "喵工智能KONG",
+   "fans": 4742,
+   "space": "https://space.bilibili.com/8019404",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "星月免费漫馆4k超清",
+   "fans": 18028,
+   "space": "https://space.bilibili.com/393126069",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "从吾君",
+   "fans": 45587,
+   "space": "https://space.bilibili.com/3546612548765999",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "浪蔓小屋",
+   "fans": 7448,
+   "space": "https://space.bilibili.com/1458157330",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "account": "阿黄和这个村",
+   "fans": 53714,
+   "space": "https://space.bilibili.com/3546984120059960",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "洛神赋丿丿",
+   "fans": 1892,
+   "space": "https://space.bilibili.com/1565423340",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "大师姐姜颜",
+   "fans": 74046,
+   "space": "https://space.bilibili.com/243446467",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "Claude大小姐在运营",
+   "fans": 58771,
+   "space": "https://space.bilibili.com/3747572619414174",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "BlackDawn",
+   "fans": 7799,
+   "space": "https://space.bilibili.com/476266223",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "淡笑風云",
+   "fans": 876,
+   "space": "https://space.bilibili.com/3493093013719603",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "超金属爆裂",
+   "fans": 4567,
+   "space": "https://space.bilibili.com/387076073",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "Wjerry07_",
+   "fans": 194,
+   "space": "https://space.bilibili.com/1092231252",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "account": "桃子橙橙",
+   "fans": 2925,
+   "space": "https://space.bilibili.com/666629923",
+   "first_seen": "2026-11-05"
+  }
+ ],
+ "new_discoveries": [
+  {
+   "account": "阿黄和这个村",
+   "space": "https://space.bilibili.com/3546984120059960",
+   "fans": 53714,
+   "fans_approx": false,
+   "first_seen": "2026-11-05",
+   "trigger": "《阿黄有房了》271.6万（热门榜第66名，2026-11-03）",
+   "ratio": "约51.1倍"
+  },
+  {
+   "account": "洛神赋丿丿",
+   "space": "https://space.bilibili.com/1565423340",
+   "fans": 1892,
+   "fans_approx": false,
+   "first_seen": "2026-11-05",
+   "trigger": "《大模型坦克动荡 Astra vs Fable》102.6万（热门榜第91名，2026-11-03 00:43）",
+   "ratio": "约544倍"
+  },
+  {
+   "account": "大师姐姜颜",
+   "space": "https://space.bilibili.com/243446467",
+   "fans": 74046,
+   "fans_approx": false,
+   "first_seen": "2026-11-05",
+   "trigger": "《你的两千年修行之路》第一季72分钟专享版 189.7万（2026-10-14）",
+   "ratio": "约25.6倍"
+  },
+  {
+   "account": "Claude大小姐在运营",
+   "space": "https://space.bilibili.com/3747572619414174",
+   "fans": 58771,
+   "fans_approx": false,
+   "first_seen": "2026-11-05",
+   "trigger": "《人类把一整个B站账号交给了AI，从今天起我说了算》73.1万（2026-10-18）",
+   "ratio": "约12.4倍"
+  },
+  {
+   "account": "BlackDawn",
+   "space": "https://space.bilibili.com/476266223",
+   "fans": 7799,
+   "fans_approx": false,
+   "first_seen": "2026-11-05",
+   "trigger": "《[opus5.5]千本樱》126.9万（2026-10-17）",
+   "ratio": "约162.7倍"
+  }
+ ],
+ "new_discoveries_extra_in_snapshot": 4,
+ "new_discoveries_note": "9个新账号均为本轮首次核实、粉丝<10万且触发视频播放明显异常（>50万，或播放/粉丝比极高），已建基线，下轮开始算涨粉差值；触发视频均非本日新发布，不按“首次发现24小时内上榜”第三条认定达标，仅作新发现记录。其中阿黄和这个村（热门榜第66名）、洛神赋丿丿（热门榜第91名）来自热门榜新上榜项；其余7个来自AI/AI MV大赛/大肥鱼/DeepSeek综合排序第1页。JSON内列出前5个，另4个（淡笑風云、超金属爆裂、Wjerry07_、桃子橙橙）见本地快照文件。",
+ "popular_top100_ai": [
+  {
+   "rank": 1,
+   "title": "大家好，这里是 DeepSeek Harness，正式入驻 B 站！",
+   "account": "DeepSeekHarness",
+   "plays": "约380.5万"
+  },
+  {
+   "rank": 13,
+   "title": "DeepSeek Harness超详细教程！50分钟吃透DSH，让SuperAgent给你干活！",
+   "account": "Git源宝",
+   "plays": "约188.5万"
+  },
+  {
+   "rank": 53,
+   "title": "《secret base ～君がくれたもの～》未闻花名 ED 翻唱",
+   "account": "你的鱼胆真是肥嘟嘟的",
+   "plays": "约48.8万"
+  }
+ ],
+ "popular_extra": "第18名再改需求是修勾《12个大模型扮演君主谁能带领人类走向星际文明？》约75.0万，标题含“大模型”但不含严格关键词，未计入严格表；第66名阿黄和这个村《阿黄有房了》约271.6万，标题不含严格关键词，但为新发现账号触发视频、新上榜，已建新发现基线；第91名洛神赋丿丿《大模型坦克动荡 Astra vs Fable》约102.6万，标题含“大模型”，新上榜，已建新发现基线；第38名海棠家的大肥鱼《谁是有史以来最能整活的超级天才！》约193.2万，UP主名含“大肥鱼”但标题本身不含，未计入严格表。第53名你的鱼胆真是肥嘟嘟的《secret base》为昨晚第25名《【大肥鱼】〈secret base〉》同一视频延续（42.1万→48.8万）。前100名标题中未见含“豆包”或“Claude”的条目。",
+ "popular_dropped": "掉榜（2026-11-04晚在榜、本轮未进前100名）：学姐圆（昨晚第29名约197.5万）、牢大百科（第56名约54.0万）、土豆味小哲（第60名约90.4万）、王与也行（第81名约117.2万）、卜肉熊brx（第85名约227.2万）、多梦综合征（第96名约77.3万），仅记掉榜。相对昨晚新上榜的明确条目：阿黄和这个村（第66名）、洛神赋丿丿（第91名），均已建新发现基线。",
+ "sources_note": "只用B站公开页面，不登录、不关注、不发帖、不评论。112个复核账号粉丝数经2026-11-05晚间实时浏览器任务逐个打开空间主页核实（21:12-21:37），全部精确值，无约数、无未核实；热门榜（约21:13快照，21:31与21:37两次复查首位仍为DeepSeek Harness 380.5万，与快照一致）与新号寻猎（AI/AI MV大赛/大肥鱼/DeepSeek综合与最新排序第1页、热门榜新上榜项）由同一浏览器任务核实；四个关键词最新排序第1页均为近6小时内新投稿，播放最高仅6,748，无新增候选。",
+ "unverified": [
+  {
+   "account": "阳子YoungZi",
+   "reason": "基线纠正沿用（2026-11-04）：2026-11-03早/晚读数51,489/51,530为万单位误读（少一位数）已作废；今晚精确值516,805，对照上轮精确值515,989为+816，对照纠正基线约515,674为约+1,131。本条不得报告+464,087增长，也不得列为达标。"
+  },
+  {
+   "account": "星月免费漫馆4k超清",
+   "reason": "名义达标：本轮精确值18,028，对照上轮万单位约数基线约16,000为约+2,028，差值本身为约数，达标按名义计，下轮以精确值复核后确认。"
+  }
+ ],
+ "unverified_note": "复核账号无因阻挡未核实项（112/112精确核实）；上表两项为基线纠正与名义达标说明，不是未核实粉丝数。",
+ "verification_note": "本轮无交叉核查快照，以21:12-21:37实时浏览器任务逐个空间主页核实为准。唯一一次阻挡：21:13-21:14阳子YoungZi空间主页首次打开出现412风控页，清除后正常加载，粉丝数正常可见；其余111个空间主页、热门榜及全部搜索页均正常加载，未再遇412/429/验证码/登录墙/空白未加载。热门榜播放量在21:31与21:37两次复查时与21:13快照一致（首位DeepSeek Harness 380.5万），未漂移。",
+ "conclusion": "本轮确认达标账号8个：比特新语（+2,926）、再改需求是修勾（+2,693）、卜肉熊brx（+2,682）、AAA宇宙边角料（+2,271）、WorkFisher（+1,716）、你的鱼胆真是肥嘟嘟的（+1,468）、千鹤追漫（+1,027），均为已报告过的延续账号；另星月免费漫馆4k超清约+2,028为名义达标（上轮基线为约数）。其余104个复核账号均未达标；无本轮涨幅≥30%者，涨幅最高为你的鱼胆真是肥嘟嘟的+1,468（+21.53%）。AAA宇宙边角料今晚越过10万粉丝。新发现9个，已建基线，下轮开始算涨粉差值；触发视频均非本日新发布，不按“首次发现24小时内上榜”第三条认定达标。"
+}
