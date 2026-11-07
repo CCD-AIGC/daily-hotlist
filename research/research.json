@@ -53,6 +53,16 @@
       "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
     },
     {
+      "date": "2026-11-01",
+      "file": "research/2026-11-01-ai-startup-creator-research-hub.html",
+      "note": "严格用 research-hub v1.1.0；窗口 2026-10-26 至 2026-11-01，83 条去重链接（72 recent、10 unknown、1 observed-only），状态 partial；去重后直接相关 recent 记录 38 条；RSS 16 订阅留存 50 条为泛词 AI 的 OR 命中数，不计证据数；免费层构建时失败（B站实时热门 50 条主题命中 3、抖音存档 50 条主题命中 1）。",
+      "source": "Research Hub",
+      "source_slug": "research-hub",
+      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+      "title": "AI创业与内容起号调研",
+      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+    },
+    {
       "date": "2026-11-03",
       "file": "research/2026-11-03-ai-startup-creator-research-hub.html",
       "note": "严格用 research-hub v1.1.0；窗口 2026-10-28 至 2026-11-03，88 条唯一 URL，状态 partial；Agent 平台叙事居中但全轮无价格与订单记录，1200 万用户 AI 产品仍亏钱与 Etsy 收紧为反例，AEO 与 Agent 成本账为可验证选题方向；今日榜单版截至 09:52 CST 未发布，微博 / 小红书登录缺口，抖音 / 知乎 19 条日期未知只作线索。",
