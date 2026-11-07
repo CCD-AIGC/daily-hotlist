@@ -94,7 +94,7 @@ def fastest_table(day):
             f'<tr><td>{i}</td><td>{repo_link(f["repo"])}</td><td>★ {f["stars"]:,}</td>'
             f'<td>{esc(f["delta"])}</td><td>{esc(f["status"])}</td></tr>'
         )
-    return ('<section><h2>02 最近 24 小时增长最快的 TOP 10<small>“约 30 小时”为基线核实增量；“Trending 今日”为 GitHub 官方 Trending 页 UTC 日增量，两者口径不同，不可直接比较</small></h2>'
+    return ('<section><h2>02 最近 24 小时增长最快的 TOP 10<small>“基线核实”为自有连续快照增量（本版约 23 小时）；“Trending 今日”为 GitHub 官方 Trending 页 UTC 日增量，两者口径不同，不可直接比较</small></h2>'
             '<div style="overflow-x:auto"><table><tr><th>排名</th><th>项目</th><th>当前星数</th><th>增量</th><th>状态</th></tr>'
             + "\n".join(rows) + "</table></div></section>")
 
@@ -141,7 +141,7 @@ def alerts_table(day):
         rows.append(
             f'<tr><td>{repo_link(a["repo"])}</td><td>★ {a["stars"]:,}</td><td>{esc(a["follow"])}</td></tr>'
         )
-    return ('<section><h2>06 昨天预警项目的最新表现<small>11 月 5 日 17:41 / 21:41 与 11 月 6 日 09:41 已报警的项目；同一仓库不重复报警</small></h2>'
+    return ('<section><h2>06 昨天预警项目的最新表现<small>2026 年 11 月 6 日 E/F/G/H/I 轮已报警的项目；同一仓库不重复报警</small></h2>'
             '<div style="overflow-x:auto"><table><tr><th>项目</th><th>当前星数</th><th>最新表现</th></tr>'
             + "\n".join(rows) + "</table></div></section>")
 
@@ -190,7 +190,7 @@ def render(day, all_dates):
     ch = day.get("channel_health", {})
     ch_items = "".join(f"<li><strong>{esc(k)}：</strong>{esc(v)}</li>" for k, v in ch.items())
     archive_links = "\n".join(f'<a href="./archive/repo-radar-{d}.html">{d}</a>' for d in all_dates)
-    body = f"""<section><h2>今日预警定级<small>快照窗口约 2.4 小时（09:41→12:05 CST）；P1 推送前须二次确认，本版不发 P1</small></h2>
+    body = f"""<section><h2>今日预警定级<small>快照窗口约 22.9 小时（2026-11-06 09:41 → 2026-11-07 08:35 CST）；P1 推送前须二次确认，本版无新增 P1</small></h2>
 <div class="note-box"><ul>
 <li><strong>P0 新增：</strong>{esc(lv.get("p0_new", ""))}</li>
 <li><strong>P1 待二次确认：</strong>{esc(lv.get("p1_pending", ""))}</li>
