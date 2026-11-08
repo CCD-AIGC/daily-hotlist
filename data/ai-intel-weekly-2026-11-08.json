@@ -1,0 +1,454 @@
+{
+ "action": "本周做一次最小验证，分两步：第一，给 DeepSeek Harness 做一个高频小插件（例如某行业的资料整理或报表生成），先上架看安装与留存，再谈变现——官方 Token 激励细则未公布，暂不能计入收入预测；第二，花 30 分钟做一次 Agent 安全自查：不要在 ~/Downloads 或桌面启动 Claude Code 或 Codex，检查各项目 .claude/settings.json 有无陌生网关或 mcp_servers 节点，把 .claude/settings.local.json 加入 .gitignore，轮换一次曾交给 Agent 的高风险 API Token。",
+ "avoid": {
+  "alternative": "先做垂直场景、按固定月费收，等有规模化付费客户基础再谈用量计费；推理成本控制在“帮客户省钱”的工具上，而不是自己贴钱换增长。",
+  "reason": "Figma Q3 财报：公司承担 Figma Agent 的推理成本，非 GAAP 毛利率降至 82%，8 月信用定价下调牺牲了短期单位收入。贴推理成本需要规模与现金流支撑，小团队照搬会在用量上涨时被推理账单拖垮。",
+  "title": "暂缓：照搬 Figma 式“厂商贴推理成本 + 信用计费”"
+ },
+ "competition": [
+  {
+   "action": "11 月 5 日收购编码 Agent 工具链公司 Pierre；11 月 6 日新一轮融资已募 110 亿美元，估值 1.25 万亿美元，本轮目标从 9 月传出的 300 亿美元下调至约 200 亿美元。",
+   "company": "OpenAI",
+   "impact": "争夺点从模型本身转向编码 Agent 的工具链入口；融资目标下调说明市场不再按超高速增长给头部公司定价，但钱仍在进头部。",
+   "source_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+  },
+  {
+   "action": "11 月 5 日收购编码 Agent 编排公司 Conductor，与 OpenAI 收购 Pierre 同日。",
+   "company": "Meta",
+   "impact": "头部厂商同日抢编码 Agent 工具链入口，印证“工具链入口”已成新的竞争焦点。",
+   "source_url": "https://www.qbitai.com/2026/11/508155.html"
+  },
+  {
+   "action": "修订版 S-1 披露前 9 个月收入 332.42 亿美元，同比增长 1,206%，Q3 约 169.56 亿美元；算力与基建承诺约 8,954 亿美元，Q3 恢复经营亏损 5.67 亿美元。IPO 估值预期从 10 月初的 2 万亿美元跌至 1.2–1.3 万亿美元，11 月 7 日再滑向约 1 万亿美元；METR 报告称模型改进速度约为一年前 2 倍，员工自报用内部最强模型生产力约为无 AI 时约 12 倍；10 月 run rate 破 800 亿美元。",
+   "company": "Anthropic",
+   "impact": "收入规模极大，但算力承诺成为估值的主要折价项；市场按放缓定价、实验室内部却在加速，IPO 定价锚还会变。企业 API 支出份额从 40% 升至 55%（Menlo 估算），Claude Code 与 Codex 合占编码支出 70%。",
+   "source_url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+  },
+  {
+   "action": "11 月 6 日收购 Crusoe 位于怀俄明东南部的未完工数据中心项目；Crusoe 确认出售给谷歌，谷歌宣布计划投资 170 亿美元开发该园区；项目原计划最终扩展至 10 GW；Crusoe 最近估值 309 亿美元，9 月融资 39 亿美元。另：11 月 5 日发布 Gemini Omni 1.2 Flash，定位快速低成本。",
+   "company": "谷歌",
+   "impact": "与微软收缩旧租约对照看，头部厂商抢的是“新地块 + 新电力”，不是旧算力；Crusoe 仍在得州 Amarillo 为谷歌开发另一数据中心，合作未断。",
+   "source_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+  },
+  {
+   "action": "不再续签 2023 年为 Bing AI 向 Oracle 租用 AI 算力的协议，近几个月已陆续关停租用的算力；同时重新评估 CoreWeave、Nebius 等 neocloud 合作。",
+   "company": "微软",
+   "impact": "直接原因是旧款英伟达芯片不再满足需求；旧算力溢价逻辑动摇，Oracle 称旧 GPU 续租或转售仍有 20% 溢价，需求端说法不一。",
+   "source_url": "https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity"
+  },
+  {
+   "action": "10-Q 披露收购推理芯片公司 Taalas 价值约 29 亿美元（其中约 14 亿美元为或有对价）；收购协议本身 2026 年 8 月 6 日已宣布。AMD 无条件采购承诺 488 亿美元，2025 年底为 122 亿美元。",
+   "company": "AMD 收购 Taalas",
+   "impact": "推理芯片的垂直整合：把单一模型直接蚀刻进芯片做推理；成本与供应链信号大于产品信号。",
+   "source_url": "https://tech-insider.org/ca/amd-taalas-acquisition-toronto-ai-inference-chip-2026/"
+  },
+  {
+   "action": "11 月 7 日多名用户称 ChatGPT 与 OpenAI 账号突然被停用，多数人事先未收到邮件通知；涉及免费 API 账号、团队拼车账号与 200 美元/月的 Pro 账号。社区反馈与二级转述，官方未回应，规模与原因未证实；背景是 10 月 31 日 OpenAI 上线按卡与设备限制付费订阅的规则。",
+   "company": "OpenAI 账号治理",
+   "impact": "账号治理收紧直接影响付费用户，订阅制 AI 的信任成本在上升；与 10 月底的卡/设备上限规则连起来看，OpenAI 正在系统性清理共享与套利账号。",
+   "source_url": "https://zhuanlan.zhihu.com/p/2102464656681985322"
+  },
+  {
+   "action": "官方 11 月 5 日公布：截至 11 月 4 日（官方 API 用户口径）日活跃用户 154 万，日消耗 Token 约 92 万亿；第三方插件约 3.5 万个，约 60% 的活跃用户制作或安装了至少一款第三方插件；官方筹备面向插件作者的支持计划（Token 激励、技术交流、作品推荐）并建设官方插件市场。",
+   "company": "DeepSeek（Harness 平台化）",
+   "impact": "Agent 从工具变成平台：Harness 定位“Agent 时代的操作系统”，插件即应用，插件市场成为新的分发入口；但 Token 激励金额与分成未公布，插件作者的真实收入仍是未知数。",
+   "source_url": "https://www.36kr.com/p/4057774236652417"
+  }
+ ],
+ "conclusions": [
+  "Agent 生态的钱和风险同时到了开发者这边。DeepSeek Harness 日活 154 万、第三方插件约 3.5 万个，官方开始给插件作者发 Token 补贴并筹备插件市场，Agent 正在从工具变成平台；但同一天两起安全事件——AGENTS.md 投毒攻击 Codex 成功率超 90%、1,122 个公开仓库泄露真实密钥——说明 Agent 权限治理已是真金白银的赛道，昨天 Palo Alto 拟 5 亿美元收购 Clutch 不是孤例。",
+  "头部估值继续下修，但实验室内部在加速。Anthropic IPO 估值预期从 1.2–1.3 万亿美元滑向约 1 万亿美元，10 月 run rate 破 800 亿美元；METR 报告称其模型改进速度约为一年前 2 倍，员工自报用内部最强模型生产力约为无 AI 时约 12 倍——市场按放缓定价，实验室内部却在加速，IPO 定价锚还会变。",
+  "用量涨、支出不涨，推理成本下降正在变成应用层的毛利空间。Ramp 数据显示 8–9 月企业 AI token 支出仅增 1.5%（7 月为 +42%），价格战与客户节流是主因；10 月反弹 +8.9% 能否持续待验证；同日两家开源权重（Thinking Machines Inkling 2 Small、Kimi K3.1 Pro）以 Apache 2.0 发布，模型层价格战继续向应用层让利。"
+ ],
+ "cost_trend": {
+  "evidence": [
+   "Ramp 企业支出数据：8–9 月 AI token 支出仅增 1.5%，7 月为 +42%；10 月反弹 +8.9%（9 月 23 日至 10 月 23 日），能否持续待验证。",
+   "OpenAI 9 月将 GPT-6 Sol/Luna API 价格砍半，是支出增速放缓的主因之一。",
+   "Anthropic 降价 Fable 5.1/Opus 5.5，使收入增长减少约 6 亿美元。",
+   "谷歌 11 月 5 日发布 Gemini Omni 1.2 Flash，定位快速低成本（11-08 RSS 补查，Google AI 博客）。",
+   "Thinking Machines Inkling 2 Small 与月之暗面 Kimi K3.1 Pro 同日开源权重、Apache 2.0 许可，创业者可直接商用部署，模型层价格战继续向应用层让利（2026-11-08 日报 TOP 7 第 8 条）。"
+  ],
+  "verdict": "下降。模型 API 价格战仍在继续，企业端用量涨、支出不涨；对创业者这是买方市场，推理成本下降正在放大应用层毛利空间。"
+ },
+ "coverage": "首期周报：日报系列 2026-11-06 才启动，本周可比对的日报为 11-06（首期基线）、11-07、11-08 三期。日报证据实际覆盖 2026-11-05 至 11-08，近 7 天的重要财报与报告已在日报中标注实际日期。GitHub 星数另以 11-08 08:10 池快照交叉核对，与日报核实值一致。",
+ "daily_editions": [
+  "2026-11-06",
+  "2026-11-07",
+  "2026-11-08"
+ ],
+ "date": "2026-11-08",
+ "fetched_at_cst": "2026-11-08 08:26-09:00",
+ "github_weekly": {
+  "hot": [
+   {
+    "change_2d": "+2,136（11-06 7,548 → 11-08 9,684，+28.3%），连续两日 Trending 第 1",
+    "project": "NVIDIA/auto-ontology",
+    "repo_url": "https://github.com/NVIDIA/auto-ontology",
+    "solves": "语义图谱推理，让 Agent 查询可确定、可解释",
+    "verdict": "本周最热的开源项目，确定性查询需求验证最强"
+   },
+   {
+    "change_2d": "+1,796（11-06 17,033 → 11-08 18,829，+10.5%）",
+    "project": "vercel-labs/agent-desktop",
+    "repo_url": "https://github.com/vercel-labs/agent-desktop",
+    "solves": "给 Agent 用的计算机操作 CLI",
+    "verdict": "Agent 从聊天走向真干活，持续上涨"
+   },
+   {
+    "change_2d": "11-07 18,014 → 11-08 20,571，单日 +2,600",
+    "project": "storytold/craft-anything",
+    "repo_url": "https://github.com/storytold/craft-anything",
+    "solves": "一句话生成可交互的视频与软件原型",
+    "verdict": "本周新冒头的黑马，单日涨幅居前"
+   },
+   {
+    "change_2d": "11-07 63,948 → 11-08 65,692，单日 +2,085，Trending 日榜第 2",
+    "project": "cloudflare/security-audit-skill",
+    "repo_url": "https://github.com/cloudflare/security-audit-skill",
+    "solves": "多阶段安全审计技能，检查 Agent 写的代码",
+    "verdict": "Agent 安全主题在开源侧同步升温，厂商亲自下场做技能"
+   },
+   {
+    "change_2d": "46,811 星，Trending 日榜第 1，今日 +190",
+    "project": "vercel-labs/agent-browser",
+    "repo_url": "https://github.com/vercel-labs/agent-browser",
+    "solves": "给 AI Agent 用的浏览器自动化 CLI",
+    "verdict": "Agent 上网操作、自动化测试与 RPA 的新入口"
+   },
+   {
+    "change_2d": "23,386 星，Trending 日榜第 3，今日 +443",
+    "project": "google/skills",
+    "repo_url": "https://github.com/google/skills",
+    "solves": "面向 Google 产品与技术的官方 Agent Skills",
+    "verdict": "Google 产品生态的 Agent 技能入口，技能分发层"
+   },
+   {
+    "change_2d": "11-07 316,694 → 11-08 317,614，单日 +1,100",
+    "project": "mattpocock/skills",
+    "repo_url": "https://github.com/mattpocock/skills",
+    "solves": "可复用的 Agent 技能集合与规范",
+    "verdict": "技能生态入口，配合 google/skills 同步上涨"
+   },
+   {
+    "change_2d": "39,320 星（连接器核实），开源语音模型回暖",
+    "project": "suno-ai/bark",
+    "repo_url": "https://github.com/suno-ai/bark",
+    "solves": "文本转富有表现力的音频的开源模型",
+    "verdict": "语音内容、播客与配音的低成本开源方案"
+   },
+   {
+    "change_2d": "11-07 437,961 → 11-08 440,989，单日 +3,000",
+    "project": "morluto/rea",
+    "repo_url": "https://github.com/morluto/rea",
+    "solves": "反向工程任意事物的 TypeScript Agent",
+    "verdict": "仍在涨，但已是 44 万星的巨型项目，早期窗口已过"
+   }
+  ],
+  "monitored": [
+   {
+    "change_2d": "+222（133,364 → 133,586）",
+    "project": "openai/codex",
+    "repo_url": "https://github.com/openai/codex"
+   },
+   {
+    "change_2d": "+225（154,684 → 154,909）",
+    "project": "anthropics/claude-code",
+    "repo_url": "https://github.com/anthropics/claude-code"
+   },
+   {
+    "change_2d": "+138（160,496 → 160,634）",
+    "project": "langgenius/dify",
+    "repo_url": "https://github.com/langgenius/dify"
+   },
+   {
+    "change_2d": "+346（145,254 → 145,600）",
+    "project": "Comfy-Org/ComfyUI",
+    "repo_url": "https://github.com/Comfy-Org/ComfyUI"
+   },
+   {
+    "change_2d": "+240（186,043 → 186,283）",
+    "project": "ollama/ollama",
+    "repo_url": "https://github.com/ollama/ollama"
+   }
+  ],
+  "note": "系列启动于 11-06，尚无完整 7 天星增基线；本周用 11-06→11-08 两日核实增量（GitHub 连接器 11-08 当日核实，与 08:10 池快照交叉核对一致），下周起可做真 7 天对比。监控大仓库本周均小幅上涨、无新版本；QwenLM/Qwen3 已停滞，最后推送 2026 年 1 月 9 日，30 天仅新增 124 星。",
+  "releases": [
+   "openai/codex rust-v0.167.0 于 11 月 6 日发布，新增 Agent 命令中心与 GCP Vertex 向导",
+   "Comfy-Org/ComfyUI v0.44.0 于 11 月 4 日发布，新增配音与视频放大节点",
+   "langgenius/dify 1.19.0 于 11 月 4 日发布，嵌套工作流追踪与可移植 Workflow Tools",
+   "DeepSeek Harness v0.2.2-rc.1 于 11 月 4 日发布；官方 11 月 5 日公布日活 154 万、第三方插件约 3.5 万个"
+  ]
+ },
+ "new_opportunities": [
+  {
+   "acquisition_pricing": "免费技能包获客，再对企业版技能库或定制技能按年收费",
+   "big_company_threat": "高。Google、Anthropic 官方下场做技能库，Matt Pocock 的 skills 已 31.7 万星，个人作者拼的是垂直场景深度",
+   "china_vs_overseas": "国内 DeepSeek Harness 插件与技能生态同步升温，同一套技能可跨平台复用；海外技能分发层已先跑出来",
+   "competitors": "google/skills（官方）、anthropics/skills（官方，18.8 万星）、mattpocock/skills（31.7 万星）、cloudflare/security-audit-skill",
+   "cost": "低，主要是编写与测试时间（估算，未核实具体金额）",
+   "customer": "用 Claude Code、Codex、Google Agent 工具的开发者与中小企业",
+   "evidence_strength": "中等偏强。Trending 日榜前三占二、星数与增速是真实信号，但付费模式尚未验证",
+   "mvp": "一个垂直行业的技能包，例如“电商客服审计技能”或“财报速读技能”，先在 GitHub 验证安装量",
+   "need": "Agent 能力要可复用：好用的工作流应该打包成技能，而不是每次重写提示词",
+   "score": 68,
+   "solo_entry": "能，做一个垂直场景的技能包，关键是真实好用、有安装量证明",
+   "title": "Agent 技能（skills）制作与分发",
+   "who_pays": "目前多为开源免费；企业安全审计技能已有付费场景（Clutch 约 50 倍 ARR 被收购），技能分发层的付费模式仍在验证中",
+   "basis": "Trending 日榜前三占二、星数与增速是真实信号：mattpocock/skills 单日 +1,100 星、google/skills 日榜第 3、cloudflare/security-audit-skill 日榜第 2；但技能分发层的付费模式尚未验证。"
+  },
+  {
+   "acquisition_pricing": "按数据集或按训练任务收费，先做一个标杆客户。",
+   "basis": "Physicl 11 月 6 日完成 1,000 万美元种子轮，由 Inovia Capital 领投；发布 Studio 产品，含 1 万个 3D 环境与 10 万个资产，生成高保真合成数据训练机器人。早期客户 SpAItial 已用其数据改进世界模型 Echo-3。",
+   "big_company_threat": "高。创始人自己承认赛道“很年轻也很模糊”，竞争拥挤。",
+   "china_vs_overseas": "海外资本先行；国内具身智能数据工具刚起步。",
+   "competitors": "其他合成数据与世界模型数据工具",
+   "cost": "高。3D 资产与仿真需要重投入，不适合轻量起步。",
+   "customer": "机器人与世界模型训练团队",
+   "evidence_strength": "弱。早期融资与单一客户案例，收入数字未公开。",
+   "mvp": "不建议 1–5 人团队直接做平台；可做垂直场景的合成数据集（例如一个仓库分拣场景）。",
+   "need": "机器人训练需要大量高保真合成数据，真机采集太贵太慢",
+   "score": 58,
+   "solo_entry": "难做平台，可做垂直场景数据集。",
+   "title": "物理 AI 合成数据工具",
+   "who_pays": "Physicl 的种子轮投资方 Inovia Capital；客户付费证据只有 SpAItial 一例。"
+  },
+  {
+   "acquisition_pricing": "按优化节省分成或按项目收费。",
+   "basis": "墨芯人工智能 11 月 6 日完成 C+轮融资近 10 亿元人民币，距上一轮近 10 亿元仅 5 个月；专注稀疏推理芯片，S30 计算卡已出货，新一代 SP200 年底前问世。DeepSeek-V4-Pro 约 1.6 万亿总参数、每词元仅激活约 490 亿（约 3%），稀疏化是 MoE 推理的红利方向。",
+   "big_company_threat": "极高。芯片是重资产、长周期赛道，大厂与国家队都在场。",
+   "china_vs_overseas": "国产替代叙事强，但客户与收入均未公开验证。",
+   "competitors": "其他推理芯片厂商、英伟达、AMD",
+   "cost": "极高。芯片流片与量产不在 1–5 人团队的能力范围内。",
+   "customer": "大模型推理部署方、云厂商",
+   "evidence_strength": "弱。投资方未披露、Q3 营收只有“数倍增长”而无绝对数。",
+   "mvp": "不做芯片；可做稀疏模型的部署与优化服务，帮客户把 MoE 模型跑便宜。",
+   "need": "MoE 模型推理成本要降下来，稀疏化是方向",
+   "score": 55,
+   "solo_entry": "不能做芯片，可做部署优化服务。",
+   "title": "稀疏推理芯片与 MoE 部署优化",
+   "who_pays": "墨芯的投资方（未披露）；部署优化服务的付费方是推理量大的客户，证据待验证。"
+  }
+ ],
+ "re_ratings": [
+  {
+   "change": "维持",
+   "evidence": "11-07 日报无新增销售 Agent 证据；Nooks 的融资与客户数证据仍成立，竞争格局未变。",
+   "new_score": 72,
+   "prev_score": 72,
+   "reason": "证据未变，维持判断。",
+   "title": "销售 Agent 的垂直切片"
+  },
+  {
+   "change": "上调",
+   "evidence": "auto-ontology 两日 +2,136 星（+28.3%）、连续两日 Trending 第 1，开发者对确定性查询的需求验证加强。",
+   "new_score": 72,
+   "prev_score": 68,
+   "reason": "需求侧验证加强，但商业付费证据仍以 ServiceNow 等大客户为主，上调幅度有限。",
+   "title": "企业知识库的确定性查询层"
+  },
+  {
+   "change": "上调",
+   "evidence": "11-07 日报淘宝短剧案例给出单品成交数据：百雀羚定制剧 30 天成交破 1,000 万元，观剧后店铺支付订单数与成交转化率各 +80%。",
+   "new_score": 66,
+   "prev_score": 64,
+   "reason": "证据从“平台收入”升级到“单品成交”，但仍是平台级案例，小团队复制成本待实测。",
+   "title": "AI 短剧与内容生产的低成本工作流"
+  },
+  {
+   "change": "上调",
+   "evidence": "三起并购已验证付费；11 月 8 日日报新增两起实测攻击：AGENTS.md 投毒攻击 Codex 成功率超 90%、Apiiro 发现 1,122 个公开仓库泄露 1,379 个真实密钥。",
+   "new_score": 74,
+   "prev_score": 72,
+   "reason": "证据从“并购验证”升级到“并购 + 正在发生的攻击链”，需求真实性再确认；但大厂直接收购赛道公司，独立小团队只能做垂直工具。",
+   "title": "AI Agent 权限与安全治理"
+  },
+  {
+   "change": "上调",
+   "evidence": "Ramp 10 月支出反弹 +8.9%，与 Jev 进入支出头部的信号相互印证：企业愿意为省钱的工具付费。",
+   "new_score": 70,
+   "prev_score": 68,
+   "reason": "付费意愿证据加强；但云厂商自带路由是主要威胁，上调幅度有限。",
+   "title": "推理成本优化与模型路由"
+  },
+  {
+   "change": "维持",
+   "evidence": "与“AI 短剧与内容生产的低成本工作流”同源，11-07 日报的品牌短剧机会；证据未变，今后合并跟踪。",
+   "new_score": 66,
+   "prev_score": 66,
+   "reason": "证据未变，维持；与短剧工作流机会合并为同一主题跟踪。",
+   "title": "AI 品牌短剧与内容电商制作"
+  }
+ ],
+ "sources_quality": {
+  "anomaly": "36kr 官方 RSS 4 个源（feed、feed-article、feed-newsflash、feed-moment）连续 3 天（11-06、11-07、11-08）返回 HTTP 200 但正文为 HTML 而非 XML，无法解析。RSSHub 第三方 36kr 热榜可用，可作临时替代；中文一手商业资讯来源持续缺口。",
+  "gaps": [
+   "AI 教育、B2B 与 B2G 政府采购、1 至 5 人团队收入案例在本周窗口内未找到可核实的新项，未用旧案例充数。",
+   "36kr 转载的 Anthropic 5,000 亿美元估值传闻明确标注为传闻中的非公开交易报价，未采信；采用彭博社经 TechCrunch 转述的 1.2–1.3 万亿美元，及 WSJ 经 Latent Space 转述的约 1 万亿美元。",
+   "36kr 转载文中标普 500 相关数字自相矛盾（2.5 万亿与 2.9 万亿），未采用具体行情数字。",
+   "OpenAI 大规模封号为 11 月 7 日社区反馈与 ChainCatcher 等二级转述，官方未回应，证据级别中等；Anthropic Model 4 与 RSI 细节来自 METR 报告转述与内部人士说法，标注为弱证据。",
+   "机会评分 0–100 为主观判断依据，不是真实市场统计数字。"
+  ],
+  "notes": [
+   "11-06：40 个源，36 个可用，4 个失效（全是 36kr 官方 RSS）；Microsoft AI 最新条目停留在 2026 年 10 月 21 日，已 16 天未更新。",
+   "11-07：40 个源，35 个可用，4 个失效（36kr 官方，连续 2 天）；OpenAI Release Notes 本日首次返回 403（第 1 天）；Google DeepMind 当日 urllib 解析失败一次，curl 重试 200 可用。",
+   "11-08：40 个源，35 个可用，4 个失效（36kr 官方，连续 3 天，见异常报告）；OpenAI Release Notes 连续第 2 天无法访问（403 后连接中断），未达 3 天异常线；Google DeepMind urllib 解析失败一次，curl 重试返回 200 且为有效 XML，计为可用；arXiv 四源周末无新条目（feed 注明跳过周六、周日），不算失效。",
+   "GitHub 星数：监控仓库由 GitHub 连接器 11-08 当日核实；池内项目星数为 11-08 08:10 池快照（连接器核实），1–2 日增量为与 11-06/11-07 核实值的差；Trending 日榜为 08:09 抓取。"
+  ],
+  "rss_checks": {
+   "2026-11-06": {
+    "available": 36,
+    "dead": 4,
+    "total": 40
+   },
+   "2026-11-07": {
+    "available": 35,
+    "dead": 4,
+    "total": 40
+   },
+   "2026-11-08": {
+    "available": 35,
+    "dead": 4,
+    "total": 40
+   }
+  }
+ },
+ "top3": [
+  {
+   "acquisition_pricing": "先免费上架进官方插件市场拿推荐，再对高级功能按次或按月收费；Token 激励细则未公布，暂不能计入收入预测",
+   "big_company_threat": "高。DeepSeek 定规则、控推荐位，插件只是生态一环；AFK AI 的 Comma（9 月 30 日开源）已实现单 Router 加多 Worker 的 Super-agent 架构，海外同类也在抢时间",
+   "china_vs_overseas": "国内 DeepSeek 生态最热、用户量明确；海外 Claude Code 与 Codex 的技能生态平行发展，同一套插件思路可以跨平台复用",
+   "competitors": "约 3.5 万个第三方插件；AFK AI Comma；Claude Code 与 Codex 的技能生态",
+   "cost": "低，主要是开发时间；运行按 Token 计费，复杂插件成本需实测（估算，未核实具体金额）",
+   "customer": "DeepSeek Harness 的 154 万日活跃用户",
+   "evidence_strength": "强。日活、Token 消耗、插件数与 60% 渗透率均为官方 11 月 5 日公布的数据",
+   "mvp": "一个解决具体高频痛点的小插件，例如某行业的资料整理或报表生成，先上架、看安装与留存",
+   "need": "给 Harness 扩展能力：用户要的不是聊天，而是能直接干活的插件",
+   "score": 74,
+   "solo_entry": "能，做单个高频场景插件，不做平台；关键是选对场景、控制 Token 成本",
+   "title": "DeepSeek Harness 插件开发",
+   "who_pays": "官方筹备 Token 激励与插件市场（金额与分成未公布）；154 万日活用户是付费池，约 60% 的活跃用户已在用插件"
+  },
+  {
+   "acquisition_pricing": "按企业年费，先做 2 至 3 个标杆客户，再按调用量或座席扩展",
+   "big_company_threat": "高。安全大厂直接收购赛道公司，差异化必须在一个垂直场景做深",
+   "china_vs_overseas": "国内 Agent 落地刚起步，安全合规（等保、数据出境）是更强的刚需，但企业付费意愿待验证；海外并购已验证付费",
+   "competitors": "Clutch、Oasis（Cyera 10 亿美元收购）、Astrix（思科约 4 亿美元收购）、Upwind；Apiiro 等披露方也在做检测",
+   "cost": "模型 API 按量计费，服务器用云函数起步，首月几百至几千元人民币量级（估算，未核实）",
+   "customer": "已部署 AI Agent 的企业 IT 与安全团队",
+   "evidence_strength": "强。三起并购加两起新披露的安全事件（AGENTS.md 投毒、1,122 个仓库密钥泄露）",
+   "mvp": "一个记录 Agent 每一次工具调用、标出越权操作的审计面板，先接 Dify 或 RAGFlow 的企业客户；或一个扫描 .claude/settings.local.json 泄露的轻量工具",
+   "need": "Agent 访问企业系统时，权限要可管、可审计、可收回，而不是放任自流",
+   "score": 74,
+   "solo_entry": "能，但不做平台，做垂直审计工具或开源探针，例如“Agent 操作录像 + 越权告警”或“密钥泄露扫描”",
+   "title": "AI Agent 权限与安全治理",
+   "who_pays": "Palo Alto 拟 5 亿美元收购 Clutch（接近 1,000 万美元 ARR），Cyera 10 亿美元收购 Oasis，思科约 4 亿美元收购 Astrix——安全厂商在为 Agent 权限管理付费"
+  },
+  {
+   "acquisition_pricing": "按项目制加年费，先做 2 至 3 个标杆客户",
+   "big_company_threat": "中高。云厂商与开源项目都在做，差异化在垂直行业的图谱与权限控制",
+   "china_vs_overseas": "国内 B2B 与 B2G 对本地部署与合规要求更高，海外更接受云端订阅",
+   "competitors": "Dify、RAGFlow、MaxKB，以及各家云厂商的 RAG 服务",
+   "cost": "开源 RAGFlow 或 Dify 自部署，模型 API 为主，服务器成本可控（估算，未核实具体金额）",
+   "customer": "金融、医疗、客服等对答案可解释性有要求的企业",
+   "evidence_strength": "中等偏高。NVIDIA auto-ontology 本周两日涨星 2,136、连续两日 Trending 第 1，开发者需求验证加强；商业付费证据仍以 ServiceNow 等大客户为主",
+   "mvp": "一个行业知识库，支持文档导入、权限控制、引用来源展示",
+   "need": "查得到、查得准、不瞎编",
+   "score": 72,
+   "solo_entry": "能，做一个行业的知识库模板，例如医药代表问答或售后知识库",
+   "title": "企业知识库的确定性查询层",
+   "who_pays": "ServiceNow 的 AI 合同、RAGFlow 与 Dify 的企业客户都在为可落地的知识库付费；ServiceNow AI 新增年合同价值同比增长 65%，上调 2026 年 AI 合同价值目标至 17 亿美元"
+  }
+ ],
+ "trends_accelerating": [
+  {
+   "theme": "Agent 平台化：DeepSeek Harness 从工具变成平台",
+   "evidence": "官方 11 月 5 日公布：截至 11 月 4 日（官方 API 用户口径）日活跃用户 154 万，日消耗 Token 约 92 万亿；第三方插件约 3.5 万个，约 60% 的活跃用户制作或安装了至少一款第三方插件；官方筹备面向插件作者的支持计划（Token 激励、技术交流、作品推荐）并建设官方插件市场。",
+   "source": "2026-11-08 日报 TOP 7 第 1 条与赚钱案例"
+  },
+  {
+   "theme": "Agent 权限与安全治理变成并购赛道",
+   "evidence": "Palo Alto 拟 5 亿美元收购 Clutch（约 50 倍 ARR，接近 1,000 万美元 ARR）；Cyera 10 亿美元收购 Oasis、思科约 4 亿美元收购 Astrix；11 月 7 日新增两起实测攻击：AGENTS.md 投毒攻击 Codex 成功率超 90%、Claude Code 约 50%，Apiiro 发现 1,122 个公开仓库泄露 1,379 个真实密钥。",
+   "source": "2026-11-07 日报 TOP 7 第 4 条；2026-11-08 日报 TOP 7 第 3、4 条"
+  },
+  {
+   "theme": "销售 / 售后 Agent 从演示变成可收费的产品",
+   "evidence": "Nooks 11 月 5 日拿到 General Catalyst 5 亿美元增长资本，推出 Revenue Agent Platform 和 Node，称同比增长 3 倍、净收入留存率 135%、服务 2,000 多家公司；Claimlane 这类售后 Agent 也在拿融资。",
+   "source": "2026-11-06 日报 TOP 7 第 1 条"
+  },
+  {
+   "theme": "企业知识库的确定性查询层需求升温",
+   "evidence": "NVIDIA auto-ontology 本周两日 +2,136 星（+28.3%），连续两日 Trending 第 1；vercel agent-desktop 两日 +1,796 星。",
+   "source": "2026-11-06 / 11-07 日报；2026-11-08 日报 github_notes"
+  },
+  {
+   "theme": "AI 品牌短剧：从“能看”到“能带货”",
+   "evidence": "淘宝短剧 × 阿里 Wan3.0：百雀羚定制剧《灵玉异世录》上线 30 天播放超 3,500 万，新品首销 30 天成交额破 1,000 万元，观剧后店铺支付订单数与成交转化率各 +80%；自 618 以来上线 30+部 AI 品牌剧、合作品牌 50+。",
+   "source": "2026-11-07 日报赚钱案例"
+  },
+  {
+   "theme": "Agent 技能生态成形",
+   "evidence": "mattpocock/skills 单日 +1,100 星、google/skills Trending 日榜第 3（+443）、cloudflare/security-audit-skill Trending 日榜第 2（+2,085）；技能正在成为 Agent 能力的分发单位。",
+   "source": "2026-11-08 日报 github_projects 与 github_notes"
+  },
+  {
+   "theme": "AI 视频与内容生产开源工作流加速",
+   "evidence": "ComfyUI v0.44.0（11 月 4 日）新增配音与视频放大节点，30 天新增 9,309 星；storytold/craft-anything 单日 +2,600 星，一句话生成可交互视频与软件原型。",
+   "source": "2026-11-06 / 11-07 日报；2026-11-08 日报 github_notes"
+  },
+  {
+   "theme": "开源权重压低部署门槛",
+   "evidence": "Thinking Machines 发布 Inkling 2 Small（594B 总量、17B 激活 MoE），ARC-AGI-2 得分 81.7%，完整权重下周以 Apache 2.0 发布；月之暗面 Kimi K3.1 Pro 开源权重（2.8T MoE、104B 激活），Agent Arena 开源模型第一。",
+   "source": "2026-11-08 日报 TOP 7 第 8 条"
+  }
+ ],
+ "trends_decelerating": [
+  {
+   "theme": "头部 AI 估值重置：市场不再按超高速增长定价",
+   "evidence": "OpenAI 新一轮融资目标从 9 月的 300 亿美元下调至约 200 亿美元，已募 110 亿美元，估值 1.25 万亿美元；Anthropic IPO 估值预期从 10 月初的 2 万亿美元跌至 1.2–1.3 万亿，11 月 7 日再滑向约 1 万亿美元；但其 10 月 run rate 破 800 亿美元，METR 称模型改进速度约为一年前 2 倍——定价锚还会变。",
+   "source": "2026-11-07 日报 TOP 7 第 1、2 条；2026-11-08 日报 TOP 7 第 2 条"
+  },
+  {
+   "theme": "模型公司收入承压：用量涨、支出不涨",
+   "evidence": "Ramp 数据：8–9 月企业 AI token 支出仅增 1.5%（7 月为 +42%）；价格战是主因，OpenAI 9 月将 GPT-6 Sol/Luna API 价砍半，Anthropic 降价使收入增长减少约 6 亿美元。10 月反弹 +8.9% 能否持续待验证。",
+   "source": "2026-11-07 日报 TOP 7 第 3 条"
+  },
+  {
+   "theme": "算力基建进入“难建、贵建、还得建”",
+   "evidence": "谷歌 170 亿美元接手 Crusoe 怀俄明数据中心项目（原计划最终 10 GW）；微软不再续签 2023 年向 Oracle 租用 AI 算力的协议，重新评估 CoreWeave、Nebius 等 neocloud；中期选举中数十项限制或暂停数据中心建设的地方公投措施几乎全部通过，华尔街也不再奖励大举建算力。",
+   "source": "2026-11-07 日报 TOP 7 第 5、6 条；2026-11-08 日报 TOP 7 第 6、7 条"
+  },
+  {
+   "theme": "订阅制 AI 的信任成本上升：OpenAI 大规模封号",
+   "evidence": "11 月 7 日多名用户称 ChatGPT 与 OpenAI 账号突然被停用，多数人事先未收到邮件通知；涉及免费 API 账号、团队拼车账号与 200 美元/月的 Pro 账号。社区反馈与二级转述，官方未回应，规模与原因未证实；背景是 10 月 31 日 OpenAI 上线按卡与设备限制付费订阅的规则。",
+   "source": "2026-11-08 日报 TOP 7 第 5 条"
+  },
+  {
+   "theme": "信用计费拉动使用，但侵蚀毛利——模式待验证",
+   "evidence": "Figma Q3 收入 3.914 亿美元，同比增长 43%，但公司承担 Figma Agent 的推理成本，非 GAAP 毛利率降至 82%，8 月信用定价下调牺牲短期单位收入。",
+   "source": "2026-11-06 日报 TOP 7 第 2 条与赚钱案例"
+  },
+  {
+   "theme": "证伪警示：雷达数据需警惕刷星注水",
+   "evidence": "andrew-babo/muse4ai 星数 913→249 暴跌（-664），两次核实，疑似 GitHub 清理非自然增长星数，P2 状态已撤销。",
+   "source": "2026-11-07 日报 github_notes"
+  }
+ ],
+ "watchlist": [
+  "OpenAI 本轮融资最终规模（目标约 200 亿美元）与 IPO 时间表——延续；OpenAI CFO 称数据中心还会继续建",
+  "Anthropic IPO 估值与信用评级——新：WSJ 称 10 月 run rate 破 800 亿美元，有投资人认为 IPO 估值接近 1 万亿美元（昨日预期 1.2–1.3 万亿美元）；METR 报告称模型改进速度约为一年前 2 倍",
+  "Ramp 10 月支出反弹（+8.9%）能否持续，还是昙花一现——延续，无新数据",
+  "Palo Alto/Clutch 收购是否落地，50 倍 ARR 是否成为 Agent 安全赛道的定价锚——延续，无新数据；新证据：AGENTS.md 投毒攻击与 Apiiro 1,122 个仓库密钥泄露强化赛道逻辑",
+  "微软 neocloud 收缩范围（CoreWeave、Nebius 等是否在列）——延续，无新数据",
+  "谷歌 Crusoe 怀俄明地块——新：已确认出售给谷歌，谷歌计划投资 170 亿美元开发该园区",
+  "墨芯 SP200 年底发布与 Q3 营收绝对数——延续，无新数据",
+  "DeepSeek Harness 插件生态——新：日活 154 万，官方 Token 激励与插件市场筹备中，激励金额与分成未公布",
+  "OpenAI 账号封禁——新：11 月 7 日大规模封号，含 200 美元/月 Pro 账号，官方未回应",
+  "中期选举后数据中心地方阻力——新：数十项限制或暂停公投几乎全部通过",
+  "Figma 的 AI credits 毛利率变化——延续",
+  "快手可灵的 ARR 变化——延续",
+  "ComfyUI 与 Dify 的企业客户进展——延续（dify 160,634 星 +60；ComfyUI 145,600 星 +158）",
+  "muse4ai 星数暴跌：疑似刷星被清理，雷达数据需警惕注水——延续",
+  "NVIDIA auto-ontology、agent-desktop、craft-anything 的后续版本——延续（craft-anything 24 小时约 +2,600 星；agent-desktop 18,829 星，24 小时 +738）"
+ ],
+ "week_window": "2026-11-02 至 2026-11-08"
+}
