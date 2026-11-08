@@ -71,7 +71,7 @@ def potential_cards(day):
         if c:
             cats[c] = cats.get(c, 0) + 1
         cat_chip = f'<span class="tag">{esc(c)}</span>' if c else ""
-        setup_line = f'<p>上手：{esc(o["setup"])}</p>' if o.get("setup") else ""
+        setup_line = f'<p>上手：{esc(o["setup"].removeprefix("上手："))}</p>' if o.get("setup") else ""
         cards.append(
             f'<article class="card"><div class="card-top"><span class="tag">潜力评分 {o["score"]} / 100</span>'
             f'<span class="badge same">★ {o["stars"]:,}</span></div>'
@@ -150,7 +150,7 @@ def entrepreneur_cards(day):
     cards = []
     for o in day.get("entrepreneur_top3", []):
         cat_chip = f'<span class="tag">{esc(o["category"])}</span>' if o.get("category") else ""
-        setup_line = f'<p>上手：{esc(o["setup"])}</p>' if o.get("setup") else ""
+        setup_line = f'<p>上手：{esc(o["setup"].removeprefix("上手："))}</p>' if o.get("setup") else ""
         cards.append(
             f'<article class="card"><div class="card-top"><span class="tag">机会评分 {o["score"]} / 100</span>'
             f'<span class="badge same">★ {o["stars"]:,}</span></div>'
