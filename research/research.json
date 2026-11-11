@@ -141,8 +141,18 @@
       "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
       "title": "AI创业与内容起号调研",
       "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+    },
+    {
+      "date": "2026-11-11",
+      "file": "research/2026-11-11-ai-startup-creator-research-hub.html",
+      "note": "严格用 research-hub v1.1.0；窗口 2026-11-05 至 2026-11-11，68 条唯一 URL（66 条 recent），状态 partial；Anthropic IPO 数字落地但前九月净亏损 1040 亿美元，AI 长片实时热度回落、草根 AI 漫剧登上抖音存档热榜，Agent 竞争转向运行时，央视曝光 MCN 暴力起号虚假剧本；微博 / 小红书 / 知乎引擎失败、Reddit 403、微信 0 留存、百度 6 条线索如实标出。",
+      "source": "Research Hub",
+      "source_slug": "research-hub",
+      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+      "title": "AI创业与内容起号调研",
+      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
     }
   ],
   "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
-  "updated": "2026-11-10"
+  "updated": "2026-11-11"
 }
