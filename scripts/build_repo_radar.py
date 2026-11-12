@@ -141,7 +141,7 @@ def alerts_table(day):
         rows.append(
             f'<tr><td>{repo_link(a["repo"])}</td><td>★ {a["stars"]:,}</td><td>{esc(a["follow"])}</td></tr>'
         )
-    return ('<section><h2>06 昨天预警项目的最新表现<small>2026 年 11 月 9 日已报警的项目；同一仓库不重复报警</small></h2>'
+    return ('<section><h2>06 昨天预警项目的最新表现<small>2026 年 11 月 11 日已报警的项目；同一仓库不重复报警</small></h2>'
             '<div style="overflow-x:auto"><table><tr><th>项目</th><th>当前星数</th><th>最新表现</th></tr>'
             + "\n".join(rows) + "</table></div></section>")
 
@@ -190,7 +190,7 @@ def render(day, all_dates):
     ch = day.get("channel_health", {})
     ch_items = "".join(f"<li><strong>{esc(k)}：</strong>{esc(v)}</li>" for k, v in ch.items())
     archive_links = "\n".join(f'<a href="./archive/repo-radar-{d}.html">{d}</a>' for d in all_dates)
-    body = f"""<section><h2>今日预警定级<small>快照窗口约 24 小时（2026-11-10 08:40 → 2026-11-11 08:50 CST）；P1 推送前须二次确认，本版新增 P1 2 个（Erosion-CN 11-10 15:14、trnrt 11-11 00:09，均已发主聊天）</small></h2>
+    body = f"""<section><h2>今日预警定级<small>快照窗口约 24 小时（2026-11-11 08:50 → 2026-11-12 08:50 CST）；P1 推送前须二次确认，本版新增 P1 3 个（magpie、rea-video、unslop，均 11-11 已发主聊天）</small></h2>
 <div class="note-box"><ul>
 <li><strong>P0 新增：</strong>{esc(lv.get("p0_new", ""))}</li>
 <li><strong>P1 待二次确认：</strong>{esc(lv.get("p1_pending", ""))}</li>
