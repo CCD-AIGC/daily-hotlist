@@ -141,7 +141,7 @@ def alerts_table(day):
         rows.append(
             f'<tr><td>{repo_link(a["repo"])}</td><td>★ {a["stars"]:,}</td><td>{esc(a["follow"])}</td></tr>'
         )
-    return ('<section><h2>06 昨天预警项目的最新表现<small>2026 年 11 月 11 日已报警的项目；同一仓库不重复报警</small></h2>'
+    return ('<section><h2>06 昨天预警项目的最新表现<small>已报警项目（P1/P0）的最新表现；同一仓库不重复报警</small></h2>'
             '<div style="overflow-x:auto"><table><tr><th>项目</th><th>当前星数</th><th>最新表现</th></tr>'
             + "\n".join(rows) + "</table></div></section>")
 
@@ -190,7 +190,9 @@ def render(day, all_dates):
     ch = day.get("channel_health", {})
     ch_items = "".join(f"<li><strong>{esc(k)}：</strong>{esc(v)}</li>" for k, v in ch.items())
     archive_links = "\n".join(f'<a href="./archive/repo-radar-{d}.html">{d}</a>' for d in all_dates)
-    body = f"""<section><h2>今日预警定级<small>快照窗口约 24 小时（2026-11-11 08:50 → 2026-11-12 08:50 CST）；P1 推送前须二次确认，本版新增 P1 3 个（magpie、rea-video、unslop，均 11-11 已发主聊天）</small></h2>
+    prev_date = all_dates[-2] if len(all_dates) >= 2 else day["date"]
+    gen_time = day.get("generated_at_cst", "")[11:16] or "08:50"
+    body = f"""<section><h2>今日预警定级<small>快照窗口约 24 小时（{prev_date} 08:50 → {day['date']} {gen_time} CST）；P1 推送前须二次确认，新增 P1 见下方定级</small></h2>
 <div class="note-box"><ul>
 <li><strong>P0 新增：</strong>{esc(lv.get("p0_new", ""))}</li>
 <li><strong>P1 待二次确认：</strong>{esc(lv.get("p1_pending", ""))}</li>
