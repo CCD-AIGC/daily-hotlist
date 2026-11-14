@@ -171,8 +171,18 @@
       "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
       "title": "AI创业与内容起号调研",
       "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+    },
+    {
+      "date": "2026-11-14",
+      "file": "research/2026-11-14-ai-startup-creator-research-hub.html",
+      "note": "严格用 research-hub v1.1.0；窗口 2026-11-08 至 2026-11-14，79 条唯一 URL（72 条 recent），状态 partial；黄仁勋辞职冲击 AI 创业融资，ChatGPT Wallet 让 agent 代购、LangChain 估值 30 亿美元，WorkBuddy/OPC 一人公司教程成 B 站小集群但标题收入数字均未核实，AI 漫剧晚会官宣抖音排名从第 7 滑至第 50；抖音 / 微博 / 小红书 / 知乎引擎失败、Reddit 403、微信 0 留存、百度 7 条全是英文“什么是 AI”定义页已剔除。",
+      "source": "Research Hub",
+      "source_slug": "research-hub",
+      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+      "title": "AI创业与内容起号调研",
+      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
     }
   ],
   "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
-  "updated": "2026-11-13"
+  "updated": "2026-11-14"
 }
