@@ -123,6 +123,82 @@ def domestic_section(day):
             f'<li>来源：{esc(d.get("source", ""))}</li></ul></div></section>')
 
 
+def indie_seed_section(day):
+    """One-off seed library table (2026-11-14 only): the 36 verified sites already in the
+    registry, rendered as a compact table, not full cards. Later editions omit indie_seed."""
+    seed = day.get("indie_seed")
+    if not seed:
+        return ""
+    verdict_cls = {"跟进": "green", "观望": "amber", "别追了": "red"}
+    rows = []
+    for s in seed:
+        v = s.get("verdict", "")
+        vcls = verdict_cls.get(v, "grey")
+        domain = s.get("domain", "")
+        url = s.get("url") or ("https://" + domain if domain else "")
+        link = f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(domain)}</a>' if url else esc(domain)
+        rows.append(
+            f'<tr><td>{link}</td><td>{esc(s.get("name", ""))}</td>'
+            f'<td>{esc(s.get("category", ""))}</td><td>{esc(s.get("industry", ""))}</td>'
+            f'<td>{esc(s.get("what", ""))}</td><td><span class="tag {vcls}">{esc(v)}</span></td></tr>'
+        )
+    return ('<section><h2>05b 建库首批 36 站<small>'
+            '2026-11-13 三份调研合并建库（中文 14 + B站 UP 新发现 9 + 英文 13；重叠 2 站只记一次）；'
+            '只做一次分类汇总，之后每日只报新站，不重复入表</small></h2>'
+            '<div style="overflow-x:auto"><table><tr><th>域名</th><th>站名</th><th>业务分类</th>'
+            '<th>行业</th><th>做什么</th><th>结论</th></tr>'
+            + "\n".join(rows) + "</table></div></section>")
+
+
+def indie_sites_section(day):
+    sites = day.get("indie_sites")
+    if sites is None:
+        return ('<section><h2>05 新出现爆款 AI 独立站<small>'
+                '本节自 2026-11-14 起新增；往期无此章节</small></h2>'
+                '<div class="note-box"><ul><li>本期未设此章节。</li></ul></div></section>')
+    if not sites:
+        return ('<section><h2>05 新出现爆款 AI 独立站<small>'
+                '只列今日首次发现的站；无新发现不拿旧站凑数</small></h2>'
+                '<div class="note-box"><ul><li><strong>今日无新发现。</strong></li></ul></div></section>')
+    verdict_cls = {"跟进": "green", "观望": "amber", "别追了": "red"}
+    rows = []
+    cards = []
+    for s in sites:
+        v = s.get("verdict", "")
+        vcls = verdict_cls.get(v, "grey")
+        domain = s.get("domain", "")
+        url = s.get("url") or ("https://" + domain if domain else "")
+        link = f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(domain)}</a>' if url else esc(domain)
+        rows.append(
+            f'<tr><td>{link}</td><td>{esc(s.get("category", ""))}</td>'
+            f'<td>{esc(s.get("industry", ""))}</td><td>{esc(s.get("what", ""))}</td>'
+            f'<td>{esc(s.get("viral_channel", ""))}</td>'
+            f'<td><span class="tag {vcls}">{esc(v)}</span></td></tr>'
+        )
+        srcs = "".join(f"<li>{esc(x)}</li>" for x in s.get("sources", []))
+        cards.append(
+            f'<article class="card"><div class="card-top">'
+            f'<span class="tag">{esc(s.get("category", ""))} · {esc(s.get("industry", ""))}</span>'
+            f'<span class="tag {vcls}">{esc(v)}</span>'
+            f'<span class="tag grey">{esc(s.get("verification", ""))}</span></div>'
+            f'<h3>{esc(s.get("name", ""))} — {link}</h3>'
+            f'<p><strong>做什么</strong>：{esc(s.get("what", ""))}</p>'
+            f'<p><strong>作者</strong>：{esc(s.get("maker", ""))}</p>'
+            f'<p><strong>爆火</strong>：{esc(s.get("viral_channel", ""))} · {esc(s.get("viral_date", ""))}；'
+            f'证据：{esc(s.get("traction", ""))}</p>'
+            f'<p><strong>商业模式</strong>：{esc(s.get("model", ""))}；定价：{esc(s.get("pricing", ""))}</p>'
+            f'<p><strong>结论</strong>：{esc(s.get("verdict_note", ""))}</p>'
+            f'<p><strong>来源</strong>：</p><ul>{srcs}</ul></article>'
+        )
+    return ('<section><h2>05 新出现爆款 AI 独立站<small>'
+            f'今日首次发现 {len(sites)} 个；分类按“付费点是什么”定，行业按“为谁服务”定；'
+            '创始人自述的数字已标注，未独立核实</small></h2>'
+            '<div style="overflow-x:auto"><table><tr><th>域名</th><th>业务分类</th><th>行业</th>'
+            '<th>做什么</th><th>爆火渠道</th><th>结论</th></tr>'
+            + "\n".join(rows) + "</table></div>"
+            '<div class="grid" style="margin-top:14px">\n' + "\n".join(cards) + '\n</div></section>')
+
+
 def backtest_section(day):
     b = day.get("backtest", {})
     rows = []
@@ -145,7 +221,7 @@ def render(day, all_dates):
     ch_items = "".join(f"<li><strong>{esc(k)}：</strong>{esc(v)}</li>" for k, v in ch.items())
     src_items = "".join(f"<li>{esc(x)}</li>" for x in day.get("sources", []))
     archive_links = "\n".join(f'<a href="./archive/content-radar-{d}.html">{d}</a>' for d in all_dates)
-    body = format_cards(day) + aihot_section(day) + domestic_section(day) + backtest_section(day)
+    body = format_cards(day) + aihot_section(day) + domestic_section(day) + backtest_section(day) + indie_sites_section(day) + indie_seed_section(day)
     body += f"""<section><h2>方法与口径<small>评分三维度：海外热度 40 / 复刻容易度 30 / 新颖度 30</small></h2>
 <div class="note-box"><ul>
 <li><strong>海外核查：</strong>{esc(m.get("overseas_check", ""))}</li>
