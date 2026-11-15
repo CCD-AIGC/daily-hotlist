@@ -130,11 +130,11 @@ def render(week, all_dates):
 <div style="overflow-x:auto"><table><tr><th>公司</th><th>本周动作</th><th>对格局的影响</th><th>原文</th></tr>
 {comp}
 </table></div></section>
-<section><h2>05 开源项目：本周 Trending 与监控仓库<small>星增为 11-06→11-08 两日核实增量（系列启动 11-06，尚无完整 7 天基线）</small></h2>
+<section><h2>05 开源项目：本周 Trending 与监控仓库<small>星增为 11-08→11-14 七日核实增量（11-08 未上榜者以首次出现日为基线，已注明）</small></h2>
 <div style="overflow-x:auto"><table><tr><th>项目</th><th>星增</th><th>解决什么问题</th><th>判断</th></tr>
 {gh_hot}
 </table></div>
-<h3 style="font-size:17px;margin:18px 0 8px">监控大仓库（11-06→11-08 两日）</h3>
+<h3 style="font-size:17px;margin:18px 0 8px">监控大仓库（11-08→11-14 七日）</h3>
 <div style="overflow-x:auto"><table><tr><th>项目</th><th>星增</th></tr>
 {gh_mon}
 </table></div>
@@ -147,7 +147,7 @@ def render(week, all_dates):
 {rr}
 </table></div></section>
 {opp_cards(week.get('new_opportunities', []), '07 本周新出现的机会', '单列评分并写明依据，评分不是市场统计')}
-{opp_cards(week.get('top3', []), '08 本周最值得进入的 3 个机会', '其中 DeepSeek Harness 插件开发为 11-08 新出现，本周最高分 74；客户、真实需求、谁在付费、竞争者、大公司威胁、1–5 人团队能否进入、首个 MVP、初期成本估算')}
+{opp_cards(week.get('top3', []), '08 本周最值得进入的 3 个机会', '其中 H3-Image 低成本视觉资产服务为本周最高分 76；客户、真实需求、谁在付费、竞争者、大公司威胁、1–5 人团队能否进入、首个 MVP、初期成本估算')}
 <section><h2>09 本周应放弃或暂缓的 1 个方向</h2>
 <div class="card"><h3>{esc(av.get('title', ''))}</h3>
 <p><strong>理由：</strong>{esc(av.get('reason', ''))}</p>

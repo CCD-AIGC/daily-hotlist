@@ -1,0 +1,480 @@
+{
+  "date": "2026-11-15",
+  "week_window": "2026-11-09 至 2026-11-15",
+  "fetched_at_cst": "2026-11-15 08:30",
+  "coverage": "本周报基于 2026-11-09 至 2026-11-14 的 6 期日报（11-15 当日日报与周报同为 08:30 档期，发布时尚未出刊，故未纳入；下周周报起以 11-15 日报为起点衔接）。日报证据实际覆盖 2026-11-08 至 11-14，近 7 天的重要财报与报告已在日报中标注实际日期。GitHub 星数以 11-08 日报连接器核实值为基线、11-14 日报连接器核实值为终值，7 天增量为连接器核实值。",
+  "daily_editions": [
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14"
+  ],
+  "conclusions": [
+    "英伟达 33 年时代一周终结，Anthropic IPO 定价锚落地：黄仁勋 11 月 12 日辞职（董事会 11 月 11 日晚接受辞呈，CFO Colette Kress 临时代理），股价本周跌 12.7%、市值跌破 4 万亿美元；Anthropic IPO 发行价 70–78 美元、完全摊薄估值约 1.4 万亿美元（较 2 万亿美元讨论价缩水约三成），认购约 6 倍，11 月 18 日定价、11 月 19 日纳斯达克上市（ANT）——AI 繁荣第一次公开市场定价检验在即。",
+    "模型成本一周内被五家同时压低，Agent 从“演示”进入“结算”阶段：Fable 5.2 降价提速约 30%、Ember 输入 0.10 美元/百万 tokens、Gemini 4 Carbon 2/10 美元、Gemini 4 Hydrogen 1.50/7.50 美元、DeepSeek flash 比 GPT-4o 低约 88%；ChatGPT Wallet 让 Agent 代付落地（初期仅美国 Pro 用户），LangChain 3 亿美元 C 轮估值 30 亿美元（7,000 家 LangSmith 客户）——拼的已不是谁更聪明，而是谁的单任务成本更低、谁能先收到钱。",
+    "治理与合规成为 Agent 采购的前置条件，同时也是本周最确定的付费点：Claude Code 泄密（10 万+设置文件、约 1,100 个含真实秘密）之后，Grok Build 又曝 3.5 万应用公开可访问、Fireworks 入侵致 Notion 约 1% 客户聊天记录被盗；Anthropic 区域风控 11 月 12 日生效、美联航禁止 Agent 代订机票、纽约 RAISE 法案开闸注册——Agent 创业的第一关不再是模型能力，而是合规准入与平台许可。"
+  ],
+  "trends_accelerating": [
+    {
+      "theme": "Agent 权限与安全治理变成并购与合规赛道",
+      "evidence": "Palo Alto 拟 5 亿美元收购 Clutch（约 50 倍 ARR）；Claude Code 泄密：超 10 万个设置文件公开、约 1,100 个含真实秘密、来自 63 个组织；Grok Build：43,601 个 grok.me 链接中超过 3.5 万个公开可访问；Fireworks 入侵致 Notion 约 1% 客户聊天记录被盗；纽约 RAISE 法案开闸注册。",
+      "source": "2026-11-09 / 11-10 / 11-11 / 11-13 日报 TOP 7"
+    },
+    {
+      "theme": "模型与工具成本加速下降",
+      "evidence": "Fable 5.2 降价、提速约 30%；Meta Muse Ember 输入 0.10 美元/百万 tokens、约 0.14 美元/任务；Gemini 4 Carbon 2/10 美元、每任务成本比次优模型低 2 倍以上；Gemini 4 Hydrogen 1.50/7.50 美元；Gemini Decisions API 输入 0.10 美元/百万、输出免费；DeepSeek flash 峰值 0.30/1.20 美元，比 GPT-4o 低约 88%；MiniMax H3-Image API 价为竞品 50%–70%。",
+      "source": "2026-11-10 / 11-11 / 11-13 / 11-14 日报 TOP 7"
+    },
+    {
+      "theme": "Agent 开始真正收钱、管钱",
+      "evidence": "ChatGPT Wallet 11 月 13 日上线：Agent 代付需用户生物识别确认、令牌化支付不暴露卡号，与 Amex、Mastercard、Visa 合作；LangChain 3 亿美元 C 轮估值 30 亿美元（一年前 12.5 亿美元），LangSmith 客户 7,000 家；OpenAI ChatGPT Enterprise 上架 AWS Marketplace，企业支出可计入 AWS 承诺消费。",
+      "source": "2026-11-10 / 11-14 日报 TOP 7"
+    },
+    {
+      "theme": "AI 仿真人短剧：需求已验证、供给缺口明确",
+      "evidence": "《持械入宋》截至 11 月 6 日全网累计播放超 120 亿，约 1,000 集；9 月 500 部 AI 剧登上红果榜单，仿真人剧仅 38 部（7.6%），但抖音原生端超六成播放量流向仿真人剧；红果月活约 4.3 亿（QuestMobile 2026 年 10 月数据）。",
+      "source": "2026-11-09 日报 TOP 7 第 7 条与赚钱案例"
+    },
+    {
+      "theme": "开源生图成本下降：MiniMax H3-Image",
+      "evidence": "33B 开源模型、原生 4K（4096×4096）、6 步出图、最多 16 张参考图；支持 CAD 拆解与爆炸图、复杂文本排版；API 价格为竞品 50%–70%，首周 16MP 请求五折。",
+      "source": "2026-11-13 日报 TOP 7 第 5 条"
+    },
+    {
+      "theme": "医疗 AI 收购验证：Oura 收购 Counsel Health",
+      "evidence": "Oura 6.25 亿美元收购 AI 原生初级医疗公司 Counsel Health（累计融资仅 3,600 万美元，收购价约为其融资额的 17 倍）；Oura 季度收入 5.33 亿美元（同比 +153%）、2026 财年收入约 17.5 亿美元（+92%）。",
+      "source": "2026-11-11 日报 TOP 7 第 3 条"
+    },
+    {
+      "theme": "世界模型融资分化，但仍有大钱",
+      "evidence": "Mirendil 10 亿美元 A 轮（1 名研究员、3.5 个月、不到 1,000 万美元算力训出编码模型 Mirendil-Base）；TensorWorld 物原科技天使轮＋天使+轮合计过亿美元；AMD 拟 82 亿美元收购 World Labs、亚马逊洽谈约 70 亿美元收购 Decart。",
+      "source": "2026-11-09 / 11-11 / 11-13 日报 TOP 7"
+    },
+    {
+      "theme": "Agent 技能生态成形",
+      "evidence": "anthropics/skills 11-09→11-11 +2,678 星至 192,309；mattpocock/skills 11-08→11-12 +4,375 星至 321,989；cloudflare/security-audit-skill 11-08→11-10 +2,363 星至 68,055；google/skills 11-10 为 23,773 星。",
+      "source": "2026-11-09 / 11-10 / 11-11 / 11-12 日报 github_projects"
+    }
+  ],
+  "trends_decelerating": [
+    {
+      "theme": "头部 AI 估值继续下修",
+      "evidence": "Anthropic 从 10 月初 2 万亿美元讨论价，到 11 月 9 日讨论区间 1.2–1.3 万亿美元（部分压至 1.1 万亿），再到 11 月 10 日正式定价 70–78 美元、完全摊薄约 1.4 万亿美元，缩水约三成；但认购约 6 倍，11 月 18 日最终定价见分晓。",
+      "source": "2026-11-09 / 11-11 / 11-13 / 11-14 日报 TOP 7"
+    },
+    {
+      "theme": "英伟达治理危机：从调查到辞职",
+      "evidence": "董事会 11 月 8 日启动独立调查 → 11 月 11 日晚接受黄仁勋辞呈 → 11 月 12 日黄仁勋辞职；股价本周 -12.7%、连续第六周下跌，市值跌破 4 万亿美元（7 月以来首次）；VC 称今年参与 105 轮的投资机器停摆是 AI 创业公司的直接融资风险；参议院银行委员会传唤黄仁勋 12 月 3 日作证。",
+      "source": "2026-11-09 / 11-12 / 11-13 / 11-14 日报 TOP 7"
+    },
+    {
+      "theme": "世界模型概念融资收紧",
+      "evidence": "财联社创投通不完全统计，10 月物理 AI 及世界模型一级市场融资事件共 5 起；量子位称上半年热钱汹涌、下半年“一TS难求”，头部基金愿出手的世界模型项目已屈指可数。",
+      "source": "2026-11-09 日报 TOP 7 第 2 条"
+    },
+    {
+      "theme": "算力基建“难建、贵建、还得建”",
+      "evidence": "CoreWeave Q3 收入 36.6 亿美元（同比 +168%）但净亏损 7.09 亿美元、季度利息 8.46 亿美元，转靠客户预付款（未来 3 个月约 90 亿美元）；Nebius 微软 194 亿美元合同场地延期、股价跌 17%，2027 年资本开支 400–450 亿美元；CoreWeave 7 月全线涨价约 25%、当季又涨 10%。",
+      "source": "2026-11-12 / 11-13 日报 TOP 7"
+    },
+    {
+      "theme": "Agent 权限墙越筑越高",
+      "evidence": "Anthropic 区域风控 11 月 12 日生效（S-1：过去 9 个月 5%–7% 收入来自违规客户）；美联航禁止 AI agent 代订机票（点名 Meta Muse、OpenAI Dots）；eBay 已封堵第三方 Agent 浏览网站，多家大型银行对 Agent 设限。",
+      "source": "2026-11-12 日报 TOP 7 第 5、7 条"
+    },
+    {
+      "theme": "订阅制 AI 的信任成本与版权风险上升",
+      "evidence": "Suno 被 Elvis Presley 音乐权利持有人与部分 Eminem 重要唱片出版方起诉，Presley 案援引田纳西州 ELVIS Act（禁止 AI 克隆歌手声音）；出口禁令芯片权重指纹争议：约 200 万枚先进芯片 2024–2025 年流入中国（Epoch AI 估计），方法未经官方证实。",
+      "source": "2026-11-09 / 11-14 日报 TOP 7"
+    }
+  ],
+  "cost_trend": {
+    "verdict": "下降，且是本周最集中的变化：五家厂商同周压价，执行层模型与联网工具的单位成本降幅最大；但算力基建侧成本仍在上升，CoreWeave 7 月全线涨价约 25%、当季又涨 10%，短期产能售价超 4,000 万美元/兆瓦/年。",
+    "evidence": [
+      "Anthropic Fable 5.2 / Mythos 5.2：输入 8 美元/百万 tokens、输出 40 美元/百万 tokens，比 5.1 快约 30% 且降价；可选 fast mode 提速至 2.5 倍（16/80 美元）。",
+      "Meta Muse Ember：输入 0.10 美元/百万 tokens，按任务成本约 0.14 美元/任务（AlphaSignal 引 Artificial Analysis，第三方口径），低于 Anthropic Haiku 与 OpenAI Luna。",
+      "谷歌 Gemini 4 Carbon：输入 2 美元/百万 tokens、输出 10 美元/百万 tokens，每任务成本比次优外部模型低 2 倍以上；Gemini 4 Hydrogen：1.50/7.50 美元每百万 tokens，全窗口统一定价。",
+      "谷歌 Gemini Decisions API：0.10 美元/百万输入 tokens、输出 tokens 免费，端到端延迟 150–250 毫秒，官方称比 Gemini 3.5 Flash-Lite + Interactions API 便宜近 5 倍（官方基准）。",
+      "DeepSeek deepseek-flash：峰值价 0.30/1.20 美元每百万 tokens，闲时减半；按 GPT-4o 参考价（2.50/10.00 美元）计算，峰值价低约 88%（AlphaSignal 口径）。",
+      "MiniMax H3-Image：API 价格为竞品 50%–70%，首周 16MP 请求五折。",
+      "反向证据：CoreWeave 7 月全线涨价约 25%、当季又涨 10%；Nebius 2027 年资本开支 400–450 亿美元——模型调用在降价，算力租赁在涨价。"
+    ]
+  },
+  "competition": [
+    {
+      "company": "OpenAI",
+      "action": "11 月 13 日上线 ChatGPT Wallet：Agent 可代用户完成购买，每笔购买需用户生物识别确认，令牌化支付不暴露卡号，与 Amex、Mastercard、Visa 合作，初期仅美国 Pro 用户；11 月 9 日 ChatGPT Enterprise 上架 AWS Marketplace，支出可计入 AWS 承诺消费；Bloomberg 知情人士称 Q3 收入首破 100 亿美元（Q2 为 67 亿美元），年化收入 500 亿美元，调整后经营利润率 -109%。",
+      "impact": "从模型供应商变成交易入口与渠道商：Wallet 把 12 亿周活用户变成可结算的流量，AWS 上架把企业采购变成可计入已有承诺的支出；收入破圈但仍在亏损，定价权转向“谁能帮企业把支出计入已有采购承诺”。",
+      "source_url": "https://openai.com/index/introducing-chatgpt-wallet"
+    },
+    {
+      "company": "Anthropic",
+      "action": "IPO 定价 70–78 美元、发行 8.25 亿股、募资上限约 643.5 亿美元，完全摊薄估值约 1.4 万亿美元；260 亿美元战略私募同步进入（谷歌、英伟达各 100 亿美元，AMD 25 亿美元）；认购约 6 倍，定价 11 月 18 日、11 月 19 日纳斯达克上市（ANT）；Q3 收入 169.56 亿美元、年化约 810 亿美元；同周发布 Fable 5.2/Mythos 5.2（降价提速约 30%），区域风控 11 月 12 日生效。",
+      "impact": "估值较 2 万亿美元讨论价缩水约三成，但收入与认购热度给了定价锚；区域风控把“合规”写进增长故事，IPO 前夜同时收紧与扩张——上市首日将是 AI 繁荣第一次公开市场定价检验。",
+      "source_url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+    },
+    {
+      "company": "英伟达",
+      "action": "董事会 11 月 8 日启动独立调查 → 11 月 11 日晚接受黄仁勋辞呈，11 月 12 日黄仁勋辞去总裁、CEO 与董事职务，CFO Colette Kress 临时代理、Harvey Jones 出任首任董事长；股价本周 -12.7%、连续第六周下跌，市值跌破 4 万亿美元；参议院银行委员会传唤黄仁勋 12 月 3 日作证；VC 称今年参与 105 轮的投资机器停摆。",
+      "impact": "AI 繁荣核心公司的治理与接班风险首次成为市场定价因素；芯片供应叙事短期让位于人事不确定性，创投端直接承压——黄仁勋一年参与 105 轮投资，临时代理 CEO 预计更保守、开更小的支票。",
+      "source_url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
+    },
+    {
+      "company": "谷歌",
+      "action": "Gemini 4 Carbon 全面开放（2/10 美元，每任务成本比次优模型低 2 倍以上）+ Gemini 4 Hydrogen 上线（1.50/7.50 美元）+ Gemini Decisions API 上线（0.10 美元/百万输入、输出免费）；发布 TPU 8tx（与 AMD 合作，主打机密推理）与 8i Max；Anthropic 战略私募中谷歌出资 100 亿美元。",
+      "impact": "模型、决策 API 与芯片三线同周压价，成本战从单点降价变成体系化降价；同时用 100 亿美元战略投资绑定 Anthropic，把竞争对手变成被投方。",
+      "source_url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    },
+    {
+      "company": "Meta",
+      "action": "发布 Muse Ember（输入 0.10 美元/百万 tokens、约 0.14 美元/任务），“Wonder 规划、Ember 执行”分工模式产品化；meta/astryx 本周 11-09→11-14 +9,786 星至 26,517，连续多日 Trending 日榜第 1。",
+      "impact": "轻量执行模型成为大厂标配，Agent 成本战打到“按任务计价”；开源 astryx 的爆发说明 Meta 在 Agent 安全/执行层同时抢生态位。",
+      "source_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+    },
+    {
+      "company": "微软",
+      "action": "neocloud 收缩新增实证：CoreWeave 转靠客户预付款（未来 3 个月约 90 亿美元），Nebius 微软 194 亿美元合同场地延期、其余推迟至 2027 年 Q2，微软可在宽限期后终止受影响服务并索赔；台积电拟按 Anthropic IPO 价入股 5 亿美元、OpenAI 优先股最高 5 亿美元（合计 10 亿美元）。",
+      "impact": "微软不再续签旧算力租约，neocloud 从“借债扩张”转向“预付款 + 延期交付”；算力基建的钱越来越难借、越来越依赖客户先付款，台积电同时入股两家实验室则是“循环融资”的另一面。",
+      "source_url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+    },
+    {
+      "company": "DeepSeek",
+      "action": "deepseek-flash 接入搜索、文件与安全检查，峰值 0.30/1.20 美元每百万 tokens，比 GPT-4o 参考价低约 88%；出口禁令芯片权重指纹争议把 DeepSeek V4 等模型卷入合规讨论（Unemployment Labs 权重取证，方法未经官方证实）。",
+      "impact": "联网工具调用成本被压到 GPT-4o 的约 12%，低成本联网 Agent 的价格锚再下移；但权重指纹争议让“谁在用什么芯片训练”成为新的合规与竞争变量。",
+      "source_url": "https://alphasignal.ai/news/deepseek-packs-search-files-and-safety-into-deepseek-flash-at-88-below-gpt-4o"
+    },
+    {
+      "company": "特斯拉 × SpaceX",
+      "action": "Bloomberg 11 月 12 日报道：特斯拉与 SpaceX 合并谈判取得进展，最快 12 月宣布，也可能推迟至 2027 年初；SpaceX 估值约 1.9 万亿美元、特斯拉约 1.5 万亿美元，合计约 3.4 万亿美元；特斯拉 12 月 3 日年度股东大会不表决合并事项；同周 SpaceX AI 裁撤 Grok Imagine 视频团队约 60 人，转向编码 Agent。",
+      "impact": "若成行将是史上最大合并，AI 算力（SpaceX/xAI）与终端（特斯拉）合流；Grok 视频团队被裁说明视频生成赛道中国公司领先，大厂也在收缩战线。",
+      "source_url": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus"
+    }
+  ],
+  "github_weekly": {
+    "hot": [
+      {
+        "project": "meta/astryx",
+        "repo_url": "https://github.com/meta/astryx",
+        "change_2d": "11-09 16,731 → 11-14 26,517，五日 +9,786（+58.5%），连续多日 Trending 日榜第 1",
+        "solves": "Meta 的 Agent 安全/执行框架",
+        "verdict": "本周涨幅最大的开源项目，Meta 在 Agent 执行层抢生态位"
+      },
+      {
+        "project": "morluto/rea",
+        "repo_url": "https://github.com/morluto/rea",
+        "change_2d": "11-08 440,989 → 11-12 452,694，四日 +11,705",
+        "solves": "反向工程任意事物的 TypeScript Agent",
+        "verdict": "仍在涨，但已是 45 万星的巨型项目，早期窗口已过"
+      },
+      {
+        "project": "storytold/craft-anything",
+        "repo_url": "https://github.com/storytold/craft-anything",
+        "change_2d": "11-08 20,571 → 11-12 28,379，四日 +7,808（+38.0%）",
+        "solves": "一句话生成可交互的视频与软件原型",
+        "verdict": "上周黑马继续加速，四日涨近四成"
+      },
+      {
+        "project": "mattpocock/skills",
+        "repo_url": "https://github.com/mattpocock/skills",
+        "change_2d": "11-08 317,614 → 11-12 321,989，四日 +4,375",
+        "solves": "可复用的 Agent 技能集合与规范",
+        "verdict": "技能生态入口，配合官方 skills 库同步上涨"
+      },
+      {
+        "project": "vercel-labs/agent-browser",
+        "repo_url": "https://github.com/vercel-labs/agent-browser",
+        "change_2d": "11-08 46,811 → 11-12 49,857，四日 +3,046",
+        "solves": "给 AI Agent 用的浏览器自动化 CLI",
+        "verdict": "Agent 上网操作、自动化测试与 RPA 的新入口"
+      },
+      {
+        "project": "anthropics/skills",
+        "repo_url": "https://github.com/anthropics/skills",
+        "change_2d": "11-09 189,631 → 11-11 192,309，两日 +2,678",
+        "solves": "Anthropic 官方 Agent Skills",
+        "verdict": "官方技能库与社区 skills 库同步上涨，技能分发层成形"
+      },
+      {
+        "project": "cloudflare/security-audit-skill",
+        "repo_url": "https://github.com/cloudflare/security-audit-skill",
+        "change_2d": "11-08 65,692 → 11-10 68,055，两日 +2,363",
+        "solves": "多阶段安全审计技能，检查 Agent 写的代码",
+        "verdict": "Agent 安全主题在开源侧同步升温，厂商亲自下场做技能"
+      },
+      {
+        "project": "openai/codex-security",
+        "repo_url": "https://github.com/openai/codex-security",
+        "change_2d": "11-13 12,409 → 11-14 13,124，单日 +715，Trending 日榜第 3",
+        "solves": "OpenAI 的 Codex 安全审计相关仓库",
+        "verdict": "本周新上榜的安全仓库，与泄密事件同频"
+      }
+    ],
+    "monitored": [
+      {
+        "project": "openai/codex",
+        "repo_url": "https://github.com/openai/codex",
+        "change_2d": "+1,602（133,586 → 135,188）"
+      },
+      {
+        "project": "Comfy-Org/ComfyUI",
+        "repo_url": "https://github.com/Comfy-Org/ComfyUI",
+        "change_2d": "+1,092（145,600 → 146,692）"
+      },
+      {
+        "project": "anthropics/claude-code",
+        "repo_url": "https://github.com/anthropics/claude-code",
+        "change_2d": "+661（154,909 → 155,570）"
+      },
+      {
+        "project": "ollama/ollama",
+        "repo_url": "https://github.com/ollama/ollama",
+        "change_2d": "+613（186,283 → 186,896）"
+      },
+      {
+        "project": "langgenius/dify",
+        "repo_url": "https://github.com/langgenius/dify",
+        "change_2d": "+485（160,634 → 161,119）"
+      },
+      {
+        "project": "ragflow/ragflow",
+        "repo_url": "https://github.com/infiniflow/ragflow",
+        "change_2d": "+347（11-09 93,781 → 11-14 94,128，五日）"
+      },
+      {
+        "project": "1Panel-dev/MaxKB",
+        "repo_url": "https://github.com/1Panel-dev/MaxKB",
+        "change_2d": "+34（11-09 23,121 → 11-14 23,155，五日）"
+      }
+    ],
+    "note": "本周为系列首次完整 7 天星增对比（基线 11-08 日报连接器核实值，终值 11-14 日报连接器核实值；astryx 等 11-08 未上榜者以首次出现日为基线，已注明）。监控大仓库本周均小幅上涨、无新版本；QwenLM/Qwen3 本周 0 增长（11-14 为 27,729 星）、最后推送 2026 年 1 月 9 日，仍停滞。Trending 日榜为浏览器每日 08:30 左右读取（全球榜，未登录）。",
+    "releases": [
+      "本周监控仓库（codex、claude-code、dify、ComfyUI、ollama、ragflow、MaxKB）均无新版本发布，11-09 至 11-14 各日报 github_notes 均为常规提交维护。",
+      "本周值得注意的开源发布：MiniMax H3-Image 11 月 12 日开源（33B，原生 4K）；openai/codex-security 11 月 13 日新上榜 Trending，单日 +715 星。"
+    ]
+  },
+  "re_ratings": [
+    {
+      "title": "AI Agent 权限与安全治理（垂直工具）",
+      "prev_score": 74,
+      "new_score": 76,
+      "change": "上调",
+      "reason": "证据从“并购验证”升级到“并购 + 本周三起正在发生的泄密实证 + 立法开闸”，需求真实性再确认；但大厂直接下场（Cloudflare 开源审计技能）限制独立空间，上调幅度有限。",
+      "evidence": "Claude Code 泄密（10 万+文件、约 1,100 个含秘密、63 个组织）、Grok Build 3.5 万应用公开、Fireworks 入侵致 Notion 约 1% 客户聊天记录被盗、纽约 RAISE 法案开闸注册；Palo Alto 拟 5 亿美元收购 Clutch 仍成立。"
+    },
+    {
+      "title": "AI 短剧与内容生产的低成本工作流",
+      "prev_score": 66,
+      "new_score": 68,
+      "change": "上调",
+      "reason": "证据从“平台收入”升级到“播放量 + 供给缺口双验证”，但收入未公开，上调幅度有限。",
+      "evidence": "《持械入宋》截至 11 月 6 日全网累计播放超 120 亿；9 月 500 部 AI 剧上榜，仿真人剧仅 38 部（7.6%），抖音原生端超六成播放量流向仿真人剧。"
+    },
+    {
+      "title": "推理成本优化与模型路由",
+      "prev_score": 70,
+      "new_score": 72,
+      "change": "上调",
+      "reason": "降价从单家行为变成全行业同步动作，路由层需求验证加强；但云厂商自带路由仍是主要威胁，上调幅度有限。",
+      "evidence": "本周五家同周压价：Fable 5.2 降价、Ember 0.10 美元/百万、Gemini 4 Carbon/Hydrogen、Decisions API、DeepSeek flash 低约 88%。"
+    },
+    {
+      "title": "销售 Agent 的垂直切片",
+      "prev_score": 72,
+      "new_score": 72,
+      "change": "维持",
+      "reason": "证据未变，维持判断。",
+      "evidence": "本周无新增销售 Agent 直接证据；LangChain 7,000 家 LangSmith 客户为相邻赛道验证，非销售场景。"
+    },
+    {
+      "title": "企业知识库的确定性查询层",
+      "prev_score": 72,
+      "new_score": 72,
+      "change": "维持",
+      "reason": "证据未变，维持判断。",
+      "evidence": "本周无新增确定性查询层证据，auto-ontology 未再上榜。"
+    },
+    {
+      "title": "AI 品牌短剧与内容电商制作",
+      "prev_score": 66,
+      "new_score": "合并",
+      "change": "合并跟踪",
+      "reason": "上周已决定与短剧工作流合并为同一主题跟踪，本周起不再单独评分。",
+      "evidence": "与“AI 短剧与内容生产的低成本工作流”同源，本周《持械入宋》证据计入短剧工作流。"
+    }
+  ],
+  "new_opportunities": [
+    {
+      "acquisition_pricing": "按商家获客效果收费：资料搭建一次性收费＋按月代运营；用“ChatGPT 内被问到次数/点击”作获客钩子",
+      "big_company_threat": "中高。OpenAI 自己可能推模板化商家工具；本地生活服务商（美团、点评类）与 SEO 公司会跟进",
+      "china_vs_overseas": "海外先行：ChatGPT 是英文世界的主要发现入口；国内对应机会在豆包/抖音商城的 AI 搜索入口，逻辑相同、平台不同",
+      "competitors": "SEO 与本地生活代运营公司；OpenAI 官方 Business Hub 工具本身",
+      "cost": "人力成本为主，模型 API 按量计费；首月几千元人民币量级（估算，未核实）",
+      "customer": "有线下门店或服务的本地商家（餐饮、医美、教育、家政、汽修等）",
+      "evidence_strength": "强。Business Hub 11 月 10 日上线 beta（官方发布），商家资料＋Business Agent＋曝光数据三件套齐全；但商家实际获客效果与收费模式尚未公布",
+      "mvp": "给 3 家本地商家做 ChatGPT 商家资料＋Business Agent 问答，跑 2 周看曝光与咨询量，再决定是否收费代运营",
+      "need": "OpenAI 11 月 10 日上线 Business Hub（beta）：企业可创建可验证的商家资料、上线专属 Business Agent 供用户提问、查看曝光与点击等经营数据；ChatGPT 正从聊天工具变成商家发现入口，但大多数中小商家不知道怎么做",
+      "score": 72,
+      "solo_entry": "能，做商家资料搭建与代运营，不做平台",
+      "title": "ChatGPT 商家获客服务（Business Hub 代运营）",
+      "who_pays": "本地商家为“在 ChatGPT 里被找到”付费；OpenAI 暂未公布对商家的收费模式",
+      "basis": "Business Hub 11 月 10 日上线 beta（官方发布），商家资料＋Business Agent＋曝光数据三件套齐全；但商家实际获客效果与收费模式尚未公布。"
+    },
+    {
+      "acquisition_pricing": "按迁移项目固定收费；用“不断供检查清单”免费获客，再收迁移与代运维费",
+      "big_company_threat": "中高。Anthropic 自己可能放宽或收紧政策；阿里、谷歌、OpenAI 的官方迁移通道会压缩中介空间",
+      "china_vs_overseas": "国内刚需最强：Claude Code 在国内开发者中渗透深，替代模型（Qwen4-Max 预览、Gemini、GPT）各有短板；海外无此需求",
+      "competitors": "各家模型厂商的官方迁移工具；Claude 代理/转卖中介（正被封杀）；Qwen、Gemini、GPT 的国内代理商",
+      "cost": "时间成本为主；测试用 API 按量计费；首月几百至一千多元量级（估算，未核实）",
+      "customer": "在中国使用 Claude Code/Claude API 的开发者与小团队，以及做 Claude 转卖/代理的中介",
+      "evidence_strength": "中。政策本身为 36kr 转载自媒体文章，未见官方原文；但 S-1 的 5%–7% 违规收入数字可核实，且风控收紧方向与 IPO 前“干净招股书”逻辑一致",
+      "mvp": "给 5 个国内 Claude Code 用户做一次迁移评估：记录其插件、MCP、skills 清单，出一份平替方案与成本对比，跑 1 周验证",
+      "need": "Anthropic 11 月 12 日收紧区域风控（36kr/新智元口径）：不支持地区物理位置、注册地、控股关系三条红线，消费级订阅转发与转卖代理被点名封杀；S-1 披露 5%–7% 收入来自违规客户；大量国内用户面临限速、拔线、永久封号",
+      "score": 72,
+      "solo_entry": "能。1 人做迁移服务：评估用户现有 Claude 工作流 → 平移到 Qwen Code/Gemini/Claude 官方合规渠道 → 保留 prompts 与配置",
+      "title": "Claude 合规迁移与替代服务",
+      "who_pays": "国内 Claude 重度用户为“不断供 + 合规迁移”付费；按次/按月收迁移与代运维费",
+      "basis": "Anthropic 区域风控 11 月 12 日生效（36kr/新智元口径，未见官方原文）；S-1 的 5%–7% 违规收入数字可核实；国内 Claude Code 渗透深，迁移需求真实，但窗口可能随政策放宽或收紧而消失。"
+    },
+    {
+      "acquisition_pricing": "按量或按月收调研与文档处理服务费；用“一次联网调研 0.1 元”作获客钩子，再收批量任务包月费",
+      "big_company_threat": "中高。DeepSeek 自己做 API 且价格已极低；GPT、Gemini 的官方联网方案会压缩套壳空间；胜负手在垂直场景的交付质量，不在模型本身",
+      "china_vs_overseas": "中国优势：DeepSeek 定价与中文搜索理解；海外同样需要低成本联网 Agent，但面临数据合规（数据存于中国、可用于训练，隐私政策口径）顾虑",
+      "competitors": "GPT、Gemini、Claude 的官方联网与文件处理；各类 Agent 套壳产品；DeepSeek 官方 API 直用",
+      "cost": "API 按量计费：峰值 0.30/1.20 美元每百万 tokens，搜索/抓取 0.75 美元/千次；首月几百元量级（按官方定价估算）",
+      "customer": "需要低成本联网调研、文件解析与 URL 阅读的中小团队：投研、法务、内容、电商选品",
+      "evidence_strength": "中强。AlphaSignal 11 月 13 日报道（基于 DeepSeek API 文档）：deepseek-flash 接入搜索、文件、URL、安全检查；价格与 DeepSeek 官方定价页一致（峰值 0.30/1.20，GPT-4o 约 2.50/10.00，低约 88%）",
+      "mvp": "用 deepseek-flash 给 3 个客户各跑 20 次联网调研任务，记录单次成本、引用准确率与客户采用率，再谈收费",
+      "need": "DeepSeek 把聊天 App 的能力搬进 deepseek-flash API：联网搜索、多步搜索、文件解析、URL 阅读、安全检查一次齐全；峰值价比 GPT-4o 低约 88%，搜索与抓取另按 0.75 美元/千次计费",
+      "score": 70,
+      "solo_entry": "能。1 人做垂直场景联网 Agent 服务：锁定 1 个场景（如选品调研、合同初筛）做提示词与交付模板，不做通用平台",
+      "title": "DeepSeek Flash 低成本联网 Agent 服务",
+      "who_pays": "中小团队为“联网调研与文档处理成本下降 + 交付更快”付费；按量或按月订阅",
+      "basis": "deepseek-flash 11 月 13 日接入搜索、文件、URL 与安全检查，峰值价比 GPT-4o 低约 88%（AlphaSignal 按官方定价页计算）；胜负手在垂直场景交付质量，不在模型本身。"
+    }
+  ],
+  "top3": [
+    {
+      "acquisition_pricing": "按张/按项目收费；用“4K 产品图 0.2 元一张”作获客钩子，再收模板与批量处理月费",
+      "big_company_threat": "中高。MiniMax 自己做 API 且首周五折；美图、稿定等工具商与 GPT Image、Nano Banana 会压缩空间",
+      "china_vs_overseas": "中外同步：国内电商卖家要产品图与装修效果图，海外独立站与游戏概念设计同样需要；中文提示词理解是国产模型的相对优势",
+      "competitors": "GPT Image、Nano Banana、Flux 等闭源生图；MiniMax 官方 API；美图、稿定等设计工具",
+      "cost": "API 按量计费（竞品 50%–70%）；自部署需 GPU，起步成本高，建议先走 API；首月几百元量级（估算，未核实）",
+      "customer": "跨境电商与独立站卖家、内容团队、游戏与装修行业需要批量视觉资产的中小客户",
+      "evidence_strength": "强。量子位 11 月 12 日实测与 AlphaSignal 报道一致：33B 开源、原生 4K（4096×4096）、6 步出图、最多 16 张参考图；API 定价为量子位口径",
+      "mvp": "用 H3-Image API 给 3 个卖家各做 20 张产品图，记录单张成本、出图时间与客户采用率，再谈收费",
+      "need": "MiniMax H3-Image 开源：33B 模型、原生 4K、6 步出图，支持 CAD 拆解与爆炸图、复杂文本排版；API 价仅为竞品 50%–70%，首周 16MP 请求五折；高精度生图从“玩具”变成可交付的商业资产",
+      "score": 76,
+      "solo_entry": "能。1 人做垂直场景视觉资产服务：锁定 1 个品类（如服装、家居、游戏概念图）做模板 + 交付，不做通用平台",
+      "title": "H3-Image 低成本视觉资产服务",
+      "who_pays": "中小卖家与内容团队为“单张 4K 图成本下降 + 交付更快”付费；按张或按月订阅",
+      "basis": "量子位 11 月 12 日实测与 AlphaSignal 报道一致：33B 开源、原生 4K（4096×4096）、6 步出图、最多 16 张参考图；API 价为竞品 50%–70%，首周 16MP 请求五折；本周 6 期日报中的最高分。"
+    },
+    {
+      "acquisition_pricing": "按商家做接入包固定收费；用“Agent 可买检查清单”免费获客，再收 feed 搭建与风控调优费",
+      "big_company_threat": "中高。OpenAI 自己推 Playbook 与官方工具；Stripe、Adyen 等支付商会把 Agent 识别做进标准产品，压缩中介空间",
+      "china_vs_overseas": "海外先行：Wallet 初期仅美国 Pro 用户；国内对应的是各家 Agent 与支付通道的同类接入需求，晚半拍但逻辑相同",
+      "competitors": "OpenAI 官方 Commerce Partner Playbook 与工具；Stripe、Adyen、Checkout.com 的 Agent 支付方案；各电商平台自己的 Agent 接入",
+      "cost": "时间成本为主；测试用 API 与支付沙箱按量计费；首月几百至一千元量级（估算，未核实）",
+      "customer": "有独立站或品牌电商的中小商家：商品能被 ChatGPT 搜到，但 Agent 下单会被自家防火墙或风控拦掉",
+      "evidence_strength": "强。OpenAI 官方 11 月 13 日发布：Wallet 每笔购买需用户生物识别确认、令牌化支付不暴露卡号；与 Amex、Mastercard、Visa 合作；Forter、Riskified、Sardine、Signifyd 与 Adyen、Checkout.com、Stripe 参与识别 Agent 交易",
+      "mvp": "给 2 家独立站做一次 Agent 可买审计：认领商家信息、上传商品 feed、配置 Web Bot Auth、跑一笔测试购买，记录被拦环节与修复成本",
+      "need": "ChatGPT Wallet 上线：Agent 可以代用户完成购买，但大量网站会无意中拦截 Agent 请求、风控会拒掉令牌支付；商家需要有人帮它把“能被搜到”变成“能被买到”",
+      "score": 74,
+      "solo_entry": "能。1 人做 Agent 电商接入服务：审计 → feed 与 Bot Auth 配置 → 风控调优 → 按商家收费",
+      "title": "Agent 电商代付接入服务",
+      "who_pays": "中小商家为“Agent 能下单、不被拦”付费；按接入项目或按月收服务费",
+      "basis": "OpenAI 官方 11 月 13 日发布 ChatGPT Wallet：每笔购买需用户生物识别确认、令牌化支付不暴露卡号；与 Amex、Mastercard、Visa 合作；初期仅美国 Pro 用户，窗口在商家接入侧。"
+    },
+    {
+      "acquisition_pricing": "开源探针获客，再对企业版审计面板按年收费",
+      "big_company_threat": "高。安全大厂直接收购赛道公司；Cloudflare 已下场做开源审计技能",
+      "china_vs_overseas": "国内 Agent 落地刚起步，安全合规（等保、数据出境）是更强的刚需，但企业付费意愿待验证；海外并购已验证付费",
+      "competitors": "Clutch、Oasis、Astrix、Upwind；cloudflare/security-audit-skill；Apiiro；Claroc（Grok Build 泄密发现方）",
+      "cost": "模型 API 按量计费，服务器用云函数起步，首月几百至几千元人民币量级（估算，未核实）",
+      "customer": "已部署 AI Agent 与 vibe-coding 工具的企业 IT 与安全团队",
+      "evidence_strength": "强。本周三起泄密实证（Claude Code、Grok Build、Fireworks/Notion）与纽约 RAISE 法案开闸注册；Palo Alto 拟 5 亿美元收购 Clutch 仍成立",
+      "mvp": "一个扫描 vibe-coding 应用公开分享链接的轻量工具（查默认分享设置与 DNS 可枚举性），或记录 Agent 每一次工具调用、标出越权操作的审计面板，先接 Dify 或 RAGFlow 的企业客户",
+      "need": "Grok Build 默认分享为“Anyone with the link”，随机值放在子域名而非路径中，可被被动 DNS 枚举：Claroc 发现 43,601 个 grok.me 链接中超过 3.5 万个公开，含财富 500 强员工数据、国防承包商资料与 SpaceXSI 自家 24 个应用；Meta 的 Muse 此前已因类似泄漏暂停链接分享",
+      "score": 76,
+      "solo_entry": "能，但不做平台，做垂直审计工具或开源探针，例如“Agent 操作录像 + 越权告警”或“分享链接泄密扫描”",
+      "title": "AI Agent 权限与安全治理（垂直工具）",
+      "who_pays": "安全厂商在付费（Palo Alto 拟 5 亿美元收购 Clutch，约 50 倍 ARR）；Accenture 现为每名员工每月资助 29 美元 Claude",
+      "basis": "上周周报评分 74；本周新增三起泄密实证与立法开闸，证据从“并购验证”升级到“并购 + 正在发生的攻击链 + 立法”，上调至 76。"
+    }
+  ],
+  "avoid": {
+    "title": "暂缓：做基础世界模型（从头训物理/世界基础模型）",
+    "reason": "10 月物理 AI 及世界模型一级市场融资事件仅 5 起，概念溢价已缩水；但 AMD 拟 82 亿美元收购 World Labs、亚马逊洽谈约 70 亿美元收购 Decart，大厂直接下场收购基础模型公司——小团队做基础世界模型既拿不到钱，也拼不过并购价。Mirendil 10 亿美元 A 轮的“一人训出前沿模型”（1 名研究员、3.5 个月、不到 1,000 万美元算力）是例外中的例外，不是可复制的路径。",
+    "alternative": "做垂类应用：机器人动作数据、仿真场景生成、视频编辑工具；或做世界模型的数据与评估服务（参考 TensorWorld 的 GeoPT 工业仿真路线），不碰基础模型训练。"
+  },
+  "action": "本周做一次最小验证，分两步：第一，对照 ChatGPT Wallet 的 Commerce Partner Playbook，给自己在用的一个产品或独立站做一次“Agent 可买”检查（商品信息认领、feed 上传、Web Bot Auth 配置、支付风控是否拒令牌支付），30 分钟列出 3 项要改的地方，先改最便宜的那一项；第二，用 H3-Image API 给一个真实客户做 20 张 4K 产品图，记录单张成本、出图时间与客户采用率——这是本周最高分机会（76 分）的最低成本验证。",
+  "watchlist": [
+    "英伟达 11 月 17 日 Q3 财报电话会与接班人进展（Kress 临时代理）",
+    "Anthropic IPO：11 月 18 日最终定价、11 月 19 日纳斯达克上市首日表现（ANT）",
+    "OpenAI Q3 收入首破 100 亿美元是否官方确认；年化 500 亿美元口径",
+    "Anthropic 区域风控官方政策文本与完整国家名单（目前仅见 36kr 转载自媒体口径）",
+    "美联航禁令后其他航司、银行是否跟进 Agent 交易限制",
+    "ChatGPT Wallet 商家实际接入率与拒付率；Business Hub beta 商家转化数据",
+    "CoreWeave / Nebius 预付款模式：Nebius 微软合同是否接受新交付日期",
+    "Grok Imagine 后续是否实质停更；SpaceX AI 转向编码 Agent 的进展",
+    "特斯拉 × SpaceX 合并谈判：12 月 3 日股东大会前是否谈妥换股比例",
+    "出口禁令芯片权重指纹：美国政府是否跟进调查",
+    "Mirendil Lor 公开后的实际采用；“一人训模型”口径能否复现",
+    "H3-Image 在 Hugging Face 的下载与商用反馈；MiniMax API 首周五折后的定价",
+    "Mercor：H1 实际收入 6.14 亿美元后，留存利润率与 30 亿美元年化口径能否兑现",
+    "Oura / Counsel 收购完成后的付费用户转化（预计 2027 年底前完成）",
+    "LangChain：LangSmith 7,000 家客户的付费转化与留存"
+  ],
+  "sources_quality": {
+    "anomaly": "36氪官方 RSS 4 个源已连续 9 天失效（2026-11-06 至 11-14，返回 HTTP 200 但正文为 HTML 而非 XML），暂以 36kr 热榜 RSSHub 源替代；OpenAI Release Notes 已连续 8 天无法访问（11-07 起 403 或连接中断），两源均已超过 3 天异常线。",
+    "rss_checks": {
+      "2026-11-09": {
+        "total": 40,
+        "available": 31,
+        "dead": 4
+      },
+      "2026-11-10": {
+        "total": 40,
+        "available": 35,
+        "dead": 4
+      },
+      "2026-11-11": {
+        "total": 40,
+        "available": 35,
+        "dead": 4
+      },
+      "2026-11-12": {
+        "total": 40,
+        "available": 35,
+        "dead": 4
+      },
+      "2026-11-13": {
+        "total": 40,
+        "available": 31,
+        "dead": 4
+      },
+      "2026-11-14": {
+        "total": 40,
+        "available": 35,
+        "dead": 5
+      }
+    },
+    "notes": [
+      "本周 40 个 RSS 源每日检查：可用 31–35 个，失效 4–5 个；11-09 与 11-13 可用数降至 31 个，主因是部分源当日无新条目（周末/发布节奏），非源失效。",
+      "arXiv 4 个源 11 月 13 日返回 HTTP 200 但条目为 0（首次出现），11 月 14 日恢复正常；11 月 9 日 0 条为周一发布节奏问题。",
+      "Microsoft AI 最新条目仍停留在 2026 年 10 月 21 日（11-14 日报），已 24 天未更新；Mistral AI 最新为 11 月 5 日。",
+      "Anthropic 区域风控为 36kr 转载自媒体文章口径，未逐字引用官方公告、未附官方政策链接与完整国家名单；S-1 的 5%–7% 违规收入数字为可核实锚点。",
+      "Anthropic IPO 认购约 6 倍为 Bloomberg 知情人士口径，非招股文件；Mercor 30 亿美元年化收入为 CEO 个人 X 发文口径，未经审计；H1 实际收入 6.14 亿美元为 The Information 报道口径。",
+      "GitHub 星数：监控仓库由 GitHub 连接器当日核实；Trending 日榜为浏览器每日 08:30 左右读取（全球榜，未登录），星数为页面显示值，与连接器复核值一致（±5 星内，页面略有滞后）。",
+      "机会评分 0–100 为主观判断依据，不是真实市场统计数字。"
+    ],
+    "gaps": [
+      "AI 教育、B2B/B2G 政府采购：本周 6 期日报均未找到可核实的新项，未用旧案例充数。",
+      "1–5 人团队收入案例：本周以 Shield（OpenAI 官方客户案例，每月数千次浏览器运行）与 Gondola（收入同比翻倍以上）为信号，但绝对收入数字均未公开。",
+      "11-15 当日日报尚未出刊，本周报未纳入 11-15 当日窗口。",
+      "特斯拉 × SpaceX 合并、OpenAI Q3 收入、Anthropic IPO 认购倍数均为知情人士/媒体口径，非官方公告。"
+    ]
+  }
+}
