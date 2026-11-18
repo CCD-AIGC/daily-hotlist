@@ -211,8 +211,18 @@
       "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
       "title": "AI创业与内容起号调研",
       "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+    },
+    {
+      "date": "2026-11-18",
+      "file": "research/2026-11-18-ai-startup-creator-research-hub.html",
+      "note": "严格用 research-hub v1.1.0；窗口 2026-11-12 至 2026-11-18，76 条唯一 URL（53 条 recent），状态 partial；英伟达开源战略表态不变、财报窗口到，Anthropic IPO 定价日本轮无新证据；Agent 一周 8 款 PH 新品 + Pedestal 470 万美元、Daydream 购物 agent，哈佛研究说编码 agent 瓶颈移到 code review；Qwen4-Max 实测与从 0-1 复刻 3D 游戏、WorkBuddy 做微信小程序；Google AI 答案致搜索流量 -40%（单一来源未核实）；Genesis AI 5 亿美元 A 轮估值 35 亿美元；B站实时热门 2 条 AI 命中、抖音存档连续两日未生成已用浏览器直访补位；B站引擎 0 返回、抖音 / 小红书引擎失败、Reddit 403、百度 10 条与知乎 8 条、grounding 5 条全部 unknown 日期只作线索。",
+      "source": "Research Hub",
+      "source_slug": "research-hub",
+      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+      "title": "AI创业与内容起号调研",
+      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
     }
   ],
   "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
-  "updated": "2026-11-17"
+  "updated": "2026-11-18"
 }
