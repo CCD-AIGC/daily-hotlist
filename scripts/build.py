@@ -113,6 +113,24 @@ def highlight_rows(day):
     return "\n".join(rows)
 
 
+def summary_section(day):
+    """今日流行总结：daily_summary 缺失或为空时返回空串，往期页重渲染一字不变。
+    样式用内联写在总结框自身上，不进共享 CSS，避免往期页被改动。"""
+    s = day.get("daily_summary") or {}
+    b = (s.get("bilibili") or "").strip()
+    d = (s.get("douyin") or "").strip()
+    if not b and not d:
+        return ""
+    parts = []
+    if b:
+        parts.append(f'<p style="margin:10px 0;font-size:15px"><span style="display:inline-block;background:#2563eb;color:#fff;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700;margin-right:8px">B站</span>{esc(b)}</p>')
+    if d:
+        parts.append(f'<p style="margin:10px 0;font-size:15px"><span style="display:inline-block;background:#2563eb;color:#fff;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700;margin-right:8px">抖音</span>{esc(d)}</p>')
+    return ('<section id="summary" style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:16px;'
+            'padding:18px 20px;margin-top:18px;box-shadow:0 1px 3px rgba(16,24,40,.06)">'
+            '<h2 style="margin:0 0 6px">今日总结</h2>' + "\n".join(parts) + "</section>")
+
+
 CSS = """
 :root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb;--pink:#fb7299}
 *{box-sizing:border-box}
@@ -166,9 +184,12 @@ footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
 def render(day, all_dates, prev_day=None):
     baseline = "首版基线：没有昨日可比，不标注新上榜 / 增速。" if day.get("is_baseline") else "与昨日同一来源、同一口径比较，每条后标昨日排名。"
     archive_links = "\n".join(
-        f'<a href="./archive/{d}.html">{d}</a>' for d in all_dates
+        f'<a href="./archive/{d}.html">{d}</a>' for d in all_dates if d <= day["date"]
     )
     notes = "\n".join(f"<li>{esc(n)}</li>" for n in day.get("notes", []))
+    summary = summary_section(day)
+    summary_block = (summary + "\n") if summary else ""
+    nav_summary = '<a href="#summary">今日总结</a>' if summary else ""
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -185,10 +206,10 @@ def render(day, all_dates, prev_day=None):
 <p>抓取时间（北京时间）：{esc(day.get('fetched_at_cst', ''))} · {baseline}</p>
 </div></header>
 <div class="wrap">
-<nav class="nav"><a href="#diff">昨日对比</a><a href="#highlights">值得看</a><a href="#bilibili">B站热门</a><a href="#douyin">抖音热榜</a><a href="#sources">来源与口径</a><a href="#archive">往期存档</a></nav>
+<nav class="nav">{nav_summary}<a href="#diff">昨日对比</a><a href="#highlights">值得看</a><a href="#bilibili">B站热门</a><a href="#douyin">抖音热榜</a><a href="#sources">来源与口径</a><a href="#archive">往期存档</a></nav>
 <input class="search" id="q" type="search" placeholder="搜榜单里的标题，比如：大肥鱼、DeepSeek…" aria-label="搜索榜单标题">
 <p class="empty" id="empty">没有匹配的标题，换个关键词试试。</p>
-{diff_section(day, prev_day)}
+{summary_block}{diff_section(day, prev_day)}
 <section id="highlights"><h2>值得看<small>和 AI、知识、虚拟主播、鲸鱼娘、DeepSeek 直接相关的条目</small></h2>
 <div class="hl-grid">
 {highlight_rows(day)}
