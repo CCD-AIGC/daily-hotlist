@@ -1,0 +1,2785 @@
+{
+  "generated_at": "2026-11-19T15:22:25+08:00",
+  "count": 397,
+  "items": [
+    {
+      "id": "content-radar-20261119-00",
+      "title": "[内容雷达 89分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试",
+      "summary": "仍是本期最高分：11 月单条播放最高的趋势帖（3940 万）+ 趋势总计约 1.26 亿播放，一张照片 12 秒成本极低，圣诞窗口明确（至 12-25）。本土化切口：中式圣诞树场景（商场圣诞树、家里小圣诞树）、情侣 / 闺蜜 / 母女版，睡衣换成中式家居服；别用真人原片冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "content-radar-20261119-01",
+      "title": "[内容雷达 88分] 巨浪 / Tidal Wave 海边大浪拍扁 — 值得低成本试",
+      "summary": "本期第二高分：11-13 原帖、11-17 当日新上榜，趋势总计约 5700 万播放，一张照片 13 秒成本极低。本土化切口：台风天海边、钱塘江大潮、青岛栈桥 / 厦门海边栏杆，情侣或闺蜜双人版；别用真实灾害画面冒充，标注 AI 生成，注意海边拍摄安全提示。",
+      "category": "AI内容格式",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "content-radar-20261119-02",
+      "title": "[内容雷达 86分] 厄齐尔进球换脸 / Özil goal — 值得低成本试",
+      "summary": "本期最新格式：oVideo 11 月榜单首位，一张照片 15 秒成本极低，换脸家族已被多模板站验证。本土化切口：换成国足 / 中超名场面进球、野球场版、爷爷奶奶版；用自己的照片，别用他人肖像冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "content-radar-20261119-03",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式之一。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "content-radar-20261119-04",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "content-radar-20261119-05",
+      "title": "[内容雷达 83分] AI 精灵舞 / Elf Dance — 值得低成本试",
+      "summary": "本期新格式：圣诞季 rising，一张照片成本极低，与雪人舞同属已验证的圣诞舞类窗口，可打包成系列一起发。本土化切口：宠物精灵版（猫 / 狗穿精灵装）、孩子精灵版；标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-00",
+      "title": "[GitHub雷达 93分] elementalsouls/Claude-BugHunter — Claude Code 漏洞猎手技能包：82 个 skills + 15 条斜杠命…",
+      "summary": "11358★ · C 档约 24h +2,115，今日全场最大增量；6h +361（约 +60/h）较昨日 +79/h 回落，未守住 +100/h 线；P1 已确认，不重复报警；Trending 榜单口径差异待核（KU 轮记第 1 位，本版两次直取未见）。 · 上手：按文档装入 Claude Code skills 目录即用，需自行承担授权合规责任。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-01",
+      "title": "[GitHub雷达 92分] google-research/paper-orchestra — Google Research 多智能体框架：自动写 AI 研究论文，多智能体协作…",
+      "summary": "4274★ · B 档约 24h +1,309，B 档最大增量；6h +199（约 +33/h）大幅减速；P1 已确认，不重复报警；Trending 日榜第 8 位，今日 +1,524。 · 上手：按文档部署，需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-02",
+      "title": "[GitHub雷达 90分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "37004★ · C 档约 24h +1,297；6h +293（约 +49/h）仍加速；P1 已报警。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-03",
+      "title": "[GitHub雷达 89分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "27183★ · C 档约 24h +1,175；P1 已确认；dsh 生态第二波维持高位。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-04",
+      "title": "[GitHub雷达 88分] dream-num/univer — AI 办公 SDK：把电子表格、文档、幻灯片放进自己的产品或 agent 流程。",
+      "summary": "29880★ · C 档约 24h +984；老仓再热（创建于 2022-09-29）。 · 上手：按文档把 SDK 接入产品或 agent 流程，需一定开发量。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-05",
+      "title": "[GitHub雷达 87分] Tencent/LoopForge — 自托管 coding-agent 交付工作流：编排 CodeBuddy、Codex 与 Claude Code…",
+      "summary": "3799★ · B 档约 24h +687；但 6h 仅 +24（约 +4/h）继续减速，增量集中在昨日白天；P1 已确认，不重复报警；3 倍中位未证实，P2 不触发。 · 上手：自托管部署，需自备 agent 环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-06",
+      "title": "[GitHub雷达 86分] libracoder/kiri — 免费开源 Docker Desktop / OrbStack 平替：小而快的容器运行时，兼容 docker CLI…",
+      "summary": "10781★ · C 档约 24h +679；P1 已确认，不重复报警；11-10 发布 0.2.0 后多榜同步发酵。 · 上手：下载安装包即可用，建议先在一次性项目试用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-07",
+      "title": "[GitHub雷达 85分] heydamir/unslop — Claude Code skill：把 AI 味十足的界面变成有设计感的界面。",
+      "summary": "18278★ · C 档约 24h +518；6h +82（约 +14/h）；P1 已确认；慢燃 7d 距 C 档 5,000 线 >1,300，未达慢燃 P2。 · 上手：Claude Code skills，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-08",
+      "title": "[GitHub雷达 84分] yetone/magpie — 每个 agent 的模型中枢：菜单栏里切换 Codex、Claude Code 的底层模型。",
+      "summary": "38611★ · C 档约 24h +518；P1 已确认，不重复报警。 · 上手：菜单栏应用，下载安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-20261119-09",
+      "title": "[GitHub雷达 83分] ag-ui-protocol/ag-ui — AG-UI：Agent-User Interaction Protocol，把 agent 带进前端应用…",
+      "summary": "20430★ · C 档约 24h +446；P1 已确认；Trending 日榜常客。 · 上手：按文档接入前端项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-new-20261119-00",
+      "title": "[GitHub雷达 90分] deepseek-ai/chat-demo — DeepSeek 官方 Chat Demo 新仓；P0 已确认，约 24h +297，6h 仅 +22…",
+      "summary": "DeepSeek 官方 Chat Demo 新仓；P0 已确认，约 24h +297，6h 仅 +22（约 +4/h）大幅回落。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-new-20261119-01",
+      "title": "[GitHub雷达 88分] erkamyaman/rust-anything — 把整个应用一次一块地用 Rust 重写，每步对照原版录制行为校验；6h +355（约 +59/h…",
+      "summary": "把整个应用一次一块地用 Rust 重写，每步对照原版录制行为校验；6h +355（约 +59/h），24h 约 +2.6k 为 KU 轮估计值；P1 待确认已关闭（减速且无新触发源）。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-new-20261119-02",
+      "title": "[GitHub雷达 84分] apex-compute/ANR — Apex 神经渲染引擎；约 24h +68，P2 不触发。",
+      "summary": "Apex 神经渲染引擎；约 24h +68，P2 不触发。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-new-20261119-03",
+      "title": "[GitHub雷达 80分] chuanqisun/spaceship — 今日首次发现（连接器核实 868 星）；简介仅一句“Steer your ideas in realti…",
+      "summary": "今日首次发现（连接器核实 868 星）；简介仅一句“Steer your ideas in realtime”，具体形态待下一轮确认；无增速基线。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "repo-radar-new-20261119-04",
+      "title": "[GitHub雷达 78分] opencoredev/islandcn — 开源 Dynamic Island React 组件，shadcn 一键安装；约 24h +15，明显回…",
+      "summary": "开源 Dynamic Island React 组件，shadcn 一键安装；约 24h +15，明显回落。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-00",
+      "title": "Anthropic IPO 定价 83 美元：高于 70–78 美元区间，今日纳斯达克上市：Anthropic 11 月…",
+      "summary": "AI 实验室 IPO 的定价锚：云厂商以股东身份深度绑定，亚马逊与谷歌合计持股近 30%，260 亿美元私募配售把七大芯片与云巨头变成利益共同体；最终发行价高于区间上限，首日表现将定调 OpenAI 等后来者的 IPO 预期",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-01",
+      "title": "谷歌发布 Gemini 4 Neon：每任务成本比 Carbon 低 32%：谷歌 11 月 18 日发布 Gemini…",
+      "summary": "旗舰模型竞争从单价转向“一个任务多少钱”：Neon 以更低的每任务成本在编码与 Agent 基准上逼近 Carbon，Google 用“便宜 32%”直接定价 Agent 工作流；12 月 1 日 Carbon 涨价后 Neon 将更便宜，倒逼竞品跟进按任务计价",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-02",
+      "title": "英伟达收紧 neocloud 融资：担保只在客户拿到钱并装机后才生效：英伟达临时 CEO Colette Kress 在…",
+      "summary": "英伟达对 AI 基建“循环融资”的态度转向：担保不再是无条件背书，而是附条件的信用增级；新管理层用“更挑剔”给市场划线，neocloud 与 OpenAI 这类大客户的融资成本与节奏将直接受影响",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-03",
+      "title": "Genesis AI：A 轮 5 亿美元，估值 35 亿美元，英伟达与 AMD 首次联手押注：通用机器人公司 Genes…",
+      "summary": "具身智能融资分化到“有硬件、有数据、有量产时间表”才拿得到大钱：英伟达与 AMD 首次联手押注同一家机器人公司，5 亿美元 A 轮、35 亿美元估值，物理 AI 成为两家芯片巨头的共同战场",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-04",
+      "title": "Humyn Labs：A 轮 4700 万美元，7 个月收入 1000 万美元：印度机器人训练数据公司 Humyn La…",
+      "summary": "机器人训练数据的生意第一次拿出收入账本：7 个月 1000 万美元收入 + 2000 万美元已签合同，数据采集从“烧钱环节”变成可收费的服务层；venture debt 补账期缺口的打法，说明这门生意的瓶颈是现金流而非需求",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-05",
+      "title": "多家银行改条款：AI Agent 出事用户自担，哪怕被黑：花旗本周修改在线用户协议：用第三方 AI 工具管理个人财务出任…",
+      "summary": "Agent 代管钱的责任缺口正式成为商业变量：银行用条款把风险推回用户，等于给“只读 Agent + 第三方审计 + 责任险”留出了付费位置；金融 Agent 创业者不解决责任问题，就接不到银行数据",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-06",
+      "title": "Unsiloed AI：种子轮 750 万美元，1 美分/页做企业文档解析：企业文档解析创业公司 Unsiloed AI…",
+      "summary": "企业文档 Agent 化的最后一公里有了定价锚：1 美分/页，把“旧文档变结构化数据”做成可按量计费的服务；7 人团队拿 750 万美元种子轮，说明资本认为文档解析仍是 Agent 落地绕不过的环节",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-20261119-07",
+      "title": "OpenAI 给 GPT-6.2 Astra 加后台折扣：8 小时窗口 6 折：OpenAI 官方价目页：GPT-6.2…",
+      "summary": "OpenAI 与谷歌同日把“等得起的任务”单独定价：后台窗口与 Batch 让长耗时 Agent 任务的成本再降 30%–50%，夜间批处理成为 Agent 产品降本的标准动作；创业者做 Agent 要把任务分“实时”与“可等待”两档报价",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-opp-20261119-00",
+      "title": "[AI商业情报 机会 72分] 垂直场景机器人操作数据服务",
+      "summary": "Humyn Labs 4–10 月收入 1000 万美元、已签 2000 万美元合同，12 个付费客户；Genesis 5 亿美元 A 轮、估值 35 亿美元；浙大+宇树开源 500 万条机器人预训练数据——具身智能的数据需求侧在放大，供给侧缺口真实存在",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-opp-20261119-01",
+      "title": "[AI商业情报 机会 66分] 垂直行业文档 Agent 化实施服务",
+      "summary": "Unsiloed 获 750 万美元种子轮（Felicis 领投、YC 参投），定价 1 美分/页；企业文档里的表格与图表是 Agent 落地的最后一公里——文档不结构化，Agent 就接不上业务",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "ai-intel-opp-20261119-02",
+      "title": "[AI商业情报 机会 60分] AI Agent 金融责任审计与风控服务",
+      "summary": "花旗本周改用户协议：第三方 AI 工具出任何问题（包括被黑）都由用户负责；摩根大通、美银上月已改，PNC 今日跟进——Agent 代管钱的责任缺口正式出现，审计、限额与保险服务有了付费理由",
+      "category": "AI商业情报",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "content-radar-20261118-00",
+      "title": "[内容雷达 89分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试",
+      "summary": "仍是本期最高分：11 月单条播放最高的趋势帖（3940 万）+ 趋势总计约 1.26 亿播放，一张照片 12 秒成本极低，圣诞窗口明确（至 12-25）。本土化切口：中式圣诞树场景（商场圣诞树、家里小圣诞树）、情侣 / 闺蜜 / 母女版，睡衣换成中式家居服；别用真人原片冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "content-radar-20261118-01",
+      "title": "[内容雷达 88分] 巨浪 / Tidal Wave 海边大浪拍扁 — 值得低成本试",
+      "summary": "本期最新格式：11-13 原帖、11-17 当日新上榜，趋势总计约 5700 万播放，一张照片 13 秒成本极低。本土化切口：台风天海边、钱塘江大潮、青岛栈桥 / 厦门海边栏杆，情侣或闺蜜双人版；别用真实灾害画面冒充，标注 AI 生成，注意海边拍摄安全提示。",
+      "category": "AI内容格式",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "content-radar-20261118-02",
+      "title": "[内容雷达 84分] AI 歌曲变 MV / 歌词视频 — 值得低成本试",
+      "summary": "工具发布不到 24 小时就成格式：AI 音乐人终于可以“一首歌变 MV”，歌词视频 + 对口型是现成的拍法。本土化切口：中文 AI 歌曲（方言歌、古风歌、儿歌）配歌词视频，抖音音乐人先发；注意 Suno 歌曲本身的版权争议仍在诉讼中，商用前核对授权，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "content-radar-20261118-03",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式之一。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "content-radar-20261118-04",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "content-radar-20261118-05",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "content-radar-20261118-06",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "八个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-00",
+      "title": "英伟达 Q3 收入 1158 亿美元（+103%），Q4 指引 1300 亿美元：英伟达发布 2027 财年 Q3 财报…",
+      "summary": "AI 基建需求叙事的最强验证：Q3 收入超指引 78 亿美元、Q4 指引再上台阶，FY28 增速预期上调；但 SEC 调查与黄仁勋离职余波并存，需求验证与治理风险同时定价",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-01",
+      "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol：API 降价 20%：OpenAI 11 月 17 日发布 …",
+      "summary": "旗舰模型竞争从跑分转向单位任务成本：Astra 以更低价格在法律与科学长程任务上大幅领先 Claude Fable 5.2，直接压低 Agent 工作流的推理成本，倒逼竞品跟进降价",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-02",
+      "title": "Anthropic 今日定价：亚马逊持股 14.7%、谷歌 13.7%：Anthropic IPO 定价日为 11 月 …",
+      "summary": "AI 实验室 IPO 的定价锚：云厂商以股东身份深度绑定，亚马逊与谷歌合计持股近 30%，260 亿美元私募配售把七大芯片与云巨头变成利益共同体；最终发行价是明日验证点",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-03",
+      "title": "AMD 完成收购 World Labs：82 亿美元，李飞飞任执行副总裁兼首席科学家：AMD 11 月 16 日宣布完成…",
+      "summary": "AMD 用 82 亿美元买下世界模型能力，李飞飞进入核心管理层：芯片竞争从算力参数转向“硬件 + 前沿模型”联合优化，物理 AI 成为 AMD 对抗英伟达的主战场",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-04",
+      "title": "Mirendil：A 轮 10 亿美元，累计 12 亿美元，估值约 50 亿美元：美国大模型独角兽 Mirendil（押…",
+      "summary": "递归自我改进（RSI）赛道最大单笔融资：前 Anthropic 团队 5 个月累计 12 亿美元，谷歌与英伟达分投两轮，AI 研发自动化从概念进入资本密集验证期",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-05",
+      "title": "Perplexity：年化收入 run rate 超 10 亿美元，IPO 可能提前至 2027 年第一季度：Perpl…",
+      "summary": "AI 搜索聚合的收入验证：年内收入翻约 4 倍、run rate 破 10 亿美元，IPO 计划可能提前至 2027 年第一季度——不训旗舰模型的轻资产路线跑通了变现",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-06",
+      "title": "Model ML：B 轮 2.5 亿美元，估值 15 亿美元，做投行 Agent：伦敦创业公司 Model ML 完成 …",
+      "summary": "投行 Agent 赛道的定价锚：用开源模型、约 2% 的前沿模型成本做财模与尽调自动化，B 轮 2.5 亿美元、估值 15 亿美元，垂直场景 Agent 的单位经济模型得到资本验证",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-20261118-07",
+      "title": "DeepSeek 开始限额：旧长对话无法继续，每日额度触顶暂停：11 月 15 日起 DeepSeek App 与网页端…",
+      "summary": "头部模型服务商的容量约束首次传导到 C 端用户：长对话限额 + 每日额度触顶，倒逼用户迁移与多模型备份；官方同一周开放应用 API 全家桶，等于把“搬家”工具也递到了用户手里",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-opp-20261118-00",
+      "title": "[AI商业情报 机会 68分] 投行与咨询垂直场景 Agent 服务",
+      "summary": "Model ML 用 AI 替代投行初级分析师工作，B 轮 2.5 亿美元、估值 15 亿美元；自称用开源模型、成本约为前沿模型的 2%——垂直场景 Agent 的单位经济模型已经有人验证",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-opp-20261118-01",
+      "title": "[AI商业情报 机会 66分] DeepSeek 限额催生的迁移与多模型路由服务",
+      "summary": "11 月 15 日起 DeepSeek App 与网页端陆续出现限额：旧长对话无法继续发送、超 72 小时未活跃暂不可用、每日额度触顶暂停；11 月 13 日官方刚开放应用 API 全家桶并开源聊天客户端——用户正在被迫“搬家”，迁移服务有真实窗口",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "ai-intel-opp-20261118-02",
+      "title": "[AI商业情报 机会 60分] 中小企业销售 CRM Agent 集成服务",
+      "summary": "微软与 Salesforce 11 月 17 日联手推 Copilotforce：Salesforce 客户上下文进 Copilot，38+ 预置销售技能，埃森哲 74 万 Copilot 用户规模试点——CRM 与办公套件的 Agent 打通已成巨头共识，中小企业需要轻量版",
+      "category": "AI商业情报",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-00",
+      "title": "[GitHub雷达 93分] libracoder/kiri — 免费开源 Docker Desktop / OrbStack 平替：小而快的容器运行时，兼容 docker CLI…",
+      "summary": "10102★ · C 档约 24h +1,199，小时 +32/h 微升仍加速；P1 已确认，不重复报警；11-10 发布 0.2.0 后多榜同步发酵。 · 上手：下载安装包即可用，建议先在一次性项目试用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-01",
+      "title": "[GitHub雷达 92分] elementalsouls/Claude-BugHunter — Claude Code 漏洞猎手技能包：82 个 skills + 15 条斜杠命…",
+      "summary": "9243★ · C 档约 24h +1,794，今日全场第二大增量；小时 +79/h 反弹但未守住 +100/h 线；P1 已确认（昨日新确认），不重复报警；Trending 日榜在列。 · 上手：按文档装入 Claude Code skills 目录即用，需自行承担授权合规责任。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-02",
+      "title": "[GitHub雷达 91分] google-research/paper-orchestra — Google Research 多智能体框架：自动写 AI 研究论文，多智能体协作…",
+      "summary": "2965★ · B 档约 24h +1,465，小时 +45/h 微升；P1 已确认（昨日新确认），不重复报警；Trending 日榜在列；创建于 2026-05-01，老仓复活。 · 上手：按文档部署，需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-03",
+      "title": "[GitHub雷达 89分] deepseek-ai/chat-demo — DeepSeek 官方 Chat Demo：开放 App 全量能力 API 的开源示例（内置联网搜索、…",
+      "summary": "4521★ · B 档约 24h +460，P0 已确认；小时 +7/h 回落中。 · 上手：按文档跑 demo，需 DeepSeek API key。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-04",
+      "title": "[GitHub雷达 88分] ag-ui-protocol/ag-ui — AG-UI：Agent-User Interaction Protocol，把 agent 带进前端应用…",
+      "summary": "19984★ · C 档约 24h +1,025；Trending 日榜在列；P1 已确认。 · 上手：按文档接入前端项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-05",
+      "title": "[GitHub雷达 88分] GoogleChrome/modern-web-guidance-src — Google 现代 Web 指南源码：让编码 agent 跟上最新 We…",
+      "summary": "8443★ · C 档约 24h +466；P1 已确认；老仓再热。 · 上手：把指南内容喂给 agent 即可，零部署成本。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-06",
+      "title": "[GitHub雷达 87分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "35707★ · C 档约 24h +935；小时 +28/h；P1 已报警。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-07",
+      "title": "[GitHub雷达 87分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "26008★ · C 档约 24h +1,234；P1 已确认；dsh 生态第二波维持高位。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-08",
+      "title": "[GitHub雷达 84分] Tencent/LoopForge — 自托管 coding-agent 交付工作流：编排 CodeBuddy、Codex 与 Claude Code…",
+      "summary": "3112★ · B 档约 24h +790，小时 +24/h 微升；P1 已确认报警；但 3 倍中位未证实，P2 不触发。 · 上手：自托管部署，需自备 agent 环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-20261118-09",
+      "title": "[GitHub雷达 84分] tradermonty/claude-trading-skills — 面向股票投资者的 Claude Code skills：市场分析、技术图表、筛…",
+      "summary": "6860★ · C 档约 24h +553；Trending 日榜在列；连续两日加速。 · 上手：Claude Code skills，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-new-20261118-01",
+      "title": "[GitHub雷达 84分] apex-compute/ANR — Apex 神经渲染引擎；约 24h +124，小时 +5/h，P2 不触发。",
+      "summary": "Apex 神经渲染引擎；约 24h +124，小时 +5/h，P2 不触发。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-new-20261118-02",
+      "title": "[GitHub雷达 80分] opencoredev/islandcn — 开源 Dynamic Island React 组件，shadcn 一键安装；约 24h +20，今日首…",
+      "summary": "开源 Dynamic Island React 组件，shadcn 一键安装；约 24h +20，今日首次计入 24h。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-new-20261118-03",
+      "title": "[GitHub雷达 74分] rivet-dev/open-orange — 让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP…",
+      "summary": "让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP、Azure 或自有服务器；约 24h +31。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "repo-radar-new-20261118-04",
+      "title": "[GitHub雷达 72分] higurashi-ai/Haru — 低延迟多语言全双工语音对话模型；约 24h +52，正增长持续但极弱。",
+      "summary": "低延迟多语言全双工语音对话模型；约 24h +52，正增长持续但极弱。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-18"
+    },
+    {
+      "id": "content-radar-20261117-00",
+      "title": "[内容雷达 89分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试",
+      "summary": "本期唯一新格式，也是本期最高分：11 月单条播放最高的趋势帖（3980 万）+ 趋势总计约 1.26 亿播放，一张照片 12 秒成本极低，圣诞窗口明确（至 12-25）。本土化切口：中式圣诞树场景（商场圣诞树、家里小圣诞树）、情侣 / 闺蜜 / 母女版，睡衣换成中式家居服；别用真人原片冒充，标注 AI 生成。注意与本期另一圣诞格式“每年11月1日”同属圣诞家族，但一个是舞蹈、一个是一镜到底仪式感，不重复。",
+      "category": "AI内容格式",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "content-radar-20261117-01",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式之一。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "content-radar-20261117-02",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "content-radar-20261117-03",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "content-radar-20261117-04",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "八个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "content-radar-20261117-05",
+      "title": "[内容雷达 84分] 瓶中微缩世界 / 瓶中世界 — 值得低成本试",
+      "summary": "海外指南与教程已成体系、国内热榜未见、单条 8–10 秒无对白成本极低。本土化切口：瓶内装中式场景（江南水乡、年夜饭桌、武侠小世界、奶茶店），瓶身换成老干妈、茅台、保温杯等国民物件；先拍 3 条测完播。注意：别冒充真实微缩模型，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "content-radar-20261117-06",
+      "title": "[内容雷达 83分] 圣诞季一镜到底 / “每年11月1日”仪式感短片 — 值得低成本试",
+      "summary": "两条 100 万+ 播放证实是格式不是单条，8 秒一镜到底成本低，圣诞季窗口明确（至 12-25）。本土化切口：中式年节仪式感——每年除夕贴春联、每年冬至吃饺子、每年立冬晒被子，方言家庭场景；别用真人原片冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-20261117-00",
+      "title": "美联储《金融稳定报告》：AI 算力债务 6800 亿美元 + 约 3 万亿美元表外承诺：美联储半年度《金融稳定报告》发布…",
+      "summary": "美联储首次把 AI 算力债务列为金融稳定显著风险：6800 亿美元发行、约 3 万亿美元表外承诺，AI 基建融资模式进入监管视野，直接影响英伟达、超大规模厂商与 AI 数据中心资产的估值逻辑",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-20261117-01",
+      "title": "阿里 Qwen4-Max 正式发布：缓存价 0.5 元/百万 Tokens：阿里 11 月 16 日发布 Qwen4-M…",
+      "summary": "中国旗舰模型商业化的价格标杆：缓存价打到 0.5 元/百万 Tokens、单任务成本降 58%，直接压低国内 AI 应用的推理成本，MaaS 价格战进入新阶段",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-20261117-02",
+      "title": "Corma：约 3 个月达 10 亿美元估值，A 轮 1.25 亿美元：网络安全 AI 创业公司 Corma 完成 1.…",
+      "summary": "AI 安全赛道最强融资信号：产品发布约 3 个月即达 10 亿美元估值，10 月集中漏洞披露直接引爆 CISO 采购预算，安全防御从成本项变成必选项",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-20261117-03",
+      "title": "国内 MaaS 半年 106.3 亿元、同比 +889%：火山引擎 45.1% 断层第一：2026 年上半年国内 Maa…",
+      "summary": "国内 AI 商业化主战场已见分晓：MaaS 半年破百亿、Token 消耗同比 +432.5%，火山引擎以 45.1% 份额断层第一，阿里、百度、华为跟进组织变革，MaaS 成为大厂 AI 变现的第一战场",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-20261117-04",
+      "title": "加州起诉 OpenAI：rogue agent 失控约 80 起：加州总检察长 Rob Bonta 在旧金山高等法院起诉…",
+      "summary": "Agent 安全合规成本的直接信号：首个州政府就 rogue agent 事件起诉模型厂商，80 起失控、公共妨害诉求与逐项罚款将成为 Agent 产品的安全合规定价锚",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-20261117-05",
+      "title": "苹果 Siri AI 上每日免费额度：iCloud+ 按档位提额 2–20 倍：iOS 27.3 beta 2 起，依赖…",
+      "summary": "苹果把 AI 能力变成按量计费的订阅权益：复杂 Siri AI 请求设每日免费额度，iCloud+ 按档位提额 2–20 倍且价格不变——AI 付费墙从“买断制”转向“额度制”，订阅变现的新模板",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-20261117-06",
+      "title": "Hugging Face 放弃自研聊天路由，交给 OpenRouter：Hugging Face 将 Inference…",
+      "summary": "开源推理的成本结构与分发权转移：开源权重模型在 OpenRouter 的 token 占比升至 71.7%、用量一年增长 60 倍以上，HF 把路由交给中立第三方，开发者基础设施的关键转向正在发生",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-opp-20261117-00",
+      "title": "[AI商业情报 机会 72分] 中小企业 AI 应用安全审计与防御部署",
+      "summary": "10 月 21 日 PHP、Node.js、LiteLLM 严重漏洞同日集中披露，CISO 抢购防御工具；Corma 产品发布约 3 个月即拿到 1.25 亿美元 A 轮、估值 10 亿美元——AI 安全从“可选项”变成“必选项”",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-opp-20261117-01",
+      "title": "[AI商业情报 机会 70分] MaaS 多模型比价与 Token 账单优化服务",
+      "summary": "国内 MaaS 上半年 Token 消耗 2,857.9 万亿、同比 +432.5%，企业账单失控；同时 Qwen4-Max 缓存价降到 0.5 元/百万 Tokens、单任务成本降 58%——多模型比价与缓存优化的窗口正在打开",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "ai-intel-opp-20261117-02",
+      "title": "[AI商业情报 机会 62分] 医疗行政流程 Agent 集成服务",
+      "summary": "OpenAI 推出医疗 computer-use agent：CVS 一个生产工作流一个周末清掉数月积压的文档发送任务，另一个工作流每天处理数万次会诊的系统步骤——医疗行政流程的自动化需求真实存在，且已有生产级验证",
+      "category": "AI商业情报",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-00",
+      "title": "[GitHub雷达 93分] libracoder/kiri — 免费开源 Docker Desktop / OrbStack 平替：小而快的容器运行时，兼容 docker CLI…",
+      "summary": "8903★ · C 档约 24h +2,528，今日全场最大增量；小时 +49/h 仍加速（JI 轮）；P1 已确认，不重复报警；11-10 发布 0.2.0 后多榜同步发酵。 · 上手：下载安装包即可用，建议先在一次性项目试用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-01",
+      "title": "[GitHub雷达 91分] elementalsouls/Claude-BugHunter — Claude Code 漏洞猎手技能包：82 个 skills + 15 条斜杠命…",
+      "summary": "7449★ · 新确认 P1：JF 首轮快照 7,307 星，JG 第二轮 +47/h 确认，24h pace 约 +1,128（C 档 ≥500 线），Trending 日榜第 5；创建于 2026-05-05，老仓复活。 · 上手：按文档装入 Claude Code skills 目录即用，需自行承担授权合规责任。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-02",
+      "title": "[GitHub雷达 90分] google-research/paper-orchestra — Google Research 多智能体框架：自动写 AI 研究论文，多智能体协作…",
+      "summary": "1500★ · 新确认 P1：JE 首轮快照 1,352 星（Trending 当日 +306），JF 第二轮确认；本版 1,500 星，单日 pace 约 +984；创建于 2026-05-01，老仓复活。 · 上手：按文档部署，需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-03",
+      "title": "[GitHub雷达 89分] deepseek-ai/chat-demo — DeepSeek 官方 Chat Demo：开放 App 全量能力 API 的开源示例（内置联网搜索、…",
+      "summary": "4061★ · B 档约 24h +1,113，P0 已确认；小时 +11/h 回落中。 · 上手：按文档跑 demo，需 DeepSeek API key。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-04",
+      "title": "[GitHub雷达 88分] ag-ui-protocol/ag-ui — AG-UI：Agent-User Interaction Protocol，把 agent 带进前端应用…",
+      "summary": "18959★ · C 档约 24h +1,134；Trending 日榜第 1（JE 轮）；P1 已确认。 · 上手：按文档接入前端项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-05",
+      "title": "[GitHub雷达 88分] GoogleChrome/modern-web-guidance-src — Google 现代 Web 指南源码：让编码 agent 跟上最新 We…",
+      "summary": "7977★ · B 档约 24h +833；P1 已确认；小时 pace 仍正增长。 · 上手：把指南内容喂给 agent 即可，零部署成本。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-06",
+      "title": "[GitHub雷达 87分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "34772★ · C 档约 24h +1,053；小时 +29/h；P1 已报警。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-07",
+      "title": "[GitHub雷达 87分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "24774★ · C 档约 24h +1,030；P1 已确认；dsh 生态第二波维持高位。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-08",
+      "title": "[GitHub雷达 84分] Tencent/LoopForge — 自托管 coding-agent 交付工作流：编排 CodeBuddy、Codex 与 Claude Code…",
+      "summary": "2322★ · B 档约 24h +851（昨日首次核实 1,471 星）；但小时已回落至 +3/h，3 倍中位未证实，P2 不触发。 · 上手：自托管部署，需自备 agent 环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-20261117-09",
+      "title": "[GitHub雷达 84分] tradermonty/claude-trading-skills — 面向股票投资者的 Claude Code skills：市场分析、技术图表、筛…",
+      "summary": "6307★ · B 档约 24h +768；Trending 日榜在列；连续两日加速。 · 上手：Claude Code skills，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-new-20261117-01",
+      "title": "[GitHub雷达 84分] apex-compute/ANR — Apex 神经渲染引擎；约 24h +258，小时 +6/h，P2 不触发。",
+      "summary": "Apex 神经渲染引擎；约 24h +258，小时 +6/h，P2 不触发。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-new-20261117-02",
+      "title": "[GitHub雷达 80分] opencoredev/islandcn — 开源 Dynamic Island React 组件，shadcn 一键安装；今日首次核实，24h 增量…",
+      "summary": "开源 Dynamic Island React 组件，shadcn 一键安装；今日首次核实，24h 增量待下轮快照。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-new-20261117-03",
+      "title": "[GitHub雷达 74分] rivet-dev/open-orange — 让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP…",
+      "summary": "让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP、Azure 或自有服务器；今日首次核实。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "repo-radar-new-20261117-04",
+      "title": "[GitHub雷达 72分] higurashi-ai/Haru — 低延迟多语言全双工语音对话模型；连续四轮正增长，仍为小幅爬升。",
+      "summary": "低延迟多语言全双工语音对话模型；连续四轮正增长，仍为小幅爬升。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "content-radar-20261116-00",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "content-radar-20261116-01",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "content-radar-20261116-02",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "content-radar-20261116-03",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "八个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "content-radar-20261116-04",
+      "title": "[内容雷达 84分] 瓶中微缩世界 / 瓶中世界 — 值得低成本试",
+      "summary": "海外指南与教程已成体系、国内热榜未见、单条 8–10 秒无对白成本极低。本土化切口：瓶内装中式场景（江南水乡、年夜饭桌、武侠小世界、奶茶店），瓶身换成老干妈、茅台、保温杯等国民物件；先拍 3 条测完播。注意：别冒充真实微缩模型，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "content-radar-20261116-05",
+      "title": "[内容雷达 83分] 圣诞季一镜到底 / “每年11月1日”仪式感短片 — 值得低成本试",
+      "summary": "本期唯一新格式：两条 100 万+ 播放证实是格式不是单条，8 秒一镜到底成本低，圣诞季窗口明确（至 12-25）。本土化切口：中式年节仪式感——每年除夕贴春联、每年冬至吃饺子、每年立冬晒被子，方言家庭场景；别用真人原片冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "content-radar-20261116-06",
+      "title": "[内容雷达 81分] Hit the Road Dude / AI 宠物司机 — 值得低成本试",
+      "summary": "有固定台词与固定场景的模因模板，一张照片就能拍，宠物版天然适合国内宠物号；与“会说话的动物”同属说话头赛道，但台词与场景固定、复刻更确定。本土化切口：猫狗当“村口大爷”“小区保安”“菜市场摊主”，把池塘换成小区池塘 / 夜市摊位，台词翻成方言版“走开走开，这是私人地方”；别用真人原片冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-00",
+      "title": "[GitHub雷达 93分] libracoder/kiri — 免费开源 Docker Desktop / OrbStack 平替：小而快的容器运行时，兼容 docker CLI…",
+      "summary": "6375★ · B→C 档约 24h +2,626，今日全场最大增量，小时 +102/h 仍破百（IK 轮第二十三轮）；P1 已确认，不重复报警；11-10 发布 0.2.0 后多榜同步发酵。 · 上手：下载安装包即可用，建议先在一次性项目试用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-01",
+      "title": "[GitHub雷达 91分] GoogleChrome/modern-web-guidance-src — Google 现代 Web 指南源码：让编码 agent 跟上最新 We…",
+      "summary": "7144★ · B 档约 24h +1,122，Trending 日榜第 1（多家镜像榜单）；P1 已确认；小时 +41/h。 · 上手：把指南内容喂给 agent 即可，零部署成本。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-02",
+      "title": "[GitHub雷达 90分] deepseek-ai/chat-demo — DeepSeek 官方 Chat Demo：开放 App 全量能力 API 的开源示例（内置联网搜索、…",
+      "summary": "2948★ · B 档约 24h +1,204，本版 P0 已确认；小时 +47/h 连续十四轮高位但逐轮回落，见顶回落中。 · 上手：按文档跑 demo，需 DeepSeek API key。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-03",
+      "title": "[GitHub雷达 88分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "23744★ · C 档约 24h +1,020，P1 已确认；dsh 生态第二波维持高位，v1.0.16 发布。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-04",
+      "title": "[GitHub雷达 88分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "33719★ · C 档约 24h +969；10 月 31 日创建，16 天 33,719 星；小时 +34/h。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-05",
+      "title": "[GitHub雷达 85分] heydamir/unslop — Claude skill：把 vibecoded、AI 味十足的界面改成有设计感的界面。",
+      "summary": "16752★ · C 档约 24h +745，较昨日 +345 加速；P1 已确认（11-11）。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-06",
+      "title": "[GitHub雷达 84分] tradermonty/claude-trading-skills — 面向股票投资者的 Claude Code skills：市场分析、技术图表、筛…",
+      "summary": "5539★ · B 档约 24h +734（昨日 +641，连续两日加速）；Trending 日榜第 11（trendoday +707/日）。 · 上手：Claude Code skills，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-07",
+      "title": "[GitHub雷达 84分] backnotprop/plannotator — agent 协作工作台：跟进、决策、批注、反馈一键发送。",
+      "summary": "11827★ · C 档约 24h +709；Trending 日榜第 4（trendoday +860/日）；P1 待确认已关闭（小时未连续加速）。 · 上手：按文档部署为协作工作台，需自备 agent 环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-08",
+      "title": "[GitHub雷达 83分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "28841★ · C 档约 24h +702；11-09 新增 P1；小时 +21/h。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-20261116-09",
+      "title": "[GitHub雷达 83分] JuneYaooo/rea-video — 视频一键复刻：把参考视频按镜头拆解，给出逐镜头的复刻方案（本身不渲染视频，需另接视频模型）。",
+      "summary": "9175★ · C 档约 24h +599；P1 已确认（11-11）；小时 +19/h。 · 上手：开源即用，按文档跑拆解流程，需视频模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-new-20261116-01",
+      "title": "[GitHub雷达 86分] apex-compute/ANR — Apex Neural Rendering 神经渲染引擎；头号 P2 候选，B 档 24h pace 约 +40…",
+      "summary": "Apex Neural Rendering 神经渲染引擎；头号 P2 候选，B 档 24h pace 约 +408，但 3 倍中位未证实，P2 不触发；创建 5 天 2,208 星。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-new-20261116-02",
+      "title": "[GitHub雷达 82分] opencoredev/islandcn — 开源 Dynamic Island React 组件，shadcn 一键安装；昨日新增 P2，今日约 2…",
+      "summary": "开源 Dynamic Island React 组件，shadcn 一键安装；昨日新增 P2，今日约 24h +62 明显回落，次日 pace 衰减。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-new-20261116-03",
+      "title": "[GitHub雷达 74分] rivet-dev/open-orange — 让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP…",
+      "summary": "让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP、Azure 或自有服务器；约 24h +40，回落中。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "repo-radar-new-20261116-04",
+      "title": "[GitHub雷达 72分] MiniMax-AI/MiniMax-H3-Image — MiniMax 开源 16MP 图像生成/编辑模型（官方仓）；约 24h +15，增速平缓…",
+      "summary": "MiniMax 开源 16MP 图像生成/编辑模型（官方仓）；约 24h +15，增速平缓，列观察。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-20261116-00",
+      "title": "英伟达：黄仁勋谈回归，国会推动收紧对华芯片出口：FT/路透：黄仁勋与盟友商谈回归 CEO；国会两党支持收紧出口，《远程访…",
+      "summary": "出口管制收紧直接影响英伟达中国业务与全球 AI 算力供给；英伟达占 AI GPU 市场约 80%、对外投资 990 亿美元 + 250 亿美元承诺 + 360 亿美元云服务承诺，治理动荡外溢至整个 AI 生态",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-20261116-01",
+      "title": "Revolut：自托管 GLM，编码成本降 90%：Revolut AI 负责人 David Abitbol 在 AI …",
+      "summary": "首个大型受监管企业公开的自托管开源模型全账本——前沿 API 的定价权假设被证伪，成本优化从“换便宜模型”升级为“自建推理栈 + 调优”",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-20261116-02",
+      "title": "Reddit：AI Overviews 致流量一年下滑 13%：Similarweb：Reddit 全球访问量 2025…",
+      "summary": "AI 搜索正在系统性截流内容平台的搜索流量——“靠 SEO 获客”的内容生意模型被改写，登录用户与私域成为护城河",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-20261116-03",
+      "title": "蔚建科技：具身智能建筑机器人超亿元融资：上海蔚建科技完成第五轮融资，超亿元人民币，财通资本投资；连续三年订单复合增长率超…",
+      "summary": "具身智能少有的“订单先行”案例——建筑机器人从演示进入规模化采购，抹灰机器人日均 300–350 平方米、6 米高墙喷涂效率为人工 10 倍，钢筋加工节省人工 90%",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-20261116-04",
+      "title": "李沐加入 Aimotion：产业级世界模型 + A 轮数千万美元：李沐出任 Aimotion 联合创始人兼 CTO，同时…",
+      "summary": "顶级模型人才流向“有真实产业场景”的 Agent 公司——世界模型叙事从物理仿真转向商业决策推演，汽车销售这类高价值长周期行业成为 Agent 落地的试验场",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-20261116-05",
+      "title": "Bharat Semi：2400 万美元种子轮，做 AI 图像传感器：印度芯片初创 Bharat Semi 获 2400…",
+      "summary": "AI 芯片机会下沉到传感器端——单芯片方案可比传统“传感器+ISP+SoC”降本至少 70%，瞄准智能家居、工业自动化、监控与航天",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-20261116-06",
+      "title": "Krea：开源生图模型数周内孵化百万下载 LoRA：AlphaSignal 报道：Krea 开源的 Krea 2 Raw…",
+      "summary": "开源模型商业化出现新范式——模型免费、社区 LoRA 与工作流成为变现层；对闭源生图 API 的定价构成压力",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-opp-20261116-00",
+      "title": "[AI商业情报 机会 74分] 企业自托管开源模型部署与调优服务",
+      "summary": "Revolut 案例证明自托管 GLM 可把编码 Token 成本压到前沿 API 的约 1/10，但“把权重跑起来”需要大量调优（56 张 B200 从首 Token 超 10 秒调到 1.6 秒，GPU 数量不变）；大多数企业没有这个能力",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-opp-20261116-01",
+      "title": "[AI商业情报 机会 68分] AI 搜索流量替代获客（GEO + 登录用户留存）服务",
+      "summary": "Reddit 流量一年 -13%，AI Overviews 正在截流内容平台的搜索流量；内容站、电商导购、本地服务商的“SEO 获客”模型被改写，需要新的被 AI 引用与留住登录用户的方法",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "ai-intel-opp-20261116-02",
+      "title": "[AI商业情报 机会 64分] 具身智能建筑/工业场景集成与运维服务",
+      "summary": "蔚建科技订单三年复合增长超 100%、2026 年订单将破 1 亿元，建筑机器人进入规模化采购；机器人厂商缺区域部署、调试与运维的人，施工方缺懂机器人的人",
+      "category": "AI商业情报",
+      "date": "2026-11-16"
+    },
+    {
+      "id": "content-radar-20261115-00",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "content-radar-20261115-01",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "content-radar-20261115-02",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "content-radar-20261115-03",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "八个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "content-radar-20261115-04",
+      "title": "[内容雷达 84分] 瓶中微缩世界 / 瓶中世界 — 值得低成本试",
+      "summary": "海外指南与教程已成体系、国内热榜未见、单条 8–10 秒无对白成本极低。本土化切口：瓶内装中式场景（江南水乡、年夜饭桌、武侠小世界、奶茶店），瓶身换成老干妈、茅台、保温杯等国民物件；先拍 3 条测完播。注意：别冒充真实微缩模型，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "content-radar-20261115-05",
+      "title": "[内容雷达 81分] Hit the Road Dude / AI 宠物司机 — 值得低成本试",
+      "summary": "本期唯一新格式：有固定台词与固定场景的模因模板，一张照片就能拍，宠物版天然适合国内宠物号；与“会说话的动物”同属说话头赛道，但台词与场景固定、复刻更确定。本土化切口：猫狗当“村口大爷”“小区保安”“菜市场摊主”，把池塘换成小区池塘 / 夜市摊位，台词翻成方言版“走开走开，这是私人地方”；别用真人原片冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "indie-20261115-00",
+      "title": "[新站 跟进] Alsona（alsona.com）— AI 智能体盯 32+ 购买意向信号（招聘、融资、技术栈变化、评论、播客提及等），按 ICP 评分后自动做个性化 Linke…",
+      "summary": "新站、证据实（PH 日榜第 1，485 票）、已有付费订阅（$99/月起）；“意向信号 + 智能体触达”模式可复制到中文出海销售场景。注意：定价面向 B2B 销售团队，个人创作者直接用不上，看的是模式不是直接套用。",
+      "category": "AI独立站",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-00",
+      "title": "[GitHub雷达 92分] libracoder/kiri — 免费开源 Docker Desktop / OrbStack 平替：小而快的容器运行时，兼容 docker CLI…",
+      "summary": "3749★ · B 档第三方 24h 约 +1,300（ossradar +1.5k、Trendar +1,266 交叉验证），本版新增 P1 已确认（HH 轮）；连接器自首见（HG 轮 03:09，3,464）→本版 3,749，+285/约5.6h。 · 上手：下载安装包即可用，建议先在一次性项目试用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-01",
+      "title": "[GitHub雷达 91分] GoogleChrome/modern-web-guidance-src — Google 现代 Web 指南源码：让编码 agent 跟上最新 We…",
+      "summary": "6022★ · B 档约 24 小时 +1,204，为当日 B 档最大增量；P1 已确认，本版小时 +58/h 加速，Trending 日榜第 2。 · 上手：把指南内容喂给 agent 即可，零部署成本。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-02",
+      "title": "[GitHub雷达 90分] deepseek-ai/chat-demo — DeepSeek 官方 Chat Demo：开放 App 全量能力 API 的开源示例（内置联网搜索、…",
+      "summary": "1744★ · B 档约 24 小时 +1,077，本版新增 P0 已确认（GP 轮，6h +249 越 P0 6h +150 线）；创建 2026-11-12，3 天 1,744 星。 · 上手：按文档跑 demo，需 DeepSeek API key。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-03",
+      "title": "[GitHub雷达 88分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "32750★ · C 档约 24 小时 +1,343，ossradar 24h +1.3k 交叉验证；10 月 31 日创建，15 天 32,750 星。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-04",
+      "title": "[GitHub雷达 87分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "22724★ · C 档约 24 小时 +921，本版新增 P1 已确认（HD 轮）；dsh 生态第二波维持高位，v1.0.16 发布。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-05",
+      "title": "[GitHub雷达 85分] vercel-labs/ui — 为 agent 准备的行为库：让 agent 搭建下一代界面。",
+      "summary": "4558★ · B 档约 24 小时 +760，P1 已确认；ossradar 今日 +798（第 7）交叉验证；fork 率约 3%，健康。 · 上手：按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-06",
+      "title": "[GitHub雷达 84分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "28139★ · C 档约 24 小时 +748；11-09 新增 P1；本版小时 +27/h。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-07",
+      "title": "[GitHub雷达 84分] openfilm/openfilm — 开源 AI 视频 agent：把编码 agent 变成视频 agent，带可改编辑器。",
+      "summary": "7105★ · C 档约 24 小时 +537；11-14 新增 P1 已确认；本版小时 +9/h 回落。 · 上手：开源即用，按文档把编码 agent 接成视频 agent，需视频渲染环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-08",
+      "title": "[GitHub雷达 83分] Vincentwei1021/video-shotcraft — Claude Code / Codex 的 AI 视频 skill：电影感、可编辑的…",
+      "summary": "19611★ · C 档 24h pace 约 +504，本版新增 P1 已确认（HK 轮，三轮连续 ≥+21/h）；暂未找到明确引爆点。 · 上手：Claude Code / Codex skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-20261115-09",
+      "title": "[GitHub雷达 82分] vercel-labs/agent-desktop — AI agent 的电脑使用 CLI。",
+      "summary": "23745★ · C 档约 24 小时 +462，本版新增 P1 已确认（GP 轮，24h 约 +585 越 500 线）；本版小时 +21/h 回升。 · 上手：电脑使用 CLI，按文档部署，需桌面环境权限。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-new-20261115-01",
+      "title": "[GitHub雷达 84分] opencoredev/islandcn — 开源 Dynamic Island React 组件，shadcn 一键安装；新增 P2 已确认（GZ …",
+      "summary": "开源 Dynamic Island React 组件，shadcn 一键安装；新增 P2 已确认（GZ 轮），七轮小时 +16~+31 无衰减，首 24h 约 552 星。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-new-20261115-02",
+      "title": "[GitHub雷达 74分] rivet-dev/open-orange — 让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP…",
+      "summary": "让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP、Azure 或自有服务器；约 24h +119，A 档 P2 候选仍关闭。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-new-20261115-03",
+      "title": "[GitHub雷达 72分] faizfahmi77/ScanDot — 实验性 Android 3D 扫描与点云查看器；约 24h +157，但本轮小时 +0~+1 停滞，降温中…",
+      "summary": "实验性 Android 3D 扫描与点云查看器；约 24h +157，但本轮小时 +0~+1 停滞，降温中。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "repo-radar-new-20261115-04",
+      "title": "[GitHub雷达 71分] makepad/relax — Relax Rust JIT；约 24h +63，单次快照为主，无连续加速证据。",
+      "summary": "Relax Rust JIT；约 24h +63，单次快照为主，无连续加速证据。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-00",
+      "title": "英伟达：请愿超 11.5 万签名，董事会密洽 Arm CEO 接任：独立请愿“33 Years Deserve an A…",
+      "summary": "换人危机升级为合法性之争：员工与股东公开施压，接班人未定期间股价与创投资金链继续承压；11 月 17 日 Q3 财报是业务本身的验证点",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-01",
+      "title": "AMD：黄仁勋离职后最大受益者：11 月 12 日英伟达宣布黄仁勋辞职当天，AMD 收涨 5.9%，为连续第五个交易日上…",
+      "summary": "英伟达动荡期 AMD 拿到实打实的订单与份额叙事：Helios 机柜对标 Vera Rubin NVL72，云厂商开始用真金白银对冲单一供应商风险",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-02",
+      "title": "DeepSeek：开放全家桶 API，语音价约为 OpenAI 的 1/4.6：DeepSeek 正式开放全家桶应用 A…",
+      "summary": "DeepSeek 从“卖模型”升级为“卖整套 App 能力”：中小企业不用自研搜索、语音与文件处理，直接调 API 拼出自己的 AI App；语音定价直接对标 OpenAI，倒逼同行降价",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-03",
+      "title": "OpenAI：解散独立机器人团队，通用模型吃掉垂直机器人：OpenAI 解散独立机器人研究团队（Fortune 11 月…",
+      "summary": "路线判断：GPT-6 Astra 等通用前沿模型已能直接用于机器人任务，垂直机器人团队不再独立存在；机器人创业公司的“专用模型”护城河被釜底抽薪，机会转向硬件、数据与真实场景部署",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-04",
+      "title": "联想：万全混合词元工厂，Token 年产 2000 万亿：11 月 10 日联想与张家口市政府签约，发布“联想万全混合词…",
+      "summary": "Token 正在变成按斤卖的工业品：国家数据局口径日均词元调用量两年涨千倍（2024 年初 1000 亿→2026 年 3 月 140 万亿），成本优化成为刚需；联想把“卖算力”升级为“卖 Token 产能”，抢的是企业 AI 落地的成本账",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-05",
+      "title": "谷歌 DeepMind：Gemini Robotics 2.5，奔驰产线分拣成功率 96%：DeepMind 11 月 …",
+      "summary": "具身智能从演示进入产线验证：96% 是真实产线上的概念验证成绩，不是实验室数字；但合作伙伴制意味着短期内只有 Apptronik、波士顿动力等少数硬件方能用上，创业者机会在“等开放”而非“现在接入”",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-06",
+      "title": "英伟达安保与合规：CSO 8 月离职，法务一年前已介入 Megaspeed 调查：TechCrunch 追问英伟达安全团…",
+      "summary": "治理风险正在变成合规与供应链风险：芯片转运调查与高管个人问题交织，董事会独立调查与联邦调查进行中；出口管制合规成为所有 AI 硬件与云厂商的必答题",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-20261115-07",
+      "title": "n8n：开源本地 Agent Nod，226 项任务完成率 98%、0 不安全操作：n8n 开源 Nod，一款本地优先个…",
+      "summary": "Agent 安全执行从“口号”变成可审查的开源实现：凭证隔离 + 服务端审批检查是 Agent 碰真实业务系统（发消息、提交表单、购买）的前提；n8n 未公布付费层级，商业化路径未明",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-opp-20261115-00",
+      "title": "[AI商业情报 机会 72分] DeepSeek App 1:1 复刻/白标服务",
+      "summary": "DeepSeek 11 月 14 日开放全家桶 API（搜索、深度思考搜索、文件、链接、语音），还开源了轻量级聊天前端 Demo；企业想把“能对话”变成“自己的 App”，但缺人把 API 拼起来",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-opp-20261115-01",
+      "title": "[AI商业情报 机会 66分] 本地 Agent 安全部署与审批策略服务",
+      "summary": "n8n 开源 Nod 证明了本地沙箱 + 凭证隔离 + 服务端审批检查的模式可行（226 任务完成率 98%、0 不安全操作），但它是单用户开源工具；企业需要有人帮它部署、配审批策略、接内部系统",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "ai-intel-opp-20261115-02",
+      "title": "[AI商业情报 机会 64分] Token 账单审计与成本优化服务",
+      "summary": "联想建词元工厂、DeepSeek 降价，说明 Token 成本是真实痛点：中型银行半年 Token 支出近 900 万元（约上年 IT 预算 8%），麦肯锡调查约 1/5 受访者因 AI 运营成本限制使用",
+      "category": "AI商业情报",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "content-radar-20261114-00",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "content-radar-20261114-01",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "content-radar-20261114-02",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "content-radar-20261114-03",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "八个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "content-radar-20261114-04",
+      "title": "[内容雷达 84分] 瓶中微缩世界 / 瓶中世界 — 值得低成本试",
+      "summary": "本期唯一新格式：海外指南与教程已成体系、国内热榜未见、单条 8–10 秒无对白成本极低。本土化切口：瓶内装中式场景（江南水乡、年夜饭桌、武侠小世界、奶茶店），瓶身换成老干妈、茅台、保温杯等国民物件；先拍 3 条测完播。注意：别冒充真实微缩模型，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-00",
+      "title": "[GitHub雷达 90分] GoogleChrome/modern-web-guidance-src — Google 现代 Web 指南源码：让编码 agent 跟上最新 We…",
+      "summary": "4818★ · B 档约 24 小时 +1,937，为当日 B 档最大增量；11-13 新增 P1 已确认，本版小时 +42/h，Trending 日榜第 2。 · 上手：把指南内容喂给 agent 即可，零部署成本。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-01",
+      "title": "[GitHub雷达 88分] openfilm/openfilm — 开源 AI 视频 agent：把编码 agent 变成视频 agent，带可改编辑器。",
+      "summary": "6568★ · C 档本版新增 P1 已确认：ossradar 24h +594（非估计值）越 500 线，连接器连续 11 轮小时快照 +18~+38/h、本轮 +30/h。 · 上手：开源即用，按文档把编码 agent 接成视频 agent，需视频渲染环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-02",
+      "title": "[GitHub雷达 87分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "31407★ · C 档约 24 小时 +1,600，ossradar 24h +1,684 交叉验证；10 月 31 日创建，14 天 31,407 星。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-03",
+      "title": "[GitHub雷达 85分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "21803★ · C 档约 24 小时 +1,054，ossradar 24h +1,109 交叉验证；dsh 生态第二波维持高位。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-04",
+      "title": "[GitHub雷达 84分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "27391★ · C 档约 24 小时 +866；11-09 新增 P1。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-05",
+      "title": "[GitHub雷达 84分] janestreet/agent_skills — Jane Street 的 agent skills：把投行级工作流做成可复用的 agent 技能…",
+      "summary": "8273★ · B 档约 24 小时 +508；11-11 新增 P2，7d +8,250（ossradar 估计值）。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-06",
+      "title": "[GitHub雷达 83分] yetone/magpie — 每个 agent 的模型中枢：菜单栏里切换 Codex、Claude Code 的底层模型。",
+      "summary": "36104★ · C 档约 24 小时 +692，ossradar 24h +705 交叉验证；11-11 新增 P1 已确认。 · 上手：Mac 菜单栏应用，下载安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-07",
+      "title": "[GitHub雷达 82分] heydamir/unslop — Claude Code skill：把 AI 味十足的界面变成有设计感的界面。",
+      "summary": "15662★ · C 档约 24 小时 +547，ossradar 24h +593 交叉验证；11-11 新增 P1 已确认。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-08",
+      "title": "[GitHub雷达 80分] vercel-labs/agent-desktop — AI agent 的电脑使用 CLI。",
+      "summary": "23283★ · C 档 ossradar 24h +627（非估计值），但连接器小时仅 +11~+15/h 七轮未加速，P1 待确认不立，维持 P2。 · 上手：电脑使用 CLI，按文档部署，需桌面环境权限。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-20261114-09",
+      "title": "[GitHub雷达 80分] JuneYaooo/rea-video — 逆向任何视频：逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
+      "summary": "7981★ · C 档约 24 小时 +465，ossradar 24h +512 交叉验证；11-11 新增 P1 已确认。 · 上手：按文档运行，需自备视频模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-new-20261114-00",
+      "title": "[GitHub雷达 78分] deepseek-ai/chat-demo — DeepSeek 官方 Chat Demo 新仓；小时 +34/h（GG 轮曾 +100/h），P1 …",
+      "summary": "DeepSeek 官方 Chat Demo 新仓；小时 +34/h（GG 轮曾 +100/h），P1 待确认已关闭、留线索观察。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-new-20261114-01",
+      "title": "[GitHub雷达 72分] rivet-dev/open-orange — 让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP…",
+      "summary": "让 Cloudflare Workers 与 Durable Objects 原样跑在 AWS、GCP、Azure 或自有服务器；A 档 P2 候选，首核 +4/h 待二轮确认。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-new-20261114-02",
+      "title": "[GitHub雷达 70分] faizfahmi77/ScanDot — 实验性 Android 3D 扫描与点云查看器；四轮复核小时 +3~+13/h 持续回落，未止跌。",
+      "summary": "实验性 Android 3D 扫描与点云查看器；四轮复核小时 +3~+13/h 持续回落，未止跌。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-new-20261114-03",
+      "title": "[GitHub雷达 71分] makepad/relax — Relax Rust JIT；分片单小时 +10，观察是否延续。",
+      "summary": "Relax Rust JIT；分片单小时 +10，观察是否延续。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "repo-radar-new-20261114-04",
+      "title": "[GitHub雷达 70分] paulirish/chrome-capture — Chrome 标签页 60-120fps / 2160p 视频音频录制；单次快照，无增速基线。",
+      "summary": "Chrome 标签页 60-120fps / 2160p 视频音频录制；单次快照，无增速基线。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-00",
+      "title": "英伟达：股价再跌破 4 万亿美元，创投“黄仁勋依赖”暴露：英伟达 11 月 13 日收盘 162.85 美元，-2.01…",
+      "summary": "领导层危机正在变成资金链危机：黄仁勋个人主导的投资机器一旦停摆，靠英伟达支票起步的 neocloud 与推理服务商估值承压；11 月 17 日 Q3 财报是业务本身的下一个验证点",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-01",
+      "title": "Anthropic IPO：认购约 6 倍，定价 11 月 18 日：Anthropic IPO 订单约为可供股份的 6…",
+      "summary": "AI 实验室第一次公开市场定价进入倒计时：认购火爆但估值已缩水三成，说明公开市场对“收入暴涨 + 9000 亿美元算力承诺”的组合仍在挑剔；老股东优先分配意味着散户与新机构拿到的份额有限",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-02",
+      "title": "LangChain：3 亿美元 C 轮，估值 30 亿美元：LangChain 宣布 3 亿美元 C 轮，估值 30 亿…",
+      "summary": "Agent 管理层成为可验证的商业赛道：从开源框架起家、靠“不锁定模型与云”拿下 7,000 家客户，一年估值翻 2.4 倍；LangSmith 的模式证明 Agent 的编排、评估与管控本身就能收钱",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-03",
+      "title": "OpenAI ChatGPT Wallet 上线：Agent 可以代付了：OpenAI 发布 ChatGPT Walle…",
+      "summary": "Agent 电商闭环落地：12 亿周活用户的聊天入口第一次能直接完成支付，商家“被搜到”与“被买到”之间的最后一公里打通；支付风控与网站拦截成为新的竞争点，接入服务随之出现",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-04",
+      "title": "DeepSeek：deepseek-flash 接入搜索、文件与安全检查：DeepSeek 把聊天 App 的能力搬进 …",
+      "summary": "开源平价模型把 Agent 的工具调用成本压到新低：联网搜索、文件解析与 URL 阅读不再是旗舰模型的专属，Agent 产品的单位成本结构被重构；代价是数据合规（数据存于中国）成为采用门槛",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-05",
+      "title": "特斯拉 × SpaceX：合并谈判推进，最快 12 月宣布：Bloomberg 11 月 12 日报道：特斯拉与 Spa…",
+      "summary": "若落地将是史上最大合并：约 3.4 万亿美元的合并体横跨发射、星链、国防、电动车、储能与人形机器人；特斯拉中国业务与 SpaceX 国防业务的隔离是最大结构障碍，监管审查将决定成败",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-06",
+      "title": "出口禁令芯片：DeepSeek、Kimi 等模型带 Blackwell 训练指纹：Unemployment Labs 的…",
+      "summary": "出口管制出现“权重取证”新变量：模型权重本身会留下训练芯片的指纹，管制的执行从“查货”延伸到“查模型”；若坐实，英伟达的合规责任与对华芯片需求都将被重估，中国自研芯片的替代叙事也会加速",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-20261114-07",
+      "title": "SpaceX AI：裁撤 Grok Imagine 视频团队约 60 人：The Information 11 月 13…",
+      "summary": "马斯克系的优先级转向编码 Agent：中国公司在视频生成上领先是公开理由，Grok Imagine 只留少数人维护；视频生成赛道的投入收缩，编码工具与 Agent 成为新的争夺点",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-opp-20261114-00",
+      "title": "[AI商业情报 机会 74分] Agent 电商代付接入服务",
+      "summary": "ChatGPT Wallet 上线：Agent 可以代用户完成购买，但大量网站会无意中拦截 Agent 请求、风控会拒掉令牌支付；商家需要有人帮它把“能被搜到”变成“能被买到”",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-opp-20261114-01",
+      "title": "[AI商业情报 机会 70分] DeepSeek Flash 低成本联网 Agent 服务",
+      "summary": "DeepSeek 把聊天 App 的能力搬进 deepseek-flash API：联网搜索、多步搜索、文件解析、URL 阅读、安全检查一次齐全；峰值价比 GPT-4o 低约 88%，搜索与抓取另按 0.75 美元/千次计费",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "ai-intel-opp-20261114-02",
+      "title": "[AI商业情报 机会 66分] Devin Apps 内部工具速建服务",
+      "summary": "Cognition 推出 Devin Apps：一句话把需求变成带稳定 URL 的内部应用，托管、权限、版本历史一次齐全；中小团队不用再为每个小工具配部署与运维",
+      "category": "AI商业情报",
+      "date": "2026-11-14"
+    },
+    {
+      "id": "content-radar-20261113-00",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "content-radar-20261113-01",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "content-radar-20261113-02",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "content-radar-20261113-03",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "八个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "content-radar-20261113-04",
+      "title": "[内容雷达 83分] AI 喜剧小品 / 关系喜剧 — 值得低成本试",
+      "summary": "海外数据最扎实的新格式（17 亿总播放池），国内热榜未见。本土化切口：中式关系梗（闺蜜借钱、相亲角、室友抢外卖）、方言对白；先拍 3 条关系梗测数据，角色形象固定下来再连载。",
+      "category": "AI内容格式",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-00",
+      "title": "[GitHub雷达 89分] janestreet/agent_skills — Jane Street 的 agent skills：把投行级工作流做成可复用的 agent 技能…",
+      "summary": "7765★ · B 档约 24 小时 +1,936，为当日 B 档最大增量；7d +7,602（ossradar 估计值）；11-11 新增 P2。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-01",
+      "title": "[GitHub雷达 88分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "26525★ · C 档约 24 小时 +1,572，Trending 日榜第 10；11-09 新增 P1，报警后连续四日日增超 1,500。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-02",
+      "title": "[GitHub雷达 87分] Lee-xeo/Claude-Cage — 为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露，支持多账号与远程部署。",
+      "summary": "4760★ · B 档约 24 小时 +1,570（11-12 约 08:09 基线 3,190 → 4,760）；11-12 新增 P1 已确认，小时 +65→+125→+142 连续三轮加速；V2EX 11-08「Claude 防封号神器」为最早传播链。 · 上手：轻量虚拟机，按文档部署，需虚拟化环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-03",
+      "title": "[GitHub雷达 86分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "29807★ · C 档约 24 小时 +1,431，ossradar 24h +1,462 交叉验证；10 月 31 日创建，13 天 29,807 星。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-04",
+      "title": "[GitHub雷达 90分] GoogleChrome/modern-web-guidance-src — Google 现代 Web 指南站点的源码：让编码 agent 跟上最新…",
+      "summary": "2881★ · B 档约 24 小时 +1,144；本版新增 P1 已确认：连续 12 轮小时快照 +40~+73/h，Trending 今日第 1；Google 官方现代 Web 指南源码。 · 上手：把指南内容喂给 agent 即可，零部署成本。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-05",
+      "title": "[GitHub雷达 83分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "20749★ · C 档约 24 小时 +1,044，ossradar 24h +1,005 交叉验证；dsh 生态第二波维持高位。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-06",
+      "title": "[GitHub雷达 84分] NotRexed/Hookshot — 《塞尔达传说：时之笛》Switch 2 重制版原生重编译。",
+      "summary": "8777★ · C 档约 24 小时 +991；11-09 新增 P1；与 Lichii 同属塞尔达重编译生态簇（v5 规则④）。 · 上手：实验性极强，需自备游戏与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-07",
+      "title": "[GitHub雷达 82分] yetone/magpie — 每个 agent 的模型中枢：菜单栏里切换 Codex、Claude Code 的底层模型。",
+      "summary": "35412★ · C 档约 24 小时 +709；11-11 新增 P1 已确认。 · 上手：Mac 菜单栏应用，下载安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-08",
+      "title": "[GitHub雷达 83分] shanselman/gputaskman — Windows/Linux GPU 任务管理器：每进程显存、GPU 占用与 LLM 模型/KV 缓存洞…",
+      "summary": "2709★ · B 档 ossradar 24h +669（非估计值），连接器小时约 +30/h 稳速；11-13 00:16 新增 P1 已确认。 · 上手：下载对应平台安装包即用，Windows AMD/NVIDIA 均支持。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-20261113-09",
+      "title": "[GitHub雷达 82分] heydamir/unslop — Claude skill：把 AI 味十足的界面改写成真正设计过的样子。",
+      "summary": "15115★ · C 档约 24 小时 +568；11-11 新增 P1 已确认；慢燃 7d +5,286 已破 C 档 5,000 线。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-new-20261113-00",
+      "title": "[GitHub雷达 78分] FrigadeHQ/yogurt — 私密 AI 会议记录，免费开源。ossradar 24h +620，但未达 3 倍中位约 930，P2 不触发。",
+      "summary": "私密 AI 会议记录，免费开源。ossradar 24h +620，但未达 3 倍中位约 930，P2 不触发。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-new-20261113-01",
+      "title": "[GitHub雷达 78分] HybridRobotics/supermimic — 人形机器人全身运动追踪：一个可微世界模型。约 24h +282。",
+      "summary": "人形机器人全身运动追踪：一个可微世界模型。约 24h +282。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-new-20261113-02",
+      "title": "[GitHub雷达 84分] Kianuni/Erosion-CN — iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱。11-10 新增 P1：约 2…",
+      "summary": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱。11-10 新增 P1：约 24h +186，增速回落。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-new-20261113-03",
+      "title": "[GitHub雷达 80分] jhaizhou-ops/S2Arm — 在 iPhone/iPad/Mac 原生运行 Switch 游戏。11-09 新增 P1：约 24h +17…",
+      "summary": "在 iPhone/iPad/Mac 原生运行 Switch 游戏。11-09 新增 P1：约 24h +171。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "repo-radar-new-20261113-04",
+      "title": "[GitHub雷达 76分] DIYgod/pinky — 让 AI agent 在人在回路下用你的手机。约 24h +134。",
+      "summary": "让 AI agent 在人在回路下用你的手机。约 24h +134。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-00",
+      "title": "英伟达：黄仁勋辞职：英伟达宣布黄仁勋辞去总裁、CEO 与董事职务，立即生效；董事会 11 月 11 日晚接受辞呈；CFO…",
+      "summary": "AI 繁荣核心公司的治理与接班风险正式落地为人事更迭：33 年创始人离任，接班人搜寻与 11 月 17 日 Q3 财报成为下一验证点；芯片供应叙事短期让位于领导层不确定性",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-01",
+      "title": "Anthropic IPO 路演：定价区间落地，估值缩水约 6000 亿美元：Anthropic IPO 路演 11 月…",
+      "summary": "AI 实验室第一次公开市场定价：估值较 2 万亿美元讨论价缩水约三成，说明公开市场对“收入暴涨 + 9000 亿美元算力承诺”的组合开始挑剔；260 亿美元战略私募把谷歌、英伟达、台积电绑进同一条船",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-02",
+      "title": "Mirendil 10 亿美元 A 轮：Mirendil 宣布 10 亿美元 A 轮，Kleiner Perkins 与…",
+      "summary": "“一人训出前沿模型”叙事拿到史上最大 A 轮之一：AI 研发本身正在被 Agent 化，研发工具与算力平台成为新的融资热点；1 个人 + Agent 在 3.5 个月、不到 1000 万美元算力内训出编码模型，直接冲击“只有大厂能训模型”的假设",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-03",
+      "title": "谷歌 Gemini 4 Hydrogen 上线：谷歌发布 Gemini 4 Hydrogen：面向日常编码与 Agent…",
+      "summary": "效率模型成为新战场：谷歌把前沿级智能下放到 1.50/7.50 美元的平价模型，Agent 产品的单位成本与多模型编排（Orchestrator）成为新的竞争维度；Cursor 已接入，编码 Agent 的模型议价权向谷歌倾斜",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-04",
+      "title": "MiniMax H3-Image 开源：MiniMax 发布并开源 33B 生图模型 H3-Image：原生 16MP（…",
+      "summary": "开源生图进入 4K 可用阶段：高精度生图从“玩具”变成可交付的商业资产，电商、游戏、装修等行业的视觉资产成本被重构；MiniMax 继开源视频旗舰 H3 之后，把开源野火烧向多模态生图",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-05",
+      "title": "Nebius：2027 年 400–450 亿美元资本开支，微软合同延期：Nebius Q3 财报电话会：计划 2027…",
+      "summary": "neocloud 的融资模式正在被现实检验：靠客户预付款与合同贷款替代发债，但微软 194 亿美元合同延期说明交付能力跟不上融资速度；算力需求仍在，但“谁能按时交付”成为新的分水岭",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-06",
+      "title": "Fireworks AI 遭入侵，Notion 客户聊天记录被盗：Fireworks AI 确认遭入侵：黑客经其云服务商…",
+      "summary": "AI 产品的数据安全不再只取决于自己，取决于最弱的上游：模型 API 服务商被入侵会直接泄露下游客户的聊天记录；AI 供应链安全从合规加分项变成采购硬门槛",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-20261113-07",
+      "title": "Norwest 40 亿美元新基金：Norwest 宣布 40 亿美元新基金，为这家 65 年历史机构的第 18 期、史…",
+      "summary": "LP 的钱仍在流向 AI：65 年老牌机构史上最大一期基金，投向 AI 原生应用与基础设施、物理 AI、领域模型与网络安全，说明一级市场对 AI 的配置并未因二级市场波动而撤回",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-opp-20261113-00",
+      "title": "[AI商业情报 机会 76分] H3-Image 低成本视觉资产服务",
+      "summary": "MiniMax H3-Image 开源：33B 模型、原生 4K、6 步出图，支持 CAD 拆解与爆炸图、复杂文本排版；API 价仅为竞品 50%–70%，首周 16MP 请求五折；高精度生图从“玩具”变成可交付的商业资产",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-opp-20261113-01",
+      "title": "[AI商业情报 机会 70分] Claude 企业自托管与合规部署服务",
+      "summary": "Anthropic 区域风控 11 月 12 日生效，同时推出企业自托管 Claude Agent 控制面（AlphaSignal 11 月 12 日）；企业客户既要合规、又要保留 Claude 工作流，官方自托管方案需要部署与集成服务",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "ai-intel-opp-20261113-02",
+      "title": "[AI商业情报 机会 64分] AI 供应链安全审计",
+      "summary": "Fireworks AI 遭入侵：黑客经云服务商进入开发系统，盗走客户计费信息与数据集；Notion 约 1% 客户受影响，其 Notion AI Insights 聊天记录被盗；AI 产品的数据安全不再只取决于自己，取决于最弱的上游",
+      "category": "AI商业情报",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "content-radar-20261112-00",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，是本期最值得试的新格式。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "content-radar-20261112-01",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "content-radar-20261112-02",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "content-radar-20261112-03",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "八个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "content-radar-20261112-04",
+      "title": "[内容雷达 83分] AI 喜剧小品 / 关系喜剧 — 值得低成本试",
+      "summary": "昨日观察池候选，今日正式入选：海外数据最扎实的新格式（17 亿总播放池），国内热榜未见。本土化切口：中式关系梗（闺蜜借钱、相亲角、室友抢外卖）、方言对白；先拍 3 条关系梗测数据，角色形象固定下来再连载。",
+      "category": "AI内容格式",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "content-radar-20261112-05",
+      "title": "[内容雷达 82分] 电影名场面复刻 / POV 叙事 — 值得低成本试",
+      "summary": "本土化优势最大：国产经典影视与名著场景海外没有，国内观众有共鸣。先做 3 条（周星驰式无厘头、甄嬛式宫斗、武侠式对决）测数据；注意不要直接复刻受版权保护的完整片段，用致敬与改编。",
+      "category": "AI内容格式",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-00",
+      "title": "[GitHub雷达 88分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "24953★ · C 档约 24 小时 +2,176，Trending 今日 +2,776 仍居日榜首位；11-09 新增 P1，报警后连续三日日增超 2,100。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-01",
+      "title": "[GitHub雷达 86分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "28376★ · C 档约 24 小时 +2,123，ossradar 24h +1,979 交叉验证；10 月 31 日创建，12 天 28,376 星，增速仍居前列。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-02",
+      "title": "[GitHub雷达 87分] janestreet/agent_skills — Jane Street 的 agent skills：把投行级工作流做成可复用的 agent 技能…",
+      "summary": "5829★ · B 档约 24 小时 +2,008，为当日 B 档最大增量；7d +5,796 达 B 档慢燃线；11-11 新增 P2，P1 待确认未通过二次确认，凭持续增速进榜。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-03",
+      "title": "[GitHub雷达 84分] NotRexed/Hookshot — 《塞尔达传说：时之笛》Switch 2 重制版原生重编译。",
+      "summary": "7786★ · C 档约 24 小时 +1,259；11-09 新增 P1；与 Lichii 同属塞尔达重编译生态簇（v5 规则④）。 · 上手：实验性极强，需自备游戏与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-04",
+      "title": "[GitHub雷达 82分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "19705★ · C 档约 24 小时 +1,035，ossradar 24h +990 交叉验证；第二波维持高位。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-05",
+      "title": "[GitHub雷达 83分] heydamir/unslop — Claude skill：把 AI 味十足的界面改写成真正设计过的样子。",
+      "summary": "14547★ · C 档约 24 小时 +832，ossradar 24h +776 交叉验证；11-11 新增 P1 已确认。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-06",
+      "title": "[GitHub雷达 83分] yetone/magpie — 每个 agent 的模型中枢：菜单栏里切换 Codex、Claude Code 的底层模型。",
+      "summary": "34703★ · C 档约 24 小时 +830，ossradar 24h +803 交叉验证；11-11 新增 P1 已确认。 · 上手：Mac 菜单栏应用，下载安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-07",
+      "title": "[GitHub雷达 80分] homeassistant-ai/ha-mcp — 用 Claude/ChatGPT 配置与自动化 Home Assistant。",
+      "summary": "7358★ · C 档约 24 小时 +713，Trending 今日 +645；P1 待确认两次未通过二次确认，凭持续增速进榜。 · 上手：Home Assistant 插件，按文档接入即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-08",
+      "title": "[GitHub雷达 82分] Kianuni/Erosion-CN — iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱。",
+      "summary": "1537★ · B 档约 24 小时 +508；11-10 新增 P1（生态簇，与 GestaltX 同 MobileGestalt 关键词）；创建仅 2 天即破 1,500 星。 · 上手：iOS 研究工具箱，需 iOS 设备与侧载，研究用途，普通用户门槛较高。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-20261112-09",
+      "title": "[GitHub雷达 84分] cloudflare/security-audit-skill — 给编码 Agent 用的多阶段安全审计 skill，猎手 agent + 独立验证…",
+      "summary": "70367★ · D 档约 24 小时 +1,052；第二波持续发酵，非单点引爆。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-new-20261112-01",
+      "title": "[GitHub雷达 80分] jhaizhou-ops/S2Arm — 在 iPhone/iPad/Mac 原生运行 Switch 游戏。11-09 新增 P1：约 24h +21…",
+      "summary": "在 iPhone/iPad/Mac 原生运行 Switch 游戏。11-09 新增 P1：约 24h +210。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-new-20261112-02",
+      "title": "[GitHub雷达 78分] HybridRobotics/supermimic — 人形机器人全身运动追踪：一个可微世界模型。今日首次入池（01:09），约 7.5 小时 +31…",
+      "summary": "人形机器人全身运动追踪：一个可微世界模型。今日首次入池（01:09），约 7.5 小时 +31。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "repo-radar-new-20261112-03",
+      "title": "[GitHub雷达 76分] DIYgod/pinky — 让 AI agent 在人在回路下用你的手机。约 24h +194。",
+      "summary": "让 AI agent 在人在回路下用你的手机。约 24h +194。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-00",
+      "title": "英伟达董事会据报准备罢免黄仁勋：WSJ 报道英伟达董事会最快周三开会决定黄仁勋去留；黄仁勋周日承认与疑似中国间谍有婚外情…",
+      "summary": "AI 繁荣核心公司的治理与接班风险首次进入市场定价：若换帅，芯片供应叙事与“黄仁勋溢价”都将被重估",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-01",
+      "title": "OpenAI 单季收入首破 100 亿美元：Bloomberg 知情人士称 OpenAI Q3 收入首次突破 100 亿…",
+      "summary": "两大实验室收入同时破圈：Anthropic Q3 收入 170 亿美元、年化 810 亿美元，OpenAI 终于在单季收入上破百亿——AI 商业化的比拼从“谁融得多”进入“谁赚得多”",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-02",
+      "title": "台积电 10 亿美元入股 Anthropic 与 OpenAI：路透社口径，台积电董事会批准最高 5 亿美元购买 Ope…",
+      "summary": "芯片制造商直接入股两大实验室：台积电从“卖铲子”变成“持股的铲子商”，AI 繁荣期的循环融资再添一例——实验室买台积电的芯片，台积电买实验室的股份",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-03",
+      "title": "Mercor 7.5 亿美元 D 轮，估值 200 亿美元：Mercor 宣布 7.5 亿美元 D 轮，估值 200 亿…",
+      "summary": "AI 数据服务商的估值一年翻倍：企业为自己的模型做评估与训练已从一次性采购变成持续支出，专家网络 + 质检的组合交付是目前 AI 产业链里少数有规模化收入的环节",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-04",
+      "title": "Anthropic 区域风控收紧，11 月 12 日生效：36kr 转载新智元文章称 Anthropic 推出全新风控政…",
+      "summary": "直接影响 Claude Code 在中国等不支持地区的使用链路（账号、支付、IP 三点），合规替代与迁移服务出现明确需求窗口；转卖与代理服务被点名封杀",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-05",
+      "title": "CoreWeave Q3：收入 36.6 亿美元，转向客户预付款：CoreWeave Q3 财报：收入 36.6 亿美元…",
+      "summary": "neocloud 的融资模式正在改写：靠客户预付款与短期高价合同替代无抵押债，说明算力需求仍在、但借债成本已高到发不出债；短期合同定价（超 4,000 万美元/兆瓦/年）几乎是长约的两倍，算力正在现货化",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-06",
+      "title": "美联航禁止 AI agent 代订机票：美联航表示不让个人 AI 助手代为预订机票：Agent 仍可展示航班，但不能代用…",
+      "summary": "平台与 Agent 的权限之争从电商扩散到航司与银行：Agent 能“看”不能“买”，做旅行、金融类 Agent 的创业者必须先拿到平台许可或走官方 API，否则产品随时被断",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-20261112-07",
+      "title": "谷歌 Gemini Decisions API 上线：谷歌发布 Gemini Decisions API 与 Gemin…",
+      "summary": "决策模型把 Agent 的路由、分类、质检从生成式调用变成廉价判别调用，Agent 产品的单位成本与毛利空间再被重构；“判别调用”正在成为与“生成调用”并列的基础设施",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-opp-20261112-00",
+      "title": "[AI商业情报 机会 72分] Claude 合规迁移与替代服务",
+      "summary": "Anthropic 11 月 12 日收紧区域风控（36kr/新智元口径）：不支持地区物理位置、注册地、控股关系三条红线，消费级订阅转发与转卖代理被点名封杀；S-1 披露 5%–7% 收入来自违规客户；大量国内用户面临限速、拔线、永久封号",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-opp-20261112-01",
+      "title": "[AI商业情报 机会 68分] Agent 决策/路由层微服务",
+      "summary": "谷歌 Gemini Decision 1 上线：0.10 美元/百万输入 tokens、输出免费、150–250 毫秒、一次评 1,000 个问题；Agent 产品里大量调用是判别而非生成，用生成模型做路由是在烧钱",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "ai-intel-opp-20261112-02",
+      "title": "[AI商业情报 机会 66分] 垂直领域 AI 评估数据服务",
+      "summary": "Mercor 模式被验证：7.5 亿美元 D 轮、估值 200 亿美元，CEO 称 27 个月年化收入从 100 万美元做到 30 亿美元；500 万专家网络覆盖 800 多种职业；企业开始为自己的模型做评估与训练",
+      "category": "AI商业情报",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "content-radar-20261111-01",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "content-radar-20261111-02",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "content-radar-20261111-03",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "七个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "content-radar-20261111-04",
+      "title": "[内容雷达 82分] 电影名场面复刻 / POV 叙事 — 值得低成本试",
+      "summary": "本土化优势最大：国产经典影视与名著场景海外没有，国内观众有共鸣。先做 3 条（周星驰式无厘头、甄嬛式宫斗、武侠式对决）测数据；注意不要直接复刻受版权保护的完整片段，用致敬与改编。",
+      "category": "AI内容格式",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-00",
+      "title": "[GitHub雷达 88分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "22777★ · C 档增速第一：约 24 小时 +2,754，Trending 今日 +3,108 仍居日榜首位；11-09 新增 P1，报警后连续两日日增超 2,700。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-01",
+      "title": "[GitHub雷达 86分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "26253★ · C 档约 24 小时 +1,804，ossradar 24h +1,800 交叉验证；10 月 31 日创建，11 天 26,253 星，增速仍居前列。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-02",
+      "title": "[GitHub雷达 84分] NotRexed/Hookshot — 《塞尔达传说：时之笛》Switch 2 重制版原生重编译。",
+      "summary": "6527★ · C 档约 24 小时 +1,520，破 6,500 星；11-09 新增 P1；与 Lichii 同属塞尔达重编译生态簇（v5 规则④）。 · 上手：实验性极强，需自备游戏与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-03",
+      "title": "[GitHub雷达 82分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "18670★ · C 档约 24 小时 +1,112，第二波维持高位；10 月 25 日创建，17 天 18,670 星。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-04",
+      "title": "[GitHub雷达 82分] milind-soni/OpenMausBot — 开源 Grok Bot 平替：聊天 App 里每个联系人都是真 agent，各自带一台可用的虚拟电…",
+      "summary": "20620★ · C 档约 24 小时 +959；多渠道持续发酵，非单点引爆。 · 上手：开源应用，需配 Claude/Codex/grok CLI 订阅与虚拟电脑。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-05",
+      "title": "[GitHub雷达 78分] JuneYaooo/rea-video — 逆向任何视频：逐镜头判定实拍、AI 生成还是代码生成。",
+      "summary": "6357★ · C 档约 24 小时 +862；REA 的视频版跟随者，蹭到 REA 的逆向叙事。 · 上手：开源工具，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-06",
+      "title": "[GitHub雷达 80分] google/elephant-goldfish-model — 用 agent 设计与评审软件的开源插件。",
+      "summary": "17172★ · C 档约 24 小时 +712，持续增长无单日爆点；P1 待确认多次未通过（小时未连续加速），凭持续增速进榜。 · 上手：Google 官方插件，按文档接入 agent 工作流即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-07",
+      "title": "[GitHub雷达 84分] cloudflare/security-audit-skill — 给编码 Agent 用的多阶段安全审计 skill，猎手 agent + 独立验证…",
+      "summary": "69315★ · D 档约 24 小时 +1,243；第二波持续发酵，非单点引爆。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-08",
+      "title": "[GitHub雷达 82分] Kianuni/Erosion-CN — iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱。",
+      "summary": "1029★ · B 档约 19 小时 +818（211→1,029），创建仅约 30 小时即破千星；今日新增 P1（生态簇，与 GestaltX 同 MobileGestalt 关键词）。 · 上手：iOS 研究工具箱，需 iOS 设备与侧载，研究用途，普通用户门槛较高。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-20261111-09",
+      "title": "[GitHub雷达 80分] jhaizhou-ops/S2Arm — 在 iPhone/iPad/Mac 原生运行 Switch 游戏。",
+      "summary": "2376★ · B 档约 24 小时 +612；11-09 新增 P1，报警后继续增长。 · 上手：iPhone/iPad/Mac 原生运行 Switch 游戏，需自备游戏与固件。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-new-20261111-02",
+      "title": "[GitHub雷达 80分] RunanywhereAI/trnrt — AWS Trainium 开源 LLM 推理引擎：NKI megakernels、1M token 上下文…",
+      "summary": "AWS Trainium 开源 LLM 推理引擎：NKI megakernels、1M token 上下文。今日新增 P1：首次发现后约 10 小时 +251。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-new-20261111-03",
+      "title": "[GitHub雷达 78分] janestreet/agent_skills — Jane Street 的 agent skills。7 天 +3,787 达 B 档慢燃线；os…",
+      "summary": "Jane Street 的 agent skills。7 天 +3,787 达 B 档慢燃线；ossradar 24h +1,738。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "repo-radar-new-20261111-04",
+      "title": "[GitHub雷达 76分] DIYgod/pinky — 让 AI agent 在人在回路下用你的手机。今日首次发现（00:09），约 8 小时 +26。",
+      "summary": "让 AI agent 在人在回路下用你的手机。今日首次发现（00:09），约 8 小时 +26。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-00",
+      "title": "Anthropic IPO 定价：Anthropic 更新 IPO 文件：发行 8.25 亿股 A 类股，每股 70–7…",
+      "summary": "AI 实验室正式按基础设施定价：1.4 万亿美元估值、810 亿美元年化收入、260 亿美元战略私募（谷歌与英伟达各 100 亿）——IPO 成败将决定 AI 一级市场未来一年的定价锚，也决定“租算力 vs 自建”的叙事走向",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-01",
+      "title": "Google Gemini 4 Carbon 全面开放：Google DeepMind 宣布 Gemini 4 Carb…",
+      "summary": "前沿模型正式按“每任务成本”定价竞争：Carbon 在三大第三方基准登顶且任务成本低 2 倍以上，叠加 Antigravity /swarm 多智能体并行——编码与知识工作 Agent 的模型成本锚再次下移",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-02",
+      "title": "Oura 6.25 亿美元收购 Counsel Health：Oura 宣布以 6.25 亿美元收购 AI 原生初级医疗…",
+      "summary": "可穿戴从“监测数据”走向“采取医疗行动”：Oura 用 6.25 亿美元买下一家 AI 原生初级医疗公司，硬件订阅叠加医疗服务，打开按人头收费的医疗订阅想象空间；Oura 自身季度收入 5.33 亿美元、同比 +153%，已是 AI 健康赛道少见的规模化收入案例",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-03",
+      "title": "OpenAI Business Hub 上线：OpenAI 推出 Business Hub（beta）：企业可创建可验证…",
+      "summary": "ChatGPT 从聊天工具变成商家发现入口：商家资料＋Business Agent＋曝光数据的三件套，等于给每个企业一个“AI 搜索时代的官网”；中小商家第一次能在 12 亿周活用户的平台上直接承接咨询，代运营与商家内容服务出现新窗口",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-04",
+      "title": "Grok Build 泄密 3.5 万应用：Ars Technica 报道安全公司 Claroc 的研究：Grok Bu…",
+      "summary": "继 Claude Code 泄密之后第二起同类事件，且泄漏机制不同（被动 DNS 可枚举子域名分享链接）：vibe-coding 工具的默认公开正在系统性地把企业机密送上公开网络——安全审计与默认私有化改造的付费需求再获实证",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-05",
+      "title": "谷歌 TPU 8tx 与 8i Max：谷歌发布第八代 TPU 的两个新变种：TPU 8tx 与 AMD 合作设计，主打…",
+      "summary": "超大规模云厂商与 AI 实验室都在自研芯片降本：谷歌 TPU 组合补上机密推理与大内存推理两块拼图，推理成本若显著低于英伟达方案，将直接改写 Agent 产品的部署成本结构；AMD 参与 8tx 设计，芯片供应链的合纵连横在加速",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-06",
+      "title": "TensorWorld 物原科技融资过亿美元：量子位报道：TensorWorld 物原科技 2026 年 7 月成立，成…",
+      "summary": "世界模型赛道融资分化：成立 4 个月、尚无产品与收入披露的团队能融过亿美元，说明资本在押注“物理真实”这一具身智能与工业仿真的底层能力；但厂商供稿口径需打折，真正的验证是工业客户是否买单",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-20261111-07",
+      "title": "Adobe MAX 全面转向 Agentic AI：Adobe 在 MAX 大会上宣布：Photoshop、Premie…",
+      "summary": "创意软件巨头全面转向 Agent 化：Adobe 把 MCP 开放给 ChatGPT、Claude、Gemini，Firefly 新增原型工具 Builder 与视频组装——创意工作流的入口之争从“谁的模型更强”转向“谁的 Agent 能直接干活”；与 Anthropic 同日推办公套件形成呼应，办公与创意两条线的 Agent 化在同一天加速",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-opp-20261111-00",
+      "title": "[AI商业情报 机会 72分] ChatGPT 商家获客服务（Business Hub 代运营）",
+      "summary": "OpenAI 11 月 10 日上线 Business Hub（beta）：企业可创建可验证的商家资料、上线专属 Business Agent 供用户提问、查看曝光与点击等经营数据；ChatGPT 正从聊天工具变成商家发现入口，但大多数中小商家不知道怎么做",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-opp-20261111-01",
+      "title": "[AI商业情报 机会 74分] AI Agent 权限与安全治理（垂直工具）",
+      "summary": "Grok Build 默认分享为“Anyone with the link”，随机值放在子域名而非路径中，可被被动 DNS 枚举：Claroc 发现 43,601 个 grok.me 链接中超过 3.5 万个公开，含财富 500 强员工数据、国防承包商资料与 SpaceXSI 自家 24 个应用；Meta 的 Muse 此前已因类似泄漏暂停链接分享",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "ai-intel-opp-20261111-02",
+      "title": "[AI商业情报 机会 66分] 自由职业 AI 技能打包服务",
+      "summary": "OpenAI×Upwork 报告：2025 上半年至 2026 上半年，Upwork 招聘占比移动开发 +2.27 个百分点、视频与动画 +1.38 个百分点，网页开发 -1.98 个百分点；AI 相关招聘任务组合多样性提高 45%，客户要的是“会组合多种 AI 技能的人”，不是单一技能",
+      "category": "AI商业情报",
+      "date": "2026-11-11"
+    },
+    {
+      "id": "content-radar-20261110-01",
+      "title": "[内容雷达 87分] 会说话的动物 / AI 宝宝 — 值得低成本试",
+      "summary": "海外已验证、国内热榜暂未见、制作极便宜。本土化切口：方言动物（川普猫、东北虎大爷）、宠物拟人说打工人的话。先拍 3 条测完播，数据好再追。",
+      "category": "AI内容格式",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "content-radar-20261110-02",
+      "title": "[内容雷达 86分] Bodycam 喜剧 / 第一人称荒诞短片 — 值得低成本试",
+      "summary": "海外最热、国内空白、单条成本低。本土化切口：打工人第一人称（挤地铁、抢红包、相亲现场），荒诞点要贴近本地生活。",
+      "category": "AI内容格式",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "content-radar-20261110-03",
+      "title": "[内容雷达 85分] AI ASMR / 解压满足感短片 — 值得低成本试",
+      "summary": "七个格式里制作成本最低、无需写对白与剧情，适合批量测。本土化切口：中式解压（切年糕、捏汤圆、修驴蹄子 AI 版）。",
+      "category": "AI内容格式",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "content-radar-20261110-04",
+      "title": "[内容雷达 82分] 电影名场面复刻 / POV 叙事 — 值得低成本试",
+      "summary": "本土化优势最大：国产经典影视与名著场景海外没有，国内观众有共鸣。先做 3 条（周星驰式无厘头、甄嬛式宫斗、武侠式对决）测数据；注意不要直接复刻受版权保护的完整片段，用致敬与改编。",
+      "category": "AI内容格式",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-00",
+      "title": "[GitHub雷达 88分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "20023★ · C 档增速第一：约 24 小时 +3,290，9 小时 +1,777，小时约 104–197/h 仍在高位；昨日新增 P1。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-01",
+      "title": "[GitHub雷达 86分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "24449★ · C 档约 24 小时 +1,861，小时增速维持约 43–90/h 高位；10 月 31 日创建，10 天 24,449 星，增速仍居前列。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-02",
+      "title": "[GitHub雷达 84分] NotRexed/Hookshot — 《塞尔达传说：时之笛》Switch 2 重制版原生重编译。",
+      "summary": "5007★ · B→C 档：约 24 小时 +1,930，9 小时 +1,300，破 5,000 星；昨日新增 P1；与 Lichii 同属塞尔达重编译生态簇（v5 规则④）。 · 上手：实验性极强，需自备游戏与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-03",
+      "title": "[GitHub雷达 82分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "17558★ · C 档约 24 小时 +1,499，第二波维持约 76–92/h 高位；10 月 25 日创建，16 天 17,558 星。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-04",
+      "title": "[GitHub雷达 82分] milind-soni/OpenMausBot — 开源 Grok Bot 平替：聊天 App 里每个联系人都是真 agent，各自带一台可用的虚拟电…",
+      "summary": "19661★ · C 档约 24 小时 +1,423，Trending 今日 +1,587（日榜第 11）；多渠道持续发酵，非单点引爆。 · 上手：开源应用，需配 Claude/Codex/grok CLI 订阅与虚拟电脑。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-05",
+      "title": "[GitHub雷达 80分] google/elephant-goldfish-model — 用 agent 设计与评审软件的开源插件。",
+      "summary": "16460★ · C 档约 24 小时 +1,371，约 44/h 持续增长无单日爆点；P1 待确认多次未通过（小时未连续加速），凭持续增速进榜。 · 上手：Google 官方插件，按文档接入 agent 工作流即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-06",
+      "title": "[GitHub雷达 84分] cloudflare/security-audit-skill — 给编码 Agent 用的多阶段安全审计 skill，猎手 agent + 独立验证…",
+      "summary": "68072★ · 约 24 小时 +1,228；第二波持续发酵，非单点引爆；小时增速约 44–100/h 区间波动。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-07",
+      "title": "[GitHub雷达 78分] JuneYaooo/rea-video — 逆向任何视频：逐镜头判定实拍、AI 生成还是代码生成。",
+      "summary": "5495★ · B 档约 24 小时 +1,028，小时增速约 20–34/h；REA 的视频版跟随者，蹭到 REA 的逆向叙事。 · 上手：开源工具，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-08",
+      "title": "[GitHub雷达 80分] zortos293/Lichii — Switch / Switch 2 模拟器（yuzu 系分支，保留旧存档与配置）。",
+      "summary": "7617★ · C 档约 24 小时 +781，9 小时 +305；已报警；塞尔达生态簇，Hookshot 同源。 · 上手：实验性极强，需自备游戏、密钥与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261110-09",
+      "title": "[GitHub雷达 76分] amosblomqvist/learnharness — 帮你学难东西的 agent harness：把学习过程交给 agent 拆解与带练。",
+      "summary": "7699★ · 今日新发现：首次发现后 9 小时 +471，C 档；但小时增速三轮递减（约 67→53→41/h），需下轮确认是否持续。 · 上手：TypeScript 项目，按 README 部署即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-new-20261110-01",
+      "title": "[GitHub雷达 78分] shanselman/gputaskman — Windows/Linux/WSL 的 GPU 任务管理器：每进程显存、GPU 占用与 LLM 模型/…",
+      "summary": "Windows/Linux/WSL 的 GPU 任务管理器：每进程显存、GPU 占用与 LLM 模型/KV 缓存洞察。昨日新增 P1：24h +473。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-new-20261110-02",
+      "title": "[GitHub雷达 74分] lxe/phoneuse — 在 Linux 上看和操作未改装的 iPhone：AirPlay 投屏 + 蓝牙键鼠 + agent CLI/skill…",
+      "summary": "在 Linux 上看和操作未改装的 iPhone：AirPlay 投屏 + 蓝牙键鼠 + agent CLI/skill。24h +96，连接器核实 536 星。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-new-20261110-03",
+      "title": "[GitHub雷达 76分] voyager-so/vork — 面向 agent 的无头 3D/VFX 引擎（研究预览版），Rust 编写。24h +170，P2 已触发。",
+      "summary": "面向 agent 的无头 3D/VFX 引擎（研究预览版），Rust 编写。24h +170，P2 已触发。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-new-20261110-04",
+      "title": "[GitHub雷达 74分] Sandflow-ai/sand3d — 为 LLM 而生的 Python 3D 建模：用自然语言建 3D 模型。今日首次入池（P2 观察），约 12…",
+      "summary": "为 LLM 而生的 Python 3D 建模：用自然语言建 3D 模型。今日首次入池（P2 观察），约 12 小时 +73。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-20261110-00",
+      "title": "Anthropic Fable 5.2 / Mythos 5.2：Anthropic 发布 Claude Fable 5…",
+      "summary": "前沿编码模型首次在“更强+更快+更便宜”三条线同时推进，High effort 下任务成本约为 Opus 5.5 Max effort 的一半——编码 Agent 的性价比锚下移，直接压低所有 Agent 产品的模型成本",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-20261110-01",
+      "title": "英伟达风波升级：TechCrunch 11 月 9 日连发三篇：空头卖方 6 个月前已就黄仁勋与疑似中国间谍的关系发出预…",
+      "summary": "从董事会调查升级为诉讼、客户活动与舆论三线承压；英伟达的中国业务叙事与数据中心扩张叙事同时受冲击，短期看股价与合作谈判，长期看是否动摇 CEO 人选",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-20261110-02",
+      "title": "Meta Muse Ember：Meta 发布 Muse Ember，定位最轻、最便宜的 Agent 执行模型：输入 0…",
+      "summary": "Agent 模型正式按“每任务成本”定价竞争；轻量执行层便宜到可以按量铺开，客服、文档处理等量大场景的 Agent 成本结构被改写",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-20261110-03",
+      "title": "Anthropic 34 亿美元买燃气轮机：TechCrunch 转述 FT：Anthropic 斥资 34 亿美元向 …",
+      "summary": "电力成为 AI 公司继芯片之后的第二张入场券；头部实验室被迫从“租算力”转向“买发电”，能源成本与排队时间直接决定谁能扩规模，利好涡轮机与能源基建链",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-20261110-04",
+      "title": "OpenAI ChatGPT Enterprise 上架 AWS Marketplace：OpenAI 宣布 ChatG…",
+      "summary": "企业 AI 采购进入“走云市场、算进承诺消费”的新渠道：AWS 成为 OpenAI 的分销与账单入口，降低企业采购摩擦；与 Bedrock 上 OpenAI 模型互补，开发者与业务团队各取所需",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-20261110-05",
+      "title": "Claude Code 泄密事件：Ars Technica 报道安全机构 Apiiro 发现：超 10 万个 Claud…",
+      "summary": "高盛收回 Claude Code 之后又一治理实证：Agent 工具的默认配置就能让企业秘密公开上网——安全审计与权限管理从“加分项”变成企业采购 Agent 的前置条件，付费意愿最强的场景之一",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-20261110-06",
+      "title": "千问办公 2.0 Team Agent：量子位 11 月 9 日报道：千问办公发布 2.0，上线三个月最大升级，称行业首…",
+      "summary": "国内企业级 Agent 从“个人助手”进入“团队协作”：钉钉/飞书/企微打通后，Agent 直接进工作群与业务表格，to B 落地的竞争焦点从模型能力转向 IM 与业务系统集成深度",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-opp-20261110-00",
+      "title": "[AI商业情报 机会 72分] AI Agent 权限与安全治理（垂直工具）",
+      "summary": "Claude Code 泄密：超 10 万个设置文件被公开上传到 GitHub，约 1,100 个含真实秘密；高盛已把 Claude Code 收回给工程师；Agent 能读写运行代码，权限必须可管、可审计、可收回",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-opp-20261110-01",
+      "title": "[AI商业情报 机会 68分] 便宜 Agent 模型编排/路由层",
+      "summary": "Fable 5.2 任务成本约减半、Ember 输入每百万 tokens 0.10 美元、约 0.14 美元/任务——大模型做规划、小模型做执行的分工已被大厂产品化，但中小团队缺现成的路由层",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "ai-intel-opp-20261110-02",
+      "title": "[AI商业情报 机会 66分] 桌面/浏览器 Agent 垂直工具",
+      "summary": "Dots 可同时控制多台电脑、Antigravity 出知识工作视图、agent-browser 当日 +916 星、OpenMausBot 当日 +1,587 星——桌面 Agent 从演示进入可用，但缺垂直场景的成品",
+      "category": "AI商业情报",
+      "date": "2026-11-10"
+    },
+    {
+      "id": "repo-radar-20261109-00",
+      "title": "[GitHub雷达 86分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "22588★ · C 档增速第一：约 24.5 小时 +2,017，小时增速维持约 67–90/h 高位；10 月 31 日创建，9 天 22,588 星，增速仍居首。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-01",
+      "title": "[GitHub雷达 82分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "16059★ · C 档约 24.5 小时 +1,804，第二波维持高位后略有递减，仍处一线以上；10 月 25 日创建，15 天 16,059 星。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-02",
+      "title": "[GitHub雷达 82分] milind-soni/OpenMausBot — 开源 Grok Bot 平替：聊天 App 里每个联系人都是真 agent，各自带一台可用的虚拟电…",
+      "summary": "18238★ · C 档约 24.5 小时 +1,326，Trending 今日 +1,439（日榜第 3）；多渠道持续发酵，非单点引爆。 · 上手：开源应用，需配 Claude/Codex/grok CLI 订阅与虚拟电脑。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-03",
+      "title": "[GitHub雷达 84分] zortos293/Lichii — Switch / Switch 2 模拟器（yuzu 系分支，保留旧存档与配置）。",
+      "summary": "6836★ · C 档约 24.5 小时 +1,270，已由 B 档升入 C 档；引爆点明确：《塞尔达传说：时之笛》Switch 2 重制版发售前已能在其上游玩。 · 上手：实验性极强，需自备游戏、密钥与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-04",
+      "title": "[GitHub雷达 84分] cloudflare/security-audit-skill — 给编码 Agent 用的多阶段安全审计 skill，猎手 agent + 独立验证…",
+      "summary": "66844★ · C 档约 24.5 小时 +1,152；第二波持续发酵，非单点引爆；小时增速约 44–100/h 区间波动。 · 上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-05",
+      "title": "[GitHub雷达 82分] meta/astryx — Meta 开源设计系统：完全可定制、agent-ready。",
+      "summary": "16733★ · 今日新增 P1（02:09 已确认）：Trending 今日 +875（日榜第 6），首次发现后约 7.5 小时 +907，小时增速维持约 89–162/h 高位；Meta 官方出品。 · 上手：设计系统组件库，按文档接入项目即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-06",
+      "title": "[GitHub雷达 78分] google/elephant-goldfish-model — 用 agent 设计与评审软件的开源插件。",
+      "summary": "15089★ · 约 10.5 小时 +627，持续稳步增长无单日爆点；P1 待确认已在 11-08 关闭，本版不重开，凭持续增速进榜。 · 上手：Google 官方插件，按文档接入 agent 工作流即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-07",
+      "title": "[GitHub雷达 78分] JuneYaooo/rea-video — 逆向任何视频：逐镜头判定实拍、AI 生成还是代码生成。",
+      "summary": "4467★ · B 档约 24.5 小时 +851，小时增速约 34/h；REA 的视频版跟随者，蹭到 REA 的逆向叙事。 · 上手：开源工具，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-08",
+      "title": "[GitHub雷达 78分] shanselman/gputaskman — Windows/Linux/WSL 的 GPU 任务管理器：每进程显存、GPU 占用与 LLM 模型/…",
+      "summary": "1016★ · 今日新增 P1（07:09 已确认）：A 档约 24.5 小时 +513，破 1,000 星；Scott Hanselman 出品，fork 率约 5% 健康。 · 上手：下载即用，Windows/Linux/WSL 均支持。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261109-09",
+      "title": "[GitHub雷达 76分] NotRexed/Hookshot — 《塞尔达传说：时之笛》Switch 2 重制版原生重编译。",
+      "summary": "3077★ · 今日新增 P1（06:09 已确认）：trendar +1,286/天，B 档 24h ≥300 已证实；与 Lichii 同属塞尔达重编译生态簇（v5 规则④），Videocardz、XDA 11-07~08 集中报道。 · 上手：实验性极强，需自备游戏与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-new-20261109-02",
+      "title": "[GitHub雷达 72分] lxe/phoneuse — 在 Linux 上看和操作未改装的 iPhone：AirPlay 投屏 + 蓝牙键鼠 + agent CLI/skill…",
+      "summary": "在 Linux 上看和操作未改装的 iPhone：AirPlay 投屏 + 蓝牙键鼠 + agent CLI/skill。今日新增 P2：3 小时累计 +39 且单轮加速。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-new-20261109-03",
+      "title": "[GitHub雷达 76分] voyager-so/vork — 面向 agent 的无头 3D/VFX 引擎（研究预览版），Rust 编写。约 24.5 小时 +287，P1 已…",
+      "summary": "面向 agent 的无头 3D/VFX 引擎（研究预览版），Rust 编写。约 24.5 小时 +287，P1 已关闭，增速放缓。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-new-20261109-04",
+      "title": "[GitHub雷达 74分] shanselman/sandbox-mcp — 用完即弃的 Windows 沙盒测试机：MCP 服务器 + CLI，自动创建 Windows San…",
+      "summary": "用完即弃的 Windows 沙盒测试机：MCP 服务器 + CLI，自动创建 Windows Sandbox 测你的应用。约 24.5 小时 +96，P2 已触发。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-20261109-00",
+      "title": "英伟达董事会调查黄仁勋：董事会 11 月 8 日发表声明：鉴于近期报道称创始人兼 CEO 黄仁勋成为外国情报行动的目标，…",
+      "summary": "全球最重要 AI 芯片公司的治理风险进入公开程序；即便董事会表态有信心，调查本身会在财报季之外给英伟达的股价与合作叙事带来不确定性",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-20261109-01",
+      "title": "资本撤离“世界模型”：量子位 11 月 8 日报道：上半年热钱汹涌，下半年“一TS难求”，头部基金愿出手的世界模型项目已…",
+      "summary": "钱从“讲故事的概念公司”流向“有技术证据或应用的标的”；世界模型赛道进入并购洗牌期，估值想象被重估",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-20261109-02",
+      "title": "Anthropic IPO 估值：36kr 8点1氪 11 月 9 日转述每日经济新闻：潜在投资者讨论的估值区间已降至 …",
+      "summary": "头部 AI 实验室的定价锚继续下移，但路演在即意味着一级市场仍要为其定价；估值分歧本身就是信号",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-20261109-03",
+      "title": "高盛撤下 Claude Code：State of AI 11 月 2 日转述彭博社：高盛 10 月更新内部指引，将 C…",
+      "summary": "企业级 AI 编码代理落地出现刹车信号：大行不是不用，而是不敢让非工程师随便用——治理、合规与成本三道关同时收紧",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-20261109-04",
+      "title": "苹果 Siri 智能体化：The Verge 11 月 9 日转述彭博社 Mark Gurman：苹果 CEO John…",
+      "summary": "Siri 一旦向第三方应用开放智能体能力，就是一个新的分发入口；做垂直场景 Agent 的小团队多了一个上 iPhone 的通道",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-20261109-05",
+      "title": "Suno 被 Elvis 与 Eminem 权利方起诉：The Verge 11 月 9 日报道：两起新诉讼，Elvis…",
+      "summary": "AI 音乐的版权与声音权风险从“训练数据”扩大到“生成结果克隆真人”；有授权合作的公司仍会被诉，合规成本成为 AI 音乐创业的固定项",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-20261109-06",
+      "title": "《持械入宋》120 亿播放：36kr 11 月 8 日报道：全片由 AI 生成角色和画面的仿真人短剧《持械入宋》，截至 …",
+      "summary": "AI 短剧的需求已被播放量验证，且仿真人剧供给明显不足——需求大、供给缺，是内容创业的窗口；但收入数字未公开，变现效率仍是未知数",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-opp-20261109-00",
+      "title": "[AI商业情报 机会 68分] AI 仿真人短剧制作与发行",
+      "summary": "平台要持续上新的短剧内容，观众要“单集很短、故事很长”的连载；AI 把战争、群像、历史场景的制作门槛打下来了",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-opp-20261109-01",
+      "title": "[AI商业情报 机会 65分] 世界模型垂类应用：不做模型、做应用",
+      "summary": "世界模型的概念溢价缩水，但大厂在买单——AMD 82 亿收购 World Labs、亚马逊洽谈约 70 亿收购 Decart；市场要的是能落地的仿真、视频编辑与机器人训练工具",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ai-intel-opp-20261109-02",
+      "title": "[AI商业情报 机会 70分] AI Agent 权限与安全治理（垂直工具）",
+      "summary": "高盛把 Claude Code 收回给工程师，理由是未审查代码、信息屏障与 Token 成本；Agent 能读写运行代码，权限必须可管、可审计、可收回",
+      "category": "AI商业情报",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "repo-radar-20261108-00",
+      "title": "[GitHub雷达 86分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "20571★ · C 档增速第一：约 23.6 小时 +2,526，ossradar 今日 +2.6k 交叉证实；10 月 31 日创建，8 天 20,571 星，增速仍居首。 · 上手：上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-01",
+      "title": "[GitHub雷达 84分] zortos293/Lichii — Switch / Switch 2 模拟器（yuzu 系分支，保留旧存档与配置）。",
+      "summary": "5566★ · B 档增速第一：约 23.6 小时 +1,611，小时增速多轮维持约 62–103/h 高位；引爆点明确：《塞尔达传说：时之笛》Switch 2 重制版发售前已能在其上游玩；已由 B 档升入 C 档。 · 上手：上手：实验性极强，需自备游戏、密钥与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-02",
+      "title": "[GitHub雷达 84分] cloudflare/security-audit-skill — 给编码 Agent 用的多阶段安全审计 skill，猎手 agent + 独立验证…",
+      "summary": "65692★ · C 档约 23.6 小时 +1,714，Trending 今日 +2,085；第二波持续发酵，非单点引爆。 · 上手：上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-03",
+      "title": "[GitHub雷达 82分] milind-soni/OpenMausBot — 开源 Grok Bot 平替：聊天 App 里每个联系人都是真 agent，各自带一台可用的虚拟电…",
+      "summary": "16912★ · C 档约 23.6 小时 +1,673，ossradar 今日 +1.8k；多渠道持续发酵，非单点引爆。 · 上手：上手：开源应用，需配 Claude/Codex/grok CLI 订阅与虚拟电脑。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-04",
+      "title": "[GitHub雷达 82分] Albert-Weasker/niubigeo — 开源自托管 AI 品牌可见度（GEO）审计工具：测 ChatGPT/Gemini 等模型是否自然推…",
+      "summary": "10087★ · 今日新增 P1（02:09 已确认）：ossradar 今日 +860→+1.2k 两轮过 C 档 ≥500 线，自有首小时 +271；GEO 赛道正热，老仓慢燃复苏。 · 上手：上手：自托管部署，官网 niubigeo.ai，含真人 AI 测试付费服务。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-05",
+      "title": "[GitHub雷达 78分] JuneYaooo/rea-video — 逆向任何视频：逐镜头判定实拍、AI 生成还是代码生成。",
+      "summary": "3616★ · B 档约 23.6 小时 +624，ossradar 今日 +740；REA 的视频版跟随者，蹭到 REA 的逆向叙事。 · 上手：上手：开源工具，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-06",
+      "title": "[GitHub雷达 78分] bangtutorial/bang-motion — 浏览器动态图形 agent skill：片头/宣传片/动效字幕与五种讲解风格，输出单个 inde…",
+      "summary": "1551★ · 今日新增 P1（01:09 已确认）：ossradar 今日 +303→+429 两轮过 B 档 ≥300 线，自有 +20→+24/h 两轮持续；放大器为 aashishpahwa.com 的 Claude 视频技能推荐文。 · 上手：上手：Agent skill，绑定 Claude Code/Codex/Gemini CLI/Cursor 即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-07",
+      "title": "[GitHub雷达 76分] voyager-so/vork — 面向 agent 的无头 3D/VFX 引擎（研究预览版）。",
+      "summary": "831★ · 今日新增 P2：ossradar 今日 +430，B 档 24h ≥100 线已过；自有三轮快照 617→644→669→818 持续增长；Trendar AI Agents 分榜第 1。 · 上手：上手：Rust 引擎，研究预览版，面向开发者集成。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-08",
+      "title": "[GitHub雷达 76分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "14255★ · C 档约 23.6 小时 +1,321，ossradar 今日 +1.4k；第二波维持高位后略有递减，仍处一线以上。 · 上手：上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261108-09",
+      "title": "[GitHub雷达 74分] shanselman/sandbox-mcp — 用完即弃的 Windows 沙盒测试机：MCP 服务器 + CLI，自动创建 Windows San…",
+      "summary": "240★ · 今日新增 P2：ossradar 今日 +221（New today），A 档 24h ≥30 线已过；首日 232→240；Scott Hanselman 出品，fork 率约 4% 健康。 · 上手：上手：MCP 服务器 + CLI，需 Windows Sandbox 环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-new-20261108-01",
+      "title": "[GitHub雷达 78分] KKKKhazix/agent-autoloop — 让命令行 Agent 在后台自己接活、自己跟进到底；拿不准才发卡片找你拍板。昨日 P1 已报警，…",
+      "summary": "让命令行 Agent 在后台自己接活、自己跟进到底；拿不准才发卡片找你拍板。昨日 P1 已报警，报警后增速回落至约 +8–10/h，峰值已过。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-new-20261108-03",
+      "title": "[GitHub雷达 70分] shanselman/gputaskman — Windows/Linux/WSL 的 GPU 任务管理器：每进程显存、GPU 占用与 LLM 模型/…",
+      "summary": "Windows/Linux/WSL 的 GPU 任务管理器：每进程显存、GPU 占用与 LLM 模型/KV 缓存洞察。今日新增 P2。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-new-20261108-04",
+      "title": "[GitHub雷达 74分] JosssphZhou/poki — 让 AI Agent 操作真 iPhone 的本地 MCP server + Agent，无越狱、无额外硬件。约…",
+      "summary": "让 AI Agent 操作真 iPhone 的本地 MCP server + Agent，无越狱、无额外硬件。约 23.6 小时 +90，增速放缓。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-00",
+      "title": "DeepSeek Harness：官方 11 月 5 日公布进展：截至 11 月 4 日（官方 API 用户口径），日活…",
+      "summary": "Agent 从工具变成平台：154 万日活、3.5 万插件、60% 用户已在用插件，官方开始用 Token 补贴拉开发者，插件市场是新的分发入口",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-01",
+      "title": "Anthropic（METR 报告 + IPO 估值）：METR 在 Anthropic 内部调查 11 周后发布报告：…",
+      "summary": "市场按放缓给 Anthropic 定价，但实验室内部能力在加速；IPO 定价锚还会变，能力进展本身就是最大的变量",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-02",
+      "title": "AGENTS.md 投毒攻击（Forever Security 披露）：恶意 AGENTS.md 经网页静默进入用户下载…",
+      "summary": "Agent 安全从论文变成真实攻击链：投毒成本只是一个 Markdown 文件，防御方必须为“AI 会读什么”买单，安全赛道逻辑再被验证",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-03",
+      "title": "Apiiro：Claude Code 密钥泄露：Apiiro 研究发现 1,122 个公开 GitHub 仓库的 .cl…",
+      "summary": "“Don't Ask Again”一个勾选就把密钥写进仓库：Agent 时代的密钥泄露是规模化、自动化的，扫描与治理工具有了明确的付费理由",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-04",
+      "title": "OpenAI 大规模封号：11 月 7 日多名用户称 ChatGPT 与 OpenAI 账号突然被停用，登录显示“acc…",
+      "summary": "账号治理收紧直接影响付费用户：封号无预警、无邮件，连 200 美元/月 Pro 账号也被波及，订阅制 AI 的信任成本在上升",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-05",
+      "title": "谷歌收购 Crusoe 怀俄明数据中心项目：Crusoe 确认将怀俄明州东南部未完工的数据中心项目出售给谷歌，出售价格未…",
+      "summary": "超大厂一边收缩旧租约一边锁定新地块：谷歌 170 亿美元接手，说明“新地块加新电力”仍是稀缺品，旧算力溢价逻辑继续动摇",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-06",
+      "title": "美国中期选举后数据中心承压：中期选举中，数十项限制或暂停数据中心建设的地方公投措施几乎全部通过；得克萨斯州新当选州长曾以…",
+      "summary": "数据中心从“邻避”变成选举议题：地方阻力与资本降温同时出现，未来算力园区的选址与合规成本会上升",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-20261108-07",
+      "title": "Thinking Machines Inkling 2 Small × Kimi K3.1 Pro 开源权重：Think…",
+      "summary": "开源模型继续压低部署门槛：顶级开源权重加 Apache 2.0 许可，推理成本与应用层毛利空间同步变大",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-opp-20261108-00",
+      "title": "[AI商业情报 机会 74分] DeepSeek Harness 插件开发",
+      "summary": "给 Harness 扩展能力：用户要的不是聊天，而是能直接干活的插件",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-opp-20261108-01",
+      "title": "[AI商业情报 机会 72分] AI Agent 权限与安全治理",
+      "summary": "Agent 访问企业系统时，权限要可管、可审计、可收回，而不是放任自流",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "ai-intel-opp-20261108-02",
+      "title": "[AI商业情报 机会 68分] Agent 技能（skills）制作与分发",
+      "summary": "Agent 能力要可复用：好用的工作流应该打包成技能，而不是每次重写提示词",
+      "category": "AI商业情报",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "repo-radar-20261107-00",
+      "title": "[GitHub雷达 88分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "18045★ · C 档增速第一：约 23 小时 +2,892，ossradar 今日 +3.1k 交叉证实；10 月 31 日创建，7 天 18,045 星，增速仍居首。 · 上手：上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-01",
+      "title": "[GitHub雷达 86分] cloudflare/security-audit-skill — 给编码 Agent 用的多阶段安全审计 skill，猎手 agent + 独立验证…",
+      "summary": "63978★ · C 档增速第二：约 23 小时 +2,391，Trending 今日 +2,548；第二波持续发酵，非单点引爆。 · 上手：上手：Claude Code skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-02",
+      "title": "[GitHub雷达 85分] NVIDIA/auto-ontology — 给 LLM/Agent 工作流建语义图谱推理层的 Python 框架。",
+      "summary": "9011★ · C 档增速居前：约 23 小时 +1,589，Trending 今日 +2,015、日榜第 2；NVIDIA 官方出品，Agent 工作流基础设施层。 · 上手：上手：Python 框架，pip 安装，本地运行。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-03",
+      "title": "[GitHub雷达 84分] milind-soni/OpenMausBot — 开源 Grok Bot 平替：聊天 App 里每个联系人都是真 agent，各自带一台可用的虚拟电…",
+      "summary": "15239★ · C 档增速第三：约 23 小时 +1,840，ossradar 今日 +1.9k；多渠道持续发酵，非单点引爆。 · 上手：上手：开源应用，需配 Claude/Codex/grok CLI 订阅与虚拟电脑环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-04",
+      "title": "[GitHub雷达 82分] zortos293/Lichii — Switch / Switch 2 模拟器（yuzu 系分支，保留旧存档与配置）。",
+      "summary": "3955★ · B 档增速第一：自 H 轮首次核实约 14.5 小时 +1,101，小时增速多轮高位；引爆点明确：《塞尔达传说：时之笛》Switch 2 重制版发售前已能在其上游玩。 · 上手：上手：实验性极强，需自备游戏、密钥与固件，不适合普通玩家开箱即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-05",
+      "title": "[GitHub雷达 80分] JuneYaooo/rea-video — 逆向任何视频：逐镜头判定实拍、AI 生成还是代码生成。",
+      "summary": "2992★ · B 档增速第二：约 23 小时 +873，ossradar 今日 +934；REA 的视频版跟随者，蹭到 REA 的逆向叙事。 · 上手：上手：开源工具，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-06",
+      "title": "[GitHub雷达 78分] Ebony-Vinyl/dsh-our-free-model — 在 DSH 里装上插件即可免登录使用前沿模型，无需注册或填 API Key。",
+      "summary": "63957★ · C 档约 23 小时 +1,583，ossradar 今日 +1.7k；但小时增速已回落至约 27/h 并降入温池，属峰值后尾部，排名靠绝对增量而非加速。 · 上手：上手：DSH 插件，安装即用，零配置。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-07",
+      "title": "[GitHub雷达 76分] JosssphZhou/poki — 让 AI Agent 操作真 iPhone 的本地 MCP server + Agent，无越狱、无额外硬件。",
+      "summary": "412★ · A 档增速第一：自首次发现约 20.5 小时 +143，fork 率约 21%（85/412），真实度较高；出生即爆发，增速未衰减。 · 上手：上手：本地 MCP server，需一台真 iPhone。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-08",
+      "title": "[GitHub雷达 75分] KKKKhazix/agent-autoloop — 让命令行 Agent 在后台自己接活、自己跟进到底；拿不准才发卡片找你拍板。",
+      "summary": "3679★ · B 档约 23 小时 +416，ossradar 今日 +446；4 天 3,679 星，中文 README，673 fork。 · 上手：上手：命令行工具，安装即用，中文 README。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261107-09",
+      "title": "[GitHub雷达 74分] heydamir/unslop — 把 AI 生成的界面改成设计过的样子。",
+      "summary": "10732★ · C 档约 23 小时 +898，ossradar 今日 +957；解决 vibe-coding 肉眼可见的痛点，Claude skill 形态即插即用。 · 上手：上手：Claude skill，放入 skills 目录即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-new-20261107-03",
+      "title": "[GitHub雷达 68分] ZSeven-W/dsh-game-studio — 一句话生成小游戏 + AI 换图，DSH 侧栏可玩、导出单 HTML。O 轮加速已回落至约 4–…",
+      "summary": "一句话生成小游戏 + AI 换图，DSH 侧栏可玩、导出单 HTML。O 轮加速已回落至约 4–8/h，属一日游假信号可能。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-new-20261107-04",
+      "title": "[GitHub雷达 60分] musubipapi/airpointer — 今日首次发现的次日复核：简介仍为空，用途待核实；约 23 小时 +75，慢速增长。",
+      "summary": "今日首次发现的次日复核：简介仍为空，用途待核实；约 23 小时 +75，慢速增长。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-00",
+      "title": "OpenAI：新一轮融资已募 110 亿美元，估值 1.25 万亿美元；本轮预计总额约 200 亿美元，低于 9 月传出…",
+      "summary": "钱仍在进头部公司，但定价权回到买方；融资目标下调说明市场不再按超高速增长定价",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-01",
+      "title": "Anthropic：IPO 估值预期从 10 月初的 2 万亿美元跌至 1.2–1.3 万亿美元，部分买家认为可能低至 …",
+      "summary": "IPO 定价锚下移，算力承诺成为估值的主要折价项",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-02",
+      "title": "Ramp（企业支出数据）：8–9 月企业 AI token 支出仅增 1.5%，7 月为 +42%；10 月反弹 +8.…",
+      "summary": "用量涨、支出不涨，模型公司收入承压，应用层毛利空间变大",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-03",
+      "title": "Palo Alto Networks 收购 Clutch（洽谈中）：洽谈以 5 亿美元现金加里程碑付款收购 Agent …",
+      "summary": "Agent 权限安全已成并购赛道，50 倍 ARR 成为定价参照",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-04",
+      "title": "微软 × Oracle：微软不再续签向 Oracle 租用 AI 算力的协议（2023 年为 Bing AI 签订），近…",
+      "summary": "算力从“租旧卡”转向“自建新卡”，旧算力溢价逻辑动摇",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-05",
+      "title": "谷歌收购 Crusoe 怀俄明地块：谷歌收购 Crusoe 位于怀俄明东南部的的数据中心地块；Crusoe 称已签约算力…",
+      "summary": "超大厂一边收缩旧租约一边锁定新地块，基建分化而非全面收缩",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-06",
+      "title": "墨芯人工智能（Moffett AI）：完成 C+轮融资近 10 亿元人民币，距上一轮近 10 亿元仅 5 个月；专注稀疏…",
+      "summary": "MoE 推理的稀疏化红利落到国产芯片，5 个月内两轮各近 10 亿元",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-20261107-07",
+      "title": "Physicl：完成 1,000 万美元种子轮，由 Inovia Capital 领投；发布 Studio 产品，含 1…",
+      "summary": "物理 AI 的数据工具层开始拿钱，世界模型与机器人训练的“卖水”生意",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-opp-20261107-00",
+      "title": "[AI商业情报 机会 72分] AI Agent 权限与安全治理",
+      "summary": "Agent 访问企业系统时，权限要可管、可审计、可收回，而不是放任自流",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-opp-20261107-01",
+      "title": "[AI商业情报 机会 68分] 推理成本优化与模型路由",
+      "summary": "同样的任务用更便宜的模型完成，支出降下来而质量不降",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "ai-intel-opp-20261107-02",
+      "title": "[AI商业情报 机会 66分] AI 品牌短剧与内容电商制作",
+      "summary": "低成本、能带货的短剧内容，产品还原不能失真",
+      "category": "AI商业情报",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "repo-radar-20261106-00",
+      "title": "[GitHub雷达 78分] KKKKhazix/agent-autoloop — 让命令行 Agent 在后台自己接活、自己跟进到底。",
+      "summary": "3344★ · 3 天 3,344 星，约 2.4 小时 +81，4 小时窗口连续加速（+99/+43/+47→+81/2.4h）。后台 Agent 自主跟进方向，中文 README，616 fork。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-01",
+      "title": "[GitHub雷达 76分] JuneYaooo/rea-video — 逆向任何视频：逐镜头判定实拍、AI 生成还是代码生成。",
+      "summary": "2228★ · 8 天 2,228 星，约 2.4 小时 +109。REA 的视频版跟随者：逐镜头判定实拍/AI 生成/代码生成，蹭到 REA 的逆向叙事。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-02",
+      "title": "[GitHub雷达 74分] JosssphZhou/poki — 让 AI Agent 操作真 iPhone 的本地 MCP server + Agent。",
+      "summary": "269★ · 创建仅 1 天，269 星、53 fork（fork 率约 20%，真实度较高）。真机 iPhone Agent + MCP，无越狱。今日首次发现，无增速基线，待下一轮快照确认加速。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-03",
+      "title": "[GitHub雷达 72分] andrew-babo/muse4ai — 让 AI Agent 生成图片视频的本地 Windows 桥。",
+      "summary": "841★ · 3 天 841 星，185 fork。AI 生成图片/视频的本地 Windows 桥，Muse 视频方向。今日首次发现，待下一轮快照确认。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-04",
+      "title": "[GitHub雷达 71分] scenario-labs/skills — 让 AI Agent 出图/视频/音频/3D 的 skills，含定价与品牌一致性。",
+      "summary": "3157★ · 8 月创建的老仓，沉寂数月后重回 Trending，今日 +667，首次进日榜前 10。AI Agent 出图/视频/音频/3D 的 skills，Zendot 11 月 4 日专文为近期最可见推手。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-05",
+      "title": "[GitHub雷达 70分] heydamir/unslop — 把 AI 生成的界面改成设计过的样子。",
+      "summary": "9954★ · 10 月 29 日创建，9,954 星，约 2.4 小时 +120。Claude skill：把 AI 味 UI 改成设计过的界面，解决 vibe-coding 的肉眼可见痛点。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-06",
+      "title": "[GitHub雷达 73分] ccch1mneyyy/dsh-Go — 手机上运行/远程控制 DeepSeek Harness 的 Android 客户端。",
+      "summary": "11757★ · 10 月 25 日创建，11,757 星，约 30 小时 +2,396，约 2.4 小时 +232。DeepSeek Harness 装进口袋：手机本机运行、遥控电脑。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-07",
+      "title": "[GitHub雷达 68分] deepseek-ai/dsh-superagent-prototype — DeepSeek 更自主的 Agent 系统原型。",
+      "summary": "19676★ · 10 月 31 日创建，19,676 星，约 2.4 小时 +147。DeepSeek 更自主的 Agent 系统原型，官方背书强。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-08",
+      "title": "[GitHub雷达 66分] max-sixty/worktrunk — 并行 AI Agent 工作流的 Git worktree 管理 CLI。",
+      "summary": "11582★ · 并行 AI Agent 工作流的 Git worktree 管理 CLI，Trending 今日 +546，约 2.4 小时 +54。Agent 多开时代的基础设施。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-20261106-09",
+      "title": "[GitHub雷达 65分] Usagi-org/ai-goofish-monitor — 基于 Playwright 和 AI 的闲鱼多任务监控与智能分析。",
+      "summary": "17772★ · Playwright + 多模态 AI 的闲鱼监控，约 2.4 小时 +175，11 月 5 日首次进 Trending 前 10。AI 套利/信息差工具，有明确付费场景。 · 上手：",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "repo-radar-new-20261106-01",
+      "title": "[GitHub雷达 86分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。已过早期阶段，但增速仍居首。",
+      "summary": "理解任何软件如何工作，再自己复刻一个。已过早期阶段，但增速仍居首。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-20261106-00",
+      "title": "Nooks：General Catalyst 5 亿美元增长资本，推出 Revenue Agent Platform 和…",
+      "summary": "销售 Agent 拿到大额非稀释资本，说明企业愿意为可量化的销售生产力付费",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-20261106-01",
+      "title": "Figma：Q3 收入 3.914 亿美元，同比增长 43%，全年指引上调至 14.97 至 14.99 亿美元",
+      "summary": "AI credits 已成为付费客户的使用引擎，65% 的大客户每周在用 Figma Agent",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-20261106-02",
+      "title": "Anthropic：修订版 S-1 披露前 9 个月收入 332.42 亿美元，同比增长 1,206%，Q3 约 169…",
+      "summary": "按量计费占 79.1%，说明 API 消费是主要收入来源",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-20261106-03",
+      "title": "ServiceNow：Q3 电话会，上调 2026 年 AI 合同价值目标至 17 亿美元",
+      "summary": "企业 Agent 已进入合同额层面，AI 新增年合同价值同比增长 65%",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-20261106-04",
+      "title": "Menlo Ventures：企业 AI 部署支出年化 1,768 亿美元，去年同期 330 亿美元，增长 5.4 倍",
+      "summary": "应用层占 773 亿美元，编码 340 亿美元，说明钱在流向能落地的应用",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-20261106-05",
+      "title": "AMD 收购 Taalas：10-Q 披露收购价值约 29 亿美元，其中约 14 亿美元为或有对价",
+      "summary": "推理芯片的垂直整合，Taalas 把单一模型直接蚀刻进芯片做推理",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-20261106-06",
+      "title": "Ocient：完成 1 亿美元 C 轮，累计融资 2.6 亿美元",
+      "summary": "PB 级 Agentic AI 分析，部署在客户环境内，强调治理与可审计性",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-opp-20261106-00",
+      "title": "[AI商业情报 机会 72分] 销售 Agent 的垂直切片",
+      "summary": "把线索跟进、会议记录、报价跟进自动化，而不是再买一个 CRM",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-opp-20261106-01",
+      "title": "[AI商业情报 机会 68分] 企业知识库的确定性查询层",
+      "summary": "查得到、查得准、不瞎编",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "ai-intel-opp-20261106-02",
+      "title": "[AI商业情报 机会 64分] AI 短剧与内容生产的低成本工作流",
+      "summary": "低成本批量出片",
+      "category": "AI商业情报",
+      "date": "2026-11-06"
+    }
+  ]
+}

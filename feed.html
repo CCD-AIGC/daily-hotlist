@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Radar RSS 订阅 — CCD-AIGC daily-hotlist</title>
+<style>
+:root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 56px}
+.hero{background:linear-gradient(135deg,#0f172a,#2563eb 60%,#0ea5e9);color:#fff;padding:36px 0 28px}
+.hero h1{margin:0 0 8px;font-size:30px;line-height:1.25}
+.hero p{margin:4px 0;color:#dbeafe;font-size:15px}
+.date-pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:14px;margin-bottom:14px}
+h2{font-size:21px;margin:34px 0 12px}h2 small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.card-top{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:8px}
+.card h3{margin:0 0 6px;font-size:17px;line-height:1.5}.card h3 a{color:var(--ink);text-decoration:none}
+.card p{margin:6px 0;color:var(--muted);font-size:14px}
+.tag{display:inline-block;background:#eef2ff;color:#3730a3;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+.row{display:flex;align-items:center;gap:10px;padding:13px 0;border-bottom:1px solid #f0f1f4}
+.row:last-child{border-bottom:0}
+.rank{flex:0 0 28px;height:28px;line-height:28px;text-align:center;border-radius:50%;background:#eef0f4;color:#475467;font-weight:800;font-size:14px}
+.row-title{flex:1;font-size:16px;line-height:1.55}.row-title a{color:var(--ink);text-decoration:none}
+.src{flex:0 0 auto;color:var(--muted);font-size:12px;max-width:150px;text-align:right}
+.badge{flex:0 0 auto;font-size:12px;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.badge.new{background:#dcfce7;color:#166534;font-weight:700}.badge.up{background:#dbeafe;color:#1e40af}
+.badge.down{background:#fee2e2;color:#991b1b}.badge.same{background:#f2f4f7;color:#667085}
+.btn{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--blue);color:#fff;text-decoration:none;font-size:14px}
+.btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--line)}
+.note-box{background:#fffbeb;border:1px solid #fde68a;border-radius:16px;padding:16px}
+.note-box li{margin:6px 0}
+.chips a{display:inline-block;margin:0 8px 8px 0;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--blue);text-decoration:none}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+th,td{border-bottom:1px solid #f0f1f4;padding:10px 12px;text-align:left;font-size:14px;vertical-align:top}
+th{background:#f8fafc;color:#475467;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:560px){.hero h1{font-size:25px}.row-title{font-size:15px}.src{display:none}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap" style="padding-bottom:0">
+<span class="date-pill">更新于 2026-11-19</span>
+<h1>AI Radar RSS 订阅</h1>
+<p>每天的原创筛选，不是转载聚合：AI商业情报 TOP7、GitHub 24h 快涨仓库、海外先火国内未火的 AI 视频格式、新爆款 AI 独立站。</p>
+<p>最新一条：[内容雷达 89分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试（2026-11-19T12:10:00+08:00）</p>
+</div></header>
+<div class="wrap">
+<h2>这是什么<small>订阅方式、多久更新、给谁用</small></h2>
+<div class="note-box"><ul>
+<li>主源 feed.xml 每天更新：AI 商业情报（08:30）、GitHub 早期爆款雷达（08:30）、AI 内容雷达（12:00）三个主力系列混合，按发布时间倒序，近 30 天、最多 50 条。</li>
+<li>给 agent 用的 JSON API 在 api/v1/：latest.json（近 7 天，最多 100 条）、hot.json（当天评分最高前 10 条）、daily/ 按天拆分、search.json 全量索引、ai-news.json（最新一期标题 + 原文链接）。说明见 agent.md，接口定义见 openapi.json。</li>
+<li>这是静态文件托管，没有服务器：?limit= / ?window= / ?q= 不是服务器端参数，客户端拿到 JSON 后自己按 limit / window / category 过滤。建议 30 分钟刷一次，不要每分钟刷。</li>
+<li>GitHub Pages 的静态文件没有精细的 Cache-Control / ETag 控制；feed.xml 的 Content-Type 可能是 application/xml 而不是 application/rss+xml，这是 GitHub Pages 的默认行为，订阅器一般都能正常解析。</li>
+<li>标题和摘要全部来自我们自己的筛选原文；AIHOT、LearnPrompt 等来源只学接口形态，不转载原文；ai-news 只给标题 + 原文链接，不写我们没核实的摘要。</li>
+</ul></div>
+<h2>订阅源<small>点按钮复制地址，粘贴到 RSS 阅读器或 agent 配置里</small></h2>
+<div class="grid">
+<article class="card"><span class="tag">RSS 2.0</span><h3>主源 feed.xml</h3><p>三个主力系列混合，按时间倒序</p><p><code>https://ccd-aigc.github.io/daily-hotlist/feed.xml</code></p><p><button class="btn" data-copy="https://ccd-aigc.github.io/daily-hotlist/feed.xml">一键复制订阅地址</button> <a class="btn ghost" href="feed.xml">打开</a></p></article><article class="card"><span class="tag">RSS 2.0</span><h3>AI商业情报 feed/ai-intel.xml</h3><p>每天 08:30 的 TOP7 + 机会</p><p><code>https://ccd-aigc.github.io/daily-hotlist/feed/ai-intel.xml</code></p><p><button class="btn" data-copy="https://ccd-aigc.github.io/daily-hotlist/feed/ai-intel.xml">一键复制订阅地址</button> <a class="btn ghost" href="feed/ai-intel.xml">打开</a></p></article><article class="card"><span class="tag">RSS 2.0</span><h3>GitHub早期爆款 feed/repo-radar.xml</h3><p>每天 08:30 的雷达 TOP10</p><p><code>https://ccd-aigc.github.io/daily-hotlist/feed/repo-radar.xml</code></p><p><button class="btn" data-copy="https://ccd-aigc.github.io/daily-hotlist/feed/repo-radar.xml">一键复制订阅地址</button> <a class="btn ghost" href="feed/repo-radar.xml">打开</a></p></article><article class="card"><span class="tag">RSS 2.0</span><h3>AI内容雷达 feed/content-radar.xml</h3><p>每天 12:00 值得低成本试的格式</p><p><code>https://ccd-aigc.github.io/daily-hotlist/feed/content-radar.xml</code></p><p><button class="btn" data-copy="https://ccd-aigc.github.io/daily-hotlist/feed/content-radar.xml">一键复制订阅地址</button> <a class="btn ghost" href="feed/content-radar.xml">打开</a></p></article><article class="card"><span class="tag">RSS 2.0</span><h3>新爆款AI独立站 feed/indie-sites.xml</h3><p>每天 0–5 个首次发现</p><p><code>https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml</code></p><p><button class="btn" data-copy="https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml">一键复制订阅地址</button> <a class="btn ghost" href="feed/indie-sites.xml">打开</a></p></article><article class="card"><span class="tag">RSS 2.0</span><h3>日报 feed/daily.xml</h3><p>一天一条，各系列条数汇总</p><p><code>https://ccd-aigc.github.io/daily-hotlist/feed/daily.xml</code></p><p><button class="btn" data-copy="https://ccd-aigc.github.io/daily-hotlist/feed/daily.xml">一键复制订阅地址</button> <a class="btn ghost" href="feed/daily.xml">打开</a></p></article>
+</div>
+<h2>给 agent 的文档<small>JSON API 与调用说明</small></h2>
+<div class="grid">
+<article class="card"><span class="tag">说明</span><h3>agent.md</h3>
+<p>订阅方式、刷新频率、字段含义、示例 curl。</p>
+<p><a class="btn" href="agent.md">打开 agent.md</a></p></article>
+<article class="card"><span class="tag">OpenAPI 3.1</span><h3>openapi.json</h3>
+<p>全部静态端点的机器可读定义。</p>
+<p><a class="btn" href="openapi.json">打开 openapi.json</a></p></article>
+<article class="card"><span class="tag">JSON API</span><h3>api/v1/latest.json</h3>
+<p>近 7 天全部条目，最多 100 条，按时间倒序。</p>
+<p><a class="btn" href="api/v1/latest.json">打开 latest.json</a>
+<a class="btn ghost" href="api/v1/index.json">端点目录</a></p></article>
+</div>
+<h2>往期存档入口<small>最近 7 天的日榜存档，全部系列见 hub</small></h2>
+<p class="chips"><a href="./archive/2026-11-19.html">2026-11-19</a> <a href="./archive/2026-11-18.html">2026-11-18</a> <a href="./archive/2026-11-17.html">2026-11-17</a> <a href="./archive/2026-11-16.html">2026-11-16</a> <a href="./archive/2026-11-15.html">2026-11-15</a> <a href="./archive/2026-11-14.html">2026-11-14</a> <a href="./archive/2026-11-13.html">2026-11-13</a> <a href="hub.html">全部系列入口 hub →</a></p>
+</div>
+
+<script>
+document.querySelectorAll('[data-copy]').forEach(function(b){
+  b.addEventListener('click', function(){
+    var t = b.getAttribute('data-copy');
+    function done(){ b.textContent = '已复制'; setTimeout(function(){ b.textContent = '一键复制订阅地址'; }, 1500); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(t).then(done, function(){ fallback(); });
+    } else { fallback(); }
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = t; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch(e) {}
+      document.body.removeChild(ta); done();
+    }
+  });
+});
+</script>
+
+</body>
+</html>

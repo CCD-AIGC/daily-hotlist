@@ -1,0 +1,155 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CCD-AIGC daily-hotlist RSS + JSON API",
+    "version": "1.0.0",
+    "description": "CCD-AIGC daily-hotlist 的静态 RSS + JSON API：每天的原创筛选——AI商业情报 TOP7、GitHub 24h 快涨仓库、海外先火的 AI 视频格式、新爆款 AI 独立站。\n\n诚实说明：这是静态文件托管在 GitHub Pages 上，没有服务器。?limit= / ?window= / ?q= 不是服务器端参数，客户端拿到 latest.json / search.json 后自己按 limit / window / category 过滤。不要假装是动态 API。\n\n缓存建议：30 分钟刷一次，不要每分钟刷。GitHub Pages 的静态文件没有精细的 Cache-Control / ETag 控制。"
+  },
+  "servers": [
+    {
+      "url": "https://ccd-aigc.github.io/daily-hotlist"
+    }
+  ],
+  "paths": {
+    "/feed.xml": {
+      "get": {
+        "summary": "主源 RSS：三个主力系列混合，近 30 天、最多 50 条",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/feed/ai-intel.xml": {
+      "get": {
+        "summary": "分类源 RSS：AI 商业情报",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/feed/repo-radar.xml": {
+      "get": {
+        "summary": "分类源 RSS：GitHub 早期爆款雷达",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/feed/content-radar.xml": {
+      "get": {
+        "summary": "分类源 RSS：AI 内容雷达（值得低成本试）",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/feed/indie-sites.xml": {
+      "get": {
+        "summary": "分类源 RSS：新爆款 AI 独立站",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/feed/daily.xml": {
+      "get": {
+        "summary": "日报 RSS：一天一条，各系列条数汇总",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/api/v1/latest.json": {
+      "get": {
+        "summary": "近 7 天全部条目，最多 100 条",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/api/v1/hot.json": {
+      "get": {
+        "summary": "当天评分最高的前 10 条",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/api/v1/daily/{date}.json": {
+      "get": {
+        "summary": "按天拆分，一天一个文件，{date} 如 2026-11-19",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/api/v1/search.json": {
+      "get": {
+        "summary": "全量索引：id / title / summary / category / date",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/api/v1/ai-news.json": {
+      "get": {
+        "summary": "最新一期 AI 创业信息流：标题 + 原文链接",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/api/v1/index.json": {
+      "get": {
+        "summary": "端点目录 + 各系列最新数据文件链接",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/agent.md": {
+      "get": {
+        "summary": "给 agent 的订阅与调用说明",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    },
+    "/feed.html": {
+      "get": {
+        "summary": "给人看的订阅展示页",
+        "responses": {
+          "200": {
+            "description": "OK，静态文件内容"
+          }
+        }
+      }
+    }
+  }
+}
