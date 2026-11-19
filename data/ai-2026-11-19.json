@@ -1,0 +1,776 @@
+{
+ "date": "2026-11-19",
+ "edition": "ai-news",
+ "is_baseline": false,
+ "fetched_at_cst": "2026-11-19 10:13",
+ "brief": {
+  "file": "data/daily-brief.json",
+  "generated_at_cst": "2026-11-19 07:24",
+  "generated_at_note": "源站 daily-brief.json 的 generated_at 为 2026-11-18T23:24:09Z，换算为北京时间 2026-11-19 07:24；本期共 20 个故事（24 小时窗口），本版全部转录。本轮经 browser.open 在默认分支（master）读取 raw 文件，generated_at 与条目均以返回为准（该仓库默认分支为 master 而非 main）。源站结构仍为故事聚合，顶层 title 为“中文 / English”双语，title_zh 见每故事 primary_item，本版按昨日口径转录 title_zh；本日 20 条里 16 条 title_zh 非空，第 1、8、9、13 条（Gemini 4 Neon in GitHub Copilot、Codex CLI 0.170.0、Genie 4 is now available、The Silent Consensus）title_zh 为 null，本版按顶层标题英文原文转录，未自行翻译。",
+  "live_url": "https://news.learnprompt.pro",
+  "repo": "LearnPrompt/ai-news-radar",
+  "repo_url": "https://github.com/LearnPrompt/ai-news-radar",
+  "total_items": 20
+ },
+ "items": [
+  {
+   "title": "Gemini 4 Neon in GitHub Copilot",
+   "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "DaisyRose-27B：把后训练效率推向新高度",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "Gemini 4 Neon 正式发布",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "Gemini 应用现已登陆低内存 Android 设备。",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "利用 OpenAI 模型推动芯片设计发展",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "source": "Official AI Updates",
+   "category": "企业变现"
+  },
+  {
+   "title": "为什么你的微调任务比FLOPs算出来的还要久",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "source": "Official AI Updates",
+   "category": "开发者工具"
+  },
+  {
+   "title": "将 Supabase、Box、Calendly 等更多服务接入 Copilot",
+   "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+   "source": "Official AI Updates",
+   "category": "开发者工具"
+  },
+  {
+   "title": "Codex CLI 0.170.0",
+   "url": "https://developers.openai.com/codex/changelog",
+   "source": "Official AI Updates",
+   "category": "开发者工具"
+  },
+  {
+   "title": "Genie 4 is now available",
+   "url": "https://deepmind.google/blog/genie-4-is-now-available",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "深入 Codex 沙盒内部",
+   "url": "https://openai.com/index/inside-the-codex-sandbox",
+   "source": "Official AI Updates",
+   "category": "开发者工具"
+  },
+  {
+   "title": "Streamhouse 中的时间序列模型：新前沿与应用场景",
+   "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "为你的团队定制 GitHub Copilot",
+   "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+   "source": "Official AI Updates",
+   "category": "开发者工具"
+  },
+  {
+   "title": "The Silent Consensus",
+   "url": "https://openai.com/index/the-silent-consensus",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "员工疯狂烧钱买 Token，Salesforce“吃不消”了：全面推行按岗位设定 AI 使用预算",
+   "url": "https://www.aibase.com/news/32388",
+   "source": "AIbase",
+   "category": "企业变现"
+  },
+  {
+   "title": "GitHub Team 版自动运行安全风险评估",
+   "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
+   "source": "Official AI Updates",
+   "category": "风险/合规"
+  },
+  {
+   "title": "180B 参数、32GB 内存：用 Transformers 把 MoE 推理推到极限",
+   "url": "https://huggingface.co/blog/moe-expert-streaming",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  },
+  {
+   "title": "管理前沿 AI 风险：从训练到部署",
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "source": "Official AI Updates",
+   "category": "风险/合规"
+  },
+  {
+   "title": "孙正义认错：没投 Anthropic 是一大失误，“真希望当时投了”",
+   "url": "https://www.aibase.com/news/32387",
+   "source": "AIbase",
+   "category": "资本/财报"
+  },
+  {
+   "title": "Le Groupe Figaro 与 OpenAI 合作，将 Le Figaro 的新闻内容引入 ChatGPT",
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "source": "Official AI Updates",
+   "category": "企业变现"
+  },
+  {
+   "title": "Rumble-2-Flash：一个面向40多种语言的开源0.5B语音模型",
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "source": "Official AI Updates",
+   "category": "模型/产品"
+  }
+ ],
+ "sources": [
+  {
+   "forks": 453,
+   "last_commit_date": "2026-11-18",
+   "last_commit_msg": "chore: update ai news snapshot",
+   "live_url": "https://news.learnprompt.pro",
+   "note": "",
+   "open_issues": 2,
+   "repo": "LearnPrompt/ai-news-radar",
+   "repo_url": "https://github.com/LearnPrompt/ai-news-radar",
+   "role": "每日信息流 · 主力",
+   "stars": 1822,
+   "status": "ok"
+  },
+  {
+   "forks": 651,
+   "last_commit_date": "2026-11-16",
+   "last_commit_msg": "✨ feat: add KGR, multi-run AI answer sampling, and review/breakout fixes",
+   "live_url": "https://github.com/zhuyansen/new-term-radar",
+   "note": "",
+   "open_issues": 4,
+   "repo": "zhuyansen/new-term-radar",
+   "repo_url": "https://github.com/zhuyansen/new-term-radar",
+   "role": "参考库 · 新词雷达（原每日源，已降级）",
+   "stars": 2194,
+   "status": "reference"
+  },
+  {
+   "forks": 792,
+   "last_commit_date": "2026-11-06",
+   "last_commit_msg": "Add Agent Browser from Nov 6 trending feeds (#924)",
+   "live_url": "https://github.com/alvinreal/awesome-opensource-ai",
+   "note": "",
+   "open_issues": 74,
+   "repo": "alvinreal/awesome-opensource-ai",
+   "repo_url": "https://github.com/alvinreal/awesome-opensource-ai",
+   "role": "每日信息流 · 开源项目清单",
+   "stars": 5050,
+   "status": "ok"
+  },
+  {
+   "forks": 4591,
+   "last_commit_date": "2026-11-14",
+   "last_commit_msg": "Merge pull request #13356 from UserMingHaoLi/patch-1",
+   "live_url": "https://github.com/ruanyf/weekly",
+   "note": "",
+   "open_issues": 10336,
+   "repo": "ruanyf/weekly",
+   "repo_url": "https://github.com/ruanyf/weekly",
+   "role": "周更 · 科技周刊",
+   "stars": 108307,
+   "status": "ok"
+  },
+  {
+   "forks": 24926,
+   "last_commit_date": "2026-11-15",
+   "last_commit_msg": "docs: 更新 README 赞助展示与 SanFrame 介绍",
+   "live_url": "https://github.com/sansan0/TrendRadar",
+   "note": "",
+   "open_issues": 42,
+   "repo": "sansan0/TrendRadar",
+   "repo_url": "https://github.com/sansan0/TrendRadar",
+   "role": "工具源 · 自建舆情监控",
+   "stars": 63728,
+   "status": "ok"
+  },
+  {
+   "forks": 2128,
+   "last_commit_date": "2026-11-15",
+   "last_commit_msg": "fix(openbb): skip invalid news rows (#243)",
+   "live_url": "https://github.com/Thysrael/Horizon",
+   "note": "",
+   "open_issues": 6,
+   "repo": "Thysrael/Horizon",
+   "repo_url": "https://github.com/Thysrael/Horizon",
+   "role": "工具源 · 自建日报",
+   "stars": 14749,
+   "status": "ok"
+  },
+  {
+   "forks": 691,
+   "last_commit_date": "2026-11-18",
+   "last_commit_msg": "Update DATA_UPDATE.md with timestamp 2026-11-18 04:37:06",
+   "live_url": "https://github.com/XiaomingX/ai-money-maker-handbook",
+   "note": "",
+   "open_issues": 11,
+   "repo": "XiaomingX/ai-money-maker-handbook",
+   "repo_url": "https://github.com/XiaomingX/ai-money-maker-handbook",
+   "role": "参考库 · AI 副业赚钱（不计入每日新增）",
+   "stars": 7408,
+   "status": "reference"
+  },
+  {
+   "forks": 1783,
+   "last_commit_date": "2025-10-20",
+   "last_commit_msg": "Update README.md",
+   "live_url": "https://github.com/bleedline/aimoneyhunter",
+   "note": "",
+   "open_issues": 33,
+   "repo": "bleedline/aimoneyhunter",
+   "repo_url": "https://github.com/bleedline/aimoneyhunter",
+   "role": "参考库 · AI 副业赚钱（不计入每日新增）",
+   "stars": 18392,
+   "status": "reference"
+  }
+ ],
+ "fast_growth": [
+  {
+   "repo": "morluto/rea",
+   "repo_url": "https://github.com/morluto/rea",
+   "stars": 468360,
+   "created": "2026-04-14",
+   "first_seen": "2026-11-05",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "note": "24h +2,010 星（自家基线 466,350 → 468,360，连接器核实）；7 日 +15,560（whatstrending.ai 周榜 2026-11-12→11-19 第 1，第三方统计，仅作线索）；ghtrends.dev 日榜 +1,346、ossradar 今日 +2k（第三方统计，仅作线索）；仍为当日 24h 增量最大之一。",
+   "status": "基线",
+   "stars_24h_delta": 2010
+  },
+  {
+   "repo": "erkamyaman/rust-anything",
+   "repo_url": "https://github.com/erkamyaman/rust-anything",
+   "stars": 3446,
+   "created": "2026-11-16",
+   "first_seen": "2026-11-19",
+   "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step.",
+   "note": "24h +2,029 星（昨日连接器核实 1,417 → 今日 3,446）；ossradar 今日 Repo of the day，+2.1k（第三方统计，仅作线索）；创建于 2026-11-16，仅 3 天；今日首次列入。",
+   "status": "今日首次发现",
+   "stars_24h_delta": 2029
+  },
+  {
+   "repo": "elementalsouls/Claude-BugHunter",
+   "repo_url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "stars": 11412,
+   "created": "2026-05-05",
+   "first_seen": "2026-11-16",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "note": "24h +2,003 星（自家基线 9,409 → 11,412，连接器核实）；创建于 2026-05-05。",
+   "status": "基线",
+   "stars_24h_delta": 2003
+  },
+  {
+   "repo": "obra/superpowers",
+   "repo_url": "https://github.com/obra/superpowers",
+   "stars": 321352,
+   "created": "2025-10-09",
+   "first_seen": "2026-11-18",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "note": "24h +1,979 星（自家基线 319,373 → 321,352，连接器核实）；7 日 +5,014（whatstrending.ai 周榜 2026-11-12→11-19 第 4，第三方统计，仅作线索）；当日 GitHub Trending 日榜第 14（今日可见 19 名）。",
+   "status": "基线",
+   "stars_24h_delta": 1979
+  },
+  {
+   "repo": "storytold/craft-anything",
+   "repo_url": "https://github.com/storytold/craft-anything",
+   "stars": 37122,
+   "created": "2026-10-31",
+   "first_seen": "2026-11-05",
+   "desc": "Craft Anything: understand how any software works, and craft your own.",
+   "note": "24h +1,372 星（自家基线 35,750 → 37,122，连接器核实）；ossradar 今日第 3，+1.2k（第三方统计，仅作线索）；创建于 2026-10-31，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 1372
+  },
+  {
+   "repo": "Ebony-Vinyl/dsh-our-free-model",
+   "repo_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "stars": 79873,
+   "created": "2026-09-24",
+   "first_seen": "2026-11-05",
+   "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+   "note": "24h +1,340 星（自家基线 78,533 → 79,873，连接器核实）；ossradar 今日第 2，+1.3k（第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 1340
+  },
+  {
+   "repo": "google-research/paper-orchestra",
+   "repo_url": "https://github.com/google-research/paper-orchestra",
+   "stars": 4332,
+   "created": "2026-05-01",
+   "first_seen": "2026-11-17",
+   "desc": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+   "note": "24h +1,254 星（自家基线 3,078 → 4,332，连接器核实）；当日 GitHub Trending 日榜第 8（今日可见 19 名），榜单页显示今日 +1,524 星。",
+   "status": "基线",
+   "stars_24h_delta": 1254
+  },
+  {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "repo_url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "stars": 27260,
+   "created": "2026-10-25",
+   "first_seen": "2026-11-05",
+   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "note": "24h +1,252 星（自家基线 26,008 → 27,260，连接器核实）；ossradar 今日第 4，+1.2k（第三方统计，仅作线索）；创建于 2026-10-25，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 1252
+  },
+  {
+   "repo": "Jakeschincariol/day-trader-skill",
+   "repo_url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "stars": 8615,
+   "created": "2026-10-20",
+   "first_seen": "2026-11-11",
+   "desc": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+   "note": "较昨日记录值 +1,182（自家基线 7,433 → 8,615，连接器核实；昨日值 7,433 为 2026-11-13 共享快照旧值，非严格 24h 口径）；创建于 2026-10-20，今日满 30 天，仍在 ≤30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 1182
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "repo_url": "https://github.com/pingdotgg/t3code",
+   "stars": 65290,
+   "created": "2026-02-08",
+   "first_seen": "2026-11-05",
+   "desc": "The best way to control Claude Code, Codex and more from any computer or phone",
+   "note": "24h +1,108 星（自家基线 64,182 → 65,290，连接器核实）。",
+   "status": "基线",
+   "stars_24h_delta": 1108
+  },
+  {
+   "repo": "stablyai/orca",
+   "repo_url": "https://github.com/stablyai/orca",
+   "stars": 128943,
+   "created": "2026-03-17",
+   "first_seen": "2026-11-08",
+   "desc": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription.",
+   "note": "24h +1,037 星（自家基线 127,906 → 128,943，连接器核实）；ossradar 今日第 6，+1k（第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 1037
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "repo_url": "https://github.com/affaan-m/ECC",
+   "stars": 306553,
+   "created": "2026-01-18",
+   "first_seen": "2026-11-18",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "note": "24h +1,000 星（自家基线 305,553 → 306,553，连接器核实）；当日 GitHub Trending 日榜第 15（今日可见 19 名）；ossradar 今日 +982（第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 1000
+  },
+  {
+   "repo": "cursor/plugins",
+   "repo_url": "https://github.com/cursor/plugins",
+   "stars": 17228,
+   "created": "2026-01-23",
+   "first_seen": "2026-11-18",
+   "desc": "Cursor plugin specification and official plugins",
+   "note": "当日 GitHub Trending 日榜第 1（今日可见 19 名）；24h +311 星（自家基线 16,917 → 17,228，连接器核实）；Cursor 官方插件规范与插件库。",
+   "status": "基线",
+   "stars_24h_delta": 311
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "repo_url": "https://github.com/mvanhorn/last30days-skill",
+   "stars": 70058,
+   "created": "2026-01-23",
+   "first_seen": "2026-11-17",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "note": "当日 GitHub Trending 日榜第 3（今日可见 19 名）；24h +945 星（自家基线 69,113 → 70,058，连接器核实）；7 日 +2,630（whatstrending.ai 周榜 2026-11-12→11-19 第 20，第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 945
+  },
+  {
+   "repo": "google-labs-code/stitch-skills",
+   "repo_url": "https://github.com/google-labs-code/stitch-skills",
+   "stars": 10417,
+   "created": "2026-01-16",
+   "first_seen": "2026-11-16",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "note": "当日 GitHub Trending 日榜第 9（今日可见 19 名）；24h +291 星（自家基线 10,126 → 10,417，连接器核实）；7 日 +1,650（whatstrending.ai 周榜 2026-11-12→11-19 第 32，第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 291
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "repo_url": "https://github.com/NVIDIA/SkillEvaluator",
+   "stars": 3752,
+   "created": "2026-06-24",
+   "first_seen": "2026-11-19",
+   "desc": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "note": "昨日掉出后今日重新列入：当日 GitHub Trending 日榜第 5（今日可见 19 名）；24h +398 星（昨日连接器核实 3,354 → 今日 3,752）；7 日 +2,944（whatstrending.ai 周榜 2026-11-12→11-19 第 16，第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 398
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "repo_url": "https://github.com/HKUDS/CLI-Anything",
+   "stars": 59803,
+   "created": "2026-03-08",
+   "first_seen": "2026-11-19",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "note": "当日 GitHub Trending 日榜第 2（今日可见 19 名）；让所有命令行工具变为 Agent 原生（CLI-Hub）；创建于 2026-03-08，当前 59,803 星（连接器核实）。",
+   "status": "今日首次发现"
+  },
+  {
+   "repo": "openvinotoolkit/openvino",
+   "repo_url": "https://github.com/openvinotoolkit/openvino",
+   "stars": 11348,
+   "created": "2018-10-15",
+   "first_seen": "2026-11-19",
+   "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "note": "当日 GitHub Trending 日榜第 13（今日可见 19 名）；AI 推理优化部署工具包；当前 11,348 星（连接器核实）。",
+   "status": "今日首次发现"
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "repo_url": "https://github.com/n8n-io/n8n",
+   "stars": 211121,
+   "created": "2019-06-22",
+   "first_seen": "2026-11-19",
+   "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+   "note": "当日 GitHub Trending 日榜第 17（今日可见 19 名）；带原生 AI 能力的工作流自动化平台；当前 211,121 星（连接器核实）；7 日 +788（whatstrending.ai 周榜 2026-11-12→11-19 第 59，第三方统计，仅作线索）。",
+   "status": "今日首次发现"
+  },
+  {
+   "repo": "punkpeye/awesome-mcp-servers",
+   "repo_url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "stars": 98055,
+   "created": "2024-11-30",
+   "first_seen": "2026-11-19",
+   "desc": "A collection of MCP servers.",
+   "note": "当日 GitHub Trending 日榜第 19（今日可见 19 名）；MCP 服务器合集；当前 98,055 星（连接器核实）。",
+   "status": "今日首次发现"
+  },
+  {
+   "repo": "dream-num/univer",
+   "repo_url": "https://github.com/dream-num/univer",
+   "stars": 29894,
+   "created": "2022-09-29",
+   "first_seen": "2026-11-15",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "note": "24h +966 星（自家基线 28,928 → 29,894，连接器核实）；7 日 +6,703（whatstrending.ai 周榜 2026-11-12→11-19 第 2，第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 966
+  },
+  {
+   "repo": "meta/astryx",
+   "repo_url": "https://github.com/meta/astryx",
+   "stars": 30599,
+   "created": "2026-01-09",
+   "first_seen": "2026-11-09",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "note": "24h +423 星（自家基线 30,176 → 30,599，连接器核实）；7 日 +5,643（whatstrending.ai 周榜 2026-11-12→11-19 第 3，第三方统计，仅作线索）。",
+   "status": "基线",
+   "stars_24h_delta": 423
+  },
+  {
+   "repo": "mdiri-ai/SoduWork",
+   "repo_url": "https://github.com/mdiri-ai/SoduWork",
+   "stars": 2913,
+   "created": "2026-10-29",
+   "first_seen": "2026-11-19",
+   "desc": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "note": "ossradar 今日第 5，+1.2k（第三方统计，仅作线索）；7 日 +2,554（whatstrending.ai 周榜 2026-11-12→11-19 第 21，第三方统计，仅作线索）；创建于 2026-10-29，当前 2,913 星（连接器核实），满足创建 ≤30 天且 ≥2,000 星。",
+   "status": "今日首次发现"
+  },
+  {
+   "repo": "FrigadeHQ/yogurt",
+   "repo_url": "https://github.com/FrigadeHQ/yogurt",
+   "stars": 2412,
+   "created": "2026-11-10",
+   "first_seen": "2026-11-19",
+   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+   "note": "ossradar 今日 +352（第三方统计，仅作线索）；创建于 2026-11-10，仅 9 天，当前 2,412 星（连接器核实），满足创建 ≤30 天且 ≥2,000 星；本地 AI 会议笔记工具。",
+   "status": "今日首次发现"
+  },
+  {
+   "repo": "qybaihe/bla",
+   "repo_url": "https://github.com/qybaihe/bla",
+   "stars": 6143,
+   "created": "2026-10-25",
+   "first_seen": "2026-11-08",
+   "desc": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+   "note": "24h +73 星（自家基线 6,070 → 6,143，连接器核实）；7 日 +832（whatstrending.ai 周榜 2026-11-12→11-19 第 58，第三方统计，仅作线索）；创建于 2026-10-25，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 73
+  },
+  {
+   "repo": "JuneYaooo/rea-video",
+   "repo_url": "https://github.com/JuneYaooo/rea-video",
+   "stars": 10710,
+   "created": "2026-10-29",
+   "first_seen": "2026-11-06",
+   "desc": "逐镜头逆向任何视频：判断每镜是实拍、AI 生成还是代码生成，并解析字幕、剪辑与音频。",
+   "note": "24h +430 星（自家基线 10,280 → 10,710，连接器核实）；ossradar 今日 +423（第三方统计，仅作线索）；创建于 2026-10-29，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 430
+  },
+  {
+   "repo": "deepseek-ai/chat-demo",
+   "repo_url": "https://github.com/deepseek-ai/chat-demo",
+   "stars": 4844,
+   "created": "2026-11-12",
+   "first_seen": "2026-11-16",
+   "desc": "Chat Demo",
+   "note": "24h +313 星（自家基线 4,531 → 4,844，连接器核实）；创建于 2026-11-12，仅 7 天。",
+   "status": "基线",
+   "stars_24h_delta": 313
+  },
+  {
+   "repo": "expo/exact",
+   "repo_url": "https://github.com/expo/exact",
+   "stars": 4679,
+   "created": "2026-11-02",
+   "first_seen": "2026-11-12",
+   "desc": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it…",
+   "note": "24h +71 星（自家基线 4,608 → 4,679，连接器核实）；7 日 +1,780（whatstrending.ai 周榜 2026-11-12→11-19 第 29，第三方统计，仅作线索）；创建于 2026-11-02，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 71
+  },
+  {
+   "repo": "sarpstar/cinecode",
+   "repo_url": "https://github.com/sarpstar/cinecode",
+   "stars": 2721,
+   "created": "2026-11-03",
+   "first_seen": "2026-11-12",
+   "desc": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos.",
+   "note": "24h +54 星（自家基线 2,667 → 2,721，连接器核实）；7 日 +504（whatstrending.ai 周榜 2026-11-12→11-19 第 76，第三方统计，仅作线索）；创建于 2026-11-03，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 54
+  },
+  {
+   "repo": "wangzan101/Mika",
+   "repo_url": "https://github.com/wangzan101/Mika",
+   "stars": 9108,
+   "created": "2026-10-29",
+   "first_seen": "2026-11-06",
+   "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+   "note": "24h +131 星（自家基线 8,977 → 9,108，连接器核实）；7 日 +852（whatstrending.ai 周榜 2026-11-12→11-19 第 56，第三方统计，仅作线索）；创建于 2026-10-29，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 131
+  },
+  {
+   "repo": "janestreet/agent_skills",
+   "repo_url": "https://github.com/janestreet/agent_skills",
+   "stars": 10115,
+   "created": "2026-11-03",
+   "first_seen": "2026-11-10",
+   "desc": "Agent skills",
+   "note": "24h +230 星（自家基线 9,885 → 10,115，连接器核实）；创建于 2026-11-03，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 230
+  },
+  {
+   "repo": "Lee-xeo/Claude-Cage",
+   "repo_url": "https://github.com/Lee-xeo/Claude-Cage",
+   "stars": 6643,
+   "created": "2026-10-31",
+   "first_seen": "2026-11-12",
+   "desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+   "note": "24h +269 星（自家基线 6,374 → 6,643，连接器核实）；ossradar 今日 +248（第三方统计，仅作线索）；创建于 2026-10-31，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 269
+  },
+  {
+   "repo": "vercel-labs/ui",
+   "repo_url": "https://github.com/vercel-labs/ui",
+   "stars": 5890,
+   "created": "2026-10-26",
+   "first_seen": "2026-11-14",
+   "desc": "A library of behaviors for agents to build the next generation of user interfaces.",
+   "note": "24h +323 星（自家基线 5,567 → 5,890，连接器核实）；ossradar 今日 +302（第三方统计，仅作线索）；创建于 2026-10-26，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 323
+  },
+  {
+   "repo": "benjitaylor/skills",
+   "repo_url": "https://github.com/benjitaylor/skills",
+   "stars": 3765,
+   "created": "2026-10-26",
+   "first_seen": "2026-11-10",
+   "desc": "Skills for AI coding agents.",
+   "note": "24h +111 星（自家基线 3,654 → 3,765，连接器核实）；7 日 +662（whatstrending.ai 周榜 2026-11-12→11-19 第 64，第三方统计，仅作线索）；创建于 2026-10-26，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 111
+  },
+  {
+   "repo": "N1nEmAn/sapper-v2",
+   "repo_url": "https://github.com/N1nEmAn/sapper-v2",
+   "stars": 2452,
+   "created": "2026-10-30",
+   "first_seen": "2026-11-13",
+   "desc": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).",
+   "note": "24h +121 星（自家基线 2,331 → 2,452，连接器核实）；创建于 2026-10-30，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 121
+  },
+  {
+   "repo": "modelflare-ai/AnyModelBot",
+   "repo_url": "https://github.com/modelflare-ai/AnyModelBot",
+   "stars": 4643,
+   "created": "2026-10-27",
+   "first_seen": "2026-11-11",
+   "desc": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+   "note": "24h +194 星（自家基线 4,449 → 4,643，连接器核实）；7 日 +1,433（whatstrending.ai 周榜 2026-11-12→11-19 第 37，第三方统计，仅作线索）；创建于 2026-10-27，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 194
+  },
+  {
+   "repo": "l0ng-ai/openidea",
+   "repo_url": "https://github.com/l0ng-ai/openidea",
+   "stars": 9398,
+   "created": "2026-10-21",
+   "first_seen": "2026-11-06",
+   "desc": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+   "note": "24h +96 星（自家基线 9,302 → 9,398，连接器核实）；创建于 2026-10-21，今日 29 天，明日出 30 天窗口。",
+   "status": "基线",
+   "stars_24h_delta": 96
+  },
+  {
+   "repo": "haydenschmitty/floorplan",
+   "repo_url": "https://github.com/haydenschmitty/floorplan",
+   "stars": 4857,
+   "created": "2026-10-27",
+   "first_seen": "2026-11-13",
+   "desc": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+   "note": "24h +122 星（自家基线 4,735 → 4,857，连接器核实）；创建于 2026-10-27，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 122
+  },
+  {
+   "repo": "DIYgod/pinky",
+   "repo_url": "https://github.com/DIYgod/pinky",
+   "stars": 2469,
+   "created": "2026-11-06",
+   "first_seen": "2026-11-11",
+   "desc": "Let AI agents use your phone, with you in the loop.",
+   "note": "24h +89 星（自家基线 2,380 → 2,469，连接器核实）；7 日 +599（whatstrending.ai 周榜 2026-11-12→11-19 第 66，第三方统计，仅作线索）；创建于 2026-11-06，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 89
+  },
+  {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "repo_url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "stars": 8350,
+   "created": "2026-10-24",
+   "first_seen": "2026-11-07",
+   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+   "note": "24h +61 星（自家基线 8,289 → 8,350，连接器核实）；创建于 2026-10-24，仍在 30 天窗口内（至 11-23）。",
+   "status": "基线",
+   "stars_24h_delta": 61
+  },
+  {
+   "repo": "Verlintas/NOIR",
+   "repo_url": "https://github.com/Verlintas/NOIR",
+   "stars": 3637,
+   "created": "2026-10-31",
+   "first_seen": "2026-11-05",
+   "desc": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+   "note": "24h +13 星（自家基线 3,624 → 3,637，连接器核实）；创建于 2026-10-31，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 13
+  },
+  {
+   "repo": "zortos293/Lichii",
+   "repo_url": "https://github.com/zortos293/Lichii",
+   "stars": 9738,
+   "created": "2026-10-31",
+   "first_seen": "2026-11-07",
+   "desc": "VERY experimental Nintendo Switch 2 emulator",
+   "note": "较昨日记录值 +534（昨日值 9,204 为 2026-11-15 10:09 共享快照旧值，今日连接器核实 9,738；非严格 24h 口径）；创建于 2026-10-31，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 534
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "repo_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "stars": 23834,
+   "created": "2026-10-31",
+   "first_seen": "2026-11-05",
+   "desc": "Towards a More Autonomous Agent System",
+   "note": "较昨日记录值 +685（昨日值 23,149 为 2026-11-15 10:09 共享快照旧值，今日连接器核实 23,834；非严格 24h 口径）；创建于 2026-10-31，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 685
+  },
+  {
+   "repo": "valentderah/totk-pc-recomp",
+   "repo_url": "https://github.com/valentderah/totk-pc-recomp",
+   "stars": 7688,
+   "created": "2026-10-29",
+   "first_seen": "2026-11-07",
+   "desc": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+   "note": "较昨日记录值 +453（昨日值 7,235 为 2026-11-15 09:09 共享快照旧值，今日连接器核实 7,688；非严格 24h 口径）；创建于 2026-10-29，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 453
+  },
+  {
+   "repo": "jhaizhou-ops/S2Arm",
+   "repo_url": "https://github.com/jhaizhou-ops/S2Arm",
+   "stars": 3604,
+   "created": "2026-11-08",
+   "first_seen": "2026-11-09",
+   "desc": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
+   "note": "较昨日记录值 +620（昨日值 2,984 为 2026-11-15 06:09 共享快照旧值，今日连接器核实 3,604；非严格 24h 口径）；创建于 2026-11-08，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 620
+  },
+  {
+   "repo": "shanselman/gputaskman",
+   "repo_url": "https://github.com/shanselman/gputaskman",
+   "stars": 3535,
+   "created": "2026-11-03",
+   "first_seen": "2026-11-08",
+   "desc": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+   "note": "较昨日记录值 +310（昨日值 3,225 为 2026-11-15 08:50 共享快照旧值，今日连接器核实 3,535；非严格 24h 口径）；创建于 2026-11-03，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 310
+  },
+  {
+   "repo": "KKKKhazix/agent-autoloop",
+   "repo_url": "https://github.com/KKKKhazix/agent-autoloop",
+   "stars": 5915,
+   "created": "2026-11-03",
+   "first_seen": "2026-11-05",
+   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "note": "较昨日记录值 +588（昨日值 5,327 为 2026-11-15 04:11 共享快照旧值，今日连接器核实 5,915；非严格 24h 口径）；创建于 2026-11-03，仍在 30 天窗口内。",
+   "status": "基线",
+   "stars_24h_delta": 588
+  }
+ ],
+ "notes": [
+  "只转录源站 daily-brief 的标题与原文链接，不复制全文与点评；想看完整简报与多源折叠，去源站 live 页。",
+  "分类（模型/产品、企业变现、资本/财报、创业方向、开发者工具、风险/合规）是本页按标题与来源做的归类，不是源站的官方分类。",
+  "本日源站 daily-brief 共 20 个故事（generated_at 2026-11-18T23:24:09Z，24 小时窗口），与昨日持平 20 条；本版全部转录 20 条，标题精确比对后 20 条新上榜、0 条昨日也有。源站 20 条里 18 条来自 Official AI Updates、2 条来自 AIbase、0 条来自 Curated Media。其中第 1、8、9、13 条（Gemini 4 Neon in GitHub Copilot、Codex CLI 0.170.0、Genie 4 is now available、The Silent Consensus）的 title_zh 在源站为 null，本版按源站顶层标题英文原文转录，未自行翻译。第 2 条 DaisyRose-27B 的链接在源站原文即截断为 …post-trainin，本版按原文转录，未补全。",
+  "LearnPrompt/ai-news-radar 的最后提交日期字段为 2026-11-18（UTC 口径），但提交内容已推进：最新提交 2a3517c8（2026-11-18T23:38:07Z，chore: update ai news snapshot）晚于昨日核查时间，daily-brief 已推进到新一期（generated_at 2026-11-18T23:24:09Z），本版 20 条是新一期简报，不是旧摘要重发。注意：该仓库默认分支为 master，main 分支同路径返回 404，本轮经 browser.open 读 master 分支 raw 文件核实。",
+  "zhuyansen/new-term-radar 本轮无新提交（最新仍为 2026-11-16，✨ feat: add KGR, multi-run AI answer sampling, and review/breakout fixes），仍为工具功能提交（仓库根目录无数据输出目录，雷达数据不在仓库内发布），不是雷达数据提交；自 2026-10-28 之后仍无雷达数据提交，故本版继续列为参考库，不恢复为每日源；若出现雷达数据提交将重新列入每日源。星数较昨日 +9。",
+  "alvinreal/awesome-opensource-ai 本轮无新提交（最新仍为 2026-11-06，Add Agent Browser from Nov 6 trending feeds #924），星数较昨日 +4。",
+  "ruanyf/weekly 本轮无新提交（最新仍为 2026-11-14，Merge pull request #13356 from UserMingHaoLi/patch-1），为补丁 PR 合并，非新一期 issue；今日为周四，无新一期（周五新一期），星数较昨日 +57。",
+  "sansan0/TrendRadar 本轮无新提交（最新仍为 2026-11-15，docs: 更新 README 赞助展示与 SanFrame 介绍），为 README 文档更新，非数据更新；星数较昨日 +26。",
+  "Thysrael/Horizon 本轮无新提交（最新仍为 2026-11-15，fix(openbb): skip invalid news rows (#243)），星数较昨日 +212。注意：该仓库 pushed_at 显示 2026-11-19 00:03，但默认分支最新提交仍为 2026-11-15，未见新提交内容。",
+  "XiaomingX/ai-money-maker-handbook 本轮有新提交（2026-11-18，Update DATA_UPDATE.md with timestamp 2026-11-18 04:37:06），仍为时间戳文件，未证实每日新增了赚钱案例；因此只列为参考库，不把它算作每日新增信息流。星数较昨日 +79。",
+  "bleedline/aimoneyhunter 本轮无新提交（最新仍为 2025-10-20，Update README.md），星数与昨日持平；仍为参考库。",
+  "高热快涨仓库：24h 星增以昨日 fast_growth 基线（2026-11-18 版）为基准，今日星数全部经 GitHub 连接器逐仓核实（共享快照 2026-11-19 08:02 版距本轮约 2 小时，已超 90 分钟复用限，未直接复用）；首次发现仓库无昨日基线，不标注 24h 星增（rust-anything 除外：昨日连接器已核实 1,417 星，可算 24h 差值）；7 日口径按 whatstrending.ai 周榜（2026-11-12→11-19，最新快照 2026-11-19）交叉核对（第三方统计，仅作线索）；Trending 口径按当日 GitHub Trending 日榜官方页抓取的可见 19 名判定（本次抓取只返回 19 名，第 20–25 名未可见，故只按可见名次判定）；星数只代表关注度、不代表可用性。",
+  "本轮掉出快涨节的 6 家昨日在榜仓库：jingyaogong/minimind（本轮 24h +460，连接器核实 66,037 → 66,497，未达 1,000；7 日未被 whatstrending.ai 周榜 2026-11-12→11-19 前 87 名测得；未进当日 Trending 可见 19 名；创建于 2024-07-27，已出 30 天窗口）、ag-ui-protocol/ag-ui（本轮 24h +418，连接器核实 20,034 → 20,452，未达 1,000；7 日未被上述周榜前 87 名测得；未进当日 Trending 可见 19 名；创建于 2025-05-07，已出 30 天窗口）、Tencent/LoopForge（本轮 24h +593，连接器核实 3,227 → 3,820，未达 1,000；7 日未被上述周榜前 87 名测得；未进当日 Trending 可见 19 名；创建于 2026-07-28，已出 30 天窗口）、alibaba/open-code-review（本轮 24h +412，连接器核实 53,771 → 54,183，未达 1,000；7 日未被上述周榜前 87 名测得；未进当日 Trending 可见 19 名；创建于 2026-05-18，已出 30 天窗口）、backnotprop/plannotator（本轮 24h +380，连接器核实 13,087 → 13,467，未达 1,000；7 日 +3,385，上述周榜第 12，未达 5,000；未进当日 Trending 可见 19 名；创建于 2025-12-28，已出 30 天窗口）、hitkeeen/blender-ai-mcp-addon（GitHub 连接器搜索返回 0 条且 get_file_contents 返回 404，仓库已不可访问，疑似删除/改名/转私有，本轮移出；昨日说明中“页面缓存显示 2,386 星”已失效）；其今日星数以连接器核实为准，若明日重新达标将恢复列入并按基线比对 24h 星增。",
+  "本轮核实过但未达入选口径的线索（不列入本节）：DietrichGebert/ponytail（7 日 +4,874，上述周榜第 5，第三方统计，仅作线索，未达 5,000）、Leonxlnx/taste-skill（7 日 +4,861，上述周榜第 6，第三方统计，仅作线索，未达 5,000）、pbakaus/impeccable（7 日 +4,593，上述周榜第 7，第三方统计，仅作线索，未达 5,000）、anthropics/skills（7 日 +4,091，上述周榜第 8，第三方统计，仅作线索，未达 5,000）、we-promise/sure（7 日 +3,557，上述周榜第 9，第三方统计，仅作线索，未达 5,000；个人记账应用，非 AI 核心）、google/elephant-goldfish-model（7 日 +3,464，上述周榜第 10，第三方统计，仅作线索，未达 5,000）、h4ckf0r0day/obscura（7 日 +3,456，上述周榜第 11，第三方统计，仅作线索，未达 5,000）、ZhuLinsen/daily_stock_analysis（7 日 +3,149，上述周榜第 13，第三方统计，仅作线索，未达 5,000；股票分析工具，非 AI 核心）、ChromeDevTools/chrome-devtools-mcp（7 日 +3,061，上述周榜第 14，第三方统计，仅作线索，未达 5,000）、addyosmani/agent-skills（7 日 +3,026，上述周榜第 15，第三方统计，仅作线索，未达 5,000）、kajisho5/ffmpeg-skill（7 日 +2,931，上述周榜第 17，第三方统计，仅作线索，未达 5,000；ossradar 今日 +290，第三方统计，仅作线索；未进当日 Trending 可见 19 名）、blader/humanizer（7 日 +2,850，上述周榜第 18，第三方统计，仅作线索，未达 5,000）、vercel-labs/agent-browser（7 日 +2,802，上述周榜第 19，第三方统计，仅作线索，未达 5,000）、openai/codex-security（7 日 +2,412，上述周榜第 22，第三方统计，仅作线索，未达 5,000；OpenAI Codex 安全 CLI，留待下轮）、firecrawl/firecrawl（7 日 +2,201，上述周榜第 23，第三方统计，仅作线索，未达 5,000）、JuliusBrussee/caveman（7 日 +2,174，上述周榜第 24，第三方统计，仅作线索，未达 5,000）、thedotmack/claude-mem（7 日 +2,010，上述周榜第 25，第三方统计，仅作线索，未达 5,000）、NVIDIA/auto-ontology（7 日 +1,972，上述周榜第 26，第三方统计，仅作线索，未达 5,000）、EL4CTEO/blender-skills（ossradar 今日 +247，第三方统计，仅作线索；连接器核实 2,225 星，创建于 2026-10-14，已 36 天，超出 30 天窗口；7 日未被上述周榜前 87 名测得，不列入）、getarcaneapp/arcane（GitHub Trending 日榜第 4，Docker 管理工具，非 AI 核心，不列入）、appwrite/appwrite（GitHub Trending 日榜第 12，通用后端云平台，非 AI 核心，不列入）、nvm-sh/nvm（GitHub Trending 日榜第 6，Node 版本管理，非 AI，不列入）、astral-sh/uv（GitHub Trending 日榜第 7，Python 包管理，非 AI，不列入）、sveltejs/svelte（GitHub Trending 日榜第 10，Web 框架，非 AI，不列入）、jquery/jquery（GitHub Trending 日榜第 11，JS 库，非 AI，不列入）、DeanChensj/jiangshan-map（GitHub Trending 日榜第 16，中国历史交互地图，非 AI，不列入）、solidjs/solid（GitHub Trending 日榜第 18，JS 库，非 AI，不列入）、krisgfx9/Wireless-Device-Battery-Monitor（ghtrends.dev 日榜第 1，+1,914，第三方统计，仅作线索；无线设备电量托盘工具，非 AI，不列入）、gylive/google-ultra（ghtrends.dev 日榜第 2，+1,372，第三方统计，仅作线索；领取 Google One AI Ultra 试用的脚本，非 AI 核心仓库，不列入）、libracoder/kiri（ossradar 今日 +691，第三方统计，仅作线索；容器运行时，非 AI 核心，不列入）。",
+  "寻猎源状态：GitHub Trending 日榜可用（本轮抓取可见 19 名，前 3：cursor/plugins、HKUDS/CLI-Anything、mvanhorn/last30days-skill；AI 相关 11 家：cursor/plugins、HKUDS/CLI-Anything、mvanhorn/last30days-skill、NVIDIA/SkillEvaluator、google-research/paper-orchestra、google-labs-code/stitch-skills、openvinotoolkit/openvino、obra/superpowers、affaan-m/ECC、n8n-io/n8n、punkpeye/awesome-mcp-servers；另有 appwrite/appwrite 与 getarcaneapp/arcane 按非 AI 核心排除）；whatstrending.ai AI Repo Acceleration Report 可用（周榜 2026-11-12→11-19，最新快照 2026-11-19；本周前 3：morluto/rea +15,560、dream-num/univer +6,703、meta/astryx +5,643；7 日 ≥5,000 仅 4 家）；ghtrends.dev 日榜可用（2026-11-19 期，前 3：krisgfx9/Wireless-Device-Battery-Monitor +1,914、gylive/google-ultra +1,372、morluto/rea +1,346，第三方统计，仅作线索；周榜仍为 2026-11-09 版，已滞后一周，未采用）；ossradar.net 可用（最后更新 2026-11-18 22:02 UTC 版，距本轮约 4 小时；Repo of the day：erkamyaman/rust-anything +2.1k；今日前 3：morluto/rea +2k、Ebony-Vinyl/dsh-our-free-model +1.3k、storytold/craft-anything +1.2k；榜单部分名次仅显示头像、无仓库名，无法识别，不列入）。",
+  "星数、fork 数、最后提交均以 2026-11-19 上午 GitHub 连接器返回为准（快涨仓库星数全部为本轮连接器逐仓核实，因共享快照已过期未复用；属正常小时漂移）；星数每天会变，次日页面会与本日对比涨跌。",
+  "本日与昨日对比：精选标题按标题精确比对，20 条新上榜、0 条昨日也有；源仓库按星数与最后提交日期比对，见页面顶部昨日对比与各源卡片。",
+  "上日核查过但未列入每日信息流的仓库，沿用上日结论（本轮未重新核查）：usestrix/strix、zhaoxuya520/reverse-skill、HKUDS/DeepTutor、github/spec-kit、lobehub/lobehub；另：GitHubDaily（最近提交 2025-12-31）、justlovemaki/CloudFlare-AI-Insight-Daily（2026-06-07）、BuilderPulse（每日系列停在 2026-08-14）、vigorX777/ai-daily-digest（2026-02-15），星数不低，但未证实仍在每日更新，故不冒充为每日源。"
+ ]
+}
