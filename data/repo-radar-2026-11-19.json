@@ -1,0 +1,444 @@
+{
+ "archive_note": "本版快照 KU=2026-11-19 08:00 CST，本版连接器调用 28 次（补核 KU 轮外 23 仓 + 2 次线索搜索 + 3 次简介复核）+ 复用 KU 轮 08:02 核实值 7 仓；约 24 小时增量 = 本版核实 − 昨日版（2026-11-18 08:33）。池子状态（本版后）：热池 2 个、温池 98 个、冷池 0 个，共 100 个（昨日版 100）；自昨日版新入池 0 个，降级 0 个，移出 0 个。裁决：新增 P0 0 个、新增 P1 已确认 0 个、无新增 P1 待确认、无新增 P2；rust-anything P1 待确认关闭（KU 轮）。ScanDot 温→冷降级暂缓：连接器直查 545 星，与库内末值 373 星差 +172，小时轮次连续归零读数与直查值矛盾，待下轮复核。并列第 10：heydamir/unslop 与 yetone/magpie 同为约 24h +518。跨系统信号：今日 B 站/抖音热榜未见仓库关键词。",
+ "channel_health": {
+  "gh_archive": "仅作线索：本版未调用。",
+  "github_search": "本版新仓分片新面孔：chuanqisun/spaceship（868 星，连接器核实，今日首次发现）、opencoredev/islandcn（810 星，约 24h +15）；boring-marketing-skills fork 率约 37.3% 排除（KU 轮）；ung220z-tool 1,159 星 fork 率约 24.3% 仍偏高，池满列线索（KU 轮）；inference-optimisation-skill 分片约 929 星（KU 轮：917 星，fork 率约 8.8% 健康），池满暂不逐仓核实，线索延续。",
+  "hacker_news": "本版未检索到 rust-anything / Claude-BugHunter 的近期 HN/X 引爆帖；rust-anything 曾于 KS 轮 20:02 因专属触发源（作者 Reddit r/claudeskills 首发帖 + medevel 专文 2026-11-18 14:44 CST）重立 P1 待确认，KU 轮 08:00 因减速且无新增触发源关闭。",
+  "opendigger_gharchive": "可用作小时级事件回填：本版未调用。",
+  "ossradar": "已刷新（2026-11-18 22:02 UTC 版）；mdiri-ai/SoduWork 连接器核实 2,889 星，今日首次发现，ossradar 估计今日 +1.2k（估计值，未作 24h 相减），fork 率约 11.6% 健康，B 档，池满列最高优先线索；unslop 慢燃 7d 距 C 档 5,000 线 >1,300、Claude-Cage 距线 >1,400（KU 轮估算），慢燃 P2 均不触发。",
+  "product_hunt": "仅作线索：本版未拉取。",
+  "repotrending": "未拉取：本版以自有快照 + Trending 直取 + ossradar 为准。",
+  "star_history": "持续不可用：本版复测 SoduWork、LoopForge 均 404，未调用、不编造基线；24h 增量以自有连续快照 + 连接器核实为准；LoopForge / kitesurf / ANR 的 3 倍中位均未证实，P2 不触发。",
+  "trending": "可用：本版 curl 直取两次成功（200），两次提取一致，共 19 篇：cursor/plugins 第 1 位、HKUDS/CLI-Anything 第 2 位、mvanhorn/last30days-skill 第 3 位、NVIDIA/SkillEvaluator 第 5 位、google-research/paper-orchestra 第 8 位今日 +1,524；与 KU 轮 08:00 记录差异：KU 记 Claude-BugHunter 第 1 位，本版两次直取均未见，疑似 UTC 零点榜单刷新/排名轮换，下轮复核；新面孔 obra/superpowers 今日 +822、affaan-m/ECC 今日 +1,108、getarcaneapp/arcane 今日 +547（均为页面今日增量，总星数本版未连接器核实，列线索）。",
+  "trendshift": "本版未拉取。",
+  "vendor_release": "由小时轮次覆盖：KU 轮 org:anthropic 自 2026-11-01 起新仓 0 个，无关注点；下轮轮换 org:deepseek-ai。"
+ },
+ "date": "2026-11-19",
+ "entrepreneur_top3": [
+  {
+   "basis": "约 24h +2,115，今日全场最大增量；6h +361（约 +60/h）回落，未守住 +100/h 线；P1 已确认（11-17 新确认），不重复报警；安全类 skill 连续三日进 TOP3。",
+   "category": "安全",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "score": 92,
+   "setup": "按文档装入 Claude Code skills 目录即用，需自行承担授权合规责任。",
+   "stars": 11358,
+   "what": "Claude Code 漏洞猎手技能包：82 个 skills + 15 条斜杠命令，面向漏洞挖掘与外部红队工作。"
+  },
+  {
+   "basis": "约 24h +1,309，B 档最大增量；6h +199（约 +33/h）大幅减速；P1 已确认（11-17 新确认）；Trending 日榜第 8 位，今日 +1,524。",
+   "category": "Agent/编程助手",
+   "repo": "google-research/paper-orchestra",
+   "score": 91,
+   "setup": "按文档部署，需自备模型 API。",
+   "stars": 4274,
+   "what": "Google Research 多智能体框架：自动写 AI 研究论文，多智能体协作完成调研与撰写。"
+  },
+  {
+   "basis": "约 24h +1,297；6h +293（约 +49/h）仍加速；P1 已报警；理解任意软件再复刻的范式，内容生成类可直接复用思路。",
+   "category": "AI 视频/内容生成",
+   "repo": "storytold/craft-anything",
+   "score": 90,
+   "setup": "开源即用，本地运行需自备模型 API。",
+   "stars": 37004,
+   "what": "理解任何软件如何工作，再自己复刻一个。"
+  }
+ ],
+ "fastest_24h": [
+  {
+   "delta": "+2,115（约 24 小时，基线核实）",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "stars": 11358,
+   "status": "P1 已确认；今日全场最大增量；6h +361（约 +60/h）回落"
+  },
+  {
+   "delta": "+1,958（约 24 小时，基线核实）",
+   "repo": "morluto/rea",
+   "stars": 468244,
+   "status": "已爆红；D 档对照；6h +339（约 +57/h）减速"
+  },
+  {
+   "delta": "+1,309（约 24 小时，基线核实）",
+   "repo": "google-research/paper-orchestra",
+   "stars": 4274,
+   "status": "P1 已确认；B 档最大增量；Trending 今日 +1,524"
+  },
+  {
+   "delta": "+1,297（约 24 小时，基线核实）",
+   "repo": "storytold/craft-anything",
+   "stars": 37004,
+   "status": "P1 已报警；6h +293（约 +49/h）仍加速"
+  },
+  {
+   "delta": "+1,264（约 24 小时，基线核实）",
+   "repo": "Ebony-Vinyl/dsh-our-free-model",
+   "stars": 79797,
+   "status": "D 档对照"
+  },
+  {
+   "delta": "+1,175（约 24 小时，基线核实）",
+   "repo": "ccch1mneyyy/dsh-Go",
+   "stars": 27183,
+   "status": "P1 已确认"
+  },
+  {
+   "delta": "+984（约 24 小时，基线核实）",
+   "repo": "dream-num/univer",
+   "stars": 29880,
+   "status": "老仓再热（创建于 2022-09-29）"
+  },
+  {
+   "delta": "+687（约 24 小时，基线核实）",
+   "repo": "Tencent/LoopForge",
+   "stars": 3799,
+   "status": "P1 已确认；6h 仅 +24，减速中"
+  },
+  {
+   "delta": "+679（约 24 小时，基线核实）",
+   "repo": "libracoder/kiri",
+   "stars": 10781,
+   "status": "P1 已确认；不重复报警"
+  },
+  {
+   "delta": "+518（约 24 小时，基线核实）",
+   "repo": "yetone/magpie",
+   "stars": 38611,
+   "status": "P1 已确认；与 unslop 并列第 10"
+  }
+ ],
+ "generated_at_cst": "2026-11-19 08:50",
+ "levels_today": {
+  "p0_new": "无新增 P0。deepseek-ai/chat-demo P0 已确认，约 24h +297，6h 仅 +22（约 +4/h）大幅回落，不升级、不重复报警；Claude-BugHunter 约 24h +2,115 为今日全场最大增量，但 P1 已确认且单日 pace 约 +2,115 <10,000，不升级、不重复报警。",
+  "p1_pending": "无新增 P1 已确认，无新增 P1 待确认。erkamyaman/rust-anything P1 待确认关闭（KU 轮：6h +355，约 +59/h，跌破 +90/h 关闭线，且无新增 HN/X/博客触发源；ossradar 当日 repo of the day、今日 +2.1k 为榜单侧信号，不计入确认触发；24h 增量约 +2.6k 为估计值，多轮减速，不升 P0）；n8n-io/nod（KU 轮 6h +44）、vercel-labs/ui（6h +89）均低于 +21/h 线，P1 待确认不重立；deepseek-ai/chat-demo（6h +22）远低于 +31/h 线，待确认保持关闭。",
+  "p2_triggered": [
+   "无新增 P2。头号候选 Tencent/LoopForge 约 24h +687，但 3 倍中位未证实（Star History API 持续 404，本版复测仍 404），P2 不触发；cloudflare/kitesurf（KU 轮 6h +23）仍低于 +30/h 线；apex-compute/ANR 约 24h +68，小时 pace 低位；heydamir/unslop 慢燃 7d 距 C 档 5,000 线 >1,300、Lee-xeo/Claude-Cage 距线 >1,400，慢燃 P2 均不触发（KU 轮估算）。"
+  ]
+ },
+ "method": {
+  "note": "本版快照窗口约 24 小时（2026-11-18 08:33 → 2026-11-19 08:50 CST）；连接器调用 28 次 + 复用 KU 轮 08:02 核实值 7 仓；约 24 小时增量 = 本版核实 − 昨日版（2026-11-18 08:33），口径一致的 25 仓；janestreet/agent_skills、Lee-xeo/Claude-Cage、mdiri-ai/SoduWork、chuanqisun/spaceship、HKUDS/CLI-Anything、mvanhorn/last30days-skill、NVIDIA/SkillEvaluator、cursor/plugins、faizfahmi77/ScanDot 无昨日版基线，未作 24h 相减；rust-anything 24h 约 +2.6k 为 KU 轮估计值，未作连接器基线相减；P1/P0 的 1 小时/6 小时规则按约 6 小时窗口增速判断是否为 pace，不当作已测得的 1 小时增量。Star History API 持续不可用（本版复测 SoduWork、LoopForge 均 404），本版未调用、不编造基线。评分三维度：增速 40 / 能用度 30 / 新颖度 30。",
+  "thresholds_v1_revised": [
+   "P2 早期异常：24h 新增 ≥30 且为前 24h 的 3 倍以上，且累计 ≥100；或 6h 新增 ≥15 且明显加速；或老仓库复活规则（年龄 >90 天且 pushed_at 在 7 天内且 24h 新增 ≥30 且为前 24h 的 3 倍以上）。",
+   "P1 可能即将爆红：6h 新增 ≥50 且明显加速；或 24h 新增 ≥80 且为前 24h 的 5 倍以上；或 24h 新增 ≥150 且连续两日加速。推送前须二次确认（连续两个采样周期加速，或叠加一个独立传播证据）。",
+   "P0 爆红确认：1h 新增 ≥100；或 6h 新增 ≥150；或 24h 新增 ≥500 且持续加速。",
+   "分档阈值（v3 增长池）：A 档（20–500 星）24h≥30 且为自身中位 3 倍以上 → P2；B 档（500–5k）24h≥100 且 3 倍以上 → P2，24h≥300 → P1 待确认；C 档（5k–50k）24h≥500 → P1 待确认；D 档（50k+）只作已爆红对照。",
+   "慢燃规则（v5）：7 天累计增量分档（A ≥150 / B ≥500 / C ≥5,000 / D ≥20,000）→ P2，无单日爆点也可定级。",
+   "母舰/生态快车道（v5）：P0 母舰出现后，其关键词/前缀新仓入池门槛减半；官方组织新仓/新 release 发布当天直接入池。",
+   "生态簇（v5）：48 小时内 ≥2 个同关键词仓库同时 P2 → 升级为 P1 待确认，标注“生态簇”。"
+  ]
+ },
+ "new_projects": [
+  {
+   "created": "2026-11-12",
+   "repo": "deepseek-ai/chat-demo",
+   "score": 90,
+   "stars": 4818,
+   "what": "DeepSeek 官方 Chat Demo 新仓；P0 已确认，约 24h +297，6h 仅 +22（约 +4/h）大幅回落。"
+  },
+  {
+   "created": "2026-11-16",
+   "repo": "erkamyaman/rust-anything",
+   "score": 88,
+   "stars": 3354,
+   "what": "把整个应用一次一块地用 Rust 重写，每步对照原版录制行为校验；6h +355（约 +59/h），24h 约 +2.6k 为 KU 轮估计值；P1 待确认已关闭（减速且无新触发源）。"
+  },
+  {
+   "created": "2026-11-11",
+   "repo": "apex-compute/ANR",
+   "score": 84,
+   "stars": 2658,
+   "what": "Apex 神经渲染引擎；约 24h +68，P2 不触发。"
+  },
+  {
+   "created": "2026-11-16",
+   "repo": "chuanqisun/spaceship",
+   "score": 80,
+   "stars": 868,
+   "what": "今日首次发现（连接器核实 868 星）；简介仅一句“Steer your ideas in realtime”，具体形态待下一轮确认；无增速基线。"
+  },
+  {
+   "created": "2026-11-13",
+   "repo": "opencoredev/islandcn",
+   "score": 78,
+   "stars": 810,
+   "what": "开源 Dynamic Island React 组件，shadcn 一键安装；约 24h +15，明显回落。"
+  }
+ ],
+ "rea_backtest": {
+  "conclusion": "按日度数据，P2/P1 理论最早在 10-03（累计 540 星），P0 在 10-04（累计 2,962 星）。但候选发现未验证：没有任何证据表明系统能在 10-03 当天实际把它从候选池中捞出来——created 搜索必然漏掉（创建于 2026-04-14），Trending 到 10-07 才第 8 名（累计已 1.7 万星），最早可验证传播信号是 10-04 的 X @_vmlops 首发帖（当天已是 P0 级），HN 主帖 10-10 已是滞后信号。纯日度监测相对小时级快照监测晚约半天到 1 天。",
+  "daily": [
+   {
+    "cum": 414,
+    "date": "10-02",
+    "gain": 11
+   },
+   {
+    "cum": 540,
+    "date": "10-03",
+    "gain": 126
+   },
+   {
+    "cum": 2962,
+    "date": "10-04",
+    "gain": 2422
+   },
+   {
+    "cum": 6107,
+    "date": "10-05",
+    "gain": 3145
+   },
+   {
+    "cum": 10388,
+    "date": "10-06",
+    "gain": 4281
+   },
+   {
+    "cum": 17113,
+    "date": "10-07",
+    "gain": 6725
+   },
+   {
+    "cum": 30493,
+    "date": "10-08",
+    "gain": 13380
+   },
+   {
+    "cum": 53408,
+    "date": "10-09",
+    "gain": 22915
+   },
+   {
+    "cum": 78344,
+    "date": "10-10",
+    "gain": 24936
+   },
+   {
+    "cum": 118211,
+    "date": "10-11",
+    "gain": 39867
+   },
+   {
+    "cum": 172189,
+    "date": "10-12",
+    "gain": 53978
+   }
+  ],
+  "first_trigger": {
+   "p0": "2026-10-04（24h +2,422），小时级 1h≥100/6h≥150 规则在 10-04 白天发酵后数小时内即可触发，日度确认比真实小时级晚约 6–12 小时。",
+   "p1": "日度代理下与 P2 同日 10-03；真实小时级下很可能要到 10-04 白天（6h 新增随 @_vmlops 帖冲上 ≥50）才触发，比日度代理晚约 12–24 小时。",
+   "p2": "2026-10-03（24h +126，前 24h 11，11.45 倍），累计 540 星；真实小时级下 P2 很可能在 10-03 下午触发，比日度确认早约 6–12 小时。"
+  },
+  "source": "官方 Star History API（全量求和 434,921，与当前星数一致）+ 仓库详情 API + 公开搜索。换算：week 均为周日 00:00 UTC，days[0]=周日；UTC 日后 8 小时属北京时间次日，日度桶有约 ±1/3 天时区不确定性。",
+  "title": "REA 回测：2026-09-25 至 2026-10-12",
+  "trigger": "10-03 无明确公开引爆点，只有 3.2.0/3.2.1 发布（此前沉寂近 2 个月）；10-04 X @_vmlops 首发帖（315,000 浏览）；10-07/08 Replit CEO 帖 + Matthew Berman“Software is done”（2.8M 浏览）第二波放大。",
+  "warning": "2026-08-13 单日 +117 星后次日即衰减；10-02 当日 +11 星看似平静，次日即 +126 星触发 P2——单日低点不等于熄火。"
+ },
+ "revived": [
+  {
+   "age": "创建于 2026-04-14，沉寂近 2 个月后爆发",
+   "repo": "morluto/rea",
+   "stars": 468244,
+   "status": "已爆红，约 24 小时 +1,958，仍在 D 档对照跟踪"
+  },
+  {
+   "age": "创建于 2026-05-05，老仓",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "stars": 11358,
+   "status": "老仓复活：约 24h +2,115，今日全场最大增量；P1 已确认"
+  },
+  {
+   "age": "创建于 2026-05-01，老仓",
+   "repo": "google-research/paper-orchestra",
+   "stars": 4274,
+   "status": "老仓复活：约 24h +1,309，B 档最大增量；P1 已确认；Trending 日榜第 8 位"
+  },
+  {
+   "age": "创建于 2022-09-29，老仓",
+   "repo": "dream-num/univer",
+   "stars": 29880,
+   "status": "约 24h +984，老仓再热"
+  },
+  {
+   "age": "创建于 2026-01-27，老仓",
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "stars": 8833,
+   "status": "老仓再热：约 24h +390；P1 已确认"
+  }
+ ],
+ "scores_note": "评分是主观判断，不是真实市场统计数字；星数只代表关注度，不代表可用性与收入。“上手”只写一句话部署门槛。",
+ "spam_note": "反刷星：muse-protocol fork 率约 39.4% 仍异常，不报警、不入池；PeakCut fork 率约 33.4% 仍偏高，列线索不入池；mdldm-maitian fork 率约 32.9% 仍偏高，疑似模板化/高 fork，不入池；google-ultra fork 率约 44.3% 疑似刷量，排除；LoopForge fork 率约 15.4% 偏高但属自托管工作流工具的正常 fork 用途，列观察不排除；muse4ai 仍在冷池外（已移出，P2 已撤销）。本版新增：boring-marketing-skills fork 率约 37.3% 排除（KU 轮）；ung220z-tool fork 率约 24.3% 仍偏高，池满列线索（KU 轮）；mdiri-ai/SoduWork fork 率约 11.6% 健康；ScanDot 直查 545 星与库内末值 373 星差 +172，降级暂缓复核。",
+ "top_potential": [
+  {
+   "basis": "C 档约 24h +2,115，今日全场最大增量；6h +361（约 +60/h）较昨日 +79/h 回落，未守住 +100/h 线；P1 已确认，不重复报警；Trending 榜单口径差异待核（KU 轮记第 1 位，本版两次直取未见）。",
+   "category": "安全",
+   "repo": "elementalsouls/Claude-BugHunter",
+   "score": 93,
+   "setup": "按文档装入 Claude Code skills 目录即用，需自行承担授权合规责任。",
+   "stars": 11358,
+   "what": "Claude Code 漏洞猎手技能包：82 个 skills + 15 条斜杠命令，面向漏洞挖掘与外部红队工作。"
+  },
+  {
+   "basis": "B 档约 24h +1,309，B 档最大增量；6h +199（约 +33/h）大幅减速；P1 已确认，不重复报警；Trending 日榜第 8 位，今日 +1,524。",
+   "category": "Agent/编程助手",
+   "repo": "google-research/paper-orchestra",
+   "score": 92,
+   "setup": "按文档部署，需自备模型 API。",
+   "stars": 4274,
+   "what": "Google Research 多智能体框架：自动写 AI 研究论文，多智能体协作完成调研与撰写。"
+  },
+  {
+   "basis": "C 档约 24h +1,297；6h +293（约 +49/h）仍加速；P1 已报警。",
+   "category": "AI 视频/内容生成",
+   "repo": "storytold/craft-anything",
+   "score": 90,
+   "setup": "开源即用，本地运行需自备模型 API。",
+   "stars": 37004,
+   "what": "理解任何软件如何工作，再自己复刻一个。"
+  },
+  {
+   "basis": "C 档约 24h +1,175；P1 已确认；dsh 生态第二波维持高位。",
+   "category": "Agent/编程助手",
+   "repo": "ccch1mneyyy/dsh-Go",
+   "score": 89,
+   "setup": "手机 App（Flutter），安装即用。",
+   "stars": 27183,
+   "what": "把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
+  },
+  {
+   "basis": "C 档约 24h +984；老仓再热（创建于 2022-09-29）。",
+   "category": "生产力/自动化",
+   "repo": "dream-num/univer",
+   "score": 88,
+   "setup": "按文档把 SDK 接入产品或 agent 流程，需一定开发量。",
+   "stars": 29880,
+   "what": "AI 办公 SDK：把电子表格、文档、幻灯片放进自己的产品或 agent 流程。"
+  },
+  {
+   "basis": "B 档约 24h +687；但 6h 仅 +24（约 +4/h）继续减速，增量集中在昨日白天；P1 已确认，不重复报警；3 倍中位未证实，P2 不触发。",
+   "category": "Agent/编程助手",
+   "repo": "Tencent/LoopForge",
+   "score": 87,
+   "setup": "自托管部署，需自备 agent 环境。",
+   "stars": 3799,
+   "what": "自托管 coding-agent 交付工作流：编排 CodeBuddy、Codex 与 Claude Code。"
+  },
+  {
+   "basis": "C 档约 24h +679；P1 已确认，不重复报警；11-10 发布 0.2.0 后多榜同步发酵。",
+   "category": "MCP/协议与工具",
+   "repo": "libracoder/kiri",
+   "score": 86,
+   "setup": "下载安装包即可用，建议先在一次性项目试用。",
+   "stars": 10781,
+   "what": "免费开源 Docker Desktop / OrbStack 平替：小而快的容器运行时，兼容 docker CLI / Compose / buildx，附免费 Ngrok 替代，容器启动约 2.5ms（作者自测数据）。"
+  },
+  {
+   "basis": "C 档约 24h +518；6h +82（约 +14/h）；P1 已确认；慢燃 7d 距 C 档 5,000 线 >1,300，未达慢燃 P2。",
+   "category": "Skills 生态",
+   "repo": "heydamir/unslop",
+   "score": 85,
+   "setup": "Claude Code skills，放入 skills 目录即用。",
+   "stars": 18278,
+   "what": "Claude Code skill：把 AI 味十足的界面变成有设计感的界面。"
+  },
+  {
+   "basis": "C 档约 24h +518；P1 已确认，不重复报警。",
+   "category": "Agent/编程助手",
+   "repo": "yetone/magpie",
+   "score": 84,
+   "setup": "菜单栏应用，下载安装即用。",
+   "stars": 38611,
+   "what": "每个 agent 的模型中枢：菜单栏里切换 Codex、Claude Code 的底层模型。"
+  },
+  {
+   "basis": "C 档约 24h +446；P1 已确认；Trending 日榜常客。",
+   "category": "MCP/协议与工具",
+   "repo": "ag-ui-protocol/ag-ui",
+   "score": 83,
+   "setup": "按文档接入前端项目即用。",
+   "stars": 20430,
+   "what": "AG-UI：Agent-User Interaction Protocol，把 agent 带进前端应用。"
+  }
+ ],
+ "trending_major": [
+  {
+   "repo": "cursor/plugins",
+   "stars": 17193,
+   "today_gain": "Trending 日榜第 1 位；今日 +314",
+   "what": "Cursor 官方插件规范与官方插件；C 档，今日首次发现。"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "stars": 59730,
+   "today_gain": "Trending 日榜第 2 位；今日 +389",
+   "what": "让所有软件都 agent 原生：CLI-Hub；D 档对照（50k+），今日首次发现。"
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "stars": 69996,
+   "today_gain": "Trending 日榜第 3 位；今日 +1,059",
+   "what": "AI agent skill：跨 Reddit、X、YouTube、HN、Polymarket 与全网调研任意话题；D 档对照，今日首次发现。"
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "stars": 3718,
+   "today_gain": "Trending 日榜第 5 位；今日 +312",
+   "what": "NVIDIA 多层级框架：评估 AI agent skills 与插件质量，含质量门禁与语义重叠检测；B 档，今日首次发现。"
+  },
+  {
+   "repo": "google-research/paper-orchestra",
+   "stars": 4274,
+   "today_gain": "Trending 日榜第 8 位；今日 +1,524；连接器 24h +1,309",
+   "what": "Google Research 多智能体框架：自动写 AI 研究论文；P1 已确认。"
+  }
+ ],
+ "yesterday_alerts": [
+  {
+   "follow": "P0 已确认；约 24 小时 +297，6h 仅 +22（约 +4/h）大幅回落。",
+   "repo": "deepseek-ai/chat-demo",
+   "stars": 4818
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +296。",
+   "repo": "vercel-labs/agent-desktop",
+   "stars": 25298
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +1,175。",
+   "repo": "ccch1mneyyy/dsh-Go",
+   "stars": 27183
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +679，不重复报警。",
+   "repo": "libracoder/kiri",
+   "stars": 10781
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +305。",
+   "repo": "Vincentwei1021/video-shotcraft",
+   "stars": 21311
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +390。",
+   "repo": "GoogleChrome/modern-web-guidance-src",
+   "stars": 8833
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +518。",
+   "repo": "yetone/magpie",
+   "stars": 38611
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +423；6h +54（约 +9/h）。",
+   "repo": "JuneYaooo/rea-video",
+   "stars": 10682
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +518；慢燃 7d 未达线。",
+   "repo": "heydamir/unslop",
+   "stars": 18278
+  },
+  {
+   "follow": "P1 已确认；约 24 小时 +350。",
+   "repo": "google/elephant-goldfish-model",
+   "stars": 21147
+  }
+ ]
+}
