@@ -1,7 +1,252 @@
 {
-  "generated_at": "2026-11-19T21:28:47+08:00",
-  "count": 397,
+  "generated_at": "2026-11-20T21:28:27+08:00",
+  "count": 432,
   "items": [
+    {
+      "id": "content-radar-20261120-00",
+      "title": "[内容雷达 90分] 墨西哥翼龙 / Mexico Pterodactyl — 值得低成本试",
+      "summary": "本期最高分：11-14 引爆、4 天超 2220 万播放（Know Your Meme），一张照片 8 秒成本极低。本土化切口：牵着翼龙逛菜市场 / 遛弯 / 接孩子放学，配中文旁白“它又跑丢了”；必须标注 AI 生成，不得冒充真实目击事件，谣言属性是红线。",
+      "category": "AI内容格式",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "content-radar-20261120-01",
+      "title": "[内容雷达 89分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试",
+      "summary": "仍是本期高分：11 月单条播放最高的趋势帖（3940 万）+ 趋势总计约 1.26 亿播放，一张照片 12 秒成本极低，圣诞窗口明确（至 12-25）。11-19 至 11-20 无新播放量数据（Jump on the Trend 圣诞页 11-19 更新仍列其为正在流行的圣诞剪辑之一）。本土化切口：中式圣诞树场景（商场圣诞树、家里小圣诞树）、情侣 / 闺蜜 / 母女版，睡衣换成中式家居服；别用真人原片冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "content-radar-20261120-02",
+      "title": "[内容雷达 88分] 巨浪 / Tidal Wave 海边大浪拍扁 — 值得低成本试",
+      "summary": "本期高分：11-13 原帖、11-17 当日新上榜，趋势总计约 5700 万播放，一张照片 13 秒成本极低。11-19 至 11-20 无新数据。本土化切口：台风天海边、钱塘江大潮、青岛栈桥 / 厦门海边栏杆，情侣或闺蜜双人版；别用真实灾害画面冒充，标注 AI 生成，注意海边拍摄安全提示。",
+      "category": "AI内容格式",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "content-radar-20261120-03",
+      "title": "[内容雷达 86分] 厄齐尔进球换脸 / Özil goal — 值得低成本试",
+      "summary": "oVideo 11 月榜单首位，一张照片 15 秒成本极低，换脸家族已被多模板站验证。oVideo 页面最后更新 11-12，11-19 至 11-20 无新动态。本土化切口：换成国足 / 中超名场面进球、野球场版、爷爷奶奶版；用自己的照片，别用他人肖像冒充，标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "content-radar-20261120-04",
+      "title": "[内容雷达 87分] 捉弄 AI 面试官 / AI 翻车实录 — 值得低成本试",
+      "summary": "海外 11 月刚集中爆发、国内热榜未见、成本几乎为零，仍是本期最值得试的新格式之一。11-19 至 11-20 无新进展。注意：这是半真人实拍格式，不是纯 AI 生成视频，胜负在提问设计而非模型。本土化切口：方言提问、面试 / 客服 / 相亲场景、让国产语音助手翻车；别编造 AI 没说过的话，录屏即证据。",
+      "category": "AI内容格式",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "content-radar-20261120-05",
+      "title": "[内容雷达 83分] AI 雪花球 / AI Snow Globe — 值得低成本试",
+      "summary": "圣诞季上升期新格式，一张照片 8–10 秒成本极低，可与雪人舞、精灵舞拼成圣诞系列一起发。本土化切口：全家福雪花球、宠物雪花球、城市地标微缩版；标注 AI 生成。",
+      "category": "AI内容格式",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "indie-20261120-00",
+      "title": "[新站 跟进] S.Space（s.space）— 团队与每个人的 AI 智能体共享工作空间：Claude Code、Codex 等跨厂商智能体同屋协作、共享记忆、互相交接工作，人…",
+      "summary": "PH 日榜第 1 + AutoGen 原班团队，“多人多智能体协作”概念新；注意官网目前仅等候页、产品仍在早期，且 X 首发播放未达百万级，热度主要靠 PH。另注：本雷达 11-16 至 11-19 四期均报“今日无新发现”，该站 PH 上线日为 11-15，系前几日猎取遗漏，本期按“首次进入本雷达去重库”补录。",
+      "category": "AI独立站",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "indie-20261120-01",
+      "title": "[新站 观望] Dippr（dippr.ai）— 给智能体的完整数据平台：一句话让智能体查询公司各系统数据、按权限管控、托管智能体建出的内部工具与应用。",
+      "summary": "PH 证据实、定价完整，但面向企业数据团队，个人创作者直接用不上，看的是“智能体 + 数据权限”模式；且周榜仅第 19，声量弱于同批前几名。另注：PH 上线日为 11-14，系前几日猎取遗漏，本期补录。",
+      "category": "AI独立站",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "indie-20261120-02",
+      "title": "[新站 跟进] RankSpot（rankspot.ai）— SEO 与 AI 搜索执行层：接 MCP 到 Claude/ChatGPT，智能体代写文章、发外链投稿、监测品牌在 A…",
+      "summary": "PH 日榜第 2、438 票，GEO/AEO 是当下明确需求；注意该站并非全新（第三方目录显示 2026 年 5 月已有上线记录，11-17 是其 PH 首发 / MCP 版重发），且第三方曾读到 $99/月单一定价，与现行按量价冲突，定价以官网为准。",
+      "category": "AI独立站",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "indie-20261120-03",
+      "title": "[新站 观望] TheBold（thebold.vc）— 早期创始人融资准备平台：看投资人公开标准、AI 每周复盘执行、投资人专属 AI 模拟面试，通过后直接约投资人会议。",
+      "summary": "PH 证据实，但本质是融资对接平台、AI 只是面试/复盘环节，价值取决于入驻投资人覆盖面（目前列出 46 家基金标准）；与内容创作者直接关系弱，看模式不直接套用。",
+      "category": "AI独立站",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-00",
+      "title": "Anthropic 上市首日：开盘 111.50 美元，收盘 97.17 美元（+17.07%）：Anthropic 1…",
+      "summary": "AI 实验室 IPO 的定价锚落地：首日冲高回落说明公开市场愿意为 Anthropic 付约 1.7–1.8 万亿美元完全稀释估值，但不接受开盘 2 万亿美元；这是 OpenAI 等后来者 IPO 的直接参照系；亚马逊/谷歌合计持股近 30% 加 260 亿美元私募配售，把云与芯片巨头绑成利益共同体",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-01",
+      "title": "Anthropic IPO 或为慈善输送 1560 亿美元（TechCrunch 估算）：TechCrunch 11 月…",
+      "summary": "AI 实验室第一次把“赚钱为谁服务”写进公开账本：约 20% 的股份被划给公益用途，AI 安全研究与有效利他主义机构（GiveWell、Longview 等）可能获得史上最大单笔资金池；对创业者而言，这意味着 AI 安全、劳动者转型、UBI 试验等方向未来几年会有真实的资助方，而不只是口号",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-02",
+      "title": "美国商务部批准 87.9 万枚 AI 芯片售华（众议院外委会披露）：众议院外交事务委员会 11 月 19 日公开商务部产…",
+      "summary": "AI 芯片出口管制第一次有了公开的数量账本：管制不是铁板一块，约四分之一的申请获批；中国头部云厂商与车企仍能拿到上一代旗舰算力，国内算力租赁与模型公司的竞争格局因此多了一个变量；同时披露本身（正值黄仁勋风波发酵期）说明芯片出口已成为美国国内政治议题，政策随时可能收紧",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-03",
+      "title": "Everful：A 轮 4850 万美元，AI Agent 做跨境采购，年底 ARR 有望 1 亿美元：连接中小零售商与…",
+      "summary": "B2B 采购 Agent 化的收入验证：不到 3 年做到 1 亿美元 ARR  run rate，说明“替中小卖家把采购全流程干完”比单纯撮合交易更值钱；美国取消 800 美元以下 de minimis 免税反而利好其“B2B 采购 + 本地销售”模式；对标阿里巴巴国际站与 Faire，差异化在“对结果负责”而非只提供交易场所",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-04",
+      "title": "联想 Q2 财报：营收 302.38 亿美元（+48%），AI 服务器营收 +361%：联想集团 11 月 19 日发布…",
+      "summary": "卖铲子的人赚到了真金白银：AI 服务器从“讲故事”变成联想最大的增长引擎，5300 亿元储备订单意味着未来几个季度的收入已经锁定；ISG 运营利润首破 10 亿美元，说明 AI 基建的规模效应开始兑现；对创业者而言，算力租赁与 AI 服务器分销的窗口仍在，但联想这种体量的玩家进场后，价格战会从 Token 打到硬件",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-05",
+      "title": "AWS：Agent 可用美元按次购买 Marketplace 产品（x402 接入账单）：AWS 11 月 19 日宣布…",
+      "summary": "Agent 经济的收银台正式开张：按次付费的工具与数据第一次有了企业级结算通道（预算上限 + 审批卖家名单 + 审计），Agent 自主采购从 demo 变成可上生产的功能；对工具与数据卖家而言，AWS Marketplace 多了一个“卖给 Agent”的分发渠道；对创业者而言，做 x402 工具的变现路径第一次清晰：上架 Marketplace，按次收费，AWS 代收",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-06",
+      "title": "Meta Muse 串号曝隐私风波，硬件 Muse Charm 定价 300 美元：路透 11 月 19 日报道（Tec…",
+      "summary": "Agent 越能干，信任成本越高：Muse 串号事件说明“跨应用调用 + 记忆”一旦串线就是隐私事故，权限隔离与审计将成为 Agent 产品的标配成本，也给第三方 Agent 安全与合规服务留出付费位置；硬件端 300 美元定价说明 Meta 要把 Muse 从应用变成随身设备，AI 穿戴的第二次冲锋开始，但 Humane Ai Pin 的前车之鉴仍在",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-20261120-07",
+      "title": "苹果招聘自研 AI Agent：可浏览网页、跨应用、写代码：Bloomberg 11 月 19 日报道：苹果招聘高级工程…",
+      "summary": "最后一家巨头正式入场通用 Agent：苹果的打法是“设备端 + 权限收紧”，与 Meta 的“全家桶调用”、谷歌的“云端全能”形成三条路线；对创业者而言，Mac 端 Agent 的权限合规（何时弹窗、如何沙箱）将成为绕不开的平台规则，提前适配者有先发优势；2027 年底的时间表意味着窗口还有约一年",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-opp-20261120-00",
+      "title": "[AI商业情报 机会 72分] Agent 技能包（Skills）商业化：把可复用的工作流做成可售卖的技能",
+      "summary": "GitHub Trending 日榜前 16 里 6 个与 Agent Skills 相关：Claude-BugHunter 日榜第 1（+1,349）、superpowers 第 2（+2,028，322,073 星）、last30days-skill 第 10（+954）、stitch-skills 第 11（+302）、diagram-design 第 9（+271）、app-store-compliance 第 12（+377）；技能正在成为 Agent 的新分发层，类似当年的 VS Code 插件与浏览器扩展",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-opp-20261120-01",
+      "title": "[AI商业情报 机会 68分] Agent 支付基础设施：给 Agent 卖按次付费的工具与数据",
+      "summary": "AWS 11 月 19 日把 AgentCore 支付接入 Marketplace：Agent 可用美元按次购买 x402 产品、结算进 AWS 账单，Tavily 首批卖家；官方示例单次 0.01 美元；Agent 自主采购从 demo 变成可上生产的功能，按次付费的工具市场第一次有了企业级收银台",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "ai-intel-opp-20261120-02",
+      "title": "[AI商业情报 机会 66分] 跨境 B2B 采购 Agent 化：替中小卖家把采购全流程干完",
+      "summary": "Everful A 轮 4850 万美元、年底 ARR 有望 1 亿美元（约 2.5 年从 0 起步），月发货 500 万件、3 万多家工厂伙伴；AI Agent 自动化追踪消费趋势、识别供应商、跨厂协调订单、管理物流；美国取消 800 美元以下 de minimis 免税反而利好“B2B 采购 + 本地销售”模式",
+      "category": "AI商业情报",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-00",
+      "title": "[GitHub雷达 94分] erkamyaman/rust-anything — 把整个应用逐块重写成 Rust，每块都对照原应用录制的行为做校验。",
+      "summary": "5176★ · 约 24h +1,822，今日全场最大增量；6h +321（约 +54/h）回落，P1 待确认保持关闭；创建仅 4 天，首破 5,000 星。 · 上手：按文档跑对照重写流程，需自备 Rust 工具链与录制环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-01",
+      "title": "[GitHub雷达 92分] storytold/craft-anything — 理解任何软件如何工作，再自己复刻一个。",
+      "summary": "38478★ · 约 24h +1,474；6h +253（约 +42/h）回落；P1 已报警；理解任意软件再复刻的范式，内容生成类可直接复用思路。 · 上手：开源即用，本地运行需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-02",
+      "title": "[GitHub雷达 92分] mdiri-ai/SoduWork — 面向团队与 agent 的 AI 原生引擎：多 harness、多 agent、自托管。",
+      "summary": "4196★ · 新增 P1 待确认：约 24h +1,307（连接器核实 2,889→4,196），ossradar 估计今日 +1.3k 一致；B 档最大增量。 · 上手：自托管部署，需自备模型与 agent 环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-03",
+      "title": "[GitHub雷达 93分] elementalsouls/Claude-BugHunter — Claude Code 漏洞猎手技能包：82 个 skills + 15 条斜杠命…",
+      "summary": "12509★ · 约 24h +1,151，P1 已确认；Trending 日榜第 1 位，今日 +1,349；安全类 skill 连续四日进 TOP10。 · 上手：按文档装入 Claude Code skills 目录即用，需自行承担授权合规责任。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-04",
+      "title": "[GitHub雷达 90分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "summary": "28182★ · 约 24h +999；P1 已确认；把 DeepSeek Harness 装进口袋，手机端场景独特。 · 上手：手机 App（Flutter），安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-05",
+      "title": "[GitHub雷达 91分] google-research/paper-orchestra — Google Research 多智能体框架：自动写 AI 研究论文，多智能体协作…",
+      "summary": "5026★ · 约 24h +752；P1 已确认；首破 5,000 星；Google Research 多智能体写论文框架。 · 上手：按文档部署，需自备模型 API。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-06",
+      "title": "[GitHub雷达 88分] dream-num/univer — AI 办公 SDK：把电子表格、文档、幻灯片放进自己的产品或 agent 流程。",
+      "summary": "30434★ · 约 24h +554；2022 年老仓沉寂后持续回升，AI 办公 SDK 场景明确。 · 上手：按文档把 SDK 接入产品或 agent 流程，需一定开发量。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-07",
+      "title": "[GitHub雷达 86分] libracoder/kiri — 免费开源 Docker Desktop / OrbStack 平替：小而快的容器运行时，兼容 docker CLI…",
+      "summary": "11250★ · 约 24h +469；免费开源容器运行时，Docker Desktop 平替，安装即用。 · 上手：下载安装包即可用，建议先在一次性项目试用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-08",
+      "title": "[GitHub雷达 85分] yetone/magpie — 每个 agent 的模型中枢：菜单栏里切换 Codex、Claude Code 的底层模型。",
+      "summary": "39052★ · 约 24h +441；每个 agent 的模型中枢，菜单栏切换底层模型，安装即用。 · 上手：菜单栏应用，下载安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-20261120-09",
+      "title": "[GitHub雷达 85分] NVIDIA/SkillEvaluator — 多层评估框架：给 AI agent 技能与插件做质量门禁与安全扫描。",
+      "summary": "4127★ · 约 24h +409；NVIDIA 出品的技能评估框架，带质量门禁与安全扫描，评估类工具稀缺。 · 上手：按文档跑评估流程，需自备评估环境。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-new-20261120-01",
+      "title": "[GitHub雷达 78分] Bodila51/gtavi-claudecode — Claude Code 插件：把 GTA 6 直播切成可变现的竖屏短视频：直播活动、热门视频、…",
+      "summary": "Claude Code 插件：把 GTA 6 直播切成可变现的竖屏短视频：直播活动、热门视频、最佳时刻 9:1。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-new-20261120-02",
+      "title": "[GitHub雷达 80分] chuanqisun/spaceship — 实时引导想法的工具。",
+      "summary": "实时引导想法的工具。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-new-20261120-03",
+      "title": "[GitHub雷达 77分] sourmitocand1987/VividFrame-GPU — 任意视频源、实时 GPU 画质增强管线：视频增强、HDR。",
+      "summary": "任意视频源、实时 GPU 画质增强管线：视频增强、HDR。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "repo-radar-new-20261120-04",
+      "title": "[GitHub雷达 78分] opencoredev/islandcn — 开源的 React 灵动岛组件，用 shadcn 安装即用。",
+      "summary": "开源的 React 灵动岛组件，用 shadcn 安装即用。",
+      "category": "GitHub早期爆款",
+      "date": "2026-11-20"
+    },
     {
       "id": "content-radar-20261119-00",
       "title": "[内容雷达 89分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试",

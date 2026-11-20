@@ -6,7 +6,39 @@
 <description>每天 0–5 个首次发现的新爆款 AI 独立站。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Sun, 15 Nov 2026 04:20:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 04:10:00 +0000</lastBuildDate>
+<item>
+<title>[新站 跟进] S.Space（s.space）— 团队与每个人的 AI 智能体共享工作空间：Claude Code、Codex 等跨厂商智能体同屋协作、共享记忆、互相交接工作，人…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-20.html</link>
+<guid isPermaLink="false">indie-20261120-00</guid>
+<pubDate>Fri, 20 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 1 + AutoGen 原班团队，“多人多智能体协作”概念新；注意官网目前仅等候页、产品仍在早期，且 X 首发播放未达百万级，热度主要靠 PH。另注：本雷达 11-16 至 11-19 四期均报“今日无新发现”，该站 PH 上线日为 11-15，系前几日猎取遗漏，本期按“首次进入本雷达去重库”补录。</description>
+</item>
+<item>
+<title>[新站 观望] Dippr（dippr.ai）— 给智能体的完整数据平台：一句话让智能体查询公司各系统数据、按权限管控、托管智能体建出的内部工具与应用。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-20.html</link>
+<guid isPermaLink="false">indie-20261120-01</guid>
+<pubDate>Fri, 20 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 证据实、定价完整，但面向企业数据团队，个人创作者直接用不上，看的是“智能体 + 数据权限”模式；且周榜仅第 19，声量弱于同批前几名。另注：PH 上线日为 11-14，系前几日猎取遗漏，本期补录。</description>
+</item>
+<item>
+<title>[新站 跟进] RankSpot（rankspot.ai）— SEO 与 AI 搜索执行层：接 MCP 到 Claude/ChatGPT，智能体代写文章、发外链投稿、监测品牌在 A…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-20.html</link>
+<guid isPermaLink="false">indie-20261120-02</guid>
+<pubDate>Fri, 20 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 2、438 票，GEO/AEO 是当下明确需求；注意该站并非全新（第三方目录显示 2026 年 5 月已有上线记录，11-17 是其 PH 首发 / MCP 版重发），且第三方曾读到 $99/月单一定价，与现行按量价冲突，定价以官网为准。</description>
+</item>
+<item>
+<title>[新站 观望] TheBold（thebold.vc）— 早期创始人融资准备平台：看投资人公开标准、AI 每周复盘执行、投资人专属 AI 模拟面试，通过后直接约投资人会议。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-20.html</link>
+<guid isPermaLink="false">indie-20261120-03</guid>
+<pubDate>Fri, 20 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 证据实，但本质是融资对接平台、AI 只是面试/复盘环节，价值取决于入驻投资人覆盖面（目前列出 46 家基金标准）；与内容创作者直接关系弱，看模式不直接套用。</description>
+</item>
 <item>
 <title>[新站 跟进] Alsona（alsona.com）— AI 智能体盯 32+ 购买意向信号（招聘、融资、技术栈变化、评论、播客提及等），按 ICP 评分后自动做个性化 Linke…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-15.html</link>
