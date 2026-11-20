@@ -1,238 +1,248 @@
 {
-  "column": "调研",
-  "entries": [
-    {
-      "date": "2026-10-28",
-      "file": "research/2026-10-28-ai-tandian-workbuddy.html",
-      "note": "原文原样上传，内容未改；时效数据（模型价格等）以原文标注的核查时间为准，使用前复核官方页面。",
-      "original_filename": "AI.html",
-      "source": "WorkBuddy",
-      "source_slug": "workbuddy",
-      "subtitle": "产业链、成本结构与实现路径",
-      "title": "AI 探店调研报告",
-      "trigger": "《证券时报》2026-10-26 A2 版报道"
-    },
-    {
-      "date": "2026-10-28",
-      "file": "research/2026-10-28-fuzhuang-ai-tandian-alder.html",
-      "note": "由 deep research 报告全文转换，内容、数据与链接保留原文，未删节；时效数据使用前复核官方页面。",
-      "source": "Alder",
-      "source_slug": "alder",
-      "subtitle": "行业全貌、算力比价与定位建议，另附采购清单与需求验证方案",
-      "title": "服装 AI 探店调研报告",
-      "trigger": "用户服装探店版提示词（主报告+追问1+追问2）"
-    },
-    {
-      "date": "2026-10-29",
-      "file": "research/2026-10-29-douyin-hotlist-muse.html",
-      "note": "Muse 用 muse-global-research skill 做的示范解读；抖音 49 条来自 SnailDev/douyin-hot-hub 2026-10-29 06:18 存档，昨日排名来自 2026-10-28 同源存档；源站不给热度值，本页无热度列。",
-      "source": "Muse",
-      "source_slug": "muse",
-      "subtitle": "2026-10-29 抖音热榜 49 条的昨日对比、分类结构、跨平台对照与起号落点",
-      "title": "抖音热点调研示范版",
-      "trigger": "用户要求用 muse-global-research skill 做一版 HTML 并放到 hub.html"
-    },
-    {
-      "date": "2026-10-29",
-      "file": "research/2026-10-29-ai-startup-creator-research-hub.html",
-      "note": "严格用 CCD-AIGC/research-hub-skill v1.1.0 跑的每日第一版；窗口 2026-10-23 至 2026-10-29，15 条去重链接、13 条 recent，状态 partial；RSS 14 订阅 0 命中，B站/微博/小红书/Reddit 未覆盖，报告内如实标缺口。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-10-30",
-      "file": "research/2026-10-30-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-10-24 至 2026-10-30，66 条去重链接，状态 partial；RSS 411 条、过滤后 55 条留存（泛词 AI 命中不计证据数）；结论多压在 4 篇百度渠道文章，国内引擎多报错，微信 1 条 0 留存，小红书登录墙，TikTok 仅美国近 7 天前 3 标签。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-01",
-      "file": "research/2026-11-01-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-10-26 至 2026-11-01，83 条去重链接（72 recent、10 unknown、1 observed-only），状态 partial；去重后直接相关 recent 记录 38 条；RSS 16 订阅留存 50 条为泛词 AI 的 OR 命中数，不计证据数；免费层构建时失败（B站实时热门 50 条主题命中 3、抖音存档 50 条主题命中 1）。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-02",
-      "file": "research/2026-11-02-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-10-27 至 2026-11-02，唯一 URL 61 条，状态 partial；RSS 16 订阅返回 411 项、保留 52 条，逐条筛选后核心 22 条、背景/反例 25 条；全部证据日期均为 recent，百度 6 条 recent/med 只作线索；免费层补充观察已含。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-03",
-      "file": "research/2026-11-03-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-10-28 至 2026-11-03，88 条唯一 URL，状态 partial；Agent 平台叙事居中但全轮无价格与订单记录，1200 万用户 AI 产品仍亏钱与 Etsy 收紧为反例，AEO 与 Agent 成本账为可验证选题方向；今日榜单版截至 09:52 CST 未发布，微博 / 小红书登录缺口，抖音 / 知乎 19 条日期未知只作线索。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-05",
-      "file": "research/2026-11-05-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-10-30 至 2026-11-05，101 条唯一 URL，状态 partial；Agent 能力扩张但 Uber / DoorDash 实际使用量极低、AI 写代码控制与兜底成本浮出、副业叙事供给远多于成交证据；今日榜单版拉取时 404 未发布、Reddit 403 阻断、微信 1 条 0 留存、抖音 / 知乎日期未知只作线索。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-06",
-      "file": "research/2026-11-06-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-10-31 至 2026-11-06，86 条唯一 URL，状态 partial；插件/Skill 成可落脚层、扣子画布退为视图，小红书 AI 点点转向判断型内容，副业叙事仍无可核查收款单；今日榜单版拉取时 404 未发布、抖音引擎报错、Reddit 403 阻断、微信 2 条 0 留存如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-07",
-      "file": "research/2026-11-07-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-01 至 2026-11-07，89 条唯一 URL，状态 partial；一人公司 / OPC 讨论集中、标题数字与真实播放倒挂，大厂办公智能体抢日活、AI 支出先刹车，AI 短剧起号遇质量争议且未进热榜；抖音 / 微博 / 小红书引擎失败、微信 2 条 0 留存、知乎 10 条日期未知如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-08",
-      "file": "research/2026-11-08-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-02 至 2026-11-08，67 条唯一 URL，状态 partial；AI 购物智能体实测价格是真的、推荐未必靠谱，灵光盯价跑赢问答；一人公司方法论与本地小模型继续膨胀但成交证据仍为零；Anthropic 估值下调、Ramp 支出停滞；抖音 / 微博 / 小红书 / 知乎引擎失败、B站引擎无结果、微信 3 条 0 留存、头条全文未读到如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-09",
-      "file": "research/2026-11-09-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-03 至 2026-11-09，97 条唯一 URL（70 条 recent），状态 partial；OPC 讨论“泼冷水”与“卖教程”同框，AI 短剧登上 B站实时热门第 1 但涨粉与亏损说法两极；腾讯元器今日停服、字节收缩三条线、ChatGPT 封号风波；小红书引擎失败、Reddit 403、抖音 / 微博 / 知乎 22 条日期未知、微信 0 留存如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-10",
-      "file": "research/2026-11-10-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-04 至 2026-11-10，80 条唯一 URL（70 条 recent），状态 partial；AI 长片登上 B站实时热门第 2 但“5 万元成本”未核实，Anthropic 冲刺 IPO 但估值预期降温，Agent 商业化卡在“付款之前”，独立开发者公开找业务；抖音 / 微博 / 小红书引擎失败、知乎 10 条日期未知、微信 0 留存如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-11",
-      "file": "research/2026-11-11-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-05 至 2026-11-11，68 条唯一 URL（66 条 recent），状态 partial；Anthropic IPO 数字落地但前九月净亏损 1040 亿美元，AI 长片实时热度回落、草根 AI 漫剧登上抖音存档热榜，Agent 竞争转向运行时，央视曝光 MCN 暴力起号虚假剧本；微博 / 小红书 / 知乎引擎失败、Reddit 403、微信 0 留存、百度 6 条线索如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-12",
-      "file": "research/2026-11-12-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-06 至 2026-11-12，78 条唯一 URL（全部 recent），状态 partial；Anthropic IPO 路演 643.5 亿美元、估值上限 1.405 万亿美元，美联航拒绝 AI 代订机票，CocoViral 2500 美元 Token 干 20 人活，AI 漫剧“营收超 300 万”标题未核实、AI 长片实时热度继续回落；抖音 / 微博 / 小红书 / 知乎引擎失败、Reddit 无结果、微信 0 留存、百度 7 条线索如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-13",
-      "file": "research/2026-11-13-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-07 至 2026-11-13，87 条唯一 URL（62 条 recent），状态 partial；打工人自付 AI 账单成“第二房租”，a16z 谈 B2A 经济、Agent 代办交易撞合规墙，AI 漫剧晚会阵容官宣、AI 短视频系列排名回落；小红书引擎失败、B站引擎 0 结果、Reddit 403、百度 7 条与知乎 10 条线索如实标出。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-14",
-      "file": "research/2026-11-14-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-08 至 2026-11-14，79 条唯一 URL（72 条 recent），状态 partial；黄仁勋辞职冲击 AI 创业融资，ChatGPT Wallet 让 agent 代购、LangChain 估值 30 亿美元，WorkBuddy/OPC 一人公司教程成 B 站小集群但标题收入数字均未核实，AI 漫剧晚会官宣抖音排名从第 7 滑至第 50；抖音 / 微博 / 小红书 / 知乎引擎失败、Reddit 403、微信 0 留存、百度 7 条全是英文“什么是 AI”定义页已剔除。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-15",
-      "file": "research/2026-11-15-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-09 至 2026-11-15，91 条唯一 URL（69 条 recent），状态 partial；黄仁勋辞职第二周：11.5 万人联署要求回任、韩国锁定 26 万颗 GPU，Agent 代打电话与 AI slop 工单同现，头条真实账单称 9 成人赚不回 AI 副业会员费，AI 短剧带货单条 1.3 万美金为作者自述，B站实时热门现“你要是用AI，我就取关”；抖音 / 微博 / 小红书引擎失败、知乎与 grounding 共 15 条 unknown 日期只作线索、Reddit 403、百度 7 条全是英文“什么是 AI”定义页已剔除。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-16",
-      "file": "research/2026-11-16-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-10 至 2026-11-16，88 条唯一 URL（62 条 recent），状态 partial；黄仁勋辞职第 4 天：盟友组“作战室”游说其回任、科技界预期硅谷东山再起，AI 小游戏点点合数 693 用户首日广告 2.5 元，300 万爆款视频流程拆解与 DeepSeek 全家桶 API 同现，Token 自由与 AI 系统治理成一人公司新基建；B站引擎本轮 0 返回、抖音 / 小红书引擎失败、Reddit 403、百度 10 条与知乎 10 条、grounding 5 条全部 unknown 日期只作线索。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-17",
-      "file": "research/2026-11-17-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-11 至 2026-11-17，76 条唯一 URL（53 条 recent），状态 partial；黄仁勋辞职第二周：叙事转向“没有黄仁勋的英伟达”，名字被 AI 赚钱标题征用；Corma 三个月估值 10 亿美元、刘燕翔离职做 AI 戒指、Tone 电话销售同现，Agent 工具一周 7 款新品与苹果加权限、加州起诉 OpenAI 同步收紧，小红书“拧巴”与短剧入口战；B站实时热门前 100 零 AI 命中、抖音当日存档未生成已用浏览器直访补位；B站引擎 0 返回、抖音 / 小红书引擎失败、Reddit 403、百度 10 条与知乎 9 条、grounding 5 条全部 unknown 日期只作线索。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-18",
-      "file": "research/2026-11-18-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-12 至 2026-11-18，76 条唯一 URL（53 条 recent），状态 partial；英伟达开源战略表态不变、财报窗口到，Anthropic IPO 定价日本轮无新证据；Agent 一周 8 款 PH 新品 + Pedestal 470 万美元、Daydream 购物 agent，哈佛研究说编码 agent 瓶颈移到 code review；Qwen4-Max 实测与从 0-1 复刻 3D 游戏、WorkBuddy 做微信小程序；Google AI 答案致搜索流量 -40%（单一来源未核实）；Genesis AI 5 亿美元 A 轮估值 35 亿美元；B站实时热门 2 条 AI 命中、抖音存档连续两日未生成已用浏览器直访补位；B站引擎 0 返回、抖音 / 小红书引擎失败、Reddit 403、百度 10 条与知乎 8 条、grounding 5 条全部 unknown 日期只作线索。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    },
-    {
-      "date": "2026-11-19",
-      "file": "research/2026-11-19-ai-startup-creator-research-hub.html",
-      "note": "严格用 research-hub v1.1.0；窗口 2026-11-13 至 2026-11-19，69 条唯一 URL（56 条 recent），状态 partial；Anthropic IPO 今日上市但本轮 0 提及、英伟达财报窗口静默；纳德拉一周三谈 agent、银行把 AI agent 被黑责任推回用户，Maritime 生产级 agent 云与 KPMG 审计试验同现；RockDesk、AI 小卖部同日上线，PH 一周 8 款新品；WorkBuddy 日活破千万、动线 Agent 称 GMV 峰值 +5% 与 token 成本 -60%、Hy4 flash 开源；头条“用AI赚1000万”0 赞 0 评论 1 阅读；B站实时热门 2 条 AI 命中、抖音存档连续三日未生成已用浏览器直访补位（前 20 条 0 命中）、小红书搜索直访失败（需登录）；B站引擎 0 返回、抖音 / 小红书 / 知乎引擎失败、Reddit 403、百度 7 条全是英文“什么是 AI”定义页且与主题无关、grounding 5 条全部 unknown 日期只作线索。",
-      "source": "Research Hub",
-      "source_slug": "research-hub",
-      "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
-      "title": "AI创业与内容起号调研",
-      "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-    }
-  ],
-  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
-  "updated": "2026-11-19"
+ "column": "调研",
+ "entries": [
+  {
+   "date": "2026-10-28",
+   "file": "research/2026-10-28-ai-tandian-workbuddy.html",
+   "note": "原文原样上传，内容未改；时效数据（模型价格等）以原文标注的核查时间为准，使用前复核官方页面。",
+   "original_filename": "AI.html",
+   "source": "WorkBuddy",
+   "source_slug": "workbuddy",
+   "subtitle": "产业链、成本结构与实现路径",
+   "title": "AI 探店调研报告",
+   "trigger": "《证券时报》2026-10-26 A2 版报道"
+  },
+  {
+   "date": "2026-10-28",
+   "file": "research/2026-10-28-fuzhuang-ai-tandian-alder.html",
+   "note": "由 deep research 报告全文转换，内容、数据与链接保留原文，未删节；时效数据使用前复核官方页面。",
+   "source": "Alder",
+   "source_slug": "alder",
+   "subtitle": "行业全貌、算力比价与定位建议，另附采购清单与需求验证方案",
+   "title": "服装 AI 探店调研报告",
+   "trigger": "用户服装探店版提示词（主报告+追问1+追问2）"
+  },
+  {
+   "date": "2026-10-29",
+   "file": "research/2026-10-29-douyin-hotlist-muse.html",
+   "note": "Muse 用 muse-global-research skill 做的示范解读；抖音 49 条来自 SnailDev/douyin-hot-hub 2026-10-29 06:18 存档，昨日排名来自 2026-10-28 同源存档；源站不给热度值，本页无热度列。",
+   "source": "Muse",
+   "source_slug": "muse",
+   "subtitle": "2026-10-29 抖音热榜 49 条的昨日对比、分类结构、跨平台对照与起号落点",
+   "title": "抖音热点调研示范版",
+   "trigger": "用户要求用 muse-global-research skill 做一版 HTML 并放到 hub.html"
+  },
+  {
+   "date": "2026-10-29",
+   "file": "research/2026-10-29-ai-startup-creator-research-hub.html",
+   "note": "严格用 CCD-AIGC/research-hub-skill v1.1.0 跑的每日第一版；窗口 2026-10-23 至 2026-10-29，15 条去重链接、13 条 recent，状态 partial；RSS 14 订阅 0 命中，B站/微博/小红书/Reddit 未覆盖，报告内如实标缺口。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-10-30",
+   "file": "research/2026-10-30-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-10-24 至 2026-10-30，66 条去重链接，状态 partial；RSS 411 条、过滤后 55 条留存（泛词 AI 命中不计证据数）；结论多压在 4 篇百度渠道文章，国内引擎多报错，微信 1 条 0 留存，小红书登录墙，TikTok 仅美国近 7 天前 3 标签。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-01",
+   "file": "research/2026-11-01-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-10-26 至 2026-11-01，83 条去重链接（72 recent、10 unknown、1 observed-only），状态 partial；去重后直接相关 recent 记录 38 条；RSS 16 订阅留存 50 条为泛词 AI 的 OR 命中数，不计证据数；免费层构建时失败（B站实时热门 50 条主题命中 3、抖音存档 50 条主题命中 1）。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-02",
+   "file": "research/2026-11-02-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-10-27 至 2026-11-02，唯一 URL 61 条，状态 partial；RSS 16 订阅返回 411 项、保留 52 条，逐条筛选后核心 22 条、背景/反例 25 条；全部证据日期均为 recent，百度 6 条 recent/med 只作线索；免费层补充观察已含。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-03",
+   "file": "research/2026-11-03-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-10-28 至 2026-11-03，88 条唯一 URL，状态 partial；Agent 平台叙事居中但全轮无价格与订单记录，1200 万用户 AI 产品仍亏钱与 Etsy 收紧为反例，AEO 与 Agent 成本账为可验证选题方向；今日榜单版截至 09:52 CST 未发布，微博 / 小红书登录缺口，抖音 / 知乎 19 条日期未知只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-05",
+   "file": "research/2026-11-05-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-10-30 至 2026-11-05，101 条唯一 URL，状态 partial；Agent 能力扩张但 Uber / DoorDash 实际使用量极低、AI 写代码控制与兜底成本浮出、副业叙事供给远多于成交证据；今日榜单版拉取时 404 未发布、Reddit 403 阻断、微信 1 条 0 留存、抖音 / 知乎日期未知只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-06",
+   "file": "research/2026-11-06-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-10-31 至 2026-11-06，86 条唯一 URL，状态 partial；插件/Skill 成可落脚层、扣子画布退为视图，小红书 AI 点点转向判断型内容，副业叙事仍无可核查收款单；今日榜单版拉取时 404 未发布、抖音引擎报错、Reddit 403 阻断、微信 2 条 0 留存如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-07",
+   "file": "research/2026-11-07-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-01 至 2026-11-07，89 条唯一 URL，状态 partial；一人公司 / OPC 讨论集中、标题数字与真实播放倒挂，大厂办公智能体抢日活、AI 支出先刹车，AI 短剧起号遇质量争议且未进热榜；抖音 / 微博 / 小红书引擎失败、微信 2 条 0 留存、知乎 10 条日期未知如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-08",
+   "file": "research/2026-11-08-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-02 至 2026-11-08，67 条唯一 URL，状态 partial；AI 购物智能体实测价格是真的、推荐未必靠谱，灵光盯价跑赢问答；一人公司方法论与本地小模型继续膨胀但成交证据仍为零；Anthropic 估值下调、Ramp 支出停滞；抖音 / 微博 / 小红书 / 知乎引擎失败、B站引擎无结果、微信 3 条 0 留存、头条全文未读到如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-09",
+   "file": "research/2026-11-09-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-03 至 2026-11-09，97 条唯一 URL（70 条 recent），状态 partial；OPC 讨论“泼冷水”与“卖教程”同框，AI 短剧登上 B站实时热门第 1 但涨粉与亏损说法两极；腾讯元器今日停服、字节收缩三条线、ChatGPT 封号风波；小红书引擎失败、Reddit 403、抖音 / 微博 / 知乎 22 条日期未知、微信 0 留存如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-10",
+   "file": "research/2026-11-10-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-04 至 2026-11-10，80 条唯一 URL（70 条 recent），状态 partial；AI 长片登上 B站实时热门第 2 但“5 万元成本”未核实，Anthropic 冲刺 IPO 但估值预期降温，Agent 商业化卡在“付款之前”，独立开发者公开找业务；抖音 / 微博 / 小红书引擎失败、知乎 10 条日期未知、微信 0 留存如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-11",
+   "file": "research/2026-11-11-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-05 至 2026-11-11，68 条唯一 URL（66 条 recent），状态 partial；Anthropic IPO 数字落地但前九月净亏损 1040 亿美元，AI 长片实时热度回落、草根 AI 漫剧登上抖音存档热榜，Agent 竞争转向运行时，央视曝光 MCN 暴力起号虚假剧本；微博 / 小红书 / 知乎引擎失败、Reddit 403、微信 0 留存、百度 6 条线索如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-12",
+   "file": "research/2026-11-12-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-06 至 2026-11-12，78 条唯一 URL（全部 recent），状态 partial；Anthropic IPO 路演 643.5 亿美元、估值上限 1.405 万亿美元，美联航拒绝 AI 代订机票，CocoViral 2500 美元 Token 干 20 人活，AI 漫剧“营收超 300 万”标题未核实、AI 长片实时热度继续回落；抖音 / 微博 / 小红书 / 知乎引擎失败、Reddit 无结果、微信 0 留存、百度 7 条线索如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-13",
+   "file": "research/2026-11-13-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-07 至 2026-11-13，87 条唯一 URL（62 条 recent），状态 partial；打工人自付 AI 账单成“第二房租”，a16z 谈 B2A 经济、Agent 代办交易撞合规墙，AI 漫剧晚会阵容官宣、AI 短视频系列排名回落；小红书引擎失败、B站引擎 0 结果、Reddit 403、百度 7 条与知乎 10 条线索如实标出。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-14",
+   "file": "research/2026-11-14-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-08 至 2026-11-14，79 条唯一 URL（72 条 recent），状态 partial；黄仁勋辞职冲击 AI 创业融资，ChatGPT Wallet 让 agent 代购、LangChain 估值 30 亿美元，WorkBuddy/OPC 一人公司教程成 B 站小集群但标题收入数字均未核实，AI 漫剧晚会官宣抖音排名从第 7 滑至第 50；抖音 / 微博 / 小红书 / 知乎引擎失败、Reddit 403、微信 0 留存、百度 7 条全是英文“什么是 AI”定义页已剔除。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-15",
+   "file": "research/2026-11-15-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-09 至 2026-11-15，91 条唯一 URL（69 条 recent），状态 partial；黄仁勋辞职第二周：11.5 万人联署要求回任、韩国锁定 26 万颗 GPU，Agent 代打电话与 AI slop 工单同现，头条真实账单称 9 成人赚不回 AI 副业会员费，AI 短剧带货单条 1.3 万美金为作者自述，B站实时热门现“你要是用AI，我就取关”；抖音 / 微博 / 小红书引擎失败、知乎与 grounding 共 15 条 unknown 日期只作线索、Reddit 403、百度 7 条全是英文“什么是 AI”定义页已剔除。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-16",
+   "file": "research/2026-11-16-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-10 至 2026-11-16，88 条唯一 URL（62 条 recent），状态 partial；黄仁勋辞职第 4 天：盟友组“作战室”游说其回任、科技界预期硅谷东山再起，AI 小游戏点点合数 693 用户首日广告 2.5 元，300 万爆款视频流程拆解与 DeepSeek 全家桶 API 同现，Token 自由与 AI 系统治理成一人公司新基建；B站引擎本轮 0 返回、抖音 / 小红书引擎失败、Reddit 403、百度 10 条与知乎 10 条、grounding 5 条全部 unknown 日期只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-17",
+   "file": "research/2026-11-17-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-11 至 2026-11-17，76 条唯一 URL（53 条 recent），状态 partial；黄仁勋辞职第二周：叙事转向“没有黄仁勋的英伟达”，名字被 AI 赚钱标题征用；Corma 三个月估值 10 亿美元、刘燕翔离职做 AI 戒指、Tone 电话销售同现，Agent 工具一周 7 款新品与苹果加权限、加州起诉 OpenAI 同步收紧，小红书“拧巴”与短剧入口战；B站实时热门前 100 零 AI 命中、抖音当日存档未生成已用浏览器直访补位；B站引擎 0 返回、抖音 / 小红书引擎失败、Reddit 403、百度 10 条与知乎 9 条、grounding 5 条全部 unknown 日期只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-18",
+   "file": "research/2026-11-18-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-12 至 2026-11-18，76 条唯一 URL（53 条 recent），状态 partial；英伟达开源战略表态不变、财报窗口到，Anthropic IPO 定价日本轮无新证据；Agent 一周 8 款 PH 新品 + Pedestal 470 万美元、Daydream 购物 agent，哈佛研究说编码 agent 瓶颈移到 code review；Qwen4-Max 实测与从 0-1 复刻 3D 游戏、WorkBuddy 做微信小程序；Google AI 答案致搜索流量 -40%（单一来源未核实）；Genesis AI 5 亿美元 A 轮估值 35 亿美元；B站实时热门 2 条 AI 命中、抖音存档连续两日未生成已用浏览器直访补位；B站引擎 0 返回、抖音 / 小红书引擎失败、Reddit 403、百度 10 条与知乎 8 条、grounding 5 条全部 unknown 日期只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-19",
+   "file": "research/2026-11-19-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-13 至 2026-11-19，69 条唯一 URL（56 条 recent），状态 partial；Anthropic IPO 今日上市但本轮 0 提及、英伟达财报窗口静默；纳德拉一周三谈 agent、银行把 AI agent 被黑责任推回用户，Maritime 生产级 agent 云与 KPMG 审计试验同现；RockDesk、AI 小卖部同日上线，PH 一周 8 款新品；WorkBuddy 日活破千万、动线 Agent 称 GMV 峰值 +5% 与 token 成本 -60%、Hy4 flash 开源；头条“用AI赚1000万”0 赞 0 评论 1 阅读；B站实时热门 2 条 AI 命中、抖音存档连续三日未生成已用浏览器直访补位（前 20 条 0 命中）、小红书搜索直访失败（需登录）；B站引擎 0 返回、抖音 / 小红书 / 知乎引擎失败、Reddit 403、百度 7 条全是英文“什么是 AI”定义页且与主题无关、grounding 5 条全部 unknown 日期只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-20",
+   "file": "research/2026-11-20-ai-startup-creator-research-hub.html",
+   "note": "严格用 research-hub v1.1.0；窗口 2026-11-14 至 2026-11-20，66 条唯一 URL（55 条 recent），状态 partial；Anthropic 上市首日终于有数（钛媒体：$83 定价、首日高开 34%、估值约 1.5 万亿美元）；Apple、Google、OpenAI 同日推 Mac / 手机 agent，Meta Muse 混淆对话同日报出；AI 视频进入成本战、床虱地图式爆火方法论；V2EX 上海 AI 初创讨论 + Podbox / 人生副本小程序，PH 8 款新品；头条“用AI赚1000万”仍是昨日同一条（0 赞 0 评论 2 阅读）；百度 10 条一人公司指南全是 unknown 日期只作线索；B站实时热门 4 条 AI 命中、抖音官方接口 50 条仅 1 条 AI 命中（财经辟谣）、抖音存档连续四日未生成、小红书浏览器直访失败（登录墙）、TikTok 创意中心美国近 7 天前 3 无 AI 命中；微博 / 知乎 / 小红书引擎失败、grounding 不可达。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  }
+ ],
+ "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
+ "updated": "2026-11-20"
 }
