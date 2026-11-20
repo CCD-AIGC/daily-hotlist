@@ -27,6 +27,12 @@ def views_text(views):
     return f"{views:,} 播放"
 
 
+def hot_text(hot):
+    if hot >= 10000:
+        return f"{hot / 10000:.1f}万热度"
+    return f"{hot:,} 热度"
+
+
 def source_rows(day):
     rows = []
     for s in day.get("sources", []):
@@ -66,6 +72,7 @@ def list_rows(items, with_views, prev_items=None):
         rank = it["rank"]
         rank_cls = "r1" if rank == 1 else "r2" if rank == 2 else "r3" if rank == 3 else "rn"
         views = f'<span class="views">{views_text(it["views"])}</span>' if with_views and "views" in it else ""
+        hot = f'<span class="views">热度 {hot_text(it["hot_value"])}</span>' if "hot_value" in it and it.get("hot_value") else ""
         badge = ""
         if prev is not None:
             if it["title"] not in prev:
@@ -82,7 +89,7 @@ def list_rows(items, with_views, prev_items=None):
                     badge = f'<span class="badge same">昨日第{old}位</span>'
         rows.append(
             f'<div class="row"><span class="rank {rank_cls}">{rank}</span>'
-            f'<span class="row-title">{esc(it["title"])}</span>{badge}{views}</div>'
+            f'<span class="row-title">{esc(it["title"])}</span>{badge}{views}{hot}</div>'
         )
     return "\n".join(rows)
 
@@ -187,6 +194,8 @@ def render(day, all_dates, prev_day=None):
         f'<a href="./archive/{d}.html">{d}</a>' for d in all_dates if d <= day["date"]
     )
     notes = "\n".join(f"<li>{esc(n)}</li>" for n in day.get("notes", []))
+    dy = day.get("douyin", [])
+    dy_sub = "标题 + 热度值" if any("hot_value" in it for it in dy) else "标题榜单，来源页未给热度值"
     summary = summary_section(day)
     summary_block = (summary + "\n") if summary else ""
     nav_summary = '<a href="#summary">今日总结</a>' if summary else ""
@@ -218,7 +227,7 @@ def render(day, all_dates, prev_day=None):
 <div class="card">
 {list_rows(day.get('bilibili', []), True, prev_day.get('bilibili') if prev_day else None)}
 </div></section>
-<section id="douyin"><h2>抖音热榜前 50<small>标题榜单，来源页未给热度值</small></h2>
+<section id="douyin"><h2>抖音热榜前 50<small>{dy_sub}</small></h2>
 <div class="card">
 {list_rows(day.get('douyin', []), False, prev_day.get('douyin') if prev_day else None)}
 </div></section>
