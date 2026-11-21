@@ -241,8 +241,18 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-21",
+   "file": "research/2026-11-21-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-15 至 2026-11-21，82 条唯一 URL（引擎标 recent 65 条，其中百度 9 条中置信日期只作线索；可用近期证据 56 条），状态 partial；一人公司退场文称死因不是技术、是没找买单人，麦肯锡称 32% 的企业不买软件了、上千个 AI 应用同年退场；ChatGPT 商家后台、Spaces 下放 Plus、微信小工具内测三处新入口同日；PH 8 款新品 + V2EX 3 个个人作品，20 款雷同清理 App 说明同质化；百度 9 条中置信日期只作线索，知乎 9 条自述收入数字未核实；B站实时热门 4 条 AI 命中且榜首即 AI 内容、抖音官方接口 48 条 0 命中、小红书浏览器直访连续三日失败（登录墙）、TikTok 创意中心视频榜 2 个创业主题命中；B站引擎 0 返回、抖音 / 小红书引擎失败、Reddit 403。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }
