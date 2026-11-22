@@ -1,6 +1,6 @@
 {
   "title": "CCD-AIGC daily-hotlist API 目录",
-  "updated_at": "2026-11-21T21:28:31+08:00",
+  "updated_at": "2026-11-22T21:28:25+08:00",
   "base": "https://ccd-aigc.github.io/daily-hotlist",
   "endpoints": {
     "feed": "feed.xml",
@@ -20,34 +20,34 @@
   },
   "series": {
     "ai-intel": {
-      "latest_data": "data/ai-intel-2026-11-21.json",
-      "latest_archive": "archive/ai-intel-2026-11-21.html",
-      "latest_date": "2026-11-21"
+      "latest_data": "data/ai-intel-2026-11-22.json",
+      "latest_archive": "archive/ai-intel-2026-11-22.html",
+      "latest_date": "2026-11-22"
     },
     "repo-radar": {
-      "latest_data": "data/repo-radar-2026-11-21.json",
-      "latest_archive": "archive/repo-radar-2026-11-21.html",
-      "latest_date": "2026-11-21"
+      "latest_data": "data/repo-radar-2026-11-22.json",
+      "latest_archive": "archive/repo-radar-2026-11-22.html",
+      "latest_date": "2026-11-22"
     },
     "content-radar": {
-      "latest_data": "data/content-radar-2026-11-21.json",
-      "latest_archive": "archive/content-radar-2026-11-21.html",
-      "latest_date": "2026-11-21"
+      "latest_data": "data/content-radar-2026-11-22.json",
+      "latest_archive": "archive/content-radar-2026-11-22.html",
+      "latest_date": "2026-11-22"
     },
     "ai-news": {
-      "latest_data": "data/ai-2026-11-21.json",
-      "latest_archive": "archive/ai-2026-11-21.html",
-      "latest_date": "2026-11-21"
+      "latest_data": "data/ai-2026-11-22.json",
+      "latest_archive": "archive/ai-2026-11-22.html",
+      "latest_date": "2026-11-22"
     },
     "hotlist": {
-      "latest_data": "data/2026-11-21.json",
-      "latest_archive": "archive/2026-11-21.html",
-      "latest_date": "2026-11-21"
+      "latest_data": "data/2026-11-22.json",
+      "latest_archive": "archive/2026-11-22.html",
+      "latest_date": "2026-11-22"
     },
     "tracker": {
-      "latest_data": "data/tracker-2026-11-20.json",
+      "latest_data": "data/tracker-2026-11-21.json",
       "latest_archive": "tracker.html",
-      "latest_date": "2026-11-20"
+      "latest_date": "2026-11-21"
     }
   },
   "note": "hotlist / tracker 是原始榜单，不进主源；这里只给原始 data 文件链接，不复制其内容。"

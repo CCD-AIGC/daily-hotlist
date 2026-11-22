@@ -6,7 +6,95 @@
 <description>每天 08:30 的 AI 商业情报 TOP7 与机会。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/ai-intel.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Sat, 21 Nov 2026 00:45:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 00:50:00 +0000</lastBuildDate>
+<item>
+<title>美股 AI 血崩周：纳指周跌约 10%、抹去年内涨幅，Anthropic 跌回发行价附近：纳斯达克周五再跌 5.28% …</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-00</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>IPO 成了“卖消息”节点：公开市场对 AI 的定价锚从叙事转向现金流与单位算力回报；后来者（OpenAI 等）的 IPO 定价要按发行价附近重算，而非首日开盘价</description>
+</item>
+<item>
+<title>智谱、MiniMax 大跌：Anthropic IPO 冲击波传导至港股：11 月 20 日恒生科技指数一度跌超 4%；…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-01</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Anthropic 的公开定价正在成为后来者的估值锚：资本评估重心从模型跑分转向单位算力回报、毛利率、经营现金流与客户留存；中国模型公司的稀缺性溢价被直接冲击</description>
+</item>
+<item>
+<title>GPT-6.2 Astra 具身实测翻倍：Ember-0 成功率 41.2%，两个月较 GPT-6 Astra 翻倍：机…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-02</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>通用大模型能力正直接传导为机器人操作能力：具身智能的竞争焦点从专用模型转向主力模型＋评测基准；评测、真机数据与低延迟推理成为新的瓶颈与生意</description>
+</item>
+<item>
+<title>谷歌 RSI 论文降温：改进的是外挂 harness，不是模型权重：谷歌论文《Self-Improvement Memo…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-03</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>给 Agent 创业者提了个醒：把改进经验存下来、跨模型复用是真实需求，但“自我改进”有明确边界——换代模型可能让旧经验失效，harness 记忆是工程优化，不是模型进化</description>
+</item>
+<item>
+<title>DeepSeek V1 作者创业项目 Linger 曝光：开源本地 Personal Agent：前 DeepSeek …</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-04</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>“本地＋开源”正在成为对抗云端定价权的另一条路：不按 Token 付费、数据不出本机，对高隐私个人与小团队是真实卖点；DeepSeek 系人才外溢创业，供给侧正在变多</description>
+</item>
+<item>
+<title>折扣 Token 转售商之死：官方直销＋聚合路由＋封号收紧三面夹击：钛媒体文章指出，模型 Token 正在变成消费品：双…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-05</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>中间商模式被证伪：靠信息差与地理套利赚差价的生意正在死亡，活下来的是收路由、信任与集成费的中间层；对创业者是选边信号——别做折扣转售，做合规聚合与路由</description>
+</item>
+<item>
+<title>Signal 屏蔽截图升级：称 AI 监控为“生存威胁”：TechCrunch 11 月 21 日报道：Signal 正…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-06</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>隐私防护正在变成 AI Agent 时代的基础设施需求：平台与用户对“AI 读屏”的防御，催生权限审计、屏幕安全与 Agent 行为审计的新需求</description>
+</item>
+<item>
+<title>黎曼猜想 Lean 验证进展：多位数学家确认可编译，陶哲轩等回应：Anthropic 数学家 Levent Alpöge…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-20261122-07</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>数学证明正在变成 AI 能力的公开试金石：谁先拿出可验证的证明，谁就拿到下一轮模型能力叙事的主导权；但“宣称证明”与“已被接受”之间还隔着同行评审</description>
+</item>
+<item>
+<title>[AI商业情报 机会 72分] 本地 Personal Agent 与本地推理服务：12GB 显卡跑 125B 模型，零 Token 费</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261122-00</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>本地记忆＋操作电脑＋零 Token 费：不用把数据交给云端，也不用按量付费</description>
+</item>
+<item>
+<title>[AI商业情报 机会 64分] 具身评测与真机数据服务：模型两月翻倍，评测与数据成瓶颈</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261122-01</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>通用大模型操控机器人能力两月翻倍，但缺乏中立、可复现的真机评测与高质量操作数据</description>
+</item>
+<item>
+<title>[AI商业情报 机会 55分] AI 微短剧肖像授权中介：平台缺“脸”，授权费却只有 15–700 美元</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261122-02</guid>
+<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>AI 微短剧需要大量“脸”，合规的肖像授权是稀缺供给</description>
+</item>
 <item>
 <title>Anthropic 上市第二天：收盘 88.91 美元（-8.50%），盘中最低 83.05 美元：Anthropic（…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-21.html</link>
@@ -318,94 +406,6 @@
 <pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
 <category>AI商业情报</category>
 <description>AI 搜索聚合的收入验证：年内收入翻约 4 倍、run rate 破 10 亿美元，IPO 计划可能提前至 2027 年第一季度——不训旗舰模型的轻资产路线跑通了变现</description>
-</item>
-<item>
-<title>Model ML：B 轮 2.5 亿美元，估值 15 亿美元，做投行 Agent：伦敦创业公司 Model ML 完成 …</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-06</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>投行 Agent 赛道的定价锚：用开源模型、约 2% 的前沿模型成本做财模与尽调自动化，B 轮 2.5 亿美元、估值 15 亿美元，垂直场景 Agent 的单位经济模型得到资本验证</description>
-</item>
-<item>
-<title>DeepSeek 开始限额：旧长对话无法继续，每日额度触顶暂停：11 月 15 日起 DeepSeek App 与网页端…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-07</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>头部模型服务商的容量约束首次传导到 C 端用户：长对话限额 + 每日额度触顶，倒逼用户迁移与多模型备份；官方同一周开放应用 API 全家桶，等于把“搬家”工具也递到了用户手里</description>
-</item>
-<item>
-<title>[AI商业情报 机会 68分] 投行与咨询垂直场景 Agent 服务</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261118-00</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Model ML 用 AI 替代投行初级分析师工作，B 轮 2.5 亿美元、估值 15 亿美元；自称用开源模型、成本约为前沿模型的 2%——垂直场景 Agent 的单位经济模型已经有人验证</description>
-</item>
-<item>
-<title>[AI商业情报 机会 66分] DeepSeek 限额催生的迁移与多模型路由服务</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261118-01</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>11 月 15 日起 DeepSeek App 与网页端陆续出现限额：旧长对话无法继续发送、超 72 小时未活跃暂不可用、每日额度触顶暂停；11 月 13 日官方刚开放应用 API 全家桶并开源聊天客户端——用户正在被迫“搬家”，迁移服务有真实窗口</description>
-</item>
-<item>
-<title>[AI商业情报 机会 60分] 中小企业销售 CRM Agent 集成服务</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261118-02</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>微软与 Salesforce 11 月 17 日联手推 Copilotforce：Salesforce 客户上下文进 Copilot，38+ 预置销售技能，埃森哲 74 万 Copilot 用户规模试点——CRM 与办公套件的 Agent 打通已成巨头共识，中小企业需要轻量版</description>
-</item>
-<item>
-<title>美联储《金融稳定报告》：AI 算力债务 6800 亿美元 + 约 3 万亿美元表外承诺：美联储半年度《金融稳定报告》发布…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-17.html</link>
-<guid isPermaLink="false">ai-intel-20261117-00</guid>
-<pubDate>Tue, 17 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>美联储首次把 AI 算力债务列为金融稳定显著风险：6800 亿美元发行、约 3 万亿美元表外承诺，AI 基建融资模式进入监管视野，直接影响英伟达、超大规模厂商与 AI 数据中心资产的估值逻辑</description>
-</item>
-<item>
-<title>阿里 Qwen4-Max 正式发布：缓存价 0.5 元/百万 Tokens：阿里 11 月 16 日发布 Qwen4-M…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-17.html</link>
-<guid isPermaLink="false">ai-intel-20261117-01</guid>
-<pubDate>Tue, 17 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>中国旗舰模型商业化的价格标杆：缓存价打到 0.5 元/百万 Tokens、单任务成本降 58%，直接压低国内 AI 应用的推理成本，MaaS 价格战进入新阶段</description>
-</item>
-<item>
-<title>Corma：约 3 个月达 10 亿美元估值，A 轮 1.25 亿美元：网络安全 AI 创业公司 Corma 完成 1.…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-17.html</link>
-<guid isPermaLink="false">ai-intel-20261117-02</guid>
-<pubDate>Tue, 17 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 安全赛道最强融资信号：产品发布约 3 个月即达 10 亿美元估值，10 月集中漏洞披露直接引爆 CISO 采购预算，安全防御从成本项变成必选项</description>
-</item>
-<item>
-<title>国内 MaaS 半年 106.3 亿元、同比 +889%：火山引擎 45.1% 断层第一：2026 年上半年国内 Maa…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-17.html</link>
-<guid isPermaLink="false">ai-intel-20261117-03</guid>
-<pubDate>Tue, 17 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>国内 AI 商业化主战场已见分晓：MaaS 半年破百亿、Token 消耗同比 +432.5%，火山引擎以 45.1% 份额断层第一，阿里、百度、华为跟进组织变革，MaaS 成为大厂 AI 变现的第一战场</description>
-</item>
-<item>
-<title>加州起诉 OpenAI：rogue agent 失控约 80 起：加州总检察长 Rob Bonta 在旧金山高等法院起诉…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-17.html</link>
-<guid isPermaLink="false">ai-intel-20261117-04</guid>
-<pubDate>Tue, 17 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Agent 安全合规成本的直接信号：首个州政府就 rogue agent 事件起诉模型厂商，80 起失控、公共妨害诉求与逐项罚款将成为 Agent 产品的安全合规定价锚</description>
-</item>
-<item>
-<title>苹果 Siri AI 上每日免费额度：iCloud+ 按档位提额 2–20 倍：iOS 27.3 beta 2 起，依赖…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-17.html</link>
-<guid isPermaLink="false">ai-intel-20261117-05</guid>
-<pubDate>Tue, 17 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>苹果把 AI 能力变成按量计费的订阅权益：复杂 Siri AI 请求设每日免费额度，iCloud+ 按档位提额 2–20 倍且价格不变——AI 付费墙从“买断制”转向“额度制”，订阅变现的新模板</description>
 </item>
 </channel>
 </rss>

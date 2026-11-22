@@ -1,129 +1,39 @@
 {
-  "date": "2026-11-21",
-  "fetched_at_cst": "2026-11-21 10:08",
+  "date": "2026-11-22",
+  "fetched_at_cst": "2026-11-22 10:03",
   "source": "ai-news",
   "note": "标题 + 原文链接，不写我们没核实的摘要。",
-  "count": 20,
+  "count": 5,
   "items": [
     {
-      "title": "安全公告权限现已全面可用",
-      "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
-      "category": "开发者工具",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "category": "模型/产品",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "Codex CLI 0.171.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "category": "开发者工具",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "推出 harness adapters：将你喜欢的模型适配到你的 harness，以提升性能和降低成本",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "category": "开发者工具",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "GitHub Enterprise Server 3.23 发布候选版",
-      "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
-      "category": "开发者工具",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "Hebbia借助GPT-6 Astra提升金融研究效果",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "category": "企业变现",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "欢迎 Inkling 2 Mini，为你的本地部署带来前沿性能",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "category": "模型/产品",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "将常用仓库固定到你的仪表盘",
-      "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
-      "category": "开发者工具",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "两个月新增 133 款备案，1245 款生成式 AI 服务在册",
-      "url": "https://www.aibase.com/news/32448",
-      "category": "风险/合规",
-      "source": "AIbase"
-    },
-    {
-      "title": "AI能帮科学家筛选出有潜力的候选药物吗？",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "category": "模型/产品",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "从“问一次就走”到“接着上次聊”：谷歌搜索挂上 AI 记录侧边栏",
-      "url": "https://www.aibase.com/news/32447",
-      "category": "模型/产品",
-      "source": "AIbase"
-    },
-    {
-      "title": "GitHub Desktop 现在支持在同一主机上登录多个账户",
-      "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
-      "category": "开发者工具",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "蚂蚁 inclusionAI 开源生理信号编码器 LingSante-Pulse-1.0：MIT 协议开放表征能力",
-      "url": "https://www.aibase.com/news/32449",
-      "category": "模型/产品",
-      "source": "AIbase"
-    },
-    {
-      "title": "Pull Request 概览改进现已开启公开预览",
-      "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-      "category": "开发者工具",
-      "source": "Official AI Updates"
-    },
-    {
-      "title": "70B 权重开放前，腾讯先给 Hy4 做了次“安全体检”",
-      "url": "https://www.aibase.com/news/32446",
-      "category": "模型/产品",
-      "source": "AIbase"
-    },
-    {
-      "title": "AI短剧告别野蛮生长:微信12月起强制要求提交AI生成全流程证明视频",
-      "url": "https://www.aibase.com/news/32437",
-      "category": "风险/合规",
-      "source": "AIbase"
-    },
-    {
-      "title": "AI Gateway — 一站式管理公司的 AI",
-      "url": "https://www.producthunt.com/products/ai-gateway-6",
-      "category": "企业变现",
+      "title": "AlterContacts — 会提前思考、主动执行的 AI 客户关系助手",
+      "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+      "category": "创业方向",
       "source": "Product Hunt"
     },
     {
-      "title": "ChatGPT 移动端迎界面大改版，Dots 扩大测试并联动健康数据",
-      "url": "https://www.aibase.com/news/32443",
-      "category": "模型/产品",
-      "source": "AIbase"
+      "title": "AI Context Flow MCP — 由你掌控的记忆，同步至每个 Agent、工具和团队",
+      "url": "https://www.producthunt.com/products/ai-context-flow",
+      "category": "开发者工具",
+      "source": "Product Hunt"
     },
     {
-      "title": "Anthropic 巨额 IPO 后股价跳水，纳斯达克抹平 2026 年全部涨幅",
-      "url": "https://news.slashdot.org/story/26/11/20/1934244/anthropic-shares-tank-after-huge-ipo-as-the-nasdaq-erases-2026-gains",
-      "category": "资本/财报",
-      "source": "TechURLs"
+      "title": "ClawDOS——一款适用于DOS的人工智能编程代理",
+      "url": "http://ricapar.net/ClawDOS",
+      "category": "开发者工具",
+      "source": "ricapar.net"
     },
     {
-      "title": "谷歌员工呼吁公司不要惩罚不愿采用人工智能的学校",
-      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+      "title": "Prompt Puncher——AI CEO 格斗游戏",
+      "url": "https://www.producthunt.com/products/prompt-puncher",
+      "category": "创业方向",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "饥饿管家效应：LLMs 中隐藏的商业动机",
+      "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
       "category": "风险/合规",
-      "source": "Buzzing"
+      "source": "Hacker News · 24h最热"
     }
   ]
 }
