@@ -251,8 +251,18 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-22",
+   "file": "research/2026-11-22-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-16 至 2026-11-22，85 条唯一 URL（引擎标 recent 51 条，其中百度 1 条中置信日期只作线索；可用近期证据 50 条），状态 partial；Agent 住进聊天框：Mingle 开源本地接微信 / 飞书 / Slack、TC 盘点短信 agent、Pandex 做欧洲 agent 法律；演员卖脸给微短剧，Kling Image 4.0 一句话出电商长图、Seedance Agent 让普通人做 AI 视频；黎曼猜想“证明”三方说法打架：B站标题称承认、TC 与钛媒体称待验证、微博热搜称难核验；PH 新 4 款 + V2EX 2 个免费开源个人工具，本轮唯一价格数字是 Gemini 黑五半价；B站实时热门 5 条 AI 命中（含 1 条“Fair”误命中）、抖音官方接口 49 条 0 命中、小红书浏览器直访连续第四日失败（登录墙）、TikTok 创意中心视频榜 2 个创业主题命中；B站引擎 0 返回、头条 0 返回、小红书引擎失败、Reddit 403、百度 8 条与知乎 10 条只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }
