@@ -1,39 +1,69 @@
 {
-  "date": "2026-11-22",
-  "fetched_at_cst": "2026-11-22 10:03",
+  "date": "2026-11-23",
+  "fetched_at_cst": "2026-11-23 10:11",
   "source": "ai-news",
   "note": "标题 + 原文链接，不写我们没核实的摘要。",
-  "count": 5,
+  "count": 10,
   "items": [
     {
-      "title": "AlterContacts — 会提前思考、主动执行的 AI 客户关系助手",
-      "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
-      "category": "创业方向",
-      "source": "Product Hunt"
+      "title": "Perplexity与智慧",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "category": "模型",
+      "source": "OpenAI News"
     },
     {
-      "title": "AI Context Flow MCP — 由你掌控的记忆，同步至每个 Agent、工具和团队",
-      "url": "https://www.producthunt.com/products/ai-context-flow",
+      "title": "Team is already preparing another big update, but how are things since yesterday’s update to the ChatGPT/Codex desktop app? What still requires attention and is not quite there? https://t.co/1X8M5JwL77",
+      "url": "https://x.com/thsottiaux/status/2124322968499282388",
+      "category": "产品",
+      "source": "Follow Builders · X · Thibault Sottiaux"
+    },
+    {
+      "title": "mjmirza/app-store-compliance — Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "url": "https://github.com/mjmirza/app-store-compliance",
       "category": "开发者工具",
-      "source": "Product Hunt"
+      "source": "GitHub Trending"
     },
     {
-      "title": "ClawDOS——一款适用于DOS的人工智能编程代理",
-      "url": "http://ricapar.net/ClawDOS",
-      "category": "开发者工具",
-      "source": "ricapar.net"
-    },
-    {
-      "title": "Prompt Puncher——AI CEO 格斗游戏",
-      "url": "https://www.producthunt.com/products/prompt-puncher",
+      "title": "Show HN: 我开发了一款游戏，在游戏中你将扮演一个大型语言模型（LLM）的子代理",
+      "url": "https://github.com/gulivan/worker755",
       "category": "创业方向",
-      "source": "Product Hunt"
+      "source": "github.com"
     },
     {
-      "title": "饥饿管家效应：LLMs 中隐藏的商业动机",
-      "url": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+      "title": "到2028年，Anthropic的电力将有87%来自天然气，11%来自煤炭",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
       "category": "风险/合规",
-      "source": "Hacker News · 24h最热"
+      "source": "betterdatacenterproject.com"
+    },
+    {
+      "title": "Inkling、Qwen 与 Unsloth：本地 AI 入门指南",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "category": "开发者工具",
+      "source": "Hacker News (黑客新闻)"
+    },
+    {
+      "title": "“有意识的人工智能”的神话",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+      "category": "模型",
+      "source": "www.noemamag.com"
+    },
+    {
+      "title": "推理提供商上的数据处理事件",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+      "category": "风险/合规",
+      "source": "openrouter.ai"
+    },
+    {
+      "title": "哈佛 CS 2881R：AI 安全",
+      "url": "https://boazbk.github.io/mltheoryseminar",
+      "category": "风险/合规",
+      "source": "Hacker News (黑客新闻)"
+    },
+    {
+      "title": "Muru – 由 mod_WSGI 作者打造的 AI 辅助 Rust 服务器，用于运行 Python 应用",
+      "url": "https://simonwillison.net/2026/Nov/21/muru",
+      "category": "开发者工具",
+      "source": "Hacker News (黑客新闻)"
     }
   ]
 }

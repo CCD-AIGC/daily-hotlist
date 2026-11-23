@@ -6,7 +6,47 @@
 <description>每天 0–5 个首次发现的新爆款 AI 独立站。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Sun, 22 Nov 2026 04:10:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 04:10:00 +0000</lastBuildDate>
+<item>
+<title>[新站 跟进] Yoroll（yoroll.ai）— 把故事变成可玩的电影级互动游戏：从剧本、图片或视频片段出发，AI 生成场景、分支剧情与多结局，无需游戏引擎即可发布；支持人脸与…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
+<guid isPermaLink="false">indie-20261123-00</guid>
+<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 1；AI 视频→可玩游戏是本雷达视频格式主线的下一步形态（互动视频），《奥德赛》140+ 场景是可验证的成品。注意：PH 产品页显示首次发布 2026-11-05，本次为日榜登顶而非首发；团队信息未核实。</description>
+</item>
+<item>
+<title>[新站 跟进] Rankhog（rankhog.com）— Reddit 获客 Agent：Radar 全天监视目标 subreddit，找正在问“买什么”的人、按购买意向打分、写…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
+<guid isPermaLink="false">indie-20261123-01</guid>
+<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 2；Reddit 意向获客是明确刚需，免费审计先验价值、$99/月定价透明，MCP 接入 Claude/ChatGPT/Cursor。注意：Reddit 自动化有封号风险，作者本人亦承认无法保证不被封；自动发帖务必先人工审阅。</description>
+</item>
+<item>
+<title>[新站 观望] Resurf（resurf.so）— Mac / iPhone / iPad 个人情境库：收藏笔记、链接、图片、PDF 与灵感，本地语义搜索与相似氛围发现，MCP/…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
+<guid isPermaLink="false">indie-20261123-02</guid>
+<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>2.0 是 9 月产品的重构再上线，非全新站；本地语义搜索 + MCP 接 AI 是真需求，但 Mac 限定、定价未核实；先观望 2.0 口碑。</description>
+</item>
+<item>
+<title>[新站 观望] Daymaker（daymaker.com）— AI 潜客礼品工具：研究潜客兴趣、推荐个性化礼品、用自家品牌重新包装并寄出，帮销售约到会议；也可全程代运营并保证会议…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
+<guid isPermaLink="false">indie-20261123-03</guid>
+<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>日榜第 4 但仅 3 条评论，声量弱；$100k 花费为创始人自述、未独立核实；礼品代发偏服务形态、定价未展示；先观望其后续口碑与真实转化。（创始人自述，未独立核实）</description>
+</item>
+<item>
+<title>[新站 跟进] oovi（oovi.conuron.com）— 桌面 AI 团队：一句话交办任务，组长 Bot 规划并分给研究员、写手、评审等专员执行，过程可视；对外动作（发邮件、…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
+<guid isPermaLink="false">indie-20261123-04</guid>
+<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 5；单人开发者、自带 Key 免费 + 本地优先是明确差异化，$10/月内置模型定价透明；多智能体分工（组长规划、研究员、写手、评审）是当下明确需求，Telegram 远程指挥是加分项。</description>
+</item>
 <item>
 <title>[新站 跟进] AlterContacts（altercontacts.ai）— 语音优先的 AI 客户关系助手：会后语音记录自动归档到对应客户、更新画像、提醒续约与个人里程碑，早…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>

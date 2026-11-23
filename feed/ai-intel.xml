@@ -6,7 +6,95 @@
 <description>每天 08:30 的 AI 商业情报 TOP7 与机会。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/ai-intel.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Sun, 22 Nov 2026 00:50:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 00:33:00 +0000</lastBuildDate>
+<item>
+<title>Anthropic 期权今日上市，股价逼近发行价：Cboe 11 月 20 日预告确认：ANT 期权 11 月 23 日…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-00</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>期权上市首日将成为 AI 龙头真实价格发现的试金石：绿鞋耗尽、隐含波动率 100–150%，后来者（OpenAI 等）的 IPO 定价与期权策略要按这个波动区间重算</description>
+</item>
+<item>
+<title>美国五大银行联手封堵第三方 AI Agent：WIRED 11 月 22 日报道：富国银行新客户协议 11 月 24 日…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-01</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>第三方 Agent 的“凭证登录”路径被系统性堵死，合规的官方 MCP 接入成了唯一出路：Agent 创业者的合规成本陡增，但做合规接入层的机会也随之出现</description>
+</item>
+<item>
+<title>亚马逊洽购以色列推理优化公司 Decart，约 75 亿美元：FT 11 月 21 日报道：亚马逊洽购 Decart 已…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-02</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>推理效率软件是 AWS 对抗英伟达的关键棋：谁能让模型跑得更便宜、释放芯片容量，谁就值钱；Decart 半年内估值从约 40 亿美元涨至约 75 亿美元，说明 hyperscaler 正在为这条线付并购价</description>
+</item>
+<item>
+<title>AI 扩张的物理代价：Anthropic 耗电估算引爆，花旗上调基建预测至 2.8 万亿美元：Better Data C…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-03</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>AI 扩张的物理代价正在变成定价因素：耗电结构与碳排放会被放进模型公司的估值模型，而数据中心的地方阻力已经影响到中期选举；基建支出的上调则说明 hyperscaler 还在加码，两股力量对冲</description>
+</item>
+<item>
+<title>Claude 黎曼证明获 Lean 联合认证，人工证明现裂缝：Lean FRO 与 Mathlib 11 月 21 日联…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-04</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>数学证明正在变成 AI 能力的公开试金石：谁先拿出可验证的证明，谁就拿到下一轮模型能力叙事的主导权；Lean 形式化验证正在成为 AI 数学能力的标准考场，做验证工具与形式化服务的团队会受益</description>
+</item>
+<item>
+<title>OpenAI 首席科学家提议按困惑度给全行业限速：OpenAI 首席科学家 Jakub Pachocki 11 月 22…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-05</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>行业自我限速一旦落地，会直接改变模型公司的发布节奏与算力采购计划：能力阈值变成可交易的合规指标，做监测与评估工具的团队会先受益</description>
+</item>
+<item>
+<title>Etsy AI 训练条款逼走老卖家：关店抗议潮：Etsy 新条款 10 月 26 日发布、12 月 16 日生效：第 5…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-06</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>平台用条款拿走创作者内容的 AI 训练权，正在变成创作者经济的结构性冲突：卖家用关店投票，平台被迫承诺修订条款——做创作者数据确权与授权交易的团队会看到机会，但平台条款随时可改，风险同样高</description>
+</item>
+<item>
+<title>World Labs 82 亿美元交割完成，李飞飞入主 AMD：AMD 11 月 16 日宣布完成对 World Lab…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-20261123-07</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>世界模型＋机器人仿真成了 AMD 对抗英伟达的新故事：46 天闪电完成 82 亿美元全股票收购，李飞飞直接向苏姿丰汇报，模型公司的退出路径又多了一条——卖给芯片厂商</description>
+</item>
+<item>
+<title>[AI商业情报 机会 72分] 银行合规 Agent 接入：五大行堵死凭证登录，官方 MCP 接入成唯一出路</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261123-00</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>五大行集中改条款，把第三方 Agent 的操作风险转给用户：用客户账号密码登录的 Agent 路径被系统性堵死，但用户对“Agent 帮我处理银行事”的需求没消失</description>
+</item>
+<item>
+<title>[AI商业情报 机会 68分] 推理效率与“免 Key 用前沿模型”工具层：Decart 被洽购，dsh 插件 8.4 万星</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261123-01</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>亚马逊洽购 Decart 印证推理效率值钱；dsh 插件 8.4 万星说明“免 Key 用前沿模型”是真实需求，但免费额度随时可能变，工具层要跟着变</description>
+</item>
+<item>
+<title>[AI商业情报 机会 66分] AI 安全红队技能包与自主渗透测试：Agent 写代码越快，审代码的生意越好</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261123-02</guid>
+<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Agent 写代码越快，代码里的安全漏洞就越多：Claude-BugHunter 两日涨超 3,500 星、ARTEX 七日涨 1.2 万星，说明市场在为“AI 审 AI”付费</description>
+</item>
 <item>
 <title>美股 AI 血崩周：纳指周跌约 10%、抹去年内涨幅，Anthropic 跌回发行价附近：纳斯达克周五再跌 5.28% …</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
@@ -318,94 +406,6 @@
 <pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
 <category>AI商业情报</category>
 <description>Agent 代管钱的责任缺口正式成为商业变量：银行用条款把风险推回用户，等于给“只读 Agent + 第三方审计 + 责任险”留出了付费位置；金融 Agent 创业者不解决责任问题，就接不到银行数据</description>
-</item>
-<item>
-<title>Unsiloed AI：种子轮 750 万美元，1 美分/页做企业文档解析：企业文档解析创业公司 Unsiloed AI…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-06</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>企业文档 Agent 化的最后一公里有了定价锚：1 美分/页，把“旧文档变结构化数据”做成可按量计费的服务；7 人团队拿 750 万美元种子轮，说明资本认为文档解析仍是 Agent 落地绕不过的环节</description>
-</item>
-<item>
-<title>OpenAI 给 GPT-6.2 Astra 加后台折扣：8 小时窗口 6 折：OpenAI 官方价目页：GPT-6.2…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-07</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>OpenAI 与谷歌同日把“等得起的任务”单独定价：后台窗口与 Batch 让长耗时 Agent 任务的成本再降 30%–50%，夜间批处理成为 Agent 产品降本的标准动作；创业者做 Agent 要把任务分“实时”与“可等待”两档报价</description>
-</item>
-<item>
-<title>[AI商业情报 机会 72分] 垂直场景机器人操作数据服务</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261119-00</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Humyn Labs 4–10 月收入 1000 万美元、已签 2000 万美元合同，12 个付费客户；Genesis 5 亿美元 A 轮、估值 35 亿美元；浙大+宇树开源 500 万条机器人预训练数据——具身智能的数据需求侧在放大，供给侧缺口真实存在</description>
-</item>
-<item>
-<title>[AI商业情报 机会 66分] 垂直行业文档 Agent 化实施服务</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261119-01</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Unsiloed 获 750 万美元种子轮（Felicis 领投、YC 参投），定价 1 美分/页；企业文档里的表格与图表是 Agent 落地的最后一公里——文档不结构化，Agent 就接不上业务</description>
-</item>
-<item>
-<title>[AI商业情报 机会 60分] AI Agent 金融责任审计与风控服务</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261119-02</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>花旗本周改用户协议：第三方 AI 工具出任何问题（包括被黑）都由用户负责；摩根大通、美银上月已改，PNC 今日跟进——Agent 代管钱的责任缺口正式出现，审计、限额与保险服务有了付费理由</description>
-</item>
-<item>
-<title>英伟达 Q3 收入 1158 亿美元（+103%），Q4 指引 1300 亿美元：英伟达发布 2027 财年 Q3 财报…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-00</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 基建需求叙事的最强验证：Q3 收入超指引 78 亿美元、Q4 指引再上台阶，FY28 增速预期上调；但 SEC 调查与黄仁勋离职余波并存，需求验证与治理风险同时定价</description>
-</item>
-<item>
-<title>OpenAI 发布 GPT-6.2 Astra 与 Sol：API 降价 20%：OpenAI 11 月 17 日发布 …</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-01</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>旗舰模型竞争从跑分转向单位任务成本：Astra 以更低价格在法律与科学长程任务上大幅领先 Claude Fable 5.2，直接压低 Agent 工作流的推理成本，倒逼竞品跟进降价</description>
-</item>
-<item>
-<title>Anthropic 今日定价：亚马逊持股 14.7%、谷歌 13.7%：Anthropic IPO 定价日为 11 月 …</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-02</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 实验室 IPO 的定价锚：云厂商以股东身份深度绑定，亚马逊与谷歌合计持股近 30%，260 亿美元私募配售把七大芯片与云巨头变成利益共同体；最终发行价是明日验证点</description>
-</item>
-<item>
-<title>AMD 完成收购 World Labs：82 亿美元，李飞飞任执行副总裁兼首席科学家：AMD 11 月 16 日宣布完成…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-03</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AMD 用 82 亿美元买下世界模型能力，李飞飞进入核心管理层：芯片竞争从算力参数转向“硬件 + 前沿模型”联合优化，物理 AI 成为 AMD 对抗英伟达的主战场</description>
-</item>
-<item>
-<title>Mirendil：A 轮 10 亿美元，累计 12 亿美元，估值约 50 亿美元：美国大模型独角兽 Mirendil（押…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-04</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>递归自我改进（RSI）赛道最大单笔融资：前 Anthropic 团队 5 个月累计 12 亿美元，谷歌与英伟达分投两轮，AI 研发自动化从概念进入资本密集验证期</description>
-</item>
-<item>
-<title>Perplexity：年化收入 run rate 超 10 亿美元，IPO 可能提前至 2027 年第一季度：Perpl…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-18.html</link>
-<guid isPermaLink="false">ai-intel-20261118-05</guid>
-<pubDate>Wed, 18 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 搜索聚合的收入验证：年内收入翻约 4 倍、run rate 破 10 亿美元，IPO 计划可能提前至 2027 年第一季度——不训旗舰模型的轻资产路线跑通了变现</description>
 </item>
 </channel>
 </rss>
