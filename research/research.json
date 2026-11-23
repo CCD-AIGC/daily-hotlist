@@ -261,8 +261,18 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-23",
+   "file": "research/2026-11-23-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-17 至 2026-11-23，67 条唯一 URL（引擎标 recent 55 条），状态 partial；“一人公司”月入 200 万只是头条的提问，知乎 10 条收入自述全部 unknown 日期、未核实；微信 AI 小微日活超 3000 万、30+ 入口，嘉琛判 To C 个人 Agent 太卷；普通人给自己做的工具（叉车装箱、配光换算、Abaqus MCP）是本周最扎实的一人公司证据；数据公司估值 20–25 亿美元、一条行为轨迹数据报价 1000–3000 元，但那是 B 端采购价；PH 新 8 款；B 站实时热门 2 条 AI 命中、抖音官方接口 49 条 1 命中，两端热榜均无副业主题命中；小红书浏览器直访连续第五日失败（登录墙）、TikTok 仅见美国前 3 话题且无 AI 相关；B 站引擎 0 返回、grounding 不可达、百度 1 条与知乎 10 条只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-22"
+ "updated": "2026-11-23"
 }
