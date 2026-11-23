@@ -1,0 +1,443 @@
+{
+  "date": "2026-11-23",
+  "generated_at_cst": "2026-11-23 08:35",
+  "archive_note": "本版快照LK=2026-11-23 08:00 CST（连接器核实30仓）+ 本版直接核实11次调用；约24小时增量 = 本版核实 − 昨日版（2026-11-22 08:40），口径一致的30仓；fast-anything / raea / phonebox / WinRust / FreeVideo等用LI轮2026-11-22 20:00快照基线（约12小时窗口，表中注明）；Leonida / Xbox2Windows / xbox-emulator用本版新仓分片值（约08:30）复核LK值。池子状态（本版后）：热池31个、温池69个、冷池0个，共100个；新入池1个（EL4CTEO/fast-anything→热池）；降级1个（mdiri-ai/SoduWork热池→温池，24小时无加速，+25/h→+2/h）；移出1个（bookwjitchieni1986/blender-ai-mcp-addon，P2观察关闭，记录保留，带“曾触发”标记）；INK-Q/agy-fast P2记库，入池暂缓（池满100，待下轮小时监测执行入池淘汰）。裁决：新增P0 0个、新增P1已确认0个（fast-anything已于今日08:00确认并报警）、新增P1待确认0个、新增P2 1个（agy-fast）；rust-anything / linger / neonclipping / FreeVideo P1待确认保持关闭。跨系统信号：今日B站热榜6条GTA 6相关视频（第5/12/17/21/24/45位），抖音未见GTA关键词。krisgfx9/Wireless-Device-Battery-Monitor搜索两次total=0，仓库页可达，索引滞后未删除，留池续观，无本轮差分，快照留LJ值6,116星。",
+  "channel_health": {
+    "github_search": "本版新仓分片 total 506（查询 created:>2026-11-16 stars:>300，与LK轮无星数过滤的1,719口径不同，不可直接比较）：ItsNotRexed/Leonida 14,952星（LK 14,828，半小时内+124）、EL4CTEO/fast-anything 1,887星、omonkeyz/xbox-emulator 1,313星、R0Y00/Xbox2Windows 1,304星、Lemxy/WinRust 1,231星、iamajmeena/neonclipping 2,094星、bookwjitchieni1986/blender-ai-mcp-addon 2,746星；新面孔 realdody/americas-recomp 509星（GTA Americas重编译，无描述，fork率约16.3%，单快照）、ItsNotRexed/Hookshot 414星（Leonida同作者，Switch 2塞尔达OoT重制版重编译，fork率约2.4%，单快照）、INK-Q/agy-fast 513星（P2新立）；nataphong-lab/Open-Source-Face-Recognition-Ultimate 611星（fork率约82%异常，排除）、replit/datacat 557星（自托管可观测性，非AI核心）、CocoSgt/riemann-hypothesis-lean 512星（黎曼猜想Lean证明镜像，列线索）；0marContreras/gta6recomp、Bodila51/gtavi-claudecode连续八轮搜索缺席（total=0），仓库页仍可达，搜索索引滞后未恢复，列线索。",
+    "hacker_news": "fast-anything触发源复核：HN帖《Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow》172分（18小时前，GitNova转引）+ GitNova爆发度8.7/10 + BlackWire 11-22报道，为LK轮已记独立传播证据，本版未找到新的HN/X引爆帖；Leonida .exe定于今日周一放出尚未发生，关注是否放出及第二波。",
+    "ossradar": "数据版未刷新（仍为2026-11-22 21:52:36Z版，与LK轮相同）；第1位EL4CTEO/fast-anything（+1.4k*估算值）、第2位morluto/rea +1,238实测、第3位BaaRai/ARTEX +1,044（估算值*）、第4位shinyobjectz/raea +1,042实测、第5位stablyai/orca +954实测；INK-Q/agy-fast第44位+242实测、7d +492；heydamir/unslop 7d +3,486、Lee-xeo/Claude-Cage 7d +1,960（均为实测）；Leonida未入前100（ossradar未追踪）。",
+    "star_history": "持续不可用：本版未调用、不编造基线；24h增量以自有连续快照+连接器核实为准；LoopForge / kitesurf / ANR的3倍中位均未证实，P2不触发。",
+    "trending": "可用：本版curl直取成功（200），16篇，与LK轮完全相同，无新面孔：elementalsouls/Claude-BugHunter第1位今日+1,716、obra/superpowers第2位+788、HKUDS/CLI-Anything第3位+699、jingyaogong/minimind第4位+473、firecrawl/firecrawl第6位+915、mvanhorn/last30days-skill第10位+668、google-labs-code/stitch-skills第11位+494、Tracer-Cloud/opensre第13位+399、toeverything/AFFiNE第14位+542、XiaoYouChR/Ghost-Downloader-3第15位+701、zhouxiaoka/autoclip第16位+641。",
+    "vendor_release": "本版org:openai自2026-11-01起新仓仍仅auth-javascript 1个（2星），无新仓发布；LK轮org:google自2026-11-01起新仓仍为4个，无新仓发布；下轮轮换org:deepseek-ai。"
+  },
+  "levels_today": {
+    "p0_new": "无新增P0。ItsNotRexed/Leonida约24h +9,620（滚动24h LG 5,107→本版14,952为+9,845），仍<10,000线；速率自+505/h峰值回落（LK轮约+373/h，本版半小时内+124约+248/h）；P0已于今日02:00报警，不重复报警；.exe定于今日放出尚未发生，若放出引发第二波且单日破10,000可再议P0/再报。",
+    "p1_pending": "新增P1已确认0个（EL4CTEO/fast-anything已于今日08:00 LK轮确认并报警，本版记为今日已确认，不重复报警）。新增P1待确认0个。erkamyaman/rust-anything保持关闭（+112/约6.0h，约+19/h，远低于+110/h重立线）。simplexai-labs/linger保持关闭（+62/约6.0h，约+10/h，远低于+100/h重立线）。iamajmeena/neonclipping保持关闭（+51/约6.0h，约+9/h，远低于+60/h重立线）。FlashML-org/FreeVideo保持关闭（+48/约6.0h，约+8/h）。",
+    "p2_triggered": [
+      "新增P2 1个：INK-Q/agy-fast（LK轮已立，本版连接器复核513星；新仓分片506→513，ossradar第44位24h +242实测、7d +492，fork率约6.6%健康；Google Antigravity MCP加速器，分类MCP/协议与工具；入池暂缓——池满100，待下轮小时监测执行入池淘汰）。",
+      "P2保持4个：R0Y00/Xbox2Windows（约24h +381）、omonkeyz/xbox-emulator（约24h +551）、sybil-solutions/inference-optimisation-skill（约24h +311）、Lemxy/WinRust（约12h +206，LI 1,025→1,231），均低于重立线。",
+      "P2观察关闭1个：bookwjitchieni1986/blender-ai-mcp-addon（+2/约6.0h，约+0/h，七轮增速+12→+30→+46→+53→+11→+1→+0/h，动量熄火；描述与hitkeeen原版完全相同，疑似复刻/镜像判断不变；移出池子，记录保留，带“曾触发”标记）。",
+      "慢燃7d：heydamir/unslop +3,486、Lee-xeo/Claude-Cage +1,960（ossradar API，数据版2026-11-22 21:52 UTC，均为实测），距C档5,000线分别>1,514、>3,040，慢燃P2均不触发；libracoder/kiri 7d +6,088越C档线但其P1已确认，不重复定级。",
+      "cloudflare/kitesurf、apex-compute/ANR已于昨日移出池子，本版不复核。"
+    ]
+  },
+  "method": {
+    "note": "本版快照窗口约24小时（2026-11-22 08:40 → 2026-11-23 约08:30 CST）；连接器核实：LK轮08:00核实30仓（本版复用，30分钟前）+ 本版直接调用11次（新仓分片2次、org:openai、Hookshot、americas-recomp、agy-fast、superpowers、CLI-Anything、firecrawl、minimind、dsh-Go），共41仓有今日核实值；约24小时增量 = 本版核实 − 昨日版（2026-11-22 08:40），口径一致的30仓；fast-anything / raea / phonebox / WinRust / FreeVideo等用LI轮2026-11-22 20:00快照基线（约12小时窗口，表中注明）；P1/P0的1小时/6小时规则按约6小时窗口增速判断是否为pace，不当作已测得的1小时增量。Star History API持续不可用，本版未调用、不编造基线。评分三维度：增速40 / 能用度30 / 新颖度30。",
+    "thresholds_v1_revised": [
+      "P2 早期异常：24h 新增 ≥30 且为前 24h 的 3 倍以上，且累计 ≥100；或 6h 新增 ≥15 且明显加速；或老仓库复活规则（年龄 >90 天且 pushed_at 在 7 天内且 24h 新增 ≥30 且为前 24h 的 3 倍以上）。",
+      "P1 可能即将爆红：6h 新增 ≥50 且明显加速；或 24h 新增 ≥80 且为前 24h 的 5 倍以上；或 24h 新增 ≥150 且连续两日加速。推送前须二次确认（连续两个采样周期加速，或叠加一个独立传播证据）。",
+      "P0 爆红确认：1h 新增 ≥100；或 6h 新增 ≥150；或 24h 新增 ≥500 且持续加速。",
+      "分档阈值（v3 增长池）：A 档（20–500 星）24h≥30 且为自身中位 3 倍以上 → P2；B 档（500–5k）24h≥100 且 3 倍以上 → P2，24h≥300 → P1 待确认；C 档（5k–50k）24h≥500 → P1 待确认；D 档（50k+）只作已爆红对照。",
+      "慢燃规则（v5）：7 天累计增量分档（A ≥150 / B ≥500 / C ≥5,000 / D ≥20,000）→ P2，无单日爆点也可定级。",
+      "母舰/生态快车道（v5）：P0 母舰出现后，其关键词/前缀新仓入池门槛减半；官方组织新仓/新 release 发布当天直接入池。",
+      "生态簇（v5）：48 小时内 ≥2 个同关键词仓库同时 P2 → 升级为 P1 待确认，标注“生态簇”。"
+    ]
+  },
+  "top_potential": [
+    {
+      "basis": "约24h +9,620，滚动24h（LG 5,107→本版14,952）+9,845仍<10,000线；P0已于今日02:00报警不重复；速率自+505/h峰值回落，半小时内+124；.exe定于今日放出尚未发生；GTA/Xbox重编译生态簇核心。",
+      "category": "其他",
+      "repo": "ItsNotRexed/Leonida",
+      "score": 96,
+      "setup": "按文档自行构建运行，需自备游戏文件与Windows环境，门槛较高。",
+      "stars": 14952,
+      "what": "GTA 6 Xbox版的原生PC重编译：把Xbox版带到PC上。"
+    },
+    {
+      "basis": "P1今日已确认并报警（LK轮08:00）；LI 685→本版1,887，约12h +1,202；HN帖172分+GitNova爆发度8.7/10+BlackWire等多家报道为独立传播证据；ossradar第1位（+1.4k*为估算值，仅作榜单佐证）。",
+      "category": "Agent/编程助手",
+      "repo": "EL4CTEO/fast-anything",
+      "score": 95,
+      "setup": "npm一行安装，须自备Rust工具链。",
+      "stars": 1887,
+      "what": "只把最慢的5%热点函数交给coding agent移植成Rust，500次实测调用验证、可逆，不用全量重写，号称最高116×提速。"
+    },
+    {
+      "basis": "约24h +1,694，今日全场第二大核实增量；P1已确认；Trending日榜第1位，今日+1,716；6h +425（约+71/h）。",
+      "category": "安全",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "score": 95,
+      "setup": "按文档装入Claude Code skills目录即用，需自行承担授权合规责任。",
+      "stars": 17749,
+      "what": "Claude Code漏洞猎手技能包：82个skills + 15条斜杠命令，面向漏洞挖掘与外部红队工作。"
+    },
+    {
+      "basis": "约24h +1,084；P1已确认；ossradar当日repo of the day（数据版未刷新）；6h +294（约+49/h）。",
+      "category": "安全",
+      "repo": "BaaRai/ARTEX",
+      "score": 93,
+      "setup": "按文档部署，需自备模型API与测试环境。",
+      "stars": 16237,
+      "what": "AI自主渗透测试系统：英文翻译版，上游Autumn-27/ARTEX。"
+    },
+    {
+      "basis": "约24h +565；6h +112（约+19/h）继续回落，P1待确认保持关闭；创建仅7天；ossradar 24h +549实测与连接器pace一致。",
+      "category": "Agent/编程助手",
+      "repo": "erkamyaman/rust-anything",
+      "score": 92,
+      "setup": "按文档跑对照重写流程，需自备Rust工具链与录制环境。",
+      "stars": 7980,
+      "what": "把整个应用逐块重写成Rust，每块都对照原应用录制的行为做校验。"
+    },
+    {
+      "basis": "约24h +575；P1已确认；ossradar 24h +563实测、7d +6,423；把DeepSeek Harness装进口袋，手机端场景独特。",
+      "category": "Agent/编程助手",
+      "repo": "ccch1mneyyy/dsh-Go",
+      "score": 90,
+      "setup": "手机App（Flutter），安装即用。",
+      "stars": 30173,
+      "what": "把DeepSeek Harness装进口袋：手机本机运行，也能遥控你的电脑。"
+    },
+    {
+      "basis": "约24h +551；P2保持；GTA/Xbox重编译生态簇；创建仅2天。",
+      "category": "其他",
+      "repo": "omonkeyz/xbox-emulator",
+      "score": 90,
+      "setup": "进展笔记/研究向，非可直接运行的模拟器，需自行跟进构建。",
+      "stars": 1313,
+      "what": "Xbox Series X|S在PC上运行的进展笔记（TomBox + rage9）。"
+    },
+    {
+      "basis": "约24h +381；P2保持；GTA/Xbox重编译生态簇；创建仅3天。",
+      "category": "其他",
+      "repo": "R0Y00/Xbox2Windows",
+      "score": 90,
+      "setup": "研究向仓库，需自行编译，门槛较高。",
+      "stars": 1304,
+      "what": "Xbox Series X|S（Scarlett）在x64 Windows上的静态重编译研究。"
+    },
+    {
+      "basis": "约12h +549（LI 3,706→本版4,255）；P1已确认，今日02:00已报警不重复；ossradar第4位24h +1,042实测。",
+      "category": "Agent/编程助手",
+      "repo": "shinyobjectz/raea",
+      "score": 89,
+      "setup": "按文档装入Claude Code插件市场即用，需自备Claude Code环境。",
+      "stars": 4255,
+      "what": "Claude Code插件市场的轻量开发助手（v0.1.1桌面版）。"
+    },
+    {
+      "basis": "约24h +311；P2保持；ossradar 24h +280；本地LLM推理提速技能。",
+      "category": "Skills 生态",
+      "repo": "sybil-solutions/inference-optimisation-skill",
+      "score": 88,
+      "setup": "按文档装入agent skills目录即用，需本地LLM服务环境。",
+      "stars": 1953,
+      "what": "Agent技能：爬坡式优化本地LLM服务速度（解码、推测解码、前缀缓存）。"
+    }
+  ],
+  "fastest_24h": [
+    {
+      "delta": "+9,620（约24小时，基线核实）",
+      "repo": "ItsNotRexed/Leonida",
+      "stars": 14952,
+      "status": "P1已确认；P0已于今日02:00报警不重复；滚动24h +9,845 <10,000；.exe定于今日放出尚未发生"
+    },
+    {
+      "delta": "+1,694（约24小时，基线核实）",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 17749,
+      "status": "P1已确认；Trending日榜第1位，今日+1,716；6h +425（约+71/h）"
+    },
+    {
+      "delta": "+1,293（约24小时，基线核实）",
+      "repo": "morluto/rea",
+      "stars": 474062,
+      "status": "已爆红；D档对照；6h +249（约+42/h）；ossradar 24h +1,238实测"
+    },
+    {
+      "delta": "+1,202（约12小时，LI基线）",
+      "repo": "EL4CTEO/fast-anything",
+      "stars": 1887,
+      "status": "P1今日已确认并报警；HN 172分+GitNova 8.7/10为独立传播证据"
+    },
+    {
+      "delta": "+1,084（约24小时，基线核实）",
+      "repo": "BaaRai/ARTEX",
+      "stars": 16237,
+      "status": "P1已确认；ossradar当日repo of the day；6h +294（约+49/h）"
+    },
+    {
+      "delta": "+869（约24小时，基线核实）",
+      "repo": "storytold/craft-anything",
+      "stars": 41193,
+      "status": "P1已报警；6h +158（约+26/h）；ossradar 24h +859实测"
+    },
+    {
+      "delta": "+836（约24小时，基线核实）",
+      "repo": "firecrawl/firecrawl",
+      "stars": 207026,
+      "status": "已爆红；D档对照；Trending今日+915"
+    },
+    {
+      "delta": "+707（约24小时，基线核实）",
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 62776,
+      "status": "已爆红；D档对照；Trending今日+699"
+    },
+    {
+      "delta": "+575（约24小时，基线核实）",
+      "repo": "ccch1mneyyy/dsh-Go",
+      "stars": 30173,
+      "status": "P1已确认；ossradar 24h +563实测、7d +6,423"
+    },
+    {
+      "delta": "+565（约24小时，基线核实）",
+      "repo": "erkamyaman/rust-anything",
+      "stars": 7980,
+      "status": "P1待确认保持关闭；6h +112（约+19/h）继续回落；ossradar 24h +549实测"
+    }
+  ],
+  "new_projects": [
+    {
+      "created": "2026-11-20T20:07:13Z",
+      "repo": "ItsNotRexed/Leonida",
+      "score": 96,
+      "stars": 14952,
+      "what": "GTA 6 Xbox版的原生PC重编译：把Xbox版带到PC上（P1已确认，约24h +9,620）。"
+    },
+    {
+      "created": "2026-11-21T14:40:27Z",
+      "repo": "EL4CTEO/fast-anything",
+      "score": 95,
+      "stars": 1887,
+      "what": "只把最慢的5%热点函数交给coding agent移植成Rust，500次实测调用验证、可逆（P1今日已确认，约12h +1,202）。"
+    },
+    {
+      "created": "2026-11-21T08:08:39Z",
+      "repo": "omonkeyz/xbox-emulator",
+      "score": 90,
+      "stars": 1313,
+      "what": "Xbox Series X|S在PC上运行的进展笔记（新增P2，约24h +551）。"
+    },
+    {
+      "created": "2026-11-20T17:43:52Z",
+      "repo": "R0Y00/Xbox2Windows",
+      "score": 90,
+      "stars": 1304,
+      "what": "Xbox Series X|S（Scarlett）在x64 Windows上的静态重编译研究（新增P2，约24h +381）。"
+    },
+    {
+      "created": "2026-11-20T15:33:20Z",
+      "repo": "realdody/americas-recomp",
+      "score": 85,
+      "stars": 509,
+      "what": "GTA Americas重编译（无描述，单快照，今日首次发现；fork率约16.3%）。"
+    }
+  ],
+  "revived": [
+    {
+      "age": "创建于2026-05-05",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 17749,
+      "status": "约24h +1,694，P1已确认，Trending日榜第1位，今日+1,716"
+    },
+    {
+      "age": "创建于2026-04-14",
+      "repo": "morluto/rea",
+      "stars": 474062,
+      "status": "约24h +1,293，D档对照，6h +249（约+42/h）"
+    },
+    {
+      "age": "创建于2026-03-17",
+      "repo": "stablyai/orca",
+      "stars": 132964,
+      "status": "本版首核，ossradar 24h +954实测、7d +7,178，D档对照"
+    },
+    {
+      "age": "创建于2026-03-08",
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 62776,
+      "status": "约24h +707，Trending今日+699"
+    },
+    {
+      "age": "创建于2026-07-28",
+      "repo": "Tencent/LoopForge",
+      "stars": 5658,
+      "status": "约12h +69，P1已确认，P0不触发"
+    }
+  ],
+  "trending_major": [
+    {
+      "repo": "elementalsouls/Claude-BugHunter",
+      "stars": 17749,
+      "today_gain": "今日+1,716（第1位）",
+      "what": "Claude Code漏洞猎手技能包：82个skills + 15条斜杠命令。"
+    },
+    {
+      "repo": "obra/superpowers",
+      "stars": 324159,
+      "today_gain": "今日+788（第2位）",
+      "what": "Agent技能框架与软件开发方法论。"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "stars": 62776,
+      "today_gain": "今日+699（第3位）",
+      "what": "CLI-Anything：让所有软件对agent原生。"
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "stars": 68640,
+      "today_gain": "今日+473（第4位）",
+      "what": "两小时从0训出你的64M大模型。"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "stars": 207026,
+      "today_gain": "今日+915（第6位）",
+      "what": "给agent用的知识基础设施：搜索、抓取与解析。"
+    }
+  ],
+  "yesterday_alerts": [
+    {
+      "follow": "约24h +575",
+      "repo": "ccch1mneyyy/dsh-Go",
+      "stars": 30173
+    },
+    {
+      "follow": "约24h +284",
+      "repo": "libracoder/kiri",
+      "stars": 12331
+    },
+    {
+      "follow": "约24h +436",
+      "repo": "JuneYaooo/rea-video",
+      "stars": 12236
+    },
+    {
+      "follow": "约24h +493；慢燃7d +3,486，距C档5,000线>1,500，慢燃P2不触发",
+      "repo": "heydamir/unslop",
+      "stars": 20265
+    },
+    {
+      "follow": "本版无新核实值（已移出池子，留观）",
+      "repo": "deepseek-ai/chat-demo",
+      "stars": 5213
+    },
+    {
+      "follow": "本版无新核实值",
+      "repo": "vercel-labs/agent-desktop",
+      "stars": 25960
+    },
+    {
+      "follow": "本版无新核实值",
+      "repo": "Vincentwei1021/video-shotcraft",
+      "stars": 21969
+    },
+    {
+      "follow": "本版无新核实值",
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "stars": 9893
+    },
+    {
+      "follow": "本版无新核实值",
+      "repo": "yetone/magpie",
+      "stars": 39781
+    },
+    {
+      "follow": "本版无新核实值",
+      "repo": "NVIDIA/SkillEvaluator",
+      "stars": 4331
+    }
+  ],
+  "entrepreneur_top3": [
+    {
+      "basis": "P1今日已确认：约12h +1,202；HN 172分+GitNova爆发度8.7/10+BlackWire等多家报道为独立传播证据；ossradar第1位。",
+      "category": "Agent/编程助手",
+      "repo": "EL4CTEO/fast-anything",
+      "score": 95,
+      "setup": "npm一行安装，须自备Rust工具链。",
+      "stars": 1887,
+      "what": "只把最慢的5%热点函数交给coding agent移植成Rust，500次实测调用验证、可逆，不用全量重写，号称最高116×提速。"
+    },
+    {
+      "basis": "P1已确认：约24h +9,620，滚动24h +9,845仍<10,000线；GTA/Xbox重编译生态簇核心；B站今日6条GTA 6视频为跨系统佐证；.exe定于今日放出尚未发生。",
+      "category": "其他",
+      "repo": "ItsNotRexed/Leonida",
+      "score": 96,
+      "setup": "按文档自行构建运行，需自备游戏文件与Windows环境，门槛较高。",
+      "stars": 14952,
+      "what": "GTA 6 Xbox版的原生PC重编译：把Xbox版带到PC上。"
+    },
+    {
+      "basis": "新增P2：ossradar第44位24h +242实测、7d +492，fork率约6.6%健康；Google Antigravity MCP加速器。",
+      "category": "MCP/协议与工具",
+      "repo": "INK-Q/agy-fast",
+      "score": 88,
+      "setup": "按文档装入Antigravity插件即用，需Google Antigravity环境。",
+      "stars": 513,
+      "what": "Google Antigravity的非侵入式MCP加速器：号称LLM轮次-34%、token配额-31%。"
+    }
+  ],
+  "rea_backtest": {
+    "conclusion": "按日度数据，P2/P1 理论最早在 10-03（累计 540 星），P0 在 10-04（累计 2,962 星）。但候选发现未验证：没有任何证据表明系统能在 10-03 当天实际把它从候选池中捞出来——created 搜索必然漏掉（创建于 2026-04-14），Trending 到 10-07 才第 8 名（累计已 1.7 万星），最早可验证传播信号是 10-04 的 X @_vmlops 首发帖（当天已是 P0 级），HN 主帖 10-10 已是滞后信号。纯日度监测相对小时级快照监测晚约半天到 1 天。",
+    "daily": [
+      {
+        "cum": 414,
+        "date": "10-02",
+        "gain": 11
+      },
+      {
+        "cum": 540,
+        "date": "10-03",
+        "gain": 126
+      },
+      {
+        "cum": 2962,
+        "date": "10-04",
+        "gain": 2422
+      },
+      {
+        "cum": 6107,
+        "date": "10-05",
+        "gain": 3145
+      },
+      {
+        "cum": 10388,
+        "date": "10-06",
+        "gain": 4281
+      },
+      {
+        "cum": 17113,
+        "date": "10-07",
+        "gain": 6725
+      },
+      {
+        "cum": 30493,
+        "date": "10-08",
+        "gain": 13380
+      },
+      {
+        "cum": 53408,
+        "date": "10-09",
+        "gain": 22915
+      },
+      {
+        "cum": 78344,
+        "date": "10-10",
+        "gain": 24936
+      },
+      {
+        "cum": 118211,
+        "date": "10-11",
+        "gain": 39867
+      },
+      {
+        "cum": 172189,
+        "date": "10-12",
+        "gain": 53978
+      }
+    ],
+    "first_trigger": {
+      "p0": "2026-10-04（24h +2,422），小时级 1h≥100/6h≥150 规则在 10-04 白天发酵后数小时内即可触发，日度确认比真实小时级晚约 6–12 小时。",
+      "p1": "日度代理下与 P2 同日 10-03；真实小时级下很可能要到 10-04 白天（6h 新增随 @_vmlops 帖冲上 ≥50）才触发，比日度代理晚约 12–24 小时。",
+      "p2": "2026-10-03（24h +126，前 24h 11，11.45 倍），累计 540 星；真实小时级下 P2 很可能在 10-03 下午触发，比日度确认早约 6–12 小时。"
+    },
+    "source": "官方 Star History API（全量求和 434,921，与当前星数一致）+ 仓库详情 API + 公开搜索。换算：week 均为周日 00:00 UTC，days[0]=周日；UTC 日后 8 小时属北京时间次日，日度桶有约 ±1/3 天时区不确定性。",
+    "title": "REA 回测：2026-09-25 至 2026-10-12",
+    "trigger": "10-03 无明确公开引爆点，只有 3.2.0/3.2.1 发布（此前沉寂近 2 个月）；10-04 X @_vmlops 首发帖（315,000 浏览）；10-07/08 Replit CEO 帖 + Matthew Berman“Software is done”（2.8M 浏览）第二波放大。",
+    "warning": "2026-08-13 单日 +117 星后次日即衰减；10-02 当日 +11 星看似平静，次日即 +126 星触发 P2——单日低点不等于熄火。"
+  },
+  "scores_note": "评分是主观判断，不是真实市场统计数字；星数只代表关注度，不代表可用性与收入。“上手”只写一句话部署门槛。",
+  "spam_note": "反刷星：0marContreras/gta6recomp与Bodila51/gtavi-claudecode搜索连续八轮缺席（total=0），仓库页仍可达，搜索索引滞后未恢复，列线索；bookwjitchieni1986/blender-ai-mcp-addon描述与hitkeeen原版完全相同、fork仅38个，疑似复刻/镜像，P2观察已关闭并移出池子；BaaRai/ARTEX注明为上游Autumn-27/ARTEX英文翻译版，疑似翻译fork，列观察（fork率约37.6%未恶化）；nataphong-lab/Open-Source-Face-Recognition-Ultimate fork率约82%异常，排除；hatsunemiku-ai/google-one-tools fork率约39%仍异常，排除；XinaTian/MROffice连接器复核2,096星（LJ 2,066，+30/约6.0h，约+5/h；24h +41），ossradar +664为估算值不可采信，假信号结论不变，不入池、不立P线；JimLiu/open-artifact连接器复核352星（LJ 343，+9/约6.0h，约+2/h），ossradar 24h +213实测为11-22日间burst、本轮已熄，一日游假信号，不立P2，列线索；ItsNotRexed/Leonida fork率约8.2%健康；EL4CTEO/fast-anything fork率约5.9%健康；INK-Q/agy-fast fork率约6.6%健康；R0Y00/Xbox2Windows fork率约9.7%健康；omonkeyz/xbox-emulator fork率约6.2%健康；sybil-solutions/inference-optimisation-skill fork率约9.1%健康；shinyobjectz/raea fork率约7.5%健康；mdiri-ai/SoduWork fork率约7.9%健康；erkamyaman/rust-anything fork率约8.0%健康；Tencent/LoopForge fork率约14.0%健康；realdody/americas-recomp fork率约16.3%（无描述，单快照，列线索不立P线）；ItsNotRexed/Hookshot fork率约2.4%健康（单快照，列线索不立P线）。"
+}
