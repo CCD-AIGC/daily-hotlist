@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每日热点榜单 · 2026-11-24</title>
+<style>
+:root{color-scheme:light;--bg:#f4f5f7;--card:#fff;--ink:#1c2333;--muted:#667085;--line:#e6e8ee;--blue:#2563eb;--pink:#fb7299}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 56px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb 60%,#0ea5e9);color:#fff;padding:36px 0 28px}
+.hero h1{margin:0 0 8px;font-size:30px;line-height:1.25;letter-spacing:.2px}
+.hero p{margin:4px 0;color:#dbeafe;font-size:15px}
+.date-pill{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:14px;margin-bottom:14px}
+.nav{position:sticky;top:0;z-index:5;background:rgba(244,245,247,.94);backdrop-filter:blur(8px);padding:12px 0;border-bottom:1px solid var(--line)}
+.nav a{display:inline-block;margin:0 6px 6px 0;padding:7px 13px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:14px}
+.nav a:hover{border-color:var(--blue);color:var(--blue)}
+h2{font-size:21px;margin:34px 0 12px}
+h2 small{display:block;font-size:13px;color:var(--muted);font-weight:400;margin-top:4px}
+.hl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.hl{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.hl-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.tag{background:#eef2ff;color:#3730a3;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:700}
+.hl-rank{color:var(--muted);font-size:13px}
+.hl h3{margin:0 0 6px;font-size:17px;line-height:1.5}
+.hl p{margin:0;color:var(--muted);font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 16px;box-shadow:0 1px 3px rgba(16,24,40,.06)}
+.row{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid #f0f1f4}
+.row:last-child{border-bottom:0}
+.rank{flex:0 0 30px;height:30px;line-height:30px;text-align:center;border-radius:50%;background:#eef0f4;color:#475467;font-weight:800;font-size:14px}
+.rank.r1{background:#fef3c7;color:#92400e}.rank.r2{background:#e5e7eb;color:#374151}.rank.r3{background:#ffedd5;color:#9a3412}
+.row-title{flex:1;font-size:16px;line-height:1.55}
+.views{flex:0 0 auto;color:var(--muted);font-size:13px;background:#f2f4f7;padding:4px 9px;border-radius:999px;white-space:nowrap}
+.badge{flex:0 0 auto;font-size:12px;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.badge.new{background:#dcfce7;color:#166534;font-weight:700}
+.badge.up{background:#dbeafe;color:#1e40af}
+.badge.down{background:#fee2e2;color:#991b1b}
+.badge.same{background:#f2f4f7;color:#667085}
+.source{border-top:1px solid #f0f1f4;padding:14px 0}
+.source:first-child{border-top:0}
+.source-head{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.source p{margin:5px 0 0;color:var(--muted);font-size:14px}
+.pill{font-size:12px;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.pill.ok{background:#dcfce7;color:#166534}.pill.bad{background:#fee2e2;color:#991b1b}
+.note-box{background:#fffbeb;border:1px solid #fde68a;border-radius:16px;padding:16px}
+.note-box li{margin:6px 0}
+.chips a{display:inline-block;margin:0 8px 8px 0;padding:8px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--blue);text-decoration:none}
+.search{width:100%;padding:13px 16px;font-size:16px;border:1px solid var(--line);border-radius:12px;background:#fff;margin-top:18px}
+.search:focus{outline:2px solid var(--blue);outline-offset:1px}
+.empty{display:none;padding:18px;text-align:center;color:var(--muted)}
+footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+@media(max-width:560px){.hero h1{font-size:25px}.row-title{font-size:15px}.views{display:none}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap" style="padding-bottom:0">
+<span class="date-pill">2026-11-24</span>
+<h1>每日热点榜单</h1>
+<p>B站 + 抖音 · 每天早上更新 · 只看值得注意的变化</p>
+<p>抓取时间（北京时间）：2026-11-24 约 08:21-08:25 · 与昨日同一来源、同一口径比较，每条后标昨日排名。</p>
+</div></header>
+<div class="wrap">
+<nav class="nav"><a href="#summary">今日总结</a><a href="#diff">昨日对比</a><a href="#highlights">值得看</a><a href="#bilibili">B站热门</a><a href="#douyin">抖音热榜</a><a href="#sources">来源与口径</a><a href="#archive">往期存档</a></nav>
+<input class="search" id="q" type="search" placeholder="搜榜单里的标题，比如：大肥鱼、DeepSeek…" aria-label="搜索榜单标题">
+<p class="empty" id="empty">没有匹配的标题，换个关键词试试。</p>
+<section id="summary" style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:16px;padding:18px 20px;margin-top:18px;box-shadow:0 1px 3px rgba(16,24,40,.06)"><h2 style="margin:0 0 6px">今日总结</h2><p style="margin:10px 0;font-size:15px"><span style="display:inline-block;background:#2563eb;color:#fff;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700;margin-right:8px">B站</span>榜首《黄仁勋恢复原职，美股大涨7%，英伟达盘前暴涨31%，适才相戏耳，特朗普力挺是关键》55.6万播放；最值得注意的是第18位《🐧ai写 ai批 ai改🐧》（143.7万播放）和第39位 AI MV 大赛作品《《520AM》司凤版⚡思罢吗乐队激情演奏！小时候这集听哭了😭【AI MV大赛】》（188.2万播放）；榜单新进39条。</p>
+<p style="margin:10px 0;font-size:15px"><span style="display:inline-block;background:#2563eb;color:#fff;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:700;margin-right:8px">抖音</span>榜首「U17中国男足2:2战平摩洛哥」热度1214.6万；最值得注意的是第2位「英伟达暴涨超31%创纪录」（热度1213.8万），与 B 站榜首同为黄仁勋复职、英伟达大涨主题。</p></section>
+<section id="diff"><h2>昨日对比<small>与昨日同一来源、同一口径比较，按标题精确比对；标题加后缀的系列变体会计为新进，见说明</small></h2>
+<div class="card"><p><strong>B站：</strong>新进 39 条，升 ≥10 位 1 条，掉出前 50 39 条。升幅最大的：同时狂炫「垃圾食品+保健品」，美国人的养生观逆天了（昨日第49位 → 今日第34位）。</p>
+<p><strong>抖音：</strong>新进 46 条，升 ≥10 位 0 条，掉出前 50 46 条。升幅最大的：无。</p>
+<p class="note">每条榜单后都标了昨日排名：新上榜、升位、降位、持平一眼可见，不只罗列今日排名。</p></div></section>
+<section id="highlights"><h2>值得看<small>和 AI、知识、虚拟主播、鲸鱼娘、DeepSeek 直接相关的条目</small></h2>
+<div class="hl-grid">
+<article class="hl"><div class="hl-top"><span class="tag">bilibili</span><span class="hl-rank">第 18 位</span></div><h3>🐧ai写 ai批 ai改🐧</h3><p>标题直接提及 AI 写作/批改，按标题转述，不据此认定其制作方式。</p></article>
+<article class="hl"><div class="hl-top"><span class="tag">bilibili</span><span class="hl-rank">第 39 位</span></div><h3>《520AM》司凤版⚡思罢吗乐队激情演奏！小时候这集听哭了😭【AI MV大赛】</h3><p>AI MV大赛作品，按标题转述，不据此认定其制作方式。</p></article>
+</div></section>
+<section id="bilibili"><h2>B站热门前 50<small>含播放量，播放量已换算为“万”为单位</small></h2>
+<div class="card">
+<div class="row"><span class="rank r1">1</span><span class="row-title">黄仁勋恢复原职，美股大涨7%，英伟达盘前暴涨31%，适才相戏耳，特朗普力挺是关键</span><span class="badge new">新上榜</span><span class="views">55.6万播放</span></div>
+<div class="row"><span class="rank r2">2</span><span class="row-title">我想回家吃饭（两小时大电影）</span><span class="badge new">新上榜</span><span class="views">99.5万播放</span></div>
+<div class="row"><span class="rank r3">3</span><span class="row-title">“别人过得好 你就要扣自己的分吗”</span><span class="badge new">新上榜</span><span class="views">54.8万播放</span></div>
+<div class="row"><span class="rank rn">4</span><span class="row-title">2026-2027国创动画作品发布会 全程回顾</span><span class="badge new">新上榜</span><span class="views">293.0万播放</span></div>
+<div class="row"><span class="rank rn">5</span><span class="row-title">对质</span><span class="badge new">新上榜</span><span class="views">72.0万播放</span></div>
+<div class="row"><span class="rank rn">6</span><span class="row-title">【小跳蛙】|“【跳蛙の小曲】”</span><span class="badge new">新上榜</span><span class="views">237.0万播放</span></div>
+<div class="row"><span class="rank rn">7</span><span class="row-title">你从未见过的硬核开箱视频！</span><span class="badge new">新上榜</span><span class="views">30.7万播放</span></div>
+<div class="row"><span class="rank rn">8</span><span class="row-title">近十年最好的推理系列剧集之一！神级转场，爆火开头，悬疑神剧高分回归系列最终章！《大理石厅谋杀案》上</span><span class="badge new">新上榜</span><span class="views">43.7万播放</span></div>
+<div class="row"><span class="rank rn">9</span><span class="row-title">⚡【神金斗罗】史上最神人斗罗同人1-10集大合集⚡</span><span class="badge new">新上榜</span><span class="views">33.0万播放</span></div>
+<div class="row"><span class="rank rn">10</span><span class="row-title">【灵笼:落子无悔】纵入存亡之局，亦落无悔之子【PV】</span><span class="badge new">新上榜</span><span class="views">102.5万播放</span></div>
+<div class="row"><span class="rank rn">11</span><span class="row-title">黄仁勋正式回归英伟达：恢复全部职务｜显卡日报11月24日</span><span class="badge new">新上榜</span><span class="views">40.3万播放</span></div>
+<div class="row"><span class="rank rn">12</span><span class="row-title">同样是牛奶，凭啥一个保15天，一个能放三个月？</span><span class="badge new">新上榜</span><span class="views">71.8万播放</span></div>
+<div class="row"><span class="rank rn">13</span><span class="row-title">大大合集</span><span class="badge new">新上榜</span><span class="views">117.9万播放</span></div>
+<div class="row"><span class="rank rn">14</span><span class="row-title">两套大连招 雷霆撸猫法 一镜到底</span><span class="badge new">新上榜</span><span class="views">230.7万播放</span></div>
+<div class="row"><span class="rank rn">15</span><span class="row-title">黄仁勋回来了！他为什么必须先倒下？开源闭源之争，正在把世界推向2077</span><span class="badge new">新上榜</span><span class="views">119.4万播放</span></div>
+<div class="row"><span class="rank rn">16</span><span class="row-title">华强等了宋老虎30年</span><span class="badge new">新上榜</span><span class="views">20.0万播放</span></div>
+<div class="row"><span class="rank rn">17</span><span class="row-title">今天还是老样子吗？</span><span class="badge new">新上榜</span><span class="views">123.0万播放</span></div>
+<div class="row"><span class="rank rn">18</span><span class="row-title">🐧ai写 ai批 ai改🐧</span><span class="badge new">新上榜</span><span class="views">143.7万播放</span></div>
+<div class="row"><span class="rank rn">19</span><span class="row-title">先导片强势来袭！12月5日19点《2026灵笼盛典》B站独家直播【2026 灵笼盛典】</span><span class="badge new">新上榜</span><span class="views">40.9万播放</span></div>
+<div class="row"><span class="rank rn">20</span><span class="row-title">扎堆产卵 同类相食！蝗虫诡异行为原理被中国科学家破解！【主播说三农】</span><span class="badge new">新上榜</span><span class="views">135.6万播放</span></div>
+<div class="row"><span class="rank rn">21</span><span class="row-title">我们成为英雄，哪怕只有一天</span><span class="badge new">新上榜</span><span class="views">82.1万播放</span></div>
+<div class="row"><span class="rank rn">22</span><span class="row-title">【合集】人类消失后，深度思考三百年的大肥鱼</span><span class="badge down">昨日第2位</span><span class="views">137.1万播放</span></div>
+<div class="row"><span class="rank rn">23</span><span class="row-title">《这波贪了》</span><span class="badge new">新上榜</span><span class="views">146.5万播放</span></div>
+<div class="row"><span class="rank rn">24</span><span class="row-title">终于把对面带着红蓝buff的牢玩家骗出来了</span><span class="badge new">新上榜</span><span class="views">66.9万播放</span></div>
+<div class="row"><span class="rank rn">25</span><span class="row-title">全国前10黄金矿工都匹配在一起了！</span><span class="badge new">新上榜</span><span class="views">96.6万播放</span></div>
+<div class="row"><span class="rank rn">26</span><span class="row-title">考公务员很难，但是为人民服务却很容易！</span><span class="badge up">昨日第29位</span><span class="views">120.1万播放</span></div>
+<div class="row"><span class="rank rn">27</span><span class="row-title">路边一块，用心雕刻，保你看了眼前一黑</span><span class="badge new">新上榜</span><span class="views">220.6万播放</span></div>
+<div class="row"><span class="rank rn">28</span><span class="row-title">游戏自由度太高也不是什么好事</span><span class="badge new">新上榜</span><span class="views">62.2万播放</span></div>
+<div class="row"><span class="rank rn">29</span><span class="row-title">【BLG夺冠VLOG】这是属于我们的冠军记忆</span><span class="badge down">昨日第3位</span><span class="views">137.4万播放</span></div>
+<div class="row"><span class="rank rn">30</span><span class="row-title">《怪盗牢德2》：科比为偷雨姐袜子与豆包和大肥鱼战斗</span><span class="badge new">新上榜</span><span class="views">79.9万播放</span></div>
+<div class="row"><span class="rank rn">31</span><span class="row-title">人类统一不爽行为</span><span class="badge new">新上榜</span><span class="views">33.6万播放</span></div>
+<div class="row"><span class="rank rn">32</span><span class="row-title">步步催杀，招招带咬</span><span class="badge new">新上榜</span><span class="views">28.0万播放</span></div>
+<div class="row"><span class="rank rn">33</span><span class="row-title">兄弟我刚刚在和病毒抢意识，没伤到你吧</span><span class="badge new">新上榜</span><span class="views">60.1万播放</span></div>
+<div class="row"><span class="rank rn">34</span><span class="row-title">同时狂炫「垃圾食品+保健品」，美国人的养生观逆天了</span><span class="badge up">升15位 · 昨日第49位</span><span class="views">161.9万播放</span></div>
+<div class="row"><span class="rank rn">35</span><span class="row-title">第一次认识这样的台湾</span><span class="badge new">新上榜</span><span class="views">40.1万播放</span></div>
+<div class="row"><span class="rank rn">36</span><span class="row-title">学校老师失踪了，很多人都知道他被埋在操场下面...</span><span class="badge new">新上榜</span><span class="views">26.8万播放</span></div>
+<div class="row"><span class="rank rn">37</span><span class="row-title">路边捡到的小狗千万不要扔，小伙教你做美味营养的小狗泡饭</span><span class="badge down">昨日第9位</span><span class="views">177.0万播放</span></div>
+<div class="row"><span class="rank rn">38</span><span class="row-title">《小时候游戏抽象行为》</span><span class="badge new">新上榜</span><span class="views">17.9万播放</span></div>
+<div class="row"><span class="rank rn">39</span><span class="row-title">《520AM》司凤版⚡思罢吗乐队激情演奏！小时候这集听哭了😭【AI MV大赛】</span><span class="badge down">昨日第26位</span><span class="views">188.2万播放</span></div>
+<div class="row"><span class="rank rn">40</span><span class="row-title">我在北极找了七天，只为一顿蘑菇炖大鹅</span><span class="badge new">新上榜</span><span class="views">20.4万播放</span></div>
+<div class="row"><span class="rank rn">41</span><span class="row-title">禁止米提亚参与摩拉游戏</span><span class="badge down">昨日第7位</span><span class="views">57.6万播放</span></div>
+<div class="row"><span class="rank rn">42</span><span class="row-title">为什么你会间接性看不惯身边的朋友？</span><span class="badge down">昨日第27位</span><span class="views">213.1万播放</span></div>
+<div class="row"><span class="rank rn">43</span><span class="row-title">真相，假是假了点，但看了不烧心。</span><span class="badge down">昨日第18位</span><span class="views">266.9万播放</span></div>
+<div class="row"><span class="rank rn">44</span><span class="row-title">【LCK女团】《Whiplash》视觉盛宴</span><span class="badge new">新上榜</span><span class="views">102.8万播放</span></div>
+<div class="row"><span class="rank rn">45</span><span class="row-title">人 皮 子 讨 封</span><span class="badge new">新上榜</span><span class="views">90.6万播放</span></div>
+<div class="row"><span class="rank rn">46</span><span class="row-title">美军送温暖之辐到了：将在本土引爆五吨毒炸药</span><span class="badge new">新上榜</span><span class="views">27.4万播放</span></div>
+<div class="row"><span class="rank rn">47</span><span class="row-title">⚡️从夯到拉！ 2026年3A游戏优化水平大摸底！谁是优化之王</span><span class="badge down">昨日第43位</span><span class="views">80.5万播放</span></div>
+<div class="row"><span class="rank rn">48</span><span class="row-title">🍎跟老爸长得一点儿都不像是什么体验？！</span><span class="badge new">新上榜</span><span class="views">69.5万播放</span></div>
+<div class="row"><span class="rank rn">49</span><span class="row-title">熟成14的三文鱼，厨师长上班验货，美食制作先替客人尝尝味道，把控品质，人人有责</span><span class="badge down">昨日第11位</span><span class="views">99.4万播放</span></div>
+<div class="row"><span class="rank rn">50</span><span class="row-title">异人之下游戏｜正式定档｜关于“纯”，他有发言权！</span><span class="badge new">新上榜</span><span class="views">76.6万播放</span></div>
+</div></section>
+<section id="douyin"><h2>抖音热榜前 50<small>标题 + 热度值</small></h2>
+<div class="card">
+<div class="row"><span class="rank r1">1</span><span class="row-title">U17中国男足2:2战平摩洛哥</span><span class="badge new">新上榜</span><span class="views">热度 1214.6万热度</span></div>
+<div class="row"><span class="rank r2">2</span><span class="row-title">英伟达暴涨超31%创纪录</span><span class="badge new">新上榜</span><span class="views">热度 1213.8万热度</span></div>
+<div class="row"><span class="rank r3">3</span><span class="row-title">雪假撬动冰雪经济点燃消费引擎</span><span class="badge new">新上榜</span><span class="views">热度 1210.6万热度</span></div>
+<div class="row"><span class="rank rn">4</span><span class="row-title">CFM沙漠灰真的下雪了</span><span class="badge new">新上榜</span><span class="views">热度 1112.1万热度</span></div>
+<div class="row"><span class="rank rn">5</span><span class="row-title">严肃进入舒服过冬模式</span><span class="badge new">新上榜</span><span class="views">热度 1017.3万热度</span></div>
+<div class="row"><span class="rank rn">6</span><span class="row-title">中国舰载机未来已来</span><span class="badge new">新上榜</span><span class="views">热度 1010.1万热度</span></div>
+<div class="row"><span class="rank rn">7</span><span class="row-title">万吨大驱将首次面向公众开放</span><span class="badge new">新上榜</span><span class="views">热度 895.9万热度</span></div>
+<div class="row"><span class="rank rn">8</span><span class="row-title">教育部就教材管理条例征求意见</span><span class="badge new">新上榜</span><span class="views">热度 806.0万热度</span></div>
+<div class="row"><span class="rank rn">9</span><span class="row-title">“一老一小”服务实施方案公布</span><span class="badge new">新上榜</span><span class="views">热度 785.3万热度</span></div>
+<div class="row"><span class="rank rn">10</span><span class="row-title">荥阳花80元吃八碗太顶了</span><span class="badge new">新上榜</span><span class="views">热度 785.0万热度</span></div>
+<div class="row"><span class="rank rn">11</span><span class="row-title">甲亢哥百米能跑赢博尔特吗</span><span class="badge new">新上榜</span><span class="views">热度 782.3万热度</span></div>
+<div class="row"><span class="rank rn">12</span><span class="row-title">各位 后会有期了</span><span class="badge new">新上榜</span><span class="views">热度 780.7万热度</span></div>
+<div class="row"><span class="rank rn">13</span><span class="row-title">黄仁勋：很荣幸回到英伟达</span><span class="badge new">新上榜</span><span class="views">热度 776.0万热度</span></div>
+<div class="row"><span class="rank rn">14</span><span class="row-title">我和斗破的故事</span><span class="badge same">昨日第14位</span><span class="views">热度 775.2万热度</span></div>
+<div class="row"><span class="rank rn">15</span><span class="row-title">英伟达恢复黄仁勋CEO职务</span><span class="badge new">新上榜</span><span class="views">热度 773.5万热度</span></div>
+<div class="row"><span class="rank rn">16</span><span class="row-title">跟随成毅看归京之路如何破局</span><span class="badge new">新上榜</span><span class="views">热度 773.0万热度</span></div>
+<div class="row"><span class="rank rn">17</span><span class="row-title">看ok了老铁们感性了</span><span class="badge new">新上榜</span><span class="views">热度 772.2万热度</span></div>
+<div class="row"><span class="rank rn">18</span><span class="row-title">两京十五日背后的历史背景</span><span class="badge new">新上榜</span><span class="views">热度 770.4万热度</span></div>
+<div class="row"><span class="rank rn">19</span><span class="row-title">你往这我往这你不炸了吗</span><span class="badge new">新上榜</span><span class="views">热度 770.3万热度</span></div>
+<div class="row"><span class="rank rn">20</span><span class="row-title">你有没有养小猫小狗在你家里住</span><span class="badge new">新上榜</span><span class="views">热度 769.0万热度</span></div>
+<div class="row"><span class="rank rn">21</span><span class="row-title">盲选对象这块我敢赌一把</span><span class="badge new">新上榜</span><span class="views">热度 768.7万热度</span></div>
+<div class="row"><span class="rank rn">22</span><span class="row-title">复联5三美队同框笑点好密</span><span class="badge new">新上榜</span><span class="views">热度 768.6万热度</span></div>
+<div class="row"><span class="rank rn">23</span><span class="row-title">脑机接口为瘫痪患者重启希望</span><span class="badge new">新上榜</span><span class="views">热度 767.2万热度</span></div>
+<div class="row"><span class="rank rn">24</span><span class="row-title">遍地都是小狐狸套装</span><span class="badge new">新上榜</span><span class="views">热度 767.1万热度</span></div>
+<div class="row"><span class="rank rn">25</span><span class="row-title">摆正蒙娜丽莎我的眼睛就是尺</span><span class="badge new">新上榜</span><span class="views">热度 766.7万热度</span></div>
+<div class="row"><span class="rank rn">26</span><span class="row-title">蔡磊病后段睿这些年是怎么过的</span><span class="badge new">新上榜</span><span class="views">热度 766.7万热度</span></div>
+<div class="row"><span class="rank rn">27</span><span class="row-title">两京十五日首播辣评</span><span class="badge new">新上榜</span><span class="views">热度 766.6万热度</span></div>
+<div class="row"><span class="rank rn">28</span><span class="row-title">外机故意冲闯歼16飞行员实力驱离</span><span class="badge new">新上榜</span><span class="views">热度 766.0万热度</span></div>
+<div class="row"><span class="rank rn">29</span><span class="row-title">星期一是红色的</span><span class="badge new">新上榜</span><span class="views">热度 765.6万热度</span></div>
+<div class="row"><span class="rank rn">30</span><span class="row-title">杨帆的牙找回来了</span><span class="badge new">新上榜</span><span class="views">热度 765.2万热度</span></div>
+<div class="row"><span class="rank rn">31</span><span class="row-title">吴彦祖熊猫马甲掉落现场</span><span class="badge new">新上榜</span><span class="views">热度 765.1万热度</span></div>
+<div class="row"><span class="rank rn">32</span><span class="row-title">全网小姨期待偶遇面剂子</span><span class="badge new">新上榜</span><span class="views">热度 765.0万热度</span></div>
+<div class="row"><span class="rank rn">33</span><span class="row-title">迪士尼在逃公主去OK了老铁支教</span><span class="badge new">新上榜</span><span class="views">热度 764.8万热度</span></div>
+<div class="row"><span class="rank rn">34</span><span class="row-title">用BIGBANG新歌打开AllBlack穿搭</span><span class="badge new">新上榜</span><span class="views">热度 764.7万热度</span></div>
+<div class="row"><span class="rank rn">35</span><span class="row-title">拼完萌宠盲盒还没拆就想养了</span><span class="badge new">新上榜</span><span class="views">热度 764.6万热度</span></div>
+<div class="row"><span class="rank rn">36</span><span class="row-title">在下悟空是也生日会高甜时刻</span><span class="badge new">新上榜</span><span class="views">热度 764.5万热度</span></div>
+<div class="row"><span class="rank rn">37</span><span class="row-title">当我线下被抓反差挑战</span><span class="badge new">新上榜</span><span class="views">热度 764.4万热度</span></div>
+<div class="row"><span class="rank rn">38</span><span class="row-title">跟大师聊两句姻缘就算出来了</span><span class="badge new">新上榜</span><span class="views">热度 764.0万热度</span></div>
+<div class="row"><span class="rank rn">39</span><span class="row-title">是苦是乐这一年都要结束了</span><span class="badge new">新上榜</span><span class="views">热度 763.9万热度</span></div>
+<div class="row"><span class="rank rn">40</span><span class="row-title">寻找跨年高手</span><span class="badge new">新上榜</span><span class="views">热度 763.8万热度</span></div>
+<div class="row"><span class="rank rn">41</span><span class="row-title">雾山五行官宣大电影项目</span><span class="badge new">新上榜</span><span class="views">热度 763.5万热度</span></div>
+<div class="row"><span class="rank rn">42</span><span class="row-title">兄弟别光说喜欢哪款我给你拼</span><span class="badge new">新上榜</span><span class="views">热度 763.4万热度</span></div>
+<div class="row"><span class="rank rn">43</span><span class="row-title">冬日温柔白月光穿搭</span><span class="badge new">新上榜</span><span class="views">热度 763.4万热度</span></div>
+<div class="row"><span class="rank rn">44</span><span class="row-title">演员方力申破世界纪录</span><span class="badge down">昨日第30位</span><span class="views">热度 763.4万热度</span></div>
+<div class="row"><span class="rank rn">45</span><span class="row-title">冬天必解冻的心动目的地</span><span class="badge new">新上榜</span><span class="views">热度 763.2万热度</span></div>
+<div class="row"><span class="rank rn">46</span><span class="row-title">厚灰美学穿搭拿捏冬日松弛感</span><span class="badge new">新上榜</span><span class="views">热度 762.9万热度</span></div>
+<div class="row"><span class="rank rn">47</span><span class="row-title">张元英迪士尼公主仿妆</span><span class="badge new">新上榜</span><span class="views">热度 762.7万热度</span></div>
+<div class="row"><span class="rank rn">48</span><span class="row-title">终于喝到APEC同款荔枝冰酒了</span><span class="badge down">昨日第36位</span><span class="views">热度 762.7万热度</span></div>
+<div class="row"><span class="rank rn">49</span><span class="row-title">姜乘澜全流程修眉攻略来咯</span><span class="badge new">新上榜</span><span class="views">热度 762.4万热度</span></div>
+</div></section>
+<section id="sources"><h2>来源与口径</h2>
+<div class="card">
+<div class="source"><div class="source-head"><strong>bilibili · 996Token 今日热榜</strong><span class="pill ok">正常</span></div><p>更新：2026-11-24 08:03 UTC+8</p><p>B站热门前50条标题与播放量，按源站原顺序抄录，未按播放量重排；页面日期为2026.11.24，页头标示星期二 11-24 08:03 更新。</p></div>
+<div class="source"><div class="source-head"><strong>douyin · 抖音官方热榜接口</strong><span class="pill ok">正常</span></div><p>更新：2026-11-24 约 08:21 UTC+8（抓取时间，实时接口无存档更新时间）</p><p>抖音官方热榜接口 https://www.douyin.com/aweme/v1/web/hot/search/list/ 直接返回，data.word_list 共 49 条（接口当日只返回 49 条，非 50 条），position 为排名、word 为标题、hot_value 为热度值；SnailDev/douyin-hot-hub 自 2026-11-15 起停更，不再作来源。</p></div>
+</div></section>
+<section><h2>说明与局限</h2>
+<div class="note-box"><ul>
+<li>与2026-11-23同一来源、同一口径按标题精确比对；B站精确新进39条、排名上升≥10位1条（两榜昨日、今日B站均为50条，掉出前50共39条）；抖音精确新进46条、排名上升≥10位0条（昨日抖音49条、今日49条，掉出前50共46条）。</li>
+<li>今日值得看仅列标题直接相关的条目：B站2条（第18条 ai写 ai批 ai改，第39条 AI MV大赛，均按标题转述）；抖音无标题直接提及 AI 的条目；今日两榜均无标题直接提及 DeepSeek、虚拟主播、鲸鱼娘、知识可视化的条目；996Token其他榜当日内容不在B站+抖音前50口径内，不计入值得看。</li>
+<li>低粉爆款雷达不在本文件内：本版只有热榜快照，没有对低粉账号视频做连续采样，不能据此声称发现低粉爆款；低粉跟踪见当日跟踪器文件。</li>
+<li>只记录榜单快照与差分，不声称全站统计。</li>
+<li>只记录榜单快照与差分，不声称全站统计；低粉爆款需要对同一视频连续采样，本版尚未上线该功能。</li>
+</ul></div></section>
+<section id="archive"><h2>往期存档<small>只新增、不覆盖</small></h2>
+<div class="chips">
+<a href="./archive/2026-10-28.html">2026-10-28</a>
+<a href="./archive/2026-10-29.html">2026-10-29</a>
+<a href="./archive/2026-10-30.html">2026-10-30</a>
+<a href="./archive/2026-10-31.html">2026-10-31</a>
+<a href="./archive/2026-11-01.html">2026-11-01</a>
+<a href="./archive/2026-11-02.html">2026-11-02</a>
+<a href="./archive/2026-11-03.html">2026-11-03</a>
+<a href="./archive/2026-11-04.html">2026-11-04</a>
+<a href="./archive/2026-11-05.html">2026-11-05</a>
+<a href="./archive/2026-11-06.html">2026-11-06</a>
+<a href="./archive/2026-11-07.html">2026-11-07</a>
+<a href="./archive/2026-11-08.html">2026-11-08</a>
+<a href="./archive/2026-11-09.html">2026-11-09</a>
+<a href="./archive/2026-11-10.html">2026-11-10</a>
+<a href="./archive/2026-11-11.html">2026-11-11</a>
+<a href="./archive/2026-11-12.html">2026-11-12</a>
+<a href="./archive/2026-11-13.html">2026-11-13</a>
+<a href="./archive/2026-11-14.html">2026-11-14</a>
+<a href="./archive/2026-11-15.html">2026-11-15</a>
+<a href="./archive/2026-11-16.html">2026-11-16</a>
+<a href="./archive/2026-11-17.html">2026-11-17</a>
+<a href="./archive/2026-11-18.html">2026-11-18</a>
+<a href="./archive/2026-11-19.html">2026-11-19</a>
+<a href="./archive/2026-11-20.html">2026-11-20</a>
+<a href="./archive/2026-11-21.html">2026-11-21</a>
+<a href="./archive/2026-11-22.html">2026-11-22</a>
+<a href="./archive/2026-11-23.html">2026-11-23</a>
+<a href="./archive/2026-11-24.html">2026-11-24</a>
+</div></section>
+<footer><a href="./">最新一天</a> · 每日热点榜单（B站 + 抖音）</footer>
+</div>
+<script>
+var q=document.getElementById('q'),empty=document.getElementById('empty');
+q.addEventListener('input',function(){
+  var v=q.value.trim().toLowerCase(),n=0;
+  document.querySelectorAll('.row').forEach(function(r){
+    var show=!v||r.textContent.toLowerCase().indexOf(v)>-1;
+    r.style.display=show?'':'none'; if(show)n++;
+  });
+  empty.style.display=(v&&!n)?'block':'none';
+});
+</script>
+</body>
+</html>
