@@ -6,7 +6,87 @@
 <description>每天 08:30 的 AI 商业情报 TOP7 与机会。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/ai-intel.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Mon, 23 Nov 2026 00:33:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 00:35:00 +0000</lastBuildDate>
+<item>
+<title>英伟达：黄仁勋复职，股价单日暴涨 31.48%：英伟达董事会 11 月 22 日全票通过，恢复黄仁勋总裁、CEO 与董事…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-00</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>“人”就是市值：单日涨幅证明市场把英伟达的 AI 叙事与黄仁勋个人深度绑定；复职一日即收复上周五 14% 跌幅并带动全市场反弹，芯片股与 AI 基建股的定价锚重新回到“黄仁勋在位”这一前提上</description>
+</item>
+<item>
+<title>亚马逊确认收购 Decart 技术，约 75 亿美元：亚马逊 11 月 23 日官方宣布签署协议，收购以色列 Decar…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-01</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>从传闻变签约，推理效率层正式成为 hyperscaler 的并购标的：亚马逊买的是让 Trainium 跑得更快、更便宜的能力，Trainium 准备对外销售、直接对标英伟达；约 100 人的团队卖出 75 亿美元，说明“让芯片跑满”的软件比芯片本身更稀缺</description>
+</item>
+<item>
+<title>Anthropic 期权首日 + Claude Ship 发布：ANT 期权 11 月 23 日开始交易：首日约 60.…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-02</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>期权首日波动率低于预期，说明市场对 ANT 的定价分歧在收敛而非放大；Claude Ship 把 Anthropic 的变现从“写代码”推进到“审代码、合代码”——代码审查是每个工程团队都有的经常性支出，按 Token 计费的新收入线</description>
+</item>
+<item>
+<title>弗吉尼亚、俄勒冈两州起诉 SpaceX/Grok：弗吉尼亚与俄勒冈州检察长 11 月 23 日分别起诉 SpaceX 及…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-03</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>州检察长正式接管 AI 监管：联邦层面缺乏行动时，州政府用消费者保护法当抓手，AI 图像生成产品的合规成本从“可选项”变成“生死线”；Grok 的“spicy mode”式激进功能设计今后会被所有竞品当作反面教材</description>
+</item>
+<item>
+<title>OpenAI 与思科开源 Shirudo：AI Agent 守 Linux 内核：OpenAI 与思科 11 月 23 …</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-04</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>安全 Agent 从“找漏洞”进化到“自动挡漏洞”：补丁窗口期（发现→修复）是企业最脆弱的时段，Shirudo 把这段窗口变成可售卖的服务；思科的 infra 渠道 + OpenAI 的模型能力组合，是 Agent 安全商业化的新范式</description>
+</item>
+<item>
+<title>GLM-5.4 上线：智谱 Loop Transformer 旗舰：智谱（Z.ai）11 月 23 日上线 GLM-5.…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-05</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>“循环换深度”成为中国厂商降本的新路线：不堆参数、靠复用层数提升推理能力，直接对冲算力成本；订阅先行、API 后开的打法说明智谱先收开发者订阅的钱，再谈生态</description>
+</item>
+<item>
+<title>Supertake 种子轮 2000 万美元：把观点变成投资组合：AI 投资创业公司 Supertake 11 月 23…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-06</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Agent 金融从“帮你查”走到“帮你投”：把观点翻译成组合是 robo-advisor 之后的新形态，种子轮 2000 万美元说明资本愿意为“信任”这个最难的环节下注；但投顾牌照、合规与信任是三重门槛</description>
+</item>
+<item>
+<title>[AI商业情报 机会 74分] 银行合规 Agent 接入：富国条款今日生效，官方 MCP 接入成唯一出路</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261124-00</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>富国银行新客户协议今日（11 月 24 日）生效，明确“使用任何 AI Agent 的风险自担”；摩根大通、美银、花旗、PNC 已在 10 月下旬至 11 月集中改条款。五大行把第三方 Agent 的操作风险系统性转给用户，但用户对“Agent 帮我处理银行事”的需求没消失</description>
+</item>
+<item>
+<title>[AI商业情报 机会 70分] AI 安全红队与自防御基础设施：Agent 写代码越快，审代码、守内核的生意越好</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261124-01</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Claude-BugHunter 三日合计涨超 5,300 星（17,780→19,746，今日 +1,966）；ARTEX 17,716（今日 +1,464）；OpenAI 与思科今日开源 Shirudo，把“AI Agent 自动挡漏洞”做成基础设施；弗吉尼亚、俄勒冈两州首诉 Grok，说明安全合规需求从“最好有”变成“必须有”</description>
+</item>
+<item>
+<title>[AI商业情报 机会 60分] Agent 金融投资：把观点变成组合，投研助手比直接代投更容易落地</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261124-02</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Supertake 种子轮 2000 万美元验证了“自然语言观点→投资组合”的需求：用户不用自己选股，把对世界变化的看法说出来，Agent 变成组合；但直接代投的信任、牌照、合规三重门槛极高，创始人自己也只放了几千到几十万美元在里面</description>
+</item>
 <item>
 <title>Anthropic 期权今日上市，股价逼近发行价：Cboe 11 月 20 日预告确认：ANT 期权 11 月 23 日…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
@@ -326,86 +406,6 @@
 <pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
 <category>AI商业情报</category>
 <description>Agent 越能干，信任成本越高：Muse 串号事件说明“跨应用调用 + 记忆”一旦串线就是隐私事故，权限隔离与审计将成为 Agent 产品的标配成本，也给第三方 Agent 安全与合规服务留出付费位置；硬件端 300 美元定价说明 Meta 要把 Muse 从应用变成随身设备，AI 穿戴的第二次冲锋开始，但 Humane Ai Pin 的前车之鉴仍在</description>
-</item>
-<item>
-<title>苹果招聘自研 AI Agent：可浏览网页、跨应用、写代码：Bloomberg 11 月 19 日报道：苹果招聘高级工程…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-07</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>最后一家巨头正式入场通用 Agent：苹果的打法是“设备端 + 权限收紧”，与 Meta 的“全家桶调用”、谷歌的“云端全能”形成三条路线；对创业者而言，Mac 端 Agent 的权限合规（何时弹窗、如何沙箱）将成为绕不开的平台规则，提前适配者有先发优势；2027 年底的时间表意味着窗口还有约一年</description>
-</item>
-<item>
-<title>[AI商业情报 机会 72分] Agent 技能包（Skills）商业化：把可复用的工作流做成可售卖的技能</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261120-00</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>GitHub Trending 日榜前 16 里 6 个与 Agent Skills 相关：Claude-BugHunter 日榜第 1（+1,349）、superpowers 第 2（+2,028，322,073 星）、last30days-skill 第 10（+954）、stitch-skills 第 11（+302）、diagram-design 第 9（+271）、app-store-compliance 第 12（+377）；技能正在成为 Agent 的新分发层，类似当年的 VS Code 插件与浏览器扩展</description>
-</item>
-<item>
-<title>[AI商业情报 机会 68分] Agent 支付基础设施：给 Agent 卖按次付费的工具与数据</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261120-01</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AWS 11 月 19 日把 AgentCore 支付接入 Marketplace：Agent 可用美元按次购买 x402 产品、结算进 AWS 账单，Tavily 首批卖家；官方示例单次 0.01 美元；Agent 自主采购从 demo 变成可上生产的功能，按次付费的工具市场第一次有了企业级收银台</description>
-</item>
-<item>
-<title>[AI商业情报 机会 66分] 跨境 B2B 采购 Agent 化：替中小卖家把采购全流程干完</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261120-02</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Everful A 轮 4850 万美元、年底 ARR 有望 1 亿美元（约 2.5 年从 0 起步），月发货 500 万件、3 万多家工厂伙伴；AI Agent 自动化追踪消费趋势、识别供应商、跨厂协调订单、管理物流；美国取消 800 美元以下 de minimis 免税反而利好“B2B 采购 + 本地销售”模式</description>
-</item>
-<item>
-<title>Anthropic IPO 定价 83 美元：高于 70–78 美元区间，今日纳斯达克上市：Anthropic 11 月…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-00</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 实验室 IPO 的定价锚：云厂商以股东身份深度绑定，亚马逊与谷歌合计持股近 30%，260 亿美元私募配售把七大芯片与云巨头变成利益共同体；最终发行价高于区间上限，首日表现将定调 OpenAI 等后来者的 IPO 预期</description>
-</item>
-<item>
-<title>谷歌发布 Gemini 4 Neon：每任务成本比 Carbon 低 32%：谷歌 11 月 18 日发布 Gemini…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-01</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>旗舰模型竞争从单价转向“一个任务多少钱”：Neon 以更低的每任务成本在编码与 Agent 基准上逼近 Carbon，Google 用“便宜 32%”直接定价 Agent 工作流；12 月 1 日 Carbon 涨价后 Neon 将更便宜，倒逼竞品跟进按任务计价</description>
-</item>
-<item>
-<title>英伟达收紧 neocloud 融资：担保只在客户拿到钱并装机后才生效：英伟达临时 CEO Colette Kress 在…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-02</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>英伟达对 AI 基建“循环融资”的态度转向：担保不再是无条件背书，而是附条件的信用增级；新管理层用“更挑剔”给市场划线，neocloud 与 OpenAI 这类大客户的融资成本与节奏将直接受影响</description>
-</item>
-<item>
-<title>Genesis AI：A 轮 5 亿美元，估值 35 亿美元，英伟达与 AMD 首次联手押注：通用机器人公司 Genes…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-03</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>具身智能融资分化到“有硬件、有数据、有量产时间表”才拿得到大钱：英伟达与 AMD 首次联手押注同一家机器人公司，5 亿美元 A 轮、35 亿美元估值，物理 AI 成为两家芯片巨头的共同战场</description>
-</item>
-<item>
-<title>Humyn Labs：A 轮 4700 万美元，7 个月收入 1000 万美元：印度机器人训练数据公司 Humyn La…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-04</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>机器人训练数据的生意第一次拿出收入账本：7 个月 1000 万美元收入 + 2000 万美元已签合同，数据采集从“烧钱环节”变成可收费的服务层；venture debt 补账期缺口的打法，说明这门生意的瓶颈是现金流而非需求</description>
-</item>
-<item>
-<title>多家银行改条款：AI Agent 出事用户自担，哪怕被黑：花旗本周修改在线用户协议：用第三方 AI 工具管理个人财务出任…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-19.html</link>
-<guid isPermaLink="false">ai-intel-20261119-05</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Agent 代管钱的责任缺口正式成为商业变量：银行用条款把风险推回用户，等于给“只读 Agent + 第三方审计 + 责任险”留出了付费位置；金融 Agent 创业者不解决责任问题，就接不到银行数据</description>
 </item>
 </channel>
 </rss>

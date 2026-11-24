@@ -6,7 +6,31 @@
 <description>每天 0–5 个首次发现的新爆款 AI 独立站。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Mon, 23 Nov 2026 04:10:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 04:30:00 +0000</lastBuildDate>
+<item>
+<title>[新站 跟进] Letter Visitors（letter.dev）— 在你自己的网站上直接看到访客是谁：访客姓名 / 职位 / 公司、来源渠道，以及哪些 AI 智能体读了你的页…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">indie-20261124-00</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 1 且评论量高（60 条）；“AI 智能体正在读你网站”是个新切口——把访客识别、会话回放、Slack 提醒、跟进序列做进自家站内，省去切换仪表盘；注意 Letter 本身是 Newsletter 平台，Visitors 是其新产品线而非全新公司，定价 $100 起偏 B2B，个人创作者直接用不上，看的是“站内访客识别 + AI 代理来访”模式。</description>
+</item>
+<item>
+<title>[新站 跟进] Motionflare（motionflare.ai）— 粘贴网址，AI 读取真实产品截图、Logo、品牌色与文案，几分钟生成可分享的品牌宣传视频 / 广告片，可对…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">indie-20261124-01</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 2；“发视频不用请 $10k 的代理公司”是明确痛点，Motion（90 秒动态图形）与 Film（5–45 秒真人风广告）双模式、只改指定部分的产品细节具体；与本雷达视频格式主线直接相关——它把 AI 视频生成落到“产品发布视频”这一刚需场景。注意 PH 页首次发布为 11-14，11-23 是登顶日。</description>
+</item>
+<item>
+<title>[新站 观望] Modem（modem.ai）— 监控客服工单、销售电话、Slack / Discord 等客户渠道，几分钟内发现产品问题，自动建单、交给 coding agent…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">indie-20261124-02</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>日榜第 4 但声量弱于前两名（29 评论）；“投诉→修复→跟进”闭环是真痛点，Sentry 背景可信；但 2.0 是 8 月产品的再上线、非全新站，且面向产品团队的 B2B 工具，个人创作者直接用不上，看的是“客户反馈自动成单 + 修复后自动跟进”模式。先观望 2.0 口碑。</description>
+</item>
 <item>
 <title>[新站 跟进] Yoroll（yoroll.ai）— 把故事变成可玩的电影级互动游戏：从剧本、图片或视频片段出发，AI 生成场景、分支剧情与多结局，无需游戏引擎即可发布；支持人脸与…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
