@@ -272,7 +272,18 @@
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
+,
+  {
+   "date": "2026-11-24",
+   "file": "research/2026-11-24-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-18 至 2026-11-24，55 条唯一 URL（引擎标 recent 54 条），状态 partial；“月入 200 万”又来了，但三条 recent 中文线索一致降温（评委称无核心创意难以持久、50 元课作者称未做收益实测、B站四档称一人公司只建议有稳定收入者）；Meshy 一张照片变 3D 模型、不到两年 1 亿美元年化收入，转折是“卖模型不卖工具”；Agent 正在变成“层”：Suh 判 2027 只剩通用 Agent OS、Claude Ship 让 agent 批代码、WorkBuddy 月更 10 功能、PH 新 8 款 5 款是 agent 代劳；工具几个月换一轮，学 AI 学的是判断与验证；公安部 10 起 AI 造谣案例、OpenRouter 清退 3 家服务商是起号硬边界；B 站实时热门 2 条 AI 命中、抖音官方接口 48 条 0 命中，两端热榜均无副业主题命中；小红书搜索页连续第六日失败（登录墙）、TikTok 仅见美国前 3 话题且无 AI 相关，搜狗微信搜索浏览器直访正常（“AI副业”约 5,713 条结果）；B 站引擎 0 返回、微信与知乎引擎失败、grounding 不可达、百度 6 条只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-23"
+ "updated": "2026-11-24"
 }
