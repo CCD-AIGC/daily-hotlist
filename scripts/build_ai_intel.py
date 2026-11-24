@@ -89,7 +89,9 @@ def opp_cards(day):
             f'<p><strong>1–5 人团队能否进入：</strong>{esc(o["solo_entry"])}</p>'
             f'<p><strong>首个 MVP：</strong>{esc(o["mvp"])}</p>'
             f'<p><strong>初期成本：</strong>{esc(o["cost"])}</p>'
-            f'<p><strong>获客与定价：</strong>{esc(o["acquisition_pricing"])}</p></article>'
+            f'<p><strong>获客与定价：</strong>{esc(o["acquisition_pricing"])}</p>'
+            + (f'<p><strong>评分依据：</strong>{esc(o["score_basis"])}</p>' if o.get("score_basis") else "")
+            + '</article>'
         )
     return ('<section><h2>03 新 AI 创业机会 TOP 3<small>评分 0–100 为主观判断依据，不是真实市场统计数字</small></h2>\n<div class="grid">\n'
             + "\n".join(cards) + '\n</div></section>')
