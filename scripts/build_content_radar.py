@@ -19,6 +19,11 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
+def strip_aihot(s):
+    """前端不出现 AIHOT 字样：只去掉来源名本身，内容与链接保留；data JSON 不动。"""
+    return str(s).replace("AIHOT ", "").replace("AIHOT", "")
+
+
 def load_days():
     days = []
     for p in sorted(DATA.glob("content-radar-????-??-??.json")):
@@ -105,11 +110,11 @@ def aihot_section(day):
     for s in day.get("aihot_signals", []):
         rows.append(
             f'<tr><td>{esc(s["date"])}</td><td>{esc(s["item"])}</td>'
-            f'<td>{esc(s["signal"])}</td><td>{esc(s["source"])}</td></tr>'
+            f'<td>{esc(s["signal"])}</td><td>{esc(strip_aihot(s["source"]))}</td></tr>'
         )
-    return ('<section><h2>02 AIHOT 新模型 / 新工具信号<small>'
-            'AIHOT 是 AI 资讯聚合，不是视频趋势源；这里只取“新模型、新工具发布”作为下一波格式的早期信号，'
-            '数据来自 aihot.news RSS 与 /api/v1/agent（匿名只读，无需 Key）</small></h2>'
+    return ('<section><h2>02 新模型 / 新工具信号<small>'
+            '这里只取“新模型、新工具发布”作为下一波格式的早期信号，不当作视频趋势源；'
+            '数据来自公开 RSS 与 API（匿名只读，无需 Key）</small></h2>'
             '<div style="overflow-x:auto"><table><tr><th>日期</th><th>事件</th><th>对格式的意义</th><th>来源</th></tr>'
             + "\n".join(rows) + "</table></div></section>")
 
@@ -175,7 +180,7 @@ def indie_sites_section(day):
             f'<td>{esc(s.get("viral_channel", ""))}</td>'
             f'<td><span class="tag {vcls}">{esc(v)}</span></td></tr>'
         )
-        srcs = "".join(f"<li>{esc(x)}</li>" for x in s.get("sources", []))
+        srcs = "".join(f"<li>{esc(strip_aihot(x))}</li>" for x in s.get("sources", []))
         cards.append(
             f'<article class="card"><div class="card-top">'
             f'<span class="tag">{esc(s.get("category", ""))} · {esc(s.get("industry", ""))}</span>'
@@ -218,8 +223,8 @@ def render(day, all_dates):
     m = day.get("method", {})
     verdicts = "".join(f"<li>{esc(x)}</li>" for x in m.get("verdicts", []))
     ch = day.get("channel_health", {})
-    ch_items = "".join(f"<li><strong>{esc(k)}：</strong>{esc(v)}</li>" for k, v in ch.items())
-    src_items = "".join(f"<li>{esc(x)}</li>" for x in day.get("sources", []))
+    ch_items = "".join(f"<li><strong>{esc(strip_aihot(k))}：</strong>{esc(strip_aihot(v))}</li>" for k, v in ch.items())
+    src_items = "".join(f"<li>{esc(strip_aihot(x))}</li>" for x in day.get("sources", []))
     archive_links = "\n".join(f'<a href="./archive/content-radar-{d}.html">{d}</a>' for d in all_dates)
     body = format_cards(day) + aihot_section(day) + domestic_section(day) + backtest_section(day) + indie_sites_section(day) + indie_seed_section(day)
     body += f"""<section><h2>方法与口径<small>评分三维度：海外热度 40 / 复刻容易度 30 / 新颖度 30</small></h2>
@@ -250,7 +255,7 @@ def render(day, all_dates):
 </div></header>
 <div class="wrap">
 {body}
-<footer>数据来源：AIHOT（RSS 与 /api/v1/agent，匿名只读）、repo 当日热榜快照、公开指南与检索结果 · 往期只新增、不覆盖 · 评分是主观判断，不是真实市场统计数字</footer>
+<footer>数据来源：repo 当日热榜快照、公开指南与检索结果 · 往期只新增、不覆盖 · 评分是主观判断，不是真实市场统计数字</footer>
 </div>
 </body>
 </html>

@@ -117,8 +117,6 @@ def render(day, all_dates, prev_day=None):
     conclusions = "\n".join(f"<li>{esc(c)}</li>" for c in day.get("conclusions", []))
     mc = day.get("money_case", {})
     watch = "\n".join(f"<li>{esc(w)}</li>" for w in day.get("watchlist", []))
-    sq = day.get("sources_quality", {})
-    sq_notes = "\n".join(f"<li>{esc(n)}</li>" for n in sq.get("notes", []))
     archive_links = "\n".join(f'<a href="./archive/ai-intel-{d}.html">{d}</a>' for d in all_dates)
     diff = ('<section><h2>昨日对比<small>与昨日同一口径比较</small></h2><div class="note-box"><p>首版基线：没有昨日可比，不标注新上榜 / 星数涨跌。</p></div></section>'
             if prev_day is None else
@@ -166,13 +164,6 @@ def render(day, all_dates, prev_day=None):
 <div class="card"><ul>
 {watch}
 </ul><p>{esc(day.get('watchlist_change', ''))}</p></div></section>
-<section><h2>08 来源与数据质量<small>原文链接、发布日期与证据级别见正文各条</small></h2>
-<div class="note-box"><ul>
-<li>RSS 检查：{sq.get('rss_total', '未核实')} 个源，{sq.get('rss_available', '未核实')} 个可用，{sq.get('rss_dead', '未核实')} 个失效。{esc(sq.get('rss_dead_detail', ''))}</li>
-<li>{esc(sq.get('rss_stale', ''))}</li>
-<li>{esc(sq.get('agents_radar_mcp', ''))}</li>
-{sq_notes}
-</ul></div></section>
 <section><h2>往期存档<small>只新增、不覆盖</small></h2>
 <div class="chips">
 {archive_links}
