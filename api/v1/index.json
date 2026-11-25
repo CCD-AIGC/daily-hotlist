@@ -1,6 +1,6 @@
 {
   "title": "CCD-AIGC daily-hotlist API 目录",
-  "updated_at": "2026-11-24T21:28:37+08:00",
+  "updated_at": "2026-11-25T09:19:39+08:00",
   "base": "https://ccd-aigc.github.io/daily-hotlist",
   "endpoints": {
     "feed": "feed.xml",
@@ -20,14 +20,14 @@
   },
   "series": {
     "ai-intel": {
-      "latest_data": "data/ai-intel-2026-11-24.json",
-      "latest_archive": "archive/ai-intel-2026-11-24.html",
-      "latest_date": "2026-11-24"
+      "latest_data": "data/ai-intel-2026-11-25.json",
+      "latest_archive": "archive/ai-intel-2026-11-25.html",
+      "latest_date": "2026-11-25"
     },
     "repo-radar": {
-      "latest_data": "data/repo-radar-2026-11-24.json",
-      "latest_archive": "archive/repo-radar-2026-11-24.html",
-      "latest_date": "2026-11-24"
+      "latest_data": "data/repo-radar-2026-11-25.json",
+      "latest_archive": "archive/repo-radar-2026-11-25.html",
+      "latest_date": "2026-11-25"
     },
     "content-radar": {
       "latest_data": "data/content-radar-2026-11-24.json",
@@ -40,14 +40,14 @@
       "latest_date": "2026-11-24"
     },
     "hotlist": {
-      "latest_data": "data/2026-11-24.json",
-      "latest_archive": "archive/2026-11-24.html",
-      "latest_date": "2026-11-24"
+      "latest_data": "data/2026-11-25.json",
+      "latest_archive": "archive/2026-11-25.html",
+      "latest_date": "2026-11-25"
     },
     "tracker": {
-      "latest_data": "data/tracker-2026-11-23.json",
+      "latest_data": "data/tracker-2026-11-24.json",
       "latest_archive": "tracker.html",
-      "latest_date": "2026-11-23"
+      "latest_date": "2026-11-24"
     }
   },
   "note": "hotlist / tracker 是原始榜单，不进主源；这里只给原始 data 文件链接，不复制其内容。"

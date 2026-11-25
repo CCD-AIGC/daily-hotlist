@@ -6,406 +6,406 @@
 <description>每天的原创筛选，不是转载聚合：AI商业情报TOP7、GitHub 24h快涨仓库、海外先火国内未火的AI视频格式、新爆款AI独立站。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Mon, 23 Nov 2026 04:10:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 00:36:00 +0000</lastBuildDate>
 <item>
-<title>[内容雷达 88分] 奶牛妆变装 / Cow Makeup AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-00</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<title>Anthropic 跌破发行价：上市第 4 天收盘破发：ANT 11 月 24 日收 81.91 美元（-6.54%），…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-00</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>史上最大 IPO（募资 935 亿美元，含超额配售）4 天即破发，是 AI 板块公开市场定价的风向标：TechCrunch 称若持续走弱，将压制未上市 AI 创业公司的估值与后续 IPO 前景；七位创始人已在发行价套现约 19.5 亿美元，市场会把“破发”读作信心投票</description>
+</item>
+<item>
+<title>戴尔 Q3：AI 积压 1323 亿美元，创纪录：戴尔 11 月 24 日发布 FY27 Q3 财报（季度截至 10 月…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-01</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>与 Anthropic 破发同日，戴尔证明 AI 需求端的真金白银没有停：602 亿美元单季订单且“逐单审核客户质量与资金、土地、电力”，说明积压不是纸面数字；硬件环节的景气度与模型公司的股价波动正在脱钩——卖铲子的人先收到钱</description>
+</item>
+<item>
+<title>英伟达回吐 5.86%：复职涨幅吐回约 2400 亿美元市值：NVDA 11 月 24 日收 155.38 美元（-5.…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-02</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>复职行情一日回吐近两成涨幅，说明市场对“黄仁勋回来”的定价已完成，下一变量回到调查结论与作证；Bernstein 上调评级显示卖方仍看多，但 5.86% 的回吐证明波动率本身就是这只股票的常态</description>
+</item>
+<item>
+<title>沃尔玛×Meta Muse：黑五购物交给 AI Agent：沃尔玛 11 月 24 日宣布与 Meta 合作，顾客可在 …</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-03</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Agent 购物从演示变成黑五实战：沃尔玛用“官方接入”抢 Agent 时代的货架，亚马逊用“封堵”保自己的流量入口——两条路线分出胜负前，接入层（Gateway）是确定的生意：谁帮商家接进各家 Agent，谁就收过路费</description>
+</item>
+<item>
+<title>字节跳动巴西数据中心：一期 200MW，2027 年 Q3 投运：36氪 11 月 24 日报道：字节跳动在巴西塞阿拉州…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-04</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>中国大厂出海建算力的新样本：巴西可再生能源占比 86.8%（2025 年）、电价与土地便宜，但无税收减免时建造成本比别国高近 40%（进口税）；塞阿拉州在建容量 227 兆瓦、绝大部分已被一家中国大厂预租，建成后当地规模暴增 1179.7%——算力出海的下一站不在美国，而在有绿电、有政策的南方市场；但美国 11 月 19 日的新规把巴西纳入芯片出口许可范围，硬件进口是悬顶变量</description>
+</item>
+<item>
+<title>百度文心 5.5 Flash Preview 开源：280B，Apache 2.0：百度 11 月 24 日开源文心 5…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-05</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>百度把旗舰级轻量模型彻底开源（Apache 2.0 可商用），与智谱 GLM-5.4（11 月 23 日，订阅先行）形成对照：一条路是订阅收钱，一条路是开源换生态；对创业者而言，280B/14B 激活 + 100 万上下文的可商用权重，意味着本地部署一个强推理模型不再需要买闭源 API</description>
+</item>
+<item>
+<title>蚂蚁 LingSante 医疗模型开源：560B，MIT 协议：蚂蚁集团 11 月 23 日发布百灵医疗健康模型家族并开…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-06</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>开源模型正在啃医疗这块高门槛领域：560B 医疗专项模型 + MIT 协议，意味着医院、科研机构与开发者可以本地私有化部署一个医疗推理模型，而不必把病历数据送进闭源 API；但“非医疗器械”的红线也划清了商业边界——卖的是科研辅助与数据处理，不是诊疗本身</description>
+</item>
+<item>
+<title>黑客 AI Agent 自主挖出 0-day：11 分钟拿下 root：亚马逊 11 月 24 日披露：黑客的 AI A…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-07</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>攻击侧 Agent 已经从“辅助”变成“自主执行”：11 分钟从 0 到 root，意味着漏洞窗口期的防御时间被压缩到分钟级；与此同时 Anthropic 的 Siren 说明防御侧也在把“抓 Agent 越狱”做成产品——攻防双方同时付费，是当前最确定的 Agent 安全需求</description>
+</item>
+<item>
+<title>[AI商业情报 机会 72分] Agent 购物接入层：帮中小商家接进沃尔玛 Agent Gateway 与 Muse</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261125-00</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>沃尔玛 11 月 24 日把黑五交给 Meta Muse，Agent Gateway 10 月上线、现向更多开发者与 AI 平台开放；Instacart 已接入。零售商选边站队后，中小商家面临的问题是：商品信息、库存、订单如何接进各家 Agent——商家自己不会接，Agent 平台也不会一家家谈</description>
+</item>
+<item>
+<title>[AI商业情报 机会 71分] AI 安全攻防服务：红队审计与分钟级入侵检测</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261125-01</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>黑客用 Cairn 的 AI Agent 11 分钟自主挖出 0-day（Amazon 11-24 披露），Palo Alto 称 25 次自主行动、至少 10 个组织被入侵；Anthropic 同日发布 Siren 蜜罐抓 Agent 越狱；英国警告 AI 驱动的网络攻击正在暴露多年短板。攻击侧 Agent 已经自主化，防御侧的检测窗口被压缩到分钟级</description>
+</item>
+<item>
+<title>[AI商业情报 机会 66分] 垂直开源模型本地部署与微调：医疗、编程场景的私有化服务</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261125-02</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>一天之内两个可商用大权重开源：百度文心 5.5 Flash Preview（280B，Apache 2.0）与蚂蚁 LingSante-3.1-flash（560B 医疗，MIT 协议）；本地推理也在变快（Basalt 把 Qwen3.8-Flash-Next 打包成单文件本地跑，700 Tokens/秒，AlphaSignal 11-24）。医院、律所、研发团队想要“数据不出内网”的强模型，但自己不会部署、不会微调、不会量化</description>
+</item>
+<item>
+<title>[GitHub雷达 96分] Marvisak/VIctory — 尝试让GTA VI在PC上运行（Rust重写/重编译尝试）。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-00</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>11314★ · 24h增量（LP分片1,337→本轮，约24.5h窗口）约+9,977，距P0的10,000线仅差约23星；但速率六连降（672→631→517→350→169→约102/h），P0暂不升；P1已确认；fork率约14.7%健康。 · 上手：早期研究向，需自备游戏文件与构建环境，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 95分] xcl-dev/xcl — Xbox Series兼容层：让主机游戏代码在Windows上原生运行。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-01</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>7828★ · 滚动约30h（LO分片588→本轮）约+7,240；速率五连降至约+36/h；P0今日已报不重复；P1已确认；fork率约13.3%健康。 · 上手：需自行编译运行，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 95分] elementalsouls/Claude-BugHunter — Claude Code漏洞猎手技能包：84个skills + 15条斜杠命令，面向…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-02</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>21459★ · 约24h +1,711，基线核实口径全场最大；P1已确认；Trending日榜第1位；6h pace约+58/h。 · 上手：按文档装入Claude Code skills目录即用，需自行承担授权合规责任。</description>
+</item>
+<item>
+<title>[GitHub雷达 94分] BaaRai/ARTEX — AI自主渗透测试系统：英文翻译版，上游Autumn-27/ARTEX。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-03</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>19278★ · 约24h +1,559；P1已确认；ossradar当日repo of the day +2.1k；fork率约37.3%（翻译fork，列观察）。 · 上手：按文档部署，需自备模型API与测试环境。</description>
+</item>
+<item>
+<title>[GitHub雷达 93分] 4lwayz/portwatch-vi — GTA VI能否在PC运行的实时追踪页，每日更新重编译与模拟进展。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-04</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>2853★ · 约24h +2,356；P1已确认；今日新入热池；速率回落（+121→+78→+66/h）；fork率约2.5%健康。 · 上手：静态页面，直接打开即看，门槛极低。</description>
+</item>
+<item>
+<title>[GitHub雷达 92分] fxceless/victory-fork — VIctory的复刻分支：让Xbox Series游戏在Windows PC上渲染运行（不含游戏文件）…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-05</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>1827★ · P2今日新立（直核确认）：创建约14小时即1,827星，+94/约0.5h≈+188/h加速中；本身为fork仓，fork率约24.0%口径失真；P1待确认暂不立。 · 上手：早期研究向，需自备游戏文件与构建环境，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 91分] EL4CTEO/fast-anything — 只把最慢的5%热点函数交给coding agent移植成Rust，500次实测调用验证、可逆，不用全量…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-06</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>3602★ · 约24h +483；P1已确认；HN 172分+GitNova爆发度8.7/10为独立传播证据；增速回落至约+14/h。 · 上手：npm一行安装，须自备Rust工具链。</description>
+</item>
+<item>
+<title>[GitHub雷达 90分] sous-labs/songe — 本地模型训练引擎：用闲置算力训练你自己的本地模型。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-07</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>666★ · P2今日新立（直核确认）：LS分片466→本轮666，24h pace约+160 ≥B档100线；fork率约8.9%健康；创建2026-11-20。 · 上手：按文档配置本地算力与模型，门槛中等。</description>
+</item>
+<item>
+<title>[GitHub雷达 89分] AFK-surf/xnulinux — XNU作Linux可加载内核模块：给arm64 Linux一个macOS personality。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-08</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>3357★ · P1待确认保持：约24h +1,318；速率三连降（+41→+31→+28/h）；无新增传播证据，不确认；fork率约4.4%健康。 · 上手：内核模块，需自行编译加载，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 88分] erkamyaman/rust-anything — 把整个应用逐块重写成Rust，每块都对照原应用录制的行为做校验。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-25.html</link>
+<guid isPermaLink="false">repo-radar-20261125-09</guid>
+<pubDate>Wed, 25 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>9208★ · 约24h +506；6h pace约+12/h继续回落，P1待确认保持关闭；ossradar +711实测。 · 上手：按文档跑对照重写流程，需自备Rust工具链与录制环境。</description>
+</item>
+<item>
+<title>[内容雷达 87分] 高尔夫夜场挥杆舞 / Polska Jumpstyle AI — 值得低成本试</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-00</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI内容格式</category>
-<description>今日最强新格式：11-19 两版同日破 1400 万播放、多语言扩散、CapCut 已出模板，一张照片 15 秒成本低。本土化切口：十二生肖妆 / 京剧脸谱变装版，闺蜜、母女双人版，配中文文案“我是牛”；重妆易漂移，宜用正面清晰照。标注 AI 生成。</description>
+<description>今日最强新格式：原帖 378 万播放、#mrpolska 话题 2.76 亿播放、CapCut 模板已被用 9.4 万次，一张照片 15 秒成本低。本土化切口：广场舞大爷 / 夜市灯光版，把高尔夫练习场换成国内观众熟悉的夜场场景；配乐保留原曲卡点。标注 AI 生成。</description>
+</item>
+<item>
+<title>[内容雷达 87分] 奶牛妆变装 / Cow Makeup AI — 值得低成本试</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-01</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
+<category>AI内容格式</category>
+<description>今日最强新格式：11-19 两版同日破 1400 万播放、多语言扩散、CapCut 已出模板，一张照片 15 秒成本低。本土化切口：十二生肖妆 / 京剧脸谱变装版，闺蜜、母女双人版，配中文文案“我是牛”；重妆易漂移，宜用正面清晰照。标注 AI 生成。今日无新数据，分数微调（88→87）。</description>
 </item>
 <item>
 <title>[内容雷达 88分] 《Deck the Halls》圣诞舞 AI / Deck the Halls Dance AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-01</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-02</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI内容格式</category>
 <description>仍是高分：11 月最新、热度实证最强（单帖 480 万播放、#christmasdance 累计 12.7 亿播放）、圣诞节点加持，双人 / 亲子 / 情侣均可拍；今日无新数据，分数微调（89→88）。本土化切口：中式圣诞睡衣（家居服）、母女 / 闺蜜 / 情侣版，商场圣诞树场景；标注 AI 生成。</description>
 </item>
 <item>
-<title>[内容雷达 88分] 彩纸雨庆祝 / Boom Clap Confetti AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-02</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<title>[内容雷达 87分] 彩纸雨庆祝 / Boom Clap Confetti AI — 值得低成本试</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-03</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI内容格式</category>
-<description>今日新格式：11-16 首现仅一周，最大版已破 400 万播放、数条超 200 万，刚起势未达峰值；一张照片 11 秒成本极低。本土化切口：生日、升职、过年红包雨版，彩纸换成金粉、红包雨，配中文文案“终于等到这一天”；标注 AI 生成。</description>
+<description>今日新格式：11-16 首现仅一周，最大版已破 400 万播放、数条超 200 万，刚起势未达峰值；一张照片 11 秒成本极低。本土化切口：生日、升职、过年红包雨版，彩纸换成金粉、红包雨，配中文文案“终于等到这一天”；标注 AI 生成。今日无新数据，分数微调（88→87）。</description>
 </item>
 <item>
-<title>[内容雷达 87分] 墨西哥翼龙 / Mexico Pterodactyl — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-03</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<title>[内容雷达 85分] 墨西哥翼龙 / Mexico Pterodactyl — 值得低成本试</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-04</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI内容格式</category>
-<description>仍是高分：11-14 引爆、4 天超 2220 万播放（Know Your Meme），一张照片 8 秒成本极低。连续三日无新播放量数据，分数微调（88→87）。本土化切口：牵着翼龙逛菜市场 / 遛弯 / 接孩子放学，配中文旁白“它又跑丢了”；必须标注 AI 生成，不得冒充真实目击事件，谣言属性是红线。</description>
+<description>仍是高分：11-14 引爆、4 天超 2220 万播放（Know Your Meme），一张照片 8 秒成本极低。连续三日无新播放量数据，分数微调（88→87）。本土化切口：牵着翼龙逛菜市场 / 遛弯 / 接孩子放学，配中文旁白“它又跑丢了”；必须标注 AI 生成，不得冒充真实目击事件，谣言属性是红线。原片已过峰、进入辟谣 + 玩梗阶段，分数下调（87→85）；复刻须按平台要求标注 AI 生成，不得冒充真实事件；模板可迁移：其他生物飞越小镇、动漫混剪（Gravity Falls 版 3 天 230 万播放）。</description>
 </item>
 <item>
-<title>[内容雷达 86分] GTA 5 告别 AI / GTA 5 Goodbye AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-04</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
+<title>[内容雷达 85分] GTA 5 告别 AI / GTA 5 Goodbye AI — 值得低成本试</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-05</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI内容格式</category>
-<description>11 月最新、热度实证最强的新格式之一，与 GTA 6 上市（2026-11-19）强绑定，国内热榜只有 GTA 6 游戏内容、尚无 AI 告别格式；今日无新数据且发售日已过，分数微调（87→86）。本土化切口：告别的不只是 GTA 5——换成“告别青春游戏”（魔兽、CF、DNF、王者老版本）同款仪式感，配中文旁白“谢谢你陪了我 13 年”；标注 AI 生成，别用游戏官方素材冒充实机。</description>
-</item>
-<item>
-<title>[内容雷达 85分] 圣诞灯妻 / My wife every year on November 1st — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-05</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI内容格式</category>
-<description>11 月 1 日原帖 2 天 140 万播放、第二账号同格式 130 万播放，双账号证实；一张照片 8 秒成本极低，圣诞节点明确。今日无新数据，分数微调（86→85）。本土化切口：夫妻 / 情侣 / 室友版，妻子换成穿红袄拖着彩灯的家人，冰箱换成客厅/厨房日常场景，配中文文案“每年 11 月 1 日我老婆准时发疯”；新颖度扣分因去年已有 Christmas Lights Wife 旧版。标注 AI 生成。</description>
-</item>
-<item>
-<title>[内容雷达 84分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-06</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI内容格式</category>
-<description>仍是高分：11 月单条播放最高的趋势帖（3940 万）+ 趋势总计约 1.26 亿播放，一张照片 12 秒成本极低，圣诞窗口明确（至 12-25）。连续三日无新播放量数据，分数微调（85→84）。本土化切口：中式圣诞树场景（商场圣诞树、家里小圣诞树）、情侣 / 闺蜜 / 母女版，睡衣换成中式家居服；别用真人原片冒充，标注 AI 生成。</description>
-</item>
-<item>
-<title>[内容雷达 82分] LOVE 倒立 / Love Handstand AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">content-radar-20261123-07</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI内容格式</category>
-<description>今日新格式：11-15 首现，最高约 300 万播放、仍在扩散；一张全身照即可，不会倒立也能拍是 AI 版的核心价值。本土化切口：情侣、闺蜜版 LOVE 拼字，配中文文案“爱要倒过来看才懂”；难度扣分因人脸倒置易漂移、肢体易出错。标注 AI 生成，别让真人模仿倒立动作。</description>
-</item>
-<item>
-<title>[新站 跟进] Yoroll（yoroll.ai）— 把故事变成可玩的电影级互动游戏：从剧本、图片或视频片段出发，AI 生成场景、分支剧情与多结局，无需游戏引擎即可发布；支持人脸与…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">indie-20261123-00</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI独立站</category>
-<description>PH 日榜第 1；AI 视频→可玩游戏是本雷达视频格式主线的下一步形态（互动视频），《奥德赛》140+ 场景是可验证的成品。注意：PH 产品页显示首次发布 2026-11-05，本次为日榜登顶而非首发；团队信息未核实。</description>
-</item>
-<item>
-<title>[新站 跟进] Rankhog（rankhog.com）— Reddit 获客 Agent：Radar 全天监视目标 subreddit，找正在问“买什么”的人、按购买意向打分、写…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">indie-20261123-01</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI独立站</category>
-<description>PH 日榜第 2；Reddit 意向获客是明确刚需，免费审计先验价值、$99/月定价透明，MCP 接入 Claude/ChatGPT/Cursor。注意：Reddit 自动化有封号风险，作者本人亦承认无法保证不被封；自动发帖务必先人工审阅。</description>
-</item>
-<item>
-<title>[新站 观望] Resurf（resurf.so）— Mac / iPhone / iPad 个人情境库：收藏笔记、链接、图片、PDF 与灵感，本地语义搜索与相似氛围发现，MCP/…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">indie-20261123-02</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI独立站</category>
-<description>2.0 是 9 月产品的重构再上线，非全新站；本地语义搜索 + MCP 接 AI 是真需求，但 Mac 限定、定价未核实；先观望 2.0 口碑。</description>
-</item>
-<item>
-<title>[新站 观望] Daymaker（daymaker.com）— AI 潜客礼品工具：研究潜客兴趣、推荐个性化礼品、用自家品牌重新包装并寄出，帮销售约到会议；也可全程代运营并保证会议…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">indie-20261123-03</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI独立站</category>
-<description>日榜第 4 但仅 3 条评论，声量弱；$100k 花费为创始人自述、未独立核实；礼品代发偏服务形态、定价未展示；先观望其后续口碑与真实转化。（创始人自述，未独立核实）</description>
-</item>
-<item>
-<title>[新站 跟进] oovi（oovi.conuron.com）— 桌面 AI 团队：一句话交办任务，组长 Bot 规划并分给研究员、写手、评审等专员执行，过程可视；对外动作（发邮件、…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-23.html</link>
-<guid isPermaLink="false">indie-20261123-04</guid>
-<pubDate>Mon, 23 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI独立站</category>
-<description>PH 日榜第 5；单人开发者、自带 Key 免费 + 本地优先是明确差异化，$10/月内置模型定价透明；多智能体分工（组长规划、研究员、写手、评审）是当下明确需求，Telegram 远程指挥是加分项。</description>
-</item>
-<item>
-<title>[GitHub雷达 96分] ItsNotRexed/Leonida — GTA 6 Xbox版的原生PC重编译：把Xbox版带到PC上。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-00</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>14952★ · 约24h +9,620，滚动24h（LG 5,107→本版14,952）+9,845仍&lt;10,000线；P0已于今日02:00报警不重复；速率自+505/h峰值回落，半小时内+124；.exe定于今日放出尚未发生；GTA/Xbox重编译生态簇核心。 · 上手：按文档自行构建运行，需自备游戏文件与Windows环境，门槛较高。</description>
-</item>
-<item>
-<title>[GitHub雷达 95分] EL4CTEO/fast-anything — 只把最慢的5%热点函数交给coding agent移植成Rust，500次实测调用验证、可逆，不用全量…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-01</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>1887★ · P1今日已确认并报警（LK轮08:00）；LI 685→本版1,887，约12h +1,202；HN帖172分+GitNova爆发度8.7/10+BlackWire等多家报道为独立传播证据；ossradar第1位（+1.4k*为估算值，仅作榜单佐证）。 · 上手：npm一行安装，须自备Rust工具链。</description>
-</item>
-<item>
-<title>[GitHub雷达 95分] elementalsouls/Claude-BugHunter — Claude Code漏洞猎手技能包：82个skills + 15条斜杠命令，面向…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-02</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>17749★ · 约24h +1,694，今日全场第二大核实增量；P1已确认；Trending日榜第1位，今日+1,716；6h +425（约+71/h）。 · 上手：按文档装入Claude Code skills目录即用，需自行承担授权合规责任。</description>
-</item>
-<item>
-<title>[GitHub雷达 93分] BaaRai/ARTEX — AI自主渗透测试系统：英文翻译版，上游Autumn-27/ARTEX。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-03</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>16237★ · 约24h +1,084；P1已确认；ossradar当日repo of the day（数据版未刷新）；6h +294（约+49/h）。 · 上手：按文档部署，需自备模型API与测试环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 92分] erkamyaman/rust-anything — 把整个应用逐块重写成Rust，每块都对照原应用录制的行为做校验。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-04</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>7980★ · 约24h +565；6h +112（约+19/h）继续回落，P1待确认保持关闭；创建仅7天；ossradar 24h +549实测与连接器pace一致。 · 上手：按文档跑对照重写流程，需自备Rust工具链与录制环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 90分] ccch1mneyyy/dsh-Go — 把DeepSeek Harness装进口袋：手机本机运行，也能遥控你的电脑。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-05</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>30173★ · 约24h +575；P1已确认；ossradar 24h +563实测、7d +6,423；把DeepSeek Harness装进口袋，手机端场景独特。 · 上手：手机App（Flutter），安装即用。</description>
-</item>
-<item>
-<title>[GitHub雷达 90分] omonkeyz/xbox-emulator — Xbox Series X|S在PC上运行的进展笔记（TomBox + rage9）。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-06</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>1313★ · 约24h +551；P2保持；GTA/Xbox重编译生态簇；创建仅2天。 · 上手：进展笔记/研究向，非可直接运行的模拟器，需自行跟进构建。</description>
-</item>
-<item>
-<title>[GitHub雷达 90分] R0Y00/Xbox2Windows — Xbox Series X|S（Scarlett）在x64 Windows上的静态重编译研究。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-07</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>1304★ · 约24h +381；P2保持；GTA/Xbox重编译生态簇；创建仅3天。 · 上手：研究向仓库，需自行编译，门槛较高。</description>
-</item>
-<item>
-<title>[GitHub雷达 89分] shinyobjectz/raea — Claude Code插件市场的轻量开发助手（v0.1.1桌面版）。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-08</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>4255★ · 约12h +549（LI 3,706→本版4,255）；P1已确认，今日02:00已报警不重复；ossradar第4位24h +1,042实测。 · 上手：按文档装入Claude Code插件市场即用，需自备Claude Code环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 88分] sybil-solutions/inference-optimisation-skill — Agent技能：爬坡式优化本地LLM服务速度（解码、推测…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-09</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>1953★ · 约24h +311；P2保持；ossradar 24h +280；本地LLM推理提速技能。 · 上手：按文档装入agent skills目录即用，需本地LLM服务环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 85分] realdody/americas-recomp — GTA Americas重编译（无描述，单快照，今日首次发现；fork率约16.3%）。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-new-20261123-04</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>GTA Americas重编译（无描述，单快照，今日首次发现；fork率约16.3%）。</description>
-</item>
-<item>
-<title>Anthropic 期权今日上市，股价逼近发行价：Cboe 11 月 20 日预告确认：ANT 期权 11 月 23 日…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-00</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>期权上市首日将成为 AI 龙头真实价格发现的试金石：绿鞋耗尽、隐含波动率 100–150%，后来者（OpenAI 等）的 IPO 定价与期权策略要按这个波动区间重算</description>
-</item>
-<item>
-<title>美国五大银行联手封堵第三方 AI Agent：WIRED 11 月 22 日报道：富国银行新客户协议 11 月 24 日…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-01</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>第三方 Agent 的“凭证登录”路径被系统性堵死，合规的官方 MCP 接入成了唯一出路：Agent 创业者的合规成本陡增，但做合规接入层的机会也随之出现</description>
-</item>
-<item>
-<title>亚马逊洽购以色列推理优化公司 Decart，约 75 亿美元：FT 11 月 21 日报道：亚马逊洽购 Decart 已…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-02</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>推理效率软件是 AWS 对抗英伟达的关键棋：谁能让模型跑得更便宜、释放芯片容量，谁就值钱；Decart 半年内估值从约 40 亿美元涨至约 75 亿美元，说明 hyperscaler 正在为这条线付并购价</description>
-</item>
-<item>
-<title>AI 扩张的物理代价：Anthropic 耗电估算引爆，花旗上调基建预测至 2.8 万亿美元：Better Data C…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-03</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 扩张的物理代价正在变成定价因素：耗电结构与碳排放会被放进模型公司的估值模型，而数据中心的地方阻力已经影响到中期选举；基建支出的上调则说明 hyperscaler 还在加码，两股力量对冲</description>
-</item>
-<item>
-<title>Claude 黎曼证明获 Lean 联合认证，人工证明现裂缝：Lean FRO 与 Mathlib 11 月 21 日联…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-04</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>数学证明正在变成 AI 能力的公开试金石：谁先拿出可验证的证明，谁就拿到下一轮模型能力叙事的主导权；Lean 形式化验证正在成为 AI 数学能力的标准考场，做验证工具与形式化服务的团队会受益</description>
-</item>
-<item>
-<title>OpenAI 首席科学家提议按困惑度给全行业限速：OpenAI 首席科学家 Jakub Pachocki 11 月 22…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-05</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>行业自我限速一旦落地，会直接改变模型公司的发布节奏与算力采购计划：能力阈值变成可交易的合规指标，做监测与评估工具的团队会先受益</description>
-</item>
-<item>
-<title>Etsy AI 训练条款逼走老卖家：关店抗议潮：Etsy 新条款 10 月 26 日发布、12 月 16 日生效：第 5…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-06</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>平台用条款拿走创作者内容的 AI 训练权，正在变成创作者经济的结构性冲突：卖家用关店投票，平台被迫承诺修订条款——做创作者数据确权与授权交易的团队会看到机会，但平台条款随时可改，风险同样高</description>
-</item>
-<item>
-<title>World Labs 82 亿美元交割完成，李飞飞入主 AMD：AMD 11 月 16 日宣布完成对 World Lab…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-20261123-07</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>世界模型＋机器人仿真成了 AMD 对抗英伟达的新故事：46 天闪电完成 82 亿美元全股票收购，李飞飞直接向苏姿丰汇报，模型公司的退出路径又多了一条——卖给芯片厂商</description>
-</item>
-<item>
-<title>[AI商业情报 机会 72分] 银行合规 Agent 接入：五大行堵死凭证登录，官方 MCP 接入成唯一出路</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261123-00</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>五大行集中改条款，把第三方 Agent 的操作风险转给用户：用客户账号密码登录的 Agent 路径被系统性堵死，但用户对“Agent 帮我处理银行事”的需求没消失</description>
-</item>
-<item>
-<title>[AI商业情报 机会 68分] 推理效率与“免 Key 用前沿模型”工具层：Decart 被洽购，dsh 插件 8.4 万星</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261123-01</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>亚马逊洽购 Decart 印证推理效率值钱；dsh 插件 8.4 万星说明“免 Key 用前沿模型”是真实需求，但免费额度随时可能变，工具层要跟着变</description>
-</item>
-<item>
-<title>[AI商业情报 机会 66分] AI 安全红队技能包与自主渗透测试：Agent 写代码越快，审代码的生意越好</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-23.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261123-02</guid>
-<pubDate>Mon, 23 Nov 2026 00:33:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Agent 写代码越快，代码里的安全漏洞就越多：Claude-BugHunter 两日涨超 3,500 星、ARTEX 七日涨 1.2 万星，说明市场在为“AI 审 AI”付费</description>
-</item>
-<item>
-<title>[内容雷达 88分] 墨西哥翼龙 / Mexico Pterodactyl — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">content-radar-20261122-00</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI内容格式</category>
-<description>仍是高分：11-14 引爆、4 天超 2220 万播放（Know Your Meme），一张照片 8 秒成本极低，videosi 11-22 周榜仍在列。但连续两日无新播放量数据，分数微调（90→88）。本土化切口：牵着翼龙逛菜市场 / 遛弯 / 接孩子放学，配中文旁白“它又跑丢了”；必须标注 AI 生成，不得冒充真实目击事件，谣言属性是红线。</description>
-</item>
-<item>
-<title>[内容雷达 89分] 《Deck the Halls》圣诞舞 AI / Deck the Halls Dance AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">content-radar-20261122-01</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI内容格式</category>
-<description>仍是高分：11 月最新、热度实证最强（单帖 480 万播放、#christmasdance 累计 12.7 亿播放）、圣诞节点加持，双人 / 亲子 / 情侣均可拍；今日无新数据，分数微调（90→89）。本土化切口：中式圣诞睡衣（家居服）、母女 / 闺蜜 / 情侣版，商场圣诞树场景；标注 AI 生成。</description>
-</item>
-<item>
-<title>[内容雷达 87分] GTA 5 告别 AI / GTA 5 Goodbye AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">content-radar-20261122-02</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI内容格式</category>
-<description>11 月最新、热度实证最强的新格式之一，与 GTA 6 上市（2026-11-19）强绑定，国内热榜只有 GTA 6 游戏内容、尚无 AI 告别格式；今日无新数据且发售日已过，分数微调（88→87）。本土化切口：告别的不只是 GTA 5——换成“告别青春游戏”（魔兽、CF、DNF、王者老版本）同款仪式感，配中文旁白“谢谢你陪了我 13 年”；标注 AI 生成，别用游戏官方素材冒充实机。</description>
-</item>
-<item>
-<title>[内容雷达 85分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">content-radar-20261122-03</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
-<category>AI内容格式</category>
-<description>仍是高分：11 月单条播放最高的趋势帖（3940 万）+ 趋势总计约 1.26 亿播放，一张照片 12 秒成本极低，圣诞窗口明确（至 12-25）。连续两日无新播放量数据，分数微调（87→85）。本土化切口：中式圣诞树场景（商场圣诞树、家里小圣诞树）、情侣 / 闺蜜 / 母女版，睡衣换成中式家居服；别用真人原片冒充，标注 AI 生成。</description>
+<description>11 月最新、热度实证最强的新格式之一，与 GTA 6 上市（2026-11-19）强绑定，国内热榜只有 GTA 6 游戏内容、尚无 AI 告别格式；今日无新数据且发售日已过，分数微调（87→86）。本土化切口：告别的不只是 GTA 5——换成“告别青春游戏”（魔兽、CF、DNF、王者老版本）同款仪式感，配中文旁白“谢谢你陪了我 13 年”；标注 AI 生成，别用游戏官方素材冒充实机。今日无新数据，分数微调（86→85）。</description>
 </item>
 <item>
 <title>[内容雷达 86分] 圣诞灯妻 / My wife every year on November 1st — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">content-radar-20261122-04</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-06</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI内容格式</category>
-<description>今日唯一新格式：11 月 1 日原帖 2 天 140 万播放、第二账号同格式 130 万播放，双账号证实；一张照片 8 秒成本极低，圣诞节点明确。本土化切口：夫妻 / 情侣 / 室友版，妻子换成穿红袄拖着彩灯的家人，冰箱换成客厅/厨房日常场景，配中文文案“每年 11 月 1 日我老婆准时发疯”；新颖度扣分因去年已有 Christmas Lights Wife 旧版。标注 AI 生成。</description>
+<description>11 月 1 日原帖 2 天 140 万播放、第二账号同格式 130 万播放，双账号证实；一张照片 8 秒成本极低，圣诞节点明确。今日无新数据，分数微调（86→85）。本土化切口：夫妻 / 情侣 / 室友版，妻子换成穿红袄拖着彩灯的家人，冰箱换成客厅/厨房日常场景，配中文文案“每年 11 月 1 日我老婆准时发疯”；新颖度扣分因去年已有 Christmas Lights Wife 旧版。标注 AI 生成。Jump on the Trend 估算趋势总播放约 2,800 万，分数微调（85→86）。</description>
 </item>
 <item>
-<title>[内容雷达 83分] 极品飞车 AI / Need For Speed AI — 值得低成本试</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">content-radar-20261122-05</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
+<title>[内容雷达 85分] 雪人舞 / Snowman Dance 情侣舞 — 值得低成本试</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">content-radar-20261124-07</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI内容格式</category>
-<description>11 月最新、数日内多点开花（24 小时 19 位创作者跟发），车主受众极大，一张照片即可；今日无新数据，分数微调（84→83）。本土化切口：国产车（小米 SU7、问界、比亚迪）版、老车翻新版、电动车静音甩尾反差版；别用真实车祸画面冒充，标注 AI 生成。</description>
+<description>仍是高分：11 月单条播放最高的趋势帖（3940 万）+ 趋势总计约 1.26 亿播放，一张照片 12 秒成本极低，圣诞窗口明确（至 12-25）。连续三日无新播放量数据，分数微调（85→84）。本土化切口：中式圣诞树场景（商场圣诞树、家里小圣诞树）、情侣 / 闺蜜 / 母女版，睡衣换成中式家居服；别用真人原片冒充，标注 AI 生成。播放量口径有存疑处（1.26 亿未说明统计口径），分数微调（84→85）。</description>
 </item>
 <item>
-<title>[新站 跟进] AlterContacts（altercontacts.ai）— 语音优先的 AI 客户关系助手：会后语音记录自动归档到对应客户、更新画像、提醒续约与个人里程碑，早…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">indie-20261122-00</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
+<title>[新站 跟进] Letter Visitors（letter.dev）— 在你自己的网站上直接看到访客是谁：访客姓名 / 职位 / 公司、来源渠道，以及哪些 AI 智能体读了你的页…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">indie-20261124-00</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI独立站</category>
-<description>日榜第 1 且评论量高（58 条），语音记客户跟进是明确刚需、场景具体；创始人做过 26 位顾问的一手访谈，产品有真实用户调研背书。需跟踪 Pro 定价与续费情况。另注：11-21 日榜 16:00 才定榜，排名为 12:00 实时排名。</description>
+<description>PH 日榜第 1 且评论量高（60 条）；“AI 智能体正在读你网站”是个新切口——把访客识别、会话回放、Slack 提醒、跟进序列做进自家站内，省去切换仪表盘；注意 Letter 本身是 Newsletter 平台，Visitors 是其新产品线而非全新公司，定价 $100 起偏 B2B，个人创作者直接用不上，看的是“站内访客识别 + AI 代理来访”模式。</description>
 </item>
 <item>
-<title>[新站 观望] AI Context Flow（plurality.network）— 跨 AI 的统一记忆与上下文服务：存一次上下文，在 ChatGPT、Claude、Gemin…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">indie-20261122-01</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
+<title>[新站 跟进] Motionflare（motionflare.ai）— 粘贴网址，AI 读取真实产品截图、Logo、品牌色与文案，几分钟生成可分享的品牌宣传视频 / 广告片，可对…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">indie-20261124-01</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI独立站</category>
-<description>2.0 是 2025 年产品的再上线，非全新站；跨 AI 记忆是真痛点、MCP 接入与分桶/版本历史具体，但 5,000+ 用户为创始人自述、未独立核实，且记忆类产品面临各家原生记忆功能的竞争；先观望 2.0 口碑。另注：11-21 日榜 16:00 才定榜，排名为 12:00 实时排名。</description>
+<description>PH 日榜第 2；“发视频不用请 $10k 的代理公司”是明确痛点，Motion（90 秒动态图形）与 Film（5–45 秒真人风广告）双模式、只改指定部分的产品细节具体；与本雷达视频格式主线直接相关——它把 AI 视频生成落到“产品发布视频”这一刚需场景。注意 PH 页首次发布为 11-14，11-23 是登顶日。</description>
 </item>
 <item>
-<title>[新站 跟进] Glassmail（glassmail.app）— 原生 Mac 邮件客户端，AI 完全在本地运行（Apple Intelligence 或自下载小模型），不设邮件…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-22.html</link>
-<guid isPermaLink="false">indie-20261122-02</guid>
-<pubDate>Sun, 22 Nov 2026 04:10:00 +0000</pubDate>
+<title>[新站 观望] Modem（modem.ai）— 监控客服工单、销售电话、Slack / Discord 等客户渠道，几分钟内发现产品问题，自动建单、交给 coding agent…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
+<guid isPermaLink="false">indie-20261124-02</guid>
+<pubDate>Tue, 24 Nov 2026 04:30:00 +0000</pubDate>
 <category>AI独立站</category>
-<description>隐私 + 一次买断是明确差异化（对标每月 $10–30 且把邮件发上云的同类），定价透明、产品已可用；需跟踪 macOS 本地 AI 实际体验与 1.x 之后的大版本收费。另注：11-21 日榜 16:00 才定榜，排名为 12:00 实时排名。</description>
+<description>日榜第 4 但声量弱于前两名（29 评论）；“投诉→修复→跟进”闭环是真痛点，Sentry 背景可信；但 2.0 是 8 月产品的再上线、非全新站，且面向产品团队的 B2B 工具，个人创作者直接用不上，看的是“客户反馈自动成单 + 修复后自动跟进”模式。先观望 2.0 口碑。</description>
 </item>
 <item>
-<title>美股 AI 血崩周：纳指周跌约 10%、抹去年内涨幅，Anthropic 跌回发行价附近：纳斯达克周五再跌 5.28% …</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
-<guid isPermaLink="false">ai-intel-20261122-00</guid>
-<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>IPO 成了“卖消息”节点：公开市场对 AI 的定价锚从叙事转向现金流与单位算力回报；后来者（OpenAI 等）的 IPO 定价要按发行价附近重算，而非首日开盘价</description>
+<title>[GitHub雷达 97分] ivall/xcl — Xbox Series兼容层：让主机游戏代码在Windows上原生运行。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-00</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>2053★ · P1今日已确认：LO分片588→LP 1,641→本版2,053，约6.5小时+1,465；本版约0.5小时+408≈+816/h，两轮连续加速；fork率约10.7%健康；GTA/Xbox重编译生态簇扩展。 · 上手：需自行编译运行，门槛较高。</description>
 </item>
 <item>
-<title>智谱、MiniMax 大跌：Anthropic IPO 冲击波传导至港股：11 月 20 日恒生科技指数一度跌超 4%；…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
-<guid isPermaLink="false">ai-intel-20261122-01</guid>
-<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Anthropic 的公开定价正在成为后来者的估值锚：资本评估重心从模型跑分转向单位算力回报、毛利率、经营现金流与客户留存；中国模型公司的稀缺性溢价被直接冲击</description>
+<title>[GitHub雷达 96分] Marvisak/VIctory — 尝试让GTA VI在PC上运行（Rust重写/重编译尝试）。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-01</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>1673★ · P1待确认新立：今日首次发现，创建仅约3小时；LP分片1,337→本版1,673，约0.5小时+336≈+672/h；fork率约9.2%健康；GTA/Xbox重编译生态簇新核心，Leonida删除后的接力者。 · 上手：早期研究向，需自备游戏文件与构建环境，门槛较高。</description>
 </item>
 <item>
-<title>GPT-6.2 Astra 具身实测翻倍：Ember-0 成功率 41.2%，两个月较 GPT-6 Astra 翻倍：机…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
-<guid isPermaLink="false">ai-intel-20261122-02</guid>
-<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>通用大模型能力正直接传导为机器人操作能力：具身智能的竞争焦点从专用模型转向主力模型＋评测基准；评测、真机数据与低延迟推理成为新的瓶颈与生意</description>
+<title>[GitHub雷达 95分] elementalsouls/Claude-BugHunter — Claude Code漏洞猎手技能包：82个skills + 15条斜杠命令，面向…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-02</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>19748★ · 约24h +1,999，今日全场最大核实增量；P1已确认；Trending日榜第1位；6h +378（约+63/h）后本版+34/约0.5h（约+68/h），pace维持。 · 上手：按文档装入Claude Code skills目录即用，需自行承担授权合规责任。</description>
 </item>
 <item>
-<title>谷歌 RSI 论文降温：改进的是外挂 harness，不是模型权重：谷歌论文《Self-Improvement Memo…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
-<guid isPermaLink="false">ai-intel-20261122-03</guid>
-<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>给 Agent 创业者提了个醒：把改进经验存下来、跨模型复用是真实需求，但“自我改进”有明确边界——换代模型可能让旧经验失效，harness 记忆是工程优化，不是模型进化</description>
+<title>[GitHub雷达 94分] BaaRai/ARTEX — AI自主渗透测试系统：英文翻译版，上游Autumn-27/ARTEX。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-03</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>17719★ · 约24h +1,482；P1已确认；ossradar +867（11-23数据版）；6h +336（约+56/h）后本版+20/约0.5h（约+40/h）。 · 上手：按文档部署，需自备模型API与测试环境。</description>
 </item>
 <item>
-<title>DeepSeek V1 作者创业项目 Linger 曝光：开源本地 Personal Agent：前 DeepSeek …</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
-<guid isPermaLink="false">ai-intel-20261122-04</guid>
-<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>“本地＋开源”正在成为对抗云端定价权的另一条路：不按 Token 付费、数据不出本机，对高隐私个人与小团队是真实卖点；DeepSeek 系人才外溢创业，供给侧正在变多</description>
+<title>[GitHub雷达 93分] EL4CTEO/fast-anything — 只把最慢的5%热点函数交给coding agent移植成Rust，500次实测调用验证、可逆，不用全量…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-04</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>3119★ · 约24h +1,232；P1已确认；HN帖172分+GitNova爆发度8.7/10为独立传播证据；增速回落（6h +120约+20/h，本版+9/约0.5h约+18/h）。 · 上手：npm一行安装，须自备Rust工具链。</description>
 </item>
 <item>
-<title>折扣 Token 转售商之死：官方直销＋聚合路由＋封号收紧三面夹击：钛媒体文章指出，模型 Token 正在变成消费品：双…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-22.html</link>
-<guid isPermaLink="false">ai-intel-20261122-05</guid>
-<pubDate>Sun, 22 Nov 2026 00:50:00 +0000</pubDate>
+<title>[GitHub雷达 92分] erkamyaman/rust-anything — 把整个应用逐块重写成Rust，每块都对照原应用录制的行为做校验。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-05</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>8702★ · 约24h +722；6h +104（约+17/h）继续回落，P1待确认保持关闭；ossradar +523实测与连接器pace一致。 · 上手：按文档跑对照重写流程，需自备Rust工具链与录制环境。</description>
+</item>
+<item>
+<title>[GitHub雷达 90分] omonkeyz/xbox-emulator — Xbox Series X|S在PC上运行的进展笔记（TomBox + rage9）。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-06</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>1657★ · 约24h +344；P2保持；GTA/Xbox重编译生态簇；创建仅3天。 · 上手：进展笔记/研究向，非可直接运行的模拟器，需自行跟进构建。</description>
+</item>
+<item>
+<title>[GitHub雷达 90分] R0Y00/Xbox2Windows — Xbox Series X|S（Scarlett）在x64 Windows上的静态重编译研究。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-07</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>1501★ · 约24h +197；P2保持；GTA/Xbox重编译生态簇；创建仅4天。 · 上手：研究向仓库，需自行编译，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 89分] AFK-surf/xnulinux — XNU作Linux可加载内核模块：给arm64 Linux一个macOS personality。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-08</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>2039★ · P1待确认保持：LP +454/约6.0h→本版+32/约0.5h约+64/h，pace维持；24h pace约+1,500≥300线；fork率约3.8%健康；无新增传播证据，不确认。 · 上手：内核模块，需自行编译加载，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 89分] shinyobjectz/raea — Claude Code插件市场的轻量开发助手（v0.1.1桌面版）。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-20261124-09</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>4693★ · 约24h +438；P1已确认；ossradar +403（11-23数据版）；6h +39（约+7/h）回落。 · 上手：按文档装入Claude Code插件市场即用，需自备Claude Code环境。</description>
+</item>
+<item>
+<title>[GitHub雷达 86分] 4lwayz/portwatch-vi — GTA VI能否在PC运行的实时追踪页（今日首次发现；LP分片445→本版497，半小时窗口待下轮确认，P…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-24.html</link>
+<guid isPermaLink="false">repo-radar-new-20261124-04</guid>
+<pubDate>Tue, 24 Nov 2026 00:39:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>GTA VI能否在PC运行的实时追踪页（今日首次发现；LP分片445→本版497，半小时窗口待下轮确认，P2暂不立）。</description>
+</item>
+<item>
+<title>英伟达：黄仁勋复职，股价单日暴涨 31.48%：英伟达董事会 11 月 22 日全票通过，恢复黄仁勋总裁、CEO 与董事…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-00</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
 <category>AI商业情报</category>
-<description>中间商模式被证伪：靠信息差与地理套利赚差价的生意正在死亡，活下来的是收路由、信任与集成费的中间层；对创业者是选边信号——别做折扣转售，做合规聚合与路由</description>
+<description>“人”就是市值：单日涨幅证明市场把英伟达的 AI 叙事与黄仁勋个人深度绑定；复职一日即收复上周五 14% 跌幅并带动全市场反弹，芯片股与 AI 基建股的定价锚重新回到“黄仁勋在位”这一前提上</description>
+</item>
+<item>
+<title>亚马逊确认收购 Decart 技术，约 75 亿美元：亚马逊 11 月 23 日官方宣布签署协议，收购以色列 Decar…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-01</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>从传闻变签约，推理效率层正式成为 hyperscaler 的并购标的：亚马逊买的是让 Trainium 跑得更快、更便宜的能力，Trainium 准备对外销售、直接对标英伟达；约 100 人的团队卖出 75 亿美元，说明“让芯片跑满”的软件比芯片本身更稀缺</description>
+</item>
+<item>
+<title>Anthropic 期权首日 + Claude Ship 发布：ANT 期权 11 月 23 日开始交易：首日约 60.…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-02</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>期权首日波动率低于预期，说明市场对 ANT 的定价分歧在收敛而非放大；Claude Ship 把 Anthropic 的变现从“写代码”推进到“审代码、合代码”——代码审查是每个工程团队都有的经常性支出，按 Token 计费的新收入线</description>
+</item>
+<item>
+<title>弗吉尼亚、俄勒冈两州起诉 SpaceX/Grok：弗吉尼亚与俄勒冈州检察长 11 月 23 日分别起诉 SpaceX 及…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-03</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>州检察长正式接管 AI 监管：联邦层面缺乏行动时，州政府用消费者保护法当抓手，AI 图像生成产品的合规成本从“可选项”变成“生死线”；Grok 的“spicy mode”式激进功能设计今后会被所有竞品当作反面教材</description>
+</item>
+<item>
+<title>OpenAI 与思科开源 Shirudo：AI Agent 守 Linux 内核：OpenAI 与思科 11 月 23 …</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-04</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>安全 Agent 从“找漏洞”进化到“自动挡漏洞”：补丁窗口期（发现→修复）是企业最脆弱的时段，Shirudo 把这段窗口变成可售卖的服务；思科的 infra 渠道 + OpenAI 的模型能力组合，是 Agent 安全商业化的新范式</description>
+</item>
+<item>
+<title>GLM-5.4 上线：智谱 Loop Transformer 旗舰：智谱（Z.ai）11 月 23 日上线 GLM-5.…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-05</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>“循环换深度”成为中国厂商降本的新路线：不堆参数、靠复用层数提升推理能力，直接对冲算力成本；订阅先行、API 后开的打法说明智谱先收开发者订阅的钱，再谈生态</description>
+</item>
+<item>
+<title>Supertake 种子轮 2000 万美元：把观点变成投资组合：AI 投资创业公司 Supertake 11 月 23…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
+<guid isPermaLink="false">ai-intel-20261124-06</guid>
+<pubDate>Tue, 24 Nov 2026 00:35:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Agent 金融从“帮你查”走到“帮你投”：把观点翻译成组合是 robo-advisor 之后的新形态，种子轮 2000 万美元说明资本愿意为“信任”这个最难的环节下注；但投顾牌照、合规与信任是三重门槛</description>
 </item>
 </channel>
 </rss>

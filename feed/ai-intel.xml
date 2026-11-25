@@ -6,7 +6,95 @@
 <description>每天 08:30 的 AI 商业情报 TOP7 与机会。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/ai-intel.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Tue, 24 Nov 2026 00:35:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 00:36:00 +0000</lastBuildDate>
+<item>
+<title>Anthropic 跌破发行价：上市第 4 天收盘破发：ANT 11 月 24 日收 81.91 美元（-6.54%），…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-00</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>史上最大 IPO（募资 935 亿美元，含超额配售）4 天即破发，是 AI 板块公开市场定价的风向标：TechCrunch 称若持续走弱，将压制未上市 AI 创业公司的估值与后续 IPO 前景；七位创始人已在发行价套现约 19.5 亿美元，市场会把“破发”读作信心投票</description>
+</item>
+<item>
+<title>戴尔 Q3：AI 积压 1323 亿美元，创纪录：戴尔 11 月 24 日发布 FY27 Q3 财报（季度截至 10 月…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-01</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>与 Anthropic 破发同日，戴尔证明 AI 需求端的真金白银没有停：602 亿美元单季订单且“逐单审核客户质量与资金、土地、电力”，说明积压不是纸面数字；硬件环节的景气度与模型公司的股价波动正在脱钩——卖铲子的人先收到钱</description>
+</item>
+<item>
+<title>英伟达回吐 5.86%：复职涨幅吐回约 2400 亿美元市值：NVDA 11 月 24 日收 155.38 美元（-5.…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-02</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>复职行情一日回吐近两成涨幅，说明市场对“黄仁勋回来”的定价已完成，下一变量回到调查结论与作证；Bernstein 上调评级显示卖方仍看多，但 5.86% 的回吐证明波动率本身就是这只股票的常态</description>
+</item>
+<item>
+<title>沃尔玛×Meta Muse：黑五购物交给 AI Agent：沃尔玛 11 月 24 日宣布与 Meta 合作，顾客可在 …</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-03</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>Agent 购物从演示变成黑五实战：沃尔玛用“官方接入”抢 Agent 时代的货架，亚马逊用“封堵”保自己的流量入口——两条路线分出胜负前，接入层（Gateway）是确定的生意：谁帮商家接进各家 Agent，谁就收过路费</description>
+</item>
+<item>
+<title>字节跳动巴西数据中心：一期 200MW，2027 年 Q3 投运：36氪 11 月 24 日报道：字节跳动在巴西塞阿拉州…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-04</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>中国大厂出海建算力的新样本：巴西可再生能源占比 86.8%（2025 年）、电价与土地便宜，但无税收减免时建造成本比别国高近 40%（进口税）；塞阿拉州在建容量 227 兆瓦、绝大部分已被一家中国大厂预租，建成后当地规模暴增 1179.7%——算力出海的下一站不在美国，而在有绿电、有政策的南方市场；但美国 11 月 19 日的新规把巴西纳入芯片出口许可范围，硬件进口是悬顶变量</description>
+</item>
+<item>
+<title>百度文心 5.5 Flash Preview 开源：280B，Apache 2.0：百度 11 月 24 日开源文心 5…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-05</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>百度把旗舰级轻量模型彻底开源（Apache 2.0 可商用），与智谱 GLM-5.4（11 月 23 日，订阅先行）形成对照：一条路是订阅收钱，一条路是开源换生态；对创业者而言，280B/14B 激活 + 100 万上下文的可商用权重，意味着本地部署一个强推理模型不再需要买闭源 API</description>
+</item>
+<item>
+<title>蚂蚁 LingSante 医疗模型开源：560B，MIT 协议：蚂蚁集团 11 月 23 日发布百灵医疗健康模型家族并开…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-06</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>开源模型正在啃医疗这块高门槛领域：560B 医疗专项模型 + MIT 协议，意味着医院、科研机构与开发者可以本地私有化部署一个医疗推理模型，而不必把病历数据送进闭源 API；但“非医疗器械”的红线也划清了商业边界——卖的是科研辅助与数据处理，不是诊疗本身</description>
+</item>
+<item>
+<title>黑客 AI Agent 自主挖出 0-day：11 分钟拿下 root：亚马逊 11 月 24 日披露：黑客的 AI A…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-20261125-07</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>攻击侧 Agent 已经从“辅助”变成“自主执行”：11 分钟从 0 到 root，意味着漏洞窗口期的防御时间被压缩到分钟级；与此同时 Anthropic 的 Siren 说明防御侧也在把“抓 Agent 越狱”做成产品——攻防双方同时付费，是当前最确定的 Agent 安全需求</description>
+</item>
+<item>
+<title>[AI商业情报 机会 72分] Agent 购物接入层：帮中小商家接进沃尔玛 Agent Gateway 与 Muse</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261125-00</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>沃尔玛 11 月 24 日把黑五交给 Meta Muse，Agent Gateway 10 月上线、现向更多开发者与 AI 平台开放；Instacart 已接入。零售商选边站队后，中小商家面临的问题是：商品信息、库存、订单如何接进各家 Agent——商家自己不会接，Agent 平台也不会一家家谈</description>
+</item>
+<item>
+<title>[AI商业情报 机会 71分] AI 安全攻防服务：红队审计与分钟级入侵检测</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261125-01</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>黑客用 Cairn 的 AI Agent 11 分钟自主挖出 0-day（Amazon 11-24 披露），Palo Alto 称 25 次自主行动、至少 10 个组织被入侵；Anthropic 同日发布 Siren 蜜罐抓 Agent 越狱；英国警告 AI 驱动的网络攻击正在暴露多年短板。攻击侧 Agent 已经自主化，防御侧的检测窗口被压缩到分钟级</description>
+</item>
+<item>
+<title>[AI商业情报 机会 66分] 垂直开源模型本地部署与微调：医疗、编程场景的私有化服务</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-25.html</link>
+<guid isPermaLink="false">ai-intel-opp-20261125-02</guid>
+<pubDate>Wed, 25 Nov 2026 00:36:00 +0000</pubDate>
+<category>AI商业情报</category>
+<description>一天之内两个可商用大权重开源：百度文心 5.5 Flash Preview（280B，Apache 2.0）与蚂蚁 LingSante-3.1-flash（560B 医疗，MIT 协议）；本地推理也在变快（Basalt 把 Qwen3.8-Flash-Next 打包成单文件本地跑，700 Tokens/秒，AlphaSignal 11-24）。医院、律所、研发团队想要“数据不出内网”的强模型，但自己不会部署、不会微调、不会量化</description>
+</item>
 <item>
 <title>英伟达：黄仁勋复职，股价单日暴涨 31.48%：英伟达董事会 11 月 22 日全票通过，恢复黄仁勋总裁、CEO 与董事…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-24.html</link>
@@ -318,94 +406,6 @@
 <pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
 <category>AI商业情报</category>
 <description>AI 音乐的竞争格局第一次被改写：自 2023 年赛道兴起，Suno 的最新旗舰从未在 AA 榜单上被正面击败；ACE 的打法是“专业工具先沉淀数据（300 万条创作轨迹），再训基座模型”，而不是直接烧钱训模型——这条“工具→数据→模型”的路径对垂直领域创业者可复制；同时 4000 万美元融资说明资本仍在为“垂类榜首”买单</description>
-</item>
-<item>
-<title>Signal 默认屏蔽截图，挡 Siri AI 与 Gemini 读屏：Signal 总裁 Meredith Whitt…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-21.html</link>
-<guid isPermaLink="false">ai-intel-20261121-07</guid>
-<pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>平台对 Agent 的“堵”再进一步：从 eBay 封第三方 Agent、美联航禁令，到 Signal 直接改产品挡系统级助手——“Agent 能读什么”正在变成平台规则，而不是产品功能；对创业者而言，Agent 的权限合规与隐私审计（何时能读屏、读通知、读文件）是真实的付费需求，Meta Muse 串号事件（11 月 19 日）与 Signal 的反制是同一枚硬币的两面</description>
-</item>
-<item>
-<title>[AI商业情报 机会 74分] Agent 技能包（Skills）商业化：把可复用的工作流做成可售卖的技能</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-21.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261121-00</guid>
-<pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>GitHub Trending 日榜前 16 里 7 个与 Agent Skills 相关：Claude-BugHunter 日榜第 1（14,249 星，今日 +1,622）、superpowers 第 2（322,834 星，+890）、CLI-Anything 第 3（61,376 星，+773）、diagram-design 第 9（69,272 星，+636）、last30days-skill 第 10（71,444 星，+681）、stitch-skills 第 11（11,030 星，+315，谷歌官方）、app-store-compliance 第 12（2,731 星，+86…</description>
-</item>
-<item>
-<title>[AI商业情报 机会 64分] 语音 Agent 替人打电话办事：从“帮你写”到“帮你打”</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-21.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261121-01</guid>
-<pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>谷歌研究博客 11 月 20 日：Duplex 已进化到可在 Gemini 里替用户给商家打电话；Meta Muse Ember 同月已开始付费代打美国商家电话；Signal 同日反向屏蔽读屏，说明“Agent 替人办事”已是真实需求、真实摩擦并存；语音 Agent 从 demo 进入“替人打电话”这一可计费场景</description>
-</item>
-<item>
-<title>[AI商业情报 机会 62分] AI 音乐垂类：专业工具沉淀数据，再训自己的小模型</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-21.html</link>
-<guid isPermaLink="false">ai-intel-opp-20261121-02</guid>
-<pubDate>Sat, 21 Nov 2026 00:45:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>ACE Music v1 11 月 10 日登顶 AA 人声榜（1160 分，超 Suno v6 16 分），路径是“专业工具先行”：ACE Studio 工作台 8 年积累超 300 万条专业创作轨迹，再用 18 个月训出榜首模型；9 月融资近 4000 万美元；证明垂类音乐的胜负手是“专业数据 + 审美”，不是算力规模</description>
-</item>
-<item>
-<title>Anthropic 上市首日：开盘 111.50 美元，收盘 97.17 美元（+17.07%）：Anthropic 1…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-00</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 实验室 IPO 的定价锚落地：首日冲高回落说明公开市场愿意为 Anthropic 付约 1.7–1.8 万亿美元完全稀释估值，但不接受开盘 2 万亿美元；这是 OpenAI 等后来者 IPO 的直接参照系；亚马逊/谷歌合计持股近 30% 加 260 亿美元私募配售，把云与芯片巨头绑成利益共同体</description>
-</item>
-<item>
-<title>Anthropic IPO 或为慈善输送 1560 亿美元（TechCrunch 估算）：TechCrunch 11 月…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-01</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 实验室第一次把“赚钱为谁服务”写进公开账本：约 20% 的股份被划给公益用途，AI 安全研究与有效利他主义机构（GiveWell、Longview 等）可能获得史上最大单笔资金池；对创业者而言，这意味着 AI 安全、劳动者转型、UBI 试验等方向未来几年会有真实的资助方，而不只是口号</description>
-</item>
-<item>
-<title>美国商务部批准 87.9 万枚 AI 芯片售华（众议院外委会披露）：众议院外交事务委员会 11 月 19 日公开商务部产…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-02</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>AI 芯片出口管制第一次有了公开的数量账本：管制不是铁板一块，约四分之一的申请获批；中国头部云厂商与车企仍能拿到上一代旗舰算力，国内算力租赁与模型公司的竞争格局因此多了一个变量；同时披露本身（正值黄仁勋风波发酵期）说明芯片出口已成为美国国内政治议题，政策随时可能收紧</description>
-</item>
-<item>
-<title>Everful：A 轮 4850 万美元，AI Agent 做跨境采购，年底 ARR 有望 1 亿美元：连接中小零售商与…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-03</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>B2B 采购 Agent 化的收入验证：不到 3 年做到 1 亿美元 ARR  run rate，说明“替中小卖家把采购全流程干完”比单纯撮合交易更值钱；美国取消 800 美元以下 de minimis 免税反而利好其“B2B 采购 + 本地销售”模式；对标阿里巴巴国际站与 Faire，差异化在“对结果负责”而非只提供交易场所</description>
-</item>
-<item>
-<title>联想 Q2 财报：营收 302.38 亿美元（+48%），AI 服务器营收 +361%：联想集团 11 月 19 日发布…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-04</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>卖铲子的人赚到了真金白银：AI 服务器从“讲故事”变成联想最大的增长引擎，5300 亿元储备订单意味着未来几个季度的收入已经锁定；ISG 运营利润首破 10 亿美元，说明 AI 基建的规模效应开始兑现；对创业者而言，算力租赁与 AI 服务器分销的窗口仍在，但联想这种体量的玩家进场后，价格战会从 Token 打到硬件</description>
-</item>
-<item>
-<title>AWS：Agent 可用美元按次购买 Marketplace 产品（x402 接入账单）：AWS 11 月 19 日宣布…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-05</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Agent 经济的收银台正式开张：按次付费的工具与数据第一次有了企业级结算通道（预算上限 + 审批卖家名单 + 审计），Agent 自主采购从 demo 变成可上生产的功能；对工具与数据卖家而言，AWS Marketplace 多了一个“卖给 Agent”的分发渠道；对创业者而言，做 x402 工具的变现路径第一次清晰：上架 Marketplace，按次收费，AWS 代收</description>
-</item>
-<item>
-<title>Meta Muse 串号曝隐私风波，硬件 Muse Charm 定价 300 美元：路透 11 月 19 日报道（Tec…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/ai-intel-2026-11-20.html</link>
-<guid isPermaLink="false">ai-intel-20261120-06</guid>
-<pubDate>Fri, 20 Nov 2026 00:40:00 +0000</pubDate>
-<category>AI商业情报</category>
-<description>Agent 越能干，信任成本越高：Muse 串号事件说明“跨应用调用 + 记忆”一旦串线就是隐私事故，权限隔离与审计将成为 Agent 产品的标配成本，也给第三方 Agent 安全与合规服务留出付费位置；硬件端 300 美元定价说明 Meta 要把 Muse 从应用变成随身设备，AI 穿戴的第二次冲锋开始，但 Humane Ai Pin 的前车之鉴仍在</description>
 </item>
 </channel>
 </rss>

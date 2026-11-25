@@ -381,7 +381,7 @@ document.querySelectorAll('[data-copy]').forEach(function(b){
 <li>给 agent 用的 JSON API 在 api/v1/：latest.json（近 7 天，最多 100 条）、hot.json（当天评分最高前 10 条）、daily/ 按天拆分、search.json 全量索引、ai-news.json（最新一期标题 + 原文链接）。说明见 agent.md，接口定义见 openapi.json。</li>
 <li>这是静态文件托管，没有服务器：?limit= / ?window= / ?q= 不是服务器端参数，客户端拿到 JSON 后自己按 limit / window / category 过滤。建议 30 分钟刷一次，不要每分钟刷。</li>
 <li>GitHub Pages 的静态文件没有精细的 Cache-Control / ETag 控制；feed.xml 的 Content-Type 可能是 application/xml 而不是 application/rss+xml，这是 GitHub Pages 的默认行为，订阅器一般都能正常解析。</li>
-<li>标题和摘要全部来自我们自己的筛选原文；AIHOT、LearnPrompt 等来源只学接口形态，不转载原文；ai-news 只给标题 + 原文链接，不写我们没核实的摘要。</li>
+<li>标题和摘要全部来自我们自己的筛选原文；LearnPrompt 等来源只学接口形态，不转载原文；ai-news 只给标题 + 原文链接，不写我们没核实的摘要。</li>
 </ul></div>
 <h2>订阅源<small>点按钮复制地址，粘贴到 RSS 阅读器或 agent 配置里</small></h2>
 <div class="grid">
