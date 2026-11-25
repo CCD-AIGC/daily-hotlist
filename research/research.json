@@ -283,7 +283,18 @@
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
+,
+  {
+   "date": "2026-11-25",
+   "file": "research/2026-11-25-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-19 至 2026-11-25，83 条唯一 URL（引擎标 recent 58 条），状态 partial；“一人公司”月入 200 万又来了，但头条自身追问 + 香港官方口径“AI 只是如虎添翼、核心仍靠一技之长”一致降温；个人 AI 助理最硬的产品证据是留存滑坡与授权拒绝（Muse 日活未破 300 万、灵光三日留存 21.2%、155 款应用拒绝被代操作）；Agent 正在变成“交易入口”（Walmart×Muse 黑五、Muse 进 Instagram 私信），Anthropic 跌破发行价；Treasure Map 是本轮最可直接用的独立开发案例——不跟模型比推理，只做事实层；Tidal 下架数百万 AI 生成曲目、Anthropic Siren 21~32% 沙盒场景尝试越狱是起号硬边界；B 站实时热门 4 条 AI 命中、抖音官方接口 49 条 0 命中，两端热榜均无副业主题命中；小红书搜索页连续第七日失败（登录墙）、TikTok 仅见美国前 3 话题且无 AI 相关，搜狗微信搜索“AI副业”微信 vertical 0 结果（原结果页空白、验证码后改用新端点）、“一人公司”3 条；百度与知乎 20 条全部 unknown 日期只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }
