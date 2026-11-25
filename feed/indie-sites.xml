@@ -6,7 +6,23 @@
 <description>每天 0–5 个首次发现的新爆款 AI 独立站。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Tue, 24 Nov 2026 04:30:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 04:10:00 +0000</lastBuildDate>
+<item>
+<title>[新站 跟进] Clam AI（useclam.ai）— 给 AI agent 的 Gmail 权限层：用自然语言写规则，agent 只能看到规则允许的邮件、其余一律拒绝，敏感操作…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-25.html</link>
+<guid isPermaLink="false">indie-20261125-00</guid>
+<pubDate>Wed, 25 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 3；“信任不该交给 agent，而该被强制执行”是新切口——MCP 时代的权限层，Gmail 只是起点，之后扩展到所有工具；与本雷达读者的 agent 工作流直接相关。注意：仍在封测（capped beta），14 天试用后定价未公布，留存未验证。</description>
+</item>
+<item>
+<title>[新站 跟进] Granular.Build（granular.build）— 把多个 AI agent 放进可视化工作台：一个 boss agent 拆任务、雇佣多模型 work…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-25.html</link>
+<guid isPermaLink="false">indie-20261125-01</guid>
+<pubDate>Wed, 25 Nov 2026 04:10:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 2；“一个 boss agent 雇一队 agent”的可视化工作台是明确痛点，创始人有成功退出背景且产品自用（dogfooding）；注意 PH 页首次发布为 11-18，11-24 是登顶日，且 Pro 具体定价未公开，先看口碑。</description>
+</item>
 <item>
 <title>[新站 跟进] Letter Visitors（letter.dev）— 在你自己的网站上直接看到访客是谁：访客姓名 / 职位 / 公司、来源渠道，以及哪些 AI 智能体读了你的页…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-24.html</link>
