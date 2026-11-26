@@ -6,7 +6,31 @@
 <description>每天 0–5 个首次发现的新爆款 AI 独立站。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Wed, 25 Nov 2026 04:10:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 04:15:00 +0000</lastBuildDate>
+<item>
+<title>[新站 跟进] MyClaw 3.0（myclaw.ai）— 托管版 OpenClaw 团队：在云端常开电脑上跑 OpenClaw / Claude Code / Codex 等 …</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-26.html</link>
+<guid isPermaLink="false">indie-20261126-00</guid>
+<pubDate>Thu, 26 Nov 2026 04:15:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 1；“把 OpenClaw 变成不用自己搭服务器的常开团队”是明确痛点，与本期 02 节 OpenClaw 信号同线；注意 3.0 是托管版、credits 消耗与留存未验证，先看口碑。</description>
+</item>
+<item>
+<title>[新站 跟进] Airbot（airbot.ai）— 住在 WhatsApp / iMessage 里的个人首席幕僚：每晚扫邮箱、日历、通话与 CRM，早上先发消息告诉你什么最重要…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-26.html</link>
+<guid isPermaLink="false">indie-20261126-01</guid>
+<pubDate>Thu, 26 Nov 2026 04:15:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 2；“它先发消息找你”反转了助手被动等问的模式，WhatsApp 内审批是亮点；注意 Airspeed 是已有公司、Airbot 是其新产品，SOC 2 / GDPR / HIPAA 合规为公司自述，未独立核实。</description>
+</item>
+<item>
+<title>[新站 跟进] Hiring Right Now（hiringrightnow.com）— 粘贴 LinkedIn 链接，3 分钟看到最匹配的 10 家成长期初创、该找哪位创始人、…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-26.html</link>
+<guid isPermaLink="false">indie-20261126-02</guid>
+<pubDate>Thu, 26 Nov 2026 04:15:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 3；免费工具本身不收费、靠后续外联服务变现，模式干净可复制（LinkedIn → 匹配 → 草稿）；注意 26,000+ 用户等数字为公司自述，且求职匹配与内容创作者直接关系弱，看的是模式。</description>
+</item>
 <item>
 <title>[新站 跟进] Clam AI（useclam.ai）— 给 AI agent 的 Gmail 权限层：用自然语言写规则，agent 只能看到规则允许的邮件、其余一律拒绝，敏感操作…</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-25.html</link>
