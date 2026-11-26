@@ -293,8 +293,18 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-26",
+   "file": "research/2026-11-26-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-20 至 2026-11-26，82 条唯一 URL（引擎标 recent 50 条），状态 partial；PH 最火 AI 产品几个月后怎么样了——发布成功不等于商业成功（有的融资、有的被收购、有的说不清付费人数）；Fish Audio 00后一张显卡做到 2100 万美元 ARR、ElevenLabs ARR 7 亿美元目标估值 330 亿，但都是大公司的钱；本周 PH 新 8 款扎堆 agent 基础设施与个人 AI 团队（OpenEight、MyClaw 3.0、Qube、MemoryWorks、Hai、Canva MCP、Notely、MAGI-2）；MAGI-2 榜单登顶、刊例价 0.5 元/秒约为同规格十分之一，B 站实时热门 3 条 AI 全民制作人合集，两端热榜均无副业主题命中；V2EX 避雷 codex/claude 购买平台是新手最容易踩的坑；小红书搜索页连续第八日失败（登录墙）、TikTok 仅见美国前 3 话题且无 AI 相关，搜狗微信搜索“AI副业”0 结果、“一人公司”3 条；百度 10 条与知乎 10 条全部 unknown 日期只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }
