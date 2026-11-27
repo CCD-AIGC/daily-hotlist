@@ -303,8 +303,18 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-27",
+   "file": "research/2026-11-27-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-21 至 2026-11-27，88 条唯一 URL（引擎标 recent 56 条），状态 partial；Kling 4.0 给出最硬的视频生成商业化证据——可灵单轮融资 198 亿元、投后 180 亿美元，企业 API + 专业创作者订阅双驱动流水提升；Manus 悬疑短片千万播放，Peekie 把“看故事”变成“进虚拟手机查案”；个人 Agent 工作台四线收敛（DeepSeek Harness、OpenClaw、Grok 首席幕僚、公众号 Skill）；Sierra / Harvey ARR 超 4 亿美元，单点工具必须长成经营系统；风险：本周 dated 证据中没有一条可核实的个人副业收入记录，知乎 10 条、抖音 9 条收入自述全部 unknown 日期；B 站实时热门 5 条 AI 命中（AI 全民制作人 / AI 创造公开赛），抖音两端 48 / 49 条 0 命中；小红书搜索页连续第九日失败（登录墙）、TikTok 仅见美国前 3 话题且无 AI 相关，搜狗微信搜索“AI副业”登录墙 0 结果、“一人公司”5 条；百度 10 条与知乎 10 条全部 unknown 日期只作线索。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }
