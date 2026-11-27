@@ -1,129 +1,129 @@
 {
-  "date": "2026-11-26",
-  "fetched_at_cst": "2026-11-26 10:01",
+  "date": "2026-11-27",
+  "fetched_at_cst": "2026-11-27 10:08",
   "source": "ai-news",
   "note": "标题 + 原文链接，不写我们没核实的摘要。",
   "count": 20,
   "items": [
     {
-      "title": "Copilot 代码审查的计费将默认由组织承担",
-      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "title": "推出面向 AMD Ryzen 和 Radeon 的 llama.cpp 基准测试面板",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "category": "开发者工具",
-      "source": "GitHub Changelog"
-    },
-    {
-      "title": "科学家为AI Agent划定界限",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "category": "风险/合规",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "如何在应用现代化中选好下一个稳妥的步骤",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
-      "category": "开发者工具",
-      "source": "GitHub AI & ML"
-    },
-    {
-      "title": "一个带 CUGA 的 Indic 语音 Agent",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "title": "基于 Nemotron 3.5 Parse：开放数据、微调与更快的推理",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
       "category": "模型",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "谷歌为 Gemini 新增独立隐私开关：保留聊天记录的同时，可选择退出 AI 训练",
-      "url": "https://www.aibase.com/news/32532",
+      "title": "Anthropic 面试不考手写代码了：AI 时代工程师的价值，改按“实际影响”称重",
+      "url": "https://www.aibase.com/news/32558",
+      "category": "开发者工具",
+      "source": "AIbase"
+    },
+    {
+      "title": "跟 AI 聊一句花多少钱？DeepSeek 灰度测试“消耗额度”，把账单摊在你面前",
+      "url": "https://www.aibase.com/news/32557",
+      "category": "产品",
+      "source": "AIbase"
+    },
+    {
+      "title": "点几下就能订，退订却得绕回原路：德国消保机构把 OpenAI 告上法庭",
+      "url": "https://www.aibase.com/news/32556",
       "category": "风险/合规",
       "source": "AIbase"
     },
     {
-      "title": "OpenAI、Anthropic 内部讨论\"停训\"：前沿模型强到不敢发，员工担忧安全风险失控",
-      "url": "https://www.aibase.com/news/32526",
+      "title": "Anthropic CEO驳“让渡自由意志”指责：把治理权交给 AI 是坏主意，同行全在喊口号",
+      "url": "https://www.aibase.com/news/32549",
       "category": "风险/合规",
       "source": "AIbase"
     },
     {
-      "title": "PrismML 三值压缩 Bonsai 2.5 27B，九分之一体积留下 93.7% 编程能力",
-      "url": "https://www.aibase.com/news/32522",
-      "category": "模型",
-      "source": "AIbase"
-    },
-    {
-      "title": "亚马逊开源 5 款 Decider v2 决策模型，长程推理准确率飙升，重塑智能体决策基座",
-      "url": "https://www.aibase.com/news/32524",
-      "category": "模型",
-      "source": "AIbase"
-    },
-    {
-      "title": "Character.AI 拍卖用户私聊记录的计划遭多州总检察长质疑",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
-      "category": "风险/合规",
+      "title": "Grand Theft Auto VI 证明效率为何不是美德",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "category": "资本/财报",
       "source": "TechCrunch AI"
     },
     {
-      "title": "小米今年 AI 投入 160 亿元：CFO 称稳健落地，MiMo 调用量与 AI 收入持续增加",
-      "url": "https://www.aibase.com/news/32528",
+      "title": "MiniMax 旗下 Talkie 因涉黄被下架，AI 陪伴赛道迎来最严监管大考",
+      "url": "https://www.aibase.com/news/32554",
+      "category": "风险/合规",
+      "source": "AIbase"
+    },
+    {
+      "title": "QA.tech MCP — 在 IDE 里用 QA Agent 验证每一次改动",
+      "url": "https://www.producthunt.com/products/qa-tech",
+      "category": "开发者工具",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "SpaceX 算力降价两至三成出租：大客户 Anthropic 的 5 万卡合同续约存变数",
+      "url": "https://www.aibase.com/news/32553",
       "category": "资本/财报",
       "source": "AIbase"
     },
     {
-      "title": "Canva MCP——让任何 AI Agent 化身创意引擎",
-      "url": "https://www.producthunt.com/products/canva",
-      "category": "产品",
-      "source": "Product Hunt"
-    },
-    {
-      "title": "小鹏IRON人形机器人计划2027年二季度发布，1月启动硬件量产",
-      "url": "https://www.aibase.com/news/32530",
-      "category": "产品",
-      "source": "AIbase"
-    },
-    {
-      "title": "根据LLM评估的重要性排名的数学领域顶级未解问题",
-      "url": "https://www.proofatlas.ai/open-problems",
-      "category": "模型",
-      "source": "www.proofatlas.ai"
-    },
-    {
-      "title": "Anthropic 发布的 GRH 精益验证的简短版本",
-      "url": "https://github.com/lsernau/grh-lean",
+      "title": "AI 让自主托管重新变得有趣",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
       "category": "开发者工具",
-      "source": "github.com"
+      "source": "janlukas.blog"
     },
     {
-      "title": "3way.Social MCP — 让 AI 帮你找友情链接伙伴，成不成由你拍板",
-      "url": "https://www.producthunt.com/products/3way-social",
-      "category": "创业方向",
-      "source": "Product Hunt"
-    },
-    {
-      "title": "直接管理60人!黄仁勋为何不愿为英伟达制定接班计划",
-      "url": "https://www.aibase.com/news/32525",
+      "title": "OpenAI 可能已进入成本控制模式",
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode",
       "category": "资本/财报",
-      "source": "AIbase"
+      "source": "micjm.com"
     },
     {
-      "title": "The New York Times 警告摄影师：不要因为 AI 功能而升级 Photoshop",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "title": "Transept AI — 用你自己的声音翻译你的书，并证明你的作者身份",
+      "url": "https://www.producthunt.com/products/transept-ai",
+      "category": "产品",
+      "source": "Product Hunt"
+    },
+    {
+      "title": "谷歌将要求人工智能代理使用其MCP服务器。其中Gmail代理无法发送电子邮件",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
       "category": "风险/合规",
-      "source": "Hacker News (黑客新闻)"
+      "source": "techstackups.com"
     },
     {
-      "title": "批注搜索、金钱、C、Rust、人工智能、杂项",
-      "url": "https://www.marginalia.nu/log/a_141_marginalia_update",
-      "category": "开发者工具",
-      "source": "www.marginalia.nu"
-    },
-    {
-      "title": "Gemini 拒绝把《一闪一闪小星星》的歌词给我",
-      "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-      "category": "风险/合规",
-      "source": "www.comentr.com"
-    },
-    {
-      "title": "腾讯混元开源 Hy4 flash GGUF 量化权重：224B 大模型塞进 64GB Mac mini，分数几乎没掉",
-      "url": "https://www.aibase.com/news/32527",
+      "title": "上海AI Lab开源Sage-Interaction，以1. 29 秒极致延迟重塑全双工交互新范式",
+      "url": "https://www.aibase.com/news/32551",
       "category": "模型",
       "source": "AIbase"
+    },
+    {
+      "title": "美国四家公司高被引AI科学家对比",
+      "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies",
+      "category": "模型",
+      "source": "Hacker News · 24h最热"
+    },
+    {
+      "title": "追踪被人工智能治愈的疾病",
+      "url": "https://diseasescuredbyai.com",
+      "category": "产品",
+      "source": "diseasescuredbyai.com"
+    },
+    {
+      "title": "OpenAI 削减 GPT-6.2 的使用量：Astra 达到使用上限的速度加快了 40%，Sol 加快了 25%",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "category": "模型",
+      "source": "twitter.com"
+    },
+    {
+      "title": "不换模型也能吐字快 4.2 倍：腾讯混元开源草稿模型 DFly2，专给 Hy4 flash 提速",
+      "url": "https://www.aibase.com/news/32555",
+      "category": "模型",
+      "source": "AIbase"
+    },
+    {
+      "title": "Moat：您的 OpenRouter 替代方案",
+      "url": "https://commandcode.ai/moat",
+      "category": "产品",
+      "source": "commandcode.ai"
     }
   ]
 }

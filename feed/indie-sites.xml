@@ -6,7 +6,31 @@
 <description>每天 0–5 个首次发现的新爆款 AI 独立站。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/indie-sites.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Thu, 26 Nov 2026 04:15:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 04:06:00 +0000</lastBuildDate>
+<item>
+<title>[新站 跟进] Hub（usehub.dev）— 开源调度器：浏览器或 Telegram 里写一句话目标，协调器把任务分给多个 Claude Code / Codex 会话，只把需…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-27.html</link>
+<guid isPermaLink="false">indie-20261127-00</guid>
+<pubDate>Fri, 27 Nov 2026 04:06:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 1；“100 个会话当 5 个管”是多 Agent 协作的明确痛点，开源免费可自托管；注意 546 个 MR 与医院落地案例为发帖自述，未独立核实，且作者自承是实验品、Agent 不经许可直接执行，先在隔离环境试。</description>
+</item>
+<item>
+<title>[新站 跟进] ExtraOrbital（extraorbital.dev）— 给 AI 编程 Agent 用的基础设施供应器：一条命令 npx extraorbital prov…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-27.html</link>
+<guid isPermaLink="false">indie-20261127-01</guid>
+<pubDate>Fri, 27 Nov 2026 04:06:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 3；“Agent 自己开通它要用的基础设施”是 Agent 编码工作流的明确缺口，免费起步、无需注册即可试；注意产品页发布日期为 11-03、登上 11-26 日榜为更新后重推，留存与账单模式未验证。</description>
+</item>
+<item>
+<title>[新站 跟进] Bifura（bifura.com）— 按 AI 爬虫视角抓取你的网站，告诉你 AI 助手实际读到了什么、读错了什么，改完可在沙盒里先测再上线</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-27.html</link>
+<guid isPermaLink="false">indie-20261127-02</guid>
+<pubDate>Fri, 27 Nov 2026 04:06:00 +0000</pubDate>
+<category>AI独立站</category>
+<description>PH 日榜第 4；“AI 时代网站被怎么读懂”切中 Agent 可见性新需求，免费评分无需注册即可试；注意域名经 curl 验证可打开（200），页面为 JS 渲染、付费档未逐项核实。</description>
+</item>
 <item>
 <title>[新站 跟进] MyClaw 3.0（myclaw.ai）— 托管版 OpenClaw 团队：在云端常开电脑上跑 OpenClaw / Claude Code / Codex 等 …</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/content-radar-2026-11-26.html</link>

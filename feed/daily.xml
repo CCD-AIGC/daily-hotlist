@@ -6,7 +6,15 @@
 <description>一天一条：当天各系列的条数汇总。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/daily.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Thu, 26 Nov 2026 04:15:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 04:06:00 +0000</lastBuildDate>
+<item>
+<title>2026-11-27：AI商业情报 11 条 · GitHub雷达 11 条 · 内容雷达 8 条 · 新独立站 3 个</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/2026-11-27.html</link>
+<guid isPermaLink="false">daily-20261127</guid>
+<pubDate>Fri, 27 Nov 2026 04:06:00 +0000</pubDate>
+<category>日报汇总</category>
+<description>2026-11-27 各系列条数：AI商业情报 11 条、GitHub雷达 11 条、内容雷达 8 条、新独立站 3 个。当日存档：情报 archive/ai-intel-2026-11-27.html，雷达 archive/repo-radar-2026-11-27.html，内容 archive/content-radar-2026-11-27.html。</description>
+</item>
 <item>
 <title>2026-11-26：AI商业情报 11 条 · GitHub雷达 11 条 · 内容雷达 7 条 · 新独立站 3 个</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/2026-11-26.html</link>

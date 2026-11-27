@@ -6,7 +6,95 @@
 <description>每天 08:30 的 GitHub 早期爆款雷达 TOP10。</description>
 <language>zh-CN</language>
 <atom:link href="https://ccd-aigc.github.io/daily-hotlist/feed/repo-radar.xml" rel="self" type="application/rss+xml" />
-<lastBuildDate>Thu, 26 Nov 2026 00:35:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 00:35:00 +0000</lastBuildDate>
+<item>
+<title>[GitHub雷达 95分] Belobug/VIctory-Belobug-AMD — VIctory的AMD版fork：RX 7900 XTX上跑GTA VI，公布实测帧时间表…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-00</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>2881★ · P1新确认（08:00轮）：约24h +1,232；本轮+48/约0.5h≈+96/h仍加速；多源独立传播证据（gta6recomp排行榜第1、GhTrends 11-26期第3、GitNova明确“Star growth looks organic”）；生态簇佐证（VIctory-7900XTX同P2）；fork率约26.0%口径失真（本身为VIctory生态fork仓）。 · 上手：早期研究向，需自备游戏文件与构建环境，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 94分] 4lwayz/portwatch-vi — GTA VI能否在PC运行的实时追踪页，每日更新重编译与模拟进展。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-01</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>5785★ · 约24h +1,660，全场最大；P1已确认；速率约+56/h（第五轮高位持平）；fork率约2.9%健康。 · 上手：静态页面，直接打开即看，门槛极低。</description>
+</item>
+<item>
+<title>[GitHub雷达 94分] elementalsouls/Claude-BugHunter — Claude Code漏洞猎手技能包：85个skills + 16条斜杠命令，面向…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-02</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>24561★ · 约24h +1,577；P1已确认；Trending日榜第1位；速率回落至约+44/h；fork率约10.2%健康。 · 上手：按文档装入Claude Code skills目录即用，需自行承担授权合规责任。</description>
+</item>
+<item>
+<title>[GitHub雷达 93分] BaaRai/ARTEX — AI自主渗透测试系统：英文翻译版，上游Autumn-27/ARTEX。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-03</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>22281★ · 约24h +1,518；P1已确认；ossradar +1.8k；速率回落至约+34/h；fork率约37.2%（翻译fork，列观察）。 · 上手：按文档部署，需自备模型API与测试环境。</description>
+</item>
+<item>
+<title>[GitHub雷达 92分] RMvdesi/obsidian-prism — Antigravity光学UI主题：光学界面、阻尼弹簧动效与像素吉祥物。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-04</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>2243★ · 约24h +1,300；P1已确认；ossradar +1.4k与连接器一致；速率约+18/h（峰值已过）；fork率约4.0%健康。 · 上手：按文档装入Antigravity主题目录即用，门槛较低。</description>
+</item>
+<item>
+<title>[GitHub雷达 91分] alesha-pro/llm.asm — Qwen3-0.6B纯汇编推理 + 裸机启动OS：12KB推理、22KB可启动OS、32KB从零Mini-G…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-05</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>1516★ · P2保持：约24h pace +965（自首次发现551星约18.5h）；速率三轮连降至约+34/h；ossradar +885*（*为估算值）与连接器基本一致；fork率约14.4%健康。 · 上手：汇编+裸机实验向，需自备硬件/虚拟机环境，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 90分] opensetlabs/openset-llm — 纯CPU本地LLM推理：无GPU、8GB内存跑OpenAI兼容服务。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-06</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>1732★ · P2保持：约24h pace +665（自首次发现1,067星约18.5h）；本轮+1/约0.5h≈+2/h大幅冷却；ossradar +1.2k与连接器背离（口径偏高，不作新证据）；fork率约9.5%健康。 · 上手：按文档本地部署，门槛中等。</description>
+</item>
+<item>
+<title>[GitHub雷达 90分] Marvisak/VIctory — 尝试让GTA VI在PC上运行（Rust重写/重编译尝试）。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-07</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>13352★ · 约24h +739；P1已确认；速率骤降至约+14/h（LX27 +33/h），P0暂不升；fork率约16.9%健康。 · 上手：早期研究向，需自备游戏文件与构建环境，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 89分] avatarmanz/VIctory-7900XTX — VIctory AMD RX 7900XTX适配版：Xbox Series游戏在PC上以4K…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-08</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>1846★ · P2保持：约24h pace +686（自首次发现1,160星约18.5h）；速率三轮连降至约+6/h；ossradar +1.8k为建仓以来累计值误读；fork率约32.4%口径失真（生态fork仓）。 · 上手：早期研究向，需自备游戏文件与构建环境，门槛较高。</description>
+</item>
+<item>
+<title>[GitHub雷达 88分] storytold/craft-anything — Craft Anything：理解任意软件如何工作，再做出自己的。</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-20261127-09</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>44128★ · 约24h +647；P1已确认；速率约+10/h；fork率约19.8%健康。 · 上手：按文档跑理解与制作流程，门槛中等。</description>
+</item>
+<item>
+<title>[GitHub雷达 92分] fxceless/victory-fork — VIctory复刻：让Xbox Series游戏在Windows PC上渲染运行（P1已确认；约24h…</title>
+<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-27.html</link>
+<guid isPermaLink="false">repo-radar-new-20261127-01</guid>
+<pubDate>Fri, 27 Nov 2026 00:35:00 +0000</pubDate>
+<category>GitHub早期爆款</category>
+<description>VIctory复刻：让Xbox Series游戏在Windows PC上渲染运行（P1已确认；约24h +216，速率约+2/h骤冷）。</description>
+</item>
 <item>
 <title>[GitHub雷达 96分] Marvisak/VIctory — 尝试让GTA VI在PC上运行（Rust重写/重编译尝试）。</title>
 <link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-26.html</link>
@@ -318,94 +406,6 @@
 <pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
 <category>GitHub早期爆款</category>
 <description>1313★ · 约24h +551；P2保持；GTA/Xbox重编译生态簇；创建仅2天。 · 上手：进展笔记/研究向，非可直接运行的模拟器，需自行跟进构建。</description>
-</item>
-<item>
-<title>[GitHub雷达 90分] R0Y00/Xbox2Windows — Xbox Series X|S（Scarlett）在x64 Windows上的静态重编译研究。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-07</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>1304★ · 约24h +381；P2保持；GTA/Xbox重编译生态簇；创建仅3天。 · 上手：研究向仓库，需自行编译，门槛较高。</description>
-</item>
-<item>
-<title>[GitHub雷达 89分] shinyobjectz/raea — Claude Code插件市场的轻量开发助手（v0.1.1桌面版）。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-08</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>4255★ · 约12h +549（LI 3,706→本版4,255）；P1已确认，今日02:00已报警不重复；ossradar第4位24h +1,042实测。 · 上手：按文档装入Claude Code插件市场即用，需自备Claude Code环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 88分] sybil-solutions/inference-optimisation-skill — Agent技能：爬坡式优化本地LLM服务速度（解码、推测…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-20261123-09</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>1953★ · 约24h +311；P2保持；ossradar 24h +280；本地LLM推理提速技能。 · 上手：按文档装入agent skills目录即用，需本地LLM服务环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 85分] realdody/americas-recomp — GTA Americas重编译（无描述，单快照，今日首次发现；fork率约16.3%）。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-23.html</link>
-<guid isPermaLink="false">repo-radar-new-20261123-04</guid>
-<pubDate>Mon, 23 Nov 2026 00:35:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>GTA Americas重编译（无描述，单快照，今日首次发现；fork率约16.3%）。</description>
-</item>
-<item>
-<title>[GitHub雷达 96分] ItsNotRexed/Leonida — GTA 6 Xbox 版的原生 PC 重编译：把 Xbox 版带到 PC 上。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-22.html</link>
-<guid isPermaLink="false">repo-radar-20261122-00</guid>
-<pubDate>Sun, 22 Nov 2026 00:40:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>5332★ · LF 分片 709（02:00）→ LG 5,107（08:00，+4,398/约6h）→ 本版 5,332（+225/约0.6h，约 +360/h），两轮连续高增速，P1 待确认→已确认；GTA/Xbox 重编译生态簇核心。 · 上手：按文档自行构建运行，需自备游戏文件与 Windows 环境，门槛较高。</description>
-</item>
-<item>
-<title>[GitHub雷达 95分] elementalsouls/Claude-BugHunter — Claude Code 漏洞猎手技能包：82 个 skills + 15 条斜杠命…</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-22.html</link>
-<guid isPermaLink="false">repo-radar-20261122-01</guid>
-<pubDate>Sun, 22 Nov 2026 00:40:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>16055★ · 约 24h +1,841，今日全场最大核实增量；P1 已确认；Trending 日榜第 1 位，今日 +1,803；6h +416（约 +69/h）。 · 上手：按文档装入 Claude Code skills 目录即用，需自行承担授权合规责任。</description>
-</item>
-<item>
-<title>[GitHub雷达 93分] BaaRai/ARTEX — AI 自主渗透测试系统：英文翻译版，上游 Autumn-27/ARTEX。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-22.html</link>
-<guid isPermaLink="false">repo-radar-20261122-02</guid>
-<pubDate>Sun, 22 Nov 2026 00:40:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>15153★ · 约 18.6h +1,182（LD 基线 13,971）；P1 已确认（LF 轮）；ossradar 当日 repo of the day +1.6k；6h +356（约 +59/h）。 · 上手：按文档部署，需自备模型 API 与测试环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 92分] erkamyaman/rust-anything — 把整个应用逐块重写成 Rust，每块都对照原应用录制的行为做校验。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-22.html</link>
-<guid isPermaLink="false">repo-radar-20261122-03</guid>
-<pubDate>Sun, 22 Nov 2026 00:40:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>7415★ · 约 24h +788；6h +154（约 +26/h）继续回落，P1 待确认保持关闭；创建仅 6 天。 · 上手：按文档跑对照重写流程，需自备 Rust 工具链与录制环境。</description>
-</item>
-<item>
-<title>[GitHub雷达 90分] omonkeyz/xbox-emulator — Xbox Series X|S 在 PC 上运行的进展笔记（TomBox + rage9）。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-22.html</link>
-<guid isPermaLink="false">repo-radar-20261122-04</guid>
-<pubDate>Sun, 22 Nov 2026 00:40:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>762★ · 约 6.6h +447（LF 分片 315 → 本版 762），pace 约 +1,600/日；新增 P2；GTA/Xbox 重编译生态簇；创建仅 1 天。 · 上手：进展笔记/研究向，非可直接运行的模拟器，需自行跟进构建。</description>
-</item>
-<item>
-<title>[GitHub雷达 90分] ccch1mneyyy/dsh-Go — 把 DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-22.html</link>
-<guid isPermaLink="false">repo-radar-20261122-05</guid>
-<pubDate>Sun, 22 Nov 2026 00:40:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>29598★ · 约 24h +589；P1 已确认；把 DeepSeek Harness 装进口袋，手机端场景独特。 · 上手：手机 App（Flutter），安装即用。</description>
-</item>
-<item>
-<title>[GitHub雷达 90分] R0Y00/Xbox2Windows — Xbox Series X|S（Scarlett）在 x64 Windows 上的静态重编译研究。</title>
-<link>https://ccd-aigc.github.io/daily-hotlist/archive/repo-radar-2026-11-22.html</link>
-<guid isPermaLink="false">repo-radar-20261122-06</guid>
-<pubDate>Sun, 22 Nov 2026 00:40:00 +0000</pubDate>
-<category>GitHub早期爆款</category>
-<description>923★ · 约 6.6h +325（LF 分片 598 → 本版 923），pace 约 +1,164/日；新增 P2；GTA/Xbox 重编译生态簇；创建仅 2 天。 · 上手：研究向仓库，需自行编译，门槛较高。</description>
 </item>
 </channel>
 </rss>
