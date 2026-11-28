@@ -271,8 +271,7 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-  }
-,
+  },
   {
    "date": "2026-11-24",
    "file": "research/2026-11-24-ai-startup-creator-research-hub.html",
@@ -282,8 +281,7 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
-  }
-,
+  },
   {
    "date": "2026-11-25",
    "file": "research/2026-11-25-ai-startup-creator-research-hub.html",
@@ -313,8 +311,18 @@
    "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
    "title": "AI创业与内容起号调研",
    "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
+  },
+  {
+   "date": "2026-11-28",
+   "file": "research/2026-11-28-ai-startup-creator-research-hub.html",
+   "note": "每日版：严格用 research-hub v1.1.0；窗口 2026-11-22 至 2026-11-28，70 条唯一 URL（引擎标 recent 52 条），状态 partial；Every 35 人、不到 1 万付费用户拿 1.1 亿美元估值，订阅只是入口，四条腿（订阅 + 五款软件 + 开源 + 企业咨询）才是支撑；PH 复盘 6 款 AI 产品共同转向“替你把事办完”（打电话、整理待办、操作剪映），但除 Clueso 外均未证明能留住用户；195 号文划出 20 个招投标场景，投标端工具是“半截”市场，单份标书平均 40 小时是切入点；风险：本周窗口内 dated 中文一人公司讨论实际为零——唯一候选头条文核验后是 2025-08-10 旧文，抖音 9 条与昨日完全相同的旧视频循环，百度 8 条全是 AI 工具官网首页；B 站实时热门 6 条 AI 命中（AI 创造公开赛 / AI 全民制作人），抖音两端 50 / 49 条仅 1 命中；小红书搜索页连续第十日失败（登录墙）、搜狗微信搜索本轮空白页 0 结果、TikTok 仅见美国前 3 话题且无 AI 相关。",
+   "source": "Research Hub",
+   "source_slug": "research-hub",
+   "subtitle": "AI创业与内容起号：观察/解释/假设分离的商业验证与选题表",
+   "title": "AI创业与内容起号调研",
+   "trigger": "用户选定 AI创业与内容起号每日调研，并要求严格用 research-hub-skill 出报告"
   }
  ],
  "rule": "research/YYYY-MM-DD-<topic>-<source-slug>.html; original HTML uploaded verbatim; source shown on the card, never mixed across sources.",
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }
